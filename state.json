@@ -20,7 +20,7 @@
         "entry": 77529.0,
         "stop": 76753.71,
         "stop_initial": 76753.71,
-        "high": 77529.0,
+        "high": 77653.2,
         "qty": 0.012583797,
         "entry_tid": "2026-11-01 19:30",
         "setup": "testkoeb",
@@ -45,5 +45,5 @@
     "ETH/USD": {},
     "SOL/USD": {}
   },
-  "last_btc_price": 77529.0
+  "last_btc_price": 77653.2
 }
