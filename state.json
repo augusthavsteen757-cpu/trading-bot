@@ -12,5 +12,29 @@
   "ai_spend_today": 0.0,
   "eq_day": "2026-11-01",
   "day_start_equity": 100000.0,
-  "peak_equity": 100000.0
+  "peak_equity": 100000.0,
+  "test_kob_id": "testkoeb-2026-11-01",
+  "pos": {
+    "entry": 77529.0,
+    "stop": 76753.71,
+    "stop_initial": 76753.71,
+    "high": 77529.0,
+    "qty": 0.012583797,
+    "entry_tid": "2026-11-01 19:30",
+    "setup": "testkoeb",
+    "regime": "range",
+    "conviction": 1,
+    "grund": "Manuelt testkoeb for at teste koeb, stop og log",
+    "test": true,
+    "features": {
+      "trend_1h": 0,
+      "trend_4h": -1,
+      "trend_1d": -1,
+      "rsi_1h": 43.3,
+      "adx_1h": 19.1,
+      "rel_volumen_1h": 0.46,
+      "afstand_modstand_atr": 0.3,
+      "atr_percentil_30d": 9.0
+    }
+  }
 }

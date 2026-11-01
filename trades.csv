@@ -22,3 +22,4 @@ tid_utc,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslutning
 2026-11-01 19:15,77529.0,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,99704.24,-0.296,0.0,0.0,0.0065,
 2026-11-01 19:20,77529.0,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,99704.24,-0.296,0.0,0.0,0.0065,
 2026-11-01 19:25,77529.0,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,99704.24,-0.296,0.0,0.0,0.0065,
+2026-11-01 19:30,77529.0,range,,nej (intet setup),,,,,,,,,,,,,KOEB (test),0.012584,1000.0,76753.71,99994.85,-0.005,99704.24,-0.296,0.0,0.0,0.0065,Engangs-testkoeb (ca. 1 % af kontoen)
