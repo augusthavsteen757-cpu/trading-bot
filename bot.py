@@ -48,8 +48,8 @@ MODEL_SMART = "claude-sonnet-5-5"    # Chef, Skeptiker, Risk Manager, Analytiker
 PRICES = {MODEL_FAST: (0.10, 0.50), MODEL_SMART: (2.00, 10.00)}  # USD per 1M tokens (ind, ud)
 
 MONTHLY_BUDGET_USD = env_f("MONTHLY_BUDGET_USD", 7.50)   # haard graense for AI-forbrug
-MAX_AI_ROUNDS_PER_DAY = int(env_f("MAX_AI_ROUNDS_PER_DAY", 10))
-AI_COOLDOWN_MIN = env_f("AI_COOLDOWN_MIN", 15)            # min. tid mellem to koebs-vurderinger
+MAX_AI_ROUNDS_PER_DAY = int(env_f("MAX_AI_ROUNDS_PER_DAY", 20))
+AI_COOLDOWN_MIN = env_f("AI_COOLDOWN_MIN", 10)            # min. tid mellem to koebs-vurderinger
 HOLD_REVIEW_MIN = env_f("HOLD_REVIEW_MIN", 60)            # Chef ser paa aaben position max hver time
 
 RISK_PER_TRADE_PCT = env_f("RISK_PER_TRADE_PCT", 0.005)  # tab ved stop = 0,5 % af kontoen (ved fuld conviction)
@@ -606,7 +606,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     chef = brain.ask(
         "Chef", MODEL_SMART,
         f"Du traeffer beslutningen for {coin}. KOEB kun hvis vi ikke ejer {coin}, et af de fundne setups er gyldigt, og der er "
-        f"mindst 1,5R plads til naeste modstand. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
+        f"mindst 1,2R plads til naeste modstand. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
         "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
         ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                   "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
@@ -630,7 +630,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     sk = brain.ask(
         "Skeptiker", MODEL_SMART,
         "Du er systematisk djaevlens advokat. Gaa tjeklisten igennem og saet hvert punkt til true, hvis det er et "
-        "reelt problem for netop dette koeb. Brug veto hvis et punkt er alvorligt nok alene. Vaer ikke negativ "
+        "reelt problem for netop dette koeb. Brug kun veto hvis et punkt er klart alvorligt. Vaer ikke negativ "
         "for at vaere negativ: et koeb med god risk/reward og flugtende tidsrammer skal igennem.",
         f"Chefen vil KOEBE {coin} (setup {chef['setup']}, conviction {chef['conviction']}) fordi: {chef['grund']}\n"
         f"Invalidering: {chef['invalidering']}\nFaste regel-advarsler: {hard or 'ingen'}\n\n{ctx}",
@@ -638,7 +638,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
              "overkoebt": S_BOOL, "svag_volumen": S_BOOL, "ligner_tabslektie": S_BOOL,
              "daarlig_historik": S_BOOL, "veto": S_BOOL, "grund": S_STR}), 400)
     flags = [k for k, v in sk.items() if v is True and k != "veto"]
-    veto = sk["veto"] or len(flags) >= 4 or len(hard) >= 2
+    veto = sk["veto"] or len(flags) >= 5 or len(hard) >= 3
     rec["skeptiker"], rec["regel_advarsler"] = sk, hard
     row.update(skeptiker_veto=veto, skeptiker_grund=f"{sk['grund']} [flag: {', '.join(flags) or 'ingen'}]")
     if veto:
