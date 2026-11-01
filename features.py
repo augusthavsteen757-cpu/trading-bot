@@ -189,17 +189,18 @@ def compute_features(daily, hourly, m5, price):
 
 def detect_setups(f):
     """Billige, faste regler der afgoer om AI-teamet overhovedet skal spoerges om et koeb.
-    v2.1: loesnet, saa AI'en faar flere muligheder at vurdere (Chef/Skeptiker/Risk filtrerer bagefter)."""
+    v2.2: endnu loesere (brugerens valg), saa AI'en faar mange flere muligheder. Chef/Skeptiker/Risk filtrerer."""
     s = []
-    if (f["trend_4h"] >= 0 and f["trend_1d"] >= 0 and f["trend_1h"] >= 0 and f["regime"] != "high_vol"
-            and (f["trend_4h"] == 1 or f["trend_1h"] == 1)
-            and -1.0 <= f["afstand_ema20_1h_atr"] <= 1.5 and 35 <= f["rsi_1h"] <= 65):
+    if (f["trend_4h"] >= 0 and f["trend_1h"] >= 0 and f["regime"] not in ("high_vol", "trend_ned")
+            and -1.5 <= f["afstand_ema20_1h_atr"] <= 2.0 and 30 <= f["rsi_1h"] <= 68):
         s.append("trend_pullback")
-    if (f["afstand_high_24h_atr"] <= 0.3 and f["rel_volumen_1h"] >= 1.2 and f["trend_4h"] >= 0
-            and f["rsi_1h"] < 75):
+    if (f["afstand_high_24h_atr"] <= 0.6 and f["rel_volumen_1h"] >= 1.0 and f["trend_4h"] >= 0
+            and f["rsi_1h"] < 78):
         s.append("breakout")
-    if f["afstand_low_24h_atr"] <= 1.0 and f["rsi_1h"] <= 42 and f["trend_1d"] >= 0 and f["regime"] != "trend_ned":
+    if f["afstand_low_24h_atr"] <= 1.5 and f["rsi_1h"] <= 45 and f["regime"] != "trend_ned":
         s.append("range_bund")
+    if f["rsi_1h"] <= 30 and f["regime"] != "high_vol":
+        s.append("oversolgt")
     return s
 
 
