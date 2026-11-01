@@ -1,3 +1,7 @@
 .env
 __pycache__/
 test_*
+dry_*
+logs/test_*
+logs/dry_*
+*.tmp

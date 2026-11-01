@@ -1,61 +1,131 @@
 """
-Multi-agent tradingbot til Alpaca PAPER (kun falske penge), kun BTC/USD.
+Tradingbot v2 til Alpaca PAPER (kun falske penge), kun BTC/USD. Koeres hvert 5. minut.
 
-7 roller (claude-haiku-5-5): Scout, Nyheder, Stemning, Chart, Skeptiker (veto), Chef
-og Fejl-analytiker (skriver kun en lektie i lessons.md, naar 2 lignende fejl/tab er sket;
-Chef og Skeptiker laeser lektierne i de naeste runder).
-Koerer flere gange i timen via GitHub Actions (se .github/workflows/bot.yml).
+Hver runde (gratis, ingen AI):
+  1. Henter data (1d, 1t, 5m bars + seneste pris) og beregner features (features.py).
+  2. Afstemmer position og stop-ordre med Alpaca, flytter trailing stop, tjekker kill-switch.
+  3. Afgoer om AI-teamet skal spoerges (kun ved setup eller positions-review, og inden for budget).
+AI-runde:
+  Scout, Nyheder, Stemning, Chart (Haiku)  ->  Chef (Sonnet)  ->  Skeptiker (Sonnet, tjekliste)
+  ->  Risk Manager (Sonnet, absolut veto paa stoerrelse)  ->  koden haandhaever haarde graenser.
+Laering: Analytiker skriver lektie (+ eller -) naar 2 lignende handler/fejl er sket.
+
 Koer: python bot.py          (en runde, rigtig paper-handel)
-      python bot.py --test   (en runde med falske data, ingen noegler, ingen handel)
+      python bot.py --test   (falske data og falsk AI, ingen noegler, ingen handel)
+      python bot.py --dry    (rigtige data og rigtig AI, men ingen ordrer; skriver dry_*-filer)
 """
 import csv
 import json
 import os
 import sys
+import time
+import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
 
-# ---------------- Indstillinger ----------------
-SYMBOL = "BTC/USD"
-POS_SYMBOL = "BTCUSD"
-MODEL = "claude-haiku-5-5"
-MAX_POSITION_PCT = 0.10      # max 10 % af kontoen per handel
-STOP_LOSS_PCT = 0.03         # stop-loss 3 % under koebspris
-MONTHLY_BUDGET_USD = 7.50    # stop AI-kald foer 8 USD-graensen
-PRICE_IN = 0.10 / 1_000_000  # USD per input-token (Haiku 5.5)
-PRICE_OUT = 0.50 / 1_000_000 # USD per output-token
+import features as fx
 
 BASE = Path(__file__).parent
-TEST_MODE = "--test" in sys.argv
-TRADES_CSV = BASE / ("test_trades.csv" if TEST_MODE else "trades.csv")
-STATE_FILE = BASE / ("test_state.json" if TEST_MODE else "state.json")
-LESSONS_FILE = BASE / ("test_lessons.md" if TEST_MODE else "lessons.md")
-LESSONS_TO_READ = 5          # Chef og Skeptiker laeser de 5 nyeste lektier
 load_dotenv(BASE / ".env")
+TEST_MODE = "--test" in sys.argv
+DRY_RUN = "--dry" in sys.argv or os.getenv("DRY_RUN") == "1"
+
+
+def env_f(name, default):
+    try:
+        return float(os.getenv(name, default))
+    except ValueError:
+        return float(default)
+
+
+# ---------------- Indstillinger (kan overskrives i .env eller som GitHub-variabler) ----------------
+SYMBOL, POS_SYMBOL = "BTC/USD", "BTCUSD"
+MODEL_FAST = "claude-haiku-5-5"      # Scout, Nyheder, Stemning, Chart
+MODEL_SMART = "claude-sonnet-5-5"    # Chef, Skeptiker, Risk Manager, Analytiker
+PRICES = {MODEL_FAST: (0.10, 0.50), MODEL_SMART: (2.00, 10.00)}  # USD per 1M tokens (ind, ud)
+
+MONTHLY_BUDGET_USD = env_f("MONTHLY_BUDGET_USD", 7.50)   # haard graense for AI-forbrug
+MAX_AI_ROUNDS_PER_DAY = int(env_f("MAX_AI_ROUNDS_PER_DAY", 10))
+AI_COOLDOWN_MIN = env_f("AI_COOLDOWN_MIN", 15)            # min. tid mellem to koebs-vurderinger
+HOLD_REVIEW_MIN = env_f("HOLD_REVIEW_MIN", 60)            # Chef ser paa aaben position max hver time
+
+RISK_PER_TRADE_PCT = env_f("RISK_PER_TRADE_PCT", 0.005)  # tab ved stop = 0,5 % af kontoen (ved fuld conviction)
+MAX_POSITION_PCT = env_f("MAX_POSITION_PCT", 0.15)       # haardt loft paa positionsstoerrelse
+STOP_ATR_MULT = env_f("STOP_ATR_MULT", 2.0)              # stop = entry - 2 x ATR(1t)
+MIN_STOP_PCT, MAX_STOP_PCT = 0.01, 0.06
+TRAIL_ATR_MULT = env_f("TRAIL_ATR_MULT", 2.5)            # trailing stop = hoejeste pris - 2,5 x ATR
+BREAKEVEN_AT_R = env_f("BREAKEVEN_AT_R", 1.0)            # flyt stop til entry naar +1R
+MAX_DAILY_LOSS_PCT = env_f("MAX_DAILY_LOSS_PCT", 0.02)   # -2 % i dag = ingen nye koeb i dag
+MAX_DRAWDOWN_PCT = env_f("MAX_DRAWDOWN_PCT", 0.08)       # -8 % fra top = stop nye koeb (HALT)
+
+LESSONS_NEG, LESSONS_POS = 5, 3
+PERF_TRADES = 30
+
+PREFIX = "test_" if TEST_MODE else "dry_" if DRY_RUN else ""
+TRADES_CSV = BASE / f"{PREFIX}trades.csv"
+CLOSED_CSV = BASE / f"{PREFIX}closed_trades.csv"
+STATE_FILE = BASE / f"{PREFIX}state.json"
+LESSONS_FILE = BASE / f"{PREFIX}lessons.md"
+LOG_DIR = BASE / "logs"
+STATE_VERSION = 2
 
 CSV_FIELDS = [
-    "tid_utc", "pris", "scout", "nyheder", "stemning", "chart",
-    "chef_beslutning", "chef_grund", "skeptiker_veto", "skeptiker_grund",
-    "handling", "antal_btc", "stop_loss", "konto_vaerdi", "bot_afkast_pct",
-    "koeb_og_behold_vaerdi", "koeb_og_behold_afkast_pct", "api_forbrug_usd_md",
+    "tid_utc", "pris", "regime", "setups", "ai_koert", "scout", "nyheder", "stemning", "chart",
+    "chef_beslutning", "chef_conviction", "chef_grund", "skeptiker_veto", "skeptiker_grund",
+    "risk_godkendt", "risk_faktor", "risk_grund", "handling", "antal_btc", "usd", "stop_loss",
+    "konto_vaerdi", "bot_afkast_pct", "koeb_og_behold_vaerdi", "koeb_og_behold_afkast_pct",
+    "dagens_pnl_pct", "drawdown_pct", "api_forbrug_usd_md", "note",
 ]
+CLOSED_FIELDS = ["entry_tid", "exit_tid", "setup", "regime", "conviction", "entry", "exit", "stop_initial",
+                 "r_multiple", "pnl_usd", "exit_aarsag", "timer"]
 
 
-# ---------------- Hjaelpere ----------------
+def now():
+    return datetime.now(timezone.utc)
+
+
+def ts(dt=None):
+    return (dt or now()).strftime("%Y-%m-%d %H:%M")
+
+
+# ---------------- State (atomisk skrivning) ----------------
 def load_state():
+    s = {}
     if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text())
-    return {}
+        try:
+            s = json.loads(STATE_FILE.read_text())
+        except json.JSONDecodeError:
+            bad = STATE_FILE.with_suffix(".korrupt.json")
+            STATE_FILE.replace(bad)
+            print(f"state.json var oedelagt, gemt som {bad.name}. Starter forfra.")
+    if s.get("version", 1) < 2:  # migrering fra v1
+        if s.get("entry_price") and s.get("stop_price"):
+            s["pos"] = {"entry": s["entry_price"], "stop": s["stop_price"], "stop_initial": s["stop_price"],
+                        "high": s["entry_price"], "entry_tid": s.get("start_time", ts()), "setup": "v1",
+                        "regime": "ukendt", "conviction": 3}
+        for k in ("entry_price", "stop_price", "entry_reason", "entry_fp"):
+            s.pop(k, None)
+        s["version"] = STATE_VERSION
+    s.setdefault("learned", [])
+    s.setdefault("pending", s.pop("pending_failures", {}))
+    return s
 
 
 def save_state(state):
-    STATE_FILE.write_text(json.dumps(state, indent=2))
+    tmp = STATE_FILE.with_suffix(".tmp")
+    tmp.write_text(json.dumps(state, indent=2, default=str))
+    tmp.replace(STATE_FILE)
 
 
 def log_row(row):
+    if TRADES_CSV.exists():  # ny kolonne-struktur: gem den gamle fil i stedet for at blande
+        with open(TRADES_CSV, encoding="utf-8") as f:
+            header = f.readline().strip().split(",")
+        if header != CSV_FIELDS:
+            TRADES_CSV.replace(TRADES_CSV.with_name(TRADES_CSV.stem + "_v1.csv"))
     new = not TRADES_CSV.exists()
     with open(TRADES_CSV, "a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
@@ -64,70 +134,56 @@ def log_row(row):
         w.writerow({k: row.get(k, "") for k in CSV_FIELDS})
 
 
-def rsi(closes, n=14):
-    if len(closes) <= n:
-        return 50.0
-    gains, losses = [], []
-    for a, b in zip(closes[-n - 1:-1], closes[-n:]):
-        d = b - a
-        gains.append(max(d, 0))
-        losses.append(max(-d, 0))
-    avg_g, avg_l = sum(gains) / n, sum(losses) / n
-    if avg_l == 0:
-        return 100.0
-    return 100 - 100 / (1 + avg_g / avg_l)
-
-
-def sma(closes, n):
-    n = min(n, len(closes))
-    return sum(closes[-n:]) / n
-
-
-def read_lessons(n=LESSONS_TO_READ):
-    """De n nyeste lektier som kort tekst (tom streng hvis ingen)."""
-    if not LESSONS_FILE.exists():
-        return ""
-    lines = [l[2:].strip() for l in LESSONS_FILE.read_text(encoding="utf-8").splitlines()
-             if l.startswith("- ")]
-    return "\n".join(lines[-n:])
-
-
-def recent_trades(n=6):
-    """De sidste n raekker fra trades.csv i kort form, til Fejl-analytikeren."""
-    if not TRADES_CSV.exists():
-        return "Ingen tidligere runder."
-    with open(TRADES_CSV, encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))[-n:]
-    keys = ("tid_utc", "pris", "handling", "chef_grund", "skeptiker_grund", "chart")
-    return "\n".join(" | ".join(f"{k}={r.get(k, '')[:120]}" for k in keys) for r in rows)
+def log_json(record):
+    """Fuld, struktureret log til senere backtest af beslutningerne. En fil per maaned."""
+    LOG_DIR.mkdir(exist_ok=True)
+    with open(LOG_DIR / f"{PREFIX}decisions-{now():%Y-%m}.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False, default=str) + "\n")
 
 
 # ---------------- Data ----------------
+def _bars(raw):
+    return [{"t": b.timestamp, "o": float(b.open), "h": float(b.high), "l": float(b.low),
+             "c": float(b.close), "v": float(b.volume)} for b in raw]
+
+
+def fake_bars(n, step_h, start_price):
+    import random
+    p, out, t0 = start_price, [], now() - timedelta(hours=n * step_h)
+    for i in range(n):
+        o = p
+        p *= 1 + random.gauss(0.0002, 0.006 * step_h ** 0.5)
+        out.append({"t": t0 + timedelta(hours=i * step_h), "o": o, "h": max(o, p) * 1.002,
+                    "l": min(o, p) * 0.998, "c": p, "v": random.uniform(50, 150)})
+    return out
+
+
 def get_market_data():
-    """Returnerer liste af timelukkepriser (sidste ~3 doegn) og volumen."""
+    """Returnerer (daily, hourly, m5, pris). Pris = seneste handel, ellers sidste 5m-lukning."""
     if TEST_MODE:
-        import random
-        p, closes = 68000.0, []
-        for _ in range(72):
-            p *= 1 + random.uniform(-0.01, 0.01)
-            closes.append(round(p, 2))
-        return closes, [100.0] * 72
+        d = fake_bars(200, 24, 60000)
+        h = fake_bars(720, 1, d[-1]["c"])
+        m = fake_bars(288, 1 / 12, h[-1]["c"])
+        return d, h, m, h[-1]["c"]
     from alpaca.data.historical import CryptoHistoricalDataClient
-    from alpaca.data.requests import CryptoBarsRequest
-    from alpaca.data.timeframe import TimeFrame
-    client = CryptoHistoricalDataClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
-    req = CryptoBarsRequest(symbol_or_symbols=SYMBOL, timeframe=TimeFrame.Hour,
-                            start=datetime.now(timezone.utc) - timedelta(hours=72))
-    bars = client.get_crypto_bars(req).data[SYMBOL]
-    closes, volumes = [b.close for b in bars], [b.volume for b in bars]
-    # Botten koerer oftere end hver time: brug seneste handelspris som "pris nu"
+    from alpaca.data.requests import CryptoBarsRequest, CryptoLatestTradeRequest
+    from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
+    c = CryptoHistoricalDataClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
+
+    def get(tf, delta):
+        return _bars(c.get_crypto_bars(CryptoBarsRequest(symbol_or_symbols=SYMBOL, timeframe=tf,
+                                                         start=now() - delta)).data[SYMBOL])
+    daily = get(TimeFrame.Day, timedelta(days=200))
+    hourly = get(TimeFrame.Hour, timedelta(days=31))
+    m5 = get(TimeFrame(5, TimeFrameUnit.Minute), timedelta(hours=26))
+    price = m5[-1]["c"]
     try:
-        from alpaca.data.requests import CryptoLatestTradeRequest
-        latest = client.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))
-        closes[-1] = float(latest[SYMBOL].price)
+        price = float(c.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))[SYMBOL].price)
     except Exception as e:
-        print(f"Seneste pris utilgaengelig ({type(e).__name__}), bruger sidste timelukning")
-    return closes, volumes
+        print(f"Seneste pris utilgaengelig ({type(e).__name__}), bruger 5m-lukning")
+    if len(hourly) < 100 or len(daily) < 30:
+        raise RuntimeError(f"For lidt data: {len(daily)} dag-bars, {len(hourly)} time-bars")
+    return daily, hourly, m5, price
 
 
 def get_news():
@@ -137,8 +193,7 @@ def get_news():
         from alpaca.data.historical.news import NewsClient
         from alpaca.data.requests import NewsRequest
         client = NewsClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
-        res = client.get_news(NewsRequest(symbols="BTCUSD", limit=8,
-                                          start=datetime.now(timezone.utc) - timedelta(hours=24)))
+        res = client.get_news(NewsRequest(symbols="BTCUSD", limit=8, start=now() - timedelta(hours=24)))
         return [n.headline for n in res.data.get("news", [])][:8] or ["Ingen nyheder sidste doegn"]
     except Exception as e:
         return [f"Nyheder utilgaengelige ({type(e).__name__})"]
@@ -148,161 +203,180 @@ def get_fear_greed():
     if TEST_MODE:
         return "55 (Greed)"
     try:
-        d = requests.get("https://api.alternative.me/fng/?limit=3", timeout=10).json()["data"]
-        return ", ".join(f"{x['value']} ({x['value_classification']})" for x in d) + " (nyeste foerst)"
+        d = requests.get("https://api.alternative.me/fng/?limit=7", timeout=10).json()["data"]
+        return ", ".join(f"{x['value']} ({x['value_classification']})" for x in d) + " (nyeste foerst, 7 dage)"
     except Exception:
         return "ukendt"
 
 
-# ---------------- AI-roller ----------------
+# ---------------- AI ----------------
+FAKE = {  # svar i --test, saa hele koebs-kaeden koeres igennem
+    "signal": "bullish", "styrke": 2, "vurdering": "test", "beslutning": "KOEB", "conviction": 4,
+    "setup": "trend_pullback", "invalidering": "test", "grund": "test", "veto": False,
+    "godkend": True, "size_faktor": 0.8, "aarsag": "test", "lektie": "Test-lektie",
+    "mod_hoejere_timeframe": False, "modstand_for_taet": False, "hoej_volatilitet": False,
+    "overkoebt": False, "svag_volumen": False, "ligner_tabslektie": False, "daarlig_historik": False,
+}
+
+
 class Brain:
     def __init__(self, state):
         self.state = state
-        month = datetime.now(timezone.utc).strftime("%Y-%m")
+        month, day = now().strftime("%Y-%m"), now().strftime("%Y-%m-%d")
         if state.get("budget_month") != month:
             state["budget_month"], state["budget_used"] = month, 0.0
+        if state.get("ai_day") != day:
+            state["ai_day"], state["ai_rounds_today"], state["ai_spend_today"] = day, 0, 0.0
         self.client = None
         if not TEST_MODE:
             import anthropic
-            self.client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+            self.client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"), max_retries=3, timeout=60)
 
-    def over_budget(self):
-        return self.state["budget_used"] >= MONTHLY_BUDGET_USD
+    def budget_ok(self):
+        """Maanedsloft + jaevn fordeling over maaneden, saa budgettet ikke bruges op paa en dag."""
+        days = 31
+        daily_allow = MONTHLY_BUDGET_USD / days * 2
+        return (self.state["budget_used"] < MONTHLY_BUDGET_USD - 0.05
+                and self.state["ai_spend_today"] < daily_allow
+                and self.state["ai_rounds_today"] < MAX_AI_ROUNDS_PER_DAY)
 
-    def ask(self, role, instructions, data, schema):
+    def ask(self, role, model, instructions, data, schema, max_tokens=500):
         if TEST_MODE:
-            fake = {"vurdering": f"{role}: testvurdering", "signal": "neutral",
-                    "beslutning": "KOEB", "grund": "test", "veto": False,
-                    "aarsag": "test-aarsag", "lektie": "Koeb ikke naar RSI er over 65 (test)"}
-            return {k: fake[k] for k in schema["properties"]}
-        resp = self.client.messages.create(
-            model=MODEL,
-            max_tokens=400,
-            thinking={"type": "disabled"},
-            output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
-            system=(f"Du er '{role}' i et team, der handler BTC/USD flere gange i timen paa en paper-konto. "
-                    f"{instructions} Svar kort paa dansk (max 25 ord per felt)."),
-            messages=[{"role": "user", "content": data}],
-        )
-        u = resp.usage
-        self.state["budget_used"] += u.input_tokens * PRICE_IN + u.output_tokens * PRICE_OUT
+            return {k: FAKE.get(k, "test") for k in schema["properties"]}
+        kw = dict(model=model, max_tokens=max_tokens,
+                  system=(f"Du er '{role}' i et lille team, der handler BTC/USD paa en paper-konto "
+                          f"(kun falske penge). {instructions} Svar kort paa dansk (max 30 ord per tekstfelt)."),
+                  messages=[{"role": "user", "content": data}],
+                  output_config={"effort": "low" if model == MODEL_FAST else "medium",
+                                 "format": {"type": "json_schema", "schema": schema}})
+        kw["thinking"] = {"type": "disabled"} if model == MODEL_FAST else {"type": "between_tools"}
+        try:
+            resp = self.client.messages.create(**kw)
+        except Exception as e:  # fx hvis modellen ikke accepterer thinking-indstillingen: proev uden
+            if type(e).__name__ != "BadRequestError" or "thinking" not in str(e):
+                raise
+            kw.pop("thinking")
+            resp = self.client.messages.create(**kw)
+        pin, pout = PRICES[model]
+        cost = (resp.usage.input_tokens * pin + resp.usage.output_tokens * pout) / 1_000_000
+        self.state["budget_used"] += cost
+        self.state["ai_spend_today"] += cost
         if resp.stop_reason == "refusal":
             raise RuntimeError(f"{role} afviste forespoergslen")
-        text = next(b.text for b in resp.content if b.type == "text")
-        return json.loads(text)
+        if resp.stop_reason == "max_tokens":
+            raise RuntimeError(f"{role} loeb toer for tokens")
+        return json.loads(next(b.text for b in resp.content if b.type == "text"))
 
 
-def analyst_schema():
-    return {"type": "object",
-            "properties": {"signal": {"type": "string", "enum": ["bullish", "neutral", "bearish"]},
-                           "vurdering": {"type": "string"}},
-            "required": ["signal", "vurdering"], "additionalProperties": False}
+def obj(props, required=None):
+    return {"type": "object", "properties": props, "required": required or list(props),
+            "additionalProperties": False}
 
 
-def run_team(brain, closes, volumes, news, fng, has_position):
-    price = closes[-1]
-    stats = (f"Pris nu: {price:.0f}. Aendring 1t: {(price / closes[-2] - 1) * 100:.2f}%, "
-             f"24t: {(price / closes[-25] - 1) * 100:.2f}%, 72t: {(price / closes[0] - 1) * 100:.2f}%. "
-             f"Hoej/lav 24t: {max(closes[-24:]):.0f}/{min(closes[-24:]):.0f}. "
-             f"Volumen sidste time vs 24t-snit: {volumes[-1] / max(sma(volumes, 24), 1e-9):.2f}x.")
-    chart = (f"Pris {price:.0f}, SMA12 {sma(closes, 12):.0f}, SMA48 {sma(closes, 48):.0f}, "
-             f"RSI14 {rsi(closes):.0f}. Sidste 12 timers lukninger: {[round(c) for c in closes[-12:]]}")
-
-    r = {}
-    r["scout"] = brain.ask("Scout", "Du giver et hurtigt overblik over markedet lige nu.", stats, analyst_schema())
-    r["nyheder"] = brain.ask("Nyheder", "Du vurderer om nyhederne er gode eller daarlige for BTC paa kort sigt.",
-                             "Overskrifter: " + " | ".join(news), analyst_schema())
-    r["stemning"] = brain.ask("Stemning", "Du vurderer markedsstemningen ud fra Fear & Greed-indekset.",
-                              f"Fear & Greed: {fng}", analyst_schema())
-    r["chart"] = brain.ask("Chart", "Du er teknisk analytiker og laeser trend og RSI.", chart, analyst_schema())
-
-    summary = "\n".join(f"{k}: {v['signal']} - {v['vurdering']}" for k, v in r.items())
-    pos_txt = "Vi EJER BTC lige nu." if has_position else "Vi ejer IKKE BTC lige nu."
-    lessons = read_lessons()
-    lessons_txt = (f"\nLektier fra tidligere fejl (tag hensyn til dem):\n{lessons}" if lessons else "")
-
-    chef = brain.ask(
-        "Chef",
-        "Du traeffer den endelige beslutning. KOEB kun hvis vi ikke ejer BTC og der er klar fordel. "
-        "SAELG kun hvis vi ejer BTC. Ellers HOLD. Vaer forsigtig: ingen handel er bedre end en daarlig handel.",
-        f"{pos_txt}\nTeamets vurderinger:\n{summary}{lessons_txt}",
-        {"type": "object",
-         "properties": {"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
-                        "grund": {"type": "string"}},
-         "required": ["beslutning", "grund"], "additionalProperties": False})
-
-    skeptic = {"veto": False, "grund": "Ingen handel at vurdere"}
-    if chef["beslutning"] == "KOEB":
-        skeptic = brain.ask(
-            "Skeptiker",
-            "Din opgave er at finde fejl i Chefens koebsbeslutning. Brug veto hvis signalerne er "
-            "modstridende, hvis RSI er over 70, eller hvis risikoen er hoejere end gevinsten. "
-            "Brug ogsaa veto hvis koebet ligner en situation fra lektierne.",
-            f"Chefen vil KOEBE fordi: {chef['grund']}\nTeamets vurderinger:\n{summary}\n{chart}{lessons_txt}",
-            {"type": "object",
-             "properties": {"veto": {"type": "boolean"}, "grund": {"type": "string"}},
-             "required": ["veto", "grund"], "additionalProperties": False})
-    return r, chef, skeptic
+S_STR, S_BOOL = {"type": "string"}, {"type": "boolean"}
+S_INT = {"type": "integer"}
+ANALYST = obj({"signal": {"type": "string", "enum": ["bullish", "neutral", "bearish"]},
+               "styrke": {"type": "integer", "enum": [1, 2, 3]}, "vurdering": S_STR})
 
 
-def fingerprint(closes):
-    """Kort 'type' af markedet ved koeb. To tab med samme type = lignende fejl."""
-    price, r = closes[-1], rsi(closes)
-    trend = "pris over SMA48" if price > sma(closes, 48) else "pris under SMA48"
-    bucket = "RSI under 40" if r < 40 else "RSI 40-60" if r < 60 else "RSI 60-70" if r < 70 else "RSI over 70"
-    return f"{trend}, {bucket}"
+def run_analysts(brain, f, news, fng):
+    tr = fx.summary_text(f)
+    jobs = {
+        "scout": ("Du giver et hurtigt, nøgternt overblik: regime, trend paa tvaers af tidsrammer, og om "
+                  "markedet er roligt eller urolig.", tr),
+        "nyheder": ("Du vurderer om nyhederne paavirker BTC de naeste 1-24 timer. De fleste nyheder er stoej: "
+                    "giv neutral, medmindre en nyhed klart flytter markedet.", "Overskrifter: " + " | ".join(news)),
+        "stemning": ("Du laeser Fear & Greed. Ekstrem frygt kan vaere koebsmulighed, ekstrem graadighed er "
+                     "risiko. Vaegt aendringen over 7 dage hoejere end niveauet.", f"Fear & Greed: {fng}"),
+        "chart": ("Du er teknisk analytiker. Vurder momentum-kvalitet (ADX, efficiency, ROC), afstand til "
+                  "stoette/modstand i ATR og om et koeb her har god risk/reward.", tr),
+    }
+    return {k: brain.ask(k.capitalize(), MODEL_FAST, ins, data, ANALYST, 300) for k, (ins, data) in jobs.items()}
 
 
-def analyze_failure(brain, state, kind, details, key):
-    """Fejl-analytiker: skriver KUN en lektie, naar samme slags fejl/tab er sket 2 gange.
-    key = hvad der goer to haendelser 'lignende' (fejltype, eller markedstype ved koeb).
-    Returnerer lektien (eller None). Maa aldrig selv crashe botten."""
+# ---------------- Laering og performance ----------------
+def read_lessons():
+    if not LESSONS_FILE.exists():
+        return ""
+    lines = [l[2:].strip() for l in LESSONS_FILE.read_text(encoding="utf-8").splitlines() if l.startswith("- ")]
+    pos = [l for l in lines if "[+]" in l][-LESSONS_POS:]
+    neg = [l for l in lines if "[+]" not in l][-LESSONS_NEG:]
+    return "\n".join(neg + pos)
+
+
+def closed_trades():
+    if not CLOSED_CSV.exists():
+        return []
+    with open(CLOSED_CSV, encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def perf_summary():
+    tr = closed_trades()[-PERF_TRADES:]
+    if not tr:
+        return "Ingen lukkede handler endnu."
+    rs = [float(t["r_multiple"]) for t in tr]
+    wins = [r for r in rs if r > 0]
+    out = [f"Sidste {len(rs)} handler: winrate {len(wins) / len(rs):.0%}, gns. R {sum(rs) / len(rs):+.2f}, "
+           f"samlet R {sum(rs):+.1f}, stoerste tab {min(rs):+.2f}R."]
+    groups = {}
+    for t in tr:
+        groups.setdefault(f"{t['setup']} i {t['regime']}", []).append(float(t["r_multiple"]))
+    for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        out.append(f"- {k}: {len(v)} handler, winrate {sum(1 for r in v if r > 0) / len(v):.0%}, gns. R {sum(v) / len(v):+.2f}")
+    return "\n".join(out)
+
+
+def analyze_outcome(brain, state, kind, key, details):
+    """Analytiker: skriver KUN en lektie naar 2 lignende tilfaelde er sket (tab, gevinst eller teknisk fejl).
+    Maa aldrig selv crashe botten."""
     try:
-        full_key = f"{kind}: {key}"
-        if full_key in state.setdefault("learned", []):
-            return None  # allerede laert (fx samme tekniske fejl hver time)
-        pending = state.setdefault("pending_failures", {})
-        events = pending.setdefault(full_key, [])
-        t = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-        events.append(f"{t}: {details[:500]}")
+        full = f"{kind}: {key}"
+        if full in state["learned"]:
+            return None
+        events = state["pending"].setdefault(full, [])
+        events.append(f"{ts()}: {details[:600]}")
+        state["pending"][full] = events[-4:]
         if len(events) < 2:
-            print(f"Fejl-analytiker: 1. gang for '{full_key}', venter paa en lignende foer lektie.")
+            print(f"Analytiker: 1. tilfaelde af '{full}', venter paa et lignende.")
             return None
-        if brain is None or brain.over_budget():
+        if brain is None or not brain.budget_ok():
             return None
+        positive = kind == "gevinst"
         res = brain.ask(
-            "Fejl-analytiker",
-            "Den samme slags fejl er nu sket 2 gange. Find den faelles aarsag og skriv EN konkret regel, "
-            "som Chef og Skeptiker kan bruge fremover (fx 'Koeb ikke naar ...'). "
-            "Ved teknisk fejl: skriv hvad der skal tjekkes eller rettes. Gentag ikke en eksisterende lektie.",
-            f"Haendelse: {kind} ({key})\nDe 2 lignende tilfaelde:\n" + "\n".join(events[-2:]) +
-            f"\n\nSeneste runder:\n{recent_trades()}\n\nEksisterende lektier:\n{read_lessons() or 'ingen'}",
-            {"type": "object",
-             "properties": {"aarsag": {"type": "string"}, "lektie": {"type": "string"}},
-             "required": ["aarsag", "lektie"], "additionalProperties": False})
+            "Analytiker", MODEL_SMART,
+            ("To lignende handler er nu endt med GEVINST. Find hvad de havde til faelles, og skriv EN konkret, "
+             "testbar regel om hvornaar dette setup boer foretraekkes." if positive else
+             "Den samme slags fejl/tab er nu sket 2 gange. Find den faelles aarsag og skriv EN konkret, testbar "
+             "regel (med tal fra features, fx 'Koeb ikke breakout naar rel_volumen_1h < 1,5'). Ved teknisk fejl: "
+             "skriv hvad der skal tjekkes eller rettes.") + " Gentag ikke en eksisterende lektie.",
+            f"Type: {kind} ({key})\nDe 2 tilfaelde:\n" + "\n".join(events[-2:]) +
+            f"\n\nPerformance:\n{perf_summary()}\n\nEksisterende lektier:\n{read_lessons() or 'ingen'}",
+            obj({"aarsag": S_STR, "lektie": S_STR}), 400)
         new = not LESSONS_FILE.exists()
         with open(LESSONS_FILE, "a", encoding="utf-8") as f:
             if new:
-                f.write("# Lektier fra Fejl-analytikeren\n\nEn lektie skrives kun efter 2 lignende fejl. "
-                        f"Chef og Skeptiker laeser de nyeste {LESSONS_TO_READ} hver runde.\n\n")
-            f.write(f"- {t} [{kind}: {key}] {res['lektie']} (aarsag: {res['aarsag']})\n")
-        pending.pop(full_key, None)
+                f.write("# Lektier fra Analytikeren\n\nSkrives kun efter 2 lignende tilfaelde. [+] = hvad der virker, "
+                        "[-] = hvad der skal undgaas.\n\n")
+            f.write(f"- {ts()} [{'+' if positive else '-'}] [{full}] {res['lektie']} (aarsag: {res['aarsag']})\n")
+        state["pending"].pop(full, None)
         if kind == "teknisk fejl":
-            state["learned"].append(full_key)  # tab maa gerne give en ny lektie efter 2 nye tab
+            state["learned"].append(full)
         return res["lektie"]
     except Exception as e:
-        print(f"Fejl-analytiker fejlede: {type(e).__name__}: {e}")
+        print(f"Analytiker fejlede: {type(e).__name__}: {e}")
         return None
 
 
-# ---------------- Handel ----------------
+# ---------------- Broker ----------------
 class Broker:
     def __init__(self):
+        self.paper_only = TEST_MODE or DRY_RUN
         if TEST_MODE:
             self.fake = {"equity": 100000.0, "qty": 0.0}
             return
         from alpaca.trading.client import TradingClient
-        self.t = TradingClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"), paper=True)
+        self.t = TradingClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"), paper=True)  # ALTID paper
 
     def equity(self):
         return self.fake["equity"] if TEST_MODE else float(self.t.get_account().equity)
@@ -315,22 +389,35 @@ class Broker:
         except Exception:
             return 0.0
 
-    def cancel_open_orders(self):
+    def open_stop_orders(self):
         if TEST_MODE:
-            return
+            return []
         from alpaca.trading.requests import GetOrdersRequest
         from alpaca.trading.enums import QueryOrderStatus
-        for o in self.t.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN, symbols=[SYMBOL])):
+        return [o for o in self.t.get_orders(GetOrdersRequest(status=QueryOrderStatus.OPEN, symbols=[SYMBOL]))
+                if str(o.side).lower().endswith("sell")]
+
+    def cancel_open_orders(self):
+        if self.paper_only:
+            return
+        for o in self.open_stop_orders():
             self.t.cancel_order_by_id(o.id)
 
-    def buy(self, usd, price):
-        """Markedskoeb for 'usd' dollars + stop-limit salgsordre som stop-loss."""
-        stop = round(price * (1 - STOP_LOSS_PCT), 2)
-        if TEST_MODE:
-            self.fake["qty"] = usd / price
-            return self.fake["qty"], stop
-        import time
-        from alpaca.trading.requests import MarketOrderRequest, StopLimitOrderRequest
+    def place_stop(self, qty, stop):
+        if self.paper_only:
+            return
+        from alpaca.trading.requests import StopLimitOrderRequest
+        from alpaca.trading.enums import OrderSide, TimeInForce
+        self.t.submit_order(StopLimitOrderRequest(symbol=SYMBOL, qty=qty, side=OrderSide.SELL,
+                                                  time_in_force=TimeInForce.GTC, stop_price=round(stop, 2),
+                                                  limit_price=round(stop * 0.99, 2)))
+
+    def buy(self, usd, price, stop):
+        if self.paper_only:
+            if TEST_MODE:
+                self.fake["qty"] = usd / price
+            return usd / price
+        from alpaca.trading.requests import MarketOrderRequest
         from alpaca.trading.enums import OrderSide, TimeInForce
         self.t.submit_order(MarketOrderRequest(symbol=SYMBOL, notional=round(usd, 2),
                                                side=OrderSide.BUY, time_in_force=TimeInForce.GTC))
@@ -341,145 +428,319 @@ class Broker:
             if qty > 0:
                 break
         if qty > 0:
-            self.t.submit_order(StopLimitOrderRequest(
-                symbol=SYMBOL, qty=qty, side=OrderSide.SELL, time_in_force=TimeInForce.GTC,
-                stop_price=stop, limit_price=round(stop * 0.995, 2)))
-        return qty, stop
+            self.place_stop(qty, stop)
+        return qty
 
     def sell_all(self):
         qty = self.position_qty()
-        if TEST_MODE:
-            self.fake["qty"] = 0.0
+        if self.paper_only:
+            if TEST_MODE:
+                self.fake["qty"] = 0.0
             return qty
         self.cancel_open_orders()
         self.t.close_position(POS_SYMBOL)
         return qty
 
-
-# ---------------- Hovedloekke ----------------
-def main():
-    state = load_state()
-    try:
-        run_round(state)
-    except Exception as e:
-        # Teknisk fejl (fx API nede): log, lad Fejl-analytikeren se paa den, og crash ikke
-        details = f"{type(e).__name__}: {str(e)[:300]}"
-        print(f"FEJL i runden: {details}")
-        brain = None
+    def last_sell_price(self):
+        """Fyldt pris paa seneste salg (fx stop ramt mellem to runder)."""
+        if self.paper_only:
+            return None
         try:
-            brain = Brain(state)
+            from alpaca.trading.requests import GetOrdersRequest
+            from alpaca.trading.enums import QueryOrderStatus
+            for o in self.t.get_orders(GetOrdersRequest(status=QueryOrderStatus.CLOSED, symbols=[SYMBOL], limit=10)):
+                if str(o.side).lower().endswith("sell") and o.filled_avg_price:
+                    return float(o.filled_avg_price)
         except Exception:
             pass
-        analyze_failure(brain, state, "teknisk fejl", details, f"{type(e).__name__}: {str(e)[:40]}")
-        log_row({"tid_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
-                 "handling": f"FEJL ({type(e).__name__})", "chef_grund": details[:200]})
+        return None
+
+
+# ---------------- Risiko ----------------
+def compute_size(equity, price, atr, conviction, regime):
+    """Volatilitets- og conviction-justeret stoerrelse. Returnerer (usd, stop, stop_pct)."""
+    stop_pct = min(max(STOP_ATR_MULT * atr / price, MIN_STOP_PCT), MAX_STOP_PCT)
+    conv = {1: 0.25, 2: 0.4, 3: 0.6, 4: 0.8, 5: 1.0}.get(int(conviction), 0.5)
+    vol = 0.5 if regime == "high_vol" else 1.0
+    risk_usd = equity * RISK_PER_TRADE_PCT * conv * vol
+    usd = min(risk_usd / stop_pct, equity * MAX_POSITION_PCT)
+    return usd, price * (1 - stop_pct), stop_pct
+
+
+def risk_gate(state, equity):
+    """Kill-switch i kode. Returnerer (ok_til_nye_koeb, grund, dagens_pnl, drawdown)."""
+    day = now().strftime("%Y-%m-%d")
+    if state.get("eq_day") != day:
+        state["eq_day"], state["day_start_equity"] = day, equity
+    state["peak_equity"] = max(state.get("peak_equity", equity), equity)
+    day_pnl = equity / state["day_start_equity"] - 1
+    dd = equity / state["peak_equity"] - 1
+    if dd <= -MAX_DRAWDOWN_PCT:
+        state["halted"] = True
+    if state.get("halted"):
+        if os.getenv("RESET_HALT") == "1":
+            state["halted"], state["peak_equity"] = False, equity
+        else:
+            return False, f"HALT: drawdown {dd:.1%} (saet RESET_HALT=1 for at starte igen)", day_pnl, dd
+    if day_pnl <= -MAX_DAILY_LOSS_PCT:
+        return False, f"Dagligt tabsloft ramt ({day_pnl:.1%})", day_pnl, dd
+    return True, "", day_pnl, dd
+
+
+def manage_position(broker, state, f, qty, brain, row):
+    """Afstemning med Alpaca + trailing stop + software-stop. Returnerer True hvis positionen blev lukket."""
+    pos, price, atr = state.get("pos"), f["pris"], f["atr_1h"]
+    if qty > 0 and not pos:  # position uden state (fx manuel handel): adopter den med ATR-stop
+        stop = price * (1 - min(max(STOP_ATR_MULT * atr / price, MIN_STOP_PCT), MAX_STOP_PCT))
+        pos = state["pos"] = {"entry": price, "stop": stop, "stop_initial": stop, "high": price,
+                              "entry_tid": ts(), "setup": "adopteret", "regime": f["regime"], "conviction": 3}
+        row["note"] = "Ukendt position adopteret"
+    if qty <= 0 and pos:  # stop ramt hos Alpaca mellem to runder
+        exit_price = broker.last_sell_price() or pos["stop"]
+        close_trade(brain, state, exit_price, "stop ramt (Alpaca)")
+        row.update(handling="STOP RAMT", note=f"Solgt ca. {exit_price:.0f}")
+        return True
+    if qty <= 0:
+        return False
+    if price <= pos["stop"]:  # sikkerhedsnet
+        broker.sell_all()
+        close_trade(brain, state, price, "stop (software)")
+        row.update(handling="STOP-LOSS SALG", antal_btc=round(qty, 6))
+        return True
+    pos["high"] = max(pos["high"], price)
+    r_unit = pos["entry"] - pos["stop_initial"]
+    new_stop = pos["stop"]
+    if price >= pos["entry"] + BREAKEVEN_AT_R * r_unit:
+        new_stop = max(new_stop, pos["entry"], pos["high"] - TRAIL_ATR_MULT * atr)
+    if new_stop - pos["stop"] > 0.25 * atr:
+        broker.cancel_open_orders()
+        broker.place_stop(qty, new_stop)
+        row["note"] = f"Stop flyttet {pos['stop']:.0f} til {new_stop:.0f}"
+        pos["stop"] = new_stop
+    elif not broker.paper_only and not broker.open_stop_orders():
+        broker.place_stop(qty, pos["stop"])
+        row["note"] = "Manglende stop-ordre genskabt"
+    row["stop_loss"] = round(pos["stop"], 2)
+    return False
+
+
+def close_trade(brain, state, exit_price, reason):
+    pos = state.pop("pos", None)
+    if not pos:
+        return
+    r_unit = max(pos["entry"] - pos["stop_initial"], 1e-9)
+    r = (exit_price - pos["entry"]) / r_unit
+    try:
+        hours = (now() - datetime.strptime(pos["entry_tid"], "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)).total_seconds() / 3600
+    except Exception:
+        hours = 0
+    rec = {"entry_tid": pos["entry_tid"], "exit_tid": ts(), "setup": pos["setup"], "regime": pos["regime"],
+           "conviction": pos.get("conviction", ""), "entry": round(pos["entry"], 2), "exit": round(exit_price, 2),
+           "stop_initial": round(pos["stop_initial"], 2), "r_multiple": round(r, 2),
+           "pnl_usd": round((exit_price - pos["entry"]) * pos.get("qty", 0), 2), "exit_aarsag": reason,
+           "timer": round(hours, 1)}
+    new = not CLOSED_CSV.exists()
+    with open(CLOSED_CSV, "a", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=CLOSED_FIELDS)
+        if new:
+            w.writeheader()
+        w.writerow(rec)
+    if abs(r) >= 0.3:  # ca. break-even er hverken en lektie eller en fejl
+        analyze_outcome(brain, state, "gevinst" if r > 0 else "tab", f"{pos['setup']} i {pos['regime']}",
+                        f"{reason}. R={r:+.2f}. Entry {pos['entry']:.0f}, exit {exit_price:.0f}. "
+                        f"Grund til koeb: {pos.get('grund', '?')}. Features ved koeb: {pos.get('features', '')}")
+
+
+# ---------------- Beslutning ----------------
+def need_ai(state, f, holding):
+    t = now()
+    if holding:
+        last = state.get("last_hold_review")
+        moved = abs(f["pris"] - state.get("last_review_price", f["pris"])) >= f["atr_1h"]
+        due = not last or (t - datetime.fromisoformat(last)).total_seconds() >= HOLD_REVIEW_MIN * 60
+        return (due or moved), "positions-review"
+    if not f["setups"] and not TEST_MODE:
+        return False, "intet setup"
+    last = state.get("last_entry_eval")
+    if last and (t - datetime.fromisoformat(last)).total_seconds() < AI_COOLDOWN_MIN * 60:
+        return False, "cooldown"
+    return True, "setup: " + ", ".join(f["setups"] or ["test"])
+
+
+def run_ai(brain, state, f, holding, equity, can_buy, block_reason, row, rec):
+    """Hele AI-kaeden. Returnerer handling: ('KOEB', usd, stop, chef) / ('SAELG',) / ('HOLD',)."""
+    state["ai_rounds_today"] += 1
+    r = run_analysts(brain, f, get_news(), get_fear_greed())
+    for k, v in r.items():
+        row[k] = f"{v['signal']}({v['styrke']}): {v['vurdering']}"
+    rec["analytikere"] = r
+    summary = "\n".join(f"{k}: {v['signal']} styrke {v['styrke']} - {v['vurdering']}" for k, v in r.items())
+    lessons, perf = read_lessons() or "ingen endnu", perf_summary()
+    pos = state.get("pos")
+    pos_txt = (f"Vi EJER BTC: koebt {pos['entry']:.0f} ({pos['setup']}), stop {pos['stop']:.0f}, nu "
+               f"{(f['pris'] / pos['entry'] - 1) * 100:+.2f}% = {(f['pris'] - pos['entry']) / max(pos['entry'] - pos['stop_initial'], 1e-9):+.2f}R."
+               if holding else "Vi ejer IKKE BTC.")
+    if not holding and not can_buy:
+        pos_txt += f" Nye koeb er SPAERRET: {block_reason}."
+    setups = f["setups"] or ["ingen"]
+    ctx = (f"{pos_txt}\n\nFEATURES: {fx.summary_text(f)}\n\nANALYTIKERE:\n{summary}\n\n"
+           f"PERFORMANCE:\n{perf}\n\nLEKTIER:\n{lessons}")
+
+    chef = brain.ask(
+        "Chef", MODEL_SMART,
+        "Du traeffer beslutningen. KOEB kun hvis vi ikke ejer BTC, et af de fundne setups er gyldigt, og der er "
+        "mindst 2R plads til naeste modstand. SAELG kun hvis vi ejer BTC og grunden til koebet er brudt. Ellers "
+        "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
+        ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
+                  "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                  "setup": {"type": "string", "enum": setups + (["ingen"] if "ingen" not in setups else [])},
+                  "invalidering": S_STR, "grund": S_STR}), 400)
+    rec["chef"] = chef
+    row.update(chef_beslutning=chef["beslutning"], chef_conviction=chef["conviction"], chef_grund=chef["grund"])
+    if chef["beslutning"] == "SAELG" and holding:
+        return ("SAELG",)
+    if chef["beslutning"] != "KOEB" or holding or not can_buy:
+        return ("HOLD",)
+
+    # Faste tjek i kode, som Skeptikeren skal forholde sig til
+    hard = []
+    if f["trend_1d"] < 0:
+        hard.append("daglig trend er ned")
+    if f["afstand_modstand_atr"] < STOP_ATR_MULT * 1.5:
+        hard.append(f"modstand kun {f['afstand_modstand_atr']} ATR over (under 1,5R)")
+    if f["rsi_1h"] > 70:
+        hard.append("RSI 1h over 70")
+    sk = brain.ask(
+        "Skeptiker", MODEL_SMART,
+        "Du er systematisk djaevlens advokat. Gaa tjeklisten igennem og saet hvert punkt til true, hvis det er et "
+        "reelt problem for netop dette koeb. Brug veto hvis et punkt er alvorligt nok alene. Vaer ikke negativ "
+        "for at vaere negativ: et koeb med god risk/reward og flugtende tidsrammer skal igennem.",
+        f"Chefen vil KOEBE (setup {chef['setup']}, conviction {chef['conviction']}) fordi: {chef['grund']}\n"
+        f"Invalidering: {chef['invalidering']}\nFaste regel-advarsler: {hard or 'ingen'}\n\n{ctx}",
+        obj({"mod_hoejere_timeframe": S_BOOL, "modstand_for_taet": S_BOOL, "hoej_volatilitet": S_BOOL,
+             "overkoebt": S_BOOL, "svag_volumen": S_BOOL, "ligner_tabslektie": S_BOOL,
+             "daarlig_historik": S_BOOL, "veto": S_BOOL, "grund": S_STR}), 400)
+    flags = [k for k, v in sk.items() if v is True and k != "veto"]
+    veto = sk["veto"] or len(flags) >= 3 or len(hard) >= 2
+    rec["skeptiker"], rec["regel_advarsler"] = sk, hard
+    row.update(skeptiker_veto=veto, skeptiker_grund=f"{sk['grund']} [flag: {', '.join(flags) or 'ingen'}]")
+    if veto:
+        return ("VETO",)
+
+    usd, stop, stop_pct = compute_size(equity, f["pris"], f["atr_1h"], chef["conviction"], f["regime"])
+    rm = brain.ask(
+        "Risk Manager", MODEL_SMART,
+        "Du har absolut veto paa stoerrelse. Du kan godkende, reducere (size_faktor 0-1) eller blokere. Reducer ved "
+        "daarlig nylig performance i dette regime/setup, hoej volatilitet, eller naar kontoen allerede har tabt i "
+        "dag. Du kan aldrig oege stoerrelsen.",
+        f"Foreslaaet koeb: {usd:.0f} USD ({usd / equity:.1%} af kontoen), stop {stop:.0f} ({stop_pct:.2%} under), "
+        f"risiko {usd * stop_pct:.0f} USD ({usd * stop_pct / equity:.2%} af kontoen). Konto {equity:.0f}. "
+        f"Dagens resultat {row.get('dagens_pnl_pct')}%, drawdown fra top {row.get('drawdown_pct')}%.\n"
+        f"Setup {chef['setup']}, conviction {chef['conviction']}, regime {f['regime']}.\n"
+        f"Skeptikerens flag: {flags or 'ingen'}\n\n{ctx}",
+        obj({"godkend": S_BOOL, "size_faktor": {"type": "number"}, "grund": S_STR}), 300)
+    factor = min(max(float(rm["size_faktor"]), 0.0), 1.0) if rm["godkend"] else 0.0
+    rec["risk_manager"] = rm
+    row.update(risk_godkendt=rm["godkend"], risk_faktor=round(factor, 2), risk_grund=rm["grund"])
+    usd *= factor
+    if usd < 50:
+        return ("RISK_BLOK",)
+    return ("KOEB", usd, stop, chef)
+
+
+def main():
+    state = load_state()
+    rec = {"tid": now().isoformat(), "mode": "test" if TEST_MODE else "dry" if DRY_RUN else "paper"}
+    row = {"tid_utc": ts()}
+    brain = None
+    try:
+        brain = Brain(state)
+        run_round(state, brain, row, rec)
+    except Exception as e:
+        details = f"{type(e).__name__}: {str(e)[:300]}"
+        print(f"FEJL i runden: {details}\n{traceback.format_exc()}")
+        analyze_outcome(brain, state, "teknisk fejl", f"{type(e).__name__}: {str(e)[:40]}", details)
+        row.update(handling=f"FEJL ({type(e).__name__})", note=details[:200])
+        rec["fejl"] = details
+        log_row(row)
+    finally:
+        state["budget_used"] = round(state.get("budget_used", 0.0), 6)
+        rec["api_forbrug_usd_md"] = state.get("budget_used")
+        log_json(rec)
         save_state(state)
 
 
-def run_round(state):
+def run_round(state, brain, row, rec):
     broker = Broker()
-    closes, volumes = get_market_data()
-    price = closes[-1]
+    daily, hourly, m5, price = get_market_data()
+    f = fx.compute_features(daily, hourly, m5, price)
+    rec["features"] = f
     equity = broker.equity()
-
-    # Startpunkt til koeb-og-behold-sammenligning
     if "start_equity" not in state:
-        state.update(start_equity=equity, start_price=price,
-                     start_time=datetime.now(timezone.utc).isoformat())
+        state.update(start_equity=equity, start_price=price, start_time=now().isoformat())
     bh_value = state["start_equity"] * price / state["start_price"]
+    row.update(pris=round(price, 2), regime=f["regime"], setups=" ".join(f["setups"]))
 
     qty = broker.position_qty()
-    row = {"tid_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"), "pris": round(price, 2)}
-    brain = Brain(state)
+    if broker.paper_only and state.get("pos"):  # test/dry: ingen rigtig position, brug state
+        qty = state["pos"].get("qty", 0.0)
+    closed = manage_position(broker, state, f, qty, brain, row)
+    holding = bool(state.get("pos")) and not closed
+    can_buy, block, day_pnl, dd = risk_gate(state, equity)
+    row.update(dagens_pnl_pct=round(day_pnl * 100, 3), drawdown_pct=round(dd * 100, 3))
 
-    # Sikkerhedsnet: software stop-loss hvis stop-ordren ikke ramte
-    stop_price = state.get("stop_price")
-    if qty > 0 and stop_price and price <= stop_price:
-        sold = broker.sell_all()
-        state.pop("stop_price", None)
-        lesson = analyze_failure(brain, state, "tabshandel", loss_details(state, price, "stop-loss (software)"),
-                                 state.get("entry_fp", "ukendt"))
-        clear_entry(state)
-        row.update(handling="STOP-LOSS SALG", antal_btc=sold, chef_grund="Pris under stop-loss",
-                   skeptiker_grund=f"Lektie: {lesson}" if lesson else "")
-        finish(row, state, broker, bh_value)
-        return
-    if qty == 0 and stop_price:
-        # Stop-ordren hos Alpaca er ramt mellem to runder = tabshandel
-        state.pop("stop_price", None)
-        if state.get("entry_price"):
-            analyze_failure(brain, state, "tabshandel", loss_details(state, stop_price, "stop-loss ordre ramt"),
-                            state.get("entry_fp", "ukendt"))
-        clear_entry(state)
-    if brain.over_budget():
-        row.update(handling="HOLD (API-budget brugt)", chef_beslutning="HOLD")
-        finish(row, state, broker, bh_value)
-        return
+    action = row.get("handling") or ("HOLD (position)" if holding else "HOLD")
+    want, why = need_ai(state, f, holding)
+    if not closed and want and not can_buy and not holding:
+        want, why = False, block
+    if not closed and want and not brain.budget_ok():
+        want, why = False, "AI-budget for i dag/maaned brugt"
+    rec["ai_grund"] = why
+    row["ai_koert"] = why if want and not closed else f"nej ({why})"
 
-    try:
-        r, chef, skeptic = run_team(brain, closes, volumes, get_news(), get_fear_greed(), qty > 0)
-    except Exception as e:
-        analyze_failure(brain, state, "teknisk fejl", f"AI-team fejlede: {type(e).__name__}: {str(e)[:300]}",
-                        f"{type(e).__name__}: {str(e)[:40]}")
-        row.update(handling=f"HOLD (fejl: {type(e).__name__})", chef_beslutning="HOLD", chef_grund=str(e)[:200])
-        finish(row, state, broker, bh_value)
-        return
-
-    for k in ("scout", "nyheder", "stemning", "chart"):
-        row[k] = f"{r[k]['signal']}: {r[k]['vurdering']}"
-    row.update(chef_beslutning=chef["beslutning"], chef_grund=chef["grund"],
-               skeptiker_veto=skeptic["veto"], skeptiker_grund=skeptic["grund"])
-
-    action = "HOLD"
-    if chef["beslutning"] == "KOEB" and qty == 0:
-        if skeptic["veto"]:
-            action = "INGEN HANDEL (veto)"
+    if want and not closed:
+        if holding:
+            state["last_hold_review"], state["last_review_price"] = now().isoformat(), price
         else:
-            bought, stop = broker.buy(equity * MAX_POSITION_PCT, price)
-            state["stop_price"] = stop
-            state["entry_price"] = price
-            state["entry_fp"] = fingerprint(closes)
-            state["entry_reason"] = f"Chef: {chef['grund']} | Skeptiker: {skeptic['grund']} | {row['chart']}"[:600]
+            state["last_entry_eval"] = now().isoformat()
+        try:
+            result = run_ai(brain, state, f, holding, equity, can_buy, block, row, rec)
+        except Exception as e:
+            analyze_outcome(brain, state, "teknisk fejl", f"{type(e).__name__}: {str(e)[:40]}",
+                            f"AI-kaede fejlede: {type(e).__name__}: {str(e)[:300]}")
+            result = ("HOLD",)
+            row["note"] = f"AI-fejl: {type(e).__name__}"
+        if result[0] == "KOEB":
+            _, usd, stop, chef = result
+            bought = broker.buy(usd, price, stop)
+            state["pos"] = {"entry": price, "stop": stop, "stop_initial": stop, "high": price, "qty": bought,
+                            "entry_tid": ts(), "setup": chef["setup"], "regime": f["regime"],
+                            "conviction": chef["conviction"], "grund": chef["grund"][:300],
+                            "features": {k: f[k] for k in ("trend_1h", "trend_4h", "trend_1d", "rsi_1h", "adx_1h",
+                                                           "rel_volumen_1h", "afstand_modstand_atr", "atr_percentil_30d")}}
             action = "KOEB"
-            row.update(antal_btc=round(bought, 6), stop_loss=stop)
-    elif chef["beslutning"] == "SAELG" and qty > 0:
-        sold = broker.sell_all()
-        state.pop("stop_price", None)
-        action = "SAELG"
-        row.update(antal_btc=round(sold, 6))
-        if state.get("entry_price") and price < state["entry_price"]:
-            analyze_failure(brain, state, "tabshandel", loss_details(state, price, "Chef solgte med tab"),
-                            state.get("entry_fp", "ukendt"))
-        clear_entry(state)
+            row.update(antal_btc=round(bought, 6), usd=round(usd, 2), stop_loss=round(stop, 2))
+        elif result[0] == "SAELG":
+            sold = broker.sell_all()
+            close_trade(brain, state, price, "Chef solgte")
+            action = "SAELG"
+            row.update(antal_btc=round(sold, 6))
+        elif result[0] == "VETO":
+            action = "INGEN HANDEL (Skeptiker-veto)"
+        elif result[0] == "RISK_BLOK":
+            action = "INGEN HANDEL (Risk Manager)"
     row["handling"] = action
-    if action == "HOLD" and state.get("stop_price"):
-        row["stop_loss"] = state["stop_price"]
-    finish(row, state, broker, bh_value)
+    rec["handling"] = action
 
-
-def loss_details(state, exit_price, how):
-    entry = state.get("entry_price") or exit_price
-    return (f"{how}. Koebt til {entry:.0f}, solgt ca. {exit_price:.0f} "
-            f"({(exit_price / entry - 1) * 100:.2f}%). Grund til koebet: {state.get('entry_reason', 'ukendt')}")
-
-
-def clear_entry(state):
-    state.pop("entry_price", None)
-    state.pop("entry_reason", None)
-    state.pop("entry_fp", None)
-
-
-def finish(row, state, broker, bh_value):
     eq = broker.equity()
-    row.update(
-        konto_vaerdi=round(eq, 2),
-        bot_afkast_pct=round((eq / state["start_equity"] - 1) * 100, 3),
-        koeb_og_behold_vaerdi=round(bh_value, 2),
-        koeb_og_behold_afkast_pct=round((bh_value / state["start_equity"] - 1) * 100, 3),
-        api_forbrug_usd_md=round(state.get("budget_used", 0.0), 4),
-    )
+    row.update(konto_vaerdi=round(eq, 2), bot_afkast_pct=round((eq / state["start_equity"] - 1) * 100, 3),
+               koeb_og_behold_vaerdi=round(bh_value, 2),
+               koeb_og_behold_afkast_pct=round((bh_value / state["start_equity"] - 1) * 100, 3),
+               api_forbrug_usd_md=round(state.get("budget_used", 0.0), 4))
+    if state.get("pos") and not row.get("stop_loss"):
+        row["stop_loss"] = round(state["pos"]["stop"], 2)
+    rec["row"] = row
     log_row(row)
-    save_state(state)
     print(json.dumps(row, ensure_ascii=False, indent=2))
 
 
