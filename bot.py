@@ -589,7 +589,7 @@ def run_ai(brain, state, f, holding, equity, can_buy, block_reason, row, rec):
     chef = brain.ask(
         "Chef", MODEL_SMART,
         "Du traeffer beslutningen. KOEB kun hvis vi ikke ejer BTC, et af de fundne setups er gyldigt, og der er "
-        "mindst 2R plads til naeste modstand. SAELG kun hvis vi ejer BTC og grunden til koebet er brudt. Ellers "
+        "mindst 1,5R plads til naeste modstand. SAELG kun hvis vi ejer BTC og grunden til koebet er brudt. Ellers "
         "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
         ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                   "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
@@ -606,8 +606,8 @@ def run_ai(brain, state, f, holding, equity, can_buy, block_reason, row, rec):
     hard = []
     if f["trend_1d"] < 0:
         hard.append("daglig trend er ned")
-    if f["afstand_modstand_atr"] < STOP_ATR_MULT * 1.5:
-        hard.append(f"modstand kun {f['afstand_modstand_atr']} ATR over (under 1,5R)")
+    if f["afstand_modstand_atr"] < STOP_ATR_MULT * 1.0:
+        hard.append(f"modstand kun {f['afstand_modstand_atr']} ATR over (under 1R)")
     if f["rsi_1h"] > 70:
         hard.append("RSI 1h over 70")
     sk = brain.ask(
@@ -621,7 +621,7 @@ def run_ai(brain, state, f, holding, equity, can_buy, block_reason, row, rec):
              "overkoebt": S_BOOL, "svag_volumen": S_BOOL, "ligner_tabslektie": S_BOOL,
              "daarlig_historik": S_BOOL, "veto": S_BOOL, "grund": S_STR}), 400)
     flags = [k for k, v in sk.items() if v is True and k != "veto"]
-    veto = sk["veto"] or len(flags) >= 3 or len(hard) >= 2
+    veto = sk["veto"] or len(flags) >= 4 or len(hard) >= 2
     rec["skeptiker"], rec["regel_advarsler"] = sk, hard
     row.update(skeptiker_veto=veto, skeptiker_grund=f"{sk['grund']} [flag: {', '.join(flags) or 'ingen'}]")
     if veto:

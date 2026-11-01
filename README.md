@@ -16,7 +16,7 @@ Kun falske penge. Koerer hvert 5. minut i GitHub Actions (et langt job, der star
 |---|---|---|
 | Scout, Nyheder, Stemning, Chart | Haiku | Signal + styrke 1-3 ud fra hver sin del af data |
 | Chef | Sonnet | KOEB/SAELG/HOLD, conviction 1-5, setup, hvad der beviser beslutningen forkert |
-| Skeptiker | Sonnet | Tjekliste med 7 punkter + faste regel-advarsler. Veto ved eget veto, 3 flag eller 2 regel-advarsler |
+| Skeptiker | Sonnet | Tjekliste med 7 punkter + faste regel-advarsler. Veto ved eget veto, 4 flag eller 2 regel-advarsler |
 | Risk Manager | Sonnet | Faar den beregnede stoerrelse. Kan godkende, reducere (0-1) eller blokere. Kan aldrig oege |
 | Analytiker | Sonnet | Lektie i `lessons.md` efter 2 lignende tilfaelde: [-] tab, [+] gevinst, teknisk fejl |
 
