@@ -1,2 +1,3 @@
 tid_utc,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslutning,chef_conviction,chef_grund,skeptiker_veto,skeptiker_grund,risk_godkendt,risk_faktor,risk_grund,handling,antal_btc,usd,stop_loss,konto_vaerdi,bot_afkast_pct,koeb_og_behold_vaerdi,koeb_og_behold_afkast_pct,dagens_pnl_pct,drawdown_pct,api_forbrug_usd_md,note
 2026-11-01 17:00,78058.2,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100384.8,0.385,0.0,0.0,0.0065,
+2026-11-01 17:05,78025.4,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100342.62,0.343,0.0,0.0,0.0065,
