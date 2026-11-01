@@ -3,13 +3,13 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.036478,
+  "budget_used": 0.041644,
   "version": 3,
   "learned": [],
   "pending": {},
   "ai_day": "2026-11-01",
-  "ai_rounds_today": 4,
-  "ai_spend_today": 0.0299313,
+  "ai_rounds_today": 5,
+  "ai_spend_today": 0.0350969,
   "eq_day": "2026-11-01",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
@@ -43,7 +43,7 @@
       "last_review_price": 77529.0
     },
     "ETH/USD": {
-      "last_entry_eval": "2026-11-01T20:00:34.950388+00:00"
+      "last_entry_eval": "2026-11-01T20:15:33.341129+00:00"
     },
     "SOL/USD": {
       "last_entry_eval": "2026-11-01T19:55:36.113500+00:00",
