@@ -2,8 +2,8 @@
 Multi-agent tradingbot til Alpaca PAPER (kun falske penge), kun BTC/USD.
 
 7 roller (claude-haiku-5-5): Scout, Nyheder, Stemning, Chart, Skeptiker (veto), Chef
-og Fejl-analytiker (koerer kun efter en fejl eller tabshandel og skriver en lektie i lessons.md,
-som Chef og Skeptiker laeser i de naeste runder).
+og Fejl-analytiker (skriver kun en lektie i lessons.md, naar 2 lignende fejl/tab er sket;
+Chef og Skeptiker laeser lektierne i de naeste runder).
 Koer: python bot.py          (en runde, rigtig paper-handel)
       python bot.py --test   (en runde med falske data, ingen noegler, ingen handel)
 """
@@ -236,35 +236,50 @@ def run_team(brain, closes, volumes, news, fng, has_position):
     return r, chef, skeptic
 
 
-def analyze_failure(brain, state, kind, details):
-    """Fejl-analytiker: koerer KUN ved fejl/tab. Skriver en lektie i lessons.md.
+def fingerprint(closes):
+    """Kort 'type' af markedet ved koeb. To tab med samme type = lignende fejl."""
+    price, r = closes[-1], rsi(closes)
+    trend = "pris over SMA48" if price > sma(closes, 48) else "pris under SMA48"
+    bucket = "RSI under 40" if r < 40 else "RSI 40-60" if r < 60 else "RSI 60-70" if r < 70 else "RSI over 70"
+    return f"{trend}, {bucket}"
+
+
+def analyze_failure(brain, state, kind, details, key):
+    """Fejl-analytiker: skriver KUN en lektie, naar samme slags fejl/tab er sket 2 gange.
+    key = hvad der goer to haendelser 'lignende' (fejltype, eller markedstype ved koeb).
     Returnerer lektien (eller None). Maa aldrig selv crashe botten."""
     try:
-        # Samme tekniske fejl hver time skal ikke koste et nyt AI-kald hver gang
-        if kind == "teknisk fejl":
-            key = details[:80]
-            if state.get("last_error_analyzed") == key:
-                return None
-            state["last_error_analyzed"] = key
+        full_key = f"{kind}: {key}"
+        if full_key in state.setdefault("learned", []):
+            return None  # allerede laert (fx samme tekniske fejl hver time)
+        pending = state.setdefault("pending_failures", {})
+        events = pending.setdefault(full_key, [])
+        t = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+        events.append(f"{t}: {details[:500]}")
+        if len(events) < 2:
+            print(f"Fejl-analytiker: 1. gang for '{full_key}', venter paa en lignende foer lektie.")
+            return None
         if brain is None or brain.over_budget():
             return None
         res = brain.ask(
             "Fejl-analytiker",
-            "Du analyserer hvad der gik galt, saa det ikke sker igen. Find den mest sandsynlige aarsag "
-            "og skriv EN konkret regel, som Chef og Skeptiker kan bruge fremover (fx 'Koeb ikke naar ...'). "
+            "Den samme slags fejl er nu sket 2 gange. Find den faelles aarsag og skriv EN konkret regel, "
+            "som Chef og Skeptiker kan bruge fremover (fx 'Koeb ikke naar ...'). "
             "Ved teknisk fejl: skriv hvad der skal tjekkes eller rettes. Gentag ikke en eksisterende lektie.",
-            f"Haendelse: {kind}\nDetaljer: {details}\n\nSeneste runder:\n{recent_trades()}\n\n"
-            f"Eksisterende lektier:\n{read_lessons() or 'ingen'}",
+            f"Haendelse: {kind} ({key})\nDe 2 lignende tilfaelde:\n" + "\n".join(events[-2:]) +
+            f"\n\nSeneste runder:\n{recent_trades()}\n\nEksisterende lektier:\n{read_lessons() or 'ingen'}",
             {"type": "object",
              "properties": {"aarsag": {"type": "string"}, "lektie": {"type": "string"}},
              "required": ["aarsag", "lektie"], "additionalProperties": False})
         new = not LESSONS_FILE.exists()
         with open(LESSONS_FILE, "a", encoding="utf-8") as f:
             if new:
-                f.write("# Lektier fra Fejl-analytikeren\n\nChef og Skeptiker laeser de nyeste "
-                        f"{LESSONS_TO_READ} hver runde.\n\n")
-            t = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-            f.write(f"- {t} [{kind}] {res['lektie']} (aarsag: {res['aarsag']})\n")
+                f.write("# Lektier fra Fejl-analytikeren\n\nEn lektie skrives kun efter 2 lignende fejl. "
+                        f"Chef og Skeptiker laeser de nyeste {LESSONS_TO_READ} hver runde.\n\n")
+            f.write(f"- {t} [{kind}: {key}] {res['lektie']} (aarsag: {res['aarsag']})\n")
+        pending.pop(full_key, None)
+        if kind == "teknisk fejl":
+            state["learned"].append(full_key)  # tab maa gerne give en ny lektie efter 2 nye tab
         return res["lektie"]
     except Exception as e:
         print(f"Fejl-analytiker fejlede: {type(e).__name__}: {e}")
@@ -346,7 +361,7 @@ def main():
             brain = Brain(state)
         except Exception:
             pass
-        analyze_failure(brain, state, "teknisk fejl", details)
+        analyze_failure(brain, state, "teknisk fejl", details, f"{type(e).__name__}: {str(e)[:40]}")
         log_row({"tid_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
                  "handling": f"FEJL ({type(e).__name__})", "chef_grund": details[:200]})
         save_state(state)
@@ -373,7 +388,8 @@ def run_round(state):
     if qty > 0 and stop_price and price <= stop_price:
         sold = broker.sell_all()
         state.pop("stop_price", None)
-        lesson = analyze_failure(brain, state, "tabshandel", loss_details(state, price, "stop-loss (software)"))
+        lesson = analyze_failure(brain, state, "tabshandel", loss_details(state, price, "stop-loss (software)"),
+                                 state.get("entry_fp", "ukendt"))
         clear_entry(state)
         row.update(handling="STOP-LOSS SALG", antal_btc=sold, chef_grund="Pris under stop-loss",
                    skeptiker_grund=f"Lektie: {lesson}" if lesson else "")
@@ -383,7 +399,8 @@ def run_round(state):
         # Stop-ordren hos Alpaca er ramt mellem to runder = tabshandel
         state.pop("stop_price", None)
         if state.get("entry_price"):
-            analyze_failure(brain, state, "tabshandel", loss_details(state, stop_price, "stop-loss ordre ramt"))
+            analyze_failure(brain, state, "tabshandel", loss_details(state, stop_price, "stop-loss ordre ramt"),
+                            state.get("entry_fp", "ukendt"))
         clear_entry(state)
     if brain.over_budget():
         row.update(handling="HOLD (API-budget brugt)", chef_beslutning="HOLD")
@@ -393,7 +410,8 @@ def run_round(state):
     try:
         r, chef, skeptic = run_team(brain, closes, volumes, get_news(), get_fear_greed(), qty > 0)
     except Exception as e:
-        analyze_failure(brain, state, "teknisk fejl", f"AI-team fejlede: {type(e).__name__}: {str(e)[:300]}")
+        analyze_failure(brain, state, "teknisk fejl", f"AI-team fejlede: {type(e).__name__}: {str(e)[:300]}",
+                        f"{type(e).__name__}: {str(e)[:40]}")
         row.update(handling=f"HOLD (fejl: {type(e).__name__})", chef_beslutning="HOLD", chef_grund=str(e)[:200])
         finish(row, state, broker, bh_value)
         return
@@ -411,6 +429,7 @@ def run_round(state):
             bought, stop = broker.buy(equity * MAX_POSITION_PCT, price)
             state["stop_price"] = stop
             state["entry_price"] = price
+            state["entry_fp"] = fingerprint(closes)
             state["entry_reason"] = f"Chef: {chef['grund']} | Skeptiker: {skeptic['grund']} | {row['chart']}"[:600]
             action = "KOEB"
             row.update(antal_btc=round(bought, 6), stop_loss=stop)
@@ -420,7 +439,8 @@ def run_round(state):
         action = "SAELG"
         row.update(antal_btc=round(sold, 6))
         if state.get("entry_price") and price < state["entry_price"]:
-            analyze_failure(brain, state, "tabshandel", loss_details(state, price, "Chef solgte med tab"))
+            analyze_failure(brain, state, "tabshandel", loss_details(state, price, "Chef solgte med tab"),
+                            state.get("entry_fp", "ukendt"))
         clear_entry(state)
     row["handling"] = action
     if action == "HOLD" and state.get("stop_price"):
@@ -437,6 +457,7 @@ def loss_details(state, exit_price, how):
 def clear_entry(state):
     state.pop("entry_price", None)
     state.pop("entry_reason", None)
+    state.pop("entry_fp", None)
 
 
 def finish(row, state, broker, bh_value):
