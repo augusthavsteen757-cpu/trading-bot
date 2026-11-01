@@ -2,7 +2,7 @@ name: Tradingbot
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # hvert 30. min (privat repo: 2000 gratis min/md). Offentligt repo: skift til */5
+    - cron: "*/5 * * * *"  # hvert 5. min (offentligt repo = gratis minutter). GitHub kan forsinke
   workflow_dispatch:       # knap til at koere manuelt
 
 permissions:

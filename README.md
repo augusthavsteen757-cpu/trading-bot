@@ -1,6 +1,6 @@
 # Tradingbot (Alpaca PAPER, kun BTC/USD)
 
-Kun falske penge. Botten koerer en runde hvert 30. minut (hvert 5. minut hvis repoet er offentligt):
+Kun falske penge. Botten koerer en runde hvert 5. minut (kraever offentligt repo for gratis GitHub-minutter):
 
 1. Scout, Nyheder, Stemning og Chart vurderer markedet (claude-haiku-5-5).
 2. Chef beslutter KOEB, SAELG eller HOLD.
