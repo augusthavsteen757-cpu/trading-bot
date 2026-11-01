@@ -41,15 +41,22 @@ jobs:
         run: |
           git config user.name "tradingbot"
           git config user.email "tradingbot@users.noreply.github.com"
+          DATA="trades.csv state.json lessons.md closed_trades.csv logs"
           end=$(( $(date +%s) + 330*60 ))
           while [ "$(date +%s)" -lt "$end" ]; do
             start=$(date +%s)
             timeout 180 python bot.py || echo "Runde fejlede"
-            for f in trades.csv trades_v1.csv state.json lessons.md closed_trades.csv logs; do
-              [ -e "$f" ] && git add "$f"
-            done
+            for f in $DATA; do [ -e "$f" ] && git add "$f"; done
             git commit -q -m "Bot-runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
-            git pull -q --rebase || true
+            if ! git pull -q --rebase; then
+              # Fx en ny fil paa main: gem botens data, hent main og laeg data ovenpaa igen
+              git rebase --abort 2>/dev/null || true
+              mkdir -p /tmp/botdata && cp -r $DATA /tmp/botdata/ 2>/dev/null || true
+              git fetch -q origin main && git reset -q --hard origin/main && git clean -fdq
+              cp -r /tmp/botdata/. . && rm -rf /tmp/botdata
+              for f in $DATA; do [ -e "$f" ] && git add "$f"; done
+              git commit -q -m "Bot-runde $(date -u +%Y-%m-%dT%H:%M) (efter sync)" || true
+            fi
             git push -q || echo "Push fejlede"
             sleep $(( 300 - ($(date +%s) - start) > 0 ? 300 - ($(date +%s) - start) : 1 ))
           done
