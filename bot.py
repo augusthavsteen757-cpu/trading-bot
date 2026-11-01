@@ -1,7 +1,9 @@
 """
 Multi-agent tradingbot til Alpaca PAPER (kun falske penge), kun BTC/USD.
 
-6 roller (claude-haiku-5-5): Scout, Nyheder, Stemning, Chart, Skeptiker (veto), Chef.
+7 roller (claude-haiku-5-5): Scout, Nyheder, Stemning, Chart, Skeptiker (veto), Chef
+og Fejl-analytiker (koerer kun efter en fejl eller tabshandel og skriver en lektie i lessons.md,
+som Chef og Skeptiker laeser i de naeste runder).
 Koer: python bot.py          (en runde, rigtig paper-handel)
       python bot.py --test   (en runde med falske data, ingen noegler, ingen handel)
 """
@@ -29,6 +31,8 @@ BASE = Path(__file__).parent
 TEST_MODE = "--test" in sys.argv
 TRADES_CSV = BASE / ("test_trades.csv" if TEST_MODE else "trades.csv")
 STATE_FILE = BASE / ("test_state.json" if TEST_MODE else "state.json")
+LESSONS_FILE = BASE / ("test_lessons.md" if TEST_MODE else "lessons.md")
+LESSONS_TO_READ = 5          # Chef og Skeptiker laeser de 5 nyeste lektier
 load_dotenv(BASE / ".env")
 
 CSV_FIELDS = [
@@ -76,6 +80,25 @@ def rsi(closes, n=14):
 def sma(closes, n):
     n = min(n, len(closes))
     return sum(closes[-n:]) / n
+
+
+def read_lessons(n=LESSONS_TO_READ):
+    """De n nyeste lektier som kort tekst (tom streng hvis ingen)."""
+    if not LESSONS_FILE.exists():
+        return ""
+    lines = [l[2:].strip() for l in LESSONS_FILE.read_text(encoding="utf-8").splitlines()
+             if l.startswith("- ")]
+    return "\n".join(lines[-n:])
+
+
+def recent_trades(n=6):
+    """De sidste n raekker fra trades.csv i kort form, til Fejl-analytikeren."""
+    if not TRADES_CSV.exists():
+        return "Ingen tidligere runder."
+    with open(TRADES_CSV, encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))[-n:]
+    keys = ("tid_utc", "pris", "handling", "chef_grund", "skeptiker_grund", "chart")
+    return "\n".join(" | ".join(f"{k}={r.get(k, '')[:120]}" for k in keys) for r in rows)
 
 
 # ---------------- Data ----------------
@@ -140,7 +163,8 @@ class Brain:
     def ask(self, role, instructions, data, schema):
         if TEST_MODE:
             fake = {"vurdering": f"{role}: testvurdering", "signal": "neutral",
-                    "beslutning": "KOEB", "grund": "test", "veto": False}
+                    "beslutning": "KOEB", "grund": "test", "veto": False,
+                    "aarsag": "test-aarsag", "lektie": "Koeb ikke naar RSI er over 65 (test)"}
             return {k: fake[k] for k in schema["properties"]}
         resp = self.client.messages.create(
             model=MODEL,
@@ -185,12 +209,14 @@ def run_team(brain, closes, volumes, news, fng, has_position):
 
     summary = "\n".join(f"{k}: {v['signal']} - {v['vurdering']}" for k, v in r.items())
     pos_txt = "Vi EJER BTC lige nu." if has_position else "Vi ejer IKKE BTC lige nu."
+    lessons = read_lessons()
+    lessons_txt = (f"\nLektier fra tidligere fejl (tag hensyn til dem):\n{lessons}" if lessons else "")
 
     chef = brain.ask(
         "Chef",
         "Du traeffer den endelige beslutning. KOEB kun hvis vi ikke ejer BTC og der er klar fordel. "
         "SAELG kun hvis vi ejer BTC. Ellers HOLD. Vaer forsigtig: ingen handel er bedre end en daarlig handel.",
-        f"{pos_txt}\nTeamets vurderinger:\n{summary}",
+        f"{pos_txt}\nTeamets vurderinger:\n{summary}{lessons_txt}",
         {"type": "object",
          "properties": {"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                         "grund": {"type": "string"}},
@@ -201,12 +227,48 @@ def run_team(brain, closes, volumes, news, fng, has_position):
         skeptic = brain.ask(
             "Skeptiker",
             "Din opgave er at finde fejl i Chefens koebsbeslutning. Brug veto hvis signalerne er "
-            "modstridende, hvis RSI er over 70, eller hvis risikoen er hoejere end gevinsten.",
-            f"Chefen vil KOEBE fordi: {chef['grund']}\nTeamets vurderinger:\n{summary}\n{chart}",
+            "modstridende, hvis RSI er over 70, eller hvis risikoen er hoejere end gevinsten. "
+            "Brug ogsaa veto hvis koebet ligner en situation fra lektierne.",
+            f"Chefen vil KOEBE fordi: {chef['grund']}\nTeamets vurderinger:\n{summary}\n{chart}{lessons_txt}",
             {"type": "object",
              "properties": {"veto": {"type": "boolean"}, "grund": {"type": "string"}},
              "required": ["veto", "grund"], "additionalProperties": False})
     return r, chef, skeptic
+
+
+def analyze_failure(brain, state, kind, details):
+    """Fejl-analytiker: koerer KUN ved fejl/tab. Skriver en lektie i lessons.md.
+    Returnerer lektien (eller None). Maa aldrig selv crashe botten."""
+    try:
+        # Samme tekniske fejl hver time skal ikke koste et nyt AI-kald hver gang
+        if kind == "teknisk fejl":
+            key = details[:80]
+            if state.get("last_error_analyzed") == key:
+                return None
+            state["last_error_analyzed"] = key
+        if brain is None or brain.over_budget():
+            return None
+        res = brain.ask(
+            "Fejl-analytiker",
+            "Du analyserer hvad der gik galt, saa det ikke sker igen. Find den mest sandsynlige aarsag "
+            "og skriv EN konkret regel, som Chef og Skeptiker kan bruge fremover (fx 'Koeb ikke naar ...'). "
+            "Ved teknisk fejl: skriv hvad der skal tjekkes eller rettes. Gentag ikke en eksisterende lektie.",
+            f"Haendelse: {kind}\nDetaljer: {details}\n\nSeneste runder:\n{recent_trades()}\n\n"
+            f"Eksisterende lektier:\n{read_lessons() or 'ingen'}",
+            {"type": "object",
+             "properties": {"aarsag": {"type": "string"}, "lektie": {"type": "string"}},
+             "required": ["aarsag", "lektie"], "additionalProperties": False})
+        new = not LESSONS_FILE.exists()
+        with open(LESSONS_FILE, "a", encoding="utf-8") as f:
+            if new:
+                f.write("# Lektier fra Fejl-analytikeren\n\nChef og Skeptiker laeser de nyeste "
+                        f"{LESSONS_TO_READ} hver runde.\n\n")
+            t = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+            f.write(f"- {t} [{kind}] {res['lektie']} (aarsag: {res['aarsag']})\n")
+        return res["lektie"]
+    except Exception as e:
+        print(f"Fejl-analytiker fejlede: {type(e).__name__}: {e}")
+        return None
 
 
 # ---------------- Handel ----------------
@@ -273,6 +335,24 @@ class Broker:
 # ---------------- Hovedloekke ----------------
 def main():
     state = load_state()
+    try:
+        run_round(state)
+    except Exception as e:
+        # Teknisk fejl (fx API nede): log, lad Fejl-analytikeren se paa den, og crash ikke
+        details = f"{type(e).__name__}: {str(e)[:300]}"
+        print(f"FEJL i runden: {details}")
+        brain = None
+        try:
+            brain = Brain(state)
+        except Exception:
+            pass
+        analyze_failure(brain, state, "teknisk fejl", details)
+        log_row({"tid_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
+                 "handling": f"FEJL ({type(e).__name__})", "chef_grund": details[:200]})
+        save_state(state)
+
+
+def run_round(state):
     broker = Broker()
     closes, volumes = get_market_data()
     price = closes[-1]
@@ -286,19 +366,25 @@ def main():
 
     qty = broker.position_qty()
     row = {"tid_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"), "pris": round(price, 2)}
+    brain = Brain(state)
 
     # Sikkerhedsnet: software stop-loss hvis stop-ordren ikke ramte
     stop_price = state.get("stop_price")
     if qty > 0 and stop_price and price <= stop_price:
         sold = broker.sell_all()
         state.pop("stop_price", None)
-        row.update(handling="STOP-LOSS SALG", antal_btc=sold, chef_grund="Pris under stop-loss")
+        lesson = analyze_failure(brain, state, "tabshandel", loss_details(state, price, "stop-loss (software)"))
+        clear_entry(state)
+        row.update(handling="STOP-LOSS SALG", antal_btc=sold, chef_grund="Pris under stop-loss",
+                   skeptiker_grund=f"Lektie: {lesson}" if lesson else "")
         finish(row, state, broker, bh_value)
         return
-    if qty == 0:
+    if qty == 0 and stop_price:
+        # Stop-ordren hos Alpaca er ramt mellem to runder = tabshandel
         state.pop("stop_price", None)
-
-    brain = Brain(state)
+        if state.get("entry_price"):
+            analyze_failure(brain, state, "tabshandel", loss_details(state, stop_price, "stop-loss ordre ramt"))
+        clear_entry(state)
     if brain.over_budget():
         row.update(handling="HOLD (API-budget brugt)", chef_beslutning="HOLD")
         finish(row, state, broker, bh_value)
@@ -307,6 +393,7 @@ def main():
     try:
         r, chef, skeptic = run_team(brain, closes, volumes, get_news(), get_fear_greed(), qty > 0)
     except Exception as e:
+        analyze_failure(brain, state, "teknisk fejl", f"AI-team fejlede: {type(e).__name__}: {str(e)[:300]}")
         row.update(handling=f"HOLD (fejl: {type(e).__name__})", chef_beslutning="HOLD", chef_grund=str(e)[:200])
         finish(row, state, broker, bh_value)
         return
@@ -323,6 +410,8 @@ def main():
         else:
             bought, stop = broker.buy(equity * MAX_POSITION_PCT, price)
             state["stop_price"] = stop
+            state["entry_price"] = price
+            state["entry_reason"] = f"Chef: {chef['grund']} | Skeptiker: {skeptic['grund']} | {row['chart']}"[:600]
             action = "KOEB"
             row.update(antal_btc=round(bought, 6), stop_loss=stop)
     elif chef["beslutning"] == "SAELG" and qty > 0:
@@ -330,10 +419,24 @@ def main():
         state.pop("stop_price", None)
         action = "SAELG"
         row.update(antal_btc=round(sold, 6))
+        if state.get("entry_price") and price < state["entry_price"]:
+            analyze_failure(brain, state, "tabshandel", loss_details(state, price, "Chef solgte med tab"))
+        clear_entry(state)
     row["handling"] = action
     if action == "HOLD" and state.get("stop_price"):
         row["stop_loss"] = state["stop_price"]
     finish(row, state, broker, bh_value)
+
+
+def loss_details(state, exit_price, how):
+    entry = state.get("entry_price") or exit_price
+    return (f"{how}. Koebt til {entry:.0f}, solgt ca. {exit_price:.0f} "
+            f"({(exit_price / entry - 1) * 100:.2f}%). Grund til koebet: {state.get('entry_reason', 'ukendt')}")
+
+
+def clear_entry(state):
+    state.pop("entry_price", None)
+    state.pop("entry_reason", None)
 
 
 def finish(row, state, broker, bh_value):
