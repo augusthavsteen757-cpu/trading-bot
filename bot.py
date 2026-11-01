@@ -4,6 +4,7 @@ Multi-agent tradingbot til Alpaca PAPER (kun falske penge), kun BTC/USD.
 7 roller (claude-haiku-5-5): Scout, Nyheder, Stemning, Chart, Skeptiker (veto), Chef
 og Fejl-analytiker (skriver kun en lektie i lessons.md, naar 2 lignende fejl/tab er sket;
 Chef og Skeptiker laeser lektierne i de naeste runder).
+Koerer flere gange i timen via GitHub Actions (se .github/workflows/bot.yml).
 Koer: python bot.py          (en runde, rigtig paper-handel)
       python bot.py --test   (en runde med falske data, ingen noegler, ingen handel)
 """
@@ -118,7 +119,15 @@ def get_market_data():
     req = CryptoBarsRequest(symbol_or_symbols=SYMBOL, timeframe=TimeFrame.Hour,
                             start=datetime.now(timezone.utc) - timedelta(hours=72))
     bars = client.get_crypto_bars(req).data[SYMBOL]
-    return [b.close for b in bars], [b.volume for b in bars]
+    closes, volumes = [b.close for b in bars], [b.volume for b in bars]
+    # Botten koerer oftere end hver time: brug seneste handelspris som "pris nu"
+    try:
+        from alpaca.data.requests import CryptoLatestTradeRequest
+        latest = client.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))
+        closes[-1] = float(latest[SYMBOL].price)
+    except Exception as e:
+        print(f"Seneste pris utilgaengelig ({type(e).__name__}), bruger sidste timelukning")
+    return closes, volumes
 
 
 def get_news():
@@ -171,7 +180,7 @@ class Brain:
             max_tokens=400,
             thinking={"type": "disabled"},
             output_config={"effort": "low", "format": {"type": "json_schema", "schema": schema}},
-            system=(f"Du er '{role}' i et team, der handler BTC/USD hver time paa en paper-konto. "
+            system=(f"Du er '{role}' i et team, der handler BTC/USD flere gange i timen paa en paper-konto. "
                     f"{instructions} Svar kort paa dansk (max 25 ord per felt)."),
             messages=[{"role": "user", "content": data}],
         )
