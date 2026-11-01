@@ -7,9 +7,9 @@ Kun falske penge. Botten koerer en runde hver time:
 3. Skeptiker kan nedlaegge veto mod et koeb.
 4. Koeb er max 10 % af kontoen, altid med stop-loss 3 % under koebsprisen.
 5. Alt logges i `trades.csv`, inkl. sammenligning med koeb-og-behold.
-6. Fejl-analytiker koerer kun efter en teknisk fejl eller en tabshandel. Den skriver en kort lektie i
-   `lessons.md`, og Chef og Skeptiker laeser de 5 nyeste lektier hver runde. Samme tekniske fejl
-   analyseres kun een gang, saa API-forbruget forbliver lavt.
+6. Fejl-analytiker skriver kun en lektie i `lessons.md`, naar den samme slags fejl er sket 2 gange:
+   samme tekniske fejl, eller 2 tab koebt i samme markedstype (trend over/under SMA48 + RSI-zone).
+   Chef og Skeptiker laeser de 5 nyeste lektier hver runde. En laert teknisk fejl analyseres ikke igen.
 
 AI-forbrug: ca. 0,5 USD/md. Botten stopper selv AI-kald ved 7,50 USD/md.
 
