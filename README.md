@@ -1,6 +1,6 @@
 # Tradingbot (Alpaca PAPER, kun BTC/USD)
 
-Kun falske penge. Botten koerer en runde hver time:
+Kun falske penge. Botten koerer en runde hvert 30. minut (hvert 5. minut hvis repoet er offentligt):
 
 1. Scout, Nyheder, Stemning og Chart vurderer markedet (claude-haiku-5-5).
 2. Chef beslutter KOEB, SAELG eller HOLD.
@@ -17,7 +17,7 @@ AI-forbrug: ca. 0,5 USD/md. Botten stopper selv AI-kald ved 7,50 USD/md.
     pip install -r requirements.txt
     python bot.py --test
 
-## Koer paa GitHub hver time (anbefalet, gratis, din pc maa vaere slukket)
+## Koer paa GitHub (anbefalet, gratis, din pc maa vaere slukket)
 1. Laeg filerne i et privat GitHub-repo.
 2. Repo > Settings > Secrets and variables > Actions > New repository secret.
    Opret tre: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ANTHROPIC_API_KEY`.
