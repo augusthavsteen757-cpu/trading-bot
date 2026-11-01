@@ -37,15 +37,17 @@ jobs:
           MAX_AI_ROUNDS_PER_DAY: ${{ vars.MAX_AI_ROUNDS_PER_DAY }}
           RISK_PER_TRADE_PCT: ${{ vars.RISK_PER_TRADE_PCT }}
           MAX_POSITION_PCT: ${{ vars.MAX_POSITION_PCT }}
+          MAX_TOTAL_EXPOSURE_PCT: ${{ vars.MAX_TOTAL_EXPOSURE_PCT }}
+          COINS: ${{ vars.COINS }}
           RESET_HALT: ${{ vars.RESET_HALT }}
         run: |
           git config user.name "tradingbot"
           git config user.email "tradingbot@users.noreply.github.com"
-          DATA="trades.csv state.json lessons.md closed_trades.csv logs"
+          DATA="trades.csv trades_v*.csv state.json lessons.md closed_trades*.csv logs"
           end=$(( $(date +%s) + 330*60 ))
           while [ "$(date +%s)" -lt "$end" ]; do
             start=$(date +%s)
-            timeout 180 python bot.py || echo "Runde fejlede"
+            timeout 270 python bot.py || echo "Runde fejlede"
             for f in $DATA; do [ -e "$f" ] && git add "$f"; done
             git commit -q -m "Bot-runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
             if ! git pull -q --rebase; then
