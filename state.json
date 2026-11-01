@@ -20,7 +20,7 @@
         "entry": 77529.0,
         "stop": 76753.71,
         "stop_initial": 76753.71,
-        "high": 77854.3,
+        "high": 77854.81,
         "qty": 0.012583797,
         "entry_tid": "2026-11-01 19:30",
         "setup": "testkoeb",
@@ -73,5 +73,5 @@
       "last_review_price": 94.165
     }
   },
-  "last_btc_price": 77827.44
+  "last_btc_price": 77854.81
 }
