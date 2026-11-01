@@ -83,3 +83,6 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-01 21:50,BTC/USD,77854.81,range,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,76753.71,100018.5,0.019,100123.24,0.123,0.019,0.0,0.0626,
 2026-11-01 21:50,ETH/USD,2259.2,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100018.5,0.019,100123.24,0.123,0.019,0.0,0.0626,
 2026-11-01 21:50,SOL/USD,94.47,range,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,92.8,100018.5,0.019,100123.24,0.123,0.019,0.0,0.0626,
+2026-11-01 21:55,BTC/USD,77812.31,range,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,76753.71,100017.97,0.018,100068.58,0.069,0.018,-0.001,0.0626,
+2026-11-01 21:55,ETH/USD,2259.2,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100017.97,0.018,100068.58,0.069,0.018,-0.001,0.0626,
+2026-11-01 21:55,SOL/USD,94.47,range,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,92.8,100017.97,0.018,100068.58,0.069,0.018,-0.001,0.0626,
