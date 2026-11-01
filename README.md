@@ -1,4 +1,10 @@
-# Tradingbot v2 (Alpaca PAPER, kun BTC/USD)
+# Tradingbot v2 (Alpaca PAPER, BTC, ETH og SOL)
+
+**Flere coins (fra 1. nov 2026):** Botten tjekker BTC/USD, ETH/USD og SOL/USD hver runde. Hver coin har sin egen
+position, stop og AI-cooldown. Max 15 % af kontoen per coin og max 40 % samlet (`MAX_TOTAL_EXPOSURE_PCT`).
+Kill-switch og AI-budget er faelles. `trades.csv` har en raekke per coin per runde (kolonnen `coin`).
+Vaelg coins med Actions-variablen `COINS`, fx `BTC/USD,ETH/USD`. Koeb-og-behold-tallene sammenligner med BTC.
+
 
 Kun falske penge. Koerer hvert 5. minut i GitHub Actions (et langt job, der starter sig selv igen).
 
