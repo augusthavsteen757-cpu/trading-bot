@@ -3,13 +3,13 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.011682,
+  "budget_used": 0.02594,
   "version": 3,
   "learned": [],
   "pending": {},
   "ai_day": "2026-11-01",
-  "ai_rounds_today": 1,
-  "ai_spend_today": 0.0051354999999999994,
+  "ai_rounds_today": 2,
+  "ai_spend_today": 0.0193936,
   "eq_day": "2026-11-01",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
@@ -43,7 +43,31 @@
       "last_review_price": 77529.0
     },
     "ETH/USD": {},
-    "SOL/USD": {}
+    "SOL/USD": {
+      "last_entry_eval": "2026-11-01T19:55:36.113500+00:00",
+      "pos": {
+        "entry": 93.82,
+        "stop": 92.8,
+        "stop_initial": 92.8,
+        "high": 93.82,
+        "qty": 62.505932797,
+        "entry_tid": "2026-11-01 19:55",
+        "setup": "range_bund",
+        "regime": "range",
+        "conviction": 2,
+        "grund": "Pris 0,06 ATR over stoette, RSI oversolgt, modstand 95.78 giver ca. 3,8R mod tight stop. Men trend ned og lav volumen, derfor lille stoerrelse.",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 27.0,
+          "adx_1h": 19.4,
+          "rel_volumen_1h": 0.72,
+          "afstand_modstand_atr": 3.82,
+          "atr_percentil_30d": 11.9
+        }
+      }
+    }
   },
   "last_btc_price": 77653.2
 }
