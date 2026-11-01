@@ -54,6 +54,7 @@ HOLD_REVIEW_MIN = env_f("HOLD_REVIEW_MIN", 60)            # Chef ser paa aaben p
 
 RISK_PER_TRADE_PCT = env_f("RISK_PER_TRADE_PCT", 0.005)  # tab ved stop = 0,5 % af kontoen (ved fuld conviction)
 MAX_POSITION_PCT = env_f("MAX_POSITION_PCT", 0.15)       # haardt loft paa positionsstoerrelse
+TEST_BUY_PCT = env_f("TEST_BUY_PCT", 0.01)                # engangs-testkoeb via koeb_test.flag
 STOP_ATR_MULT = env_f("STOP_ATR_MULT", 2.0)              # stop = entry - 2 x ATR(1t)
 MIN_STOP_PCT, MAX_STOP_PCT = 0.01, 0.06
 TRAIL_ATR_MULT = env_f("TRAIL_ATR_MULT", 2.5)            # trailing stop = hoejeste pris - 2,5 x ATR
@@ -670,6 +671,14 @@ def main():
         save_state(state)
 
 
+def read_test_flag():
+    try:
+        with open(BASE / "koeb_test.flag") as fh:
+            return fh.read().strip()
+    except OSError:
+        return ""
+
+
 def run_round(state, brain, row, rec):
     broker = Broker()
     daily, hourly, m5, price = get_market_data()
@@ -729,6 +738,23 @@ def run_round(state, brain, row, rec):
             action = "INGEN HANDEL (Skeptiker-veto)"
         elif result[0] == "RISK_BLOK":
             action = "INGEN HANDEL (Risk Manager)"
+    # Engangs-testkoeb: laeg en ny tekst i koeb_test.flag for at koebe ~1 % af kontoen med normal ATR-stop.
+    flag_id = read_test_flag()
+    if (flag_id and flag_id != state.get("test_kob_id") and not holding and not closed and can_buy
+            and action != "KOEB"):
+        state["test_kob_id"] = flag_id
+        usd = equity * TEST_BUY_PCT
+        stop = price * (1 - min(max(STOP_ATR_MULT * f["atr_1h"] / price, MIN_STOP_PCT), MAX_STOP_PCT))
+        bought = broker.buy(usd, price, stop)
+        if bought > 0:
+            state["pos"] = {"entry": price, "stop": stop, "stop_initial": stop, "high": price, "qty": bought,
+                            "entry_tid": ts(), "setup": "testkoeb", "regime": f["regime"], "conviction": 1,
+                            "grund": "Manuelt testkoeb for at teste koeb, stop og log", "test": True,
+                            "features": {k: f[k] for k in ("trend_1h", "trend_4h", "trend_1d", "rsi_1h", "adx_1h",
+                                                           "rel_volumen_1h", "afstand_modstand_atr", "atr_percentil_30d")}}
+            action = "KOEB (test)"
+            row.update(antal_btc=round(bought, 6), usd=round(usd, 2), stop_loss=round(stop, 2),
+                       note="Engangs-testkoeb (ca. 1 % af kontoen)")
     row["handling"] = action
     rec["handling"] = action
 
