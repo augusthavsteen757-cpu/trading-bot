@@ -647,7 +647,8 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
     pos["high"] = max(pos["high"], price)
     r_unit = pos["entry"] - pos["stop_initial"]
     new_stop = pos["stop"]
-    if price >= pos["entry"] + BREAKEVEN_AT_R * r_unit:
+    be_at = 0.5 if pos.get("luk_foer_luk") else BREAKEVEN_AT_R  # ORB: beskyt gevinsten tidligt (ved +0,5R)
+    if price >= pos["entry"] + be_at * r_unit:
         new_stop = max(new_stop, pos["entry"], pos["high"] - TRAIL_ATR_MULT * atr)
     if new_stop - pos["stop"] > 0.25 * atr:
         broker.cancel_open_orders(coin)
