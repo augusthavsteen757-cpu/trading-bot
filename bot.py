@@ -183,7 +183,7 @@ def get_market_data(SYMBOL):
         m = fake_bars(288, 1 / 12, h[-1]["c"])
         return d, h, m, h[-1]["c"]
     from alpaca.data.historical import CryptoHistoricalDataClient
-    from alpaca.data.requests import CryptoBarsRequest, CryptoLatestTradeRequest
+    from alpaca.data.requests import CryptoBarsRequest, CryptoLatestQuoteRequest, CryptoLatestTradeRequest
     from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
     c = CryptoHistoricalDataClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
 
@@ -195,7 +195,13 @@ def get_market_data(SYMBOL):
     m5 = get(TimeFrame(5, TimeFrameUnit.Minute), timedelta(hours=26))
     price = m5[-1]["c"]
     try:
-        price = float(c.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))[SYMBOL].price)
+        # Midtpris af bud/udbud opdateres hele tiden. Seneste handel kan vaere timer gammel paa Alpacas lille boers.
+        q = c.get_crypto_latest_quote(CryptoLatestQuoteRequest(symbol_or_symbols=SYMBOL))[SYMBOL]
+        bid, ask = float(q.bid_price), float(q.ask_price)
+        if bid > 0 and ask > 0 and (ask - bid) / bid < 0.01:
+            price = (bid + ask) / 2
+        else:
+            price = float(c.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))[SYMBOL].price)
     except Exception as e:
         print(f"Seneste pris utilgaengelig ({type(e).__name__}), bruger 5m-lukning")
     if len(hourly) < 100 or len(daily) < 30:
