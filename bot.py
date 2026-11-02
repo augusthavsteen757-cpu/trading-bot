@@ -45,6 +45,8 @@ def env_f(name, default):
 # ---------------- Indstillinger (kan overskrives i .env eller som GitHub-variabler) ----------------
 CRYPTO = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
 STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL").split(",") if c.strip()]
+ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or "SPY,QQQ").split(",") if c.strip()]
+ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
 
 
@@ -593,6 +595,16 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
         close_trade(brain, state, cs, coin, price, "stop (software)")
         row.update(handling="STOP-LOSS SALG", antal=round(qty, 6))
         return True
+    if pos.get("target") and price >= pos["target"]:  # ORB: tag gevinst ved maalet
+        broker.sell_all(coin)
+        close_trade(brain, state, cs, coin, price, "maal naaet")
+        row.update(handling="SALG (maal)", antal=round(qty, 6))
+        return True
+    if pos.get("luk_foer_luk") and ny_time() >= (15, 50):  # ORB er en dagshandel: ud foer boersen lukker
+        broker.sell_all(coin)
+        close_trade(brain, state, cs, coin, price, "dagens slut (ORB)")
+        row.update(handling="SALG (dagens slut)", antal=round(qty, 6))
+        return True
     pos["high"] = max(pos["high"], price)
     r_unit = pos["entry"] - pos["stop_initial"]
     new_stop = pos["stop"]
@@ -795,6 +807,44 @@ def run_round(state, brain):
         print(json.dumps(row, ensure_ascii=False))
 
 
+def ny_now():
+    from zoneinfo import ZoneInfo
+    return now().astimezone(ZoneInfo("America/New_York"))
+
+
+def ny_time():
+    t = ny_now()
+    return (t.hour, t.minute)
+
+
+def orb_signal(m5, price):
+    """Opening range breakout (ren regel, ingen AI). Range = de 3 foerste 5m-bars (9:30-9:45 New York-tid).
+    Koeb naar sidste lukkede 5m-bar lukker over toppen, og prisen ikke er loebet mere end en halv range vaek.
+    Stop = midten af range, maal = ORB_TARGET_R x risiko. Kun 9:45-11:30 New York-tid.
+    Returnerer (stop, maal, info) eller None."""
+    if TEST_MODE:
+        hi, lo = price * 1.001, price * 0.996
+        return (hi + lo) / 2, price + ORB_TARGET_R * (price - (hi + lo) / 2), {"test": True}
+    t = ny_now()
+    if not ((9, 45) <= (t.hour, t.minute) <= (11, 30)):
+        return None
+    from zoneinfo import ZoneInfo
+    ny = ZoneInfo("America/New_York")
+    today = [b for b in m5 if b["t"].astimezone(ny).date() == t.date()]
+    rng = [b for b in today if (9, 30) <= (b["t"].astimezone(ny).hour, b["t"].astimezone(ny).minute) < (9, 45)]
+    if len(rng) < 3:
+        return None
+    hi, lo = max(b["h"] for b in rng), min(b["l"] for b in rng)
+    closed = [b for b in today if b["t"] + timedelta(minutes=5) <= now() and b not in rng]
+    if not closed or hi <= lo:
+        return None
+    mid = (hi + lo) / 2
+    info = {"or_high": round(hi, 2), "or_low": round(lo, 2), "sidste_luk": round(closed[-1]["c"], 2)}
+    if closed[-1]["c"] > hi and hi < price <= hi + 0.5 * (hi - lo):
+        return mid, price + ORB_TARGET_R * (price - mid), info
+    return None
+
+
 def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     daily, hourly, m5, price = get_market_data(coin)
     f = fx.compute_features(daily, hourly, m5, price)
@@ -817,6 +867,23 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         coin_can_buy, coin_block = False, f"samlet loft paa {MAX_TOTAL_EXPOSURE_PCT:.0%} af kontoen naaet"
 
     action = row.get("handling") or ("HOLD (position)" if holding else "HOLD")
+    if coin in ORB_SYMBOLS and not holding and not closed and coin_can_buy and cs.get("orb_day") != ny_now().date().isoformat():
+        sig = orb_signal(m5, price)
+        if sig:
+            stop, target, info = sig
+            cs["orb_day"] = ny_now().date().isoformat()  # max en ORB-handel pr. dag pr. symbol
+            risk_pct = max((price - stop) / price, 0.001)
+            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * MAX_POSITION_PCT, room)
+            bought = broker.buy(coin, usd, price, stop)
+            rec["orb"] = info
+            if bought > 0:
+                cs["pos"] = new_pos(f, price, stop, bought, "orb", 3, f"ORB breakout {info}")
+                cs["pos"].update(target=target, luk_foer_luk=True)
+                row.update(handling="KOEB (ORB)", antal=round(bought, 6), usd=round(bought * price, 2),
+                           stop_loss=round(stop, 2), ai_koert="nej (ORB er ren regel)",
+                           note=f"ORB: range {info.get('or_low')}-{info.get('or_high')}, maal {target:.2f}")
+                rec["handling"] = "KOEB (ORB)"
+                return
     want, why = need_ai(cs, f, holding)
     if not closed and want and not coin_can_buy and not holding:
         want, why = False, coin_block

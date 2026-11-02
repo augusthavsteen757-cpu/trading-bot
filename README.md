@@ -1,5 +1,7 @@
 # Tradingbot v2 (Alpaca PAPER, BTC, ETH og SOL)
 
+**ORB (opening range breakout, SPY og QQQ):** ren regel uden AI. Range = 9:30-9:45 New York (15:30-15:45 dansk vintertid). Koeb naar en 5m-bar lukker over toppen (9:45-11:30), stop i midten, maal 2R, max en handel pr. dag, altid ud foer 15:50. Setup hedder `orb` i closed_trades.csv.
+
 **Nyhedsvagt (newsguard.py):** foer et nyt koeb tjekkes regnskab (i gaar/i dag/i morgen, Nasdaq) og store negative nyheder sidste 12 t (Yahoo Finance, CoinDesk, Cointelegraph). Rammer det, koebes der ikke. Fejler en kilde, blokeres intet.
 
 **Aktier (fra 2. nov 2026):** SPY, QQQ, NVDA og AAPL (Actions-variabel `STOCKS`) handles kun naar boersen er aaben, i hele aktier, uden kurtage. Data er gratis IEX.
