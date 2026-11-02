@@ -540,3 +540,6 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-02 10:31,BTC/USD,77881.01,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100156.93,0.157,-0.085,-0.111,0.2151,
 2026-11-02 10:31,ETH/USD,2284.15,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100156.93,0.157,-0.085,-0.111,0.2151,
 2026-11-02 10:31,SOL/USD,93.99,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100156.93,0.157,-0.085,-0.111,0.2151,
+2026-11-02 10:36,BTC/USD,77871.35,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100144.51,0.145,-0.085,-0.111,0.2151,
+2026-11-02 10:36,ETH/USD,2284.2,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100144.51,0.145,-0.085,-0.111,0.2151,
+2026-11-02 10:36,SOL/USD,94.0,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99958.86,-0.041,100144.51,0.145,-0.085,-0.111,0.2151,
