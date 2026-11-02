@@ -42,7 +42,13 @@ def env_f(name, default):
 
 
 # ---------------- Indstillinger (kan overskrives i .env eller som GitHub-variabler) ----------------
-COINS = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
+CRYPTO = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
+STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL").split(",") if c.strip()]
+COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
+
+
+def is_stock(sym):
+    return "/" not in sym
 MODEL_FAST = "claude-haiku-5-5"      # Scout, Nyheder, Stemning, Chart
 MODEL_SMART = "claude-sonnet-5-5"    # Chef, Skeptiker, Risk Manager, Analytiker
 PRICES = {MODEL_FAST: (0.10, 0.50), MODEL_SMART: (2.00, 10.00)}  # USD per 1M tokens (ind, ud)
@@ -172,7 +178,7 @@ def fake_bars(n, step_h, start_price):
     return out
 
 
-FAKE_START = {"BTC/USD": 60000, "ETH/USD": 3000, "SOL/USD": 150}
+FAKE_START = {"BTC/USD": 60000, "ETH/USD": 3000, "SOL/USD": 150, "SPY": 650, "QQQ": 580, "NVDA": 180, "AAPL": 250}
 
 
 def get_market_data(SYMBOL):
@@ -182,6 +188,8 @@ def get_market_data(SYMBOL):
         h = fake_bars(720, 1, d[-1]["c"])
         m = fake_bars(288, 1 / 12, h[-1]["c"])
         return d, h, m, h[-1]["c"]
+    if is_stock(SYMBOL):
+        return get_stock_data(SYMBOL)
     from alpaca.data.historical import CryptoHistoricalDataClient
     from alpaca.data.requests import CryptoBarsRequest, CryptoLatestQuoteRequest, CryptoLatestTradeRequest
     from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
@@ -204,6 +212,33 @@ def get_market_data(SYMBOL):
             price = float(c.get_crypto_latest_trade(CryptoLatestTradeRequest(symbol_or_symbols=SYMBOL))[SYMBOL].price)
     except Exception as e:
         print(f"Seneste pris utilgaengelig ({type(e).__name__}), bruger 5m-lukning")
+    if len(hourly) < 100 or len(daily) < 30:
+        raise RuntimeError(f"For lidt data for {SYMBOL}: {len(daily)} dag-bars, {len(hourly)} time-bars")
+    return daily, hourly, m5, price
+
+
+def get_stock_data(SYMBOL):
+    """Aktier via gratis IEX-data. Time-bars findes kun i aabningstiden, saa '24h'-features daekker ca. 3 handelsdage."""
+    from alpaca.data.historical import StockHistoricalDataClient
+    from alpaca.data.requests import StockBarsRequest, StockLatestQuoteRequest
+    from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
+    from alpaca.data.enums import DataFeed
+    c = StockHistoricalDataClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
+
+    def get(tf, delta):
+        return _bars(c.get_stock_bars(StockBarsRequest(symbol_or_symbols=SYMBOL, timeframe=tf, feed=DataFeed.IEX,
+                                                       start=now() - delta)).data[SYMBOL])
+    daily = get(TimeFrame.Day, timedelta(days=300))
+    hourly = get(TimeFrame.Hour, timedelta(days=60))
+    m5 = get(TimeFrame(5, TimeFrameUnit.Minute), timedelta(days=5))
+    price = m5[-1]["c"]
+    try:
+        q = c.get_stock_latest_quote(StockLatestQuoteRequest(symbol_or_symbols=SYMBOL, feed=DataFeed.IEX))[SYMBOL]
+        bid, ask = float(q.bid_price), float(q.ask_price)
+        if bid > 0 and ask > 0 and (ask - bid) / bid < 0.005:
+            price = (bid + ask) / 2
+    except Exception as e:
+        print(f"Aktiekurs utilgaengelig ({type(e).__name__}), bruger 5m-lukning")
     if len(hourly) < 100 or len(daily) < 30:
         raise RuntimeError(f"For lidt data for {SYMBOL}: {len(daily)} dag-bars, {len(hourly)} time-bars")
     return daily, hourly, m5, price
@@ -267,7 +302,7 @@ class Brain:
         if TEST_MODE:
             return {k: FAKE.get(k, "test") for k in schema["properties"]}
         kw = dict(model=model, max_tokens=max_tokens,
-                  system=(f"Du er '{role}' i et lille team, der handler krypto ({', '.join(COINS)}) paa en paper-konto "
+                  system=(f"Du er '{role}' i et lille team, der handler krypto og aktier ({', '.join(COINS)}) paa en paper-konto "
                           f"(kun falske penge). {instructions} Svar kort paa dansk (max 30 ord per tekstfelt)."),
                   messages=[{"role": "user", "content": data}],
                   output_config={"effort": "low" if model == MODEL_FAST else "medium",
@@ -310,7 +345,7 @@ def run_analysts(brain, f, news, fng, coin):
         "nyheder": (f"Du vurderer om nyhederne paavirker {coin} de naeste 1-24 timer. De fleste nyheder er stoej: "
                     "giv neutral, medmindre en nyhed klart flytter markedet.", "Overskrifter: " + " | ".join(news)),
         "stemning": ("Du laeser Fear & Greed. Ekstrem frygt kan vaere koebsmulighed, ekstrem graadighed er "
-                     "risiko. Vaegt aendringen over 7 dage hoejere end niveauet.", f"Fear & Greed: {fng}"),
+                     "risiko. Vaegt aendringen over 7 dage hoejere end niveauet.", f"Fear & Greed (krypto-indeks{'; for en aktie kun et groft maal for risikolyst' if is_stock(coin) else ''}): {fng}"),
         "chart": ("Du er teknisk analytiker. Vurder momentum-kvalitet (ADX, efficiency, ROC), afstand til "
                   "stoette/modstand i ATR og om et koeb her har god risk/reward.", tr),
     }
@@ -403,6 +438,14 @@ class Broker:
         from alpaca.trading.client import TradingClient
         self.t = TradingClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"), paper=True)  # ALTID paper
 
+    def market_open(self):
+        if TEST_MODE:
+            return True
+        try:
+            return bool(self.t.get_clock().is_open)
+        except Exception:
+            return False
+
     def equity(self):
         return self.fake["equity"] if TEST_MODE else float(self.t.get_account().equity)
 
@@ -433,20 +476,28 @@ class Broker:
             return
         from alpaca.trading.requests import StopLimitOrderRequest
         from alpaca.trading.enums import OrderSide, TimeInForce
-        dec = 2 if stop >= 10 else 4
+        dec = 2 if stop >= 10 or is_stock(coin) else 4
         self.t.submit_order(StopLimitOrderRequest(symbol=coin, qty=qty, side=OrderSide.SELL,
                                                   time_in_force=TimeInForce.GTC, stop_price=round(stop, dec),
                                                   limit_price=round(stop * 0.99, dec)))
 
     def buy(self, coin, usd, price, stop):
+        if is_stock(coin):  # hele aktier, saa stop-ordren kan vaere GTC
+            usd = int(usd / price) * price
+            if usd <= 0:
+                return 0.0
         if self.paper_only:
             if TEST_MODE:
                 self.fake["qty"][coin] = usd / price
             return usd / price
         from alpaca.trading.requests import MarketOrderRequest
         from alpaca.trading.enums import OrderSide, TimeInForce
-        self.t.submit_order(MarketOrderRequest(symbol=coin, notional=round(usd, 2),
-                                               side=OrderSide.BUY, time_in_force=TimeInForce.GTC))
+        if is_stock(coin):
+            self.t.submit_order(MarketOrderRequest(symbol=coin, qty=int(round(usd / price)),
+                                                   side=OrderSide.BUY, time_in_force=TimeInForce.DAY))
+        else:
+            self.t.submit_order(MarketOrderRequest(symbol=coin, notional=round(usd, 2),
+                                                   side=OrderSide.BUY, time_in_force=TimeInForce.GTC))
         qty = 0.0
         for _ in range(10):
             time.sleep(2)
@@ -705,7 +756,10 @@ def run_round(state, brain):
     broker = Broker()
     equity = broker.equity()
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
+    stocks_open = broker.market_open() if STOCKS else False
     for coin in COINS:
+        if is_stock(coin) and not stocks_open:
+            continue  # boersen er lukket: stop-ordren hos Alpaca passer paa en evt. position
         row = {"tid_utc": ts(), "coin": coin, "dagens_pnl_pct": round(day_pnl * 100, 3), "drawdown_pct": round(dd * 100, 3)}
         rec = {"tid": now().isoformat(), "coin": coin, "mode": "test" if TEST_MODE else "dry" if DRY_RUN else "paper"}
         cs = state["coins"].setdefault(coin, {})
@@ -781,7 +835,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
             if bought > 0:
                 cs["pos"] = new_pos(f, price, stop, bought, chef["setup"], chef["conviction"], chef["grund"][:300])
                 action = "KOEB"
-                row.update(antal=round(bought, 6), usd=round(usd, 2), stop_loss=round(stop, 4))
+                row.update(antal=round(bought, 6), usd=round(bought * price, 2), stop_loss=round(stop, 4))
             else:
                 row["note"] = "Koeb sendt, men ingen position fundet"
         elif result[0] == "SAELG":

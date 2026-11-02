@@ -39,6 +39,7 @@ jobs:
           MAX_POSITION_PCT: ${{ vars.MAX_POSITION_PCT }}
           MAX_TOTAL_EXPOSURE_PCT: ${{ vars.MAX_TOTAL_EXPOSURE_PCT }}
           COINS: ${{ vars.COINS }}
+          STOCKS: ${{ vars.STOCKS }}
           RESET_HALT: ${{ vars.RESET_HALT }}
         run: |
           git config user.name "tradingbot"
