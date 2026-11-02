@@ -59,6 +59,7 @@ PRICES = {MODEL_FAST: (0.10, 0.50), MODEL_SMART: (2.00, 10.00)}  # USD per 1M to
 MONTHLY_BUDGET_USD = env_f("MONTHLY_BUDGET_USD", 7.50)   # haard graense for AI-forbrug
 MAX_AI_ROUNDS_PER_DAY = int(env_f("MAX_AI_ROUNDS_PER_DAY", 20))
 AI_COOLDOWN_MIN = env_f("AI_COOLDOWN_MIN", 10)            # min. tid mellem to koebs-vurderinger
+SAME_SETUP_RETRY_MIN = env_f("SAME_SETUP_RETRY_MIN", 60)  # samme coin + samme setup: spoerg AI max hver time
 HOLD_REVIEW_MIN = env_f("HOLD_REVIEW_MIN", 60)            # Chef ser paa aaben position max hver time
 
 RISK_PER_TRADE_PCT = env_f("RISK_PER_TRADE_PCT", 0.005)  # tab ved stop = 0,5 % af kontoen (ved fuld conviction)
@@ -294,6 +295,11 @@ class Brain:
         if not TEST_MODE:
             import anthropic
             self.client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"), max_retries=3, timeout=60)
+
+    def money_ok(self):
+        """Kun pengegraenserne (bruges af nyhedsjaegeren, som ikke taeller med i de 20 AI-runder)."""
+        return (self.state["budget_used"] < MONTHLY_BUDGET_USD - 0.05
+                and self.state["ai_spend_today"] < MONTHLY_BUDGET_USD / 31 * 2)
 
     def budget_ok(self):
         """Maanedsloft + jaevn fordeling over maaneden, saa budgettet ikke bruges op paa en dag."""
@@ -669,6 +675,9 @@ def need_ai(cs, f, holding):
     last = cs.get("last_entry_eval")
     if last and (t - datetime.fromisoformat(last)).total_seconds() < AI_COOLDOWN_MIN * 60:
         return False, "cooldown"
+    if (last and cs.get("last_entry_setups") == sorted(f["setups"])
+            and (t - datetime.fromisoformat(last)).total_seconds() < SAME_SETUP_RETRY_MIN * 60):
+        return False, "samme setup vurderet for under en time siden"
     return True, "setup: " + ", ".join(f["setups"] or ["test"])
 
 
@@ -795,7 +804,7 @@ def run_round(state, brain):
     news_syms = CRYPTO + (STOCKS if stocks_open else [])  # krypto doegnet rundt, aktier kun naar boersen er aaben
     if news_syms:  # nyhedsjaeger: gratis nyheds-tjek, AI kun naar der er nye overskrifter
         nj = newsguard.hunt(state, lambda role, ins, data, schema: brain.ask(role, MODEL_FAST, ins, data, schema, 2000),
-                            news_syms, brain.budget_ok, TEST_MODE)
+                            news_syms, brain.money_ok, TEST_MODE)
         print("Nyhedsjaeger:", json.dumps(nj, ensure_ascii=False))
         if nj.get("vurderinger"):
             log_json({"tid": now().isoformat(), "coin": "NYHEDSJAEGER", **nj})
@@ -935,7 +944,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         if holding:
             cs["last_hold_review"], cs["last_review_price"] = now().isoformat(), price
         else:
-            cs["last_entry_eval"] = now().isoformat()
+            cs["last_entry_eval"], cs["last_entry_setups"] = now().isoformat(), sorted(f["setups"])
         try:
             result = run_ai(brain, state, cs, coin, f, holding, equity, coin_can_buy, coin_block, row, rec)
         except Exception as e:
