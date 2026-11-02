@@ -3,13 +3,13 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.120409,
+  "budget_used": 0.130497,
   "version": 3,
   "learned": [],
   "pending": {},
   "ai_day": "2026-11-02",
-  "ai_rounds_today": 2,
-  "ai_spend_today": 0.0104107,
+  "ai_rounds_today": 4,
+  "ai_spend_today": 0.020499099999999996,
   "eq_day": "2026-11-02",
   "day_start_equity": 100043.43,
   "peak_equity": 100044.91,
@@ -39,8 +39,8 @@
           "atr_percentil_30d": 9.0
         }
       },
-      "last_hold_review": "2026-11-01T23:40:55.936980+00:00",
-      "last_review_price": 78231.562
+      "last_hold_review": "2026-11-02T00:20:56.168982+00:00",
+      "last_review_price": 77936.638
     },
     "ETH/USD": {
       "last_entry_eval": "2026-11-02T00:05:56.264728+00:00"
@@ -69,9 +69,9 @@
           "atr_percentil_30d": 11.9
         }
       },
-      "last_hold_review": "2026-11-02T00:00:56.335482+00:00",
-      "last_review_price": 94.79
+      "last_hold_review": "2026-11-02T00:21:04.727988+00:00",
+      "last_review_price": 93.9
     }
   },
-  "last_btc_price": 78117.93
+  "last_btc_price": 77936.638
 }
