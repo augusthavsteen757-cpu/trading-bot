@@ -679,12 +679,14 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     others = [c for c, v in state["coins"].items() if v.get("pos") and c != coin]
     pos_txt += f" Andre aabne positioner: {', '.join(others) or 'ingen'}."
     ctx = (f"COIN: {coin}\n{pos_txt}\n\nFEATURES: {fx.summary_text(f)}\n\nANALYTIKERE:\n{summary}\n\n"
+           f"NYHEDSJAEGER: {f.get('_nyhedsjaeger') or 'intet signal'}\n\n"
            f"PERFORMANCE:\n{perf}\n\nLEKTIER:\n{lessons}")
 
     chef = brain.ask(
         "Chef", MODEL_SMART,
         f"Du traeffer beslutningen for {coin}. KOEB kun hvis vi ikke ejer {coin}, et af de fundne setups er gyldigt, og der er "
-        f"mindst 1,2R plads til naeste modstand. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
+        f"mindst 1,2R plads til naeste modstand. Setup nyhed_op betyder, at nyhedsjaegeren fandt en ny, staerk "
+        "nyhed, og kursen er begyndt at bekraefte den: koeb kun hvis du selv tror, at nyheden ikke allerede er i prisen. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
         "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
         ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                   "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
@@ -778,6 +780,12 @@ def run_round(state, brain):
     equity = broker.equity()
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
     stocks_open = broker.market_open() if STOCKS else False
+    if stocks_open:  # nyhedsjaeger: gratis nyheds-tjek, AI kun naar der er nye overskrifter
+        nj = newsguard.hunt(state, lambda role, ins, data, schema: brain.ask(role, MODEL_FAST, ins, data, schema, 1500),
+                            STOCKS, brain.budget_ok, TEST_MODE)
+        print("Nyhedsjaeger:", json.dumps(nj, ensure_ascii=False))
+        if nj.get("vurderinger"):
+            log_json({"tid": now().isoformat(), "coin": "NYHEDSJAEGER", **nj})
     for coin in COINS:
         if is_stock(coin) and not stocks_open:
             continue  # boersen er lukket: stop-ordren hos Alpaca passer paa en evt. position
@@ -884,7 +892,17 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                            note=f"ORB: range {info.get('or_low')}-{info.get('or_high')}, maal {target:.2f}")
                 rec["handling"] = "KOEB (ORB)"
                 return
+    news_setup, news_block, f["_nyhedsjaeger"] = (newsguard.signal_for(state, coin, price) if is_stock(coin)
+                                                  else ("", "", ""))
+    if news_setup and news_setup not in f["setups"]:
+        f["setups"].append(news_setup)
+        row["setups"] = " ".join(f["setups"])
     want, why = need_ai(cs, f, holding)
+    if holding and news_block and not closed and cs.get("nyhed_review") != f["_nyhedsjaeger"]:
+        cs["nyhed_review"] = f["_nyhedsjaeger"]  # staerk negativ nyhed: Chef ser paa positionen en gang
+        want, why = True, f"positions-review ({news_block})"
+    if not closed and want and not holding and news_block:
+        want, why = False, f"nyhedsjaeger: {news_block}"
     if not closed and want and not coin_can_buy and not holding:
         want, why = False, coin_block
     room_pct = (f["naeste_modstand"] - price) / price
