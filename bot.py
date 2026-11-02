@@ -64,6 +64,8 @@ MAX_TOTAL_EXPOSURE_PCT = env_f("MAX_TOTAL_EXPOSURE_PCT", 0.40)  # samlet loft fo
 TEST_BUY_PCT = env_f("TEST_BUY_PCT", 0.01)                # engangs-testkoeb via koeb_test.flag
 STOP_ATR_MULT = env_f("STOP_ATR_MULT", 2.0)              # stop = entry - 2 x ATR(1t)
 MIN_STOP_PCT, MAX_STOP_PCT = 0.01, 0.06
+CRYPTO_MIN_STOP_PCT = env_f("CRYPTO_MIN_STOP_PCT", 0.02)  # krypto har ca. 0,5 % gebyr pr. handel: ingen smaa stop
+CRYPTO_MIN_ROOM_PCT = env_f("CRYPTO_MIN_ROOM_PCT", 0.03)  # krypto: mindst 3 % op til naeste modstand foer koeb
 TRAIL_ATR_MULT = env_f("TRAIL_ATR_MULT", 2.5)            # trailing stop = hoejeste pris - 2,5 x ATR
 BREAKEVEN_AT_R = env_f("BREAKEVEN_AT_R", 1.0)            # flyt stop til entry naar +1R
 MAX_DAILY_LOSS_PCT = env_f("MAX_DAILY_LOSS_PCT", 0.02)   # -2 % i dag = ingen nye koeb i dag
@@ -534,9 +536,15 @@ class Broker:
 
 
 # ---------------- Risiko ----------------
-def compute_size(equity, price, atr, conviction, regime):
+def stop_frac(coin, price, atr):
+    """Stop-afstand som brøk af prisen: 2 x ATR, mindst 1 % (aktier) / 2 % (krypto), max 6 %."""
+    lo = MIN_STOP_PCT if is_stock(coin) else CRYPTO_MIN_STOP_PCT
+    return min(max(STOP_ATR_MULT * atr / price, lo), MAX_STOP_PCT)
+
+
+def compute_size(coin, equity, price, atr, conviction, regime):
     """Volatilitets- og conviction-justeret stoerrelse. Returnerer (usd, stop, stop_pct)."""
-    stop_pct = min(max(STOP_ATR_MULT * atr / price, MIN_STOP_PCT), MAX_STOP_PCT)
+    stop_pct = stop_frac(coin, price, atr)
     conv = {1: 0.25, 2: 0.4, 3: 0.6, 4: 0.8, 5: 1.0}.get(int(conviction), 0.5)
     vol = 0.5 if regime == "high_vol" else 1.0
     risk_usd = equity * RISK_PER_TRADE_PCT * conv * vol
@@ -568,7 +576,7 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
     """Afstemning med Alpaca + trailing stop + software-stop. Returnerer True hvis positionen blev lukket."""
     pos, price, atr = cs.get("pos"), f["pris"], f["atr_1h"]
     if qty > 0 and not pos:  # position uden state (fx manuel handel): adopter den med ATR-stop
-        stop = price * (1 - min(max(STOP_ATR_MULT * atr / price, MIN_STOP_PCT), MAX_STOP_PCT))
+        stop = price * (1 - stop_frac(coin, price, atr))
         pos = cs["pos"] = {"entry": price, "stop": stop, "stop_initial": stop, "high": price, "qty": qty,
                            "entry_tid": ts(), "setup": "adopteret", "regime": f["regime"], "conviction": 3}
         row["note"] = "Ukendt position adopteret"
@@ -701,7 +709,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     if veto:
         return ("VETO",)
 
-    usd, stop, stop_pct = compute_size(equity, f["pris"], f["atr_1h"], chef["conviction"], f["regime"])
+    usd, stop, stop_pct = compute_size(coin, equity, f["pris"], f["atr_1h"], chef["conviction"], f["regime"])
     rm = brain.ask(
         "Risk Manager", MODEL_SMART,
         "Du har absolut veto paa stoerrelse. Du kan godkende, reducere (size_faktor 0-1) eller blokere. Reducer ved "
@@ -811,6 +819,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     want, why = need_ai(cs, f, holding)
     if not closed and want and not coin_can_buy and not holding:
         want, why = False, coin_block
+    room_pct = (f["naeste_modstand"] - price) / price
+    if not closed and want and not holding and not is_stock(coin) and room_pct < CRYPTO_MIN_ROOM_PCT:
+        want, why = False, f"kun {room_pct:.1%} til modstand (krypto kraever {CRYPTO_MIN_ROOM_PCT:.0%} pga. gebyr)"
     if not closed and want and not brain.budget_ok():
         want, why = False, "AI-budget for i dag/maaned brugt"
     rec["ai_grund"] = why
@@ -854,7 +865,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
             and coin_can_buy and action != "KOEB"):
         state["test_kob_id"] = flag_id
         usd = min(equity * TEST_BUY_PCT, room)
-        stop = price * (1 - min(max(STOP_ATR_MULT * f["atr_1h"] / price, MIN_STOP_PCT), MAX_STOP_PCT))
+        stop = price * (1 - stop_frac(coin, price, f["atr_1h"]))
         bought = broker.buy(coin, usd, price, stop)
         if bought > 0:
             cs["pos"] = new_pos(f, price, stop, bought, "testkoeb", 1, "Manuelt testkoeb for at teste koeb, stop og log")
