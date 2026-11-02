@@ -15,6 +15,9 @@
     ],
     "teknisk fejl: APIError: {\"available\":\"0\",\"code\":40310000,\"existi": [
       "2026-11-02 15:22: SPY: APIError: {\"available\":\"0\",\"code\":40310000,\"existing_qty\":\"19\",\"held_for_orders\":\"19\",\"message\":\"insufficient qty available for order (requested: 19, available: 0)\",\"symbol\":\"SPY\"}"
+    ],
+    "gevinst: orb i high_vol": [
+      "2026-11-02 15:27: SPY: maal naaet. R=+3.52. Entry 760, exit 764. Grund til koeb: ORB breakout {'or_high': 759.99, 'or_low': 758.74, 'sidste_luk': 760.28}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': 0, 'rsi_1h': 45.1, 'adx_1h': 27.2, 'rel_volumen_1h': 0.16, 'afstand_modstand_atr': 1.23, 'atr_percentil_30d': 93.6}"
     ]
   },
   "ai_day": "2026-11-02",
@@ -38,31 +41,7 @@
       "last_review_price": 94.7857
     },
     "SPY": {
-      "orb_day": "2026-11-02",
-      "pos": {
-        "entry": 760.3299999999999,
-        "stop": 760.3299999999999,
-        "stop_initial": 759.365,
-        "high": 761.95,
-        "qty": 19.0,
-        "entry_tid": "2026-11-02 15:07",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 759.99, 'or_low': 758.74, 'sidste_luk': 760.28}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": 0,
-          "rsi_1h": 45.1,
-          "adx_1h": 27.2,
-          "rel_volumen_1h": 0.16,
-          "afstand_modstand_atr": 1.23,
-          "atr_percentil_30d": 93.6
-        },
-        "target": 762.2599999999998,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-02"
     },
     "QQQ": {
       "orb_day": "2026-11-02",
@@ -70,7 +49,7 @@
         "entry": 698.01,
         "stop": 689.33,
         "stop_initial": 689.33,
-        "high": 698.01,
+        "high": 698.85,
         "qty": 21.0,
         "entry_tid": "2026-11-02 15:22",
         "setup": "adopteret",
@@ -81,7 +60,7 @@
     "NVDA": {},
     "AAPL": {}
   },
-  "last_btc_price": 77826.95000000001,
+  "last_btc_price": 77853.296,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [

@@ -758,3 +758,10 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-02 15:22,QQQ,698.01,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,689.33,100041.9,0.042,100087.41,0.087,0.002,-0.024,0.2151,Manglende stop-ordre genskabt
 2026-11-02 15:22,NVDA,209.23,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100038.28,0.038,100087.41,0.087,0.002,-0.024,0.2151,
 2026-11-02 15:22,AAPL,340.82,range,range_bund,nej (nyhedsvagt: regnskab 2026-11-02),,,,,,,,,,,,,HOLD,,,,100038.69,0.039,100087.41,0.087,0.002,-0.024,0.2151,
+2026-11-02 15:26,BTC/USD,77853.3,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100063.25,0.063,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:26,ETH/USD,2289.25,range,trend_pullback,nej (kun 0.5% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,100066.51,0.067,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:27,SOL/USD,94.24,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100070.11,0.07,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:27,SPY,763.73,high_vol,,nej (intet setup),,,,,,,,,,,,,SALG (maal),19.0,,,100069.73,0.07,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:27,QQQ,698.85,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,689.33,100069.59,0.07,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:27,NVDA,209.62,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100071.6,0.072,100121.29,0.121,0.02,-0.007,0.2151,
+2026-11-02 15:27,AAPL,340.7,range,range_bund,nej (nyhedsvagt: regnskab 2026-11-02),,,,,,,,,,,,,HOLD,,,,100070.76,0.071,100121.29,0.121,0.02,-0.007,0.2151,
