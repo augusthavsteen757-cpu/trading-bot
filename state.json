@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76762.344,
+  "last_btc_price": 76818.8655,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -551,17 +551,6 @@
         "tid": "2026-11-02T19:27:27.638846+00:00",
         "pris_ved_nyhed": 754.115,
         "udloeber": "2026-11-02T20:27:27.638846+00:00"
-      },
-      "AAPL": {
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Artiklen er forventningsopbygning til mandagens Q4-rapport, og valuationen (36x) er allerede kendt. Ingen klar overraskelse, derfor lav styrke og neutral retning.",
-        "tid": "2026-11-02T17:32:26.225299+00:00",
-        "pris_ved_nyhed": 337.01,
-        "udloeber": "2026-11-02T19:32:26.225299+00:00"
       },
       "SOL/USD": {
         "symbol": "SOL/USD",
