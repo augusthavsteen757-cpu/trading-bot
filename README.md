@@ -1,5 +1,7 @@
 # Tradingbot v2 (Alpaca PAPER, BTC, ETH og SOL)
 
+**Aktier (fra 2. nov 2026):** SPY, QQQ, NVDA og AAPL (Actions-variabel `STOCKS`) handles kun naar boersen er aaben, i hele aktier, uden kurtage. Data er gratis IEX.
+
 **Flere coins (fra 1. nov 2026):** Botten tjekker BTC/USD, ETH/USD og SOL/USD hver runde. Hver coin har sin egen
 position, stop og AI-cooldown. Max 15 % af kontoen per coin og max 40 % samlet (`MAX_TOTAL_EXPOSURE_PCT`).
 Kill-switch og AI-budget er faelles. `trades.csv` har en raekke per coin per runde (kolonnen `coin`).
