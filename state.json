@@ -54,13 +54,14 @@
         "entry_tid": "2026-11-02 15:22",
         "setup": "adopteret",
         "regime": "high_vol",
-        "conviction": 3
+        "conviction": 3,
+        "luk_foer_luk": true
       }
     },
     "NVDA": {},
     "AAPL": {}
   },
-  "last_btc_price": 77451.619,
+  "last_btc_price": 77342.95000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
