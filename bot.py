@@ -475,6 +475,10 @@ class Broker:
             return
         for o in self.open_stop_orders(coin):
             self.t.cancel_order_by_id(o.id)
+        for _ in range(10):  # annullering tager et oejeblik; ellers er aktierne stadig 'laast' ved salg
+            if not self.open_stop_orders(coin):
+                break
+            time.sleep(1)
 
     def place_stop(self, coin, qty, stop):
         if self.paper_only:
@@ -498,19 +502,25 @@ class Broker:
         from alpaca.trading.requests import MarketOrderRequest
         from alpaca.trading.enums import OrderSide, TimeInForce
         if is_stock(coin):
-            self.t.submit_order(MarketOrderRequest(symbol=coin, qty=int(round(usd / price)),
-                                                   side=OrderSide.BUY, time_in_force=TimeInForce.DAY))
+            order = self.t.submit_order(MarketOrderRequest(symbol=coin, qty=int(round(usd / price)),
+                                                           side=OrderSide.BUY, time_in_force=TimeInForce.DAY))
         else:
-            self.t.submit_order(MarketOrderRequest(symbol=coin, notional=round(usd, 2),
-                                                   side=OrderSide.BUY, time_in_force=TimeInForce.GTC))
-        qty = 0.0
-        for _ in range(10):
+            order = self.t.submit_order(MarketOrderRequest(symbol=coin, notional=round(usd, 2),
+                                                           side=OrderSide.BUY, time_in_force=TimeInForce.GTC))
+        for _ in range(15):  # vent til koebet er HELT fyldt, ellers afviser Alpaca stop-ordren som 'wash trade'
             time.sleep(2)
-            qty = self.position_qty(coin)
-            if qty > 0:
-                break
+            try:
+                st = str(self.t.get_order_by_id(order.id).status).lower()
+                if st.endswith("filled") and "partially" not in st:
+                    break
+            except Exception:
+                pass
+        qty = self.position_qty(coin)
         if qty > 0:
-            self.place_stop(coin, qty, stop)
+            try:
+                self.place_stop(coin, qty, stop)
+            except Exception as e:  # positionen gemmes alligevel; naeste runde genskaber stop-ordren
+                print(f"{coin}: stop-ordre fejlede efter koeb ({e}); proever igen naeste runde")
         return qty
 
     def sell_all(self, coin):
@@ -600,6 +610,8 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
         close_trade(brain, state, cs, coin, price, "maal naaet")
         row.update(handling="SALG (maal)", antal=round(qty, 6))
         return True
+    if pos.get("setup") == "adopteret" and is_stock(coin) and cs.get("orb_day") == ny_now().date().isoformat():
+        pos["luk_foer_luk"] = True  # ORB-koeb hvis stop-ordre fejlede: stadig en dagshandel
     if pos.get("luk_foer_luk") and ny_time() >= (15, 50):  # ORB er en dagshandel: ud foer boersen lukker
         broker.sell_all(coin)
         close_trade(brain, state, cs, coin, price, "dagens slut (ORB)")
