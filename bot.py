@@ -685,8 +685,8 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     chef = brain.ask(
         "Chef", MODEL_SMART,
         f"Du traeffer beslutningen for {coin}. KOEB kun hvis vi ikke ejer {coin}, et af de fundne setups er gyldigt, og der er "
-        f"mindst 1,2R plads til naeste modstand. Setup nyhed_op betyder, at nyhedsjaegeren fandt en ny, staerk "
-        "nyhed, og kursen er begyndt at bekraefte den: koeb kun hvis du selv tror, at nyheden ikke allerede er i prisen. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
+        f"mindst 1,2R plads til naeste modstand. Setup nyhed_op betyder, at nyhedsjaegeren fandt en positiv "
+        "nyhed: taenk selv over om den kan loefte kursen yderligere, og koeb hvis du tror det. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
         "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
         ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                   "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
@@ -780,9 +780,10 @@ def run_round(state, brain):
     equity = broker.equity()
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
     stocks_open = broker.market_open() if STOCKS else False
-    if stocks_open:  # nyhedsjaeger: gratis nyheds-tjek, AI kun naar der er nye overskrifter
-        nj = newsguard.hunt(state, lambda role, ins, data, schema: brain.ask(role, MODEL_FAST, ins, data, schema, 1500),
-                            STOCKS, brain.budget_ok, TEST_MODE)
+    news_syms = CRYPTO + (STOCKS if stocks_open else [])  # krypto doegnet rundt, aktier kun naar boersen er aaben
+    if news_syms:  # nyhedsjaeger: gratis nyheds-tjek, AI kun naar der er nye overskrifter
+        nj = newsguard.hunt(state, lambda role, ins, data, schema: brain.ask(role, MODEL_FAST, ins, data, schema, 2000),
+                            news_syms, brain.budget_ok, TEST_MODE)
         print("Nyhedsjaeger:", json.dumps(nj, ensure_ascii=False))
         if nj.get("vurderinger"):
             log_json({"tid": now().isoformat(), "coin": "NYHEDSJAEGER", **nj})
@@ -892,8 +893,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                            note=f"ORB: range {info.get('or_low')}-{info.get('or_high')}, maal {target:.2f}")
                 rec["handling"] = "KOEB (ORB)"
                 return
-    news_setup, news_block, f["_nyhedsjaeger"] = (newsguard.signal_for(state, coin, price) if is_stock(coin)
-                                                  else ("", "", ""))
+    news_setup, news_block, f["_nyhedsjaeger"] = newsguard.signal_for(state, coin, price)
     if news_setup and news_setup not in f["setups"]:
         f["setups"].append(news_setup)
         row["setups"] = " ".join(f["setups"])
