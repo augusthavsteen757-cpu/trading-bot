@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76653.671,
+  "last_btc_price": 76674.945,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -497,28 +497,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "CoreWeave er en stor NVDA-kunde; svag sentiment om AI-datacenter-capex rammer direkte eftersp\u00f8rgslen efter NVDA-chips.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 201.935,
-        "udloeber": "2026-11-02T23:57:27.137247+00:00"
-      },
-      "QQQ": {
-        "symbol": "QQQ",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "AI-kapex-bekymringer fra CoreWeave kan smitte over til tech-indekset, is\u00e6r NVDA-relaterede forventninger.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 680.355,
-        "udloeber": "2026-11-02T23:57:27.137247+00:00"
-      },
       "AMD": {
         "symbol": "AMD",
         "retning": "neutral",
@@ -529,28 +507,6 @@
         "tid": "2026-11-02T20:47:26.984695+00:00",
         "pris_ved_nyhed": 470.12,
         "udloeber": "2026-11-03T00:47:26.984695+00:00"
-      },
-      "GOOGL": {
-        "symbol": "GOOGL",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Overskriften n\u00e6vner GOOGL direkte; AI-capex-frygt kan d\u00e6mpe sentiment for store hyperscalere i kort sigt.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 279.03999999999996,
-        "udloeber": "2026-11-02T23:57:27.137247+00:00"
-      },
-      "MSFT": {
-        "symbol": "MSFT",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Overskriften n\u00e6vner MSFT direkte; bekymring om AI-capex og g\u00e6ld kan presse hyperscaler-aktier, selvom Microsoft er mindre eksponeret end CoreWeave.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 505.475,
-        "udloeber": "2026-11-02T23:57:27.137247+00:00"
       }
     },
     "dag": "2026-11-02",
