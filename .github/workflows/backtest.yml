@@ -1,0 +1,47 @@
+name: Backtest krypto
+
+# Tester salgsreglerne paa de sidste 30 dages krypto-kurser. Ingen AI, ingen ordrer.
+# Resultatet gemmes i backtest_resultat.md paa main.
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Antal dage tilbage"
+        default: "30"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Koer backtest
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+          COINS: ${{ vars.COINS }}
+          BT_DAYS: ${{ inputs.days }}
+        run: python backtest.py
+      - name: Gem resultat paa main
+        run: |
+          git config user.name "tradingbot"
+          git config user.email "tradingbot@users.noreply.github.com"
+          git add backtest_resultat.md
+          git commit -q -m "Backtest krypto $(date -u +%Y-%m-%dT%H:%M)" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
