@@ -1,5 +1,7 @@
 # Tradingbot v2 (Alpaca PAPER, BTC, ETH og SOL)
 
+**Nyhedsvagt (newsguard.py):** foer et nyt koeb tjekkes regnskab (i gaar/i dag/i morgen, Nasdaq) og store negative nyheder sidste 12 t (Yahoo Finance, CoinDesk, Cointelegraph). Rammer det, koebes der ikke. Fejler en kilde, blokeres intet.
+
 **Aktier (fra 2. nov 2026):** SPY, QQQ, NVDA og AAPL (Actions-variabel `STOCKS`) handles kun naar boersen er aaben, i hele aktier, uden kurtage. Data er gratis IEX.
 
 **Flere coins (fra 1. nov 2026):** Botten tjekker BTC/USD, ETH/USD og SOL/USD hver runde. Hver coin har sin egen

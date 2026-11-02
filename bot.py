@@ -27,6 +27,7 @@ import requests
 from dotenv import load_dotenv
 
 import features as fx
+import newsguard
 
 BASE = Path(__file__).parent
 load_dotenv(BASE / ".env")
@@ -650,7 +651,7 @@ def need_ai(cs, f, holding):
 def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, row, rec):
     """Hele AI-kaeden. Returnerer handling: ('KOEB', usd, stop, chef) / ('SAELG',) / ('HOLD',)."""
     state["ai_rounds_today"] += 1
-    r = run_analysts(brain, f, get_news(coin), get_fear_greed(), coin)
+    r = run_analysts(brain, f, get_news(coin) + f.pop("_ekstra_nyheder", []), get_fear_greed(), coin)
     for k, v in r.items():
         row[k] = f"{v['signal']}({v['styrke']}): {v['vurdering']}"
     rec["analytikere"] = r
@@ -822,6 +823,12 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     room_pct = (f["naeste_modstand"] - price) / price
     if not closed and want and not holding and not is_stock(coin) and room_pct < CRYPTO_MIN_ROOM_PCT:
         want, why = False, f"kun {room_pct:.1%} til modstand (krypto kraever {CRYPTO_MIN_ROOM_PCT:.0%} pga. gebyr)"
+    if not closed and want and not holding:  # nyhedsvagt: kun foer nye koeb, aldrig ved aaben position
+        block_news, extra_news, ng_status = newsguard.check(coin, is_stock(coin), state, TEST_MODE)
+        rec["nyhedsvagt"] = {"blok": block_news, "kilder": ng_status, "overskrifter": extra_news}
+        f["_ekstra_nyheder"] = extra_news
+        if block_news:
+            want, why = False, f"nyhedsvagt: {block_news}"
     if not closed and want and not brain.budget_ok():
         want, why = False, "AI-budget for i dag/maaned brugt"
     rec["ai_grund"] = why
