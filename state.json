@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76782.825,
+  "last_btc_price": 76761.29999999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -519,28 +519,6 @@
         "pris_ved_nyhed": 680.355,
         "udloeber": "2026-11-02T23:57:27.137247+00:00"
       },
-      "BTC/USD": {
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETF-udstr\u00f8mning og likvidationer viser svag eftersp\u00f8rgsel; prisen falder allerede, s\u00e5 yderligere fald er sandsynligt kort sigt.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 76627.58600000001,
-        "udloeber": "2026-11-02T22:57:27.137247+00:00"
-      },
-      "ETH/USD": {
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ethereum flader ud og f\u00f8lger BTC; ETF-udstr\u00f8mning og makrousikkerhed trykker, men bev\u00e6gelsen er delvis indregnet.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 2244.9,
-        "udloeber": "2026-11-02T22:57:27.137247+00:00"
-      },
       "SPY": {
         "symbol": "SPY",
         "retning": "ned",
@@ -551,17 +529,6 @@
         "tid": "2026-11-02T20:47:26.984695+00:00",
         "pris_ved_nyhed": 753.385,
         "udloeber": "2026-11-02T23:47:26.984695+00:00"
-      },
-      "SOL/USD": {
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins f\u00f8lger BTC med h\u00f8jere beta; svag risikoappetit ventes at ramme SOL, men effekten er moderat.",
-        "tid": "2026-11-02T20:57:27.137247+00:00",
-        "pris_ved_nyhed": 91.348,
-        "udloeber": "2026-11-02T22:57:27.137247+00:00"
       },
       "AMD": {
         "symbol": "AMD",
