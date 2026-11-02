@@ -12,7 +12,7 @@
   "ai_spend_today": 0.1050969,
   "eq_day": "2026-11-02",
   "day_start_equity": 100043.43,
-  "peak_equity": 100058.86,
+  "peak_equity": 100059.36,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
     "BTC/USD": {
@@ -20,7 +20,7 @@
         "entry": 77529.0,
         "stop": 77735.685,
         "stop_initial": 76753.71,
-        "high": 78460.66,
+        "high": 78461.3,
         "qty": 0.012583797,
         "entry_tid": "2026-11-01 19:30",
         "setup": "testkoeb",
@@ -73,5 +73,5 @@
       "last_review_price": 94.7857
     }
   },
-  "last_btc_price": 78322.944
+  "last_btc_price": 78461.3
 }
