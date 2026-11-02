@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76772.35,
+  "last_btc_price": 76751.027,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -617,17 +617,6 @@
         "tid": "2026-11-02T19:42:26.803950+00:00",
         "pris_ved_nyhed": 281.775,
         "udloeber": "2026-11-02T21:42:26.803950+00:00"
-      },
-      "MSFT": {
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Anthropic er en stor partner/konkurrent i AI-skyen; positiv omtale af AI-indtjening kan stoette MSFT, men effekten er svag.",
-        "tid": "2026-11-02T18:42:26.586779+00:00",
-        "pris_ved_nyhed": 518.93,
-        "udloeber": "2026-11-02T20:42:26.586779+00:00"
       }
     },
     "dag": "2026-11-02",
