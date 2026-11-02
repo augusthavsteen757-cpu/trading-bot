@@ -31,12 +31,38 @@
       "last_hold_review": "2026-11-02T02:21:07.984412+00:00",
       "last_review_price": 94.7857
     },
-    "SPY": {},
+    "SPY": {
+      "orb_day": "2026-11-02",
+      "pos": {
+        "entry": 760.3299999999999,
+        "stop": 759.365,
+        "stop_initial": 759.365,
+        "high": 760.3299999999999,
+        "qty": 19.0,
+        "entry_tid": "2026-11-02 15:07",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 759.99, 'or_low': 758.74, 'sidste_luk': 760.28}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": 0,
+          "rsi_1h": 45.1,
+          "adx_1h": 27.2,
+          "rel_volumen_1h": 0.16,
+          "afstand_modstand_atr": 1.23,
+          "atr_percentil_30d": 93.6
+        },
+        "target": 762.2599999999998,
+        "luk_foer_luk": true
+      }
+    },
     "QQQ": {},
     "NVDA": {},
     "AAPL": {}
   },
-  "last_btc_price": 77699.081,
+  "last_btc_price": 77715.1535,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -191,5 +217,10 @@
       "XENE",
       "XFLT"
     ]
+  },
+  "nyhedsjaeger": {
+    "signaler": {},
+    "dag": "2026-11-02",
+    "kald_i_dag": 0
   }
 }
