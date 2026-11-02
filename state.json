@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76718.78349999999,
+  "last_btc_price": 76726.725,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -562,17 +562,6 @@
         "tid": "2026-11-02T20:57:27.137247+00:00",
         "pris_ved_nyhed": 91.348,
         "udloeber": "2026-11-02T22:57:27.137247+00:00"
-      },
-      "META": {
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Obligationsudstedelse signalerer kapitalbehov til AI-investeringer; neutral til svagt positiv, men store l\u00e5n kan ogs\u00e5 tolkes negativt for aktien.",
-        "tid": "2026-11-02T19:12:27.222646+00:00",
-        "pris_ved_nyhed": 610.5899999999999,
-        "udloeber": "2026-11-02T21:12:27.222646+00:00"
       },
       "AMD": {
         "symbol": "AMD",
