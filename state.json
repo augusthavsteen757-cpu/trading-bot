@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76724.6365,
+  "last_btc_price": 76622.5895,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -584,17 +584,6 @@
         "tid": "2026-11-02T18:32:26.486565+00:00",
         "pris_ved_nyhed": 249.475,
         "udloeber": "2026-11-02T21:32:26.486565+00:00"
-      },
-      "TSLA": {
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "St\u00e6rke europ\u00e6iske registreringstal er allerede begyndt at drive kursen op, s\u00e5 meget af effekten kan v\u00e6re indregnet.",
-        "tid": "2026-11-02T19:27:27.638846+00:00",
-        "pris_ved_nyhed": 404.5,
-        "udloeber": "2026-11-02T21:27:27.638846+00:00"
       },
       "GOOGL": {
         "symbol": "GOOGL",
