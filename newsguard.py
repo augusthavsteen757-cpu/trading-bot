@@ -116,19 +116,24 @@ def check(symbol, is_stock, state, test_mode=False):
 # Gratis: Alpaca News API (samme noegler som handel). AI (Haiku) kaldes KUN naar der er nye overskrifter,
 # max NEWS_MAX_CALLS_PER_DAY gange og min. NEWS_MIN_GAP_MIN imellem. Signalet bliver et setup ("nyhed_op"),
 # som stadig skal igennem Chef, Skeptiker, Risk Manager, stop-loss og 15 %-loftet.
-NEWS_MAX_CALLS_PER_DAY = 12
-NEWS_MIN_GAP_MIN = 20
-NEWS_MAX_AGE_H = 3          # kun friske nyheder; aeldre er som regel allerede i prisen
-SIGNAL_MAX_H = 4            # et signal udloeber senest efter 4 timer
-MAX_CHASE_PCT = 0.02        # koeb ikke hvis prisen allerede er steget over 2 % siden vi saa nyheden
+# v2 (brugerens valg 2. nov): loese regler, krypto + aktier. Strammes senere ud fra resultaterne.
+import os
+NEWS_MAX_CALLS_PER_DAY = int(os.getenv("NEWS_MAX_CALLS_PER_DAY") or 30)
+NEWS_MIN_GAP_MIN = float(os.getenv("NEWS_MIN_GAP_MIN") or 10)
+NEWS_MAX_AGE_H = 6          # nyheder fra de sidste 6 timer
+SIGNAL_MAX_H = 6            # et signal udloeber senest efter 6 timer
+NEWS_MIN_STYRKE = int(os.getenv("NEWS_MIN_STYRKE") or 3)  # positiv nyhed med styrke 3+ giver setup
+MAX_CHASE_PCT = 0.03        # koeb ikke hvis prisen allerede er steget over 3 % siden vi saa nyheden
+MAX_DIP_PCT = 0.01          # og heller ikke hvis den er faldet over 1 % (markedet er uenigt)
 
 HUNTER_INSTR = (
     "Du er nyhedsjaeger. Du faar friske overskrifter og skal TAENKE SELV: hvilke af dem kan faa en af "
-    "vores aktier til at stige de naeste 1-4 timer? Taenk i led: hvad betyder nyheden for indtjening, hvem "
-    "ellers paavirkes (fx NVDA-nyhed paavirker QQQ), og er det en overraskelse eller ventet? Vaer meget "
-    "kritisk: de fleste nyheder er stoej eller allerede i prisen, fordi professionelle handler paa sekunder. "
-    "Giv kun styrke 4-5 ved en klar, ny og overraskende nyhed med tydelig retning. Medtag kun aktier fra listen, "
-    "og kun dem en nyhed reelt handler om.")
+    "vores aktier eller krypto-coins til at stige de naeste 1-6 timer? Taenk i led: hvad betyder nyheden for "
+    "indtjening eller efterspoergsel, hvem ellers paavirkes (fx NVDA-nyhed paavirker QQQ, ETF-indstroemning "
+    "paavirker BTC og ETH, regulering rammer al krypto), og er det en overraskelse eller ventet? Du maa gerne "
+    "give et signal ogsaa paa et symbol, nyheden ikke naevner direkte, hvis du kan forklare sammenhaengen. "
+    "Styrke 3 = sandsynlig paavirkning, 4-5 = klar og overraskende. Vurder aerligt om den allerede er i prisen. "
+    "Medtag kun symboler fra listen.")
 HUNTER_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["vurderinger"], "properties": {
     "vurderinger": {"type": "array", "items": {
         "type": "object", "additionalProperties": False,
@@ -142,17 +147,22 @@ HUNTER_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["
             "begrundelse": {"type": "string"}}}}}}
 
 
+def _api(sym):  # BTC/USD -> BTCUSD (Alpacas nyheds-symbol)
+    return sym.replace("/", "")
+
+
 def _alpaca_news(symbols, since):
     from alpaca.data.historical.news import NewsClient
     from alpaca.data.requests import NewsRequest
     import os
     client = NewsClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
-    res = client.get_news(NewsRequest(symbols=",".join(symbols), start=since, limit=50))
+    back = {_api(s): s for s in symbols}
+    res = client.get_news(NewsRequest(symbols=",".join(back), start=since, limit=50))
     out = []
     for n in res.data.get("news", []):
         t = n.created_at if n.created_at.tzinfo else n.created_at.replace(tzinfo=timezone.utc)
         out.append({"id": str(n.id), "tid": t.isoformat(), "overskrift": n.headline,
-                    "resume": (n.summary or "")[:200], "symboler": [s for s in (n.symbols or []) if s in symbols]})
+                    "resume": (n.summary or "")[:200], "symboler": [back[s] for s in (n.symbols or []) if s in back]})
     return out
 
 
@@ -185,16 +195,16 @@ def hunt(state, ask, symbols, budget_ok, test_mode=False):
         return {"status": f"{len(new)} nye, venter (min. {NEWS_MIN_GAP_MIN} min mellem AI-kald)"}
     if nj["kald_i_dag"] >= NEWS_MAX_CALLS_PER_DAY or not budget_ok():
         return {"status": f"{len(new)} nye, men AI-loft for nyheder/budget naaet"}
-    new = sorted(new, key=lambda n: n["tid"], reverse=True)[:15]
+    new = sorted(new, key=lambda n: n["tid"], reverse=True)[:20]
     nj["kald_i_dag"] += 1
     nj["sidste_kald"] = t.isoformat()
     nj["set_ids"] = (list(seen) + [n["id"] for n in new])[-300:]
     txt = "\n".join(f"- [{n['tid'][11:16]} UTC] {', '.join(n['symboler']) or '?'}: {n['overskrift']}. {n['resume']}"
                     for n in new)
     try:
-        res = {"vurderinger": [{"symbol": "NVDA", "retning": "op", "styrke": 4, "allerede_i_prisen": False,
+        res = {"vurderinger": [{"symbol": "BTC/USD", "retning": "op", "styrke": 3, "allerede_i_prisen": True, "gyldig_timer": 2, "begrundelse": "Test"}, {"symbol": "NVDA", "retning": "op", "styrke": 4, "allerede_i_prisen": False,
                                 "gyldig_timer": 2, "begrundelse": "Test"}]} if test_mode else ask("Nyhedsjaeger", HUNTER_INSTR,
-                  f"Vores aktier: {', '.join(symbols)}. Klokken er {t:%H:%M} UTC.\nNye overskrifter:\n{txt}",
+                  f"Vores symboler (aktier og krypto): {', '.join(symbols)}. Klokken er {t:%H:%M} UTC.\nNye overskrifter:\n{txt}",
                   HUNTER_SCHEMA)
     except Exception as e:
         return {"status": f"AI-fejl: {type(e).__name__}"}
@@ -212,8 +222,8 @@ def hunt(state, ask, symbols, budget_ok, test_mode=False):
 
 def signal_for(state, symbol, price):
     """Returnerer (setup, blok, tekst) for et symbol.
-    setup = "nyhed_op" hvis en staerk, ny, positiv nyhed OG prisen bekraefter (er steget lidt, ikke for meget).
-    blok = grund til ikke at koebe ved staerk negativ nyhed. tekst = vurderingen til Chef."""
+    setup = "nyhed_op" ved positiv nyhed (styrke 3+), hvis kursen ikke er faldet over 1 % eller steget over 3 % siden.
+    blok = grund til ikke at koebe ved meget staerk negativ nyhed (4+). tekst = vurderingen til Chef."""
     s = state.get("nyhedsjaeger", {}).get("signaler", {}).get(symbol)
     if not s:
         return "", "", ""
@@ -223,9 +233,8 @@ def signal_for(state, symbol, price):
     tekst = (f"Nyhedsjaeger ({s['tid'][11:16]} UTC): {s['retning']} styrke {s['styrke']}/5, "
              f"{'allerede i prisen' if s['allerede_i_prisen'] else 'ikke i prisen endnu'}. {s['begrundelse']} "
              f"Kurs siden nyheden: {move:+.2%}.")
-    if s["retning"] == "ned" and s["styrke"] >= 3:
+    if s["retning"] == "ned" and s["styrke"] >= 4:
         return "", f"negativ nyhed ({s['styrke']}/5): {s['begrundelse'][:80]}", tekst
-    if (s["retning"] == "op" and s["styrke"] >= 4 and not s["allerede_i_prisen"]
-            and 0.001 <= move <= MAX_CHASE_PCT):
+    if s["retning"] == "op" and s["styrke"] >= NEWS_MIN_STYRKE and -MAX_DIP_PCT <= move <= MAX_CHASE_PCT:
         return "nyhed_op", "", tekst
     return "", "", tekst

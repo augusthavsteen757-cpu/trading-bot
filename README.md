@@ -4,7 +4,7 @@
 
 **Nyhedsvagt (newsguard.py):** foer et nyt koeb tjekkes regnskab (i gaar/i dag/i morgen, Nasdaq) og store negative nyheder sidste 12 t (Yahoo Finance, CoinDesk, Cointelegraph). Rammer det, koebes der ikke. Fejler en kilde, blokeres intet.
 
-**Nyhedsjaeger (fra 2. nov 2026, i newsguard.py):** mens boersen er aaben henter botten gratis nyheder for aktierne (Alpaca News). Kun naar der er NYE overskrifter, vurderer Haiku dem: retning, styrke 1-5, og om nyheden allerede er i prisen (max 12 kald/dag, min. 20 min imellem, ca. 0,5-1,5 USD/md). Staerk positiv nyhed (4-5, ikke i prisen) bliver setup `nyhed_op`, men foerst naar kursen er steget 0,1-2 % siden. Det skal stadig igennem Chef, Skeptiker, Risk Manager, stop-loss og 15 %-loftet. Staerk negativ nyhed (3+) blokerer koeb og faar Chef til at se paa en aaben position.
+**Nyhedsjaeger (fra 2. nov 2026, i newsguard.py):** henter gratis nyheder (Alpaca News) for krypto doegnet rundt og aktier naar boersen er aaben. Kun naar der er NYE overskrifter, vurderer Haiku selv, hvilke symboler der kan stige og hvorfor (ogsaa afledte effekter). Loese regler til at starte med (max 30 kald/dag, min. 10 min imellem): positiv nyhed med styrke 3+ bliver setup `nyhed_op`, hvis kursen ikke er faldet over 1 % eller steget over 3 % siden. Chef, Skeptiker, Risk Manager, stop-loss og 15 %-loftet gaelder stadig. Meget staerk negativ nyhed (4+) blokerer koeb. Kan justeres med Actions-variablerne `NEWS_MAX_CALLS_PER_DAY`, `NEWS_MIN_GAP_MIN`, `NEWS_MIN_STYRKE`.
 
 **Aktier (fra 2. nov 2026):** SPY, QQQ, NVDA og AAPL (Actions-variabel `STOCKS`) handles kun naar boersen er aaben, i hele aktier, uden kurtage. Data er gratis IEX.
 

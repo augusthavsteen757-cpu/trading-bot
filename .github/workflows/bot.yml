@@ -41,6 +41,9 @@ jobs:
           COINS: ${{ vars.COINS }}
           STOCKS: ${{ vars.STOCKS }}
           RESET_HALT: ${{ vars.RESET_HALT }}
+          NEWS_MAX_CALLS_PER_DAY: ${{ vars.NEWS_MAX_CALLS_PER_DAY }}
+          NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
+          NEWS_MIN_STYRKE: ${{ vars.NEWS_MIN_STYRKE }}
         run: |
           git config user.name "tradingbot"
           git config user.email "tradingbot@users.noreply.github.com"
