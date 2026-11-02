@@ -110,3 +110,122 @@ def check(symbol, is_stock, state, test_mode=False):
     if hits:
         return f"stor nyhed: {hits[0][:120]}", recent, status
     return "", recent, status
+
+
+# ---------------- Nyhedsjaeger: AI'en vurderer selv, hvilke nyheder kan give gevinst ----------------
+# Gratis: Alpaca News API (samme noegler som handel). AI (Haiku) kaldes KUN naar der er nye overskrifter,
+# max NEWS_MAX_CALLS_PER_DAY gange og min. NEWS_MIN_GAP_MIN imellem. Signalet bliver et setup ("nyhed_op"),
+# som stadig skal igennem Chef, Skeptiker, Risk Manager, stop-loss og 15 %-loftet.
+NEWS_MAX_CALLS_PER_DAY = 12
+NEWS_MIN_GAP_MIN = 20
+NEWS_MAX_AGE_H = 3          # kun friske nyheder; aeldre er som regel allerede i prisen
+SIGNAL_MAX_H = 4            # et signal udloeber senest efter 4 timer
+MAX_CHASE_PCT = 0.02        # koeb ikke hvis prisen allerede er steget over 2 % siden vi saa nyheden
+
+HUNTER_INSTR = (
+    "Du er nyhedsjaeger. Du faar friske overskrifter og skal TAENKE SELV: hvilke af dem kan faa en af "
+    "vores aktier til at stige de naeste 1-4 timer? Taenk i led: hvad betyder nyheden for indtjening, hvem "
+    "ellers paavirkes (fx NVDA-nyhed paavirker QQQ), og er det en overraskelse eller ventet? Vaer meget "
+    "kritisk: de fleste nyheder er stoej eller allerede i prisen, fordi professionelle handler paa sekunder. "
+    "Giv kun styrke 4-5 ved en klar, ny og overraskende nyhed med tydelig retning. Medtag kun aktier fra listen, "
+    "og kun dem en nyhed reelt handler om.")
+HUNTER_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["vurderinger"], "properties": {
+    "vurderinger": {"type": "array", "items": {
+        "type": "object", "additionalProperties": False,
+        "required": ["symbol", "retning", "styrke", "allerede_i_prisen", "gyldig_timer", "begrundelse"],
+        "properties": {
+            "symbol": {"type": "string"},
+            "retning": {"type": "string", "enum": ["op", "ned", "neutral"]},
+            "styrke": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+            "allerede_i_prisen": {"type": "boolean"},
+            "gyldig_timer": {"type": "integer", "enum": [1, 2, 3, 4]},
+            "begrundelse": {"type": "string"}}}}}}
+
+
+def _alpaca_news(symbols, since):
+    from alpaca.data.historical.news import NewsClient
+    from alpaca.data.requests import NewsRequest
+    import os
+    client = NewsClient(os.getenv("ALPACA_API_KEY"), os.getenv("ALPACA_SECRET_KEY"))
+    res = client.get_news(NewsRequest(symbols=",".join(symbols), start=since, limit=50))
+    out = []
+    for n in res.data.get("news", []):
+        t = n.created_at if n.created_at.tzinfo else n.created_at.replace(tzinfo=timezone.utc)
+        out.append({"id": str(n.id), "tid": t.isoformat(), "overskrift": n.headline,
+                    "resume": (n.summary or "")[:200], "symboler": [s for s in (n.symbols or []) if s in symbols]})
+    return out
+
+
+def hunt(state, ask, symbols, budget_ok, test_mode=False):
+    """Koeres en gang pr. runde mens boersen er aaben. Henter nye nyheder (gratis) og spoerger kun AI,
+    naar der er nye. Gemmer signaler i state["nyhedsjaeger"]["signaler"]. Returnerer en kort status."""
+    nj = state.setdefault("nyhedsjaeger", {})
+    sig = nj.setdefault("signaler", {})
+    t = _now()
+    for s in list(sig):  # ryd udloebne signaler
+        if datetime.fromisoformat(sig[s]["udloeber"]) < t:
+            sig.pop(s)
+    day = t.date().isoformat()
+    if nj.get("dag") != day:
+        nj.update(dag=day, kald_i_dag=0)
+    seen = set(nj.get("set_ids", []))
+    try:
+        if test_mode:
+            news = [{"id": "t1", "tid": t.isoformat(), "overskrift": "Nvidia hæver forventninger efter rekordsalg",
+                     "resume": "", "symboler": ["NVDA"]}]
+        else:
+            news = _alpaca_news(symbols, t - timedelta(hours=NEWS_MAX_AGE_H))
+    except Exception as e:
+        return {"status": f"nyheder fejlede: {type(e).__name__}"}
+    new = [n for n in news if n["id"] not in seen]
+    if not new:
+        return {"status": "ingen nye nyheder (intet AI-kald)"}
+    last = nj.get("sidste_kald")
+    if last and (t - datetime.fromisoformat(last)).total_seconds() < NEWS_MIN_GAP_MIN * 60:
+        return {"status": f"{len(new)} nye, venter (min. {NEWS_MIN_GAP_MIN} min mellem AI-kald)"}
+    if nj["kald_i_dag"] >= NEWS_MAX_CALLS_PER_DAY or not budget_ok():
+        return {"status": f"{len(new)} nye, men AI-loft for nyheder/budget naaet"}
+    new = sorted(new, key=lambda n: n["tid"], reverse=True)[:15]
+    nj["kald_i_dag"] += 1
+    nj["sidste_kald"] = t.isoformat()
+    nj["set_ids"] = (list(seen) + [n["id"] for n in new])[-300:]
+    txt = "\n".join(f"- [{n['tid'][11:16]} UTC] {', '.join(n['symboler']) or '?'}: {n['overskrift']}. {n['resume']}"
+                    for n in new)
+    try:
+        res = {"vurderinger": [{"symbol": "NVDA", "retning": "op", "styrke": 4, "allerede_i_prisen": False,
+                                "gyldig_timer": 2, "begrundelse": "Test"}]} if test_mode else ask("Nyhedsjaeger", HUNTER_INSTR,
+                  f"Vores aktier: {', '.join(symbols)}. Klokken er {t:%H:%M} UTC.\nNye overskrifter:\n{txt}",
+                  HUNTER_SCHEMA)
+    except Exception as e:
+        return {"status": f"AI-fejl: {type(e).__name__}"}
+    for v in res.get("vurderinger", []):
+        s = v["symbol"].upper()
+        if s not in symbols:
+            continue
+        old = sig.get(s)
+        if old and old["styrke"] > v["styrke"] and old["retning"] == v["retning"]:
+            continue  # behold det staerkeste signal
+        sig[s] = {**v, "symbol": s, "tid": t.isoformat(), "pris_ved_nyhed": None,
+                  "udloeber": (t + timedelta(hours=min(v["gyldig_timer"], SIGNAL_MAX_H))).isoformat()}
+    return {"status": f"{len(new)} nye vurderet", "vurderinger": res.get("vurderinger", [])}
+
+
+def signal_for(state, symbol, price):
+    """Returnerer (setup, blok, tekst) for et symbol.
+    setup = "nyhed_op" hvis en staerk, ny, positiv nyhed OG prisen bekraefter (er steget lidt, ikke for meget).
+    blok = grund til ikke at koebe ved staerk negativ nyhed. tekst = vurderingen til Chef."""
+    s = state.get("nyhedsjaeger", {}).get("signaler", {}).get(symbol)
+    if not s:
+        return "", "", ""
+    if s["pris_ved_nyhed"] is None:  # foerste gang vi ser prisen efter nyheden: gem den, bekraeft senere
+        s["pris_ved_nyhed"] = price
+    move = price / s["pris_ved_nyhed"] - 1
+    tekst = (f"Nyhedsjaeger ({s['tid'][11:16]} UTC): {s['retning']} styrke {s['styrke']}/5, "
+             f"{'allerede i prisen' if s['allerede_i_prisen'] else 'ikke i prisen endnu'}. {s['begrundelse']} "
+             f"Kurs siden nyheden: {move:+.2%}.")
+    if s["retning"] == "ned" and s["styrke"] >= 3:
+        return "", f"negativ nyhed ({s['styrke']}/5): {s['begrundelse'][:80]}", tekst
+    if (s["retning"] == "op" and s["styrke"] >= 4 and not s["allerede_i_prisen"]
+            and 0.001 <= move <= MAX_CHASE_PCT):
+        return "nyhed_op", "", tekst
+    return "", "", tekst
