@@ -44,8 +44,10 @@ def env_f(name, default):
 
 # ---------------- Indstillinger (kan overskrives i .env eller som GitHub-variabler) ----------------
 CRYPTO = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
-STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL").split(",") if c.strip()]
-ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or "SPY,QQQ").split(",") if c.strip()]
+STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").split(",") if c.strip()]
+ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or ",".join(STOCKS)).split(",") if c.strip()]
+ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig
+MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
 
@@ -291,6 +293,7 @@ class Brain:
             state["budget_month"], state["budget_used"] = month, 0.0
         if state.get("ai_day") != day:
             state["ai_day"], state["ai_rounds_today"], state["ai_spend_today"] = day, 0, 0.0
+            state["ai_crypto_today"] = 0
         self.client = None
         if not TEST_MODE:
             import anthropic
@@ -691,6 +694,8 @@ def need_ai(cs, f, holding):
 def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, row, rec):
     """Hele AI-kaeden. Returnerer handling: ('KOEB', usd, stop, chef) / ('SAELG',) / ('HOLD',)."""
     state["ai_rounds_today"] += 1
+    if not is_stock(coin):
+        state["ai_crypto_today"] = state.get("ai_crypto_today", 0) + 1
     r = run_analysts(brain, f, get_news(coin) + f.pop("_ekstra_nyheder", []), get_fear_greed(), coin)
     for k, v in r.items():
         row[k] = f"{v['signal']}({v['styrke']}): {v['vurdering']}"
@@ -906,11 +911,19 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     action = row.get("handling") or ("HOLD (position)" if holding else "HOLD")
     if coin in ORB_SYMBOLS and not holding and not closed and coin_can_buy and cs.get("orb_day") != ny_now().date().isoformat():
         sig = orb_signal(m5, price)
+        if sig:  # planen: ingen ORB ved regnskab, stor negativ nyhed eller staerk negativ nyhedsjaeger-vurdering
+            nb, _, ng = newsguard.check(coin, True, state, TEST_MODE)
+            nb = nb or newsguard.signal_for(state, coin, price)[1]
+            if nb:
+                rec["orb_blokeret"] = {"grund": nb, "kilder": ng}
+                row["note"] = f"ORB-signal, men sprunget over: {nb}"[:200]
+                cs["orb_day"] = ny_now().date().isoformat()
+                sig = None
         if sig:
             stop, target, info = sig
             cs["orb_day"] = ny_now().date().isoformat()  # max en ORB-handel pr. dag pr. symbol
             risk_pct = max((price - stop) / price, 0.001)
-            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * MAX_POSITION_PCT, room)
+            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * min(MAX_POSITION_PCT, ORB_MAX_POSITION_PCT), room)
             rec["orb"] = info
             bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "orb", 3, f"ORB breakout {info}", row,
                                    target=target, luk_foer_luk=True)
@@ -925,6 +938,8 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         f["setups"].append(news_setup)
         row["setups"] = " ".join(f["setups"])
     want, why = need_ai(cs, f, holding)
+    if want and not holding and not is_stock(coin) and state.get("ai_crypto_today", 0) >= MAX_CRYPTO_AI_ROUNDS:
+        want, why = False, f"krypto har brugt sine {MAX_CRYPTO_AI_ROUNDS} AI-runder i dag (resten er til aktier)"
     if holding and news_block and not closed and cs.get("nyhed_review") != f["_nyhedsjaeger"]:
         cs["nyhed_review"] = f["_nyhedsjaeger"]  # staerk negativ nyhed: Chef ser paa positionen en gang
         want, why = True, f"positions-review ({news_block})"
