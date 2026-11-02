@@ -28,31 +28,9 @@
     },
     "SOL/USD": {
       "last_entry_eval": "2026-11-01T19:55:36.113500+00:00",
-      "pos": {
-        "entry": 93.82,
-        "stop": 93.82,
-        "stop_initial": 92.8,
-        "high": 95.14,
-        "qty": 62.505932797,
-        "entry_tid": "2026-11-01 19:55",
-        "setup": "range_bund",
-        "regime": "range",
-        "conviction": 2,
-        "grund": "Pris 0,06 ATR over stoette, RSI oversolgt, modstand 95.78 giver ca. 3,8R mod tight stop. Men trend ned og lav volumen, derfor lille stoerrelse.",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 27.0,
-          "adx_1h": 19.4,
-          "rel_volumen_1h": 0.72,
-          "afstand_modstand_atr": 3.82,
-          "atr_percentil_30d": 11.9
-        }
-      },
       "last_hold_review": "2026-11-02T02:21:07.984412+00:00",
       "last_review_price": 94.7857
     }
   },
-  "last_btc_price": 77908.16450000001
+  "last_btc_price": 77875.02249999999
 }
