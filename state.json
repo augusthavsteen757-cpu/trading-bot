@@ -9,6 +9,9 @@
   "pending": {
     "gevinst: testkoeb i range": [
       "2026-11-02 07:51: BTC/USD: stop ramt (Alpaca). R=+0.36. Entry 77529, exit 77811. Grund til koeb: Manuelt testkoeb for at teste koeb, stop og log. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 43.3, 'adx_1h': 19.1, 'rel_volumen_1h': 0.46, 'afstand_modstand_atr': 0.3, 'atr_percentil_30d': 9.0}"
+    ],
+    "teknisk fejl: APIError: {\"code\":40310000,\"existing_order_id\":\"78": [
+      "2026-11-02 15:17: QQQ: APIError: {\"code\":40310000,\"existing_order_id\":\"788fb011-3201-481a-b97a-58bf02a6a547\",\"message\":\"potential wash trade detected. use complex orders\",\"reject_reason\":\"opposite side market/stop order exists\"}"
     ]
   },
   "ai_day": "2026-11-02",
@@ -35,9 +38,9 @@
       "orb_day": "2026-11-02",
       "pos": {
         "entry": 760.3299999999999,
-        "stop": 759.365,
+        "stop": 760.3299999999999,
         "stop_initial": 759.365,
-        "high": 760.93,
+        "high": 761.95,
         "qty": 19.0,
         "entry_tid": "2026-11-02 15:07",
         "setup": "orb",
@@ -58,11 +61,13 @@
         "luk_foer_luk": true
       }
     },
-    "QQQ": {},
+    "QQQ": {
+      "orb_day": "2026-11-02"
+    },
     "NVDA": {},
     "AAPL": {}
   },
-  "last_btc_price": 77943.1265,
+  "last_btc_price": 77771.4495,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
