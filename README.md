@@ -6,6 +6,8 @@
 
 **Nyhedsjaeger (fra 2. nov 2026, i newsguard.py):** henter gratis nyheder (Alpaca News) for krypto doegnet rundt og aktier naar boersen er aaben. Kun naar der er NYE overskrifter, vurderer Haiku selv, hvilke symboler der kan stige og hvorfor (ogsaa afledte effekter). Loese regler til at starte med (max 30 kald/dag, min. 10 min imellem): positiv nyhed med styrke 3+ bliver setup `nyhed_op`, hvis kursen ikke er faldet over 1 % eller steget over 3 % siden. Chef, Skeptiker, Risk Manager, stop-loss og 15 %-loftet gaelder stadig. Meget staerk negativ nyhed (4+) blokerer koeb. Kan justeres med Actions-variablerne `NEWS_MAX_CALLS_PER_DAY`, `NEWS_MIN_GAP_MIN`, `NEWS_MIN_STYRKE`.
 
+**Plan foer koeb (2. nov 2026):** alle koeb gaar gennem `buy_with_plan`: stop, maal og regler gemmes foer ordren sendes, saa en ordrefejl ikke kan goere en ORB-handel til en 'adopteret' position uden regler. Krypto koebes ikke mod faldende dagstrend.
+
 **Aktier (fra 2. nov 2026):** SPY, QQQ, NVDA og AAPL (Actions-variabel `STOCKS`) handles kun naar boersen er aaben, i hele aktier, uden kurtage. Data er gratis IEX.
 
 **Flere coins (fra 1. nov 2026):** Botten tjekker BTC/USD, ETH/USD og SOL/USD hver runde. Hver coin har sin egen

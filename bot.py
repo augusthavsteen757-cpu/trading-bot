@@ -594,6 +594,13 @@ def risk_gate(state, equity):
 def manage_position(broker, state, cs, coin, f, qty, brain, row):
     """Afstemning med Alpaca + trailing stop + software-stop. Returnerer True hvis positionen blev lukket."""
     pos, price, atr = cs.get("pos"), f["pris"], f["atr_1h"]
+    plan = cs.get("plan")
+    if qty > 0 and not pos and plan and (now() - datetime.fromisoformat(plan["plan_tid"])).total_seconds() < 3600:
+        # koebet gik igennem, selvom ordren fejlede: brug den plan, der blev gemt foer koebet
+        pos = cs["pos"] = {k: v for k, v in plan.items() if k != "plan_tid"}
+        pos["qty"] = qty
+        cs.pop("plan", None)
+        row["note"] = f"Position fundet efter ordrefejl: plan ({pos['setup']}) genskabt"
     if qty > 0 and not pos:  # position uden state (fx manuel handel): adopter den med ATR-stop
         stop = price * (1 - stop_frac(coin, price, atr))
         pos = cs["pos"] = {"entry": price, "stop": stop, "stop_initial": stop, "high": price, "qty": qty,
@@ -904,11 +911,10 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
             cs["orb_day"] = ny_now().date().isoformat()  # max en ORB-handel pr. dag pr. symbol
             risk_pct = max((price - stop) / price, 0.001)
             usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * MAX_POSITION_PCT, room)
-            bought = broker.buy(coin, usd, price, stop)
             rec["orb"] = info
+            bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "orb", 3, f"ORB breakout {info}", row,
+                                   target=target, luk_foer_luk=True)
             if bought > 0:
-                cs["pos"] = new_pos(f, price, stop, bought, "orb", 3, f"ORB breakout {info}")
-                cs["pos"].update(target=target, luk_foer_luk=True)
                 row.update(handling="KOEB (ORB)", antal=round(bought, 6), usd=round(bought * price, 2),
                            stop_loss=round(stop, 2), ai_koert="nej (ORB er ren regel)",
                            note=f"ORB: range {info.get('or_low')}-{info.get('or_high')}, maal {target:.2f}")
@@ -929,6 +935,8 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     room_pct = (f["naeste_modstand"] - price) / price
     if not closed and want and not holding and not is_stock(coin) and room_pct < CRYPTO_MIN_ROOM_PCT:
         want, why = False, f"kun {room_pct:.1%} til modstand (krypto kraever {CRYPTO_MIN_ROOM_PCT:.0%} pga. gebyr)"
+    if not closed and want and not holding and not is_stock(coin) and f["trend_1d"] < 0 and not TEST_MODE:
+        want, why = False, "krypto koebes ikke mod en faldende dagstrend (gebyr ca. 0,5 % kraever medvind)"
     if not closed and want and not holding:  # nyhedsvagt: kun foer nye koeb, aldrig ved aaben position
         block_news, extra_news, ng_status = newsguard.check(coin, is_stock(coin), state, TEST_MODE)
         rec["nyhedsvagt"] = {"blok": block_news, "kilder": ng_status, "overskrifter": extra_news}
@@ -955,9 +963,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         if result[0] == "KOEB":
             _, usd, stop, chef = result
             usd = min(usd, room)
-            bought = broker.buy(coin, usd, price, stop)
+            bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, chef["setup"], chef["conviction"],
+                                   chef["grund"][:300], row, invalidering=chef.get("invalidering", "")[:200])
             if bought > 0:
-                cs["pos"] = new_pos(f, price, stop, bought, chef["setup"], chef["conviction"], chef["grund"][:300])
                 action = "KOEB"
                 row.update(antal=round(bought, 6), usd=round(bought * price, 2), stop_loss=round(stop, 4))
             else:
@@ -979,13 +987,33 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         state["test_kob_id"] = flag_id
         usd = min(equity * TEST_BUY_PCT, room)
         stop = price * (1 - stop_frac(coin, price, f["atr_1h"]))
-        bought = broker.buy(coin, usd, price, stop)
+        bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "testkoeb", 1,
+                               "Manuelt testkoeb for at teste koeb, stop og log", row)
         if bought > 0:
-            cs["pos"] = new_pos(f, price, stop, bought, "testkoeb", 1, "Manuelt testkoeb for at teste koeb, stop og log")
             action = "KOEB (test)"
             row.update(antal=round(bought, 6), usd=round(usd, 2), stop_loss=round(stop, 4),
                        note="Engangs-testkoeb (ca. 1 % af kontoen)")
     row["handling"] = rec["handling"] = action
+
+
+def buy_with_plan(broker, cs, f, coin, usd, price, stop, setup, conviction, grund, row, **extra):
+    """Alle koeb gaar herigennem: planen (stop, maal, regler) gemmes FOER ordren sendes. Fejler ordren,
+    men koebet gik alligevel igennem, bruges planen stadig (her eller i naeste runde) i stedet for at gaette."""
+    plan = new_pos(f, price, stop, 0.0, setup, conviction, grund)
+    plan.update(extra, plan_tid=now().isoformat())
+    cs["plan"] = plan
+    try:
+        bought = broker.buy(coin, usd, price, stop)
+    except Exception as e:
+        print(f"{coin}: koeb gav fejl ({type(e).__name__}: {str(e)[:200]}); tjekker om positionen findes")
+        row["note"] = f"Ordrefejl ved koeb: {type(e).__name__}"
+        time.sleep(3)
+        bought = broker.position_qty(coin)
+    if bought > 0:
+        cs["pos"] = {k: v for k, v in plan.items() if k != "plan_tid"}
+        cs["pos"]["qty"] = bought
+        cs.pop("plan", None)
+    return bought
 
 
 def new_pos(f, price, stop, qty, setup, conviction, grund):
