@@ -46,6 +46,7 @@ def env_f(name, default):
 CRYPTO = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
 STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").split(",") if c.strip()]
 ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or ",".join(STOCKS)).split(",") if c.strip()]
+ORB_TIME_STOP_MIN = env_f("ORB_TIME_STOP_MIN", 60)  # ORB: er handlen ikke i plus efter 60 min, saelges den
 ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
@@ -628,6 +629,16 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
         return True
     if pos.get("setup") == "adopteret" and is_stock(coin) and cs.get("orb_day") == ny_now().date().isoformat():
         pos["luk_foer_luk"] = True  # ORB-koeb hvis stop-ordre fejlede: stadig en dagshandel
+    if pos.get("luk_foer_luk") and price <= pos["entry"]:  # tidsstop: et godt breakout virker hurtigt
+        try:
+            age_min = (now() - datetime.strptime(pos["entry_tid"], "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)).total_seconds() / 60
+        except (KeyError, ValueError):
+            age_min = 0
+        if age_min >= ORB_TIME_STOP_MIN:
+            broker.sell_all(coin)
+            close_trade(brain, state, cs, coin, price, f"tidsstop ({ORB_TIME_STOP_MIN:.0f} min uden gevinst)")
+            row.update(handling="SALG (tidsstop)", antal=round(qty, 6))
+            return True
     if pos.get("luk_foer_luk") and ny_time() >= (15, 50):  # ORB er en dagshandel: ud foer boersen lukker
         broker.sell_all(coin)
         close_trade(brain, state, cs, coin, price, "dagens slut (ORB)")
