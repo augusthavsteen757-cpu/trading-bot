@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76716.117,
+  "last_btc_price": 76673.59700000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -518,17 +518,6 @@
         "tid": "2026-11-02T20:57:27.137247+00:00",
         "pris_ved_nyhed": 680.355,
         "udloeber": "2026-11-02T23:57:27.137247+00:00"
-      },
-      "SPY": {
-        "symbol": "SPY",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Advarsel om aktiekorrektion kan give pres paa indekset, men det er en meningsmaessig vurdering uden nye fakta.",
-        "tid": "2026-11-02T20:47:26.984695+00:00",
-        "pris_ved_nyhed": 753.385,
-        "udloeber": "2026-11-02T23:47:26.984695+00:00"
       },
       "AMD": {
         "symbol": "AMD",
