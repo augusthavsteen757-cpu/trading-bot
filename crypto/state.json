@@ -37,16 +37,16 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.032612,
+  "budget_used": 0.032881,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 5,
-  "ai_spend_today": 0.032613,
+  "ai_spend_today": 0.032881900000000006,
   "ai_crypto_today": 5,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T17:21:26.156170+00:00",
+    "sidst_hentet": "2026-11-03T17:36:26.324340+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -208,13 +208,13 @@
         "kilde": "nyhed",
         "symbol": "BTC/USD",
         "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "JPMorgan-vurdering af republikansk valgsejr kan genoplive krypto-lovgivning; en politisk katalysator, men udfaldet er langt ude i tid og delvist kendt.",
-        "tid": "2026-11-03T15:01:26.268596+00:00",
-        "pris_ved_nyhed": 77262.1825,
-        "udloeber": "2026-11-03T19:01:26.268596+00:00"
+        "styrke": 2,
+        "allerede_i_prisen": true,
+        "gyldig_timer": 2,
+        "begrundelse": "Riot-aktien stiger for forventede bitcoin-miner-resultater; positiv sentiment, men kursen er allerede steget foer rapporten.",
+        "tid": "2026-11-03T17:36:27.539845+00:00",
+        "pris_ved_nyhed": 77605.069,
+        "udloeber": "2026-11-03T19:36:27.539845+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
@@ -242,23 +242,25 @@
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 6,
-    "sidste_kald": "2026-11-03T17:26:26.615946+00:00",
+    "kald_i_dag": 7,
+    "sidste_kald": "2026-11-03T17:36:27.539845+00:00",
     "set_ids": [
-      "62829579",
       "62831862",
-      "62824244",
       "62807399",
-      "62822561",
-      "62807858",
-      "62822395",
       "62808089",
-      "62832505"
+      "62822395",
+      "62829579",
+      "62807858",
+      "62824244",
+      "62832505",
+      "62822561",
+      "62832703",
+      "62832701"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77575.25200000001,
+  "last_btc_price": 77605.069,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
