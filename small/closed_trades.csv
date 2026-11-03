@@ -1,0 +1,2 @@
+coin,entry_tid,exit_tid,setup,regime,conviction,entry,exit,stop_initial,r_multiple,pnl_usd,exit_aarsag,timer
+ACHR,2026-11-03 14:57,2026-11-03 15:22,orb,high_vol,3,4.29,4.24,4.24,-1.12,-104.98,stop ramt (Alpaca),0.4

@@ -99,3 +99,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-03 15:17,LUNR,10.64,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,10.45,100178.49,0.178,101521.56,1.522,0.174,0.0,0.051,
 2026-11-03 15:17,ACHR,4.295,range,trend_pullback,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,4.24,100178.49,0.178,101521.56,1.522,0.174,0.0,0.051,
 2026-11-03 15:17,OUST,29.75,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100178.49,0.178,101521.56,1.522,0.174,0.0,0.051,
+2026-11-03 15:22,ONDS,5.995,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,RCAT,4.555,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,UMAC,15.03,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,BBAI,2.505,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,SOUN,4.115,high_vol,range_bund nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,QUBT,6.425,range,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,RGTI,11.12,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,LUNR,10.59,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,10.45,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
+2026-11-03 15:22,ACHR,4.235,range,trend_pullback,nej (setup: trend_pullback),,,,,,,,,,,,,STOP RAMT,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,Solgt ca. 4
+2026-11-03 15:22,OUST,30.01,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,"ORB-signal, men sprunget over: regnskab 2026-11-03"
