@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.57** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.02** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.043 USD  ·  **I alt:** +43 USD (+0.04 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 3/11 20.56
+**Konto:** 100.044 USD  ·  **I alt:** +44 USD (+0.04 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 3/11 21.01
 
 **Ejer nu:**
 
@@ -24,7 +24,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.57** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.667 USD  ·  **I alt:** -333 USD (-0.33 %)  ·  **I dag:** -0.33 %  ·  sidst opdateret 3/11 20.53
+**Konto:** 99.667 USD  ·  **I alt:** -333 USD (-0.33 %)  ·  **I dag:** -0.33 %  ·  sidst opdateret 3/11 20.58
 
 **Ejer nu:** intet
 
@@ -38,7 +38,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.57** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.998 USD  ·  **I alt:** -2 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 20.52
+**Konto:** 99.998 USD  ·  **I alt:** -2 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 20.57
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
@@ -48,9 +48,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.57** (dansk tid). Kun
 |---|---|---|---|
 | BTC/USD | 0.0126251 | 77449.30 | 3/11 14.36 |
 
-## 🔴 Options-botten (calls/puts på 10 store aktier)
+## 🟢 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.995 USD  ·  **I alt:** -5 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 3/11 20.51
+**Konto:** 100.047 USD  ·  **I alt:** +47 USD (+0.05 %)  ·  **I dag:** +0.05 %  ·  sidst opdateret 3/11 20.56
 
 **Ejer nu:**
 
@@ -60,7 +60,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.57** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 20.55
+**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 21.00
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
