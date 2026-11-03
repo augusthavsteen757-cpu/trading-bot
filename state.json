@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76687.07,
+  "last_btc_price": 76675.44,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -496,30 +496,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte sammenh\u00e6ng med ETH; nyheden er l\u00f8s stemning om politisk v\u00e6ddem\u00e5l.",
-        "tid": "2026-11-03T04:18:09.329771+00:00",
-        "pris_ved_nyhed": 2250.4425,
-        "udloeber": "2026-11-03T05:18:09.329771+00:00"
-      },
-      "SOL/USD": {
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen relevant kanal til SOL; nyheden har ingen fundamental effekt p\u00e5 kurs.",
-        "tid": "2026-11-03T04:18:09.329771+00:00",
-        "pris_ved_nyhed": 92.08505,
-        "udloeber": "2026-11-03T05:18:09.329771+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-03T04:18:09.329771+00:00",
