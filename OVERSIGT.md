@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.17** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.21** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.039 USD  ·  **I alt:** +39 USD (+0.04 %)  ·  **I dag:** +0.17 %  ·  sidst opdateret 3/11 21.16
+**Konto:** 100.043 USD  ·  **I alt:** +43 USD (+0.04 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 3/11 21.21
 
 **Ejer nu:**
 
@@ -24,7 +24,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.17** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.667 USD  ·  **I alt:** -333 USD (-0.33 %)  ·  **I dag:** -0.33 %  ·  sidst opdateret 3/11 21.13
+**Konto:** 99.667 USD  ·  **I alt:** -333 USD (-0.33 %)  ·  **I dag:** -0.33 %  ·  sidst opdateret 3/11 21.18
 
 **Ejer nu:** intet
 
@@ -38,7 +38,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.17** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.999 USD  ·  **I alt:** -1 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 21.12
+**Konto:** 99.999 USD  ·  **I alt:** -1 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 21.17
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
@@ -60,7 +60,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 21.17** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 21.15
+**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 21.20
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
