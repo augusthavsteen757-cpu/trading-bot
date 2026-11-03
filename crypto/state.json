@@ -237,18 +237,6 @@
         "tid": "2026-11-03T16:31:27.293341+00:00",
         "pris_ved_nyhed": 2288.764,
         "udloeber": "2026-11-03T18:31:27.293341+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Flere Reddit-opslag om tokeniserede aktier som SPY paa Solana og nye institutionelle udstedelser; rygter og hype, kun svag kontekst.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 92.70500000000001,
-        "udloeber": "2026-11-03T17:06:05.738705+00:00"
       }
     },
     "dag": "2026-11-03",
@@ -267,6 +255,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77651.21849999999,
+  "last_btc_price": 77604.86,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
