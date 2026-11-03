@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T19:07:09.502458+00:00",
-      "last_review_price": 77487.84
+      "last_hold_review": "2026-11-03T20:07:09.581848+00:00",
+      "last_review_price": 77659.063
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,11 +37,11 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.046458,
+  "budget_used": 0.053213,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.04645920000000001,
-  "ai_crypto_today": 7,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.05321390000000002,
+  "ai_crypto_today": 8,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.17,
@@ -227,18 +227,6 @@
         "tid": "2026-11-03T18:26:27.325655+00:00",
         "pris_ved_nyhed": 2294.892,
         "udloeber": "2026-11-03T21:26:27.325655+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD-regnskab og AI-debat kan paavirke tech-sentiment, men ingen direkte krypto-kobling.",
-        "tid": "2026-11-03T18:06:28.487980+00:00",
-        "pris_ved_nyhed": 93.56,
-        "udloeber": "2026-11-03T20:06:28.487980+00:00"
       }
     },
     "dag": "2026-11-03",
@@ -268,7 +256,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77542.6,
+  "last_btc_price": 77659.063,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
