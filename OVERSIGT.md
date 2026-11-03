@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.22** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.27** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.061 USD  ·  **I alt:** +61 USD (+0.06 %)  ·  **I dag:** +0.19 %  ·  sidst opdateret 3/11 20.21
+**Konto:** 100.055 USD  ·  **I alt:** +55 USD (+0.06 %)  ·  **I dag:** +0.19 %  ·  sidst opdateret 3/11 20.26
 
 **Ejer nu:**
 
@@ -24,18 +24,15 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.22** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.681 USD  ·  **I alt:** -319 USD (-0.32 %)  ·  **I dag:** -0.32 %  ·  sidst opdateret 3/11 20.18
+**Konto:** 99.667 USD  ·  **I alt:** -333 USD (-0.33 %)  ·  **I dag:** -0.33 %  ·  sidst opdateret 3/11 20.23
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| LUNR | 957 | 10.45 | 3/11 16.03 |
-
-**Lukkede handler:** 2 i alt, 0 med gevinst, samlet -308 USD
+**Lukkede handler:** 3 i alt, 1 med gevinst, samlet -304 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ LUNR | 3/11 20.23 | +5 USD | stop ramt (Alpaca) |
 | ❌ UMAC | 3/11 16.52 | -203 USD | stop ramt (Alpaca) |
 | ❌ ACHR | 3/11 16.22 | -105 USD | stop ramt (Alpaca) |
 
@@ -53,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.22** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.948 USD  ·  **I alt:** -52 USD (-0.05 %)  ·  **I dag:** -0.05 %  ·  sidst opdateret 3/11 20.16
+**Konto:** 99.933 USD  ·  **I alt:** -67 USD (-0.07 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 3/11 20.21
 
 **Ejer nu:**
 
@@ -63,7 +60,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 20.22** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 20.20
+**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 20.25
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
