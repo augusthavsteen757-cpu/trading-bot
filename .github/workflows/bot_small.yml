@@ -1,0 +1,84 @@
+name: Tradingbot small caps
+
+# Bot nr. 2: samme strategi og regler som hoved-botten, men 10 smaa, volatile aktier
+# paa sin EGEN Alpaca paper-konto (egen graf). Data gemmes i mappen small/.
+# Kraever secrets ALPACA_SMALL_KEY og ALPACA_SMALL_SECRET (fra den nye paper-konto).
+on:
+  schedule:
+    - cron: "47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: tradingbot-small
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tjek at noeglerne til small-kontoen findes
+        id: keys
+        env:
+          K: ${{ secrets.ALPACA_SMALL_KEY }}
+        run: |
+          if [ -z "$K" ]; then
+            echo "Mangler secret ALPACA_SMALL_KEY. Small-botten venter, til den er sat."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+        if: steps.keys.outputs.ok == 'true'
+      - name: Koer en runde hvert 5. minut i ca. 5,5 time
+        if: steps.keys.outputs.ok == 'true'
+        env:
+          BOT_DIR: small
+          ALPACA_API_KEY: ${{ secrets.ALPACA_SMALL_KEY }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COINS: none
+          STOCKS: ${{ vars.SMALL_STOCKS || 'ONDS,RCAT,UMAC,BBAI,SOUN,QUBT,RGTI,LUNR,ACHR,OUST' }}
+          BENCHMARK: ONDS
+          MONTHLY_BUDGET_USD: ${{ vars.SMALL_MONTHLY_BUDGET_USD || '2.50' }}
+          MAX_AI_ROUNDS_PER_DAY: ${{ vars.SMALL_MAX_AI_ROUNDS_PER_DAY || '10' }}
+          RESET_HALT: ${{ vars.SMALL_RESET_HALT }}
+          NEWS_MAX_CALLS_PER_DAY: ${{ vars.SMALL_NEWS_MAX_CALLS_PER_DAY || '15' }}
+          NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
+          NEWS_MIN_STYRKE: ${{ vars.NEWS_MIN_STYRKE }}
+        run: |
+          git config user.name "tradingbot"
+          git config user.email "tradingbot@users.noreply.github.com"
+          DATA="small"
+          end=$(( $(date +%s) + 330*60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s)
+            timeout 270 python bot.py || echo "Runde fejlede"
+            git add small
+            git commit -q -m "Small-bot runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
+            if ! git pull -q --rebase; then
+              git rebase --abort 2>/dev/null || true
+              rm -rf /tmp/smalldata && cp -r small /tmp/smalldata
+              git fetch -q origin main && git reset -q --hard origin/main && git clean -fdq
+              rm -rf small && cp -r /tmp/smalldata small && rm -rf /tmp/smalldata
+              git add small
+              git commit -q -m "Small-bot runde $(date -u +%Y-%m-%dT%H:%M) (efter sync)" || true
+            fi
+            git push -q || echo "Push fejlede"
+            sleep $(( 300 - ($(date +%s) - start) > 0 ? 300 - ($(date +%s) - start) : 1 ))
+          done
+      - name: Start naeste kaede
+        if: ${{ !cancelled() && steps.keys.outputs.ok == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run bot_small.yml --repo "${{ github.repository }}" --ref main

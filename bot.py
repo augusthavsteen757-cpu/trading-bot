@@ -43,13 +43,17 @@ def env_f(name, default):
 
 
 # ---------------- Indstillinger (kan overskrives i .env eller som GitHub-variabler) ----------------
-CRYPTO = [c.strip() for c in (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").split(",") if c.strip()]
+# BOT_DIR: en ekstra bot (fx "small") faar sin egen mappe til log/state, saa de to bots aldrig blander data.
+BOT_DIR = (os.getenv("BOT_DIR") or "").strip()
+_coins = (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").strip()
+CRYPTO = [] if _coins.lower() == "none" else [c.strip() for c in _coins.split(",") if c.strip()]
 STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").split(",") if c.strip()]
 ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or ",".join(STOCKS)).split(",") if c.strip()]
 ORB_TIME_STOP_MIN = env_f("ORB_TIME_STOP_MIN", 60)  # ORB: er handlen ikke i plus efter 60 min, saelges den
 ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
+BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
 
 
@@ -82,11 +86,13 @@ LESSONS_NEG, LESSONS_POS = 5, 3
 PERF_TRADES = 30
 
 PREFIX = "test_" if TEST_MODE else "dry_" if DRY_RUN else ""
-TRADES_CSV = BASE / f"{PREFIX}trades.csv"
-CLOSED_CSV = BASE / f"{PREFIX}closed_trades.csv"
-STATE_FILE = BASE / f"{PREFIX}state.json"
-LESSONS_FILE = BASE / f"{PREFIX}lessons.md"
-LOG_DIR = BASE / "logs"
+DATA_DIR = BASE / BOT_DIR if BOT_DIR else BASE
+DATA_DIR.mkdir(exist_ok=True)
+TRADES_CSV = DATA_DIR / f"{PREFIX}trades.csv"
+CLOSED_CSV = DATA_DIR / f"{PREFIX}closed_trades.csv"
+STATE_FILE = DATA_DIR / f"{PREFIX}state.json"
+LESSONS_FILE = DATA_DIR / f"{PREFIX}lessons.md"
+LOG_DIR = DATA_DIR / "logs"
 STATE_VERSION = 3
 
 CSV_FIELDS = [
@@ -809,7 +815,7 @@ def main():
 
 def read_test_flag():
     try:
-        with open(BASE / "koeb_test.flag") as fh:
+        with open(DATA_DIR / "koeb_test.flag") as fh:
             return fh.read().strip()
     except OSError:
         return ""
@@ -903,7 +909,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     daily, hourly, m5, price = get_market_data(coin)
     f = fx.compute_features(daily, hourly, m5, price)
     rec["features"] = f
-    if coin == "BTC/USD":  # koeb-og-behold sammenlignes med BTC
+    if coin == BENCHMARK:  # koeb-og-behold sammenlignes med BENCHMARK (BTC i hoved-botten)
         if "start_equity" not in state:
             state.update(start_equity=equity, start_price=price, start_time=now().isoformat())
         state["last_btc_price"] = price
