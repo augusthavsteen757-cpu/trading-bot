@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "coins": {
+    "BTC/USD": {}
+  },
+  "learned": [],
+  "pending": {
+    "teknisk fejl: APIError: {\"message\": \"unauthorized.\"}\n": [
+      "2026-11-03 17:45: APIError: {\"message\": \"unauthorized.\"}\n"
+    ]
+  },
+  "budget_month": "2026-11",
+  "budget_used": 0.0,
+  "ai_day": "2026-11-03",
+  "ai_rounds_today": 0,
+  "ai_spend_today": 0.0,
+  "ai_crypto_today": 0,
+  "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
+}
