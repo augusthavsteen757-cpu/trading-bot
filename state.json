@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77808.1,
+  "last_btc_price": 77806.8,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1067,18 +1067,6 @@
         "pris_ved_nyhed": 686.8,
         "udloeber": "2026-11-03T22:21:30.445134+00:00"
       },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "AMD-earnings testes mod PC-svaghed; udfaldet er uklart, s\u00e5 retningen er neutral indtil resultat kendes.",
-        "tid": "2026-11-03T18:01:28.967589+00:00",
-        "pris_ved_nyhed": 490.41499999999996,
-        "udloeber": "2026-11-03T22:01:28.967589+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1304,8 +1292,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T21:41:29.573997+00:00",
+    "sidst_hentet": "2026-11-03T22:01:28.867638+00:00",
     "opslag": [
+      {
+        "id": "t3_1xn6giq",
+        "tid": "2026-11-03T21:56:11+00:00",
+        "titel": "Encrypted Stablecoin transaction on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xn5av2",
         "tid": "2026-11-03T21:10:31+00:00",
@@ -1456,16 +1454,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xmavux",
-        "tid": "2026-11-02T21:59:04+00:00",
-        "titel": "Bitcoin giant Strategy, unfazed by Binance hack, adds over $65 million BTC to its holdings",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
