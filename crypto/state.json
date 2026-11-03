@@ -44,7 +44,7 @@
   "ai_crypto_today": 6,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
-  "peak_equity": 100000.0,
+  "peak_equity": 100000.13,
   "reddit": {
     "sidst_hentet": "2026-11-03T18:06:27.193592+00:00",
     "opslag": [
@@ -266,6 +266,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77661.823,
+  "last_btc_price": 77658.54999999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
