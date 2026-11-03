@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "coins": {
+    "BTC/USD": {}
+  },
+  "learned": [],
+  "pending": {},
+  "budget_month": "2026-11",
+  "budget_used": 0.0,
+  "ai_day": "2026-11-03",
+  "ai_rounds_today": 0,
+  "ai_spend_today": 0.0,
+  "ai_crypto_today": 0,
+  "eq_day": "2026-11-03",
+  "day_start_equity": 100000.0,
+  "peak_equity": 100000.0
+}
