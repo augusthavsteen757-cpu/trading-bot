@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T17:01:31.818526+00:00",
-      "last_review_price": 77651.21849999999
+      "last_hold_review": "2026-11-03T18:06:33.995144+00:00",
+      "last_review_price": 77661.823
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,16 +37,16 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.033212,
+  "budget_used": 0.039633,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.03321330000000001,
-  "ai_crypto_today": 5,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.03963400000000001,
+  "ai_crypto_today": 6,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T17:51:26.617657+00:00",
+    "sidst_hentet": "2026-11-03T18:06:27.193592+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -208,61 +208,64 @@
         "kilde": "nyhed",
         "symbol": "BTC/USD",
         "retning": "op",
-        "styrke": 3,
+        "styrke": 2,
         "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "Coinbase-aktien stiger, og kryptomarkedet genopretter sig efter selloff; BTC kan f\u00f8lge med, men delvist allerede i prisen.",
-        "tid": "2026-11-03T17:51:27.689034+00:00",
-        "pris_ved_nyhed": 77624.16399999999,
-        "udloeber": "2026-11-03T19:51:27.689034+00:00"
+        "begrundelse": "Galaxy Digital steg 12% paa BTC-stabilisering og positiv markedsstemning; kan give kortvarig stoette til BTC.",
+        "tid": "2026-11-03T18:06:28.487980+00:00",
+        "pris_ved_nyhed": 77661.823,
+        "udloeber": "2026-11-03T20:06:28.487980+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
-        "retning": "op",
+        "retning": "ned",
         "styrke": 2,
         "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Generel krypto-genopretning og Coinbase-rally smitter sandsynligvis over p\u00e5 ETH, men effekten er svag og allerede synlig.",
-        "tid": "2026-11-03T17:51:27.689034+00:00",
-        "pris_ved_nyhed": 2296.46,
-        "udloeber": "2026-11-03T19:51:27.689034+00:00"
+        "gyldig_timer": 3,
+        "begrundelse": "ETH folger typisk BTC-retningen; advarslen om S&P-fald smitter over paa krypto-markedet.",
+        "tid": "2026-11-03T18:06:28.487980+00:00",
+        "pris_ved_nyhed": 2297.9889999999996,
+        "udloeber": "2026-11-03T21:06:28.487980+00:00"
       },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
+        "retning": "neutral",
+        "styrke": 1,
         "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Positiv BTC-sentiment smitter ofte over paa altcoins som SOL med hoejere beta; svag til moderat effekt.",
-        "tid": "2026-11-03T17:11:26.801547+00:00",
-        "pris_ved_nyhed": 93.4002,
-        "udloeber": "2026-11-03T20:11:26.801547+00:00"
+        "gyldig_timer": 2,
+        "begrundelse": "AMD-regnskab og AI-debat kan paavirke tech-sentiment, men ingen direkte krypto-kobling.",
+        "tid": "2026-11-03T18:06:28.487980+00:00",
+        "pris_ved_nyhed": 93.56,
+        "udloeber": "2026-11-03T20:06:28.487980+00:00"
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 8,
-    "sidste_kald": "2026-11-03T17:51:27.689034+00:00",
+    "kald_i_dag": 9,
+    "sidste_kald": "2026-11-03T18:06:28.487980+00:00",
     "set_ids": [
+      "62832703",
       "62822395",
+      "62832505",
       "62807399",
+      "62829579",
+      "62807858",
+      "62833555",
+      "62833671",
+      "62808089",
+      "62832701",
+      "62824244",
       "62822561",
       "62831862",
-      "62832505",
-      "62829579",
-      "62832703",
-      "62832701",
-      "62808089",
-      "62807858",
-      "62824244",
-      "62833671",
-      "62833555"
+      "62834276",
+      "62834251",
+      "62833774"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77544.5405,
+  "last_btc_price": 77661.823,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
