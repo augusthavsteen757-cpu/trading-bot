@@ -130,18 +130,6 @@
         "tid": "2026-11-03T14:32:54.446603+00:00",
         "pris_ved_nyhed": 4.105,
         "udloeber": "2026-11-03T17:32:54.446603+00:00"
-      },
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Konkret kommerciel pilot paa Rigetti-hardware med klaim om at slaa klassisk benchmark; positiv validering af hardware, men smaa pilot og selvrapporteret, saa moderat paavirkning.",
-        "tid": "2026-11-03T14:47:53.497802+00:00",
-        "pris_ved_nyhed": 11.285,
-        "udloeber": "2026-11-03T16:47:53.497802+00:00"
       }
     },
     "dag": "2026-11-03",
@@ -156,7 +144,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.895,
+  "last_btc_price": 5.885,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
