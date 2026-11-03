@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 77198.6775,
+  "last_btc_price": 77263.487,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -602,8 +602,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T12:58:38.579004+00:00",
+    "sidst_hentet": "2026-11-03T13:18:38.451065+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmsk7q",
+        "tid": "2026-11-03T13:11:42+00:00",
+        "titel": "monero feels like what bitcoin should be",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xmrxmu",
         "tid": "2026-11-03T12:42:16+00:00",
@@ -825,6 +835,6 @@
         "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   }
 }
