@@ -55,10 +55,10 @@ jobs:
           COINS: ${{ vars.CRYPTO_COINS || 'BTC/USD,ETH/USD,SOL/USD,DOGE/USD,AVAX/USD,LINK/USD,LTC/USD' }}
           STOCKS: none
           BENCHMARK: BTC/USD
-          # 0,50 USD/md, saa alle bots tilsammen holder sig under 8 USD/md. Mere = rigtig udgift (spoerg foerst).
-          MONTHLY_BUDGET_USD: ${{ vars.CRYPTO_MONTHLY_BUDGET_USD || '0.50' }}
-          MAX_AI_ROUNDS_PER_DAY: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '10' }}
-          MAX_CRYPTO_AI_ROUNDS: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '10' }}
+          # 2,50 USD/md (brugeren valgte 3. nov at haeve fra 0,50). Alle bots tilsammen ca. 10 USD/md.
+          MONTHLY_BUDGET_USD: ${{ vars.CRYPTO_MONTHLY_BUDGET_USD || '2.50' }}
+          MAX_AI_ROUNDS_PER_DAY: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '20' }}
+          MAX_CRYPTO_AI_ROUNDS: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '20' }}
           RESET_HALT: ${{ vars.CRYPTO_RESET_HALT }}
           NEWS_MAX_CALLS_PER_DAY: ${{ vars.CRYPTO_NEWS_MAX_CALLS_PER_DAY || '10' }}
           NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
