@@ -176,18 +176,6 @@
         "pris_ved_nyhed": 332.04,
         "udloeber": "2026-11-03T22:10:36.860589+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Tesla indgaar i indsigelser mod tokeniserede aktier; det er primaert juridisk/regulatorisk stoej, men kan skabe usikkerhed omkring aktien og give kortvarig volatilitet.",
-        "tid": "2026-11-03T18:20:36.335848+00:00",
-        "pris_ved_nyhed": 398.365,
-        "udloeber": "2026-11-03T20:20:36.335848+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
