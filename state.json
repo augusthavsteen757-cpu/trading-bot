@@ -110,7 +110,7 @@
         "entry": 610.94,
         "stop": 601.0400000000001,
         "stop_initial": 601.0400000000001,
-        "high": 617.66,
+        "high": 619.79,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -146,7 +146,7 @@
       ]
     }
   },
-  "last_btc_price": 77247.89749999999,
+  "last_btc_price": 77538.3,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1372,7 +1372,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T15:29:06.518348+00:00",
+    "sidst_hentet": "2026-11-03T15:44:06.719498+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
