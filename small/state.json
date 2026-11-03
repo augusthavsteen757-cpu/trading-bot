@@ -34,7 +34,12 @@
         "range_bund"
       ]
     },
-    "RGTI": {},
+    "RGTI": {
+      "last_entry_eval": "2026-11-03T14:48:00.690769+00:00",
+      "last_entry_setups": [
+        "nyhed_op"
+      ]
+    },
     "LUNR": {
       "last_entry_eval": "2026-11-03T14:34:09.988277+00:00",
       "last_entry_setups": [
@@ -47,10 +52,10 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.033773,
+  "budget_used": 0.039813,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.033772500000000004,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.03981260000000001,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
@@ -108,20 +113,45 @@
         "tid": "2026-11-03T14:32:54.446603+00:00",
         "pris_ved_nyhed": 4.5,
         "udloeber": "2026-11-03T16:32:54.446603+00:00"
+      },
+      "RGTI": {
+        "kilde": "nyhed",
+        "symbol": "RGTI",
+        "retning": "op",
+        "styrke": 3,
+        "allerede_i_prisen": false,
+        "gyldig_timer": 2,
+        "begrundelse": "Konkret kommerciel pilot paa Rigetti-hardware med klaim om at slaa klassisk benchmark; positiv validering af hardware, men smaa pilot og selvrapporteret, saa moderat paavirkning.",
+        "tid": "2026-11-03T14:47:53.497802+00:00",
+        "pris_ved_nyhed": 11.285,
+        "udloeber": "2026-11-03T16:47:53.497802+00:00"
+      },
+      "QUBT": {
+        "kilde": "nyhed",
+        "symbol": "QUBT",
+        "retning": "op",
+        "styrke": 2,
+        "allerede_i_prisen": false,
+        "gyldig_timer": 1,
+        "begrundelse": "Kvantesektor-smitte: nyhed om kvantecomputing-anvendelse kan loefte andre kvantemedier som QUBT, men sammenhaengen er svag.",
+        "tid": "2026-11-03T14:47:53.497802+00:00",
+        "pris_ved_nyhed": 6.535,
+        "udloeber": "2026-11-03T15:47:53.497802+00:00"
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 1,
-    "sidste_kald": "2026-11-03T14:32:54.446603+00:00",
+    "kald_i_dag": 2,
+    "sidste_kald": "2026-11-03T14:47:53.497802+00:00",
     "set_ids": [
       "62820584",
-      "62816393"
+      "62816393",
+      "111491028"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 6.055,
+  "last_btc_price": 6.045,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
