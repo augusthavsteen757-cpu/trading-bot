@@ -1,7 +1,32 @@
 {
   "version": 3,
   "coins": {
-    "BTC/USD": {},
+    "BTC/USD": {
+      "pos": {
+        "entry": 77449.29999999999,
+        "stop": 75900.31399999998,
+        "stop_initial": 75900.31399999998,
+        "high": 77688.01,
+        "qty": 0.012625127,
+        "entry_tid": "2026-11-03 13:36",
+        "setup": "testkoeb",
+        "regime": "range",
+        "conviction": 1,
+        "grund": "Manuelt testkoeb for at teste koeb, stop og log",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 58.0,
+          "adx_1h": 21.5,
+          "rel_volumen_1h": 0.42,
+          "afstand_modstand_atr": 0.44,
+          "atr_percentil_30d": 64.3
+        }
+      },
+      "last_hold_review": "2026-11-03T15:56:29.309049+00:00",
+      "last_review_price": 77688.0105
+    },
     "ETH/USD": {},
     "SOL/USD": {},
     "DOGE/USD": {},
@@ -12,17 +37,48 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.000474,
+  "budget_used": 0.025992,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 0,
-  "ai_spend_today": 0.0004738,
-  "ai_crypto_today": 0,
+  "ai_rounds_today": 4,
+  "ai_spend_today": 0.025992300000000003,
+  "ai_crypto_today": 4,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T13:26:26.319000+00:00",
+    "sidst_hentet": "2026-11-03T16:31:26.230952+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmv5g2",
+        "tid": "2026-11-03T14:58:03+00:00",
+        "titel": "Following the #1 copy trader for 6 months turned $10k into $237. Holding BTC and ETH: $10,316. I tracked all 9,470 copy ",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xmuogu",
+        "tid": "2026-11-03T14:39:51+00:00",
+        "titel": "Liquid\u2019s bitcoin IOUs are fully backed again",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xmthjj",
+        "tid": "2026-11-03T13:52:52+00:00",
+        "titel": "Imagine thinking you've missed the bitcoin opportunity!!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmsk7q",
         "tid": "2026-11-03T13:11:42+00:00",
@@ -162,117 +218,35 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xm1tke",
-        "tid": "2026-11-02T16:27:32+00:00",
-        "titel": "When You Control Your Bitcoin, You\u2019re Responsible for It Too.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm1qze",
-        "tid": "2026-11-02T16:24:49+00:00",
-        "titel": "Brazil's largest crypto exchange, Mercado Bitcoin, suspends deposits and withdrawals after reportedly being hacked for o",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm184b",
-        "tid": "2026-11-02T16:05:38+00:00",
-        "titel": "Just 4 months after launching its first tokenized assets on Solana, Backpack Securities recorded a new monthly volume AT",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xlzmhl",
-        "tid": "2026-11-02T15:06:07+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xlzm4w",
-        "tid": "2026-11-02T15:05:44+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xlyi7a",
-        "tid": "2026-11-02T14:22:23+00:00",
-        "titel": "How are you actually benchmarking Solana transaction landing?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xlxw19",
-        "tid": "2026-11-02T13:58:28+00:00",
-        "titel": "Who controls the private keys of governments' Bitcoin wallets?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
-        "retning": "ned",
+        "retning": "op",
         "styrke": 3,
         "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Binance-hack paa 6,3 mia. USD skaber usikkerhed og forsigtighed omkring boersen; kan presse BTC ned kortvarigt, selvom Strategy koeber for 65 mio. USD.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 77192.2225,
-        "udloeber": "2026-11-03T16:06:05.738705+00:00"
+        "gyldig_timer": 4,
+        "begrundelse": "JPMorgan-vurdering af republikansk valgsejr kan genoplive krypto-lovgivning; en politisk katalysator, men udfaldet er langt ude i tid og delvist kendt.",
+        "tid": "2026-11-03T15:01:26.268596+00:00",
+        "pris_ved_nyhed": 77262.1825,
+        "udloeber": "2026-11-03T19:01:26.268596+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Hacket paa Binance kan smitte over paa hele krypto-markedet med risk-off stemning, og ETH falder ofte med BTC i s\u00e5danne situationer.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 2275.505,
-        "udloeber": "2026-11-03T16:06:05.738705+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "neutral",
-        "styrke": 1,
+        "retning": "op",
+        "styrke": 2,
         "allerede_i_prisen": false,
         "gyldig_timer": 2,
-        "begrundelse": "Ingen direkte relation i overskrifterne; kun generel markedsf\u00f8lsomhed fra Binance-hacket.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 11.16,
-        "udloeber": "2026-11-03T15:06:05.738705+00:00"
+        "begrundelse": "ETH holder staerkt mens BTC og XRP svaekkes, hvilket kan signalere relativ styrke og rotation mod ETH. Svagt signal uden konkret katalysator.",
+        "tid": "2026-11-03T16:31:27.293341+00:00",
+        "pris_ved_nyhed": 2288.764,
+        "udloeber": "2026-11-03T18:31:27.293341+00:00"
       },
       "SOL/USD": {
         "kilde": "kun_reddit",
@@ -288,16 +262,21 @@
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 1,
-    "sidste_kald": "2026-11-03T13:06:05.738705+00:00",
+    "kald_i_dag": 4,
+    "sidste_kald": "2026-11-03T16:31:27.293341+00:00",
     "set_ids": [
-      "62808089",
+      "62822561",
+      "62822395",
+      "62824244",
       "62807858",
-      "62807399"
+      "62808089",
+      "62807399",
+      "62829579"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77330.875
+  "last_btc_price": 77453.9155,
+  "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
