@@ -43,7 +43,9 @@
         },
         "target": 15.555,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-03T15:32:56.117436+00:00",
+      "last_review_price": 14.865
     },
     "BBAI": {},
     "SOUN": {
@@ -114,10 +116,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.051017,
+  "budget_used": 0.05659,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 9,
-  "ai_spend_today": 0.051016900000000004,
+  "ai_rounds_today": 10,
+  "ai_spend_today": 0.0565897,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
