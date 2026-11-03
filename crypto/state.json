@@ -37,16 +37,16 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.032881,
+  "budget_used": 0.033212,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 5,
-  "ai_spend_today": 0.032881900000000006,
+  "ai_spend_today": 0.03321330000000001,
   "ai_crypto_today": 5,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T17:36:26.324340+00:00",
+    "sidst_hentet": "2026-11-03T17:51:26.617657+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -208,25 +208,25 @@
         "kilde": "nyhed",
         "symbol": "BTC/USD",
         "retning": "op",
-        "styrke": 2,
+        "styrke": 3,
         "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "Riot-aktien stiger for forventede bitcoin-miner-resultater; positiv sentiment, men kursen er allerede steget foer rapporten.",
-        "tid": "2026-11-03T17:36:27.539845+00:00",
-        "pris_ved_nyhed": 77605.069,
-        "udloeber": "2026-11-03T19:36:27.539845+00:00"
+        "begrundelse": "Coinbase-aktien stiger, og kryptomarkedet genopretter sig efter selloff; BTC kan f\u00f8lge med, men delvist allerede i prisen.",
+        "tid": "2026-11-03T17:51:27.689034+00:00",
+        "pris_ved_nyhed": 77624.16399999999,
+        "udloeber": "2026-11-03T19:51:27.689034+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
         "retning": "op",
         "styrke": 2,
-        "allerede_i_prisen": false,
+        "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "ETH holder staerkt mens BTC og XRP svaekkes, hvilket kan signalere relativ styrke og rotation mod ETH. Svagt signal uden konkret katalysator.",
-        "tid": "2026-11-03T16:31:27.293341+00:00",
-        "pris_ved_nyhed": 2288.764,
-        "udloeber": "2026-11-03T18:31:27.293341+00:00"
+        "begrundelse": "Generel krypto-genopretning og Coinbase-rally smitter sandsynligvis over p\u00e5 ETH, men effekten er svag og allerede synlig.",
+        "tid": "2026-11-03T17:51:27.689034+00:00",
+        "pris_ved_nyhed": 2296.46,
+        "udloeber": "2026-11-03T19:51:27.689034+00:00"
       },
       "SOL/USD": {
         "kilde": "nyhed",
@@ -242,25 +242,27 @@
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 7,
-    "sidste_kald": "2026-11-03T17:36:27.539845+00:00",
+    "kald_i_dag": 8,
+    "sidste_kald": "2026-11-03T17:51:27.689034+00:00",
     "set_ids": [
-      "62831862",
-      "62807399",
-      "62808089",
       "62822395",
+      "62807399",
+      "62822561",
+      "62831862",
+      "62832505",
       "62829579",
+      "62832703",
+      "62832701",
+      "62808089",
       "62807858",
       "62824244",
-      "62832505",
-      "62822561",
-      "62832703",
-      "62832701"
+      "62833671",
+      "62833555"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77589.10250000001,
+  "last_btc_price": 77624.16399999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
