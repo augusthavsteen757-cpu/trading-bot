@@ -6,7 +6,7 @@
         "entry": 77449.29999999999,
         "stop": 75900.31399999998,
         "stop_initial": 75900.31399999998,
-        "high": 77566.16,
+        "high": 77587.27,
         "qty": 0.012625127,
         "entry_tid": "2026-11-03 13:36",
         "setup": "testkoeb",
@@ -306,6 +306,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77485.0005,
+  "last_btc_price": 77587.26550000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
