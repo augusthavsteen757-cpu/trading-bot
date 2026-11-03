@@ -23,11 +23,11 @@
       "2026-11-02 18:47: QQQ: stop ramt (Alpaca). R=-1.00. Entry 698, exit 689. Grund til koeb: ?. Features ved koeb: "
     ]
   },
-  "ai_day": "2026-11-02",
-  "ai_rounds_today": 20,
-  "ai_spend_today": 0.11251309999999999,
-  "eq_day": "2026-11-02",
-  "day_start_equity": 100043.43,
+  "ai_day": "2026-11-03",
+  "ai_rounds_today": 0,
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-03",
+  "day_start_equity": 99869.1,
   "peak_equity": 100069.77,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76674.945,
+  "last_btc_price": 76670.96350000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -509,8 +509,8 @@
         "udloeber": "2026-11-03T00:47:26.984695+00:00"
       }
     },
-    "dag": "2026-11-02",
-    "kald_i_dag": 19,
+    "dag": "2026-11-03",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-02T20:57:27.137247+00:00",
     "set_ids": [
       "62791832",
@@ -603,5 +603,6 @@
       "62795952",
       "62795864"
     ]
-  }
+  },
+  "ai_crypto_today": 0
 }
