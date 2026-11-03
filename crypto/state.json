@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T15:56:29.309049+00:00",
-      "last_review_price": 77688.0105
+      "last_hold_review": "2026-11-03T17:01:31.818526+00:00",
+      "last_review_price": 77651.21849999999
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,16 +37,16 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.025992,
+  "budget_used": 0.032153,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 4,
-  "ai_spend_today": 0.025992300000000003,
-  "ai_crypto_today": 4,
+  "ai_rounds_today": 5,
+  "ai_spend_today": 0.0321535,
+  "ai_crypto_today": 5,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T16:46:26.628153+00:00",
+    "sidst_hentet": "2026-11-03T17:01:26.697634+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -208,19 +208,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xm2oss",
-        "tid": "2026-11-02T16:59:21+00:00",
-        "titel": "Mercado Bitcoin Halts Withdrawals After $40 Million+ Hack",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -277,6 +267,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77620.1305,
+  "last_btc_price": 77651.21849999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
