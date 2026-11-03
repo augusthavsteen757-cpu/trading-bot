@@ -13,7 +13,7 @@ DK = ZoneInfo("Europe/Copenhagen")
 BOTS = [  # (navn, mappe, beskrivelse)
     ("Hoved-botten", BASE, "store aktier + BTC/ETH/SOL"),
     ("Small-botten", BASE / "small", "10 små aktier"),
-    ("Krypto-botten", BASE / "crypto", "7 coins, døgnet rundt"),
+    ("Krypto-botten", BASE / "crypto", "7 coins, døgnet rundt, aggressiv"),
     ("Options-botten", BASE / "options", "calls/puts på 10 store aktier"),
     ("Aggressiv-botten", BASE / "aggressiv", "færre, større aktiehandler"),
 ]

@@ -1,6 +1,6 @@
 name: Tradingbot krypto
 
-# Bot nr. 3: samme strategi og regler som hoved-botten, men KUN krypto (7 coins, doegnet rundt)
+# Bot nr. 3: AGGRESSIV krypto-bot (som aggressiv-botten), KUN krypto (7 coins, doegnet rundt)
 # paa sin EGEN Alpaca paper-konto (egen graf). Data gemmes i mappen crypto/.
 # Kraever secrets ALPACA_CRYPTO_KEY og ALPACA_CRYPTO_SECRET (fra den nye paper-konto).
 on:
@@ -55,6 +55,17 @@ jobs:
           COINS: ${{ vars.CRYPTO_COINS || 'BTC/USD,ETH/USD,SOL/USD,DOGE/USD,AVAX/USD,LINK/USD,LTC/USD' }}
           STOCKS: none
           BENCHMARK: BTC/USD
+          # --- AGGRESSIV (brugeren valgte 3. nov aften). Hoved-botten i parentes ---
+          RISK_PER_TRADE_PCT: ${{ vars.CRYPTO_RISK_PER_TRADE_PCT || '0.015' }}     # tab ved stop max 1,5 % af kontoen (0,5 %)
+          MAX_POSITION_PCT: ${{ vars.CRYPTO_MAX_POSITION_PCT || '0.30' }}          # op til 30 % i en coin (15 %)
+          MAX_TOTAL_EXPOSURE_PCT: ${{ vars.CRYPTO_MAX_TOTAL_EXPOSURE_PCT || '0.90' }}  # max 90 % investeret (40 %)
+          BREAKEVEN_AT_R: '1.5'      # stop til koebsprisen ved +1,5x risikoen (1x)
+          TRAIL_ATR_MULT: '3.5'      # loesere trailing stop, vinderne faar lov at loebe (2,5)
+          STRATEGY_STYLE: "Du styrer den AGGRESSIVE krypto-bot. Maalet er store gevinster: gaa efter de staerkeste bevaegelser (breakout med hoej volumen, staerk optrend paa flere tidsrammer, positive nyheder med momentum), og koeb hellere faa store handler end mange smaa. Gebyret er ca. 0,5 % pr. tur, saa kraev mindst 2R plads til naeste modstand. Giv hoej conviction (4-5) naar tingene flugter. Undgaa svage, uklare setups og nedtrend helt."
+          SKEPTIC_VETO_FLAGS: '6'    # Skeptikeren skal finde 6 problemer for automatisk veto (5)
+          AUTO_BRAKE: '1'            # selv-tjek: seneste 10 handler i minus = halv stoerrelse til det vender
+          MAX_DAILY_LOSS_PCT: '0.05'     # -5 % paa en dag = ingen nye koeb resten af dagen (-2 %)
+          MAX_DRAWDOWN_PCT: '0.20'       # -20 % fra toppen = botten stopper helt (-8 %)
           # 2,50 USD/md (brugeren valgte 3. nov at haeve fra 0,50). Alle bots tilsammen ca. 10 USD/md.
           MONTHLY_BUDGET_USD: ${{ vars.CRYPTO_MONTHLY_BUDGET_USD || '2.50' }}
           MAX_AI_ROUNDS_PER_DAY: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '20' }}
