@@ -46,7 +46,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.17,
   "reddit": {
-    "sidst_hentet": "2026-11-03T20:12:07.763112+00:00",
+    "sidst_hentet": "2026-11-03T20:27:08.177300+00:00",
     "opslag": [
       {
         "id": "t3_1xn3qms",
@@ -214,18 +214,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kryptoaktier stiger kraftigt og outperformer BTC, drevet af godkendelse af equity perpetual futures. Momentum kan smitte til BTC, men bevaegelsen er allerede i gang.",
-        "tid": "2026-11-03T18:26:27.325655+00:00",
-        "pris_ved_nyhed": 77609.675,
-        "udloeber": "2026-11-03T20:26:27.325655+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -266,7 +254,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77701.11499999999,
+  "last_btc_price": 77691.95,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
