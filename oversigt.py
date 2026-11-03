@@ -1,5 +1,5 @@
 """
-Laver OVERSIGT.md: alle 4 bots paa en side (ingen API-kald, laeser kun filerne i repoet).
+Laver OVERSIGT.md: alle bots paa en side (ingen API-kald, laeser kun filerne i repoet).
 Koeres af hoved-botten (bot.yml) efter hver runde, saa kun en bot skriver filen.
 """
 import csv
@@ -15,6 +15,7 @@ BOTS = [  # (navn, mappe, beskrivelse)
     ("Small-botten", BASE / "small", "10 små aktier"),
     ("Krypto-botten", BASE / "crypto", "7 coins, døgnet rundt"),
     ("Options-botten", BASE / "options", "calls/puts på 10 store aktier"),
+    ("Aggressiv-botten", BASE / "aggressiv", "færre, større aktiehandler"),
 ]
 
 
@@ -83,6 +84,8 @@ def bot_section(name, d, desc):
     L = [f"## {icon} {name} ({desc})", "",
          f"**Konto:** {usd(eq)}  ·  **I alt:** {kr(total)} ({total / start * 100:+.2f} %)  ·  "
          f"**I dag:** {day:+.2f} %  ·  sidst opdateret {dk(last.get('tid_utc'))}", ""]
+    if st.get("auto_tjek"):  # aggressiv-botten: virker den aggressive stil?
+        L += [f"**Selv-tjek:** {st['auto_tjek']}", ""]
     # aabne handler
     if "positions" in st:  # options-botten
         pos = [(k, v.get("antal"), v.get("entry"), dk(v.get("entry_tid"))) for k, v in st["positions"].items()]
