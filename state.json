@@ -29,7 +29,7 @@
   "ai_spend_today": 0.14117720000000006,
   "eq_day": "2026-11-03",
   "day_start_equity": 99869.1,
-  "peak_equity": 100085.3,
+  "peak_equity": 100087.3,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
     "BTC/USD": {
@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77785.0,
+  "last_btc_price": 77778.14749999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
