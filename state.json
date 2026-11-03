@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77441.669,
+  "last_btc_price": 77542.25,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1139,18 +1139,6 @@
         "pris_ved_nyhed": 251.14,
         "udloeber": "2026-11-03T20:06:30.165164+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hollywood-st\u00f8tte til NYT i AI-copyright-sag mod OpenAI/Microsoft er negativ juridisk risiko, men effekten p\u00e5 kursen er begr\u00e6nset.",
-        "tid": "2026-11-03T18:01:28.967589+00:00",
-        "pris_ved_nyhed": 520.14,
-        "udloeber": "2026-11-03T20:01:28.967589+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1400,7 +1388,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T19:41:29.243803+00:00",
+    "sidst_hentet": "2026-11-03T20:01:28.957218+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
