@@ -109,3 +109,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-03 15:22,LUNR,10.59,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,10.45,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,
 2026-11-03 15:22,ACHR,4.235,range,trend_pullback,nej (setup: trend_pullback),,,,,,,,,,,,,STOP RAMT,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,Solgt ca. 4
 2026-11-03 15:22,OUST,30.01,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100002.98,0.003,101352.49,1.352,0.003,-0.171,0.051,"ORB-signal, men sprunget over: regnskab 2026-11-03"
+2026-11-03 15:27,ONDS,5.985,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99969.48,-0.031,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:27,RCAT,4.545,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99969.48,-0.031,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:27,UMAC,14.98,high_vol,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),667.0,9994.99,14.7,99929.46,-0.071,101183.43,1.183,-0.04,-0.214,0.051,"ORB: range 14.42-14.98, maal 15.55"
+2026-11-03 15:27,BBAI,2.505,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99929.46,-0.071,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:27,SOUN,4.095,high_vol,range_bund nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99889.44,-0.111,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:28,QUBT,6.405,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99893.44,-0.107,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:28,RGTI,11.11,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99907.65,-0.092,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:28,LUNR,10.54,high_vol,nyhed_op,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,10.45,99901.91,-0.098,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:28,ACHR,4.235,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99897.64,-0.102,101183.43,1.183,-0.04,-0.214,0.051,
+2026-11-03 15:28,OUST,29.59,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99897.64,-0.102,101183.43,1.183,-0.04,-0.214,0.051,
