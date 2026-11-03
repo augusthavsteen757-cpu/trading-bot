@@ -78,7 +78,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-03T19:08:15.951908+00:00",
+    "sidst_hentet": "2026-11-03T19:28:16.098259+00:00",
     "opslag": [
       {
         "id": "t3_1xmikwt",
@@ -94,20 +94,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "NASA JPL-kontrakt om rumfart\u00f8jsplatform er konkret indt\u00e6gtspotentiale, men aktien stiger allerede midt paa dagen, saa en del er sandsynligvis indpriset.",
-        "tid": "2026-11-03T17:23:16.214706+00:00",
-        "pris_ved_nyhed": 10.625,
-        "udloeber": "2026-11-03T19:23:16.214706+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-03T17:23:16.214706+00:00",
@@ -121,7 +108,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.805,
+  "last_btc_price": 5.785,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
