@@ -102,7 +102,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-03T16:18:14.925211+00:00",
+    "sidst_hentet": "2026-11-03T16:38:15.244074+00:00",
     "opslag": [
       {
         "id": "t3_1xmikwt",
@@ -156,7 +156,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.925,
+  "last_btc_price": 5.915,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
