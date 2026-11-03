@@ -46,8 +46,18 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T14:26:26.412880+00:00",
+    "sidst_hentet": "2026-11-03T14:41:26.715361+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmuogu",
+        "tid": "2026-11-03T14:39:51+00:00",
+        "titel": "Liquid\u2019s bitcoin IOUs are fully backed again",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmthjj",
         "tid": "2026-11-03T13:52:52+00:00",
@@ -249,7 +259,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -316,6 +326,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77336.3505,
+  "last_btc_price": 77237.5,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
