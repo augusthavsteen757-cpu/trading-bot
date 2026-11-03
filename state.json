@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.255242,
+  "budget_used": 0.27143,
   "version": 3,
   "learned": [],
   "pending": {
@@ -24,8 +24,8 @@
     ]
   },
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.032732199999999996,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.04892059999999999,
   "eq_day": "2026-11-03",
   "day_start_equity": 99869.1,
   "peak_equity": 100069.77,
@@ -66,7 +66,35 @@
       ]
     },
     "AMZN": {},
-    "META": {},
+    "META": {
+      "last_entry_eval": "2026-11-03T14:39:23.131494+00:00",
+      "last_entry_setups": [
+        "range_bund"
+      ],
+      "pos": {
+        "entry": 610.94,
+        "stop": 601.0400000000001,
+        "stop_initial": 601.0400000000001,
+        "high": 610.94,
+        "qty": 8.0,
+        "entry_tid": "2026-11-03 14:39",
+        "setup": "range_bund",
+        "regime": "range",
+        "conviction": 2,
+        "grund": "Pris ved stoette (0.04 ATR) med stram stop; modstand 621.59 er 2.15 ATR vaek, over 1,2R. Svag trend og volumen taler for lav conviction.",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 42.9,
+          "adx_1h": 19.4,
+          "rel_volumen_1h": 0.31,
+          "afstand_modstand_atr": 2.15,
+          "atr_percentil_30d": 12.5
+        },
+        "invalidering": "Lukning under 610.75 stoette med volumen bekraefter brud nedad og ugyldiggoer range-bund."
+      }
+    },
     "GOOGL": {
       "last_entry_eval": "2026-11-03T14:35:00.676854+00:00",
       "last_entry_setups": [
@@ -81,7 +109,7 @@
       ]
     }
   },
-  "last_btc_price": 77183.005,
+  "last_btc_price": 77230.65299999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1210,7 +1238,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T14:24:06.370716+00:00",
+    "sidst_hentet": "2026-11-03T14:39:06.819616+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
@@ -1423,6 +1451,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   }
 }
