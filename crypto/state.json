@@ -37,16 +37,16 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.02572,
+  "budget_used": 0.025992,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 4,
-  "ai_spend_today": 0.025720700000000003,
+  "ai_spend_today": 0.025992300000000003,
   "ai_crypto_today": 4,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T16:11:26.150949+00:00",
+    "sidst_hentet": "2026-11-03T16:31:26.230952+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -218,29 +218,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xm1tke",
-        "tid": "2026-11-02T16:27:32+00:00",
-        "titel": "When You Control Your Bitcoin, You\u2019re Responsible for It Too.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm1qze",
-        "tid": "2026-11-02T16:24:49+00:00",
-        "titel": "Brazil's largest crypto exchange, Mercado Bitcoin, suspends deposits and withdrawals after reportedly being hacked for o",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -262,11 +242,11 @@
         "retning": "op",
         "styrke": 2,
         "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Krypto-lovgivning rammer hele markedet, s\u00e5 ETH kan folge BTC-bevaegelsen, men med svagere direkte kobling.",
-        "tid": "2026-11-03T15:01:26.268596+00:00",
-        "pris_ved_nyhed": 2284.3935,
-        "udloeber": "2026-11-03T19:01:26.268596+00:00"
+        "gyldig_timer": 2,
+        "begrundelse": "ETH holder staerkt mens BTC og XRP svaekkes, hvilket kan signalere relativ styrke og rotation mod ETH. Svagt signal uden konkret katalysator.",
+        "tid": "2026-11-03T16:31:27.293341+00:00",
+        "pris_ved_nyhed": 2288.764,
+        "udloeber": "2026-11-03T18:31:27.293341+00:00"
       },
       "SOL/USD": {
         "kilde": "kun_reddit",
@@ -282,20 +262,21 @@
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 3,
-    "sidste_kald": "2026-11-03T15:01:26.268596+00:00",
+    "kald_i_dag": 4,
+    "sidste_kald": "2026-11-03T16:31:27.293341+00:00",
     "set_ids": [
-      "62807858",
-      "62822395",
-      "62807399",
       "62822561",
+      "62822395",
+      "62824244",
+      "62807858",
       "62808089",
-      "62824244"
+      "62807399",
+      "62829579"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77314.42499999999,
+  "last_btc_price": 77430.565,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
