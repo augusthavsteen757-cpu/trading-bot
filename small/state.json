@@ -93,10 +93,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.05659,
+  "budget_used": 0.056795,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 10,
-  "ai_spend_today": 0.0565897,
+  "ai_spend_today": 0.0567948,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
@@ -130,15 +130,28 @@
         "tid": "2026-11-03T14:32:54.446603+00:00",
         "pris_ved_nyhed": 4.105,
         "udloeber": "2026-11-03T17:32:54.446603+00:00"
+      },
+      "LUNR": {
+        "kilde": "nyhed",
+        "symbol": "LUNR",
+        "retning": "op",
+        "styrke": 3,
+        "allerede_i_prisen": true,
+        "gyldig_timer": 2,
+        "begrundelse": "NASA JPL-kontrakt om rumfart\u00f8jsplatform er konkret indt\u00e6gtspotentiale, men aktien stiger allerede midt paa dagen, saa en del er sandsynligvis indpriset.",
+        "tid": "2026-11-03T17:23:16.214706+00:00",
+        "pris_ved_nyhed": 10.625,
+        "udloeber": "2026-11-03T19:23:16.214706+00:00"
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 2,
-    "sidste_kald": "2026-11-03T14:47:53.497802+00:00",
+    "kald_i_dag": 3,
+    "sidste_kald": "2026-11-03T17:23:16.214706+00:00",
     "set_ids": [
-      "62820584",
       "62816393",
-      "111491028"
+      "62820584",
+      "111491028",
+      "62832219"
     ]
   },
   "start_equity": 100000.0,
