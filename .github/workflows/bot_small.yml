@@ -2,7 +2,7 @@ name: Tradingbot small caps
 
 # Bot nr. 2: samme strategi og regler som hoved-botten, men 10 smaa, volatile aktier
 # paa sin EGEN Alpaca paper-konto (egen graf). Data gemmes i mappen small/.
-# Kraever secrets ALPACA_SMALL_KEY og ALPACA_SMALL_SECRET (fra den nye paper-konto).
+# Kraever secrets ALPACA_API_KEY_2 og ALPACA_SECRET_KEY_2 (fra den nye paper-konto).
 on:
   schedule:
     - cron: "47 * * * *"
@@ -25,10 +25,13 @@ jobs:
       - name: Tjek at noeglerne til small-kontoen findes
         id: keys
         env:
-          K: ${{ secrets.ALPACA_SMALL_KEY }}
+          K: ${{ secrets.ALPACA_SMALL_KEY || secrets.ALPACA_API_KEY_2 }}
+          S: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ }}
         run: |
-          if [ -z "$K" ]; then
-            echo "Mangler secret ALPACA_SMALL_KEY. Small-botten venter, til den er sat."
+          if [ -z "$K" ] || [ -z "$S" ]; then
+            [ -z "$K" ] && echo "Mangler noeglen (ALPACA_API_KEY_2)."
+            [ -z "$S" ] && echo "Mangler secret-noeglen (ALPACA_SECRET_KEY_2)."
+            echo "Small-botten venter, til begge er sat."
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -44,8 +47,8 @@ jobs:
         if: steps.keys.outputs.ok == 'true'
         env:
           BOT_DIR: small
-          ALPACA_API_KEY: ${{ secrets.ALPACA_SMALL_KEY }}
-          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET }}
+          ALPACA_API_KEY: ${{ secrets.ALPACA_SMALL_KEY || secrets.ALPACA_API_KEY_2 }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COINS: none
           STOCKS: ${{ vars.SMALL_STOCKS || 'ONDS,RCAT,UMAC,BBAI,SOUN,QUBT,RGTI,LUNR,ACHR,OUST' }}
