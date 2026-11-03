@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 77083.87299999999,
+  "last_btc_price": 77113.72750000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -496,41 +496,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Aktiemarkedet er blandet, og overskriften n\u00e6vner ikke krypto. Iran-forhandlinger kan give risk-on, men effekten p\u00e5 BTC er svag og sandsynligvis allerede i prisen.",
-        "tid": "2026-11-03T10:13:37.746611+00:00",
-        "pris_ved_nyhed": 76903.92,
-        "udloeber": "2026-11-03T11:13:37.746611+00:00"
-      },
-      "ETH/USD": {
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Blandede futures og geopolitisk optimisme giver ingen klar retning for ETH. Sammenh\u00e6ngen til krypto er indirekte og svag.",
-        "tid": "2026-11-03T10:13:37.746611+00:00",
-        "pris_ved_nyhed": 2261.666,
-        "udloeber": "2026-11-03T11:13:37.746611+00:00"
-      },
-      "SOL/USD": {
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte relation til nyheden. Blandet aktiemarked giver ikke grundlag for en klar retning i SOL inden for f\u00e5 timer.",
-        "tid": "2026-11-03T10:13:37.746611+00:00",
-        "pris_ved_nyhed": 92.1009,
-        "udloeber": "2026-11-03T11:13:37.746611+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-03T10:13:37.746611+00:00",
