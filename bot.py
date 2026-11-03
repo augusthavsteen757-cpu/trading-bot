@@ -48,7 +48,8 @@ def env_f(name, default):
 BOT_DIR = (os.getenv("BOT_DIR") or "").strip()
 _coins = (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").strip()
 CRYPTO = [] if _coins.lower() == "none" else [c.strip() for c in _coins.split(",") if c.strip()]
-STOCKS = [c.strip().upper() for c in (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").split(",") if c.strip()]
+_stocks = (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").strip()
+STOCKS = [] if _stocks.lower() == "none" else [c.strip().upper() for c in _stocks.split(",") if c.strip()]  # "none" = kun krypto
 ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or ",".join(STOCKS)).split(",") if c.strip()]
 ORB_TIME_STOP_MIN = env_f("ORB_TIME_STOP_MIN", 60)  # ORB: er handlen ikke i plus efter 60 min, saelges den
 ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig

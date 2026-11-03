@@ -1,0 +1,79 @@
+name: Tradingbot options
+
+# Bot nr. 4: options_bot.py. Koeber calls/puts paa de 10 store aktier, naar options-hintet og trenden
+# peger samme vej. Ren regel-bot uden AI (0 kr). EGEN Alpaca paper-konto. Data i mappen options/.
+# Kraever secrets ALPACA_OPTIONS_KEY og ALPACA_OPTIONS_SECRET (fra den nye paper-konto).
+on:
+  schedule:
+    - cron: "27 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: tradingbot-options
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tjek at noeglerne til options-kontoen findes
+        id: keys
+        env:
+          K: ${{ secrets.ALPACA_OPTIONS_KEY || secrets.ALPACA_API_KEY_4 }}
+          S: ${{ secrets.ALPACA_OPTIONS_SECRET || secrets.ALPACA_SECRET_KEY_4 }}
+        run: |
+          if [ -z "$K" ] || [ -z "$S" ]; then
+            [ -z "$K" ] && echo "Mangler noeglen (ALPACA_OPTIONS_KEY)."
+            [ -z "$S" ] && echo "Mangler secret-noeglen (ALPACA_OPTIONS_SECRET)."
+            echo "Options-botten venter, til begge er sat."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+        if: steps.keys.outputs.ok == 'true'
+      - name: Koer en runde hvert 5. minut i ca. 5,5 time
+        if: steps.keys.outputs.ok == 'true'
+        env:
+          ALPACA_API_KEY: ${{ secrets.ALPACA_OPTIONS_KEY || secrets.ALPACA_API_KEY_4 }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_OPTIONS_SECRET || secrets.ALPACA_SECRET_KEY_4 }}
+          OPT_STOCKS: ${{ vars.OPT_STOCKS }}
+          OPT_RISK_PCT: ${{ vars.OPT_RISK_PCT }}
+          OPT_MAX_OPEN: ${{ vars.OPT_MAX_OPEN }}
+        run: |
+          git config user.name "tradingbot"
+          git config user.email "tradingbot@users.noreply.github.com"
+          DATA="options"
+          end=$(( $(date +%s) + 330*60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s)
+            timeout 270 python options_bot.py || echo "Runde fejlede"
+            git add options
+            git commit -q -m "Options-bot runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
+            if ! git pull -q --rebase; then
+              git rebase --abort 2>/dev/null || true
+              rm -rf /tmp/optdata && cp -r options /tmp/optdata
+              git fetch -q origin main && git reset -q --hard origin/main && git clean -fdq
+              rm -rf options && cp -r /tmp/optdata options && rm -rf /tmp/optdata
+              git add options
+              git commit -q -m "Options-bot runde $(date -u +%Y-%m-%dT%H:%M) (efter sync)" || true
+            fi
+            git push -q || echo "Push fejlede"
+            sleep $(( 300 - ($(date +%s) - start) > 0 ? 300 - ($(date +%s) - start) : 1 ))
+          done
+      - name: Start naeste kaede
+        if: ${{ !cancelled() && steps.keys.outputs.ok == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run bot_options.yml --repo "${{ github.repository }}" --ref main
