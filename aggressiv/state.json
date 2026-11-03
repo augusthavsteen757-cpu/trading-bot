@@ -55,7 +55,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T19:45:36.853718+00:00",
+    "sidst_hentet": "2026-11-03T20:05:36.958627+00:00",
     "opslag": [
       {
         "id": "t3_1xmvz8p",
@@ -98,19 +98,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xm7gzv",
-        "tid": "2026-11-02T19:49:35+00:00",
-        "titel": "Open 12K short position in PLTR before earnings",
-        "symboler": [
-          "PLTR"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 4 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
