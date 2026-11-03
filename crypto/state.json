@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T18:06:33.995144+00:00",
-      "last_review_price": 77661.823
+      "last_hold_review": "2026-11-03T19:07:09.502458+00:00",
+      "last_review_price": 77487.84
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,11 +37,11 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.039914,
+  "budget_used": 0.046458,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.03991470000000001,
-  "ai_crypto_today": 6,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.04645920000000001,
+  "ai_crypto_today": 7,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.17,
@@ -268,7 +268,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77476.95,
+  "last_btc_price": 77487.84,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
