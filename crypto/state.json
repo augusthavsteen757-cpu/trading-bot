@@ -37,10 +37,10 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.032153,
+  "budget_used": 0.032419,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 5,
-  "ai_spend_today": 0.0321535,
+  "ai_spend_today": 0.0324196,
   "ai_crypto_today": 5,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
@@ -237,24 +237,37 @@
         "tid": "2026-11-03T16:31:27.293341+00:00",
         "pris_ved_nyhed": 2288.764,
         "udloeber": "2026-11-03T18:31:27.293341+00:00"
+      },
+      "SOL/USD": {
+        "kilde": "nyhed",
+        "symbol": "SOL/USD",
+        "retning": "op",
+        "styrke": 2,
+        "allerede_i_prisen": false,
+        "gyldig_timer": 3,
+        "begrundelse": "Positiv BTC-sentiment smitter ofte over paa altcoins som SOL med hoejere beta; svag til moderat effekt.",
+        "tid": "2026-11-03T17:11:26.801547+00:00",
+        "pris_ved_nyhed": 93.4002,
+        "udloeber": "2026-11-03T20:11:26.801547+00:00"
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 4,
-    "sidste_kald": "2026-11-03T16:31:27.293341+00:00",
+    "kald_i_dag": 5,
+    "sidste_kald": "2026-11-03T17:11:26.801547+00:00",
     "set_ids": [
-      "62822561",
-      "62822395",
-      "62824244",
       "62807858",
       "62808089",
+      "62829579",
+      "62822561",
       "62807399",
-      "62829579"
+      "62824244",
+      "62822395",
+      "62831862"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77604.86,
+  "last_btc_price": 77627.25,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
