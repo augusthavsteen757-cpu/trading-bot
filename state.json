@@ -78,7 +78,7 @@
         "entry": 513.55,
         "stop": 513.55,
         "stop_initial": 510.23749999999995,
-        "high": 516.74,
+        "high": 516.82,
         "qty": 19.0,
         "entry_tid": "2026-11-03 15:14",
         "setup": "orb",
@@ -111,7 +111,7 @@
         "entry": 610.94,
         "stop": 610.94,
         "stop_initial": 601.0400000000001,
-        "high": 623.5,
+        "high": 623.8,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -147,7 +147,7 @@
       ]
     }
   },
-  "last_btc_price": 77590.0995,
+  "last_btc_price": 77588.446,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
