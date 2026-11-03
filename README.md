@@ -1,5 +1,7 @@
 # Tradingbot v2 (Alpaca PAPER, BTC, ETH og SOL)
 
+**Small-bot (fra 3. nov 2026, bot nr. 2):** samme strategi og regler, men 10 smaa, volatile aktier paa sin EGEN Alpaca paper-konto, saa den faar sin egen graf: ONDS, RCAT, UMAC, BBAI, SOUN, QUBT, RGTI, LUNR, ACHR, OUST (droner, AI, kvante, rumfart, lidar). Workflow `bot_small.yml`, data i mappen `small/` (trades.csv, closed_trades.csv, state.json, logs). Kraever secrets `ALPACA_SMALL_KEY` og `ALPACA_SMALL_SECRET`; uden dem venter den bare. AI-budget 2,50 USD/md (hoved-botten 5,00), i alt 7,50. Koeb-og-behold sammenlignes med ONDS. Aendr listen med Actions-variablen `SMALL_STOCKS`.
+
 **ORB (opening range breakout, SPY og QQQ):** ren regel uden AI. Range = 9:30-9:45 New York (15:30-15:45 dansk vintertid). Koeb naar en 5m-bar lukker over toppen (9:45-11:30), stop i midten, maal 2R, max en handel pr. dag, altid ud foer 15:50. Setup hedder `orb` i closed_trades.csv.
 
 **Nyhedsvagt (newsguard.py):** foer et nyt koeb tjekkes regnskab (i gaar/i dag/i morgen, Nasdaq) og store negative nyheder sidste 12 t (Yahoo Finance, CoinDesk, Cointelegraph). Rammer det, koebes der ikke. Fejler en kilde, blokeres intet.
