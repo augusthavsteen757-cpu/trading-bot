@@ -46,8 +46,19 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T14:56:26.939836+00:00",
+    "sidst_hentet": "2026-11-03T15:16:26.792964+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmv5g2",
+        "tid": "2026-11-03T14:58:03+00:00",
+        "titel": "Following the #1 copy trader for 6 months turned $10k into $237. Holding BTC and ETH: $10,316. I tracked all 9,470 copy ",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xmuogu",
         "tid": "2026-11-03T14:39:51+00:00",
@@ -237,29 +248,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xlzmhl",
-        "tid": "2026-11-02T15:06:07+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xlzm4w",
-        "tid": "2026-11-02T15:05:44+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -315,6 +306,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77226.025,
+  "last_btc_price": 77322.6,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
