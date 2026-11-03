@@ -46,7 +46,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-03T22:52:08.929342+00:00",
+    "sidst_hentet": "2026-11-03T23:12:08.086179+00:00",
     "opslag": [
       {
         "id": "t3_1xn6sr3",
@@ -198,19 +198,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xmcci7",
-        "tid": "2026-11-02T22:58:28+00:00",
-        "titel": "Be careful when entering trezor suite website version / any bitcoin related website",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -241,7 +231,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77724.83499999999,
+  "last_btc_price": 77749.495,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
