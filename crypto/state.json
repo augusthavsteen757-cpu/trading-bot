@@ -203,20 +203,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Regulatorisk aabning for perpetuals og staerk kryptoaktie-stemning kan loefte ETH ogsaa, men sammenhaengen er indirekte.",
-        "tid": "2026-11-03T18:26:27.325655+00:00",
-        "pris_ved_nyhed": 2294.892,
-        "udloeber": "2026-11-03T21:26:27.325655+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-03T18:26:27.325655+00:00",
@@ -244,7 +231,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77825.08499999999,
+  "last_btc_price": 77834.592,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
