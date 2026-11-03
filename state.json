@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76754.419,
+  "last_btc_price": 76651.51999999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -497,17 +497,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Nyheden om en omfattende hack rammer Binance-relateret sentiment, men den er politisk og bekraeftet som kontroversiel; markedet har sandsynligvis allerede reageret, og direkte koebspres er svagt.",
-        "tid": "2026-11-03T03:03:09.271607+00:00",
-        "pris_ved_nyhed": 76578.6735,
-        "udloeber": "2026-11-03T05:03:09.271607+00:00"
-      },
       "ETH/USD": {
         "symbol": "ETH/USD",
         "retning": "neutral",
