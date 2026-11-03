@@ -1,0 +1,91 @@
+name: Tradingbot krypto
+
+# Bot nr. 3: samme strategi og regler som hoved-botten, men KUN krypto (7 coins, doegnet rundt)
+# paa sin EGEN Alpaca paper-konto (egen graf). Data gemmes i mappen crypto/.
+# Kraever secrets ALPACA_CRYPTO_KEY og ALPACA_CRYPTO_SECRET (fra den nye paper-konto).
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: tradingbot-crypto
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tjek at noeglerne til krypto-kontoen findes
+        id: keys
+        env:
+          K: ${{ secrets.ALPACA_CRYPTO_KEY || secrets.ALPACA_API_KEY_3 }}
+          S: ${{ secrets.ALPACA_CRYPTO_SECRET || secrets.ALPACA_SECRET_KEY_3 }}
+        run: |
+          if [ -z "$K" ] || [ -z "$S" ]; then
+            [ -z "$K" ] && echo "Mangler noeglen (ALPACA_CRYPTO_KEY)."
+            [ -z "$S" ] && echo "Mangler secret-noeglen (ALPACA_CRYPTO_SECRET)."
+            echo "Krypto-botten venter, til begge er sat."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+        if: steps.keys.outputs.ok == 'true'
+      - name: Koer en runde hvert 5. minut i ca. 5,5 time
+        if: steps.keys.outputs.ok == 'true'
+        env:
+          BOT_DIR: crypto
+          ALPACA_API_KEY: ${{ secrets.ALPACA_CRYPTO_KEY || secrets.ALPACA_API_KEY_3 }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_CRYPTO_SECRET || secrets.ALPACA_SECRET_KEY_3 }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          COINS: ${{ vars.CRYPTO_COINS || 'BTC/USD,ETH/USD,SOL/USD,DOGE/USD,AVAX/USD,LINK/USD,LTC/USD' }}
+          STOCKS: none
+          BENCHMARK: BTC/USD
+          # 0,50 USD/md, saa alle bots tilsammen holder sig under 8 USD/md. Mere = rigtig udgift (spoerg foerst).
+          MONTHLY_BUDGET_USD: ${{ vars.CRYPTO_MONTHLY_BUDGET_USD || '0.50' }}
+          MAX_AI_ROUNDS_PER_DAY: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '10' }}
+          MAX_CRYPTO_AI_ROUNDS: ${{ vars.CRYPTO_MAX_AI_ROUNDS_PER_DAY || '10' }}
+          RESET_HALT: ${{ vars.CRYPTO_RESET_HALT }}
+          NEWS_MAX_CALLS_PER_DAY: ${{ vars.CRYPTO_NEWS_MAX_CALLS_PER_DAY || '10' }}
+          NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
+          NEWS_MIN_STYRKE: ${{ vars.NEWS_MIN_STYRKE }}
+        run: |
+          git config user.name "tradingbot"
+          git config user.email "tradingbot@users.noreply.github.com"
+          DATA="crypto"
+          end=$(( $(date +%s) + 330*60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s)
+            timeout 270 python bot.py || echo "Runde fejlede"
+            git add crypto
+            git commit -q -m "Krypto-bot runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
+            if ! git pull -q --rebase; then
+              git rebase --abort 2>/dev/null || true
+              rm -rf /tmp/cryptodata && cp -r crypto /tmp/cryptodata
+              git fetch -q origin main && git reset -q --hard origin/main && git clean -fdq
+              rm -rf crypto && cp -r /tmp/cryptodata crypto && rm -rf /tmp/cryptodata
+              git add crypto
+              git commit -q -m "Krypto-bot runde $(date -u +%Y-%m-%dT%H:%M) (efter sync)" || true
+            fi
+            git push -q || echo "Push fejlede"
+            sleep $(( 300 - ($(date +%s) - start) > 0 ? 300 - ($(date +%s) - start) : 1 ))
+          done
+      - name: Start naeste kaede
+        if: ${{ !cancelled() && steps.keys.outputs.ok == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run bot_crypto.yml --repo "${{ github.repository }}" --ref main
