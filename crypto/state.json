@@ -46,7 +46,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T15:51:26.724285+00:00",
+    "sidst_hentet": "2026-11-03T16:11:26.150949+00:00",
     "opslag": [
       {
         "id": "t3_1xmv5g2",
@@ -238,19 +238,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm184b",
-        "tid": "2026-11-02T16:05:38+00:00",
-        "titel": "Just 4 months after launching its first tokenized assets on Solana, Backpack Securities recorded a new monthly volume AT",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -306,6 +296,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77521.3045,
+  "last_btc_price": 77428.44,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
