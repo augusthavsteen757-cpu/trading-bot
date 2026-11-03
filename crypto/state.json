@@ -287,18 +287,6 @@
         "pris_ved_nyhed": 2284.3935,
         "udloeber": "2026-11-03T19:01:26.268596+00:00"
       },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ingen direkte relation i overskrifterne; kun generel markedsf\u00f8lsomhed fra Binance-hacket.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 11.16,
-        "udloeber": "2026-11-03T15:06:05.738705+00:00"
-      },
       "SOL/USD": {
         "kilde": "kun_reddit",
         "symbol": "SOL/USD",
@@ -327,6 +315,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77262.1825,
+  "last_btc_price": 77164.513,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
