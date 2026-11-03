@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77782.07500000001,
+  "last_btc_price": 77730.494,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1103,30 +1103,6 @@
         "pris_ved_nyhed": 755.855,
         "udloeber": "2026-11-03T22:21:30.445134+00:00"
       },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Binance-hack og likvideringer paa 1,5 mia. USD, svag spot-efterspoergsel. Faldet er allerede sket, men risiko for yderligere pres mod 78K og 76,8K.",
-        "tid": "2026-11-03T18:56:28.799492+00:00",
-        "pris_ved_nyhed": 77463.87150000001,
-        "udloeber": "2026-11-03T20:56:28.799492+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Krypto-saelg og likvideringer efter Binance-hacket rammer hele markedet, ETH foelger BTC. Faldet er delvist prisat ind; svag spot-efterspoergsel taler for fortsat pres.",
-        "tid": "2026-11-03T18:56:28.799492+00:00",
-        "pris_ved_nyhed": 2290.1949999999997,
-        "udloeber": "2026-11-03T20:56:28.799492+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1138,18 +1114,6 @@
         "tid": "2026-11-03T19:21:30.445134+00:00",
         "pris_ved_nyhed": 621.69,
         "udloeber": "2026-11-03T21:21:30.445134+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins har typisk stoerre beta end BTC i risk-off-bevaegelser. Hacket og likvideringerne kan smitte videre til SOL.",
-        "tid": "2026-11-03T18:56:28.799492+00:00",
-        "pris_ved_nyhed": 93.285,
-        "udloeber": "2026-11-03T20:56:28.799492+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
