@@ -4,8 +4,8 @@ Options-bot (bot nr. 4) til Alpaca PAPER (kun falske penge). Ren regel-bot uden 
 Ide (fra TikTok-videoen, gjort forsigtig):
   "Options-hint" = hvor stor en del af dagens optionshandel i en aktie er CALLS (vaedder paa stigning)
   i forhold til PUTS (vaedder paa fald). Botten koeber KUN, naar hintet og kursen peger samme vej:
-    - mange calls (>= 70 %) OG aktien er i optrend   = koeb en CALL
-    - mange puts  (>= 65 %) OG aktien er i nedtrend  = koeb en PUT
+    - mange calls (>= 65 %) OG aktien er over sit 20-dages snit   = koeb en CALL
+    - mange puts  (>= 60 %) OG aktien er under sit 20-dages snit  = koeb en PUT
   Hintet alene er aldrig nok.
 
 Sikkerhed (alt i kode):
@@ -46,8 +46,8 @@ def env_f(name, default):
 
 
 STOCKS = [s.strip().upper() for s in (os.getenv("OPT_STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").split(",") if s.strip()]
-CALL_SHARE_BUY = env_f("OPT_CALL_SHARE", 0.70)    # calls >= 70 % af volumen = bullish hint
-PUT_SHARE_BUY = env_f("OPT_PUT_SHARE", 0.65)      # puts >= 65 % = bearish hint (puts bruges ogsaa som forsikring, derfor lidt lavere)
+CALL_SHARE_BUY = env_f("OPT_CALL_SHARE", 0.65)    # calls >= 65 % af volumen = bullish hint
+PUT_SHARE_BUY = env_f("OPT_PUT_SHARE", 0.60)      # puts >= 60 % = bearish hint (puts bruges ogsaa som forsikring, derfor lidt lavere)
 MIN_VOLUME = env_f("OPT_MIN_VOLUME", 3000)        # under 3000 kontrakter i dag = hintet er for tyndt
 RISK_PCT = env_f("OPT_RISK_PCT", 0.01)            # max 1 % af kontoen pr. handel
 MAX_OPEN = int(env_f("OPT_MAX_OPEN", 4))
@@ -111,7 +111,7 @@ def save_state(state):
 
 # ---------------- Data ----------------
 def stock_trend(sym):
-    """'op' hvis kurs > 20-dages snit og i plus i dag, 'ned' hvis begge modsat, ellers 'flad'."""
+    """'op' hvis kursen er over 20-dages snittet, 'ned' hvis under. Taet paa snittet (+/-0,5 %) = 'flad'."""
     if TEST_MODE:
         return {"SPY": ("op", 600.0), "TSLA": ("ned", 400.0)}.get(sym, ("flad", 100.0))
     start = (now() - timedelta(days=45)).isoformat()
@@ -127,10 +127,9 @@ def stock_trend(sym):
     today = datetime.now(NY).date().isoformat()
     closes = [b["c"] for b in bars if not b["t"].startswith(today)]  # kun afsluttede dage
     sma20 = sum(closes[-20:]) / 20
-    prev_close = closes[-1]
-    if price > sma20 and price > prev_close:
+    if price > sma20 * 1.005:
         return "op", price
-    if price < sma20 and price < prev_close:
+    if price < sma20 * 0.995:
         return "ned", price
     return "flad", price
 
@@ -202,6 +201,13 @@ def pick_contract(chain, typ):
         if best is None or score < best[0]:
             best = (score, occ, bid, ask, delta, dte)
     return best
+
+
+def read_test_flag():
+    try:
+        return (DATA_DIR / "koeb_test.flag").read_text().strip()
+    except OSError:
+        return ""
 
 
 # ---------------- Broker ----------------
@@ -323,6 +329,10 @@ def scan_and_buy(broker, state, equity, day_pnl, can_buy, block):
                     hint = "bearish"
             row["hint"] = hint
             typ = "C" if hint == "bullish" and trend == "op" else "P" if hint == "bearish" and trend == "ned" else None
+            flag = read_test_flag()
+            test = (sym == STOCKS[0] and flag and flag != state.get("test_kob_id") and typ is None)
+            if test:  # engangs-testkoeb: ny tekst i options/koeb_test.flag = koeb 1 kontrakt for at teste ordren
+                typ = "P" if trend == "ned" else "C"
             why = None
             if typ is None:
                 why = "hint og trend peger ikke samme vej" if hint != "ingen" else "intet klart hint"
@@ -348,19 +358,21 @@ def scan_and_buy(broker, state, equity, day_pnl, can_buy, block):
                 append_csv(TRADES_CSV, TRADE_FIELDS, row)
                 continue
             _, occ, bid, ask, delta, dte = best
-            qty = math.floor(equity * RISK_PCT / (ask * 100))
+            qty = 1 if test else math.floor(equity * RISK_PCT / (ask * 100))
             if qty < 1:
                 row.update(handling="VENT", note=f"1 kontrakt koster {ask * 100:.0f} USD, mere end {RISK_PCT:.0%} af kontoen")
                 append_csv(TRADES_CSV, TRADE_FIELDS, row)
                 continue
             broker.buy(occ, qty, ask)
+            if test:
+                state["test_kob_id"] = flag
             state["positions"][occ] = {"entry": ask, "antal": qty, "entry_tid": now().isoformat(),
                                        "call_andel": row["call_andel"], "trend": trend}
             state["traded_today"].append(sym)
             state["new_today"] += 1
             row.update(handling="KOEB " + ("CALL" if typ == "C" else "PUT"), kontrakt=occ, antal=qty, pris=ask,
                        usd=round(ask * 100 * qty, 2),
-                       note=f"delta {delta:.2f}, {dte} dage, maks tab {ask * 100 * qty:.0f} USD")
+                       note=("TESTKOEB, " if test else "") + f"delta {delta:.2f}, {dte} dage, maks tab {ask * 100 * qty:.0f} USD")
             print(f"KOEBT {occ} x{qty} @ {ask}")
         except Exception as e:  # en aktie der fejler maa ikke stoppe de andre
             print(f"FEJL {sym}: {e}\n{traceback.format_exc()}")
