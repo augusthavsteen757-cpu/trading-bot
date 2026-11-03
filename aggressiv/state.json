@@ -104,30 +104,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kryptoaktier steg kraftigt efter godkendelse af equity perpetual futures; COIN kan fortsat drage fordel, men bev\u00e6gelsen kan allerede delvist v\u00e6re i prisen.",
-        "tid": "2026-11-03T18:30:37.634391+00:00",
-        "pris_ved_nyhed": 146.51,
-        "udloeber": "2026-11-03T20:30:37.634391+00:00"
-      },
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "MSTR fulgte kryptoaktiernes rally p\u00e5 16%; positiv sentiment kan forts\u00e6tte kortvarigt, men momentum kan vende hurtigt.",
-        "tid": "2026-11-03T18:30:37.634391+00:00",
-        "pris_ved_nyhed": 136.0,
-        "udloeber": "2026-11-03T20:30:37.634391+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
