@@ -46,8 +46,18 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100001.3,
   "reddit": {
-    "sidst_hentet": "2026-11-03T20:42:08.257214+00:00",
+    "sidst_hentet": "2026-11-03T21:02:08.359612+00:00",
     "opslag": [
+      {
+        "id": "t3_1xn4u2j",
+        "tid": "2026-11-03T20:53:04+00:00",
+        "titel": "Bitcoin party amsterdam",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xn3qms",
         "tid": "2026-11-03T20:11:06+00:00",
@@ -188,16 +198,6 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xm9cnp",
-        "tid": "2026-11-02T21:00:21+00:00",
-        "titel": "Satoshi's Bitcoin monetary system?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
@@ -244,7 +244,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77804.325,
+  "last_btc_price": 77769.99350000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
