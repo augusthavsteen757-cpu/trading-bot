@@ -125,7 +125,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-03T15:27:54.586348+00:00",
+    "sidst_hentet": "2026-11-03T15:47:53.376276+00:00",
     "opslag": [
       {
         "id": "t3_1xmikwt",
@@ -189,18 +189,6 @@
         "tid": "2026-11-03T14:47:53.497802+00:00",
         "pris_ved_nyhed": 11.285,
         "udloeber": "2026-11-03T16:47:53.497802+00:00"
-      },
-      "QUBT": {
-        "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Kvantesektor-smitte: nyhed om kvantecomputing-anvendelse kan loefte andre kvantemedier som QUBT, men sammenhaengen er svag.",
-        "tid": "2026-11-03T14:47:53.497802+00:00",
-        "pris_ved_nyhed": 6.535,
-        "udloeber": "2026-11-03T15:47:53.497802+00:00"
       }
     },
     "dag": "2026-11-03",
@@ -215,7 +203,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 6.0,
+  "last_btc_price": 6.005,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
