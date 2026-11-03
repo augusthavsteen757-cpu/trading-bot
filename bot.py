@@ -28,6 +28,7 @@ from dotenv import load_dotenv
 
 import features as fx
 import newsguard
+import reddit
 
 BASE = Path(__file__).parent
 load_dotenv(BASE / ".env")
@@ -731,6 +732,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     pos_txt += f" Andre aabne positioner: {', '.join(others) or 'ingen'}."
     ctx = (f"COIN: {coin}\n{pos_txt}\n\nFEATURES: {fx.summary_text(f)}\n\nANALYTIKERE:\n{summary}\n\n"
            f"NYHEDSJAEGER: {f.get('_nyhedsjaeger') or 'intet signal'}\n\n"
+           f"REDDIT: {f.get('_reddit') or 'ingen snak'}\n\n"
            f"PERFORMANCE:\n{perf}\n\nLEKTIER:\n{lessons}")
 
     chef = brain.ask(
@@ -832,9 +834,15 @@ def run_round(state, brain):
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
     stocks_open = broker.market_open() if STOCKS else False
     news_syms = CRYPTO + (STOCKS if stocks_open else [])  # krypto doegnet rundt, aktier kun naar boersen er aaben
+    if news_syms:  # Reddit-snak: gratis, intet AI-kald, kun ekstra info til Chef og nyhedsjaeger
+        try:
+            print("Reddit:", reddit.update(state, news_syms, TEST_MODE))
+        except Exception as e:  # Reddit maa aldrig stoppe botten
+            print("Reddit fejlede:", type(e).__name__)
     if news_syms:  # nyhedsjaeger: gratis nyheds-tjek, AI kun naar der er nye overskrifter
         nj = newsguard.hunt(state, lambda role, ins, data, schema: brain.ask(role, MODEL_FAST, ins, data, schema, 2000),
-                            news_syms, brain.money_ok, TEST_MODE)
+                            news_syms, brain.money_ok, TEST_MODE,
+                            lambda since: reddit.new_titles_for_hunter(state, since))
         print("Nyhedsjaeger:", json.dumps(nj, ensure_ascii=False))
         if nj.get("vurderinger"):
             log_json({"tid": now().isoformat(), "coin": "NYHEDSJAEGER", **nj})
@@ -952,6 +960,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                 rec["handling"] = "KOEB (ORB)"
                 return
     news_setup, news_block, f["_nyhedsjaeger"] = newsguard.signal_for(state, coin, price)
+    f["_reddit"] = reddit.buzz(state, coin)
+    if f["_reddit"]:
+        rec["reddit"] = f["_reddit"]
     if news_setup and news_setup not in f["setups"]:
         f["setups"].append(news_setup)
         row["setups"] = " ".join(f["setups"])

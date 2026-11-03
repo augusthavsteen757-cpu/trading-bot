@@ -50,6 +50,8 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_SMALL_KEY || secrets.ALPACA_API_KEY_2 }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ || secrets.ALPACA_SECRET_KEY_ }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           COINS: none
           STOCKS: ${{ vars.SMALL_STOCKS || 'ONDS,RCAT,UMAC,BBAI,SOUN,QUBT,RGTI,LUNR,ACHR,OUST' }}
           BENCHMARK: ONDS

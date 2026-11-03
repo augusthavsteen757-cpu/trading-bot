@@ -32,6 +32,8 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           # Valgfrie indstillinger: Settings > Secrets and variables > Actions > Variables
           MONTHLY_BUDGET_USD: ${{ vars.MONTHLY_BUDGET_USD || '5.00' }}  # + 2,50 til small-botten = 7,50 i alt
           MAX_AI_ROUNDS_PER_DAY: ${{ vars.MAX_AI_ROUNDS_PER_DAY }}
