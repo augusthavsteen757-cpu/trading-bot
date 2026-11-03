@@ -46,7 +46,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-03T23:12:08.086179+00:00",
+    "sidst_hentet": "2026-11-03T23:27:08.247877+00:00",
     "opslag": [
       {
         "id": "t3_1xn6sr3",
@@ -188,19 +188,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xmd0ak",
-        "tid": "2026-11-02T23:26:14+00:00",
-        "titel": "Capital Markets - Capital & Chain #21: Mirae Issues Tokenized Notes; Alphabet Secures Assets On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -231,7 +221,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77764.535,
+  "last_btc_price": 77837.721,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
