@@ -147,7 +147,7 @@
       ]
     }
   },
-  "last_btc_price": 77470.485,
+  "last_btc_price": 77369.05,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1114,18 +1114,6 @@
         "pris_ved_nyhed": 331.025,
         "udloeber": "2026-11-03T18:24:08.131139+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Meta pauserer forretningsvilk\u00e5r efter udgiverprotest; reduceret regulatorisk risiko, men begr\u00e6nset kursm\u00e6ssig effekt.",
-        "tid": "2026-11-03T14:44:06.257857+00:00",
-        "pris_ved_nyhed": 611.16,
-        "udloeber": "2026-11-03T16:44:06.257857+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1384,7 +1372,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T16:24:06.522114+00:00",
+    "sidst_hentet": "2026-11-03T16:44:06.623627+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
