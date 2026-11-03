@@ -99,3 +99,13 @@ tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal
 2026-11-03 15:16,GOOGL,278.185,ned,0.722,54983,bullish,VENT,,,,,100000.0,0.0,hint og trend peger ikke samme vej
 2026-11-03 15:16,AMD,488.36,flad,0.501,75636,ingen,VENT,,,,,100000.0,0.0,intet klart hint
 2026-11-03 15:16,TSLA,402.125,flad,0.516,168646,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,SPY,754.48,flad,0.587,448171,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,QQQ,686.67,flad,0.551,403477,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,NVDA,207.86,flad,0.67,388749,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,AAPL,332.42,ned,0.514,537505,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,MSFT,514.43,flad,0.626,50678,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,AMZN,246.98,flad,0.636,77357,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,META,616.47,flad,0.722,69355,bullish,VENT,,,,,100000.0,0.0,hint og trend peger ikke samme vej
+2026-11-03 15:21,GOOGL,278.63,ned,0.716,60550,bullish,VENT,,,,,100000.0,0.0,hint og trend peger ikke samme vej
+2026-11-03 15:21,AMD,489.63,flad,0.488,84132,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 15:21,TSLA,401.71,flad,0.524,184290,ingen,VENT,,,,,100000.0,0.0,intet klart hint
