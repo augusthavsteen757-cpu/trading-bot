@@ -1,0 +1,8 @@
+tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslutning,chef_conviction,chef_grund,skeptiker_veto,skeptiker_grund,risk_godkendt,risk_faktor,risk_grund,handling,antal,usd,stop_loss,konto_vaerdi,bot_afkast_pct,koeb_og_behold_vaerdi,koeb_og_behold_afkast_pct,dagens_pnl_pct,drawdown_pct,api_forbrug_usd_md,note
+2026-11-03 13:06,BTC/USD,77192.22,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,ETH/USD,2275.51,range,trend_pullback,nej (kun 1.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,SOL/USD,92.71,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,DOGE/USD,0.0749,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,AVAX/USD,8.5861,range,trend_pullback,nej (kun 0.2% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,LINK/USD,11.16,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
+2026-11-03 13:06,LTC/USD,54.48,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100000.0,0.0,0.0,0.0,0.0005,
