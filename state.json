@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 77120.955,
+  "last_btc_price": 77081.5,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -602,8 +602,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T13:49:06.944518+00:00",
+    "sidst_hentet": "2026-11-03T14:09:06.206249+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmthjj",
+        "tid": "2026-11-03T13:52:52+00:00",
+        "titel": "Imagine thinking you've missed the bitcoin opportunity!!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmsk7q",
         "tid": "2026-11-03T13:11:42+00:00",
@@ -813,16 +823,6 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xlxw19",
-        "tid": "2026-11-02T13:58:28+00:00",
-        "titel": "Who controls the private keys of governments' Bitcoin wallets?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
