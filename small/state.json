@@ -119,18 +119,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOUN": {
-        "kilde": "nyhed",
-        "symbol": "SOUN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Nyt samarbejde med LG udvider SoundHounds distribution paa smart-TV i USA. Konkret kommerciel adgang, men beloeb ukendt, saa effekten kan vaere begraenset.",
-        "tid": "2026-11-03T14:32:54.446603+00:00",
-        "pris_ved_nyhed": 4.105,
-        "udloeber": "2026-11-03T17:32:54.446603+00:00"
-      },
       "LUNR": {
         "kilde": "nyhed",
         "symbol": "LUNR",
