@@ -3,13 +3,13 @@
   "coins": {
     "BTC/USD": {},
     "NVDA": {
-      "last_entry_eval": "2026-11-03T17:50:52.751157+00:00",
+      "last_entry_eval": "2026-11-03T18:55:37.815455+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ]
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-03T17:51:09.240813+00:00",
+      "last_entry_eval": "2026-11-03T18:55:52.418547+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ]
@@ -17,7 +17,7 @@
     "AMD": {},
     "PLTR": {},
     "COIN": {
-      "last_entry_eval": "2026-11-03T17:51:21.119272+00:00",
+      "last_entry_eval": "2026-11-03T18:56:07.455908+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ]
@@ -45,10 +45,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.03254,
+  "budget_used": 0.050641,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.0325397,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.0506407,
   "ai_crypto_today": 0,
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart",
   "eq_day": "2026-11-03",
