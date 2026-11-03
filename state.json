@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77609.63,
+  "last_btc_price": 77474.555,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1255,7 +1255,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T23:36:57.197815+00:00",
+    "sidst_hentet": "2026-11-03T23:56:57.422640+00:00",
     "opslag": [
       {
         "id": "t3_1xn6sr3",
@@ -1387,18 +1387,8 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xmd9z6",
-        "tid": "2026-11-02T23:37:36+00:00",
-        "titel": "$SPY, From State Street SPDR S&P 500 ETF Trust, Is Now Listed On Solana Via Sunrise, Issued By Backpack Securities",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   }
 }
