@@ -1686,3 +1686,6 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-03 03:43,BTC/USD,76631.36,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98549.85,-1.45,0.0,-0.201,0.2234,
 2026-11-03 03:43,ETH/USD,2243.29,range,range_bund,nej (kun 0.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98549.85,-1.45,0.0,-0.201,0.2234,
 2026-11-03 03:43,SOL/USD,91.66,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98549.85,-1.45,0.0,-0.201,0.2234,
+2026-11-03 03:48,BTC/USD,76799.6,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98766.22,-1.234,0.0,-0.201,0.2234,
+2026-11-03 03:48,ETH/USD,2249.21,range,range_bund,nej (kun 0.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98766.22,-1.234,0.0,-0.201,0.2234,
+2026-11-03 03:48,SOL/USD,92.04,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99869.1,-0.131,98766.22,-1.234,0.0,-0.201,0.2234,
