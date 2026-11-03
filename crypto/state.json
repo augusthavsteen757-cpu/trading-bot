@@ -6,7 +6,7 @@
         "entry": 77449.29999999999,
         "stop": 75900.31399999998,
         "stop_initial": 75900.31399999998,
-        "high": 77859.57,
+        "high": 77923.21,
         "qty": 0.012625127,
         "entry_tid": "2026-11-03 13:36",
         "setup": "testkoeb",
@@ -44,7 +44,7 @@
   "ai_crypto_today": 9,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
-  "peak_equity": 100002.48,
+  "peak_equity": 100003.49,
   "reddit": {
     "sidst_hentet": "2026-11-03T21:42:08.197605+00:00",
     "opslag": [
@@ -231,7 +231,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77840.825,
+  "last_btc_price": 77923.2065,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
 }
