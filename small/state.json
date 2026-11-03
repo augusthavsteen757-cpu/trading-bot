@@ -49,30 +49,6 @@
         "nyhed_op"
       ],
       "orb_day": "2026-11-03",
-      "pos": {
-        "entry": 10.445,
-        "stop": 10.445,
-        "stop_initial": 10.2725,
-        "high": 10.66,
-        "qty": 957.0,
-        "entry_tid": "2026-11-03 15:03",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 10.44, 'or_low': 10.11, 'sidste_luk': 10.45}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 43.8,
-          "adx_1h": 24.6,
-          "rel_volumen_1h": 0.02,
-          "afstand_modstand_atr": 0.06,
-          "atr_percentil_30d": 93.8
-        },
-        "target": 10.79,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-03T15:08:00.396205+00:00",
       "last_review_price": 10.434999999999999
     },
@@ -145,7 +121,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.8149999999999995,
+  "last_btc_price": 5.805,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",

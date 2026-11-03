@@ -579,3 +579,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-03 19:18,LUNR,10.46,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,10.45,99681.37,-0.319,98309.38,-1.691,-0.319,-0.492,0.0568,
 2026-11-03 19:18,ACHR,4.175,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99681.37,-0.319,98309.38,-1.691,-0.319,-0.492,0.0568,
 2026-11-03 19:18,OUST,29.61,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99681.37,-0.319,98309.38,-1.691,-0.319,-0.492,0.0568,
+2026-11-03 19:23,ONDS,5.805,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,RCAT,4.455,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,UMAC,14.36,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,BBAI,2.495,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,SOUN,4.125,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,QUBT,6.385,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,RGTI,10.96,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,LUNR,10.45,range,,nej (intet setup),,,,,,,,,,,,,STOP RAMT,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,Solgt ca. 10
+2026-11-03 19:23,ACHR,4.175,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
+2026-11-03 19:23,OUST,29.61,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99667.01,-0.333,98140.32,-1.86,-0.333,-0.506,0.0568,
