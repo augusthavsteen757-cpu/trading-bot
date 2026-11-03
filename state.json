@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76988.7795,
+  "last_btc_price": 77011.935,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -496,19 +496,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "AMD": {
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Earnings tirsdag med stor forventet bevaegelse; retning usikker, afhaenger af AI-efterspoergsel og guidance.",
-        "tid": "2026-11-02T20:47:26.984695+00:00",
-        "pris_ved_nyhed": 470.12,
-        "udloeber": "2026-11-03T00:47:26.984695+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 0,
     "sidste_kald": "2026-11-02T20:57:27.137247+00:00",
