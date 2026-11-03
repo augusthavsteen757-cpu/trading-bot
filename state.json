@@ -58,9 +58,9 @@
       ],
       "pos": {
         "entry": 686.795,
-        "stop": 684.985,
+        "stop": 686.795,
         "stop_initial": 684.985,
-        "high": 687.69,
+        "high": 688.27,
         "qty": 14.0,
         "entry_tid": "2026-11-03 15:54",
         "setup": "orb",
@@ -135,7 +135,7 @@
         "entry": 610.94,
         "stop": 610.94,
         "stop_initial": 601.0400000000001,
-        "high": 621.34,
+        "high": 622.2,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -171,7 +171,7 @@
       ]
     }
   },
-  "last_btc_price": 77594.20999999999,
+  "last_btc_price": 77532.92249999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1399,7 +1399,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T15:44:06.719498+00:00",
+    "sidst_hentet": "2026-11-03T16:04:06.451652+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
