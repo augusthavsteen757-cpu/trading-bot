@@ -50,7 +50,7 @@
         "entry": 10.445,
         "stop": 10.445,
         "stop_initial": 10.2725,
-        "high": 10.59,
+        "high": 10.64,
         "qty": 957.0,
         "entry_tid": "2026-11-03 15:03",
         "setup": "orb",
@@ -114,7 +114,7 @@
   "ai_crypto_today": 0,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
-  "peak_equity": 100107.96,
+  "peak_equity": 100173.89,
   "reddit": {
     "sidst_hentet": "2026-11-03T15:12:53.494615+00:00",
     "opslag": [
@@ -206,7 +206,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.975,
+  "last_btc_price": 6.005,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
