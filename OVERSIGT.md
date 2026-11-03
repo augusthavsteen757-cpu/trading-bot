@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 17.49** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 17.51** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.991 USD  ·  **I alt:** -9 USD (-0.01 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 3/11 17.44
+**Konto:** 99.961 USD  ·  **I alt:** -39 USD (-0.04 %)  ·  **I dag:** +0.09 %  ·  sidst opdateret 3/11 17.51
 
 **Ejer nu:**
 
@@ -42,7 +42,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 17.49** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt)
 
-**Konto:** 99.996 USD  ·  **I alt:** -4 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 17.46
+**Konto:** 99.997 USD  ·  **I alt:** -3 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 3/11 17.51
 
 **Ejer nu:**
 
@@ -50,13 +50,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **3/11 kl. 17.49** (dansk tid). Kun
 |---|---|---|---|
 | BTC/USD | 0.0126251 | 77449.30 | 3/11 14.36 |
 
-## 🟢 Options-botten (calls/puts på 10 store aktier)
+## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 3/11 17.46
+**Konto:** 99.987 USD  ·  **I alt:** -13 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 3/11 17.51
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| SPY put 757 (udl. 20/11) | 1 | 12.08 | 3/11 17.46 |
+| SPY put 757 (udl. 20/11) | 1 | 11.99 | 3/11 17.46 |
 
