@@ -83,6 +83,14 @@ TRAIL_ATR_MULT = env_f("TRAIL_ATR_MULT", 2.5)            # trailing stop = hoeje
 BREAKEVEN_AT_R = env_f("BREAKEVEN_AT_R", 1.0)            # flyt stop til entry naar +1R
 MAX_DAILY_LOSS_PCT = env_f("MAX_DAILY_LOSS_PCT", 0.02)   # -2 % i dag = ingen nye koeb i dag
 MAX_DRAWDOWN_PCT = env_f("MAX_DRAWDOWN_PCT", 0.08)       # -8 % fra top = stop nye koeb (HALT)
+# Aggressiv stil (bot nr. 5): ekstra tekst til Chef/Skeptiker/Risk Manager. Tom = normal, forsigtig stil.
+STYLE = (os.getenv("STRATEGY_STYLE") or "").strip()
+SKEPTIC_VETO_FLAGS = int(env_f("SKEPTIC_VETO_FLAGS", 5))  # saa mange flag fra Skeptikeren = automatisk veto
+# Automatisk bremse: tjekker hele tiden om den aggressive stil virker. Taber de seneste handler samlet,
+# halveres stoerrelsen, indtil de seneste handler igen giver plus. 0 = slaaet fra.
+AUTO_BRAKE = os.getenv("AUTO_BRAKE") == "1"
+AUTO_BRAKE_TRADES = int(env_f("AUTO_BRAKE_TRADES", 10))   # kig paa de seneste 10 lukkede handler
+AUTO_BRAKE_FACTOR = env_f("AUTO_BRAKE_FACTOR", 0.5)        # bremse = halv stoerrelse
 
 LESSONS_NEG, LESSONS_POS = 5, 3
 PERF_TRADES = 30
@@ -392,6 +400,20 @@ def closed_trades():
         return list(csv.DictReader(f))
 
 
+def brake_factor():
+    """Automatisk tjek: (faktor, tekst). Min. 5 lukkede handler; er summen af de seneste N i minus = bremse."""
+    if not AUTO_BRAKE:
+        return 1.0, ""
+    tr = closed_trades()[-AUTO_BRAKE_TRADES:]
+    if len(tr) < 5:
+        return 1.0, f"auto-tjek: kun {len(tr)} handler, fuld fart"
+    pnl = sum(float(t.get("pnl_usd") or 0) for t in tr)
+    wins = sum(1 for t in tr if float(t.get("pnl_usd") or 0) > 0)
+    if pnl < 0:
+        return AUTO_BRAKE_FACTOR, f"auto-tjek: seneste {len(tr)} handler {pnl:+.0f} USD ({wins} vundet), BREMSE (halv stoerrelse)"
+    return 1.0, f"auto-tjek: seneste {len(tr)} handler {pnl:+.0f} USD ({wins} vundet), fuld fart"
+
+
 def perf_summary():
     tr = closed_trades()[-PERF_TRADES:]
     if not tr:
@@ -579,7 +601,7 @@ def compute_size(coin, equity, price, atr, conviction, regime):
     conv = {1: 0.25, 2: 0.4, 3: 0.6, 4: 0.8, 5: 1.0}.get(int(conviction), 0.5)
     vol = 0.5 if regime == "high_vol" else 1.0
     risk_usd = equity * RISK_PER_TRADE_PCT * conv * vol
-    usd = min(risk_usd / stop_pct, equity * MAX_POSITION_PCT)
+    usd = min(risk_usd / stop_pct, equity * MAX_POSITION_PCT) * brake_factor()[0]
     return usd, price * (1 - stop_pct), stop_pct
 
 
@@ -722,6 +744,8 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
     rec["analytikere"] = r
     summary = "\n".join(f"{k}: {v['signal']} styrke {v['styrke']} - {v['vurdering']}" for k, v in r.items())
     lessons, perf = read_lessons() or "ingen endnu", perf_summary()
+    if AUTO_BRAKE:
+        perf += f"\n{brake_factor()[1]}"
     pos = cs.get("pos")
     pos_txt = (f"Vi EJER {coin}: koebt {pos['entry']:.0f} ({pos['setup']}), stop {pos['stop']:.0f}, nu "
                f"{(f['pris'] / pos['entry'] - 1) * 100:+.2f}% = {(f['pris'] - pos['entry']) / max(pos['entry'] - pos['stop_initial'], 1e-9):+.2f}R."
@@ -741,7 +765,8 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
         f"Du traeffer beslutningen for {coin}. KOEB kun hvis vi ikke ejer {coin}, et af de fundne setups er gyldigt, og der er "
         f"mindst 1,2R plads til naeste modstand. Setup nyhed_op betyder, at nyhedsjaegeren fandt en positiv "
         "nyhed: taenk selv over om den kan loefte kursen yderligere, og koeb hvis du tror det. SAELG kun hvis vi ejer {coin} og grunden til koebet er brudt. Ellers "
-        "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert.",
+        "HOLD. Conviction 1-5 styrer stoerrelsen (5 = sjaeldent, alt flugter). Angiv hvad der ville bevise dig forkert."
+        + (f" STIL: {STYLE}" if STYLE else ""),
         ctx, obj({"beslutning": {"type": "string", "enum": ["KOEB", "SAELG", "HOLD"]},
                   "conviction": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
                   "setup": {"type": "string", "enum": setups + (["ingen"] if "ingen" not in setups else [])},
@@ -765,14 +790,15 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
         "Skeptiker", MODEL_SMART,
         "Du er systematisk djaevlens advokat. Gaa tjeklisten igennem og saet hvert punkt til true, hvis det er et "
         "reelt problem for netop dette koeb. Brug kun veto hvis et punkt er klart alvorligt. Vaer ikke negativ "
-        "for at vaere negativ: et koeb med god risk/reward og flugtende tidsrammer skal igennem.",
+        "for at vaere negativ: et koeb med god risk/reward og flugtende tidsrammer skal igennem."
+        + (f" STIL: {STYLE}" if STYLE else ""),
         f"Chefen vil KOEBE {coin} (setup {chef['setup']}, conviction {chef['conviction']}) fordi: {chef['grund']}\n"
         f"Invalidering: {chef['invalidering']}\nFaste regel-advarsler: {hard or 'ingen'}\n\n{ctx}",
         obj({"mod_hoejere_timeframe": S_BOOL, "modstand_for_taet": S_BOOL, "hoej_volatilitet": S_BOOL,
              "overkoebt": S_BOOL, "svag_volumen": S_BOOL, "ligner_tabslektie": S_BOOL,
              "daarlig_historik": S_BOOL, "veto": S_BOOL, "grund": S_STR}), 400)
     flags = [k for k, v in sk.items() if v is True and k != "veto"]
-    veto = sk["veto"] or len(flags) >= 5 or len(hard) >= 3
+    veto = sk["veto"] or len(flags) >= SKEPTIC_VETO_FLAGS or len(hard) >= 3
     rec["skeptiker"], rec["regel_advarsler"] = sk, hard
     row.update(skeptiker_veto=veto, skeptiker_grund=f"{sk['grund']} [flag: {', '.join(flags) or 'ingen'}]")
     if veto:
@@ -783,7 +809,7 @@ def run_ai(brain, state, cs, coin, f, holding, equity, can_buy, block_reason, ro
         "Risk Manager", MODEL_SMART,
         "Du har absolut veto paa stoerrelse. Du kan godkende, reducere (size_faktor 0-1) eller blokere. Reducer ved "
         "daarlig nylig performance i dette regime/setup, hoej volatilitet, eller naar kontoen allerede har tabt i "
-        "dag. Du kan aldrig oege stoerrelsen.",
+        "dag. Du kan aldrig oege stoerrelsen." + (f" STIL: {STYLE}" if STYLE else ""),
         f"Foreslaaet koeb af {coin}: {usd:.0f} USD ({usd / equity:.1%} af kontoen), stop {stop:.0f} ({stop_pct:.2%} under), "
         f"risiko {usd * stop_pct:.0f} USD ({usd * stop_pct / equity:.2%} af kontoen). Konto {equity:.0f}. "
         f"Dagens resultat {row.get('dagens_pnl_pct')}%, drawdown fra top {row.get('drawdown_pct')}%.\n"
@@ -813,6 +839,8 @@ def main():
         log_json({"tid": now().isoformat(), "fejl": details})
     finally:
         state["budget_used"] = round(state.get("budget_used", 0.0), 6)
+        if AUTO_BRAKE:
+            state["auto_tjek"] = brake_factor()[1]  # vises i OVERSIGT.md
         save_state(state)
 
 
@@ -950,7 +978,8 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
             stop, target, info = sig
             cs["orb_day"] = ny_now().date().isoformat()  # max en ORB-handel pr. dag pr. symbol
             risk_pct = max((price - stop) / price, 0.001)
-            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * min(MAX_POSITION_PCT, ORB_MAX_POSITION_PCT), room)
+            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * min(MAX_POSITION_PCT, ORB_MAX_POSITION_PCT),
+                      room) * brake_factor()[0]
             rec["orb"] = info
             bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "orb", 3, f"ORB breakout {info}", row,
                                    target=target, luk_foer_luk=True)

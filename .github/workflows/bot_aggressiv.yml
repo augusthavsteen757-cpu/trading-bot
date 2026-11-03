@@ -1,0 +1,110 @@
+name: Tradingbot aggressiv
+
+# Bot nr. 5: AGGRESSIV aktie-bot. Samme kode som hoved-botten, men faerre og STOERRE handler:
+# op til 30 % pr. aktie, 3x stoerre risiko pr. handel, hoejere gevinstmaal og et loesere trailing stop,
+# saa vinderne faar lov at loebe. Stadig ALTID stop-loss og kill-switch. Kun paper (falske penge).
+# Egen Alpaca paper-konto (paa det andet login). Data gemmes i mappen aggressiv/.
+# Kraever secrets ALPACA_AGGRESSIV_KEY og ALPACA_AGGRESSIV_SECRET.
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: tradingbot-aggressiv
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tjek at noeglerne til aggressiv-kontoen findes
+        id: keys
+        env:
+          K: ${{ secrets.ALPACA_AGGRESSIV_KEY || secrets.ALPACA_API_KEY_5 }}
+          S: ${{ secrets.ALPACA_AGGRESSIV_SECRET || secrets.ALPACA_SECRET_KEY_5 }}
+        run: |
+          if [ -z "$K" ] || [ -z "$S" ]; then
+            [ -z "$K" ] && echo "Mangler noeglen (ALPACA_AGGRESSIV_KEY)."
+            [ -z "$S" ] && echo "Mangler secret-noeglen (ALPACA_AGGRESSIV_SECRET)."
+            echo "Aggressiv-botten venter, til begge er sat."
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+        if: steps.keys.outputs.ok == 'true'
+      - name: Koer en runde hvert 5. minut i ca. 5,5 time
+        if: steps.keys.outputs.ok == 'true'
+        env:
+          BOT_DIR: aggressiv
+          ALPACA_API_KEY: ${{ secrets.ALPACA_AGGRESSIV_KEY || secrets.ALPACA_API_KEY_5 }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_AGGRESSIV_SECRET || secrets.ALPACA_SECRET_KEY_5 }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          COINS: none
+          # Store, livlige aktier der kan bevaege sig meget paa en dag, men er nemme at handle.
+          STOCKS: ${{ vars.AGGRESSIV_STOCKS || 'NVDA,TSLA,AMD,PLTR,COIN,MSTR,META,AVGO,NFLX,HOOD' }}
+          BENCHMARK: QQQ
+          # --- Det der goer botten aggressiv (hoved-botten i parentes) ---
+          RISK_PER_TRADE_PCT: ${{ vars.AGGRESSIV_RISK_PER_TRADE_PCT || '0.015' }}     # tab ved stop max 1,5 % af kontoen (0,5 %)
+          MAX_POSITION_PCT: ${{ vars.AGGRESSIV_MAX_POSITION_PCT || '0.30' }}          # op til 30 % i en aktie (15 %)
+          MAX_TOTAL_EXPOSURE_PCT: ${{ vars.AGGRESSIV_MAX_TOTAL_EXPOSURE_PCT || '0.90' }}  # max 90 % investeret (40 %)
+          BREAKEVEN_AT_R: '1.5'      # stop flyttes til koebsprisen ved +1,5x risikoen (1x)
+          TRAIL_ATR_MULT: '3.5'      # loesere trailing stop, vinderne faar lov at loebe (2,5)
+          ORB_TARGET_R: '3.0'        # aabnings-handel: gevinstmaal 3x risikoen (2x)
+          ORB_MAX_POSITION_PCT: '0.25'   # aabnings-handel: op til 25 % (10 %)
+          ORB_TIME_STOP_MIN: '90'    # aabnings-handel: 90 min til at komme i plus (60)
+          # Skarpere AI: Chef/Skeptiker/Risk Manager faar denne stil med i hver vurdering.
+          STRATEGY_STYLE: "Du styrer den AGGRESSIVE bot. Maalet er store gevinster: gaa efter de staerkeste bevaegelser (breakout med hoej volumen, staerk trend paa flere tidsrammer, positive nyheder med momentum), og koeb hellere faa store handler end mange smaa. Krav: mindst 2R plads til naeste modstand. Giv hoej conviction (4-5) naar tingene flugter. Undgaa svage, uklare setups helt."
+          SKEPTIC_VETO_FLAGS: '6'    # Skeptikeren skal finde 6 problemer for automatisk veto (5)
+          # Selv-tjek: taber de seneste 10 handler samlet, halveres stoerrelsen til det vender igen.
+          AUTO_BRAKE: '1'
+          # --- Noedbremser (altid) ---
+          MAX_DAILY_LOSS_PCT: '0.05'     # -5 % paa en dag = ingen nye koeb resten af dagen (-2 %)
+          MAX_DRAWDOWN_PCT: '0.20'       # -20 % fra toppen = botten stopper helt (-8 %)
+          # AI-budget: max 1,50 USD/md og 8 AI-runder/doegn (faerre, stoerre handler).
+          MONTHLY_BUDGET_USD: ${{ vars.AGGRESSIV_MONTHLY_BUDGET_USD || '1.50' }}
+          MAX_AI_ROUNDS_PER_DAY: ${{ vars.AGGRESSIV_MAX_AI_ROUNDS_PER_DAY || '8' }}
+          RESET_HALT: ${{ vars.AGGRESSIV_RESET_HALT }}
+          NEWS_MAX_CALLS_PER_DAY: ${{ vars.AGGRESSIV_NEWS_MAX_CALLS_PER_DAY || '10' }}
+          NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
+          NEWS_MIN_STYRKE: ${{ vars.NEWS_MIN_STYRKE }}
+        run: |
+          git config user.name "tradingbot"
+          git config user.email "tradingbot@users.noreply.github.com"
+          DATA="aggressiv"
+          end=$(( $(date +%s) + 330*60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do
+            start=$(date +%s)
+            timeout 270 python bot.py || echo "Runde fejlede"
+            git add aggressiv
+            git commit -q -m "Aggressiv-bot runde $(date -u +%Y-%m-%dT%H:%M)" || echo "Intet nyt"
+            if ! git pull -q --rebase; then
+              git rebase --abort 2>/dev/null || true
+              rm -rf /tmp/aggrdata && cp -r aggressiv /tmp/aggrdata
+              git fetch -q origin main && git reset -q --hard origin/main && git clean -fdq
+              rm -rf aggressiv && cp -r /tmp/aggrdata aggressiv && rm -rf /tmp/aggrdata
+              git add aggressiv
+              git commit -q -m "Aggressiv-bot runde $(date -u +%Y-%m-%dT%H:%M) (efter sync)" || true
+            fi
+            git push -q || echo "Push fejlede"
+            sleep $(( 300 - ($(date +%s) - start) > 0 ? 300 - ($(date +%s) - start) : 1 ))
+          done
+      - name: Start naeste kaede
+        if: ${{ !cancelled() && steps.keys.outputs.ok == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run bot_aggressiv.yml --repo "${{ github.repository }}" --ref main
