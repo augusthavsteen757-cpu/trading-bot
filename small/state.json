@@ -131,30 +131,6 @@
         "pris_ved_nyhed": 4.105,
         "udloeber": "2026-11-03T17:32:54.446603+00:00"
       },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "NASA JPL-valg er positivt for kontrakt-pipeline, men vilkaar er ikke offentliggjort og nyheden er fra 13:01, delvist indregnet.",
-        "tid": "2026-11-03T14:32:54.446603+00:00",
-        "pris_ved_nyhed": 10.265,
-        "udloeber": "2026-11-03T16:32:54.446603+00:00"
-      },
-      "RCAT": {
-        "kilde": "kun_reddit",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Reddit-opslag om rebound-kandidat uden konkret nyhed bag. Kun svag hype-kontekst.",
-        "tid": "2026-11-03T14:32:54.446603+00:00",
-        "pris_ved_nyhed": 4.5,
-        "udloeber": "2026-11-03T16:32:54.446603+00:00"
-      },
       "RGTI": {
         "kilde": "nyhed",
         "symbol": "RGTI",
@@ -180,7 +156,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.895,
+  "last_btc_price": 5.925,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
