@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 77326.86499999999,
+  "last_btc_price": 77237.38500000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -602,8 +602,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T12:43:38.260199+00:00",
+    "sidst_hentet": "2026-11-03T13:18:38.451065+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmsk7q",
+        "tid": "2026-11-03T13:11:42+00:00",
+        "titel": "monero feels like what bitcoin should be",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xmrxmu",
+        "tid": "2026-11-03T12:42:16+00:00",
+        "titel": "The Sad Reality of Bitcoin in El Salvador",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmqffl",
         "tid": "2026-11-03T11:23:43+00:00",
@@ -815,6 +835,6 @@
         "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   }
 }
