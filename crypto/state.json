@@ -6,7 +6,7 @@
         "entry": 77449.29999999999,
         "stop": 75900.31399999998,
         "stop_initial": 75900.31399999998,
-        "high": 77587.27,
+        "high": 77688.01,
         "qty": 0.012625127,
         "entry_tid": "2026-11-03 13:36",
         "setup": "testkoeb",
@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T15:11:29.658765+00:00",
-      "last_review_price": 77226.025
+      "last_hold_review": "2026-11-03T15:56:29.309049+00:00",
+      "last_review_price": 77688.0105
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,11 +37,11 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.019542,
+  "budget_used": 0.02572,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 3,
-  "ai_spend_today": 0.019542300000000002,
-  "ai_crypto_today": 3,
+  "ai_rounds_today": 4,
+  "ai_spend_today": 0.025720700000000003,
+  "ai_crypto_today": 4,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
@@ -306,6 +306,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77520.15299999999,
+  "last_btc_price": 77688.0105,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
