@@ -69,7 +69,9 @@
         },
         "target": 10.79,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-03T15:08:00.396205+00:00",
+      "last_review_price": 10.434999999999999
     },
     "ACHR": {
       "orb_day": "2026-11-03",
@@ -105,10 +107,10 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.045076,
+  "budget_used": 0.051017,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 8,
-  "ai_spend_today": 0.045075500000000004,
+  "ai_rounds_today": 9,
+  "ai_spend_today": 0.051016900000000004,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
@@ -204,7 +206,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.995,
+  "last_btc_price": 5.965,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
