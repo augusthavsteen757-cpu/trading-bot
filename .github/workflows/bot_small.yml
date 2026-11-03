@@ -26,7 +26,7 @@ jobs:
         id: keys
         env:
           K: ${{ secrets.ALPACA_SMALL_KEY || secrets.ALPACA_API_KEY_2 }}
-          S: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ }}
+          S: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ || secrets.ALPACA_SECRET_KEY_ }}
         run: |
           if [ -z "$K" ] || [ -z "$S" ]; then
             [ -z "$K" ] && echo "Mangler noeglen (ALPACA_API_KEY_2)."
@@ -48,7 +48,7 @@ jobs:
         env:
           BOT_DIR: small
           ALPACA_API_KEY: ${{ secrets.ALPACA_SMALL_KEY || secrets.ALPACA_API_KEY_2 }}
-          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SMALL_SECRET || secrets.ALPACA_SECRET_KEY_2 || secrets.APLACA_SECRET_ || secrets.ALPACA_SECRET_ || secrets.ALPACA_SECRET_KEY_ }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COINS: none
           STOCKS: ${{ vars.SMALL_STOCKS || 'ONDS,RCAT,UMAC,BBAI,SOUN,QUBT,RGTI,LUNR,ACHR,OUST' }}
