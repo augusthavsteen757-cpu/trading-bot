@@ -41,3 +41,10 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-03 13:31,AVAX/USD,8.6505,range,breakout,nej (kun 0.7% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100565.55,0.566,0.0,0.0,0.0005,
 2026-11-03 13:31,LINK/USD,11.25,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100565.55,0.566,0.0,0.0,0.0005,
 2026-11-03 13:31,LTC/USD,54.77,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100000.0,0.0,100565.55,0.566,0.0,0.0,0.0005,
+2026-11-03 13:36,BTC/USD,77449.3,range,,nej (intet setup),,,,,,,,,,,,,KOEB (test),0.012625,1000.0,75900.314,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,Engangs-testkoeb (ca. 1 % af kontoen)
+2026-11-03 13:36,ETH/USD,2291.2,range,trend_pullback,nej (kun 0.4% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,
+2026-11-03 13:36,SOL/USD,93.09,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,
+2026-11-03 13:36,DOGE/USD,0.075,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,
+2026-11-03 13:36,AVAX/USD,8.5897,range,trend_pullback,nej (kun 0.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,
+2026-11-03 13:36,LINK/USD,11.21,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,
+2026-11-03 13:36,LTC/USD,54.8,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99998.42,-0.002,100333.04,0.333,0.0,0.0,0.0005,

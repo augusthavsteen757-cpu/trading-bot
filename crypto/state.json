@@ -1,7 +1,30 @@
 {
   "version": 3,
   "coins": {
-    "BTC/USD": {},
+    "BTC/USD": {
+      "pos": {
+        "entry": 77449.29999999999,
+        "stop": 75900.31399999998,
+        "stop_initial": 75900.31399999998,
+        "high": 77449.29999999999,
+        "qty": 0.012625127,
+        "entry_tid": "2026-11-03 13:36",
+        "setup": "testkoeb",
+        "regime": "range",
+        "conviction": 1,
+        "grund": "Manuelt testkoeb for at teste koeb, stop og log",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 58.0,
+          "adx_1h": 21.5,
+          "rel_volumen_1h": 0.42,
+          "afstand_modstand_atr": 0.44,
+          "atr_percentil_30d": 64.3
+        }
+      }
+    },
     "ETH/USD": {},
     "SOL/USD": {},
     "DOGE/USD": {},
@@ -299,5 +322,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77628.785
+  "last_btc_price": 77449.29999999999,
+  "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
