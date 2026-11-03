@@ -71,7 +71,32 @@
       "last_entry_eval": "2026-11-03T14:34:47.231582+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "orb_day": "2026-11-03",
+      "pos": {
+        "entry": 513.55,
+        "stop": 510.23749999999995,
+        "stop_initial": 510.23749999999995,
+        "high": 513.55,
+        "qty": 19.0,
+        "entry_tid": "2026-11-03 15:14",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 512.41, 'or_low': 508.06, 'sidste_luk': 512.61}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 41.7,
+          "adx_1h": 20.0,
+          "rel_volumen_1h": 0.29,
+          "afstand_modstand_atr": 2.5,
+          "atr_percentil_30d": 92.4
+        },
+        "target": 520.175,
+        "luk_foer_luk": true
+      }
     },
     "AMZN": {},
     "META": {
@@ -83,7 +108,7 @@
         "entry": 610.94,
         "stop": 601.0400000000001,
         "stop_initial": 601.0400000000001,
-        "high": 616.14,
+        "high": 616.16,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -119,7 +144,7 @@
       ]
     }
   },
-  "last_btc_price": 77280.2935,
+  "last_btc_price": 77274.4375,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1341,7 +1366,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T14:54:07.032191+00:00",
+    "sidst_hentet": "2026-11-03T15:14:06.350626+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
