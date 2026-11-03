@@ -24,8 +24,8 @@
           "atr_percentil_30d": 64.3
         }
       },
-      "last_hold_review": "2026-11-03T13:41:27.415574+00:00",
-      "last_review_price": 77533.37849999999
+      "last_hold_review": "2026-11-03T14:06:30.900297+00:00",
+      "last_review_price": 77058.815
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -37,17 +37,27 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.006475,
+  "budget_used": 0.012335,
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 1,
-  "ai_spend_today": 0.0064753,
-  "ai_crypto_today": 1,
+  "ai_rounds_today": 2,
+  "ai_spend_today": 0.0123353,
+  "ai_crypto_today": 2,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T13:46:26.709460+00:00",
+    "sidst_hentet": "2026-11-03T14:06:26.590763+00:00",
     "opslag": [
+      {
+        "id": "t3_1xmthjj",
+        "tid": "2026-11-03T13:52:52+00:00",
+        "titel": "Imagine thinking you've missed the bitcoin opportunity!!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmsk7q",
         "tid": "2026-11-03T13:11:42+00:00",
@@ -247,16 +257,6 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xlxw19",
-        "tid": "2026-11-02T13:58:28+00:00",
-        "titel": "Who controls the private keys of governments' Bitcoin wallets?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
@@ -324,6 +324,6 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77285.95000000001,
+  "last_btc_price": 77058.815,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
