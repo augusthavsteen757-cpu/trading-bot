@@ -37,10 +37,10 @@
   "learned": [],
   "pending": {},
   "budget_month": "2026-11",
-  "budget_used": 0.012335,
+  "budget_used": 0.012739,
   "ai_day": "2026-11-03",
   "ai_rounds_today": 2,
-  "ai_spend_today": 0.0123353,
+  "ai_spend_today": 0.012739,
   "ai_crypto_today": 2,
   "eq_day": "2026-11-03",
   "day_start_equity": 100000.0,
@@ -254,16 +254,16 @@
   "nyhedsjaeger": {
     "signaler": {
       "BTC/USD": {
-        "kilde": "nyhed",
+        "kilde": "kun_reddit",
         "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Binance-hack paa 6,3 mia. USD skaber usikkerhed og forsigtighed omkring boersen; kan presse BTC ned kortvarigt, selvom Strategy koeber for 65 mio. USD.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 77192.2225,
-        "udloeber": "2026-11-03T16:06:05.738705+00:00"
+        "retning": "neutral",
+        "styrke": 1,
+        "allerede_i_prisen": true,
+        "gyldig_timer": 1,
+        "begrundelse": "Hype-opslag uden nyhedsvaerdi; kun kontekst, ingen reel signalvaerdi.",
+        "tid": "2026-11-03T14:36:26.976446+00:00",
+        "pris_ved_nyhed": 77336.3505,
+        "udloeber": "2026-11-03T15:36:26.976446+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
@@ -271,11 +271,11 @@
         "retning": "ned",
         "styrke": 3,
         "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Hacket paa Binance kan smitte over paa hele krypto-markedet med risk-off stemning, og ETH falder ofte med BTC i s\u00e5danne situationer.",
-        "tid": "2026-11-03T13:06:05.738705+00:00",
-        "pris_ved_nyhed": 2275.505,
-        "udloeber": "2026-11-03T16:06:05.738705+00:00"
+        "gyldig_timer": 2,
+        "begrundelse": "Samme Binance-hack rammer ogsaa ETH-sentiment og boerstillid; forventet kortvarig risk-off i altcoins.",
+        "tid": "2026-11-03T14:36:26.976446+00:00",
+        "pris_ved_nyhed": 2286.9,
+        "udloeber": "2026-11-03T16:36:26.976446+00:00"
       },
       "LINK/USD": {
         "kilde": "nyhed",
@@ -303,17 +303,19 @@
       }
     },
     "dag": "2026-11-03",
-    "kald_i_dag": 1,
-    "sidste_kald": "2026-11-03T13:06:05.738705+00:00",
+    "kald_i_dag": 2,
+    "sidste_kald": "2026-11-03T14:36:26.976446+00:00",
     "set_ids": [
       "62808089",
+      "62807399",
       "62807858",
-      "62807399"
+      "62822561",
+      "62822395"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77156.175,
+  "last_btc_price": 77336.3505,
   "test_kob_id": "testkoeb-krypto-2026-11-03"
 }
