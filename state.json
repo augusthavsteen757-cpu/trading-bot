@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77782.60750000001,
+  "last_btc_price": 77811.03,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1079,18 +1079,6 @@
         "pris_ved_nyhed": 490.41499999999996,
         "udloeber": "2026-11-03T22:01:28.967589+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Tidlige iOS 27.3 og Apple Intelligence-betas til Kina kan give mindre positiv stemning, men effekten er begraenset.",
-        "tid": "2026-11-03T19:06:30.165164+00:00",
-        "pris_ved_nyhed": 331.75,
-        "udloeber": "2026-11-03T21:06:30.165164+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1340,8 +1328,49 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T20:51:29.096228+00:00",
+    "sidst_hentet": "2026-11-03T21:11:28.884108+00:00",
     "opslag": [
+      {
+        "id": "t3_1xn5av2",
+        "tid": "2026-11-03T21:10:31+00:00",
+        "titel": "I built a Seeker app that rounds up your Solana swaps and invests the change",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xn4u2j",
+        "tid": "2026-11-03T20:53:04+00:00",
+        "titel": "Bitcoin party amsterdam",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xmv5g2",
+        "tid": "2026-11-03T14:58:03+00:00",
+        "titel": "Following the #1 copy trader for 6 months turned $10k into $237. Holding BTC and ETH: $10,316. I tracked all 9,470 copy ",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xmuogu",
+        "tid": "2026-11-03T14:39:51+00:00",
+        "titel": "Liquid\u2019s bitcoin IOUs are fully backed again",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xmthjj",
         "tid": "2026-11-03T13:52:52+00:00",
@@ -1461,98 +1490,8 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xm9cnp",
-        "tid": "2026-11-02T21:00:21+00:00",
-        "titel": "Satoshi's Bitcoin monetary system?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm8tky",
-        "tid": "2026-11-02T20:39:28+00:00",
-        "titel": "Idea for a different btc wallet",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm2zhx",
-        "tid": "2026-11-02T17:09:52+00:00",
-        "titel": "Multi-Currency in Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xm2oss",
-        "tid": "2026-11-02T16:59:21+00:00",
-        "titel": "Mercado Bitcoin Halts Withdrawals After $40 Million+ Hack",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xm1tke",
-        "tid": "2026-11-02T16:27:32+00:00",
-        "titel": "When You Control Your Bitcoin, You\u2019re Responsible for It Too.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm1qze",
-        "tid": "2026-11-02T16:24:49+00:00",
-        "titel": "Brazil's largest crypto exchange, Mercado Bitcoin, suspends deposits and withdrawals after reportedly being hacked for o",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xm184b",
-        "tid": "2026-11-02T16:05:38+00:00",
-        "titel": "Just 4 months after launching its first tokenized assets on Solana, Backpack Securities recorded a new monthly volume AT",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xlzmhl",
-        "tid": "2026-11-02T15:06:07+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xlzm4w",
-        "tid": "2026-11-02T15:05:44+00:00",
-        "titel": "Bitcoin Suisse CEO: Switzerland has lost interest in cryptocurrencies",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   }
 }
