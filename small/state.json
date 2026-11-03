@@ -20,30 +20,6 @@
         "range_bund"
       ],
       "orb_day": "2026-11-03",
-      "pos": {
-        "entry": 14.985,
-        "stop": 14.7,
-        "stop_initial": 14.7,
-        "high": 14.985,
-        "qty": 667.0,
-        "entry_tid": "2026-11-03 15:27",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 14.98, 'or_low': 14.42, 'sidste_luk': 14.98}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 39.6,
-          "adx_1h": 24.5,
-          "rel_volumen_1h": 1.51,
-          "afstand_modstand_atr": 2.39,
-          "atr_percentil_30d": 98.6
-        },
-        "target": 15.555,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-03T15:32:56.117436+00:00",
       "last_review_price": 14.865
     },
@@ -112,7 +88,8 @@
   "learned": [],
   "pending": {
     "tab: orb i high_vol": [
-      "2026-11-03 15:22: ACHR: stop ramt (Alpaca). R=-1.12. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.27, 'or_low': 4.22, 'sidste_luk': 4.28}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 53.3, 'adx_1h': 22.2, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.18, 'atr_percentil_30d': 91.4}"
+      "2026-11-03 15:22: ACHR: stop ramt (Alpaca). R=-1.12. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.27, 'or_low': 4.22, 'sidste_luk': 4.28}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 53.3, 'adx_1h': 22.2, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.18, 'atr_percentil_30d': 91.4}",
+      "2026-11-03 15:52: UMAC: stop ramt (Alpaca). R=-1.07. Entry 15, exit 15. Grund til koeb: ORB breakout {'or_high': 14.98, 'or_low': 14.42, 'sidste_luk': 14.98}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 39.6, 'adx_1h': 24.5, 'rel_volumen_1h': 1.51, 'afstand_modstand_atr': 2.39, 'atr_percentil_30d': 98.6}"
     ]
   },
   "budget_month": "2026-11",
@@ -203,7 +180,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 6.005,
+  "last_btc_price": 5.975,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
