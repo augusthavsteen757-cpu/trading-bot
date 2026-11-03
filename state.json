@@ -58,7 +58,7 @@
     "AMD": {},
     "TSLA": {}
   },
-  "last_btc_price": 76462.6295,
+  "last_btc_price": 76444.32,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -496,41 +496,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Nyheden om SpaceX-mobilplan er spekulativ og handler om Musk-relaterede odds, ikke direkte om Bitcoin. Svag eller ingen klar sammenhaeng med BTC-kurs.",
-        "tid": "2026-11-03T06:03:08.758080+00:00",
-        "pris_ved_nyhed": 76464.57250000001,
-        "udloeber": "2026-11-03T07:03:08.758080+00:00"
-      },
-      "ETH/USD": {
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften har ingen klar forbindelse til Ethereum. Kun svag indirekte sentiment via krypto-spekulation.",
-        "tid": "2026-11-03T06:03:08.758080+00:00",
-        "pris_ved_nyhed": 2243.5,
-        "udloeber": "2026-11-03T07:03:08.758080+00:00"
-      },
-      "SOL/USD": {
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte relevans for Solana. Nyheden er et spekulationsmarked om SpaceX, ikke om krypto-infrastruktur.",
-        "tid": "2026-11-03T06:03:08.758080+00:00",
-        "pris_ved_nyhed": 91.4933,
-        "udloeber": "2026-11-03T07:03:08.758080+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-03T06:03:08.758080+00:00",
