@@ -1,0 +1,11 @@
+tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal,pris,usd,konto_vaerdi,dagens_pnl_pct,note
+2026-11-03 14:31,SPY,752.98,flad,0.369,2395497,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,QQQ,684.57,flad,0.473,1734737,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,NVDA,206.74,flad,0.597,1096375,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,AAPL,330.58,ned,0.353,1115208,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,MSFT,510.57,flad,0.654,222763,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,AMZN,248.75,flad,0.586,528008,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,META,613.8,flad,0.58,217841,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,GOOGL,280.355,flad,0.696,239332,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,AMD,475.255,flad,0.448,242505,ingen,VENT,,,,,100000.0,0.0,intet klart hint
+2026-11-03 14:31,TSLA,405.0,op,0.599,782305,ingen,VENT,,,,,100000.0,0.0,intet klart hint
