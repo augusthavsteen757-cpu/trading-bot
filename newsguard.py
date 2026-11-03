@@ -133,12 +133,14 @@ HUNTER_INSTR = (
     "paavirker BTC og ETH, regulering rammer al krypto), og er det en overraskelse eller ventet? Du maa gerne "
     "give et signal ogsaa paa et symbol, nyheden ikke naevner direkte, hvis du kan forklare sammenhaengen. "
     "Styrke 3 = sandsynlig paavirkning, 4-5 = klar og overraskende. Vurder aerligt om den allerede er i prisen. "
-    "Medtag kun symboler fra listen.")
+    "Medtag kun symboler fra listen. Reddit-opslag er rygter og hype: de maa kun bruges som ekstra kontekst. "
+    "Bygger en vurdering KUN paa Reddit (ingen rigtig nyhed bag), saet kilde = kun_reddit.")
 HUNTER_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["vurderinger"], "properties": {
     "vurderinger": {"type": "array", "items": {
         "type": "object", "additionalProperties": False,
-        "required": ["symbol", "retning", "styrke", "allerede_i_prisen", "gyldig_timer", "begrundelse"],
+        "required": ["symbol", "retning", "styrke", "allerede_i_prisen", "gyldig_timer", "kilde", "begrundelse"],
         "properties": {
+            "kilde": {"type": "string", "enum": ["nyhed", "kun_reddit"]},
             "symbol": {"type": "string"},
             "retning": {"type": "string", "enum": ["op", "ned", "neutral"]},
             "styrke": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
@@ -166,7 +168,7 @@ def _alpaca_news(symbols, since):
     return out
 
 
-def hunt(state, ask, symbols, budget_ok, test_mode=False):
+def hunt(state, ask, symbols, budget_ok, test_mode=False, reddit_lines=None):
     """Koeres en gang pr. runde mens boersen er aaben. Henter nye nyheder (gratis) og spoerger kun AI,
     naar der er nye. Gemmer signaler i state["nyhedsjaeger"]["signaler"]. Returnerer en kort status."""
     nj = state.setdefault("nyhedsjaeger", {})
@@ -196,15 +198,17 @@ def hunt(state, ask, symbols, budget_ok, test_mode=False):
     if nj["kald_i_dag"] >= NEWS_MAX_CALLS_PER_DAY or not budget_ok():
         return {"status": f"{len(new)} nye, men AI-loft for nyheder/budget naaet"}
     new = sorted(new, key=lambda n: n["tid"], reverse=True)[:20]
+    reddit_txt = reddit_lines(last) if reddit_lines else []  # Reddit giver aldrig selv et AI-kald, kun kontekst
     nj["kald_i_dag"] += 1
     nj["sidste_kald"] = t.isoformat()
     nj["set_ids"] = (list(seen) + [n["id"] for n in new])[-300:]
     txt = "\n".join(f"- [{n['tid'][11:16]} UTC] {', '.join(n['symboler']) or '?'}: {n['overskrift']}. {n['resume']}"
                     for n in new)
     try:
-        res = {"vurderinger": [{"symbol": "BTC/USD", "retning": "op", "styrke": 3, "allerede_i_prisen": True, "gyldig_timer": 2, "begrundelse": "Test"}, {"symbol": "NVDA", "retning": "op", "styrke": 4, "allerede_i_prisen": False,
+        res = {"vurderinger": [{"symbol": "BTC/USD", "retning": "op", "styrke": 3, "allerede_i_prisen": True, "gyldig_timer": 2, "kilde": "nyhed", "begrundelse": "Test"}, {"symbol": "NVDA", "kilde": "nyhed", "retning": "op", "styrke": 4, "allerede_i_prisen": False,
                                 "gyldig_timer": 2, "begrundelse": "Test"}]} if test_mode else ask("Nyhedsjaeger", HUNTER_INSTR,
-                  f"Vores symboler (aktier og krypto): {', '.join(symbols)}. Klokken er {t:%H:%M} UTC.\nNye overskrifter:\n{txt}",
+                  f"Vores symboler (aktier og krypto): {', '.join(symbols)}. Klokken er {t:%H:%M} UTC.\nNye overskrifter:\n{txt}"
+                  + ("\n\nReddit-snak (rygter, ikke bekraeftet):\n" + "\n".join(reddit_txt) if reddit_txt else ""),
                   HUNTER_SCHEMA)
     except Exception as e:
         return {"status": f"AI-fejl: {type(e).__name__}"}
@@ -233,6 +237,8 @@ def signal_for(state, symbol, price):
     tekst = (f"Nyhedsjaeger ({s['tid'][11:16]} UTC): {s['retning']} styrke {s['styrke']}/5, "
              f"{'allerede i prisen' if s['allerede_i_prisen'] else 'ikke i prisen endnu'}. {s['begrundelse']} "
              f"Kurs siden nyheden: {move:+.2%}.")
+    if s.get("kilde") == "kun_reddit":  # Reddit alene maa hverken koebe eller blokere
+        return "", "", tekst + " (Kun Reddit: ikke et koebssignal.)"
     if s["retning"] == "ned" and s["styrke"] >= 4:
         return "", f"negativ nyhed ({s['styrke']}/5): {s['begrundelse'][:80]}", tekst
     if s["retning"] == "op" and s["styrke"] >= NEWS_MIN_STYRKE and -MAX_DIP_PCT <= move <= MAX_CHASE_PCT:
