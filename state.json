@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77799.325,
+  "last_btc_price": 77840.7525,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1090,30 +1090,6 @@
         "tid": "2026-11-03T19:21:30.445134+00:00",
         "pris_ved_nyhed": 755.855,
         "udloeber": "2026-11-03T22:21:30.445134+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stor obligationsefterspoergsel ($58 mia.) viser tillid, men er primaert finansiering, ikke indtjening; effekten paa aktien er begraenset.",
-        "tid": "2026-11-03T19:21:30.445134+00:00",
-        "pris_ved_nyhed": 621.69,
-        "udloeber": "2026-11-03T21:21:30.445134+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Tesla indgaar i samme OKX-ICE-indsigelse; effekten paa aktiekursen er uklar og sandsynligvis begraenset.",
-        "tid": "2026-11-03T18:26:29.225905+00:00",
-        "pris_ved_nyhed": 398.475,
-        "udloeber": "2026-11-03T21:26:29.225905+00:00"
       }
     },
     "dag": "2026-11-03",
@@ -1328,7 +1304,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T21:11:28.884108+00:00",
+    "sidst_hentet": "2026-11-03T21:26:29.111182+00:00",
     "opslag": [
       {
         "id": "t3_1xn5av2",
