@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 00.52** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 00.57** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.064 USD  ·  **I alt:** +64 USD (+0.06 %)  ·  **I dag:** +0.20 %  ·  sidst opdateret 4/11 00.51
+**Konto:** 100.067 USD  ·  **I alt:** +67 USD (+0.07 %)  ·  **I dag:** +0.20 %  ·  sidst opdateret 4/11 00.57
 
 **Ejer nu:**
 
@@ -36,9 +36,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 00.52** (dansk tid). Kun
 | ❌ UMAC | 3/11 16.52 | -203 USD | stop ramt (Alpaca) |
 | ❌ ACHR | 3/11 16.22 | -105 USD | stop ramt (Alpaca) |
 
-## 🟢 Krypto-botten (7 coins, døgnet rundt, aggressiv)
+## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 100.000 USD  ·  **I alt:** +0 USD (+0.00 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 4/11 00.47
+**Konto:** 99.999 USD  ·  **I alt:** -1 USD (-0.00 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 4/11 00.52
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
