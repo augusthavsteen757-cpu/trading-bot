@@ -186,18 +186,6 @@
         "pris_ved_nyhed": 333.265,
         "udloeber": "2026-11-03T19:50:38.049293+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Obligationsudbud paa 15 mia. USD og S&P-outlook-saenkning veksler med AI-capex-bekymring; kursen rebounderer allerede.",
-        "tid": "2026-11-03T18:05:36.325138+00:00",
-        "pris_ved_nyhed": 623.2,
-        "udloeber": "2026-11-03T19:05:36.325138+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
