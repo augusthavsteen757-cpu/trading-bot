@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77641.69,
+  "last_btc_price": 77614.026,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1126,18 +1126,6 @@
         "tid": "2026-11-03T18:56:28.799492+00:00",
         "pris_ved_nyhed": 2290.1949999999997,
         "udloeber": "2026-11-03T20:56:28.799492+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Mindre pris-og-platform-nyhed uden stor paavirkning paa Amazons samlede indtjening.",
-        "tid": "2026-11-03T19:06:30.165164+00:00",
-        "pris_ved_nyhed": 251.14,
-        "udloeber": "2026-11-03T20:06:30.165164+00:00"
       },
       "META": {
         "kilde": "nyhed",
