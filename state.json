@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.303202,
+  "budget_used": 0.309389,
   "version": 3,
   "learned": [],
   "pending": {
@@ -24,8 +24,8 @@
     ]
   },
   "ai_day": "2026-11-03",
-  "ai_rounds_today": 11,
-  "ai_spend_today": 0.08069269999999999,
+  "ai_rounds_today": 12,
+  "ai_spend_today": 0.0868799,
   "eq_day": "2026-11-03",
   "day_start_equity": 99869.1,
   "peak_equity": 100069.77,
@@ -45,10 +45,9 @@
     },
     "SPY": {
       "orb_day": "2026-11-02",
-      "last_entry_eval": "2026-11-03T15:09:21.161203+00:00",
+      "last_entry_eval": "2026-11-03T15:29:14.260935+00:00",
       "last_entry_setups": [
-        "nyhed_op",
-        "range_bund"
+        "nyhed_op"
       ]
     },
     "QQQ": {
@@ -77,7 +76,7 @@
         "entry": 513.55,
         "stop": 510.23749999999995,
         "stop_initial": 510.23749999999995,
-        "high": 514.34,
+        "high": 514.6,
         "qty": 19.0,
         "entry_tid": "2026-11-03 15:14",
         "setup": "orb",
@@ -110,7 +109,7 @@
         "entry": 610.94,
         "stop": 601.0400000000001,
         "stop_initial": 601.0400000000001,
-        "high": 616.64,
+        "high": 617.66,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -146,7 +145,7 @@
       ]
     }
   },
-  "last_btc_price": 77186.45000000001,
+  "last_btc_price": 77213.15299999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1370,7 +1369,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T15:14:06.350626+00:00",
+    "sidst_hentet": "2026-11-03T15:29:06.518348+00:00",
     "opslag": [
       {
         "id": "t3_1xmthjj",
