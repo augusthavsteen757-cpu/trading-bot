@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77727.9915,
+  "last_btc_price": 77750.03700000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1042,32 +1042,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Positiv markedsvurdering smitter over paa teknologitunge indeks som QQQ, men signalet er generelt og ventet.",
-        "tid": "2026-11-03T19:21:30.445134+00:00",
-        "pris_ved_nyhed": 686.8,
-        "udloeber": "2026-11-03T22:21:30.445134+00:00"
-      },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "JPMorgan ser S&P 500 holde uanset valgudfald, hvilket kan daempe usikkerhed og stoette bredt markedet.",
-        "tid": "2026-11-03T19:21:30.445134+00:00",
-        "pris_ved_nyhed": 755.855,
-        "udloeber": "2026-11-03T22:21:30.445134+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-03",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-03T19:36:28.550023+00:00",
@@ -1280,8 +1255,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-03T22:01:28.867638+00:00",
+    "sidst_hentet": "2026-11-03T22:21:57.758935+00:00",
     "opslag": [
+      {
+        "id": "t3_1xn6sr3",
+        "tid": "2026-11-03T22:09:28+00:00",
+        "titel": "Solana Is Global With Alex Scott Podcast - How RE7 Turned On-Chain Risk Into a Repeatable Investment Process",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xn6giq",
         "tid": "2026-11-03T21:56:11+00:00",
@@ -1444,6 +1429,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   }
 }
