@@ -25,13 +25,63 @@
       "last_entry_eval": "2026-11-03T18:56:07.455908+00:00",
       "last_entry_setups": [
         "nyhed_op"
-      ]
+      ],
+      "orb_day": "2026-11-04",
+      "pos": {
+        "entry": 149.29,
+        "stop": 145.17000000000002,
+        "stop_initial": 145.17000000000002,
+        "high": 149.29,
+        "qty": 167.0,
+        "entry_tid": "2026-11-04 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 148.43, 'or_low': 141.91, 'sidste_luk': 148.96}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 54.8,
+          "adx_1h": 21.1,
+          "rel_volumen_1h": 0.87,
+          "afstand_modstand_atr": 0.35,
+          "atr_percentil_30d": 89.1
+        },
+        "target": 161.64999999999992,
+        "luk_foer_luk": true
+      }
     },
     "MSTR": {
       "last_entry_eval": "2026-11-04T14:32:32.339560+00:00",
       "last_entry_setups": [
         "trend_pullback"
-      ]
+      ],
+      "orb_day": "2026-11-04",
+      "pos": {
+        "entry": 140.935,
+        "stop": 138.38,
+        "stop_initial": 138.38,
+        "high": 140.935,
+        "qty": 177.0,
+        "entry_tid": "2026-11-04 14:52",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 140.73, 'or_low': 136.03, 'sidste_luk': 141.0}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 64.8,
+          "adx_1h": 20.7,
+          "rel_volumen_1h": 1.12,
+          "afstand_modstand_atr": 0.43,
+          "atr_percentil_30d": 23.4
+        },
+        "target": 148.60000000000002,
+        "luk_foer_luk": true
+      }
     },
     "META": {
       "last_entry_eval": "2026-11-04T14:37:14.005334+00:00",
@@ -50,7 +100,32 @@
       "last_entry_eval": "2026-11-03T18:31:13.390741+00:00",
       "last_entry_setups": [
         "nyhed_op"
-      ]
+      ],
+      "orb_day": "2026-11-04",
+      "pos": {
+        "entry": 86.25,
+        "stop": 84.83,
+        "stop_initial": 84.83,
+        "high": 86.25,
+        "qty": 289.0,
+        "entry_tid": "2026-11-04 14:52",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 86.1, 'or_low': 83.56, 'sidste_luk': 86.2}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 49.9,
+          "adx_1h": 22.4,
+          "rel_volumen_1h": 0.95,
+          "afstand_modstand_atr": 0.83,
+          "atr_percentil_30d": 33.8
+        },
+        "target": 90.51,
+        "luk_foer_luk": true
+      }
     }
   },
   "learned": [],
@@ -70,7 +145,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 100000.0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T14:31:51.791133+00:00",
+    "sidst_hentet": "2026-11-04T14:51:52.204661+00:00",
     "opslag": [
       {
         "id": "t3_1xno993",
