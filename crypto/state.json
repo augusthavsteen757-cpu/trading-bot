@@ -166,18 +166,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme makro-sammenhaeng som BTC; ETH foelger ofte BTC, men med svagere udslag.",
-        "tid": "2026-11-04T02:52:40.285870+00:00",
-        "pris_ved_nyhed": 2251.7455,
-        "udloeber": "2026-11-04T04:52:40.285870+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -226,7 +214,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77133.6075,
+  "last_btc_price": 77388.635,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
