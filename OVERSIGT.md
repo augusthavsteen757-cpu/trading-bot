@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.03** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.08** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.239 USD  ·  **I alt:** +239 USD (+0.24 %)  ·  **I dag:** +0.23 %  ·  sidst opdateret 4/11 17.03
+**Konto:** 100.188 USD  ·  **I alt:** +188 USD (+0.19 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 4/11 17.08
 
 **Ejer nu:**
 
@@ -13,21 +13,20 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.03** (dansk tid). Kun
 | AAPL | 28 | 351.36 | 4/11 15.58 |
 | META | 8 | 610.94 | 3/11 15.39 |
 | GOOGL | 34 | 291.75 | 4/11 15.59 |
-| TSLA | 14 | 383.45 | 4/11 15.59 |
 
-**Lukkede handler:** 8 i alt, 3 med gevinst, samlet +7 USD
+**Lukkede handler:** 9 i alt, 4 med gevinst, samlet +8 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ TSLA | 4/11 17.08 | +0 USD | stop ramt (Alpaca) |
 | ❌ AMZN | 4/11 17.03 | -4 USD | stop ramt (Alpaca) |
 | ❌ QQQ | 4/11 16.23 | -0 USD | stop ramt (Alpaca) |
 | ✅ MSFT | 3/11 18.56 | +129 USD | maal naaet |
 | ❌ QQQ | 3/11 17.19 | -1 USD | stop ramt (Alpaca) |
-| ❌ QQQ | 2/11 19.47 | -183 USD | stop ramt (Alpaca) |
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 17.00
+**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 17.05
 
 **Ejer nu:** intet
 
@@ -42,7 +41,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.03** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 16.58
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 17.08
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -56,7 +55,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.03** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.274 USD  ·  **I alt:** -726 USD (-0.73 %)  ·  **I dag:** -0.76 %  ·  sidst opdateret 4/11 17.03
+**Konto:** 99.234 USD  ·  **I alt:** -766 USD (-0.77 %)  ·  **I dag:** -0.80 %  ·  sidst opdateret 4/11 17.08
 
 **Ejer nu:**
 
@@ -72,23 +71,23 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.03** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.651 USD  ·  **I alt:** +651 USD (+0.65 %)  ·  **I dag:** +0.68 %  ·  sidst opdateret 4/11 17.02
+**Konto:** 100.519 USD  ·  **I alt:** +519 USD (+0.52 %)  ·  **I dag:** +0.53 %  ·  sidst opdateret 4/11 17.07
 
-**Selv-tjek:** auto-tjek: kun 2 handler, fuld fart
+**Selv-tjek:** auto-tjek: kun 3 handler, fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| TSLA | 1 | 385.20 | 4/11 16.01 |
 | PLTR | 1 | 173.26 | 4/11 16.02 |
 | MSTR | 177 | 140.94 | 4/11 15.52 |
 | NFLX | 220 | 65.41 | 4/11 15.57 |
 
-**Lukkede handler:** 2 i alt, 0 med gevinst, samlet -74 USD
+**Lukkede handler:** 3 i alt, 0 med gevinst, samlet -74 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ TSLA | 4/11 17.07 | +0 USD | stop ramt (Alpaca) |
 | ❌ COIN | 4/11 16.52 | -45 USD | stop ramt (Alpaca) |
 | ❌ HOOD | 4/11 16.47 | -28 USD | stop ramt (Alpaca) |
 
