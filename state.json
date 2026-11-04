@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 76217.315,
+  "last_btc_price": 76305.025,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1043,18 +1043,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslaget er ironisk hype uden konkret nyhed; kun svag kontekst, ingen klar retning.",
-        "tid": "2026-11-04T02:51:57.839951+00:00",
-        "pris_ved_nyhed": 76488.14749999999,
-        "udloeber": "2026-11-04T03:51:57.839951+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1286,7 +1274,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T03:36:57.487386+00:00",
+    "sidst_hentet": "2026-11-04T03:52:29.465864+00:00",
     "opslag": [
       {
         "id": "t3_1xnco6x",
