@@ -2,3 +2,4 @@ coin,entry_tid,exit_tid,setup,regime,conviction,entry,exit,stop_initial,r_multip
 HOOD,2026-11-04 14:52,2026-11-04 15:47,orb,range,3,86.25,86.15,84.83,-0.07,-28.29,stop ramt (Alpaca),0.9
 COIN,2026-11-04 14:51,2026-11-04 15:52,orb,high_vol,3,149.29,149.02,145.17,-0.07,-45.23,stop ramt (Alpaca),1.0
 TSLA,2026-11-04 15:01,2026-11-04 16:07,orb,high_vol,3,385.2,385.2,379.33,0.0,0.0,stop ramt (Alpaca),1.1
+PLTR,2026-11-04 15:02,2026-11-04 16:22,orb,high_vol,3,173.26,173.2,168.56,-0.01,-0.06,stop ramt (Alpaca),1.3

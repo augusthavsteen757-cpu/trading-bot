@@ -21,31 +21,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04",
-      "pos": {
-        "entry": 173.26,
-        "stop": 173.26,
-        "stop_initial": 168.5625,
-        "high": 177.59,
-        "qty": 1.0,
-        "entry_tid": "2026-11-04 15:02",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 172.44, 'or_low': 164.68, 'sidste_luk': 173.63}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": 0,
-          "rsi_1h": 41.5,
-          "adx_1h": 30.2,
-          "rel_volumen_1h": 0.1,
-          "afstand_modstand_atr": 0.75,
-          "atr_percentil_30d": 99.0
-        },
-        "target": 187.35249999999996,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-04"
     },
     "COIN": {
       "last_entry_eval": "2026-11-03T18:56:07.455908+00:00",
@@ -148,7 +124,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.05223160000000002,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: kun 3 handler, fuld fart",
+  "auto_tjek": "auto-tjek: kun 4 handler, fuld fart",
   "eq_day": "2026-11-04",
   "day_start_equity": 100000.0,
   "peak_equity": 101973.15,
