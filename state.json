@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80167.8325,
+  "last_btc_price": 80086.25,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1804,18 +1804,6 @@
         "pris_ved_nyhed": 768.13,
         "udloeber": "2026-11-04T20:33:27.918158+00:00"
       },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Gemini naer Anthropic-niveau til en tredjedel af prisen styrker Googles AI-konkurrenceevne; mulig overraskelse, men ikke klart kursdrivende endnu.",
-        "tid": "2026-11-04T16:38:27.848810+00:00",
-        "pris_ved_nyhed": 290.165,
-        "udloeber": "2026-11-04T19:38:27.848810+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -2161,7 +2149,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T19:23:27.905117+00:00",
+    "sidst_hentet": "2026-11-04T19:38:28.241454+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
