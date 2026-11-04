@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78312.0215,
+  "last_btc_price": 78262.925,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1289,7 +1289,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T08:07:29.255077+00:00",
+    "sidst_hentet": "2026-11-04T08:22:29.569481+00:00",
     "opslag": [
       {
         "id": "t3_1xnhy1e",
@@ -1451,18 +1451,8 @@
         ],
         "score": 0,
         "sub": "ethereum"
-      },
-      {
-        "id": "t3_1xmneai",
-        "tid": "2026-11-03T08:17:56+00:00",
-        "titel": "$SPY Is Now Tokenized on Solana Through Backpack Securities",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   }
 }
