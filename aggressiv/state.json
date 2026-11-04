@@ -50,7 +50,9 @@
         },
         "target": 161.64999999999992,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-04T14:56:55.210211+00:00",
+      "last_review_price": 147.34
     },
     "MSTR": {
       "last_entry_eval": "2026-11-04T14:32:32.339560+00:00",
@@ -81,7 +83,9 @@
         },
         "target": 148.60000000000002,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-04T14:57:06.691036+00:00",
+      "last_review_price": 138.98
     },
     "META": {
       "last_entry_eval": "2026-11-04T14:37:14.005334+00:00",
@@ -95,7 +99,33 @@
         "breakout"
       ]
     },
-    "NFLX": {},
+    "NFLX": {
+      "orb_day": "2026-11-04",
+      "pos": {
+        "entry": 65.405,
+        "stop": 64.63499999999999,
+        "stop_initial": 64.63499999999999,
+        "high": 65.405,
+        "qty": 220.0,
+        "entry_tid": "2026-11-04 14:57",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 65.24, 'or_low': 64.03, 'sidste_luk': 65.27}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 76.7,
+          "adx_1h": 21.4,
+          "rel_volumen_1h": 0.97,
+          "afstand_modstand_atr": 0.69,
+          "atr_percentil_30d": 75.9
+        },
+        "target": 67.71500000000003,
+        "luk_foer_luk": true
+      }
+    },
     "HOOD": {
       "last_entry_eval": "2026-11-03T18:31:13.390741+00:00",
       "last_entry_setups": [
@@ -135,10 +165,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.090215,
+  "budget_used": 0.102351,
   "ai_day": "2026-11-04",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.03811020000000001,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.05024620000000002,
   "ai_crypto_today": 0,
   "auto_tjek": "auto-tjek: kun 0 handler, fuld fart",
   "eq_day": "2026-11-04",
