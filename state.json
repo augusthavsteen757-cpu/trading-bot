@@ -29,7 +29,7 @@
   "ai_spend_today": 0.10178790000000003,
   "eq_day": "2026-11-04",
   "day_start_equity": 100052.02,
-  "peak_equity": 100309.2,
+  "peak_equity": 100406.32,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
     "BTC/USD": {
@@ -86,9 +86,9 @@
       "last_review_price": 696.765,
       "pos": {
         "entry": 697.51,
-        "stop": 692.7025000000001,
+        "stop": 697.51,
         "stop_initial": 692.7025000000001,
-        "high": 699.73,
+        "high": 700.16,
         "qty": 14.0,
         "entry_tid": "2026-11-04 14:53",
         "setup": "orb",
@@ -222,9 +222,9 @@
       ],
       "pos": {
         "entry": 610.94,
-        "stop": 617.425,
+        "stop": 622.52,
         "stop_initial": 601.0400000000001,
-        "high": 631.78,
+        "high": 636.52,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -254,9 +254,9 @@
       "orb_day": "2026-11-04",
       "pos": {
         "entry": 291.745,
-        "stop": 286.95000000000005,
+        "stop": 291.745,
         "stop_initial": 286.95000000000005,
-        "high": 294.01,
+        "high": 295.13,
         "qty": 34.0,
         "entry_tid": "2026-11-04 14:59",
         "setup": "orb",
@@ -290,7 +290,7 @@
         "entry": 383.44500000000005,
         "stop": 383.44500000000005,
         "stop_initial": 379.3275,
-        "high": 387.66,
+        "high": 388.35,
         "qty": 14.0,
         "entry_tid": "2026-11-04 14:59",
         "setup": "orb",
@@ -314,7 +314,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80341.369,
+  "last_btc_price": 80721.546,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
