@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78211.28450000001,
+  "last_btc_price": 78082.47,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1276,8 +1276,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T07:17:29.105063+00:00",
+    "sidst_hentet": "2026-11-04T07:32:29.404622+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnhy1e",
+        "tid": "2026-11-04T07:20:57+00:00",
+        "titel": "My conversation with AI that turns into a deep dive on ethereum.",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xngxfv",
         "tid": "2026-11-04T06:19:17+00:00",
@@ -1440,6 +1450,6 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   }
 }
