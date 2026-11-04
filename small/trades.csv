@@ -909,3 +909,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 15:35,LUNR,10.18,range,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99441.69,-0.558,94420.96,-5.579,-0.226,-0.731,0.1195,
 2026-11-04 15:35,ACHR,4.195,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99441.69,-0.558,94420.96,-5.579,-0.226,-0.731,0.1195,
 2026-11-04 15:35,OUST,31.56,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,99441.69,-0.558,94420.96,-5.579,-0.226,-0.731,0.1195,
+2026-11-04 15:39,ONDS,5.575,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:39,RCAT,4.165,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:39,UMAC,13.16,high_vol,range_bund,nej (nyhedsvagt: regnskab 2026-11-05),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:39,BBAI,2.625,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:39,SOUN,4.345,range,trend_pullback,nej (nyhedsvagt: regnskab 2026-11-05),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:40,QUBT,6.455,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:40,RGTI,11.27,range,,nej (intet setup),,,,,,,,,,,,,STOP RAMT,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,Solgt ca. 11
+2026-11-04 15:40,LUNR,10.21,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:40,ACHR,4.205,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
+2026-11-04 15:40,OUST,31.85,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,99424.05,-0.576,94251.9,-5.748,-0.244,-0.749,0.1195,
