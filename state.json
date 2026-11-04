@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77705.455,
+  "last_btc_price": 77738.3735,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1262,8 +1262,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T06:02:29.417928+00:00",
+    "sidst_hentet": "2026-11-04T06:22:28.871254+00:00",
     "opslag": [
+      {
+        "id": "t3_1xngxfv",
+        "tid": "2026-11-04T06:19:17+00:00",
+        "titel": "Bitcoin ETFs Lose $1 Billion as Midterms, Binance Hack Weigh on Sentiment",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xngngt",
+        "tid": "2026-11-04T06:03:14+00:00",
+        "titel": "From Gold to Bitcoin: Why the Great Performance Gap of 2026 Signals a Historic Monetary Catch-Up.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xnco6x",
         "tid": "2026-11-04T02:34:25+00:00",
@@ -1406,6 +1426,6 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   }
 }
