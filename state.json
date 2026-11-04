@@ -156,7 +156,7 @@
         "entry": 610.94,
         "stop": 622.52,
         "stop_initial": 601.0400000000001,
-        "high": 638.4,
+        "high": 639.0,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80397.2905,
+  "last_btc_price": 80260.821,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
