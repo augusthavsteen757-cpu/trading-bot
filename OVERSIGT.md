@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.39** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.43** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.354 USD  ·  **I alt:** +354 USD (+0.35 %)  ·  **I dag:** +0.30 %  ·  sidst opdateret 4/11 16.38
+**Konto:** 100.324 USD  ·  **I alt:** +324 USD (+0.32 %)  ·  **I dag:** +0.28 %  ·  sidst opdateret 4/11 16.43
 
 **Ejer nu:**
 
@@ -28,18 +28,15 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.39** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.442 USD  ·  **I alt:** -558 USD (-0.56 %)  ·  **I dag:** -0.23 %  ·  sidst opdateret 4/11 16.35
+**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 16.40
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| RGTI | 865 | 11.52 | 4/11 16.15 |
-
-**Lukkede handler:** 3 i alt, 1 med gevinst, samlet -304 USD
+**Lukkede handler:** 4 i alt, 1 med gevinst, samlet -542 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ RGTI | 4/11 16.40 | -238 USD | stop ramt (Alpaca) |
 | ✅ LUNR | 3/11 20.23 | +5 USD | stop ramt (Alpaca) |
 | ❌ UMAC | 3/11 16.52 | -203 USD | stop ramt (Alpaca) |
 | ❌ ACHR | 3/11 16.22 | -105 USD | stop ramt (Alpaca) |
@@ -60,7 +57,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.39** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.329 USD  ·  **I alt:** -671 USD (-0.67 %)  ·  **I dag:** -0.71 %  ·  sidst opdateret 4/11 16.38
+**Konto:** 99.309 USD  ·  **I alt:** -691 USD (-0.69 %)  ·  **I dag:** -0.73 %  ·  sidst opdateret 4/11 16.43
 
 **Ejer nu:**
 
@@ -76,7 +73,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.39** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.385 USD  ·  **I alt:** +1.385 USD (+1.39 %)  ·  **I dag:** +1.31 %  ·  sidst opdateret 4/11 16.37
+**Konto:** 101.631 USD  ·  **I alt:** +1.631 USD (+1.63 %)  ·  **I dag:** +1.60 %  ·  sidst opdateret 4/11 16.42
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
