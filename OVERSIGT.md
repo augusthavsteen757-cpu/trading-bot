@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.13** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.19** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.420 USD  ·  **I alt:** +420 USD (+0.42 %)  ·  **I dag:** +0.35 %  ·  sidst opdateret 4/11 16.13
+**Konto:** 100.487 USD  ·  **I alt:** +487 USD (+0.49 %)  ·  **I dag:** +0.41 %  ·  sidst opdateret 4/11 16.19
 
 **Ejer nu:**
 
@@ -29,9 +29,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.13** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.666 USD  ·  **I alt:** -334 USD (-0.33 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 4/11 16.10
+**Konto:** 99.654 USD  ·  **I alt:** -346 USD (-0.35 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 4/11 16.15
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| RGTI | 865 | 11.52 | 4/11 16.15 |
 
 **Lukkede handler:** 3 i alt, 1 med gevinst, samlet -304 USD
 
@@ -43,7 +47,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.13** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 16.13
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 16.18
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -57,7 +61,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.13** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.384 USD  ·  **I alt:** -616 USD (-0.62 %)  ·  **I dag:** -0.65 %  ·  sidst opdateret 4/11 16.13
+**Konto:** 99.404 USD  ·  **I alt:** -596 USD (-0.60 %)  ·  **I dag:** -0.63 %  ·  sidst opdateret 4/11 16.18
 
 **Ejer nu:**
 
@@ -73,7 +77,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.13** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.217 USD  ·  **I alt:** +1.217 USD (+1.22 %)  ·  **I dag:** +1.08 %  ·  sidst opdateret 4/11 16.12
+**Konto:** 101.914 USD  ·  **I alt:** +1.914 USD (+1.91 %)  ·  **I dag:** +1.97 %  ·  sidst opdateret 4/11 16.17
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
