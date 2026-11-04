@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78427.4855,
+  "last_btc_price": 78445.282,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1303,7 +1303,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T10:27:55.364420+00:00",
+    "sidst_hentet": "2026-11-04T10:47:55.275399+00:00",
     "opslag": [
       {
         "id": "t3_1xnjyv6",
@@ -1485,18 +1485,8 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xmpq8r",
-        "tid": "2026-11-03T10:43:14+00:00",
-        "titel": "Ethereum for digital public infrastructure",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   }
 }
