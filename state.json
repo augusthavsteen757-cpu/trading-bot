@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 79941.35949999999,
+  "last_btc_price": 80127.17199999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1755,30 +1755,6 @@
         "tid": "2026-11-04T18:33:27.918158+00:00",
         "pris_ved_nyhed": 389.175,
         "udloeber": "2026-11-04T21:33:27.918158+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD udfordrer Nvidia i AI-infrastruktur; konkurrencen kan presse NVDA-sentiment, men effekten er usikker kort sigt.",
-        "tid": "2026-11-04T18:08:27.628139+00:00",
-        "pris_ved_nyhed": 203.64999999999998,
-        "udloeber": "2026-11-04T20:08:27.628139+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD's voksende AI-datacenter-forpligtelser kan signalere efterspoergsel, men 8,5 mia. er en risiko-post og kan vaere delvist ventet.",
-        "tid": "2026-11-04T18:08:27.628139+00:00",
-        "pris_ved_nyhed": 485.12,
-        "udloeber": "2026-11-04T20:08:27.628139+00:00"
       },
       "SPY": {
         "kilde": "nyhed",
