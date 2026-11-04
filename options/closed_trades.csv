@@ -1,0 +1,2 @@
+aktie,kontrakt,type,entry_tid,exit_tid,entry,exit,antal,pnl_usd,pnl_pct,exit_aarsag,dage,call_andel_ved_koeb
+SPY,SPY261120P00757000,put,2026-11-03T16:46:05.600186+00:00,2026-11-04T14:32:55.800171+00:00,11.99,6.79,1,-520.0,-43.4,stop -43%,0,0.556
