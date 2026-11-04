@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 79952.6005,
+  "last_btc_price": 79955.355,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1756,18 +1756,6 @@
         "pris_ved_nyhed": 389.175,
         "udloeber": "2026-11-04T21:33:27.918158+00:00"
       },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Big Tech-rally med MSFT og GOOGL/AMZN-sympati kan loefte QQQ, men raliet er allerede i gang.",
-        "tid": "2026-11-04T17:53:29.306820+00:00",
-        "pris_ved_nyhed": 696.53,
-        "udloeber": "2026-11-04T19:53:29.306820+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1803,30 +1791,6 @@
         "tid": "2026-11-04T18:33:27.918158+00:00",
         "pris_ved_nyhed": 768.13,
         "udloeber": "2026-11-04T20:33:27.918158+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kryptomarkedet stiger med ETH i spidsen; momentum kan fortsaette kort, men bevaegelsen er allerede synlig.",
-        "tid": "2026-11-04T17:53:29.306820+00:00",
-        "pris_ved_nyhed": 2425.9025,
-        "udloeber": "2026-11-04T19:53:29.306820+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Microsoft steg over 6% pga. Azure-vaekst; kursen er allerede hoppet markant, saa en del af effekten er indregnet.",
-        "tid": "2026-11-04T17:53:29.306820+00:00",
-        "pris_ved_nyhed": 553.985,
-        "udloeber": "2026-11-04T19:53:29.306820+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2149,7 +2113,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T19:38:28.241454+00:00",
+    "sidst_hentet": "2026-11-04T19:58:27.464538+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
