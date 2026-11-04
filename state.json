@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80369.065,
+  "last_btc_price": 80416.11,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1791,18 +1791,6 @@
         "tid": "2026-11-04T17:03:29.217446+00:00",
         "pris_ved_nyhed": 487.29,
         "udloeber": "2026-11-04T19:03:29.217446+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Apple steg ca. 5% pga. AI-fokus; momentum kan fortsaette, men stigningen er allerede sket.",
-        "tid": "2026-11-04T15:08:27.719599+00:00",
-        "pris_ved_nyhed": 351.71500000000003,
-        "udloeber": "2026-11-04T17:08:27.719599+00:00"
       },
       "SPY": {
         "kilde": "nyhed",
