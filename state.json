@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.429071,
+  "budget_used": 0.446892,
   "version": 3,
   "learned": [],
   "pending": {
@@ -25,11 +25,11 @@
     ]
   },
   "ai_day": "2026-11-04",
-  "ai_rounds_today": 10,
-  "ai_spend_today": 0.0653839,
+  "ai_rounds_today": 13,
+  "ai_spend_today": 0.08320490000000001,
   "eq_day": "2026-11-04",
   "day_start_equity": 100052.02,
-  "peak_equity": 100179.44,
+  "peak_equity": 100271.78,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
     "BTC/USD": {
@@ -63,7 +63,7 @@
         "entry": 697.51,
         "stop": 692.7025000000001,
         "stop_initial": 692.7025000000001,
-        "high": 697.51,
+        "high": 698.34,
         "qty": 14.0,
         "entry_tid": "2026-11-04 14:53",
         "setup": "orb",
@@ -101,7 +101,7 @@
         "entry": 351.36,
         "stop": 345.71000000000004,
         "stop_initial": 345.71000000000004,
-        "high": 351.36,
+        "high": 353.41,
         "qty": 28.0,
         "entry_tid": "2026-11-04 14:58",
         "setup": "orb",
@@ -120,22 +120,74 @@
         },
         "target": 362.65999999999997,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-04T15:03:39.906738+00:00",
+      "last_review_price": 353.40999999999997
     },
     "MSFT": {
       "last_entry_eval": "2026-11-04T14:38:09.309717+00:00",
       "last_entry_setups": [
         "breakout"
       ],
-      "orb_day": "2026-11-03",
+      "orb_day": "2026-11-04",
       "last_hold_review": "2026-11-03T15:19:18.360434+00:00",
-      "last_review_price": 514.335
+      "last_review_price": 514.335,
+      "plan": {
+        "entry": 555.2049999999999,
+        "stop": 547.2125,
+        "stop_initial": 547.2125,
+        "high": 555.2049999999999,
+        "qty": 0.0,
+        "entry_tid": "2026-11-04 15:03",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 551.76, 'or_low': 542.66, 'sidste_luk': 553.12}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 1,
+          "rsi_1h": 77.0,
+          "adx_1h": 21.0,
+          "rel_volumen_1h": 0.48,
+          "afstand_modstand_atr": 0.77,
+          "atr_percentil_30d": 96.3
+        },
+        "target": 571.1899999999998,
+        "luk_foer_luk": true,
+        "plan_tid": "2026-11-04T15:03:51.060989+00:00"
+      }
     },
     "AMZN": {
       "last_entry_eval": "2026-11-04T14:38:20.942379+00:00",
       "last_entry_setups": [
         "breakout"
-      ]
+      ],
+      "orb_day": "2026-11-04",
+      "pos": {
+        "entry": 270.975,
+        "stop": 266.935,
+        "stop_initial": 266.935,
+        "high": 270.975,
+        "qty": 1.0,
+        "entry_tid": "2026-11-04 15:03",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 269.97, 'or_low': 263.9, 'sidste_luk': 270.41}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 1,
+          "rsi_1h": 79.0,
+          "adx_1h": 23.4,
+          "rel_volumen_1h": 0.29,
+          "afstand_modstand_atr": 0.11,
+          "atr_percentil_30d": 92.9
+        },
+        "target": 279.05500000000006,
+        "luk_foer_luk": true
+      }
     },
     "META": {
       "last_entry_eval": "2026-11-03T14:39:23.131494+00:00",
@@ -146,7 +198,7 @@
         "entry": 610.94,
         "stop": 617.425,
         "stop_initial": 601.0400000000001,
-        "high": 631.2,
+        "high": 631.78,
         "qty": 8.0,
         "entry_tid": "2026-11-03 14:39",
         "setup": "range_bund",
@@ -178,7 +230,7 @@
         "entry": 291.745,
         "stop": 286.95000000000005,
         "stop_initial": 286.95000000000005,
-        "high": 291.745,
+        "high": 294.01,
         "qty": 34.0,
         "entry_tid": "2026-11-04 14:59",
         "setup": "orb",
@@ -197,7 +249,9 @@
         },
         "target": 301.3349999999999,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-04T15:04:03.880596+00:00",
+      "last_review_price": 294.01
     },
     "AMD": {},
     "TSLA": {
@@ -208,9 +262,9 @@
       "orb_day": "2026-11-04",
       "pos": {
         "entry": 383.44500000000005,
-        "stop": 379.3275,
+        "stop": 383.44500000000005,
         "stop_initial": 379.3275,
-        "high": 383.44500000000005,
+        "high": 385.74,
         "qty": 14.0,
         "entry_tid": "2026-11-04 14:59",
         "setup": "orb",
@@ -229,10 +283,12 @@
         },
         "target": 391.6800000000002,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-04T15:04:17.895778+00:00",
+      "last_review_price": 385.735
     }
   },
-  "last_btc_price": 79163.17,
+  "last_btc_price": 79469.62049999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
