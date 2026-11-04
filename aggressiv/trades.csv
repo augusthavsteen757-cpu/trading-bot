@@ -461,3 +461,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 15:07,AVGO,331.28,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100432.15,0.432,100000.0,0.0,0.64,0.0,0.1026,
 2026-11-04 15:07,NFLX,65.9,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100467.91,0.468,100000.0,0.0,0.64,0.0,0.1026,
 2026-11-04 15:07,HOOD,86.58,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,84.83,100512.1,0.512,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:11,NVDA,204.99,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101031.66,1.032,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:11,TSLA,386.34,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,379.33,101050.85,1.051,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:11,AMD,499.62,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,101061.0,1.061,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:11,PLTR,174.94,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,168.56,101087.43,1.087,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,COIN,150.5,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,145.17,101086.51,1.087,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,MSTR,143.9,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,140.94,101132.0,1.132,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,META,635.84,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101226.78,1.227,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,AVGO,331.44,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101251.96,1.252,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,NFLX,65.93,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,101271.42,1.271,100000.0,0.0,1.079,0.0,0.1029,
+2026-11-04 15:12,HOOD,87.04,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,86.25,101216.8,1.217,100000.0,0.0,1.079,0.0,0.1029,Stop flyttet 85 til 86
