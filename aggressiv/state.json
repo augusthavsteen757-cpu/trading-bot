@@ -83,7 +83,7 @@
         "entry": 65.405,
         "stop": 65.405,
         "stop_initial": 64.63499999999999,
-        "high": 66.53,
+        "high": 66.57,
         "qty": 220.0,
         "entry_tid": "2026-11-04 14:57",
         "setup": "orb",
@@ -129,7 +129,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 101973.15,
   "reddit": {
-    "sidst_hentet": "2026-11-04T20:17:15.531800+00:00",
+    "sidst_hentet": "2026-11-04T20:32:16.295806+00:00",
     "opslag": [
       {
         "id": "t3_1xnq9fs",
