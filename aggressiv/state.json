@@ -186,32 +186,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Musks formueforringelse skyldes valgdonationer, ikke Tesla-drift. Svag indirekte effekt, muligt fokusskift eller sentimentbelastning; nyheden er kendt og delvist prisat.",
-        "tid": "2026-11-04T16:52:16.594195+00:00",
-        "pris_ved_nyhed": 385.33,
-        "udloeber": "2026-11-04T18:52:16.594195+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Wells Fargo fastholder overweight, saenker kursmaal til 650 USD. Rating uaendret, saa kursmaalsaenkning kan give kortvarigt pres, men signal er blandet.",
-        "tid": "2026-11-04T16:52:16.594195+00:00",
-        "pris_ved_nyhed": 488.41,
-        "udloeber": "2026-11-04T18:52:16.594195+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-04T16:52:16.594195+00:00",
