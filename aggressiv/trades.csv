@@ -571,3 +571,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 16:02,AVGO,325.31,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100634.75,0.635,100000.0,0.0,0.682,-1.266,0.1038,
 2026-11-04 16:02,NFLX,66.38,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100638.62,0.639,100000.0,0.0,0.682,-1.266,0.1038,
 2026-11-04 16:02,HOOD,86.49,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100651.37,0.651,100000.0,0.0,0.682,-1.266,0.1038,
+2026-11-04 16:07,NVDA,202.19,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100531.96,0.532,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,TSLA,382.97,high_vol,range_bund,nej (setup: range_bund),,,,,,,,,,,,,STOP RAMT,,,,100531.96,0.532,100000.0,0.0,0.534,-1.412,0.1041,Solgt ca. 385
+2026-11-04 16:07,AMD,481.05,high_vol,range_bund nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,100531.9,0.532,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,PLTR,174.05,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,173.26,100531.93,0.532,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,COIN,149.59,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100562.76,0.563,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,MSTR,142.96,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,140.94,100540.36,0.54,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,META,629.54,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100546.05,0.546,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,AVGO,323.4,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100542.48,0.542,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,NFLX,66.4,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100519.92,0.52,100000.0,0.0,0.534,-1.412,0.1041,
+2026-11-04 16:07,HOOD,86.09,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100518.8,0.519,100000.0,0.0,0.534,-1.412,0.1041,
