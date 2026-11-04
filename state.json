@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80629.35,
+  "last_btc_price": 80556.814,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1816,18 +1816,6 @@
         "pris_ved_nyhed": 765.23,
         "udloeber": "2026-11-04T18:08:31.998168+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Euro-obligationssalg og smaa programmer er ikke markedsflyttende.",
-        "tid": "2026-11-04T14:42:57.038583+00:00",
-        "pris_ved_nyhed": 630.775,
-        "udloeber": "2026-11-04T16:42:57.038583+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2173,7 +2161,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T16:28:27.917745+00:00",
+    "sidst_hentet": "2026-11-04T16:43:28.058304+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
