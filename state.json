@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80064.35,
+  "last_btc_price": 80036.3185,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1733,20 +1733,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "\u00d8get politisk pres mod Musk kan skabe usikkerhed omkring Tesla, men er et langsigtet og diffust risikosignal.",
-        "tid": "2026-11-04T18:33:27.918158+00:00",
-        "pris_ved_nyhed": 389.175,
-        "udloeber": "2026-11-04T21:33:27.918158+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-04T18:33:27.918158+00:00",
