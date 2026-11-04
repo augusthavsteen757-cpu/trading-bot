@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80194.36499999999,
+  "last_btc_price": 80189.195,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2042,7 +2042,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T21:44:00.909672+00:00",
+    "sidst_hentet": "2026-11-04T22:04:00.827588+00:00",
     "opslag": [
       {
         "id": "t3_1xnzu8d",
@@ -2314,18 +2314,8 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xn6giq",
-        "tid": "2026-11-03T21:56:11+00:00",
-        "titel": "Encrypted Stablecoin transaction on Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   }
 }
