@@ -29,7 +29,7 @@
   "ai_spend_today": 0.0033198,
   "eq_day": "2026-11-04",
   "day_start_equity": 100052.02,
-  "peak_equity": 100178.48,
+  "peak_equity": 100179.44,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
     "BTC/USD": {
@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78296.975,
+  "last_btc_price": 78217.86,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1294,7 +1294,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T14:07:55.549931+00:00",
+    "sidst_hentet": "2026-11-04T14:27:55.313331+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
