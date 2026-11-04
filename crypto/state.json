@@ -28,7 +28,7 @@
   "day_start_equity": 99995.33,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-04T12:08:38.169791+00:00",
+    "sidst_hentet": "2026-11-04T12:23:38.317506+00:00",
     "opslag": [
       {
         "id": "t3_1xnmeia",
@@ -205,32 +205,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigende aktiefutures og risikovillighed kan smitte af paa krypto; svag sammenhaeng, men positiv stemning for risikoaktiver.",
-        "tid": "2026-11-04T10:23:12.203963+00:00",
-        "pris_ved_nyhed": 78448.523,
-        "udloeber": "2026-11-04T12:23:12.203963+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme risikostemning som BTC; ETH foelger ofte BTC-bevaegelser i risk-on dage.",
-        "tid": "2026-11-04T10:23:12.203963+00:00",
-        "pris_ved_nyhed": 2325.193,
-        "udloeber": "2026-11-04T12:23:12.203963+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-04T10:23:12.203963+00:00",
@@ -270,7 +245,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 78145.96299999999,
+  "last_btc_price": 78096.07949999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
