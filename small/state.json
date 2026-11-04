@@ -94,25 +94,12 @@
   "day_start_equity": 99667.01,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-04T17:24:52.903514+00:00",
+    "sidst_hentet": "2026-11-04T17:39:53.404799+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Nye multi-million Counter-UAS-kontrakter i Europa og Asien. Konkret omsaetning, men lille nyhed gentaget to gange, sandsynligvis delvist ventet.",
-        "tid": "2026-11-04T14:34:54.818180+00:00",
-        "pris_ved_nyhed": 5.675,
-        "udloeber": "2026-11-04T17:34:54.818180+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-04T15:34:53.288243+00:00",
@@ -135,7 +122,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.415,
+  "last_btc_price": 5.405,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
