@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80592.685,
+  "last_btc_price": 80554.56,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2185,7 +2185,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T17:53:27.989059+00:00",
+    "sidst_hentet": "2026-11-04T18:13:27.872137+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
@@ -2339,6 +2339,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/wallstreet"
   }
 }
