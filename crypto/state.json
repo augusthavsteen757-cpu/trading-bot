@@ -28,7 +28,7 @@
   "day_start_equity": 99995.33,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-04T21:54:08.027307+00:00",
+    "sidst_hentet": "2026-11-04T22:14:08.410037+00:00",
     "opslag": [
       {
         "id": "t3_1xnzu8d",
@@ -249,29 +249,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xn6sr3",
-        "tid": "2026-11-03T22:09:28+00:00",
-        "titel": "Solana Is Global With Alex Scott Podcast - How RE7 Turned On-Chain Risk Into a Repeatable Investment Process",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xn6giq",
-        "tid": "2026-11-03T21:56:11+00:00",
-        "titel": "Encrypted Stablecoin transaction on Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -316,7 +296,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80228.2185,
+  "last_btc_price": 80402.63500000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
