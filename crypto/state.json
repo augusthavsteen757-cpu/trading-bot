@@ -28,8 +28,28 @@
   "day_start_equity": 99995.33,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-04T09:08:10.981086+00:00",
+    "sidst_hentet": "2026-11-04T09:28:11.619363+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnjw9b",
+        "tid": "2026-11-04T09:27:48+00:00",
+        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xnjpas",
+        "tid": "2026-11-04T09:14:49+00:00",
+        "titel": "Beginner looking for advice on a BTC hardware wallet",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xnhy1e",
         "tid": "2026-11-04T07:20:57+00:00",
@@ -182,7 +202,7 @@
         "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -236,7 +256,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 78234.3285,
+  "last_btc_price": 78264.01999999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
