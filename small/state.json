@@ -147,18 +147,6 @@
         "tid": "2026-11-04T14:34:54.818180+00:00",
         "pris_ved_nyhed": 4.37,
         "udloeber": "2026-11-04T16:34:54.818180+00:00"
-      },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Buy-rating bekr\u00e6ftet, men kursm\u00e5l s\u00e6nket til $34. Ingen ny fundamental positiv information, og nedjusteringen kan d\u00e6mpe stemningen kort.)",
-        "tid": "2026-11-04T15:34:53.288243+00:00",
-        "pris_ved_nyhed": 10.184999999999999,
-        "udloeber": "2026-11-04T16:34:53.288243+00:00"
       }
     },
     "dag": "2026-11-04",
@@ -183,7 +171,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.255,
+  "last_btc_price": 5.235,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
