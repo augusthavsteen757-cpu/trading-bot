@@ -175,20 +175,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigning 2% allerede sket; tightening supply og hajers opkoeb kan give momentum, men prisen har delvist reageret.",
-        "tid": "2026-11-04T12:58:37.765171+00:00",
-        "pris_ved_nyhed": 78167.95,
-        "udloeber": "2026-11-04T14:58:37.765171+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-04T12:58:37.765171+00:00",
@@ -230,7 +217,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 79280.25399999999,
+  "last_btc_price": 79129.844,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
