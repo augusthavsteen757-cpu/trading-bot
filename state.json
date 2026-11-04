@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78288.06349999999,
+  "last_btc_price": 78297.9485,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1306,8 +1306,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T13:27:56.322201+00:00",
+    "sidst_hentet": "2026-11-04T13:47:55.333077+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnocue",
+        "tid": "2026-11-04T13:35:43+00:00",
+        "titel": "339k BTC moved at a loss last week... twice a normal week.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xnmeia",
         "tid": "2026-11-04T12:00:11+00:00",
@@ -1460,6 +1470,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   }
 }
