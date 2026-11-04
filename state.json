@@ -22,6 +22,9 @@
     ],
     "tab: adopteret i high_vol": [
       "2026-11-02 18:47: QQQ: stop ramt (Alpaca). R=-1.00. Entry 698, exit 689. Grund til koeb: ?. Features ved koeb: "
+    ],
+    "tab: orb i high_vol": [
+      "2026-11-04 16:03: AMZN: stop ramt (Alpaca). R=-1.02. Entry 271, exit 267. Grund til koeb: ORB breakout {'or_high': 269.97, 'or_low': 263.9, 'sidste_luk': 270.41}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 1, 'rsi_1h': 79.0, 'adx_1h': 23.4, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.11, 'atr_percentil_30d': 92.9}"
     ]
   },
   "ai_day": "2026-11-04",
@@ -165,30 +168,6 @@
         "breakout"
       ],
       "orb_day": "2026-11-04",
-      "pos": {
-        "entry": 270.975,
-        "stop": 266.935,
-        "stop_initial": 266.935,
-        "high": 270.975,
-        "qty": 1.0,
-        "entry_tid": "2026-11-04 15:03",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 269.97, 'or_low': 263.9, 'sidste_luk': 270.41}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 1,
-          "rsi_1h": 79.0,
-          "adx_1h": 23.4,
-          "rel_volumen_1h": 0.29,
-          "afstand_modstand_atr": 0.11,
-          "atr_percentil_30d": 92.9
-        },
-        "target": 279.05500000000006,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-04T15:09:10.365127+00:00",
       "last_review_price": 270.5
     },
@@ -291,7 +270,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80131.56,
+  "last_btc_price": 80335.5,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
