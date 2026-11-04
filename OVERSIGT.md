@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 13.38** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 13.43** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.111 USD  ·  **I alt:** +111 USD (+0.11 %)  ·  **I dag:** +0.06 %  ·  sidst opdateret 4/11 13.37
+**Konto:** 100.102 USD  ·  **I alt:** +102 USD (+0.10 %)  ·  **I dag:** +0.05 %  ·  sidst opdateret 4/11 13.42
 
 **Ejer nu:**
 
@@ -38,7 +38,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 13.38** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 13.33
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 13.38
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
