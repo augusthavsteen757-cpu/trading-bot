@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 76949.4765,
+  "last_btc_price": 77148.79999999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1043,18 +1043,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme politiske sammenhaeng som BTC; ETH folger ofte BTC-bevaegelser i kryptomarkedet, saa effekten kan vaere lignende men lidt svagere.",
-        "tid": "2026-11-04T02:51:57.839951+00:00",
-        "pris_ved_nyhed": 2250.75,
-        "udloeber": "2026-11-04T04:51:57.839951+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
