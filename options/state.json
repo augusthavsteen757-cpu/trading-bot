@@ -1,8 +1,18 @@
 {
-  "positions": {},
+  "positions": {
+    "AMZN261120C00272500": {
+      "entry": 7.23,
+      "antal": 1,
+      "entry_tid": "2026-11-04T15:03:07.190170+00:00",
+      "call_andel": 0.748,
+      "trend": "op"
+    }
+  },
   "day": "2026-11-04",
-  "new_today": 0,
-  "traded_today": [],
+  "new_today": 1,
+  "traded_today": [
+    "AMZN"
+  ],
   "peak_equity": 100050.97,
   "test_kob_id": "testkoeb-options-2026-11-03"
 }
