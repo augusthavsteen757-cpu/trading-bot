@@ -225,7 +225,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 101973.15,
   "reddit": {
-    "sidst_hentet": "2026-11-04T15:11:51.759257+00:00",
+    "sidst_hentet": "2026-11-04T15:31:52.064791+00:00",
     "opslag": [
       {
         "id": "t3_1xnq9fs",
@@ -277,20 +277,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xmvz8p",
-        "tid": "2026-11-03T15:29:12+00:00",
-        "titel": "AMD puts yesterday bought me a NVIDIA/Intel PC, thanks Lisa Su! 600 -> 9.5k",
-        "symboler": [
-          "NVDA",
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 6 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
