@@ -32,6 +32,7 @@ NAMES = {  # firmanavne, som folk skriver i stedet for tickeren (smaa bogstaver)
     "ONDS": ["ondas"], "RCAT": ["red cat"], "UMAC": ["unusual machines"], "BBAI": ["bigbear"],
     "SOUN": ["soundhound"], "QUBT": ["quantum computing inc"], "RGTI": ["rigetti"], "LUNR": ["intuitive machines"],
     "ACHR": ["archer aviation"], "OUST": ["ouster"],
+    "EQIX": ["equinix"], "DLR": ["digital realty"],
     "BTC/USD": ["bitcoin", "btc"], "ETH/USD": ["ethereum", "eth"], "SOL/USD": ["solana", "sol"],
 }
 

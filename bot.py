@@ -50,6 +50,11 @@ _coins = (os.getenv("COINS") or "BTC/USD,ETH/USD,SOL/USD").strip()
 CRYPTO = [] if _coins.lower() == "none" else [c.strip() for c in _coins.split(",") if c.strip()]
 _stocks = (os.getenv("STOCKS") or "SPY,QQQ,NVDA,AAPL,MSFT,AMZN,META,GOOGL,AMD,TSLA").strip()
 STOCKS = [] if _stocks.lower() == "none" else [c.strip().upper() for c in _stocks.split(",") if c.strip()]  # "none" = kun krypto
+# Ekstra aktier til paper-test (fx datacenter-ejendomme EQIX, DLR), saettes kun i bot.yml for hoved-botten
+for _x in (os.getenv("EXTRA_STOCKS") or "").split(","):
+    _x = _x.strip().upper()
+    if STOCKS and _x and _x not in STOCKS:
+        STOCKS.append(_x)
 ORB_SYMBOLS = [c.strip().upper() for c in (os.getenv("ORB_SYMBOLS") or ",".join(STOCKS)).split(",") if c.strip()]
 ORB_TIME_STOP_MIN = env_f("ORB_TIME_STOP_MIN", 60)  # ORB: er handlen ikke i plus efter 60 min, saelges den
 ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig

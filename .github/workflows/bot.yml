@@ -42,6 +42,7 @@ jobs:
           MAX_TOTAL_EXPOSURE_PCT: ${{ vars.MAX_TOTAL_EXPOSURE_PCT }}
           COINS: ${{ vars.COINS }}
           STOCKS: ${{ vars.STOCKS }}
+          EXTRA_STOCKS: EQIX,DLR  # paper-test af datacenter-jord-idéen fra 4. nov
           RESET_HALT: ${{ vars.RESET_HALT }}
           NEWS_MAX_CALLS_PER_DAY: ${{ vars.NEWS_MAX_CALLS_PER_DAY }}
           NEWS_MIN_GAP_MIN: ${{ vars.NEWS_MIN_GAP_MIN }}
