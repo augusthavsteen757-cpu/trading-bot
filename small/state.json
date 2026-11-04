@@ -100,18 +100,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Cantor opgraderede til Overweight med kurs 45 og Q3-beat med 50% vaekst. Store nyheder, men aktien steg allerede ~14% premarket, saa meget er indpreiset.",
-        "tid": "2026-11-04T14:34:54.818180+00:00",
-        "pris_ved_nyhed": 31.785,
-        "udloeber": "2026-11-04T16:34:54.818180+00:00"
-      },
       "ONDS": {
         "kilde": "nyhed",
         "symbol": "ONDS",
@@ -123,30 +111,6 @@
         "tid": "2026-11-04T14:34:54.818180+00:00",
         "pris_ved_nyhed": 5.675,
         "udloeber": "2026-11-04T17:34:54.818180+00:00"
-      },
-      "SOUN": {
-        "kilde": "nyhed",
-        "symbol": "SOUN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "SoundHound leverer voice AI til Ultraviolette Automotive. Positiv, men lille kontrakt med begraenset paavirkning paa aktien.",
-        "tid": "2026-11-04T14:34:54.818180+00:00",
-        "pris_ved_nyhed": 4.235,
-        "udloeber": "2026-11-04T16:34:54.818180+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Drone- og robotefterspoergsel fra OUST-nyheden kan smitte over paa droneselskaber som RCAT, men sammenhaengen er indirekte.",
-        "tid": "2026-11-04T14:34:54.818180+00:00",
-        "pris_ved_nyhed": 4.37,
-        "udloeber": "2026-11-04T16:34:54.818180+00:00"
       }
     },
     "dag": "2026-11-04",
