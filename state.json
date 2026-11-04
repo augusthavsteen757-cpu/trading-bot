@@ -208,30 +208,6 @@
         "range_bund"
       ],
       "orb_day": "2026-11-04",
-      "pos": {
-        "entry": 291.745,
-        "stop": 291.745,
-        "stop_initial": 286.95000000000005,
-        "high": 295.88,
-        "qty": 34.0,
-        "entry_tid": "2026-11-04 14:59",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 290.17, 'or_low': 283.73, 'sidste_luk': 290.45}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 61.6,
-          "adx_1h": 38.1,
-          "rel_volumen_1h": 2.21,
-          "afstand_modstand_atr": 9.89,
-          "atr_percentil_30d": 89.0
-        },
-        "target": 301.3349999999999,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-04T15:04:03.880596+00:00",
       "last_review_price": 294.01
     },
@@ -246,7 +222,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80607.18350000001,
+  "last_btc_price": 80545.038,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
