@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 76104.508,
+  "last_btc_price": 76352.34,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1066,18 +1066,6 @@
         "tid": "2026-11-04T02:51:57.839951+00:00",
         "pris_ved_nyhed": 2250.75,
         "udloeber": "2026-11-04T04:51:57.839951+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt krypto-tilbagetog; SOL f\u00f8lger markedet, og 'sell the rumor'-scenariet peger ikke tydeligt op eller ned.",
-        "tid": "2026-11-04T01:36:57.677504+00:00",
-        "pris_ved_nyhed": 91.7865,
-        "udloeber": "2026-11-04T03:36:57.677504+00:00"
       }
     },
     "dag": "2026-11-04",
@@ -1298,7 +1286,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T03:16:57.874873+00:00",
+    "sidst_hentet": "2026-11-04T03:36:57.487386+00:00",
     "opslag": [
       {
         "id": "t3_1xnco6x",
