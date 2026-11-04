@@ -129,7 +129,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 101973.15,
   "reddit": {
-    "sidst_hentet": "2026-11-04T16:27:16.739565+00:00",
+    "sidst_hentet": "2026-11-04T16:47:16.189852+00:00",
     "opslag": [
       {
         "id": "t3_1xnq9fs",
@@ -246,18 +246,6 @@
         "tid": "2026-11-04T14:46:51.500950+00:00",
         "pris_ved_nyhed": 333.96500000000003,
         "udloeber": "2026-11-04T17:46:51.500950+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Meta-euroobligation og lokale initiativer er sm\u00e5 kursdrivere; obligationssalget viser kapitalbehov til AI-investeringer.",
-        "tid": "2026-11-04T14:46:51.500950+00:00",
-        "pris_ved_nyhed": 629.68,
-        "udloeber": "2026-11-04T16:46:51.500950+00:00"
       },
       "COIN": {
         "kilde": "nyhed",
