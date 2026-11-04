@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78268.5,
+  "last_btc_price": 78415.369,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1277,8 +1277,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T09:17:29.599570+00:00",
+    "sidst_hentet": "2026-11-04T09:32:55.683815+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnjyv6",
+        "tid": "2026-11-04T09:32:42+00:00",
+        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xnjw9b",
+        "tid": "2026-11-04T09:27:48+00:00",
+        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xnjpas",
         "tid": "2026-11-04T09:14:49+00:00",
@@ -1451,6 +1471,6 @@
         "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   }
 }
