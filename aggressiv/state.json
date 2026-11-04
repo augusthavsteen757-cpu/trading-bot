@@ -129,7 +129,7 @@
   "day_start_equity": 100000.0,
   "peak_equity": 101973.15,
   "reddit": {
-    "sidst_hentet": "2026-11-04T17:52:16.207020+00:00",
+    "sidst_hentet": "2026-11-04T18:07:16.324500+00:00",
     "opslag": [
       {
         "id": "t3_1xnq9fs",
@@ -210,18 +210,6 @@
         "tid": "2026-11-04T16:52:16.594195+00:00",
         "pris_ved_nyhed": 488.41,
         "udloeber": "2026-11-04T18:52:16.594195+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Integration med NVIDIA OpenShell kan styrke NVIDIAs software-oekosystem og AI-enterprise-adoption, men nyheden er smaa og partnerdrevet, saa effekten er begraenset.",
-        "tid": "2026-11-04T16:07:15.942746+00:00",
-        "pris_ved_nyhed": 202.185,
-        "udloeber": "2026-11-04T18:07:15.942746+00:00"
       },
       "COIN": {
         "kilde": "nyhed",
