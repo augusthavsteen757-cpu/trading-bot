@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80440.4,
+  "last_btc_price": 80475.445,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2042,8 +2042,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T22:04:00.827588+00:00",
+    "sidst_hentet": "2026-11-04T22:24:00.543754+00:00",
     "opslag": [
+      {
+        "id": "t3_1xo1toq",
+        "tid": "2026-11-04T22:22:41+00:00",
+        "titel": "How do we feel about Bitcoin side chain, and wallets like Xverse?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xnzu8d",
         "tid": "2026-11-04T21:03:18+00:00",
@@ -2304,16 +2314,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xn6sr3",
-        "tid": "2026-11-03T22:09:28+00:00",
-        "titel": "Solana Is Global With Alex Scott Podcast - How RE7 Turned On-Chain Risk Into a Repeatable Investment Process",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
