@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.386227,
+  "budget_used": 0.397929,
   "version": 3,
   "learned": [],
   "pending": {
@@ -25,8 +25,8 @@
     ]
   },
   "ai_day": "2026-11-04",
-  "ai_rounds_today": 3,
-  "ai_spend_today": 0.022538700000000002,
+  "ai_rounds_today": 5,
+  "ai_spend_today": 0.034241100000000003,
   "eq_day": "2026-11-04",
   "day_start_equity": 100052.02,
   "peak_equity": 100179.44,
@@ -70,15 +70,20 @@
       "orb_day": "2026-11-03"
     },
     "MSFT": {
-      "last_entry_eval": "2026-11-03T14:34:47.231582+00:00",
+      "last_entry_eval": "2026-11-04T14:38:09.309717+00:00",
       "last_entry_setups": [
-        "range_bund"
+        "breakout"
       ],
       "orb_day": "2026-11-03",
       "last_hold_review": "2026-11-03T15:19:18.360434+00:00",
       "last_review_price": 514.335
     },
-    "AMZN": {},
+    "AMZN": {
+      "last_entry_eval": "2026-11-04T14:38:20.942379+00:00",
+      "last_entry_setups": [
+        "breakout"
+      ]
+    },
     "META": {
       "last_entry_eval": "2026-11-03T14:39:23.131494+00:00",
       "last_entry_setups": [
@@ -124,7 +129,7 @@
       ]
     }
   },
-  "last_btc_price": 78493.82999999999,
+  "last_btc_price": 78532.54000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
