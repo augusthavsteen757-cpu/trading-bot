@@ -2,30 +2,8 @@
   "version": 3,
   "coins": {
     "BTC/USD": {
-      "pos": {
-        "entry": 77449.29999999999,
-        "stop": 75900.31399999998,
-        "stop_initial": 75900.31399999998,
-        "high": 77923.21,
-        "qty": 0.012625127,
-        "entry_tid": "2026-11-03 13:36",
-        "setup": "testkoeb",
-        "regime": "range",
-        "conviction": 1,
-        "grund": "Manuelt testkoeb for at teste koeb, stop og log",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 58.0,
-          "adx_1h": 21.5,
-          "rel_volumen_1h": 0.42,
-          "afstand_modstand_atr": 0.44,
-          "atr_percentil_30d": 64.3
-        }
-      },
-      "last_hold_review": "2026-11-04T00:02:13.421647+00:00",
-      "last_review_price": 77340.70999999999
+      "last_hold_review": "2026-11-04T00:37:40.383640+00:00",
+      "last_review_price": 76848.179
     },
     "ETH/USD": {},
     "SOL/USD": {},
@@ -35,13 +13,17 @@
     "LTC/USD": {}
   },
   "learned": [],
-  "pending": {},
+  "pending": {
+    "tab: testkoeb i range": [
+      "2026-11-04 00:37: BTC/USD: Chef solgte. R=-0.39. Entry 77449, exit 76848. Grund til koeb: Manuelt testkoeb for at teste koeb, stop og log. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 58.0, 'adx_1h': 21.5, 'rel_volumen_1h': 0.42, 'afstand_modstand_atr': 0.44, 'atr_percentil_30d': 64.3}"
+    ]
+  },
   "budget_month": "2026-11",
-  "budget_used": 0.07906,
+  "budget_used": 0.085514,
   "ai_day": "2026-11-04",
-  "ai_rounds_today": 1,
-  "ai_spend_today": 0.007113899999999999,
-  "ai_crypto_today": 1,
+  "ai_rounds_today": 2,
+  "ai_spend_today": 0.0135678,
+  "ai_crypto_today": 2,
   "eq_day": "2026-11-04",
   "day_start_equity": 99995.33,
   "peak_equity": 100003.49,
@@ -255,7 +237,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77022.715,
+  "last_btc_price": 76848.179,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
-  "auto_tjek": "auto-tjek: kun 0 handler, fuld fart"
+  "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
