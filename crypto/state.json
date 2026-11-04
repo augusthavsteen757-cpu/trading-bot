@@ -28,8 +28,18 @@
   "day_start_equity": 99995.33,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-04T02:17:38.903992+00:00",
+    "sidst_hentet": "2026-11-04T02:37:38.551196+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnco6x",
+        "tid": "2026-11-04T02:34:25+00:00",
+        "titel": "cheap Bitcoin sounds great until it's actually cheap!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xn6sr3",
         "tid": "2026-11-03T22:09:28+00:00",
@@ -152,7 +162,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -179,30 +189,6 @@
         "tid": "2026-11-04T00:02:09.138779+00:00",
         "pris_ved_nyhed": 2271.96,
         "udloeber": "2026-11-04T04:02:09.138779+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Dogecoin n\u00e6vnt i samme tilbagetog. Mindre likvid og mere spekulativ, s\u00e5 fald kan forts\u00e6tte kort, men er delvist priset ind.",
-        "tid": "2026-11-04T01:37:38.463414+00:00",
-        "pris_ved_nyhed": 0.073931,
-        "udloeber": "2026-11-04T02:37:38.463414+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Solana n\u00e6vnt i samme tilbagetog. F\u00f8lger bredt markedssentiment; kortvarigt pres mulig efter valgafslutning.",
-        "tid": "2026-11-04T01:37:38.463414+00:00",
-        "pris_ved_nyhed": 91.86905,
-        "udloeber": "2026-11-04T02:37:38.463414+00:00"
       }
     },
     "dag": "2026-11-04",
@@ -238,7 +224,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76706.38500000001,
+  "last_btc_price": 76612.6465,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
