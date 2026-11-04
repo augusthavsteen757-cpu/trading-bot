@@ -222,18 +222,6 @@
         "tid": "2026-11-04T15:36:51.731983+00:00",
         "pris_ved_nyhed": 150.69,
         "udloeber": "2026-11-04T18:36:51.731983+00:00"
-      },
-      "HOOD": {
-        "kilde": "nyhed",
-        "symbol": "HOOD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Robinhood-agenter faar ny satellitdata-integration; mindre produktnyhed, kan give lidt opmaerksomhed og engagement i HOOD.",
-        "tid": "2026-11-04T16:17:16.075367+00:00",
-        "pris_ved_nyhed": 87.05,
-        "udloeber": "2026-11-04T18:17:16.075367+00:00"
       }
     },
     "dag": "2026-11-04",
