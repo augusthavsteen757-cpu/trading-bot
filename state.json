@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78344.3675,
+  "last_btc_price": 78258.65,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1277,8 +1277,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T08:57:29.098514+00:00",
+    "sidst_hentet": "2026-11-04T09:17:29.599570+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnjpas",
+        "tid": "2026-11-04T09:14:49+00:00",
+        "titel": "Beginner looking for advice on a BTC hardware wallet",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xnhy1e",
         "tid": "2026-11-04T07:20:57+00:00",
@@ -1441,6 +1451,6 @@
         "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   }
 }
