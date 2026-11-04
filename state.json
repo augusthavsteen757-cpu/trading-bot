@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80579.735,
+  "last_btc_price": 80504.95000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1839,18 +1839,6 @@
         "tid": "2026-11-04T17:53:29.306820+00:00",
         "pris_ved_nyhed": 2425.9025,
         "udloeber": "2026-11-04T19:53:29.306820+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Solana foelger den bredere altcoin-rally; hoeje beta-bevaegelser, men allerede prisdrevet af short-daekning.",
-        "tid": "2026-11-04T16:23:27.581582+00:00",
-        "pris_ved_nyhed": 96.7812,
-        "udloeber": "2026-11-04T18:23:27.581582+00:00"
       },
       "MSFT": {
         "kilde": "nyhed",
