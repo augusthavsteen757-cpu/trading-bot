@@ -471,3 +471,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 15:12,AVGO,331.44,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101251.96,1.252,100000.0,0.0,1.079,0.0,0.1029,
 2026-11-04 15:12,NFLX,65.93,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,101271.42,1.271,100000.0,0.0,1.079,0.0,0.1029,
 2026-11-04 15:12,HOOD,87.04,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,86.25,101216.8,1.217,100000.0,0.0,1.079,0.0,0.1029,Stop flyttet 85 til 86
+2026-11-04 15:16,NVDA,205.65,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101979.72,1.98,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:16,TSLA,388.97,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,385.2,101935.2,1.935,100000.0,0.0,1.973,0.0,0.1029,Stop flyttet 379 til 385
+2026-11-04 15:16,AMD,496.9,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,101934.46,1.934,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:16,PLTR,177.59,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,173.26,101874.38,1.874,100000.0,0.0,1.973,0.0,0.1029,Stop flyttet 169 til 173
+2026-11-04 15:16,COIN,152.22,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,149.29,101855.04,1.855,100000.0,0.0,1.973,0.0,0.1029,Stop flyttet 145 til 149
+2026-11-04 15:17,MSTR,145.59,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,140.94,101880.1,1.88,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:17,META,637.13,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101914.47,1.914,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:17,AVGO,332.24,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101921.53,1.922,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:17,NFLX,66.0,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,101915.46,1.915,100000.0,0.0,1.973,0.0,0.1029,
+2026-11-04 15:17,HOOD,87.96,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,86.25,101913.79,1.914,100000.0,0.0,1.973,0.0,0.1029,
