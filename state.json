@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78367.465,
+  "last_btc_price": 78353.804,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1054,18 +1054,6 @@
         "tid": "2026-11-04T07:47:30.343794+00:00",
         "pris_ved_nyhed": 78126.01749999999,
         "udloeber": "2026-11-04T09:47:30.343794+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslaget er generisk AI-samtale om Ethereum uden konkret nyhed; kun svag kontekst, ingen klar prisdrivende faktor.",
-        "tid": "2026-11-04T07:47:30.343794+00:00",
-        "pris_ved_nyhed": 2305.67,
-        "udloeber": "2026-11-04T08:47:30.343794+00:00"
       }
     },
     "dag": "2026-11-04",
