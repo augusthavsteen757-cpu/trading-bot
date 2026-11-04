@@ -85,33 +85,21 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.120187,
+  "budget_used": 0.120384,
   "ai_day": "2026-11-04",
   "ai_rounds_today": 10,
-  "ai_spend_today": 0.06339020000000001,
+  "ai_spend_today": 0.06358710000000001,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-04",
   "day_start_equity": 99667.01,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-04T20:20:22.123857+00:00",
+    "sidst_hentet": "2026-11-04T20:35:22.756768+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Opgradering til Buy er positiv, men kursm\u00e5let s\u00e6nkes til 52,5, hvilket d\u00e6mper effekten. Blandet signal med begr\u00e6nset kursf\u00f8lsomhed.",
-        "tid": "2026-11-04T18:34:54.829540+00:00",
-        "pris_ved_nyhed": 32.45,
-        "udloeber": "2026-11-04T20:34:54.829540+00:00"
-      },
       "RGTI": {
         "kilde": "nyhed",
         "symbol": "RGTI",
@@ -127,14 +115,14 @@
       "UMAC": {
         "kilde": "nyhed",
         "symbol": "UMAC",
-        "retning": "op",
-        "styrke": 3,
+        "retning": "neutral",
+        "styrke": 1,
         "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Pentagon-gunst for droneselskabet kan signalere kontrakter og oeget efterspoergsel. Exclusive fra The Information kan give hurtig kursreaktion, men markedet kan allerede have reageret.",
-        "tid": "2026-11-04T20:20:23.220361+00:00",
-        "pris_ved_nyhed": 13.085,
-        "udloeber": "2026-11-04T22:20:23.220361+00:00"
+        "gyldig_timer": 1,
+        "begrundelse": "Overskriften handler om Airbnb-vaerdiansaettelse, ikke UMAC direkte. Ingen klar kobling til Unusual Machines; kun svag sentiment-spillover mulig.",
+        "tid": "2026-11-04T20:35:23.838666+00:00",
+        "pris_ved_nyhed": 13.01,
+        "udloeber": "2026-11-04T21:35:23.838666+00:00"
       },
       "RCAT": {
         "kilde": "nyhed",
@@ -150,31 +138,32 @@
       }
     },
     "dag": "2026-11-04",
-    "kald_i_dag": 5,
-    "sidste_kald": "2026-11-04T20:20:23.220361+00:00",
+    "kald_i_dag": 6,
+    "sidste_kald": "2026-11-04T20:35:23.838666+00:00",
     "set_ids": [
-      "62880521",
-      "62857002",
-      "113112808",
-      "111491028",
       "62858783",
-      "62856684",
       "62870343",
+      "113112808",
+      "62865275",
+      "62863042",
       "62820584",
       "112725797",
-      "62816393",
-      "62865275",
+      "62884978",
+      "62857002",
       "62832219",
-      "62863042",
-      "62864193",
+      "111491028",
       "112724524",
-      "62884978"
+      "62864193",
+      "62816393",
+      "62880521",
+      "62856684",
+      "62885636"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.265,
+  "last_btc_price": 5.285,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
