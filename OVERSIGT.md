@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.04** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.140 USD  ·  **I alt:** +140 USD (+0.14 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 4/11 15.59
+**Konto:** 100.331 USD  ·  **I alt:** +331 USD (+0.33 %)  ·  **I dag:** +0.22 %  ·  sidst opdateret 4/11 16.04
 
 **Ejer nu:**
 
@@ -12,6 +12,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 |---|---|---|---|
 | QQQ | 14 | 697.51 | 4/11 15.53 |
 | AAPL | 28 | 351.36 | 4/11 15.58 |
+| AMZN | 1 | 270.98 | 4/11 16.03 |
 | META | 8 | 610.94 | 3/11 15.39 |
 | GOOGL | 34 | 291.75 | 4/11 15.59 |
 | TSLA | 14 | 383.45 | 4/11 15.59 |
@@ -28,7 +29,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.666 USD  ·  **I alt:** -334 USD (-0.33 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 4/11 15.55
+**Konto:** 99.666 USD  ·  **I alt:** -334 USD (-0.33 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 4/11 16.00
 
 **Ejer nu:** intet
 
@@ -42,7 +43,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 15.58
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 16.03
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -56,9 +57,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.479 USD  ·  **I alt:** -521 USD (-0.52 %)  ·  **I dag:** -0.56 %  ·  sidst opdateret 4/11 15.58
+**Konto:** 99.479 USD  ·  **I alt:** -521 USD (-0.52 %)  ·  **I dag:** -0.56 %  ·  sidst opdateret 4/11 16.03
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| AMZN call 272.5 (udl. 20/11) | 1 | 7.23 | 4/11 16.03 |
 
 **Lukkede handler:** 1 i alt, 0 med gevinst, samlet -520 USD
 
@@ -68,7 +73,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.015 USD  ·  **I alt:** -985 USD (-0.98 %)  ·  **I dag:** -0.87 %  ·  sidst opdateret 4/11 15.57
+**Konto:** 99.853 USD  ·  **I alt:** -147 USD (-0.15 %)  ·  **I dag:** -0.22 %  ·  sidst opdateret 4/11 16.02
 
 **Selv-tjek:** auto-tjek: kun 0 handler, fuld fart
 
@@ -76,6 +81,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 15.59** (dansk tid). Kun
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
+| TSLA | 1 | 385.20 | 4/11 16.01 |
+| PLTR | 1 | 173.26 | 4/11 16.02 |
 | COIN | 167 | 149.29 | 4/11 15.51 |
 | MSTR | 177 | 140.94 | 4/11 15.52 |
 | NFLX | 220 | 65.41 | 4/11 15.57 |
