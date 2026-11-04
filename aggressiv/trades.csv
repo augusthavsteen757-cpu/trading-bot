@@ -451,3 +451,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 15:02,AVGO,332.64,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99867.33,-0.133,100000.0,0.0,-0.223,-0.223,0.1026,
 2026-11-04 15:02,NFLX,66.2,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,99844.41,-0.156,100000.0,0.0,-0.223,-0.223,0.1026,Stop flyttet 65 til 65
 2026-11-04 15:02,HOOD,86.05,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,84.83,99852.62,-0.147,100000.0,0.0,-0.223,-0.223,0.1026,
+2026-11-04 15:06,NVDA,205.79,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100633.55,0.634,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:06,TSLA,386.39,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,379.33,100635.12,0.635,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:06,AMD,498.7,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,100440.59,0.441,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:06,PLTR,175.13,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,168.56,100432.61,0.433,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:06,COIN,149.57,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,145.17,100419.87,0.42,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:07,MSTR,142.49,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,140.94,100461.84,0.462,100000.0,0.0,0.64,0.0,0.1026,Stop flyttet 138 til 141
+2026-11-04 15:07,META,631.01,range,trend_pullback,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100468.04,0.468,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:07,AVGO,331.28,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100432.15,0.432,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:07,NFLX,65.9,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100467.91,0.468,100000.0,0.0,0.64,0.0,0.1026,
+2026-11-04 15:07,HOOD,86.58,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,84.83,100512.1,0.512,100000.0,0.0,0.64,0.0,0.1026,
