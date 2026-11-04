@@ -196,9 +196,11 @@
       "orb_day": "2026-11-04",
       "last_hold_review": "2026-11-04T15:04:17.895778+00:00",
       "last_review_price": 385.735
-    }
+    },
+    "EQIX": {},
+    "DLR": {}
   },
-  "last_btc_price": 80075.329,
+  "last_btc_price": 80210.23449999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
