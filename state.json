@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78048.09,
+  "last_btc_price": 78066.89499999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1042,32 +1042,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Positiv risikostemning fra aktiefutures kan give lidt medvind til BTC, men overskriften n\u00e6vner ikke krypto direkte og sammenh\u00e6ngen er svag.",
-        "tid": "2026-11-04T10:22:54.960077+00:00",
-        "pris_ved_nyhed": 78443.13,
-        "udloeber": "2026-11-04T12:22:54.960077+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigende aktiefutures kan smitte over p\u00e5 risikoaktiver som ETH, men effekten er indirekte og usikker.",
-        "tid": "2026-11-04T10:22:54.960077+00:00",
-        "pris_ved_nyhed": 2324.425,
-        "udloeber": "2026-11-04T12:22:54.960077+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-04T10:22:54.960077+00:00",
@@ -1291,7 +1266,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T12:02:55.696382+00:00",
+    "sidst_hentet": "2026-11-04T12:22:55.673678+00:00",
     "opslag": [
       {
         "id": "t3_1xnmeia",
