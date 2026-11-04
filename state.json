@@ -267,7 +267,7 @@
         "entry": 383.44500000000005,
         "stop": 383.44500000000005,
         "stop_initial": 379.3275,
-        "high": 389.35,
+        "high": 390.25,
         "qty": 14.0,
         "entry_tid": "2026-11-04 14:59",
         "setup": "orb",
@@ -291,7 +291,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80653.4635,
+  "last_btc_price": 80735.8545,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2239,7 +2239,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T15:18:28.154748+00:00",
+    "sidst_hentet": "2026-11-04T15:38:27.521516+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
