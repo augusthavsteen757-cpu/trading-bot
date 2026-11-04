@@ -198,7 +198,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80148.704,
+  "last_btc_price": 80304.129,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1816,18 +1816,6 @@
         "pris_ved_nyhed": 290.165,
         "udloeber": "2026-11-04T19:38:27.848810+00:00"
       },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Kun omtale i CNBC-oversigt uden konkret nyhed om Amazon.",
-        "tid": "2026-11-04T18:08:27.628139+00:00",
-        "pris_ved_nyhed": 269.775,
-        "udloeber": "2026-11-04T19:08:27.628139+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1851,18 +1839,6 @@
         "tid": "2026-11-04T17:53:29.306820+00:00",
         "pris_ved_nyhed": 553.985,
         "udloeber": "2026-11-04T19:53:29.306820+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "CNBC-omtale af handler er generisk og giver ingen ny fundamental information.",
-        "tid": "2026-11-04T18:08:27.628139+00:00",
-        "pris_ved_nyhed": 354.185,
-        "udloeber": "2026-11-04T19:08:27.628139+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2185,7 +2161,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T18:53:27.295067+00:00",
+    "sidst_hentet": "2026-11-04T19:08:27.577061+00:00",
     "opslag": [
       {
         "id": "t3_1xnocue",
