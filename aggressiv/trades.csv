@@ -541,3 +541,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-04 15:47,AVGO,326.12,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100279.57,0.28,100000.0,0.0,0.446,-1.497,0.1035,
 2026-11-04 15:47,NFLX,66.12,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100279.51,0.28,100000.0,0.0,0.446,-1.497,0.1035,
 2026-11-04 15:47,HOOD,86.19,range,,nej (intet setup),,,,,,,,,,,,,STOP RAMT,,,,100279.78,0.28,100000.0,0.0,0.446,-1.497,0.1035,Solgt ca. 86
+2026-11-04 15:52,NVDA,201.82,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100413.48,0.413,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,TSLA,386.64,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,385.2,100409.0,0.409,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,AMD,480.06,high_vol,range_bund nyhed_op,nej (nyhedsvagt: regnskab 2026-11-03),,,,,,,,,,,,,HOLD,,,,100408.87,0.409,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,PLTR,173.92,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,173.26,100428.83,0.429,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,COIN,148.97,high_vol,,nej (intet setup),,,,,,,,,,,,,STOP RAMT,,,,100416.59,0.417,100000.0,0.0,0.437,-1.506,0.1038,Solgt ca. 149
+2026-11-04 15:52,MSTR,142.9,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,140.94,100416.72,0.417,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,META,631.98,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100473.71,0.474,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,AVGO,324.65,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100476.89,0.477,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,NFLX,66.22,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,65.41,100471.9,0.472,100000.0,0.0,0.437,-1.506,0.1038,
+2026-11-04 15:52,HOOD,85.78,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100471.91,0.472,100000.0,0.0,0.437,-1.506,0.1038,
