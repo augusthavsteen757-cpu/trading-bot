@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78469.313,
+  "last_btc_price": 78228.572,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1291,8 +1291,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-04T11:47:54.829532+00:00",
+    "sidst_hentet": "2026-11-04T12:02:55.696382+00:00",
     "opslag": [
+      {
+        "id": "t3_1xnmeia",
+        "tid": "2026-11-04T12:00:11+00:00",
+        "titel": "Solana Mobile starts SKR buy and burn program",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xnjyv6",
         "tid": "2026-11-04T09:32:42+00:00",
@@ -1455,6 +1465,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   }
 }
