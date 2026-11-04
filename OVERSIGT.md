@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.18** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.23** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.138 USD  ·  **I alt:** +138 USD (+0.14 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 4/11 17.18
+**Konto:** 100.126 USD  ·  **I alt:** +126 USD (+0.13 %)  ·  **I dag:** +0.07 %  ·  sidst opdateret 4/11 17.23
 
 **Ejer nu:**
 
@@ -25,7 +25,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.18** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 17.15
+**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 17.20
 
 **Ejer nu:** intet
 
@@ -40,7 +40,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.18** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 17.13
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 4/11 17.18
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -54,7 +54,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.18** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.244 USD  ·  **I alt:** -756 USD (-0.76 %)  ·  **I dag:** -0.79 %  ·  sidst opdateret 4/11 17.18
+**Konto:** 99.244 USD  ·  **I alt:** -756 USD (-0.76 %)  ·  **I dag:** -0.79 %  ·  sidst opdateret 4/11 17.23
 
 **Ejer nu:**
 
@@ -70,22 +70,22 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 17.18** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.625 USD  ·  **I alt:** +625 USD (+0.63 %)  ·  **I dag:** +0.63 %  ·  sidst opdateret 4/11 17.17
+**Konto:** 100.581 USD  ·  **I alt:** +581 USD (+0.58 %)  ·  **I dag:** +0.57 %  ·  sidst opdateret 4/11 17.22
 
-**Selv-tjek:** auto-tjek: kun 3 handler, fuld fart
+**Selv-tjek:** auto-tjek: kun 4 handler, fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| PLTR | 1 | 173.26 | 4/11 16.02 |
 | MSTR | 177 | 140.94 | 4/11 15.52 |
 | NFLX | 220 | 65.41 | 4/11 15.57 |
 
-**Lukkede handler:** 3 i alt, 0 med gevinst, samlet -74 USD
+**Lukkede handler:** 4 i alt, 0 med gevinst, samlet -74 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ PLTR | 4/11 17.22 | -0 USD | stop ramt (Alpaca) |
 | ❌ TSLA | 4/11 17.07 | +0 USD | stop ramt (Alpaca) |
 | ❌ COIN | 4/11 16.52 | -45 USD | stop ramt (Alpaca) |
 | ❌ HOOD | 4/11 16.47 | -28 USD | stop ramt (Alpaca) |
