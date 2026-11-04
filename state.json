@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.471579,
+  "budget_used": 0.48374,
   "version": 3,
   "learned": [],
   "pending": {
@@ -25,8 +25,8 @@
     ]
   },
   "ai_day": "2026-11-04",
-  "ai_rounds_today": 17,
-  "ai_spend_today": 0.10789180000000002,
+  "ai_rounds_today": 19,
+  "ai_spend_today": 0.12005260000000001,
   "eq_day": "2026-11-04",
   "day_start_equity": 100052.02,
   "peak_equity": 100456.88,
@@ -78,17 +78,18 @@
     },
     "QQQ": {
       "orb_day": "2026-11-04",
-      "last_entry_eval": "2026-11-03T15:39:34.278972+00:00",
+      "last_entry_eval": "2026-11-04T15:28:34.829906+00:00",
       "last_entry_setups": [
-        "range_bund"
+        "nyhed_op"
       ],
       "last_hold_review": "2026-11-04T14:58:36.977522+00:00",
       "last_review_price": 696.765
     },
     "NVDA": {
-      "last_entry_eval": "2026-11-04T15:08:55.709308+00:00",
+      "last_entry_eval": "2026-11-04T15:28:44.864762+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "nyhed_op",
+        "range_bund"
       ]
     },
     "AAPL": {
@@ -290,7 +291,7 @@
       "last_review_price": 385.735
     }
   },
-  "last_btc_price": 80750.49350000001,
+  "last_btc_price": 80371.12,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
