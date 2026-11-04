@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 77258.201,
+  "last_btc_price": 77337.91,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1042,20 +1042,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Vag Cramer-opslag skaber spekulation, men giver ingen konkret fundamental drivkraft. Kun svag hype-effekt, sandsynligvis forbigaaende.",
-        "tid": "2026-11-04T04:27:30.304026+00:00",
-        "pris_ved_nyhed": 76592.061,
-        "udloeber": "2026-11-04T05:27:30.304026+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-04",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-04T04:27:30.304026+00:00",
