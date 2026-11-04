@@ -85,44 +85,58 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.119534,
+  "budget_used": 0.119727,
   "ai_day": "2026-11-04",
   "ai_rounds_today": 10,
-  "ai_spend_today": 0.0627376,
+  "ai_spend_today": 0.0629306,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-04",
   "day_start_equity": 99667.01,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-04T18:14:53.542261+00:00",
+    "sidst_hentet": "2026-11-04T18:34:53.619640+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {},
+    "signaler": {
+      "OUST": {
+        "kilde": "nyhed",
+        "symbol": "OUST",
+        "retning": "neutral",
+        "styrke": 2,
+        "allerede_i_prisen": false,
+        "gyldig_timer": 2,
+        "begrundelse": "Opgradering til Buy er positiv, men kursm\u00e5let s\u00e6nkes til 52,5, hvilket d\u00e6mper effekten. Blandet signal med begr\u00e6nset kursf\u00f8lsomhed.",
+        "tid": "2026-11-04T18:34:54.829540+00:00",
+        "pris_ved_nyhed": 32.45,
+        "udloeber": "2026-11-04T20:34:54.829540+00:00"
+      }
+    },
     "dag": "2026-11-04",
-    "kald_i_dag": 2,
-    "sidste_kald": "2026-11-04T15:34:53.288243+00:00",
+    "kald_i_dag": 3,
+    "sidste_kald": "2026-11-04T18:34:54.829540+00:00",
     "set_ids": [
-      "62832219",
-      "112724524",
-      "62816393",
-      "62865275",
-      "112725797",
-      "62857002",
-      "62864193",
       "62863042",
-      "62820584",
-      "111491028",
+      "62832219",
+      "62865275",
+      "62857002",
+      "112724524",
       "62858783",
+      "62870343",
+      "111491028",
+      "62864193",
+      "62816393",
+      "62820584",
       "62856684",
-      "62870343"
+      "112725797",
+      "62880521"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.415,
+  "last_btc_price": 5.445,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
