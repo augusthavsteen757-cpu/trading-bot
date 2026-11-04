@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.49** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.53** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.290 USD  ·  **I alt:** +290 USD (+0.29 %)  ·  **I dag:** +0.21 %  ·  sidst opdateret 4/11 16.49
+**Konto:** 100.299 USD  ·  **I alt:** +299 USD (+0.30 %)  ·  **I dag:** +0.23 %  ·  sidst opdateret 4/11 16.53
 
 **Ejer nu:**
 
@@ -28,7 +28,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.49** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 16.45
+**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.24 %  ·  sidst opdateret 4/11 16.50
 
 **Ejer nu:** intet
 
@@ -57,7 +57,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.49** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.299 USD  ·  **I alt:** -701 USD (-0.70 %)  ·  **I dag:** -0.74 %  ·  sidst opdateret 4/11 16.48
+**Konto:** 99.279 USD  ·  **I alt:** -721 USD (-0.72 %)  ·  **I dag:** -0.76 %  ·  sidst opdateret 4/11 16.53
 
 **Ejer nu:**
 
@@ -73,9 +73,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.49** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.280 USD  ·  **I alt:** +280 USD (+0.28 %)  ·  **I dag:** +0.45 %  ·  sidst opdateret 4/11 16.47
+**Konto:** 100.472 USD  ·  **I alt:** +472 USD (+0.47 %)  ·  **I dag:** +0.44 %  ·  sidst opdateret 4/11 16.52
 
-**Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
+**Selv-tjek:** auto-tjek: kun 2 handler, fuld fart
 
 **Ejer nu:**
 
@@ -83,13 +83,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **4/11 kl. 16.49** (dansk tid). Kun
 |---|---|---|---|
 | TSLA | 1 | 385.20 | 4/11 16.01 |
 | PLTR | 1 | 173.26 | 4/11 16.02 |
-| COIN | 167 | 149.29 | 4/11 15.51 |
 | MSTR | 177 | 140.94 | 4/11 15.52 |
 | NFLX | 220 | 65.41 | 4/11 15.57 |
 
-**Lukkede handler:** 1 i alt, 0 med gevinst, samlet -28 USD
+**Lukkede handler:** 2 i alt, 0 med gevinst, samlet -74 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ COIN | 4/11 16.52 | -45 USD | stop ramt (Alpaca) |
 | ❌ HOOD | 4/11 16.47 | -28 USD | stop ramt (Alpaca) |
 
