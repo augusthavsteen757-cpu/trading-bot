@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80130.57999999999,
+  "last_btc_price": 80238.439,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1734,18 +1734,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff-kritikken er ikke ny information, og rallyet kan allerede v\u00e6re prissat; risiko for kortvarig profit-taking.",
-        "tid": "2026-11-04T18:33:27.918158+00:00",
-        "pris_ved_nyhed": 80506.62950000001,
-        "udloeber": "2026-11-04T20:33:27.918158+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -1757,30 +1745,6 @@
         "tid": "2026-11-04T18:33:27.918158+00:00",
         "pris_ved_nyhed": 389.175,
         "udloeber": "2026-11-04T21:33:27.918158+00:00"
-      },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Trump siger Iran-krigen slutter n\u00e5r han vil; de-eskalering kan l\u00f8fte risikovilje, men usikkerheden g\u00f8r signalet svagt.",
-        "tid": "2026-11-04T18:33:27.918158+00:00",
-        "pris_ved_nyhed": 768.13,
-        "udloeber": "2026-11-04T20:33:27.918158+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Opk\u00f8b af AI-kodestartup viser Metas AI-satsning; mindre opk\u00f8b giver begr\u00e6nset men positiv opm\u00e6rksomhed.",
-        "tid": "2026-11-04T18:33:27.918158+00:00",
-        "pris_ved_nyhed": 634.09,
-        "udloeber": "2026-11-04T20:33:27.918158+00:00"
       }
     },
     "dag": "2026-11-04",
