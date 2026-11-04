@@ -124,7 +124,7 @@
       ]
     }
   },
-  "last_btc_price": 78177.17,
+  "last_btc_price": 78312.7935,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1054,18 +1054,6 @@
         "tid": "2026-11-04T13:17:55.160798+00:00",
         "pris_ved_nyhed": 78236.475,
         "udloeber": "2026-11-04T15:17:55.160798+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte relevans for Solana. Politisk nyhed om amerikanske aktier giver ikke et klart signal for SOL.",
-        "tid": "2026-11-04T13:17:55.160798+00:00",
-        "pris_ved_nyhed": 92.485,
-        "udloeber": "2026-11-04T14:17:55.160798+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
