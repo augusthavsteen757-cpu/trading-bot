@@ -82,7 +82,7 @@
         "entry": 31.365000000000002,
         "stop": 31.365000000000002,
         "stop_initial": 29.235,
-        "high": 33.51,
+        "high": 33.78,
         "qty": 707.0,
         "entry_tid": "2026-11-05 14:55",
         "setup": "orb",
@@ -109,7 +109,7 @@
         "entry": 71.565,
         "stop": 71.565,
         "stop_initial": 68.20500000000001,
-        "high": 75.67,
+        "high": 76.37,
         "qty": 350.0,
         "entry_tid": "2026-11-05 14:55",
         "setup": "orb",
@@ -151,9 +151,9 @@
   "auto_tjek": "auto-tjek: seneste 6 handler +447 USD (2 vundet), fuld fart",
   "eq_day": "2026-11-05",
   "day_start_equity": 100439.99,
-  "peak_equity": 103444.75,
+  "peak_equity": 103864.96,
   "reddit": {
-    "sidst_hentet": "2026-11-05T15:25:21.083142+00:00",
+    "sidst_hentet": "2026-11-05T15:44:31.731919+00:00",
     "opslag": [
       {
         "id": "t3_1xo0p7e",
@@ -2103,8 +2103,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 661.23,
-    "snitpris": 666.0,
+    "pris": 658.82,
+    "snitpris": 665.56,
     "svag": true
   }
 }
