@@ -115,18 +115,6 @@
         "tid": "2026-11-05T14:46:46.157264+00:00",
         "pris_ved_nyhed": 4.865,
         "udloeber": "2026-11-05T17:46:46.157264+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Droneforbundne aktier kan faa sympatistigning ved nyheder om droneproduktion og forsvarsefterspoergsel, men RCAT naevnes ikke direkte.",
-        "tid": "2026-11-05T14:46:46.157264+00:00",
-        "pris_ved_nyhed": 3.635,
-        "udloeber": "2026-11-05T16:46:46.157264+00:00"
       }
     },
     "dag": "2026-11-05",
@@ -158,7 +146,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.615,
+  "last_btc_price": 4.585,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1810,8 +1798,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 275.8,
-    "snitpris": 277.89,
+    "pris": 274.8,
+    "snitpris": 277.8,
     "svag": true
   }
 }
