@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80496.1355,
+  "last_btc_price": 80510.95,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1734,18 +1734,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Stripe-stablecoin-udbetalinger paa Solana er konkret efterspoergsel, og Reddit-kommentarer koblet til ny adoption kan give ekstra kraft.",
-        "tid": "2026-11-05T00:04:00.263599+00:00",
-        "pris_ved_nyhed": 95.3757,
-        "udloeber": "2026-11-05T03:04:00.263599+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
