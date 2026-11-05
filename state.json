@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80295.5125,
+  "last_btc_price": 80249.545,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1733,20 +1733,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften handler om politiske v\u00e6ddem\u00e5l for 2028, ikke om bitcoin-fundamentale forhold. Ingen direkte kursrelevans.",
-        "tid": "2026-11-05T07:25:00.082127+00:00",
-        "pris_ved_nyhed": 80542.575,
-        "udloeber": "2026-11-05T09:25:00.082127+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-05T07:25:00.082127+00:00",
@@ -2055,7 +2042,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T09:04:59.837521+00:00",
+    "sidst_hentet": "2026-11-05T09:25:00.042411+00:00",
     "opslag": [
       {
         "id": "t3_1xocx1t",
@@ -2326,18 +2313,8 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnjpas",
-        "tid": "2026-11-04T09:14:49+00:00",
-        "titel": "Beginner looking for advice on a BTC hardware wallet",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   }
 }
