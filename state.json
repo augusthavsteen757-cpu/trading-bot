@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80660.095,
+  "last_btc_price": 80619.765,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2079,8 +2079,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T00:09:00.947043+00:00",
+    "sidst_hentet": "2026-11-05T00:29:00.446619+00:00",
     "opslag": [
+      {
+        "id": "t3_1xo4jhd",
+        "tid": "2026-11-05T00:21:26+00:00",
+        "titel": "Should I take our 20k loan and put into bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xo1toq",
         "tid": "2026-11-04T22:22:41+00:00",
@@ -2353,6 +2363,6 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   }
 }
