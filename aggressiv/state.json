@@ -132,8 +132,18 @@
   "day_start_equity": 100439.99,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T19:34:29.437386+00:00",
+    "sidst_hentet": "2026-11-05T19:49:30.448700+00:00",
     "opslag": [
+      {
+        "id": "t3_1xorzpz",
+        "tid": "2026-11-05T19:34:27+00:00",
+        "titel": "$40k in SOXS",
+        "symboler": [
+          "SOXS"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xorfrg",
         "tid": "2026-11-05T19:12:46+00:00",
@@ -195,7 +205,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 6 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 7 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -2019,8 +2029,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.51,
-    "snitpris": 658.52,
+    "pris": 655.92,
+    "snitpris": 658.5,
     "svag": true
   }
 }
