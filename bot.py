@@ -61,6 +61,7 @@ ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. 
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
+ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
 
@@ -698,7 +699,7 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
     pos["high"] = max(pos["high"], price)
     r_unit = pos["entry"] - pos["stop_initial"]
     new_stop = pos["stop"]
-    be_at = 0.5 if pos.get("luk_foer_luk") else BREAKEVEN_AT_R  # ORB: beskyt gevinsten tidligt (ved +0,5R)
+    be_at = ORB_BREAKEVEN_R if pos.get("luk_foer_luk") else BREAKEVEN_AT_R  # ORB: beskyt gevinsten tidligt (standard +0,5R)
     if price >= pos["entry"] + be_at * r_unit:
         new_stop = max(new_stop, pos["entry"], pos["high"] - TRAIL_ATR_MULT * atr)
     if new_stop - pos["stop"] > 0.25 * atr:
