@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80145.636,
+  "last_btc_price": 80060.6915,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1733,20 +1733,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Spiket over 81.000 forklares af politisk usikkerhed, men kursen er allerede steget, og nyheden er kun en kommentar fra Eric Trump uden ny fundamental drivkraft.",
-        "tid": "2026-11-05T10:09:59.802470+00:00",
-        "pris_ved_nyhed": 80333.69,
-        "udloeber": "2026-11-05T12:09:59.802470+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 7,
     "sidste_kald": "2026-11-05T10:35:00.164684+00:00",
@@ -2055,7 +2042,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T11:50:00.092374+00:00",
+    "sidst_hentet": "2026-11-05T12:09:59.602186+00:00",
     "opslag": [
       {
         "id": "t3_1xoer5n",
@@ -2316,18 +2303,8 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xnmeia",
-        "tid": "2026-11-04T12:00:11+00:00",
-        "titel": "Solana Mobile starts SKR buy and burn program",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   }
 }
