@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.552592,
+  "budget_used": 0.558162,
   "version": 3,
   "learned": [],
   "pending": {
@@ -25,11 +25,14 @@
     ],
     "tab: orb i high_vol": [
       "2026-11-04 16:03: AMZN: stop ramt (Alpaca). R=-1.02. Entry 271, exit 267. Grund til koeb: ORB breakout {'or_high': 269.97, 'or_low': 263.9, 'sidste_luk': 270.41}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 1, 'rsi_1h': 79.0, 'adx_1h': 23.4, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.11, 'atr_percentil_30d': 92.9}"
+    ],
+    "gevinst: range_bund i range": [
+      "2026-11-05 14:40: META: stop ramt (Alpaca). R=+1.45. Entry 611, exit 625. Grund til koeb: Pris ved stoette (0.04 ATR) med stram stop; modstand 621.59 er 2.15 ATR vaek, over 1,2R. Svag trend og volumen taler for lav conviction.. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.9, 'adx_1h': 19.4, 'rel_volumen_1h': 0.31, 'afstand_modstand_atr': 2.15, 'atr_percentil_30d': 12.5}"
     ]
   },
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.057047900000000006,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.06261810000000001,
   "eq_day": "2026-11-05",
   "day_start_equity": 100111.82,
   "peak_equity": 100456.88,
@@ -177,29 +180,6 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "pos": {
-        "entry": 610.94,
-        "stop": 625.54,
-        "stop_initial": 601.0400000000001,
-        "high": 641.29,
-        "qty": 8.0,
-        "entry_tid": "2026-11-03 14:39",
-        "setup": "range_bund",
-        "regime": "range",
-        "conviction": 2,
-        "grund": "Pris ved stoette (0.04 ATR) med stram stop; modstand 621.59 er 2.15 ATR vaek, over 1,2R. Svag trend og volumen taler for lav conviction.",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 42.9,
-          "adx_1h": 19.4,
-          "rel_volumen_1h": 0.31,
-          "afstand_modstand_atr": 2.15,
-          "atr_percentil_30d": 12.5
-        },
-        "invalidering": "Lukning under 610.75 stoette med volumen bekraefter brud nedad og ugyldiggoer range-bund."
-      },
       "last_hold_review": "2026-11-05T14:32:11.566084+00:00",
       "last_review_price": 628.87
     },
@@ -228,9 +208,14 @@
       "last_review_price": 385.735
     },
     "EQIX": {},
-    "DLR": {}
+    "DLR": {
+      "last_entry_eval": "2026-11-05T14:41:03.599303+00:00",
+      "last_entry_setups": [
+        "range_bund"
+      ]
+    }
   },
-  "last_btc_price": 79371.208,
+  "last_btc_price": 78849.399,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
