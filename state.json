@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80473.55,
+  "last_btc_price": 80464.0025,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1733,32 +1733,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Circle-CEO forsvarer Binance efter hack, men det er mest opbakning, ikke ny markedsdrivende information. Hacket er negativt for sentimentet, saa effekten er blandet og sandsynligvis begr\u00e6nset.",
-        "tid": "2026-11-05T04:29:34.718055+00:00",
-        "pris_ved_nyhed": 80385.7,
-        "udloeber": "2026-11-05T06:29:34.718055+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Binance-hack kan skabe generel usikkerhed om centraliserede b\u00f8rser og dermed krypto-sentiment, men overskriften har ingen direkte kobling til ETH og effekten er svag.",
-        "tid": "2026-11-05T04:29:34.718055+00:00",
-        "pris_ved_nyhed": 2420.4,
-        "udloeber": "2026-11-05T06:29:34.718055+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-05T04:29:34.718055+00:00",
