@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T06:09:55.515257+00:00",
+    "sidst_hentet": "2026-11-05T06:29:56.151230+00:00",
     "opslag": [
       {
         "id": "t3_1xoafvg",
@@ -279,47 +279,12 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xngxfv",
-        "tid": "2026-11-04T06:19:17+00:00",
-        "titel": "Bitcoin ETFs Lose $1 Billion as Midterms, Binance Hack Weigh on Sentiment",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Circle-CEO forsvarer Binance efter hack; positivt for tilliden, men nyheden er kendt og effekten sandsynligvis allerede indregnet.",
-        "tid": "2026-11-05T04:29:55.633812+00:00",
-        "pris_ved_nyhed": 80361.37,
-        "udloeber": "2026-11-05T06:29:55.633812+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Binance-hacket rammer bredt kryptosentimentet; forsvar fra Circle d\u00e6mper frygt, men ETH har sandsynligvis reageret allerede.",
-        "tid": "2026-11-05T04:29:55.633812+00:00",
-        "pris_ved_nyhed": 2420.5005,
-        "udloeber": "2026-11-05T06:29:55.633812+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-05T04:29:55.633812+00:00",
@@ -368,7 +333,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80459.2555,
+  "last_btc_price": 80467.3575,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
