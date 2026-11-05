@@ -181,18 +181,6 @@
         "pris_ved_nyhed": 186.655,
         "udloeber": "2026-11-05T18:49:29.395433+00:00"
       },
-      "AMD": {
-        "kilde": "kun_reddit",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslaget om AMD er ren hype uden konkret nyhed bag, s\u00e5 kun ekstra kontekst.",
-        "tid": "2026-11-05T16:04:30.987395+00:00",
-        "pris_ved_nyhed": 410.51,
-        "udloeber": "2026-11-05T17:04:30.987395+00:00"
-      },
       "AVGO": {
         "kilde": "nyhed",
         "symbol": "AVGO",
@@ -2098,8 +2086,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.5,
-    "snitpris": 661.22,
+    "pris": 654.91,
+    "snitpris": 661.13,
     "svag": true
   }
 }
