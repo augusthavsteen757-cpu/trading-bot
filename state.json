@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 79748.0285,
+  "last_btc_price": 79700.03,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2067,8 +2067,38 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T13:35:29.779187+00:00",
+    "sidst_hentet": "2026-11-05T13:55:29.514790+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoix7i",
+        "tid": "2026-11-05T13:41:15+00:00",
+        "titel": "What will happen to BTC in the next 2 years?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoiw06",
+        "tid": "2026-11-05T13:39:43+00:00",
+        "titel": "Bitcoin future?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoiu5j",
+        "tid": "2026-11-05T13:37:23+00:00",
+        "titel": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xohd9i",
         "tid": "2026-11-05T12:26:23+00:00",
@@ -2309,28 +2339,8 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xnomuc",
-        "tid": "2026-11-04T13:48:15+00:00",
-        "titel": "Most people are watching Bitcoin price, but are they watching this?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnocue",
-        "tid": "2026-11-04T13:35:43+00:00",
-        "titel": "339k BTC moved at a loss last week... twice a normal week.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   }
 }
