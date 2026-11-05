@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T22:06:11.042096+00:00",
+    "sidst_hentet": "2026-11-05T22:26:10.182758+00:00",
     "opslag": [
       {
         "id": "t3_1xotgbi",
@@ -320,29 +320,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo1toq",
-        "tid": "2026-11-04T22:22:41+00:00",
-        "titel": "How do we feel about Bitcoin side chain, and wallets like Xverse?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo1gme",
-        "tid": "2026-11-04T22:07:56+00:00",
-        "titel": "Solo-built a Solana trading app, 616 visits last month, 4 signups. What would make you actually register?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -400,7 +380,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75996.2575,
+  "last_btc_price": 75838.21,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
