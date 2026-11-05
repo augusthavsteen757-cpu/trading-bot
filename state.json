@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80629.1255,
+  "last_btc_price": 80720.74900000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1734,30 +1734,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "BTC har allerede reageret med +4% til over 80.000 USD efter nyheder; hack-nyheden ser ud til at vaere overvundet, men momentum kan fortsaette kort sigt.",
-        "tid": "2026-11-05T00:04:00.263599+00:00",
-        "pris_ved_nyhed": 80474.20499999999,
-        "udloeber": "2026-11-05T02:04:00.263599+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH steg med de oevrige altcoins i rallyet; hvis BTC holder, kan ETH folge med, men rallyet er allerede sket.",
-        "tid": "2026-11-05T00:04:00.263599+00:00",
-        "pris_ved_nyhed": 2419.915,
-        "udloeber": "2026-11-05T02:04:00.263599+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
