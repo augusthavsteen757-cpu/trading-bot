@@ -132,8 +132,18 @@
   "day_start_equity": 100439.99,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T18:59:30.427458+00:00",
+    "sidst_hentet": "2026-11-05T19:19:28.937128+00:00",
     "opslag": [
+      {
+        "id": "t3_1xorfrg",
+        "tid": "2026-11-05T19:12:46+00:00",
+        "titel": "NVDA will surpass 260 dollars by July 2027",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xoq8gi",
         "tid": "2026-11-05T18:26:59+00:00",
@@ -185,7 +195,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 6 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -2009,8 +2019,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 652.02,
-    "snitpris": 659.05,
+    "pris": 654.6,
+    "snitpris": 658.86,
     "svag": true
   }
 }
