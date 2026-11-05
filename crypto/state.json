@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T15:10:46.271632+00:00",
+    "sidst_hentet": "2026-11-05T15:25:46.727399+00:00",
     "opslag": [
+      {
+        "id": "t3_1xol876",
+        "tid": "2026-11-05T15:16:05+00:00",
+        "titel": "Bitcoin recovery",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xokzrp",
         "tid": "2026-11-05T15:07:02+00:00",
@@ -270,39 +280,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnqr5f",
-        "tid": "2026-11-04T15:15:03+00:00",
-        "titel": "$657M In Tokenized Stocks Traded On Solana On November 2, 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnqpcg",
-        "tid": "2026-11-04T15:13:01+00:00",
-        "titel": "Apps On Solana Generated $153M In October 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnqnks",
-        "tid": "2026-11-04T15:11:05+00:00",
-        "titel": "Global Asset Manager Schroders Brings Emerging Market Bond Fund To Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -385,7 +365,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 77183.374,
+  "last_btc_price": 76371.03,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {}
