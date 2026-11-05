@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 79577.6085,
+  "last_btc_price": 79505.25,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1745,18 +1745,6 @@
         "tid": "2026-11-05T14:05:29.223344+00:00",
         "pris_ved_nyhed": 79577.6085,
         "udloeber": "2026-11-05T15:05:29.223344+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslaget om Ethereum og Bitcoin er generel diskussion uden nyhedskarakter. Ingen klar prisretning.",
-        "tid": "2026-11-05T13:05:29.807504+00:00",
-        "pris_ved_nyhed": 2392.9444999999996,
-        "udloeber": "2026-11-05T14:05:29.807504+00:00"
       }
     },
     "dag": "2026-11-05",
@@ -2067,7 +2055,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T13:55:29.514790+00:00",
+    "sidst_hentet": "2026-11-05T14:10:29.554127+00:00",
     "opslag": [
       {
         "id": "t3_1xoix7i",
@@ -2342,5 +2330,6 @@
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
-  }
+  },
+  "scan": {}
 }
