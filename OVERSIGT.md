@@ -1,30 +1,26 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **5/11 kl. 15.51** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **5/11 kl. 15.56** (dansk tid). Kun falske penge (paper).
 
 ## 🟢 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 100.043 USD  ·  **I alt:** +43 USD (+0.04 %)  ·  **I dag:** -0.06 %  ·  sidst opdateret 5/11 15.51
+**Konto:** 100.037 USD  ·  **I alt:** +37 USD (+0.04 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 5/11 15.56
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| NVDA | 8 | 195.13 | 5/11 15.31 |
-
-**Lukkede handler:** 12 i alt, 6 med gevinst, samlet +116 USD
+**Lukkede handler:** 13 i alt, 6 med gevinst, samlet +77 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ NVDA | 5/11 15.56 | -39 USD | stop ramt (Alpaca) |
 | ✅ META | 5/11 15.40 | +115 USD | stop ramt (Alpaca) |
 | ❌ AAPL | 4/11 17.28 | -7 USD | tidsstop (60 min uden gevinst) |
 | ✅ GOOGL | 4/11 17.18 | +0 USD | stop ramt (Alpaca) |
 | ✅ TSLA | 4/11 17.08 | +0 USD | stop ramt (Alpaca) |
-| ❌ AMZN | 4/11 17.03 | -4 USD | stop ramt (Alpaca) |
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 5/11 15.47
+**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 5/11 15.52
 
 **Ejer nu:** intet
 
@@ -39,7 +35,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **5/11 kl. 15.51** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 5/11 15.50
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 5/11 15.55
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -53,27 +49,29 @@ Opdateres af sig selv hvert 5. minut. Sidst: **5/11 kl. 15.51** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.224 USD  ·  **I alt:** -776 USD (-0.78 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 5/11 15.50
+**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** -0.05 %  ·  sidst opdateret 5/11 15.55
+
+**Ejer nu:** intet
+
+**Lukkede handler:** 2 i alt, 0 med gevinst, samlet -820 USD
+
+| Hvad | Solgt | Resultat | Hvorfor solgt |
+|---|---|---|---|
+| ❌ AMZN call 272.5 (udl. 20/11) | 5/11 15.55 | -300 USD | stop -42% |
+| ❌ SPY put 757 (udl. 20/11) | 4/11 15.32 | -520 USD | stop -43% |
+
+## 🟢 Aggressiv-botten (færre, større aktiehandler)
+
+**Konto:** 100.910 USD  ·  **I alt:** +910 USD (+0.91 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 5/11 15.56
+
+**Selv-tjek:** auto-tjek: seneste 6 handler +447 USD (2 vundet), fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AMZN call 272.5 (udl. 20/11) | 1 | 7.15 | 4/11 16.03 |
-
-**Lukkede handler:** 1 i alt, 0 med gevinst, samlet -520 USD
-
-| Hvad | Solgt | Resultat | Hvorfor solgt |
-|---|---|---|---|
-| ❌ SPY put 757 (udl. 20/11) | 4/11 15.32 | -520 USD | stop -43% |
-
-## 🟢 Aggressiv-botten (færre, større aktiehandler)
-
-**Konto:** 100.438 USD  ·  **I alt:** +438 USD (+0.44 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 5/11 15.49
-
-**Selv-tjek:** auto-tjek: seneste 6 handler +447 USD (2 vundet), fuld fart
-
-**Ejer nu:** intet
+| SNDQ | 707 | 31.37 | 5/11 15.55 |
+| SOXS | 350 | 71.56 | 5/11 15.55 |
 
 **Lukkede handler:** 6 i alt, 2 med gevinst, samlet +447 USD
 
