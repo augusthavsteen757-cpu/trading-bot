@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T09:14:56.769566+00:00",
+    "sidst_hentet": "2026-11-05T09:30:23.513660+00:00",
     "opslag": [
       {
         "id": "t3_1xocx1t",
@@ -259,35 +259,12 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xnjw9b",
-        "tid": "2026-11-04T09:27:48+00:00",
-        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om Trump Media flytter 342 mio. USD BTC til Crypto.com, ikke bekr\u00e6ftet. Kan tolkes som salgspres eller likviditet, men for usikkert til retning.",
-        "tid": "2026-11-05T07:24:57.202326+00:00",
-        "pris_ved_nyhed": 80542.575,
-        "udloeber": "2026-11-05T09:24:57.202326+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-05T07:24:57.202326+00:00",
@@ -337,7 +314,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80260.282,
+  "last_btc_price": 80234.3855,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
