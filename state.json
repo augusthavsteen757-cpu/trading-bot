@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76065.74549999999,
+  "last_btc_price": 76023.215,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1881,18 +1881,6 @@
         "pris_ved_nyhed": 652.825,
         "udloeber": "2026-11-05T20:59:34.580714+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Hyperscalere som Amazon og Big Tech holdt stand mens neoclouds faldt 15%. Det kan tyde paa kapital rotere mod etablerede hyperscalere, herunder MSFT.",
-        "tid": "2026-11-05T17:39:31.105319+00:00",
-        "pris_ved_nyhed": 540.3499999999999,
-        "udloeber": "2026-11-05T20:39:31.105319+00:00"
-      },
       "EQIX": {
         "kilde": "nyhed",
         "symbol": "EQIX",
@@ -1940,30 +1928,6 @@
         "tid": "2026-11-05T18:59:34.580714+00:00",
         "pris_ved_nyhed": 343.46000000000004,
         "udloeber": "2026-11-05T20:59:34.580714+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "F\u00f8lger BTC-faldet; kryptosalg smitter typisk til alle store coins, prisen reagerer allerede.",
-        "tid": "2026-11-05T18:34:32.026015+00:00",
-        "pris_ved_nyhed": 2244.125,
-        "udloeber": "2026-11-05T20:34:32.026015+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "H\u00f8jbetaaktiv altcoin, sandsynligt at falde mere ved bredt krypto-salg, ikke n\u00e6vnt direkte.",
-        "tid": "2026-11-05T18:34:32.026015+00:00",
-        "pris_ved_nyhed": 89.2189,
-        "udloeber": "2026-11-05T20:34:32.026015+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2286,7 +2250,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:24:31.291637+00:00",
+    "sidst_hentet": "2026-11-05T20:39:31.883357+00:00",
     "opslag": [
       {
         "id": "t3_1xoix7i",
@@ -2565,8 +2529,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.4,
-    "snitpris": 657.71,
+    "pris": 651.96,
+    "snitpris": 657.4,
     "svag": true
   }
 }
