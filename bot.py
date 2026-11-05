@@ -891,6 +891,13 @@ def exposure(state):
     return sum(v["pos"]["entry"] * v["pos"].get("qty", 0) for v in state["coins"].values() if v.get("pos"))
 
 
+def is_inverse_name(name):
+    """Omvendt fond: navnet siger Bear, Inverse, UltraShort, Short (ikke 'Short-Term') eller VIX (frygt-indeks)."""
+    import re
+    n = (name or "").lower()
+    return bool(re.search(r"\b(bear|inverse|ultrashort|vix)\b", n) or re.search(r"\bshort\b(?!-term)", n))
+
+
 def scan_gainers(state, stocks_open):
     """Dagens raketter: henter Alpacas liste over dagens stoerste stigere (gratis, intet AI-kald).
     Kun aktier over SCAN_MIN_PRICE, steget mindst SCAN_MIN_PCT %, og blandt de 100 mest handlede (saa de er nemme
@@ -923,6 +930,17 @@ def scan_gainers(state, stocks_open):
                     if len(scan["syms"]) >= SCAN_GAINERS:
                         break
             scan["alle"] = sorted(set(scan.get("alle", [])) | set(scan["syms"]))[-60:]
+            # Omvendte fonde (stiger naar markedet falder): find dem paa navnet hos Alpaca, fx "... Bear 3X Shares".
+            th = {"APCA-API-KEY-ID": h["APCA-API-KEY-ID"], "APCA-API-SECRET-KEY": h["APCA-API-SECRET-KEY"]}
+            for sym in scan["syms"]:
+                if sym in scan.setdefault("navne", {}):
+                    continue
+                try:
+                    scan["navne"][sym] = requests.get(f"https://paper-api.alpaca.markets/v2/assets/{sym}", headers=th,
+                                                      timeout=10).json().get("name", "")
+                except Exception:
+                    scan["navne"][sym] = ""
+            scan["omvendt"] = sorted({c for c, n in scan["navne"].items() if is_inverse_name(n)} | set(scan.get("omvendt", [])))
             print("Raket-scanner:", ", ".join(found) or "ingen nye")
         except Exception as e:  # scanneren maa aldrig stoppe botten
             print("Raket-scanner fejlede:", type(e).__name__, str(e)[:100])
@@ -1066,8 +1084,11 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     room = equity * MAX_TOTAL_EXPOSURE_PCT - exposure(state)
     coin_can_buy, coin_block = can_buy, block
     mk = state.get("marked") or {}
-    if coin_can_buy and is_stock(coin) and mk.get("svag"):
+    omvendt = coin in state.get("scan", {}).get("omvendt", [])
+    if coin_can_buy and is_stock(coin) and mk.get("svag") and not omvendt:
         coin_can_buy, coin_block = False, f"markedet falder ({mk['symbol']} {mk['pris']} under dagens snitpris {mk['snitpris']})"
+    if coin_can_buy and omvendt and mk and not mk.get("svag"):  # plan: omvendte fonde KUN naar markedet falder
+        coin_can_buy, coin_block = False, f"omvendt fond, men markedet stiger ({mk['symbol']} over dagens snitpris)"
     if coin_can_buy and room < 50:
         coin_can_buy, coin_block = False, f"samlet loft paa {MAX_TOTAL_EXPOSURE_PCT:.0%} af kontoen naaet"
 
