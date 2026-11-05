@@ -3,13 +3,14 @@
   "coins": {
     "BTC/USD": {},
     "ONDS": {
-      "last_entry_eval": "2026-11-04T15:19:56.611541+00:00",
+      "last_entry_eval": "2026-11-05T14:31:51.614013+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "nyhed_op",
+        "range_bund"
       ]
     },
     "RCAT": {
-      "last_entry_eval": "2026-11-04T14:35:15.437684+00:00",
+      "last_entry_eval": "2026-11-05T14:32:05.473303+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
@@ -24,9 +25,9 @@
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-04T14:35:29.479109+00:00",
+      "last_entry_eval": "2026-11-05T14:32:17.326191+00:00",
       "last_entry_setups": [
-        "trend_pullback"
+        "range_bund"
       ]
     },
     "SOUN": {
@@ -38,22 +39,22 @@
       "orb_day": "2026-11-04"
     },
     "QUBT": {
-      "last_entry_eval": "2026-11-04T14:55:11.783715+00:00",
+      "last_entry_eval": "2026-11-05T14:32:33.119864+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
     },
     "RGTI": {
-      "last_entry_eval": "2026-11-03T14:48:00.690769+00:00",
+      "last_entry_eval": "2026-11-05T14:32:45.642618+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "range_bund"
       ],
       "orb_day": "2026-11-04",
       "last_hold_review": "2026-11-04T15:20:14.498311+00:00",
       "last_review_price": 11.475000000000001
     },
     "LUNR": {
-      "last_entry_eval": "2026-11-04T14:55:28.443681+00:00",
+      "last_entry_eval": "2026-11-05T14:32:55.775589+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -85,85 +86,75 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.120384,
+  "budget_used": 0.1556,
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 0,
-  "ai_spend_today": 0.0,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.035216000000000004,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-05",
   "day_start_equity": 99424.05,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-04T20:55:22.587549+00:00",
+    "sidst_hentet": "2026-11-05T14:31:44.766258+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "RGTI": {
+      "ONDS": {
         "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "ned",
+        "symbol": "ONDS",
+        "retning": "op",
         "styrke": 3,
         "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Wedbush saenker kursmaal til 25 fra 37, men fastholder Outperform. Nedjustering kan give kortvarigt pres, men ratingen begraenser faldet.",
-        "tid": "2026-11-04T19:04:53.458258+00:00",
-        "pris_ved_nyhed": 11.254999999999999,
-        "udloeber": "2026-11-04T21:04:53.458258+00:00"
+        "gyldig_timer": 3,
+        "begrundelse": "Planlagt produktionsopskalering af ULTRA-fly kan signalere efterspoergsel og vaekst, men det er langsigtet (2028), saa effekten paa kort sigt er begraenset.",
+        "tid": "2026-11-05T14:31:46.322468+00:00",
+        "pris_ved_nyhed": 5.075,
+        "udloeber": "2026-11-05T17:31:46.322468+00:00"
       },
-      "UMAC": {
+      "BBAI": {
         "kilde": "nyhed",
-        "symbol": "UMAC",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften handler om Airbnb-vaerdiansaettelse, ikke UMAC direkte. Ingen klar kobling til Unusual Machines; kun svag sentiment-spillover mulig.",
-        "tid": "2026-11-04T20:35:23.838666+00:00",
-        "pris_ved_nyhed": 13.01,
-        "udloeber": "2026-11-04T21:35:23.838666+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
+        "symbol": "BBAI",
+        "retning": "ned",
         "styrke": 2,
-        "allerede_i_prisen": false,
+        "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "Droneforsvarssektoren kan smitte af paa konkurrenter og sektorfortaellingen, men sammenhaengen er indirekte og svag.",
-        "tid": "2026-11-04T20:20:23.220361+00:00",
-        "pris_ved_nyhed": 4.095,
-        "udloeber": "2026-11-04T22:20:23.220361+00:00"
+        "begrundelse": "Cramers kritik af BigBears tab kan skabe negativ stemning, men er en meningsudtalelse fra kendt investor og sandsynligvis allerede kendt i markedet.",
+        "tid": "2026-11-05T14:31:46.322468+00:00",
+        "pris_ved_nyhed": 2.505,
+        "udloeber": "2026-11-05T16:31:46.322468+00:00"
       }
     },
-    "dag": "2026-11-04",
-    "kald_i_dag": 6,
-    "sidste_kald": "2026-11-04T20:35:23.838666+00:00",
+    "dag": "2026-11-05",
+    "kald_i_dag": 1,
+    "sidste_kald": "2026-11-05T14:31:46.322468+00:00",
     "set_ids": [
-      "62858783",
-      "62870343",
       "113112808",
       "62865275",
-      "62863042",
-      "62820584",
       "112725797",
-      "62884978",
-      "62857002",
-      "62832219",
-      "111491028",
-      "112724524",
-      "62864193",
-      "62816393",
       "62880521",
+      "62820584",
+      "62816393",
+      "112724524",
+      "62858783",
+      "111491028",
+      "62884978",
+      "62885636",
+      "62870343",
+      "62832219",
       "62856684",
-      "62885636"
+      "62857002",
+      "62863042",
+      "62864193",
+      "62917077",
+      "62912448"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.265,
+  "last_btc_price": 5.075,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1690,6 +1681,126 @@
       "ZD",
       "ZLAB",
       "ZTS"
+    ],
+    "2026-11-06": [
+      "ABVC",
+      "ACRE",
+      "AD",
+      "AIRS",
+      "ALXO",
+      "AMR",
+      "AMST",
+      "ANIK",
+      "AQN",
+      "ATMU",
+      "AWX",
+      "BAM",
+      "BEN",
+      "BH",
+      "BH.A",
+      "BIP",
+      "BJDX",
+      "BKD",
+      "BLMN",
+      "BRK.A",
+      "BRK.B",
+      "CELZ",
+      "CGC",
+      "CHTR",
+      "CLLS",
+      "CLMT",
+      "COGT",
+      "CPHC",
+      "CRVO",
+      "CTNT",
+      "CVR",
+      "DCBO",
+      "DCH",
+      "DIT",
+      "DK",
+      "DKL",
+      "ECHO",
+      "ELAN",
+      "EMA",
+      "ENB",
+      "ERNA",
+      "ESNT",
+      "FBLG",
+      "FLR",
+      "FRHC",
+      "GLP",
+      "GOGO",
+      "GRVY",
+      "GTEC",
+      "GTN",
+      "GTN.A",
+      "GYRE",
+      "HE",
+      "HMC",
+      "HOST",
+      "HUM",
+      "IBO",
+      "IMMX",
+      "INTT",
+      "KOP",
+      "KPRX",
+      "KT",
+      "KYIV",
+      "MAIA",
+      "MAMO",
+      "MBIO",
+      "MMI",
+      "MRNA",
+      "MSGK",
+      "MSGR",
+      "NEN",
+      "NFGC",
+      "NHC",
+      "NLOP",
+      "NODK",
+      "OGEN",
+      "OGG",
+      "OKLO",
+      "OPTU",
+      "ORIO",
+      "PAA",
+      "PAGP",
+      "PBFS",
+      "PPL",
+      "PRME",
+      "PW",
+      "QNTM",
+      "RKDA",
+      "RPID",
+      "SBR",
+      "SELF",
+      "SHO",
+      "SLVM",
+      "SNGX",
+      "SNT",
+      "SNWV",
+      "SONM",
+      "SRZN",
+      "STHO",
+      "STWD",
+      "SUNE",
+      "TCBS",
+      "TDS",
+      "TG",
+      "THM",
+      "TILE",
+      "TMCI",
+      "TOMZ",
+      "TTGT",
+      "TU",
+      "UA",
+      "UAA",
+      "UI",
+      "UTZ",
+      "VEON",
+      "VST",
+      "WULF",
+      "XCUR"
     ]
   },
   "scan": {}
