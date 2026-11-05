@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80274.497,
+  "last_btc_price": 80249.6,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2055,7 +2055,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T10:25:00.055692+00:00",
+    "sidst_hentet": "2026-11-05T10:44:59.594975+00:00",
     "opslag": [
       {
         "id": "t3_1xoer5n",
@@ -2066,6 +2066,16 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoeop6",
+        "tid": "2026-11-05T09:49:39+00:00",
+        "titel": "PreStocks\u2019 Anthropic pre-IPO token on Solana: holders up 100x in one year.",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
       },
       {
         "id": "t3_1xocx1t",
@@ -2318,6 +2328,6 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   }
 }
