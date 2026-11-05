@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T01:49:34.123090+00:00",
+    "sidst_hentet": "2026-11-05T02:04:34.529549+00:00",
     "opslag": [
       {
         "id": "t3_1xo5a0e",
@@ -285,18 +285,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Historisk bundanalyse fra Reddit er kun rygte og svag kontekst, ingen ny kilde bag.",
-        "tid": "2026-11-05T00:04:34.147130+00:00",
-        "pris_ved_nyhed": 80490.986,
-        "udloeber": "2026-11-05T02:04:34.147130+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -308,18 +296,6 @@
         "tid": "2026-11-05T00:04:34.147130+00:00",
         "pris_ved_nyhed": 2419.48,
         "udloeber": "2026-11-05T03:04:34.147130+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "DOGE fulgte markedet op 4%; svag selvstaendig katalysator, hoejbetaet beta paa BTC-bevaegelse.",
-        "tid": "2026-11-05T00:04:34.147130+00:00",
-        "pris_ved_nyhed": 0.0769561,
-        "udloeber": "2026-11-05T02:04:34.147130+00:00"
       },
       "SOL/USD": {
         "kilde": "kun_reddit",
@@ -379,7 +355,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80628.816,
+  "last_btc_price": 80720.74900000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
