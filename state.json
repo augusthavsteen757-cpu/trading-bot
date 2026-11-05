@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80292.512,
+  "last_btc_price": 80234.175,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2042,7 +2042,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T09:25:00.042411+00:00",
+    "sidst_hentet": "2026-11-05T09:45:00.212789+00:00",
     "opslag": [
       {
         "id": "t3_1xocx1t",
@@ -2293,28 +2293,8 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xnjyv6",
-        "tid": "2026-11-04T09:32:42+00:00",
-        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xnjw9b",
-        "tid": "2026-11-04T09:27:48+00:00",
-        "titel": "Trump loses. Bitcoin wins. Altcoins face extinction.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   }
 }
