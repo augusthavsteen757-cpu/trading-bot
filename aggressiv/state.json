@@ -181,18 +181,6 @@
         "pris_ved_nyhed": 186.655,
         "udloeber": "2026-11-05T18:49:29.395433+00:00"
       },
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Skiftet mod virksomheder der monetiserer eksisterende AI-infrastruktur kan favorisere AI-chipleverand\u00f8rer udover Nvidia, fx Broadcom som leverer custom AI-chips til hyperscalere.",
-        "tid": "2026-11-05T15:25:22.169351+00:00",
-        "pris_ved_nyhed": 300.6,
-        "udloeber": "2026-11-05T17:25:22.169351+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -2086,8 +2074,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.29,
-    "snitpris": 660.96,
+    "pris": 655.93,
+    "snitpris": 660.92,
     "svag": true
   }
 }
