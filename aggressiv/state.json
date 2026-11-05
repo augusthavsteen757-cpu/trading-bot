@@ -80,9 +80,9 @@
       "orb_day": "2026-11-05",
       "pos": {
         "entry": 31.365000000000002,
-        "stop": 29.235,
+        "stop": 31.365000000000002,
         "stop_initial": 29.235,
-        "high": 33.45,
+        "high": 33.51,
         "qty": 707.0,
         "entry_tid": "2026-11-05 14:55",
         "setup": "orb",
@@ -2123,5 +2123,11 @@
       "SOXS",
       "UVXY"
     ]
+  },
+  "marked": {
+    "symbol": "QQQ",
+    "pris": 659.72,
+    "snitpris": 666.94,
+    "svag": true
   }
 }
