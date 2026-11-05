@@ -1,13 +1,5 @@
 {
-  "positions": {
-    "AMZN261120C00272500": {
-      "entry": 7.15,
-      "antal": 1,
-      "entry_tid": "2026-11-04T15:03:07.190170+00:00",
-      "call_andel": 0.748,
-      "trend": "op"
-    }
-  },
+  "positions": {},
   "day": "2026-11-05",
   "new_today": 0,
   "traded_today": [],
