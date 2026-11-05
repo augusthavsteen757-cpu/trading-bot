@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.613814,
+  "budget_used": 0.620099,
   "version": 3,
   "learned": [],
   "pending": {
@@ -34,8 +34,8 @@
     ]
   },
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 15,
-  "ai_spend_today": 0.11827040000000005,
+  "ai_rounds_today": 16,
+  "ai_spend_today": 0.12455530000000006,
   "eq_day": "2026-11-05",
   "day_start_equity": 100111.82,
   "peak_equity": 100456.88,
@@ -95,9 +95,8 @@
       "last_review_price": 696.765
     },
     "NVDA": {
-      "last_entry_eval": "2026-11-05T14:31:15.598172+00:00",
+      "last_entry_eval": "2026-11-05T15:10:41.864622+00:00",
       "last_entry_setups": [
-        "nyhed_op",
         "range_bund"
       ],
       "last_hold_review": "2026-11-05T14:35:58.790283+00:00",
@@ -218,7 +217,7 @@
       ]
     }
   },
-  "last_btc_price": 77558.3095,
+  "last_btc_price": 77039.198,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
