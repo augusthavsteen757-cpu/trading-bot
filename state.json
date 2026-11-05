@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76075.95300000001,
+  "last_btc_price": 76007.8275,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1929,18 +1929,6 @@
         "pris_ved_nyhed": 417.08000000000004,
         "udloeber": "2026-11-05T20:14:30.798308+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Events-funktion paa WhatsApp er produktnyhed med lav forventet kursbevaegelse for Meta.",
-        "tid": "2026-11-05T15:15:29.519513+00:00",
-        "pris_ved_nyhed": 599.81,
-        "udloeber": "2026-11-05T17:15:29.519513+00:00"
-      },
       "EQIX": {
         "kilde": "nyhed",
         "symbol": "EQIX",
@@ -2589,8 +2577,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 655.4,
-    "snitpris": 661.05,
+    "pris": 656.52,
+    "snitpris": 660.99,
     "svag": true
   }
 }
