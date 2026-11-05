@@ -71,6 +71,64 @@
         "range_bund"
       ],
       "orb_day": "2026-11-04"
+    },
+    "AEHL": {},
+    "APP": {
+      "orb_day": "2026-11-05"
+    },
+    "SNDQ": {
+      "orb_day": "2026-11-05",
+      "pos": {
+        "entry": 31.365000000000002,
+        "stop": 29.235,
+        "stop_initial": 29.235,
+        "high": 31.365000000000002,
+        "qty": 707.0,
+        "entry_tid": "2026-11-05 14:55",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 30.47, 'or_low': 28.0, 'sidste_luk': 31.14}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 1,
+          "rsi_1h": 83.3,
+          "adx_1h": 41.5,
+          "rel_volumen_1h": 4.36,
+          "afstand_modstand_atr": 0.13,
+          "atr_percentil_30d": 95.9
+        },
+        "target": 37.75500000000001,
+        "luk_foer_luk": true
+      }
+    },
+    "SOXS": {
+      "orb_day": "2026-11-05",
+      "pos": {
+        "entry": 71.565,
+        "stop": 68.20500000000001,
+        "stop_initial": 68.20500000000001,
+        "high": 71.565,
+        "qty": 350.0,
+        "entry_tid": "2026-11-05 14:55",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 70.01, 'or_low': 66.4, 'sidste_luk': 71.3}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 1,
+          "rsi_1h": 74.6,
+          "adx_1h": 25.7,
+          "rel_volumen_1h": 3.92,
+          "afstand_modstand_atr": 0.06,
+          "atr_percentil_30d": 97.6
+        },
+        "target": 81.64499999999995,
+        "luk_foer_luk": true
+      }
     }
   },
   "learned": [],
@@ -2008,5 +2066,20 @@
       "XCUR"
     ]
   },
-  "scan": {}
+  "scan": {
+    "dag": "2026-11-05",
+    "syms": [
+      "AEHL",
+      "APP",
+      "SNDQ",
+      "SOXS"
+    ],
+    "sidst": "2026-11-05T14:55:22.783542+00:00",
+    "alle": [
+      "AEHL",
+      "APP",
+      "SNDQ",
+      "SOXS"
+    ]
+  }
 }

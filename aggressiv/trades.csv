@@ -1211,3 +1211,17 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-05 14:54,AVGO,310.09,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100438.12,0.438,100000.0,0.0,-0.002,-1.505,0.1576,
 2026-11-05 14:54,NFLX,66.14,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100438.12,0.438,100000.0,0.0,-0.002,-1.505,0.1576,
 2026-11-05 14:54,HOOD,80.54,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100438.12,0.438,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:55,AEHL,10.7,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100438.12,0.438,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:55,APP,362.88,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100438.12,0.438,100000.0,0.0,-0.002,-1.505,0.1576,"ORB-signal, men sprunget over: regnskab 2026-11-04"
+2026-11-05 14:55,SNDQ,31.37,high_vol,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),707.0,22175.06,29.23,100413.82,0.414,100000.0,0.0,-0.002,-1.505,0.1576,"ORB: range 28.0-30.47, maal 37.76"
+2026-11-05 14:55,SOXS,71.56,high_vol,breakout,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),350.0,25047.75,68.21,100410.46,0.41,100000.0,0.0,-0.002,-1.505,0.1576,"ORB: range 66.4-70.01, maal 81.64"
+2026-11-05 14:55,NVDA,189.51,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100615.81,0.616,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:55,TSLA,346.97,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100707.4,0.707,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:55,AMD,427.5,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100656.23,0.656,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:55,PLTR,157.84,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100715.84,0.716,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,COIN,141.01,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100807.4,0.807,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,MSTR,133.21,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100793.19,0.793,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,META,611.29,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100874.32,0.874,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,AVGO,308.81,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100908.02,0.908,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,NFLX,66.08,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100906.27,0.906,100000.0,0.0,-0.002,-1.505,0.1576,
+2026-11-05 14:56,HOOD,79.67,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100909.74,0.91,100000.0,0.0,-0.002,-1.505,0.1576,
