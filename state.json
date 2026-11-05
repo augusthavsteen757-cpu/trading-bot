@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75917.9,
+  "last_btc_price": 75774.25,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2190,8 +2190,138 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:59:56.599498+00:00",
+    "sidst_hentet": "2026-11-05T21:19:55.441252+00:00",
     "opslag": [
+      {
+        "id": "t3_1xotgbi",
+        "tid": "2026-11-05T20:32:37+00:00",
+        "titel": "I built a live 3D view of the Bitcoin network. You can watch the next block get found as it happens.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xorzlq",
+        "tid": "2026-11-05T19:34:19+00:00",
+        "titel": "Bull Bitcoin just became the first exchange to make every on-chain buy and sell a Payjoin by default. Payjoin is an enha",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xorfs5",
+        "tid": "2026-11-05T19:12:47+00:00",
+        "titel": "The Time Warp: How Lying About the Time Could Break Bitcoin's Difficulty",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoq2yd",
+        "tid": "2026-11-05T18:21:22+00:00",
+        "titel": "Bitcoin Is the Canary: Rising Prices, Rising Unemployment, and a Rush for Cash",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xopx6t",
+        "tid": "2026-11-05T18:15:15+00:00",
+        "titel": "JTX launches tokenized equities trading on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xopr41",
+        "tid": "2026-11-05T18:08:46+00:00",
+        "titel": "Shit going down in Paraguay right now. Dare we say it: Bitcoin fixes this.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoo4xx",
+        "tid": "2026-11-05T17:08:31+00:00",
+        "titel": "Stablecoin Account Goes Live In Samsung Wallet, Bringing USDC On Solana To Eligible U.S. Galaxy Users",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xomcx7",
+        "tid": "2026-11-05T16:00:47+00:00",
+        "titel": "Is 75k a good average price for bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xom91c",
+        "tid": "2026-11-05T15:56:44+00:00",
+        "titel": "What would happen when banks create Bitcoin backed currency?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xom43k",
+        "tid": "2026-11-05T15:51:11+00:00",
+        "titel": "Solana Changelog: November 5, 2026",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xol876",
+        "tid": "2026-11-05T15:16:05+00:00",
+        "titel": "Bitcoin recovery",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xokzrp",
+        "tid": "2026-11-05T15:07:02+00:00",
+        "titel": "Trump Media Bitcoin Transfer of 4,259 BTC Nearly Matches Pledged Loan Collateral",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xokw13",
+        "tid": "2026-11-05T15:02:53+00:00",
+        "titel": "Why is bitcoin completely related to the market? In which scenario is bitcoin ever booming during a market crash? My gue",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xoix7i",
         "tid": "2026-11-05T13:41:15+00:00",
@@ -2232,6 +2362,16 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xoez7h",
+        "tid": "2026-11-05T10:08:14+00:00",
+        "titel": "Bitcoin conference 2 free tickets",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
       },
       {
         "id": "t3_1xoer5n",
@@ -2304,6 +2444,16 @@
         "sub": "Bitcoin"
       },
       {
+        "id": "t3_1xo3bde",
+        "tid": "2026-11-04T23:26:48+00:00",
+        "titel": "I've been working on an open-source Bitcoin wallet project called Sillet | Would love some feedback",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
         "id": "t3_1xo1toq",
         "tid": "2026-11-04T22:22:41+00:00",
         "titel": "How do we feel about Bitcoin side chain, and wallets like Xverse?",
@@ -2322,149 +2472,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xnzu8d",
-        "tid": "2026-11-04T21:03:18+00:00",
-        "titel": "Stripe Global Payouts Now Supports Stablecoin Payouts On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnzsxp",
-        "tid": "2026-11-04T21:02:00+00:00",
-        "titel": "I checked every past time Bitcoin was this close to its long-term floor. A year later it was higher in 8 of 8.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xntjx2",
-        "tid": "2026-11-04T17:03:09+00:00",
-        "titel": "Does anyone else see a double S-curve adoption dynamic with bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xntiql",
-        "tid": "2026-11-04T17:01:59+00:00",
-        "titel": "Bitcoin is my vote",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnsz7r",
-        "tid": "2026-11-04T16:41:38+00:00",
-        "titel": "Jack Mallers explains why he keeps DCAing into Bitcoin, top or bottom:",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnstx0",
-        "tid": "2026-11-04T16:35:55+00:00",
-        "titel": "Google 9k gain",
-        "symboler": [
-          "GOOGL"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xnsj2q",
-        "tid": "2026-11-04T16:24:17+00:00",
-        "titel": "India\u2019s first Bitcoin-backed INR lending platform is now live (pilot)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnscq6",
-        "tid": "2026-11-04T16:17:28+00:00",
-        "titel": "Elias Rohrer, instagibbs, darosior & more - Bitcoin Optech Newsletter #429 Recap",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnrajq",
-        "tid": "2026-11-04T15:36:13+00:00",
-        "titel": "Mr. Bitcoin someone told me you was dead",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnqr5f",
-        "tid": "2026-11-04T15:15:03+00:00",
-        "titel": "$657M In Tokenized Stocks Traded On Solana On November 2, 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnqpcg",
-        "tid": "2026-11-04T15:13:01+00:00",
-        "titel": "Apps On Solana Generated $153M In October 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnqnks",
-        "tid": "2026-11-04T15:11:05+00:00",
-        "titel": "Global Asset Manager Schroders Brings Emerging Market Bond Fund To Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnq9fs",
-        "tid": "2026-11-04T14:55:35+00:00",
-        "titel": "Thanks Elon TSLA 8.5K -> 38.6k",
-        "symboler": [
-          "TSLA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xnpy8v",
-        "tid": "2026-11-04T14:42:47+00:00",
-        "titel": "Diamond handed those AMZN calls",
-        "symboler": [
-          "AMZN"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
