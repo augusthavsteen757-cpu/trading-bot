@@ -60,6 +60,7 @@ ORB_TIME_STOP_MIN = env_f("ORB_TIME_STOP_MIN", 60)  # ORB: er handlen ikke i plu
 ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. handel, saa flere kan koere samtidig
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
+ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
 
@@ -675,6 +676,21 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
             row.update(handling="SALG (tidsstop)", antal=round(qty, 6))
             return True
     if pos.get("luk_foer_luk") and ny_time() >= (15, 50):  # ORB er en dagshandel: ud foer boersen lukker
+        r_now = (price - pos["entry"]) / max(pos["entry"] - pos["stop_initial"], 1e-9)
+        if ORB_HOLD_WINNERS_R > 0 and r_now >= ORB_HOLD_WINNERS_R and pos.get("setup") == "orb":
+            # Stor vinder: behold den over natten som almindelig trend-handel med trailing stop.
+            # Stoppet laases mindst halvvejs op i gevinsten, saa et fald i morgen ikke kan blive et tab.
+            lock = pos["entry"] + 0.5 * (price - pos["entry"])
+            pos.pop("luk_foer_luk", None)
+            pos.pop("target", None)
+            pos["setup_oprindelig"] = "orb"
+            if lock - pos["stop"] > 0:
+                broker.cancel_open_orders(coin)
+                broker.place_stop(coin, qty, lock)
+                pos["stop"] = lock
+            row.update(handling="BEHOLD (ORB-vinder)", stop_loss=round(pos["stop"], 2),
+                       note=f"ORB-vinder +{r_now:.1f}R beholdes over natten, stop laast til {pos['stop']:.2f}")
+            return False
         broker.sell_all(coin)
         close_trade(brain, state, cs, coin, price, "dagens slut (ORB)")
         row.update(handling="SALG (dagens slut)", antal=round(qty, 6))
