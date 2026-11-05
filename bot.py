@@ -64,6 +64,7 @@ ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med minds
 SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
+MARKET_FILTER = (os.getenv("MARKET_FILTER") or "").strip().upper().replace("NONE", "")  # fx QQQ: ingen nye aktiekoeb naar markedet er under dagens snitpris
 ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
@@ -932,6 +933,17 @@ def run_round(state, brain):
     equity = broker.equity()
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
     stocks_open = broker.market_open() if STOCKS else False
+    state["marked"] = {}
+    if MARKET_FILTER and stocks_open and not TEST_MODE and ny_time() >= (9, 45):
+        # Proff-regel "handl med markedet": falder hele markedet (under dagens snitpris), koeber vi ingen nye aktier.
+        try:
+            m5 = get_stock_data(MARKET_FILTER)[2]
+            mv, ml = vwap_today(m5)
+            if mv and ml:
+                state["marked"] = {"symbol": MARKET_FILTER, "pris": round(ml, 2), "snitpris": round(mv, 2), "svag": ml < mv}
+            print("Markeds-filter:", state["marked"])
+        except Exception as e:  # filteret maa aldrig stoppe botten
+            print("Markeds-filter fejlede:", type(e).__name__)
     for sym in reversed(scan_gainers(state, stocks_open)):  # raketter foerst, saa de faar pengene foer de faste aktier
         for lst in (COINS, STOCKS, ORB_SYMBOLS):
             if sym in lst:
@@ -1052,6 +1064,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     holding = bool(cs.get("pos")) and not closed
     room = equity * MAX_TOTAL_EXPOSURE_PCT - exposure(state)
     coin_can_buy, coin_block = can_buy, block
+    mk = state.get("marked") or {}
+    if coin_can_buy and is_stock(coin) and mk.get("svag"):
+        coin_can_buy, coin_block = False, f"markedet falder ({mk['symbol']} {mk['pris']} under dagens snitpris {mk['snitpris']})"
     if coin_can_buy and room < 50:
         coin_can_buy, coin_block = False, f"samlet loft paa {MAX_TOTAL_EXPOSURE_PCT:.0%} af kontoen naaet"
 
