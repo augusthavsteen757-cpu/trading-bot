@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75828.839,
+  "last_btc_price": 75977.27350000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1845,18 +1845,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Ca. 600.000 H200-chips venter i Hong Kong paa godkendelse; usikkerhed om Kina-salg er sandsynligvis allerede kendt af markedet.",
-        "tid": "2026-11-05T19:14:31.455499+00:00",
-        "pris_ved_nyhed": 183.77499999999998,
-        "udloeber": "2026-11-05T22:14:31.455499+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1868,18 +1856,6 @@
         "tid": "2026-11-05T19:14:31.455499+00:00",
         "pris_ved_nyhed": 284.35,
         "udloeber": "2026-11-05T23:14:31.455499+00:00"
-      },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Digital Realty aabner innovationslab i Latinamerika til AI-infrastruktur, en mindre positiv v\u00e6kstnyhed for datacenter-udlejeren.",
-        "tid": "2026-11-05T19:14:31.455499+00:00",
-        "pris_ved_nyhed": 176.445,
-        "udloeber": "2026-11-05T22:14:31.455499+00:00"
       }
     },
     "dag": "2026-11-05",
