@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:51:11.128216+00:00",
+    "sidst_hentet": "2026-11-05T21:11:10.213128+00:00",
     "opslag": [
+      {
+        "id": "t3_1xotgbi",
+        "tid": "2026-11-05T20:32:37+00:00",
+        "titel": "I built a live 3D view of the Bitcoin network. You can watch the next block get found as it happens.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xorzlq",
         "tid": "2026-11-05T19:34:19+00:00",
@@ -330,29 +340,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xnzu8d",
-        "tid": "2026-11-04T21:03:18+00:00",
-        "titel": "Stripe Global Payouts Now Supports Stablecoin Payouts On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xnzsxp",
-        "tid": "2026-11-04T21:02:00+00:00",
-        "titel": "I checked every past time Bitcoin was this close to its long-term floor. A year later it was higher in 8 of 8.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -410,7 +400,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75811.08799999999,
+  "last_btc_price": 75863.715,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
