@@ -203,18 +203,6 @@
         "pris_ved_nyhed": 607.065,
         "udloeber": "2026-11-05T18:49:29.395433+00:00"
       },
-      "APP": {
-        "kilde": "nyhed",
-        "symbol": "APP",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Neutral-rating bekr\u00e6ftet med h\u00f8jere kursm\u00e5l ($355) er ventet og lav i effekt. Kursl\u00f8ftet kan give lidt momentum, men analytikeren er stadig neutral.",
-        "tid": "2026-11-05T16:39:28.438111+00:00",
-        "pris_ved_nyhed": 353.36,
-        "udloeber": "2026-11-05T18:39:28.438111+00:00"
-      },
       "MSTR": {
         "kilde": "nyhed",
         "symbol": "MSTR",
@@ -2072,8 +2060,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 652.27,
-    "snitpris": 659.87,
+    "pris": 651.22,
+    "snitpris": 659.81,
     "svag": true
   }
 }
