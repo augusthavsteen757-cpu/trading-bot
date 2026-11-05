@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80403.839,
+  "last_btc_price": 80414.63500000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1757,18 +1757,6 @@
         "tid": "2026-11-05T04:29:34.718055+00:00",
         "pris_ved_nyhed": 2420.4,
         "udloeber": "2026-11-05T06:29:34.718055+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte relation til Solana. Kun indirekte sentiment-effekt fra b\u00f8rs-hacket, og den er usandsynlig at bev\u00e6ge prisen markant.",
-        "tid": "2026-11-05T04:29:34.718055+00:00",
-        "pris_ved_nyhed": 95.9837,
-        "udloeber": "2026-11-05T05:29:34.718055+00:00"
       }
     },
     "dag": "2026-11-05",
@@ -2079,8 +2067,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T05:14:34.927783+00:00",
+    "sidst_hentet": "2026-11-05T05:34:34.029481+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoafvg",
+        "tid": "2026-11-05T05:17:56+00:00",
+        "titel": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xo7jfp",
         "tid": "2026-11-05T02:45:48+00:00",
@@ -2383,6 +2381,6 @@
         "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   }
 }
