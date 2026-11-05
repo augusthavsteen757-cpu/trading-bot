@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75838.775,
+  "last_btc_price": 75917.9,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1845,18 +1845,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Robinhood falder med bitcoin efter valget; krypto-relaterede aktier sender svage signaler, og bitcoin er allerede i fald.",
-        "tid": "2026-11-05T19:14:31.455499+00:00",
-        "pris_ved_nyhed": 76055.9995,
-        "udloeber": "2026-11-05T21:14:31.455499+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1868,18 +1856,6 @@
         "tid": "2026-11-05T19:14:31.455499+00:00",
         "pris_ved_nyhed": 183.77499999999998,
         "udloeber": "2026-11-05T22:14:31.455499+00:00"
-      },
-      "EQIX": {
-        "kilde": "nyhed",
-        "symbol": "EQIX",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Google-datacenterinvestering kan indirekte styrke efterspoergslen efter datacenter-kapacitet og REIT-aktoerer som Equinix, dog mindre direkte.",
-        "tid": "2026-11-05T17:14:30.798308+00:00",
-        "pris_ved_nyhed": 1002.545,
-        "udloeber": "2026-11-05T21:14:30.798308+00:00"
       },
       "GOOGL": {
         "kilde": "nyhed",
@@ -1904,18 +1880,6 @@
         "tid": "2026-11-05T19:14:31.455499+00:00",
         "pris_ved_nyhed": 176.445,
         "udloeber": "2026-11-05T22:14:31.455499+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Retssag mod californisk ungdomslov kan give regulatorisk usikkerhed, men effekten paa indtjening er sandsynligvis begraenset kortsigtet.",
-        "tid": "2026-11-05T19:14:31.455499+00:00",
-        "pris_ved_nyhed": 605.21,
-        "udloeber": "2026-11-05T21:14:31.455499+00:00"
       }
     },
     "dag": "2026-11-05",
