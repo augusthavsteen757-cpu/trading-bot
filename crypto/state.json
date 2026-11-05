@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T23:11:11.209304+00:00",
+    "sidst_hentet": "2026-11-05T23:31:10.637346+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoxosi",
+        "tid": "2026-11-05T23:29:39+00:00",
+        "titel": "I bought a shit ton of bitcoin on January 8th 2026. I told myself (guy with failing track record) \u201cthere\u2019s no possible w",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xotgbi",
         "tid": "2026-11-05T20:32:37+00:00",
@@ -310,16 +320,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo3bde",
-        "tid": "2026-11-04T23:26:48+00:00",
-        "titel": "I've been working on an open-source Bitcoin wallet project called Sillet | Would love some feedback",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
@@ -380,7 +380,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75822.0075,
+  "last_btc_price": 75711.8,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
