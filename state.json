@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80384.6845,
+  "last_btc_price": 80360.87,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1745,18 +1745,6 @@
         "tid": "2026-11-05T02:54:35.840170+00:00",
         "pris_ved_nyhed": 80507.51000000001,
         "udloeber": "2026-11-05T04:54:35.840170+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ethereum steg med bredere krypto-raliet efter valgnyheden. Bevaegelsen er allerede sket, saa videre gevinst afhaenger af, om BTC-momentum holder.",
-        "tid": "2026-11-05T02:09:34.468842+00:00",
-        "pris_ved_nyhed": 2431.825,
-        "udloeber": "2026-11-05T04:09:34.468842+00:00"
       }
     },
     "dag": "2026-11-05",
