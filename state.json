@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75394.0405,
+  "last_btc_price": 75287.3235,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1844,20 +1844,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Google planlaegger 17 mia. USD i datacenter i Wyoming, hvilket signalerer stor AI-kapacitetsudbygning og kan styrke forventningerne til fremtidig indtjening.",
-        "tid": "2026-11-05T19:14:31.455499+00:00",
-        "pris_ved_nyhed": 284.35,
-        "udloeber": "2026-11-05T23:14:31.455499+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-05T19:14:31.455499+00:00",
