@@ -132,8 +132,18 @@
   "day_start_equity": 100439.99,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T18:24:30.273358+00:00",
+    "sidst_hentet": "2026-11-05T18:44:29.102320+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoq8gi",
+        "tid": "2026-11-05T18:26:59+00:00",
+        "titel": "AMD met my expectations this year",
+        "symboler": [
+          "AMD"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xopt22",
         "tid": "2026-11-05T18:10:47+00:00",
@@ -175,7 +185,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 4 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2060,8 +2070,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.22,
-    "snitpris": 659.81,
+    "pris": 651.75,
+    "snitpris": 659.75,
     "svag": true
   }
 }
