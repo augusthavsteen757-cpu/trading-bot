@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75721.57500000001,
+  "last_btc_price": 75746.37,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2153,8 +2153,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T23:09:55.482061+00:00",
+    "sidst_hentet": "2026-11-05T23:29:55.327477+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoxosi",
+        "tid": "2026-11-05T23:29:39+00:00",
+        "titel": "I bought a shit ton of bitcoin on January 8th 2026. I told myself (guy with failing track record) \u201cthere\u2019s no possible w",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xotgbi",
         "tid": "2026-11-05T20:32:37+00:00",
@@ -2400,16 +2410,6 @@
         "id": "t3_1xo4jhd",
         "tid": "2026-11-05T00:21:26+00:00",
         "titel": "Should I take our 20k loan and put into bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo3bde",
-        "tid": "2026-11-04T23:26:48+00:00",
-        "titel": "I've been working on an open-source Bitcoin wallet project called Sillet | Would love some feedback",
         "symboler": [
           "BTC/USD"
         ],
