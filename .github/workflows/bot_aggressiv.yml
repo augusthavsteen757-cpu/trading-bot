@@ -67,6 +67,7 @@ jobs:
           ORB_TARGET_R: '3.0'        # aabnings-handel: gevinstmaal 3x risikoen (2x)
           ORB_MAX_POSITION_PCT: '0.25'   # aabnings-handel: op til 25 % (10 %)
           ORB_TIME_STOP_MIN: '90'    # aabnings-handel: 90 min til at komme i plus (60)
+          ORB_HOLD_WINNERS_R: '1.0'  # aabnings-handel der er +1R ved lukketid beholdes over natten med laast stop (saelges altid)
           # Skarpere AI: Chef/Skeptiker/Risk Manager faar denne stil med i hver vurdering.
           STRATEGY_STYLE: "Du styrer den AGGRESSIVE bot. Maalet er store gevinster: gaa efter de staerkeste bevaegelser (breakout med hoej volumen, staerk trend paa flere tidsrammer, positive nyheder med momentum), og koeb hellere faa store handler end mange smaa. Krav: mindst 2R plads til naeste modstand. Giv hoej conviction (4-5) naar tingene flugter. Undgaa svage, uklare setups helt."
           SKEPTIC_VETO_FLAGS: '6'    # Skeptikeren skal finde 6 problemer for automatisk veto (5)
