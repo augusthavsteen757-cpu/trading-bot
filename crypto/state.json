@@ -274,20 +274,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Blandede amerikanske aktiefutures efter rally; ingen direkte krypto-nyhed. Svag sammenh\u00e6ng via risikolyst, men ikke handelsbar.",
-        "tid": "2026-11-05T10:35:23.359012+00:00",
-        "pris_ved_nyhed": 80323.41500000001,
-        "udloeber": "2026-11-05T11:35:23.359012+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 7,
     "sidste_kald": "2026-11-05T10:35:23.359012+00:00",
@@ -339,7 +326,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80195.4745,
+  "last_btc_price": 80266.0,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
