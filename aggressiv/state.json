@@ -254,30 +254,6 @@
         "pris_ved_nyhed": 351.71500000000003,
         "udloeber": "2026-11-05T16:49:07.484615+00:00"
       },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte nyhed om COIN i overskrifterne; kun indirekte relevans via tokenisering og teknologirotation.",
-        "tid": "2026-11-05T14:34:07.325759+00:00",
-        "pris_ved_nyhed": 148.89,
-        "udloeber": "2026-11-05T15:34:07.325759+00:00"
-      },
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen relevant nyhed i overskrifterne for MSTR.",
-        "tid": "2026-11-05T14:34:07.325759+00:00",
-        "pris_ved_nyhed": 138.99,
-        "udloeber": "2026-11-05T15:34:07.325759+00:00"
-      },
       "NFLX": {
         "kilde": "nyhed",
         "symbol": "NFLX",
@@ -2126,8 +2102,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.72,
-    "snitpris": 666.94,
+    "pris": 659.5,
+    "snitpris": 666.43,
     "svag": true
   }
 }
