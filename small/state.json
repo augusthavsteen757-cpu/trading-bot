@@ -104,18 +104,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktien falder og giver tilbage efter earnings-beat og opgraderinger. Faldet er allerede i gang, sa momentum kan fortsaette kort, men meget kan vaere priset ind.",
-        "tid": "2026-11-05T17:49:51.008027+00:00",
-        "pris_ved_nyhed": 29.135,
-        "udloeber": "2026-11-05T19:49:51.008027+00:00"
-      },
       "RGTI": {
         "kilde": "nyhed",
         "symbol": "RGTI",
@@ -172,7 +160,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.625,
+  "last_btc_price": 4.675,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1824,8 +1812,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 271.63,
-    "snitpris": 275.41,
+    "pris": 272.51,
+    "snitpris": 275.36,
     "svag": true
   }
 }
