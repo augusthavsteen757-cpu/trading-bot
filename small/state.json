@@ -98,7 +98,7 @@
   "day_start_equity": 99424.05,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-05T14:46:45.019018+00:00",
+    "sidst_hentet": "2026-11-05T15:01:45.165252+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -170,7 +170,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.735,
+  "last_btc_price": 4.745,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
