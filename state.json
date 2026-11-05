@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75918.26000000001,
+  "last_btc_price": 76040.10800000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1989,18 +1989,6 @@
         "pris_ved_nyhed": 89.2189,
         "udloeber": "2026-11-05T20:34:32.026015+00:00"
       },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Tilbagetr\u00e6kning efter g\u00e5rsdagens rally er kendt; ingen ny fundamental information.",
-        "tid": "2026-11-05T18:34:32.026015+00:00",
-        "pris_ved_nyhed": 259.045,
-        "udloeber": "2026-11-05T19:34:32.026015+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -2322,7 +2310,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T19:19:30.929774+00:00",
+    "sidst_hentet": "2026-11-05T19:34:31.883416+00:00",
     "opslag": [
       {
         "id": "t3_1xoix7i",
@@ -2601,8 +2589,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.8,
-    "snitpris": 658.69,
+    "pris": 651.83,
+    "snitpris": 658.59,
     "svag": true
   }
 }
