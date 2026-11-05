@@ -294,56 +294,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ethereum steg med markedet efter valgresultatet; bredt risikoappetit kan fortsaette, men bevaegelsen er allerede sket.",
-        "tid": "2026-11-05T02:09:34.613382+00:00",
-        "pris_ved_nyhed": 2431.825,
-        "udloeber": "2026-11-05T04:09:34.613382+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Solana hoppede med hele krypto-markedet; positiv stemning, men kursen har allerede reageret.",
-        "tid": "2026-11-05T02:09:34.613382+00:00",
-        "pris_ved_nyhed": 96.16499999999999,
-        "udloeber": "2026-11-05T04:09:34.613382+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin har allerede passeret 81.000 USD og rallyet er synligt; analytikerens 'flip'-tese kan tr\u00e6kke yderligere kobere, men meget er allerede prisfastsat.",
-        "tid": "2026-11-05T02:09:34.613382+00:00",
-        "pris_ved_nyhed": 80735.58,
-        "udloeber": "2026-11-05T04:09:34.613382+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Dogecoin fulgte den generelle markedsbevaegelse; hoej beta, men uden ny specifik katalysator.",
-        "tid": "2026-11-05T02:09:34.613382+00:00",
-        "pris_ved_nyhed": 0.0771375,
-        "udloeber": "2026-11-05T04:09:34.613382+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-05T02:54:33.986622+00:00",
@@ -391,7 +342,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 80366.81450000001,
+  "last_btc_price": 80366.324,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
