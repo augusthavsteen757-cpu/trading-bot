@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.601249,
+  "budget_used": 0.613814,
   "version": 3,
   "learned": [],
   "pending": {
@@ -34,8 +34,8 @@
     ]
   },
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 13,
-  "ai_spend_today": 0.10570500000000005,
+  "ai_rounds_today": 15,
+  "ai_spend_today": 0.11827040000000005,
   "eq_day": "2026-11-05",
   "day_start_equity": 100111.82,
   "peak_equity": 100456.88,
@@ -87,9 +87,8 @@
     },
     "QQQ": {
       "orb_day": "2026-11-04",
-      "last_entry_eval": "2026-11-05T14:46:01.939208+00:00",
+      "last_entry_eval": "2026-11-05T15:05:45.313086+00:00",
       "last_entry_setups": [
-        "nyhed_op",
         "range_bund"
       ],
       "last_hold_review": "2026-11-04T14:58:36.977522+00:00",
@@ -153,8 +152,8 @@
         "nyhed_op"
       ],
       "orb_day": "2026-11-04",
-      "last_hold_review": "2026-11-04T15:09:10.365127+00:00",
-      "last_review_price": 270.5,
+      "last_hold_review": "2026-11-05T15:06:01.305505+00:00",
+      "last_review_price": 260.54,
       "pos": {
         "entry": 262.28999999999996,
         "stop": 254.87,
@@ -219,7 +218,7 @@
       ]
     }
   },
-  "last_btc_price": 78064.47,
+  "last_btc_price": 77558.3095,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
