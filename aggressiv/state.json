@@ -82,7 +82,7 @@
         "entry": 31.365000000000002,
         "stop": 29.235,
         "stop_initial": 29.235,
-        "high": 31.41,
+        "high": 31.5,
         "qty": 707.0,
         "entry_tid": "2026-11-05 14:55",
         "setup": "orb",
@@ -109,7 +109,7 @@
         "entry": 71.565,
         "stop": 68.20500000000001,
         "stop_initial": 68.20500000000001,
-        "high": 71.565,
+        "high": 72.19,
         "qty": 350.0,
         "entry_tid": "2026-11-05 14:55",
         "setup": "orb",
@@ -152,14 +152,14 @@
   "day_start_equity": 100439.99,
   "peak_equity": 101973.15,
   "reddit": {
-    "sidst_hentet": "2026-11-05T14:49:06.685982+00:00",
+    "sidst_hentet": "2026-11-05T15:05:21.796650+00:00",
     "opslag": [
       {
-        "id": "t3_1xnq9fs",
-        "tid": "2026-11-04T14:55:35+00:00",
-        "titel": "Thanks Elon TSLA 8.5K -> 38.6k",
+        "id": "t3_1xo0p7e",
+        "tid": "2026-11-04T21:37:07+00:00",
+        "titel": "-50K realized loss on APP.",
         "symboler": [
-          "TSLA"
+          "APP"
         ],
         "score": 0,
         "sub": "wallstreetbets"
