@@ -66,9 +66,9 @@
       "orb_day": "2026-11-03",
       "last_hold_review": "2026-11-03T15:03:02.949292+00:00",
       "last_review_price": 4.275,
-      "last_entry_eval": "2026-11-04T14:35:45.726990+00:00",
+      "last_entry_eval": "2026-11-05T14:36:58.656905+00:00",
       "last_entry_setups": [
-        "trend_pullback"
+        "range_bund"
       ]
     },
     "OUST": {
@@ -86,10 +86,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.1556,
+  "budget_used": 0.161128,
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.035216000000000004,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.0407435,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-05",
   "day_start_equity": 99424.05,
@@ -154,7 +154,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.075,
+  "last_btc_price": 4.965,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
