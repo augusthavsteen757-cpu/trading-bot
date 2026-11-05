@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75825.98300000001,
+  "last_btc_price": 75663.42050000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2166,7 +2166,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T22:19:55.559818+00:00",
+    "sidst_hentet": "2026-11-05T22:39:54.912422+00:00",
     "opslag": [
       {
         "id": "t3_1xotgbi",
@@ -2428,19 +2428,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo1toq",
-        "tid": "2026-11-04T22:22:41+00:00",
-        "titel": "How do we feel about Bitcoin side chain, and wallets like Xverse?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
