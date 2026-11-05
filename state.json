@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 79660.1415,
+  "last_btc_price": 79618.237,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2042,8 +2042,19 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T12:25:00.000713+00:00",
+    "sidst_hentet": "2026-11-05T12:44:59.595970+00:00",
     "opslag": [
+      {
+        "id": "t3_1xohd9i",
+        "tid": "2026-11-05T12:26:23+00:00",
+        "titel": "My conversation with Claude about all things Ethereum, from Vitalik's vision to competing with Bitcoin.",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xoer5n",
         "tid": "2026-11-05T09:54:20+00:00",
@@ -2305,6 +2316,6 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   }
 }
