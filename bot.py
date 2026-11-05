@@ -689,7 +689,8 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
             return True
     if pos.get("luk_foer_luk") and ny_time() >= (15, 50):  # ORB er en dagshandel: ud foer boersen lukker
         r_now = (price - pos["entry"]) / max(pos["entry"] - pos["stop_initial"], 1e-9)
-        if ORB_HOLD_WINNERS_R > 0 and r_now >= ORB_HOLD_WINNERS_R and pos.get("setup") == "orb":
+        if (ORB_HOLD_WINNERS_R > 0 and r_now >= ORB_HOLD_WINNERS_R and pos.get("setup") == "orb"
+                and coin not in state.get("scan", {}).get("alle", [])):  # raketter (ofte gearede ETF'er) er kun dagshandler
             # Stor vinder: behold den over natten som almindelig trend-handel med trailing stop.
             # Stoppet laases mindst halvvejs op i gevinsten, saa et fald i morgen ikke kan blive et tab.
             lock = pos["entry"] + 0.5 * (price - pos["entry"])
