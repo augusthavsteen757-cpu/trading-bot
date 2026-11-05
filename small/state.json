@@ -98,7 +98,7 @@
   "day_start_equity": 99424.05,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:24:53.661674+00:00",
+    "sidst_hentet": "2026-11-05T20:39:54.350401+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -1812,8 +1812,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 271.24,
-    "snitpris": 274.96,
+    "pris": 271.18,
+    "snitpris": 274.87,
     "svag": true
   }
 }
