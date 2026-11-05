@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.546343,
+  "budget_used": 0.552592,
   "version": 3,
   "learned": [],
   "pending": {
@@ -28,8 +28,8 @@
     ]
   },
   "ai_day": "2026-11-05",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.050799300000000006,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.057047900000000006,
   "eq_day": "2026-11-05",
   "day_start_equity": 100111.82,
   "peak_equity": 100456.88,
@@ -94,12 +94,12 @@
         "nyhed_op",
         "range_bund"
       ],
-      "plan": {
+      "pos": {
         "entry": 195.13,
         "stop": 190.25,
         "stop_initial": 190.25,
         "high": 195.13,
-        "qty": 0.0,
+        "qty": 8.0,
         "entry_tid": "2026-11-05 14:31",
         "setup": "nyhed_op",
         "regime": "high_vol",
@@ -115,9 +115,10 @@
           "afstand_modstand_atr": 5.63,
           "atr_percentil_30d": 99.7
         },
-        "invalidering": "Lukker under 195.06 stoetten med stigende volumen; eller nyheden viser sig ikke at loefte kursen og trenden forbliver ned.",
-        "plan_tid": "2026-11-05T14:31:32.572145+00:00"
-      }
+        "invalidering": "Lukker under 195.06 stoetten med stigende volumen; eller nyheden viser sig ikke at loefte kursen og trenden forbliver ned."
+      },
+      "last_hold_review": "2026-11-05T14:35:58.790283+00:00",
+      "last_review_price": 193.63
     },
     "AAPL": {
       "orb_day": "2026-11-04",
@@ -229,7 +230,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 79496.442,
+  "last_btc_price": 79371.208,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
