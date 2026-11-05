@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 79545.945,
+  "last_btc_price": 79598.869,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2067,7 +2067,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T13:15:29.820571+00:00",
+    "sidst_hentet": "2026-11-05T13:35:29.779187+00:00",
     "opslag": [
       {
         "id": "t3_1xohd9i",
@@ -2329,18 +2329,8 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xno993",
-        "tid": "2026-11-04T13:31:10+00:00",
-        "titel": "AMD just guided to more revenue next quarter than Intel. Ten years ago Intel was 12x its size",
-        "symboler": [
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   }
 }
