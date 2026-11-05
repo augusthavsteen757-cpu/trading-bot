@@ -188,68 +188,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ives' liste n\u00e6vner NVDA som vinder, men det er en analytikerpick uden ny indtjeningsdata. Lille positiv bias, sandsynligvis indpriset.",
-        "tid": "2026-11-05T16:49:29.395433+00:00",
-        "pris_ved_nyhed": 186.655,
-        "udloeber": "2026-11-05T18:49:29.395433+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Dan Ives-opslag er generel anbefaling, ikke ny fundamental nyhed. Svag kortsigtet effekt; kursen kan allerede reagere.",
-        "tid": "2026-11-05T16:49:29.395433+00:00",
-        "pris_ved_nyhed": 607.065,
-        "udloeber": "2026-11-05T18:49:29.395433+00:00"
-      },
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Artikel om aktionaerudvanding og svagere efterspoergsel. Kan presse MSTR ned hvis BTC konsoliderer; men artiklen er generel analyse, ikke ny konkret h\u00e6ndelse.",
-        "tid": "2026-11-05T16:49:29.395433+00:00",
-        "pris_ved_nyhed": 129.78,
-        "udloeber": "2026-11-05T18:49:29.395433+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "N\u00e6vnt i Ives-listen; svag omtale uden ny konkret nyhed for Tesla.",
-        "tid": "2026-11-05T16:49:29.395433+00:00",
-        "pris_ved_nyhed": 346.68,
-        "udloeber": "2026-11-05T18:49:29.395433+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "MSTR-artiklen om svagere krypto-efterspoergsel kan smitte over til COIN via krypto-sentiment, men sammenh\u00e6ngen er svag.",
-        "tid": "2026-11-05T16:49:29.395433+00:00",
-        "pris_ved_nyhed": 136.87,
-        "udloeber": "2026-11-05T18:49:29.395433+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-05T16:49:29.395433+00:00",
@@ -2070,8 +2009,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.75,
-    "snitpris": 659.75,
+    "pris": 651.9,
+    "snitpris": 659.64,
     "svag": true
   }
 }
