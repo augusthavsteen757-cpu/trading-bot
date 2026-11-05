@@ -146,7 +146,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.575,
+  "last_btc_price": 4.535,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1798,8 +1798,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.14,
-    "snitpris": 277.69,
+    "pris": 274.11,
+    "snitpris": 277.6,
     "svag": true
   }
 }
