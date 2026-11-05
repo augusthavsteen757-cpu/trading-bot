@@ -28,8 +28,38 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T13:25:23.654856+00:00",
+    "sidst_hentet": "2026-11-05T13:45:23.116879+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoix7i",
+        "tid": "2026-11-05T13:41:15+00:00",
+        "titel": "What will happen to BTC in the next 2 years?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoiw06",
+        "tid": "2026-11-05T13:39:43+00:00",
+        "titel": "Bitcoin future?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xoiu5j",
+        "tid": "2026-11-05T13:37:23+00:00",
+        "titel": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xohd9i",
         "tid": "2026-11-05T12:26:23+00:00",
@@ -260,19 +290,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnocue",
-        "tid": "2026-11-04T13:35:43+00:00",
-        "titel": "339k BTC moved at a loss last week... twice a normal week.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -353,7 +373,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 79622.765,
+  "last_btc_price": 79717.695,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart"
 }
