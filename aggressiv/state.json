@@ -132,7 +132,7 @@
   "day_start_equity": 100439.99,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T16:44:29.033574+00:00",
+    "sidst_hentet": "2026-11-05T16:59:30.434718+00:00",
     "opslag": [
       {
         "id": "t3_1xon2z7",
@@ -240,18 +240,6 @@
         "tid": "2026-11-05T16:39:28.438111+00:00",
         "pris_ved_nyhed": 353.36,
         "udloeber": "2026-11-05T18:39:28.438111+00:00"
-      },
-      "AEHL": {
-        "kilde": "nyhed",
-        "symbol": "AEHL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Aktien er stoppet af circuit breaker efter +108%. Momentum kan forts\u00e6tte ved genopstart, men kursen er allerede steget markant, og risikoen for h\u00e5rde udsving er stor.",
-        "tid": "2026-11-05T15:54:28.839029+00:00",
-        "pris_ved_nyhed": 13.07,
-        "udloeber": "2026-11-05T16:54:28.839029+00:00"
       },
       "MSTR": {
         "kilde": "nyhed",
@@ -2110,8 +2098,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.02,
-    "snitpris": 661.35,
+    "pris": 657.86,
+    "snitpris": 661.31,
     "svag": true
   }
 }
