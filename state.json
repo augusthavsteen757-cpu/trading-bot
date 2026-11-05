@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80339.49650000001,
+  "last_btc_price": 80336.9,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2055,8 +2055,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T07:35:00.185770+00:00",
+    "sidst_hentet": "2026-11-05T07:55:00.030833+00:00",
     "opslag": [
+      {
+        "id": "t3_1xocx1t",
+        "tid": "2026-11-05T07:51:14+00:00",
+        "titel": "Since he\u2019s family, I told him what I really thought and why to hold some Bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xoafvg",
         "tid": "2026-11-05T05:17:56+00:00",
@@ -2339,6 +2349,6 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   }
 }
