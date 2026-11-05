@@ -1114,7 +1114,7 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                       room) * brake_factor()[0]
             rec["orb"] = info
             bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "orb", 3, f"ORB breakout {info}", row,
-                                   target=target, luk_foer_luk=True)
+                                   target=None if raket else target, luk_foer_luk=True)  # raketter: intet loft, VWAP-reglen saelger
             if bought > 0:
                 row.update(handling="KOEB (ORB)", antal=round(bought, 6), usd=round(bought * price, 2),
                            stop_loss=round(stop, 2), ai_koert="nej (ORB er ren regel)",
