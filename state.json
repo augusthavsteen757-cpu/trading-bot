@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75889.8915,
+  "last_btc_price": 75978.164,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1857,18 +1857,6 @@
         "pris_ved_nyhed": 76055.9995,
         "udloeber": "2026-11-05T21:14:31.455499+00:00"
       },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "S&P 500 mod vaerste dag siden april 2025; uklar retning efter stort fald.",
-        "tid": "2026-11-05T18:19:32.523720+00:00",
-        "pris_ved_nyhed": 736.735,
-        "udloeber": "2026-11-05T20:19:32.523720+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1904,18 +1892,6 @@
         "tid": "2026-11-05T17:39:31.105319+00:00",
         "pris_ved_nyhed": 540.3499999999999,
         "udloeber": "2026-11-05T20:39:31.105319+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Chipaktier faldt kraftigt; yderligere fald eller lettelse afhaengig af stemningen.",
-        "tid": "2026-11-05T18:19:32.523720+00:00",
-        "pris_ved_nyhed": 412.985,
-        "udloeber": "2026-11-05T20:19:32.523720+00:00"
       },
       "EQIX": {
         "kilde": "nyhed",
@@ -2310,7 +2286,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:04:33.920319+00:00",
+    "sidst_hentet": "2026-11-05T20:24:31.291637+00:00",
     "opslag": [
       {
         "id": "t3_1xoix7i",
@@ -2589,8 +2565,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.77,
-    "snitpris": 658.22,
+    "pris": 652.24,
+    "snitpris": 658.17,
     "svag": true
   }
 }
