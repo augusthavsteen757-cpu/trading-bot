@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76067.305,
+  "last_btc_price": 76091.88,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1869,18 +1869,6 @@
         "pris_ved_nyhed": 183.77499999999998,
         "udloeber": "2026-11-05T22:14:31.455499+00:00"
       },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA er en stor vaegt i QQQ, saa en mulig genopretning i NVDA smitter lidt af paa indekset.",
-        "tid": "2026-11-05T18:59:34.580714+00:00",
-        "pris_ved_nyhed": 652.825,
-        "udloeber": "2026-11-05T20:59:34.580714+00:00"
-      },
       "EQIX": {
         "kilde": "nyhed",
         "symbol": "EQIX",
@@ -1916,18 +1904,6 @@
         "tid": "2026-11-05T19:14:31.455499+00:00",
         "pris_ved_nyhed": 176.445,
         "udloeber": "2026-11-05T22:14:31.455499+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stor obligationsefterspoergsel signalerer tillid til Apples balance, men det er finansiering, ikke indtjening; begraenset direkte kursvirkning.",
-        "tid": "2026-11-05T18:59:34.580714+00:00",
-        "pris_ved_nyhed": 343.46000000000004,
-        "udloeber": "2026-11-05T20:59:34.580714+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2250,7 +2226,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:39:31.883357+00:00",
+    "sidst_hentet": "2026-11-05T20:59:56.599498+00:00",
     "opslag": [
       {
         "id": "t3_1xoix7i",
@@ -2529,8 +2505,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 650.22,
-    "snitpris": 657.06,
+    "pris": 651.63,
+    "snitpris": 656.46,
     "svag": true
   }
 }
