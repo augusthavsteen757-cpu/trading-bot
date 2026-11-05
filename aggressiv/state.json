@@ -219,18 +219,6 @@
         "pris_ved_nyhed": 162.025,
         "udloeber": "2026-11-05T17:34:07.325759+00:00"
       },
-      "HOOD": {
-        "kilde": "nyhed",
-        "symbol": "HOOD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMC-CEO kritiserer Robinhoods tokenisering og peger paa nye SEC-regler, hvilket kan skabe usikkerhed omkring deres tokeniseringsprojekter.",
-        "tid": "2026-11-05T14:34:07.325759+00:00",
-        "pris_ved_nyhed": 84.855,
-        "udloeber": "2026-11-05T16:34:07.325759+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -2097,8 +2085,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.94,
-    "snitpris": 661.59,
+    "pris": 661.31,
+    "snitpris": 661.54,
     "svag": true
   }
 }
