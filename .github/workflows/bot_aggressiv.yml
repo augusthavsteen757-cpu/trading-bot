@@ -60,13 +60,13 @@ jobs:
           BENCHMARK: QQQ
           MARKET_FILTER: ${{ vars.MARKET_FILTER_AGGRESSIV || 'QQQ' }}  # handl med markedet: ingen nye aktiekoeb naar QQQ er under dagens snitpris ('none' = slaa fra)
           # --- Det der goer botten aggressiv (hoved-botten i parentes) ---
-          RISK_PER_TRADE_PCT: ${{ vars.AGGRESSIV_RISK_PER_TRADE_PCT || '0.015' }}     # tab ved stop max 1,5 % af kontoen (0,5 %)
-          MAX_POSITION_PCT: ${{ vars.AGGRESSIV_MAX_POSITION_PCT || '0.30' }}          # op til 30 % i en aktie (15 %)
+          RISK_PER_TRADE_PCT: ${{ vars.AGGRESSIV_RISK_PER_TRADE_PCT || '0.025' }}     # tab ved stop max 2,5 % af kontoen (0,5 %)
+          MAX_POSITION_PCT: ${{ vars.AGGRESSIV_MAX_POSITION_PCT || '0.40' }}          # op til 40 % i en aktie (15 %)
           MAX_TOTAL_EXPOSURE_PCT: ${{ vars.AGGRESSIV_MAX_TOTAL_EXPOSURE_PCT || '0.90' }}  # max 90 % investeret (40 %)
           BREAKEVEN_AT_R: '1.5'      # stop flyttes til koebsprisen ved +1,5x risikoen (1x)
           TRAIL_ATR_MULT: '3.5'      # loesere trailing stop, vinderne faar lov at loebe (2,5)
           ORB_TARGET_R: '3.0'        # aabnings-handel: gevinstmaal 3x risikoen (2x)
-          ORB_MAX_POSITION_PCT: '0.25'   # aabnings-handel: op til 25 % (10 %)
+          ORB_MAX_POSITION_PCT: '0.40'   # aabnings-handel: op til 40 % (10 %)
           ORB_TIME_STOP_MIN: '90'    # aabnings-handel: 90 min til at komme i plus (60)
           ORB_HOLD_WINNERS_R: '1.0'  # aabnings-handel der er +1R ved lukketid beholdes over natten med laast stop (saelges altid)
           ORB_BREAKEVEN_R: '1.0'     # aabnings-handel: stop flyttes foerst til koebsprisen ved +1R, saa den har plads (0,5)
