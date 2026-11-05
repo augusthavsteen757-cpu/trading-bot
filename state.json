@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75977.27350000001,
+  "last_btc_price": 75998.1,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2166,7 +2166,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T21:59:55.135907+00:00",
+    "sidst_hentet": "2026-11-05T22:19:55.559818+00:00",
     "opslag": [
       {
         "id": "t3_1xotgbi",
@@ -2438,19 +2438,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo1gme",
-        "tid": "2026-11-04T22:07:56+00:00",
-        "titel": "Solo-built a Solana trading app, 616 visits last month, 4 signups. What would make you actually register?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
