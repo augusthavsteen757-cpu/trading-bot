@@ -662,6 +662,13 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
         close_trade(brain, state, cs, coin, price, "stop (software)")
         row.update(handling="STOP-LOSS SALG", antal=round(qty, 6))
         return True
+    if (f.get("vwap") and f.get("sidste_5m_luk") and f["sidste_5m_luk"] < f["vwap"] and price < f["vwap"]
+            and str(pos.get("entry_tid", "")).startswith(now().strftime("%Y-%m-%d"))):
+        # Raket der vender: en hel 5-min-periode lukker under dagens snitpris = saelgerne har taget over. Ud med det samme.
+        broker.sell_all(coin)
+        close_trade(brain, state, cs, coin, price, "raket vendt (under dagens snitpris)")
+        row.update(handling="SALG (raket vendt)", antal=round(qty, 6))
+        return True
     if pos.get("target") and price >= pos["target"]:  # ORB: tag gevinst ved maalet
         broker.sell_all(coin)
         close_trade(brain, state, cs, coin, price, "maal naaet")
@@ -982,6 +989,20 @@ def ny_time():
     return (t.hour, t.minute)
 
 
+def vwap_today(m5):
+    """Dagens snitpris (VWAP): gennemsnitsprisen vaegtet med hvor meget der er handlet, fra 9:30 New York-tid.
+    Over snitprisen = koeberne styrer (stiger). Under = saelgerne styrer (falder). Returnerer (vwap, sidste lukkede 5m-luk)."""
+    from zoneinfo import ZoneInfo
+    ny = ZoneInfo("America/New_York")
+    d = ny_now().date()
+    today = [b for b in m5 if b["t"].astimezone(ny).date() == d and (b["t"].astimezone(ny).hour, b["t"].astimezone(ny).minute) >= (9, 30)]
+    vol = sum(b["v"] for b in today)
+    if not today or vol <= 0:
+        return None, None
+    closed = [b for b in today if b["t"] + timedelta(minutes=5) <= now()]
+    return sum((b["h"] + b["l"] + b["c"]) / 3 * b["v"] for b in today) / vol, (closed[-1]["c"] if closed else None)
+
+
 def orb_signal(m5, price):
     """Opening range breakout (ren regel, ingen AI). Range = de 3 foerste 5m-bars (9:30-9:45 New York-tid).
     Koeb naar sidste lukkede 5m-bar lukker over toppen, og prisen ikke er loebet mere end en halv range vaek.
@@ -1020,6 +1041,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         state["last_btc_price"] = price
     state.setdefault("start_equity", equity)
     row.update(pris=round(price, 4 if price < 10 else 2), regime=f["regime"], setups=" ".join(f["setups"]))
+    raket = is_stock(coin) and coin in state.get("scan", {}).get("alle", [])
+    if raket and not TEST_MODE:
+        f["vwap"], f["sidste_5m_luk"] = vwap_today(m5)
 
     qty = broker.position_qty(coin)
     if broker.paper_only and cs.get("pos"):  # test/dry: ingen rigtig position, brug state
@@ -1034,6 +1058,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     action = row.get("handling") or ("HOLD (position)" if holding else "HOLD")
     if coin in ORB_SYMBOLS and not holding and not closed and coin_can_buy and cs.get("orb_day") != ny_now().date().isoformat():
         sig = orb_signal(m5, price)
+        if sig and raket and f.get("vwap") and price < f["vwap"]:  # raket under dagens snitpris: den er ved at falde
+            row["note"] = f"ORB-signal, men raketten er under dagens snitpris ({f['vwap']:.2f})"
+            sig = None
         if sig:  # planen: ingen ORB ved regnskab, stor negativ nyhed eller staerk negativ nyhedsjaeger-vurdering
             nb, _, ng = newsguard.check(coin, True, state, TEST_MODE)
             nb = nb or newsguard.signal_for(state, coin, price)[1]
