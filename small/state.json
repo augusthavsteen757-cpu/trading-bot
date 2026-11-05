@@ -89,10 +89,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.172744,
+  "budget_used": 0.172944,
   "ai_day": "2026-11-05",
   "ai_rounds_today": 9,
-  "ai_spend_today": 0.052359900000000015,
+  "ai_spend_today": 0.05256030000000002,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-05",
   "day_start_equity": 99424.05,
@@ -104,43 +104,44 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ONDS": {
+      "OUST": {
         "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
+        "symbol": "OUST",
+        "retning": "ned",
         "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Opkoeb af flyproducent og produktionsopskalering signalerer vaekst i ISR-droner. Overraskende nok for markedet, men kan allerede vaere delvist prisat ved kursen.",
-        "tid": "2026-11-05T14:46:46.157264+00:00",
-        "pris_ved_nyhed": 4.865,
-        "udloeber": "2026-11-05T17:46:46.157264+00:00"
+        "allerede_i_prisen": true,
+        "gyldig_timer": 2,
+        "begrundelse": "Aktien falder og giver tilbage efter earnings-beat og opgraderinger. Faldet er allerede i gang, sa momentum kan fortsaette kort, men meget kan vaere priset ind.",
+        "tid": "2026-11-05T17:49:51.008027+00:00",
+        "pris_ved_nyhed": 29.135,
+        "udloeber": "2026-11-05T19:49:51.008027+00:00"
       }
     },
     "dag": "2026-11-05",
-    "kald_i_dag": 2,
-    "sidste_kald": "2026-11-05T14:46:46.157264+00:00",
+    "kald_i_dag": 3,
+    "sidste_kald": "2026-11-05T17:49:51.008027+00:00",
     "set_ids": [
-      "62865275",
-      "62880521",
-      "112725797",
-      "62832219",
-      "62917077",
-      "62864193",
-      "62856684",
-      "62885636",
       "62912448",
-      "112724524",
-      "62870343",
-      "62857002",
-      "62863042",
-      "111491028",
-      "62884978",
-      "62858783",
-      "62820584",
+      "62880521",
       "62816393",
+      "62870343",
+      "62820584",
+      "62832219",
+      "62858783",
+      "111491028",
+      "62863042",
+      "62856684",
       "113112808",
-      "113966243"
+      "112725797",
+      "62917077",
+      "62857002",
+      "62885636",
+      "112724524",
+      "62884978",
+      "113966243",
+      "62864193",
+      "62865275",
+      "62938230"
     ]
   },
   "start_equity": 100000.0,
@@ -1798,8 +1799,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 271.96,
-    "snitpris": 276.82,
+    "pris": 271.83,
+    "snitpris": 276.62,
     "svag": true
   }
 }
