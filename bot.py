@@ -61,6 +61,9 @@ ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. 
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
+SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
+SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
+SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
 ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
 COINS = CRYPTO + STOCKS  # alle handlede symboler; aktier har ingen "/" og handles kun naar boersen er aaben
@@ -879,11 +882,54 @@ def exposure(state):
     return sum(v["pos"]["entry"] * v["pos"].get("qty", 0) for v in state["coins"].values() if v.get("pos"))
 
 
+def scan_gainers(state, stocks_open):
+    """Dagens raketter: henter Alpacas liste over dagens stoerste stigere (gratis, intet AI-kald).
+    Kun aktier over SCAN_MIN_PRICE, steget mindst SCAN_MIN_PCT %, og blandt de 100 mest handlede (saa de er nemme
+    at koebe og saelge). Listen bygges 9:35-11:00 New York-tid og holdes resten af dagen. Aabne positioner fra
+    tidligere scanninger handles altid videre, saa de aldrig mister deres stop-styring."""
+    scan = state.setdefault("scan", {})
+    held = [c for c, v in state["coins"].items() if v.get("pos") and is_stock(c) and c in scan.get("alle", [])]
+    if SCAN_GAINERS <= 0 or TEST_MODE:
+        return held
+    day = ny_now().date().isoformat()
+    if scan.get("dag") != day:
+        scan.update(dag=day, syms=[], sidst="")
+    t = ny_time()
+    due = not scan.get("sidst") or (now() - datetime.fromisoformat(scan["sidst"])).total_seconds() >= 600
+    if stocks_open and (9, 35) <= t <= (11, 0) and due and len(scan["syms"]) < SCAN_GAINERS:
+        scan["sidst"] = now().isoformat()
+        try:
+            h = {"APCA-API-KEY-ID": os.getenv("ALPACA_API_KEY", ""), "APCA-API-SECRET-KEY": os.getenv("ALPACA_SECRET_KEY", "")}
+            base = "https://data.alpaca.markets/v1beta1/screener/stocks"
+            gainers = requests.get(f"{base}/movers", params={"top": 50}, headers=h, timeout=15).json().get("gainers", [])
+            active = {x["symbol"] for x in requests.get(f"{base}/most-actives", params={"by": "trades", "top": 100},
+                                                         headers=h, timeout=15).json().get("most_actives", [])}
+            found = []
+            for g in gainers:
+                sym = str(g.get("symbol", "")).upper()
+                if (sym.isalpha() and sym in active and sym not in STOCKS and sym not in scan["syms"]
+                        and float(g.get("price") or 0) >= SCAN_MIN_PRICE and float(g.get("percent_change") or 0) >= SCAN_MIN_PCT):
+                    found.append(f"{sym} +{float(g['percent_change']):.0f}%")
+                    scan["syms"].append(sym)
+                    if len(scan["syms"]) >= SCAN_GAINERS:
+                        break
+            scan["alle"] = sorted(set(scan.get("alle", [])) | set(scan["syms"]))[-60:]
+            print("Raket-scanner:", ", ".join(found) or "ingen nye")
+        except Exception as e:  # scanneren maa aldrig stoppe botten
+            print("Raket-scanner fejlede:", type(e).__name__, str(e)[:100])
+    return list(dict.fromkeys(scan["syms"] + held))
+
+
 def run_round(state, brain):
     broker = Broker()
     equity = broker.equity()
     can_buy, block, day_pnl, dd = risk_gate(state, equity)
     stocks_open = broker.market_open() if STOCKS else False
+    for sym in reversed(scan_gainers(state, stocks_open)):  # raketter foerst, saa de faar pengene foer de faste aktier
+        for lst in (COINS, STOCKS, ORB_SYMBOLS):
+            if sym in lst:
+                lst.remove(sym)
+            lst.insert(0, sym)
     news_syms = CRYPTO + (STOCKS if stocks_open else [])  # krypto doegnet rundt, aktier kun naar boersen er aaben
     if news_syms:  # Reddit-snak: gratis, intet AI-kald, kun ekstra info til Chef og nyhedsjaeger
         try:
