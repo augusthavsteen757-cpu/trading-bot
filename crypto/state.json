@@ -305,20 +305,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften er en meningsartikel om langsigtet bipartisk opbakning, ikke en konkret katalysator. Svag positiv stemning, men lille kortsigtig effekt sandsynligt.",
-        "tid": "2026-11-05T14:30:23.552937+00:00",
-        "pris_ved_nyhed": 79463.975,
-        "udloeber": "2026-11-05T16:30:23.552937+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-05",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-05T14:30:23.552937+00:00",
@@ -373,7 +360,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76779.2015,
+  "last_btc_price": 76727.3165,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
