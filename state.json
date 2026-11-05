@@ -200,7 +200,7 @@
     "EQIX": {},
     "DLR": {}
   },
-  "last_btc_price": 80378.487,
+  "last_btc_price": 80314.012,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2042,8 +2042,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-05T09:45:00.212789+00:00",
+    "sidst_hentet": "2026-11-05T10:04:59.900756+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoer5n",
+        "tid": "2026-11-05T09:54:20+00:00",
+        "titel": "Is holding 2 BTC enough to potentially retire someday? If so, what year?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xocx1t",
         "tid": "2026-11-05T07:51:14+00:00",
@@ -2295,6 +2305,6 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   }
 }
