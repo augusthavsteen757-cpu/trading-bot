@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-05T16:15:47.024224+00:00",
+    "sidst_hentet": "2026-11-05T16:35:46.098572+00:00",
     "opslag": [
       {
         "id": "t3_1xom91c",
@@ -280,29 +280,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnsj2q",
-        "tid": "2026-11-04T16:24:17+00:00",
-        "titel": "India\u2019s first Bitcoin-backed INR lending platform is now live (pilot)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xnscq6",
-        "tid": "2026-11-04T16:17:28+00:00",
-        "titel": "Elias Rohrer, instagibbs, darosior & more - Bitcoin Optech Newsletter #429 Recap",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -360,7 +340,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76727.3165,
+  "last_btc_price": 76791.00399999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
