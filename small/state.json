@@ -131,9 +131,20 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T16:31:56.709281+00:00",
-    "opslag": [],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
+    "sidst_hentet": "2026-11-06T16:51:56.892692+00:00",
+    "opslag": [
+      {
+        "id": "t3_1xphn50",
+        "tid": "2026-11-06T16:48:29+00:00",
+        "titel": "$ SOUN could it? Share and like if you think so. If your not sure Google and take a look yourself. Shorts struggling to ",
+        "symboler": [
+          "SOUN"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      }
+    ],
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -185,7 +196,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.175,
+  "last_btc_price": 5.165,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1841,8 +1852,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.51,
-    "snitpris": 272.28,
+    "pris": 273.62,
+    "snitpris": 272.3,
     "svag": false
   }
 }
