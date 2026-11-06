@@ -56,9 +56,10 @@ jobs:
           STOCKS: none
           BENCHMARK: BTC/USD
           # --- AGGRESSIV (brugeren valgte 3. nov aften). Hoved-botten i parentes ---
-          RISK_PER_TRADE_PCT: ${{ vars.CRYPTO_RISK_PER_TRADE_PCT || '0.015' }}     # tab ved stop max 1,5 % af kontoen (0,5 %)
-          MAX_POSITION_PCT: ${{ vars.CRYPTO_MAX_POSITION_PCT || '0.30' }}          # op til 30 % i en coin (15 %)
+          RISK_PER_TRADE_PCT: ${{ vars.CRYPTO_RISK_PER_TRADE_PCT || '0.025' }}     # tab ved stop max 2,5 % af kontoen (0,5 %)
+          MAX_POSITION_PCT: ${{ vars.CRYPTO_MAX_POSITION_PCT || '0.40' }}          # op til 40 % i en coin (15 %)
           MAX_TOTAL_EXPOSURE_PCT: ${{ vars.CRYPTO_MAX_TOTAL_EXPOSURE_PCT || '0.90' }}  # max 90 % investeret (40 %)
+          CRYPTO_MIN_ROOM_PCT: ${{ vars.CRYPTO_MIN_ROOM_PCT || '0.015' }}  # mindst 1,5 % op til modstand (3 x gebyret) foer koeb (3 %)
           BREAKEVEN_AT_R: '1.5'      # stop til koebsprisen ved +1,5x risikoen (1x)
           TRAIL_ATR_MULT: '3.5'      # loesere trailing stop, vinderne faar lov at loebe (2,5)
           STRATEGY_STYLE: "Du styrer den AGGRESSIVE krypto-bot. Maalet er store gevinster: gaa efter de staerkeste bevaegelser (breakout med hoej volumen, staerk optrend paa flere tidsrammer, positive nyheder med momentum), og koeb hellere faa store handler end mange smaa. Gebyret er ca. 0,5 % pr. tur, saa kraev mindst 2R plads til naeste modstand. Giv hoej conviction (4-5) naar tingene flugter. Undgaa svage, uklare setups og nedtrend helt."
