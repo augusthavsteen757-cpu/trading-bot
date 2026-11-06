@@ -315,20 +315,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Core Scientific forlader bitcoin-mining mod AI-datacentre; mindre hashrate-efterspoergsel, men kun indirekte paavirkning paa BTC-kursen.",
-        "tid": "2026-11-06T07:11:37.968651+00:00",
-        "pris_ved_nyhed": 75355.7795,
-        "udloeber": "2026-11-06T09:11:37.968651+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-06T08:17:05.757687+00:00",
@@ -395,7 +382,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75884.04999999999,
+  "last_btc_price": 75899.79149999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
