@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T15:37:00.474506+00:00",
+    "sidst_hentet": "2026-11-06T15:56:59.213869+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpg3e3",
+        "tid": "2026-11-06T15:47:58+00:00",
+        "titel": "May I ask for the Telegram link of the BTC investment discussion group\uff1f",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xpejgx",
         "tid": "2026-11-06T14:44:59+00:00",
@@ -249,39 +259,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xom91c",
-        "tid": "2026-11-05T15:56:44+00:00",
-        "titel": "What would happen when banks create Bitcoin backed currency?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xom43k",
-        "tid": "2026-11-05T15:51:11+00:00",
-        "titel": "Solana Changelog: November 5, 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xolsia",
-        "tid": "2026-11-05T15:38:12+00:00",
-        "titel": "For you scared BTC hodlers",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -355,7 +335,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75725.705,
+  "last_btc_price": 75681.7515,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
