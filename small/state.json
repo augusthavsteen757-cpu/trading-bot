@@ -6,13 +6,63 @@
       "last_entry_eval": "2026-11-05T14:51:48.938426+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 4.9350000000000005,
+        "stop": 4.744999999999999,
+        "stop_initial": 4.744999999999999,
+        "high": 4.9350000000000005,
+        "qty": 2014.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 4.89, 'or_low': 4.6, 'sidste_luk': 4.91}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 43.3,
+          "adx_1h": 47.9,
+          "rel_volumen_1h": 0.5,
+          "afstand_modstand_atr": 4.36,
+          "atr_percentil_30d": 98.3
+        },
+        "target": 5.315000000000003,
+        "luk_foer_luk": true
+      }
     },
     "RCAT": {
       "last_entry_eval": "2026-11-05T14:32:05.473303+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 3.705,
+        "stop": 3.555,
+        "stop_initial": 3.555,
+        "high": 3.705,
+        "qty": 2683.0,
+        "entry_tid": "2026-11-06 14:52",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 3.64, 'or_low': 3.47, 'sidste_luk': 3.7}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 40.4,
+          "adx_1h": 46.8,
+          "rel_volumen_1h": 0.49,
+          "afstand_modstand_atr": 2.61,
+          "atr_percentil_30d": 98.4
+        },
+        "target": 4.005,
+        "luk_foer_luk": true
+      }
     },
     "UMAC": {
       "last_entry_eval": "2026-11-03T14:33:34.228073+00:00",
@@ -41,16 +91,65 @@
       "last_entry_eval": "2026-11-05T14:32:33.119864+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 5.885,
+        "stop": 5.7675,
+        "stop_initial": 5.7675,
+        "high": 5.885,
+        "qty": 1689.0,
+        "entry_tid": "2026-11-06 14:52",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 5.84, 'or_low': 5.7, 'sidste_luk': 5.87}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 43.2,
+          "adx_1h": 26.5,
+          "rel_volumen_1h": 1.27,
+          "afstand_modstand_atr": 3.13,
+          "atr_percentil_30d": 98.2
+        },
+        "target": 6.119999999999999,
+        "luk_foer_luk": true
+      }
     },
     "RGTI": {
       "last_entry_eval": "2026-11-05T14:32:45.642618+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04",
+      "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-04T15:20:14.498311+00:00",
-      "last_review_price": 11.475000000000001
+      "last_review_price": 11.475000000000001,
+      "pos": {
+        "entry": 10.629999999999999,
+        "stop": 10.335,
+        "stop_initial": 10.335,
+        "high": 10.629999999999999,
+        "qty": 935.0,
+        "entry_tid": "2026-11-06 14:52",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 10.58, 'or_low': 10.09, 'sidste_luk': 10.65}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 50.9,
+          "adx_1h": 27.3,
+          "rel_volumen_1h": 0.93,
+          "afstand_modstand_atr": 1.92,
+          "atr_percentil_30d": 98.2
+        },
+        "target": 11.219999999999995,
+        "luk_foer_luk": true
+      }
     },
     "LUNR": {
       "last_entry_eval": "2026-11-05T14:32:55.775589+00:00",
@@ -175,7 +274,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.905,
+  "last_btc_price": 4.9350000000000005,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1831,8 +1930,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 272.03,
-    "snitpris": 271.45,
+    "pris": 272.44,
+    "snitpris": 271.67,
     "svag": false
   }
 }
