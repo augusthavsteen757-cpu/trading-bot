@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75611.458,
+  "last_btc_price": 75624.285,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2166,8 +2166,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T08:40:47.446616+00:00",
+    "sidst_hentet": "2026-11-06T09:00:47.863887+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp7wfz",
+        "tid": "2026-11-06T08:41:15+00:00",
+        "titel": "Infinite Minds, Finite Coins. AI Abundance vs. Digital Scarcity: Why Machine Intelligence Drives Capital Toward a $1 Mil",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp7vrk",
         "tid": "2026-11-06T08:40:04+00:00",
@@ -2410,7 +2420,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
