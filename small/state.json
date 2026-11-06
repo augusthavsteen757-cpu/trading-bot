@@ -163,8 +163,8 @@
         "range_bund"
       ],
       "orb_day": "2026-11-06",
-      "last_hold_review": "2026-11-03T15:08:00.396205+00:00",
-      "last_review_price": 10.434999999999999,
+      "last_hold_review": "2026-11-06T15:22:15.851172+00:00",
+      "last_review_price": 9.66,
       "pos": {
         "entry": 9.66,
         "stop": 9.125,
@@ -218,10 +218,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.207166,
+  "budget_used": 0.21286,
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.0339572,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.0396511,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-06",
   "day_start_equity": 99423.83,
@@ -304,7 +304,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.045,
+  "last_btc_price": 5.035,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1960,8 +1960,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.32,
-    "snitpris": 271.87,
+    "pris": 273.18,
+    "snitpris": 272.02,
     "svag": false
   }
 }
