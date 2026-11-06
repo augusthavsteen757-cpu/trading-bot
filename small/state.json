@@ -82,7 +82,7 @@
         "entry": 4.145,
         "stop": 4.145,
         "stop_initial": 3.965,
-        "high": 4.31,
+        "high": 4.33,
         "qty": 2399.0,
         "entry_tid": "2026-11-06 15:32",
         "setup": "orb",
@@ -131,7 +131,7 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T19:07:30.363100+00:00",
+    "sidst_hentet": "2026-11-06T19:22:31.107459+00:00",
     "opslag": [
       {
         "id": "t3_1xphn50",
@@ -1877,8 +1877,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.05,
-    "snitpris": 272.86,
+    "pris": 273.93,
+    "snitpris": 272.87,
     "svag": false
   }
 }
