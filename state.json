@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75973.23000000001,
+  "last_btc_price": 76066.15,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2178,8 +2178,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T10:10:47.791255+00:00",
+    "sidst_hentet": "2026-11-06T10:30:48.172592+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp9g5q",
+        "tid": "2026-11-06T10:22:11+00:00",
+        "titel": "Bitcoin's proof of work began as a 1997 plan to put spammers out of business:",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xp9e0b",
+        "tid": "2026-11-06T10:18:20+00:00",
+        "titel": "Bitcoin Core 32.1, Lightning security fixes, and a question for node operators",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp8zsk",
         "tid": "2026-11-06T09:53:46+00:00",
@@ -2432,7 +2452,7 @@
         "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
