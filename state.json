@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76232.6,
+  "last_btc_price": 76286.18900000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2190,8 +2190,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T00:29:55.247505+00:00",
+    "sidst_hentet": "2026-11-06T00:44:55.274028+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoz1xs",
+        "tid": "2026-11-06T00:31:13+00:00",
+        "titel": "Happy Gunpowder Treason Day Bitcoin!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xoxosi",
         "tid": "2026-11-05T23:29:39+00:00",
@@ -2444,7 +2454,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
