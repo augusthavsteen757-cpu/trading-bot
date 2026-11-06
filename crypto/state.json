@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T10:21:25.599623+00:00",
+    "sidst_hentet": "2026-11-06T10:41:25.043088+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp9g5q",
+        "tid": "2026-11-06T10:22:11+00:00",
+        "titel": "Bitcoin's proof of work began as a 1997 plan to put spammers out of business:",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp9e0b",
         "tid": "2026-11-06T10:18:20+00:00",
@@ -322,7 +332,7 @@
         "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -418,7 +428,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76144.8845,
+  "last_btc_price": 76109.155,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
