@@ -83,13 +83,37 @@
       }
     },
     "QQQ": {
-      "orb_day": "2026-11-04",
+      "orb_day": "2026-11-06",
       "last_entry_eval": "2026-11-06T14:31:47.154343+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
       "last_hold_review": "2026-11-04T14:58:36.977522+00:00",
-      "last_review_price": 696.765
+      "last_review_price": 696.765,
+      "pos": {
+        "entry": 663.8299999999999,
+        "stop": 658.44,
+        "stop_initial": 658.44,
+        "high": 663.8299999999999,
+        "qty": 15.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 661.63, 'or_low': 655.25, 'sidste_luk': 662.68}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 41.5,
+          "adx_1h": 38.4,
+          "rel_volumen_1h": 2.01,
+          "afstand_modstand_atr": 3.35,
+          "atr_percentil_30d": 100.0
+        },
+        "target": 674.6099999999997,
+        "luk_foer_luk": true
+      }
     },
     "NVDA": {
       "last_entry_eval": "2026-11-06T14:32:01.213504+00:00",
@@ -172,7 +196,32 @@
       "last_entry_eval": "2026-11-06T14:47:11.261848+00:00",
       "last_entry_setups": [
         "nyhed_op"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 459.47,
+        "stop": 443.76750000000004,
+        "stop_initial": 443.76750000000004,
+        "high": 459.47,
+        "qty": 21.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 50.9,
+          "adx_1h": 29.7,
+          "rel_volumen_1h": 3.25,
+          "afstand_modstand_atr": 1.93,
+          "atr_percentil_30d": 97.3
+        },
+        "target": 490.875,
+        "luk_foer_luk": true
+      }
     },
     "TSLA": {
       "last_entry_eval": "2026-11-06T14:36:47.949220+00:00",
@@ -197,7 +246,7 @@
       ]
     }
   },
-  "last_btc_price": 75823.64,
+  "last_btc_price": 76021.0565,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2578,8 +2627,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.79,
-    "snitpris": 658.97,
+    "pris": 662.68,
+    "snitpris": 659.63,
     "svag": false
   }
 }
