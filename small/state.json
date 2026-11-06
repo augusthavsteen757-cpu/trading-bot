@@ -73,7 +73,7 @@
         "entry": 9.66,
         "stop": 9.125,
         "stop_initial": 9.125,
-        "high": 9.7,
+        "high": 9.77,
         "qty": 30.0,
         "entry_tid": "2026-11-06 15:17",
         "setup": "orb",
@@ -155,7 +155,7 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T15:37:00.646420+00:00",
+    "sidst_hentet": "2026-11-06T15:56:56.946075+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -1888,8 +1888,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 272.42,
-    "snitpris": 272.1,
+    "pris": 272.74,
+    "snitpris": 272.12,
     "svag": false
   }
 }
