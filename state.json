@@ -208,7 +208,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75765.95000000001,
+  "last_btc_price": 75747.4765,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1926,30 +1926,6 @@
         "pris_ved_nyhed": 263.34,
         "udloeber": "2026-11-06T19:06:24.821831+00:00"
       },
-      "EQIX": {
-        "kilde": "nyhed",
-        "symbol": "EQIX",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Hassett siger der er plads til datacenterv\u00e6kst, og ingen lokal veto-ret tvinger ned, hvilket er positivt for datacenter-REITs.",
-        "tid": "2026-11-06T14:31:19.531090+00:00",
-        "pris_ved_nyhed": 1006.63,
-        "udloeber": "2026-11-06T17:31:19.531090+00:00"
-      },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Samme datacenter-signal fra Hassett: fortsat v\u00e6kst i datacenter-eftersp\u00f8rgsel favoriserer Digital Realty.",
-        "tid": "2026-11-06T14:31:19.531090+00:00",
-        "pris_ved_nyhed": 176.52,
-        "udloeber": "2026-11-06T17:31:19.531090+00:00"
-      },
       "AMD": {
         "kilde": "nyhed",
         "symbol": "AMD",
@@ -2319,7 +2295,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T17:16:22.105025+00:00",
+    "sidst_hentet": "2026-11-06T17:31:23.675650+00:00",
     "opslag": [
       {
         "id": "t3_1xpdci3",
@@ -2577,7 +2553,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.61,
+    "pris": 659.64,
     "snitpris": 659.85,
     "svag": true
   }
