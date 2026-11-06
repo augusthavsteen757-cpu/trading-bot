@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75763.11,
+  "last_btc_price": 75769.79000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2491,10 +2491,5 @@
     "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 655.96,
-    "snitpris": 658.85,
-    "svag": true
-  }
+  "marked": {}
 }
