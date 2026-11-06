@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.32** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.37** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.396 USD  ·  **I alt:** -604 USD (-0.60 %)  ·  **I dag:** -0.59 %  ·  sidst opdateret 6/11 16.32
+**Konto:** 99.423 USD  ·  **I alt:** -577 USD (-0.58 %)  ·  **I dag:** -0.57 %  ·  sidst opdateret 6/11 16.37
 
 **Ejer nu:**
 
@@ -26,26 +26,26 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.32** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.894 USD  ·  **I alt:** -106 USD (-0.11 %)  ·  **I dag:** +0.52 %  ·  sidst opdateret 6/11 16.22
+**Konto:** 99.469 USD  ·  **I alt:** -531 USD (-0.53 %)  ·  **I dag:** +0.05 %  ·  sidst opdateret 6/11 16.32
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | ONDS | 2014 | 4.94 | 6/11 15.51 |
-| RCAT | 2683 | 3.71 | 6/11 15.52 |
-| QUBT | 1689 | 5.88 | 6/11 15.52 |
 | RGTI | 935 | 10.63 | 6/11 15.52 |
 | LUNR | 30 | 9.66 | 6/11 16.17 |
+| ACHR | 2399 | 4.14 | 6/11 16.32 |
 
-**Lukkede handler:** 4 i alt, 1 med gevinst, samlet -542 USD
+**Lukkede handler:** 6 i alt, 2 med gevinst, samlet -554 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ QUBT | 6/11 16.27 | -25 USD | stop ramt (Alpaca) |
+| ✅ RCAT | 6/11 16.27 | +13 USD | stop ramt (Alpaca) |
 | ❌ RGTI | 4/11 16.40 | -238 USD | stop ramt (Alpaca) |
 | ✅ LUNR | 3/11 20.23 | +5 USD | stop ramt (Alpaca) |
 | ❌ UMAC | 3/11 16.52 | -203 USD | stop ramt (Alpaca) |
-| ❌ ACHR | 3/11 16.22 | -105 USD | stop ramt (Alpaca) |
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
@@ -63,7 +63,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.32** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.999 USD  ·  **I alt:** -1.001 USD (-1.00 %)  ·  **I dag:** -0.18 %  ·  sidst opdateret 6/11 16.31
+**Konto:** 99.004 USD  ·  **I alt:** -996 USD (-1.00 %)  ·  **I dag:** -0.18 %  ·  sidst opdateret 6/11 16.36
 
 **Ejer nu:**
 
@@ -80,26 +80,24 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.32** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.035 USD  ·  **I alt:** +1.035 USD (+1.04 %)  ·  **I dag:** -1.90 %  ·  sidst opdateret 6/11 16.21
+**Konto:** 100.062 USD  ·  **I alt:** +62 USD (+0.06 %)  ·  **I dag:** -3.23 %  ·  sidst opdateret 6/11 16.36
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +2457 USD (4 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +1046 USD (4 vundet), fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AMD | 90 | 458.37 | 6/11 15.51 |
 | PLTR | 249 | 162.38 | 6/11 16.16 |
-| HOOD | 118 | 80.26 | 6/11 16.16 |
 | SHOP | 1 | 148.51 | 6/11 16.21 |
 
-**Lukkede handler:** 10 i alt, 4 med gevinst, samlet +2.457 USD
+**Lukkede handler:** 12 i alt, 4 med gevinst, samlet +972 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ HOOD | 6/11 16.31 | -149 USD | stop ramt (Alpaca) |
+| ❌ AMD | 6/11 16.26 | -1.336 USD | stop ramt (Alpaca) |
 | ❌ SMCI | 6/11 16.06 | -204 USD | stop ramt (Alpaca) |
 | ❌ COIN | 6/11 16.06 | -804 USD | stop ramt (Alpaca) |
 | ✅ SOXS | 5/11 21.54 | +2.350 USD | dagens slut (ORB) |
-| ✅ SNDQ | 5/11 17.29 | +668 USD | raket vendt (under dagens snitpris) |
-| ✅ NFLX | 4/11 21.52 | +289 USD | dagens slut (ORB) |
 
