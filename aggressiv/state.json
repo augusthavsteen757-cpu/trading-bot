@@ -77,7 +77,32 @@
       "last_entry_setups": [
         "nyhed_op",
         "trend_pullback"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 623.6600000000001,
+        "stop": 614.42,
+        "stop_initial": 614.42,
+        "high": 623.6600000000001,
+        "qty": 64.0,
+        "entry_tid": "2026-11-06 15:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 621.8, 'or_low': 607.04, 'sidste_luk': 623.83}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 54.3,
+          "adx_1h": 25.5,
+          "rel_volumen_1h": 0.65,
+          "afstand_modstand_atr": 0.07,
+          "atr_percentil_30d": 92.0
+        },
+        "target": 651.3800000000005,
+        "luk_foer_luk": true
+      }
     },
     "AVGO": {
       "last_entry_eval": "2026-11-06T14:32:19.670721+00:00",
@@ -116,7 +141,33 @@
     "MARA": {},
     "RIOT": {},
     "SOFI": {},
-    "RIVN": {},
+    "RIVN": {
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 13.475000000000001,
+        "stop": 13.275,
+        "stop_initial": 13.275,
+        "high": 13.475000000000001,
+        "qty": 734.0,
+        "entry_tid": "2026-11-06 15:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 13.41, 'or_low': 13.14, 'sidste_luk': 13.42}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 55.2,
+          "adx_1h": 22.0,
+          "rel_volumen_1h": 0.64,
+          "afstand_modstand_atr": 0.18,
+          "atr_percentil_30d": 94.8
+        },
+        "target": 14.075000000000005,
+        "luk_foer_luk": true
+      }
+    },
     "ARM": {},
     "CRWD": {},
     "SHOP": {
@@ -125,7 +176,7 @@
         "entry": 148.515,
         "stop": 145.03,
         "stop_initial": 145.03,
-        "high": 148.515,
+        "high": 148.75,
         "qty": 1.0,
         "entry_tid": "2026-11-06 15:21",
         "setup": "orb",
@@ -303,18 +354,6 @@
         "pris_ved_nyhed": 456.90999999999997,
         "udloeber": "2026-11-06T16:46:13.117377+00:00"
       },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Kun teknisk konsolidering af et 3x-ETP; ingen reel effekt paa Coinbase-aktien.",
-        "tid": "2026-11-06T14:46:13.117377+00:00",
-        "pris_ved_nyhed": 138.21,
-        "udloeber": "2026-11-06T15:46:13.117377+00:00"
-      },
       "MSTR": {
         "kilde": "nyhed",
         "symbol": "MSTR",
@@ -339,18 +378,6 @@
         "pris_ved_nyhed": 358.09,
         "udloeber": "2026-11-06T18:36:13.805198+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Aflyst panelmoede med Zuckerberg er usikkerhed om politisk relation, men ingen direkte forretningspaavirkning.",
-        "tid": "2026-11-06T14:46:13.117377+00:00",
-        "pris_ved_nyhed": 618.94,
-        "udloeber": "2026-11-06T15:46:13.117377+00:00"
-      },
       "ARM": {
         "kilde": "nyhed",
         "symbol": "ARM",
@@ -374,18 +401,6 @@
         "tid": "2026-11-06T14:31:12.245715+00:00",
         "pris_ved_nyhed": 68.59,
         "udloeber": "2026-11-06T16:31:12.245715+00:00"
-      },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Hold-rating fra StoneX er rutine og boerden ikke flytte kursen markant.",
-        "tid": "2026-11-06T14:46:13.117377+00:00",
-        "pris_ved_nyhed": 162.25,
-        "udloeber": "2026-11-06T15:46:13.117377+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -2225,7 +2240,7 @@
   "scan": {
     "dag": "2026-11-06",
     "syms": [],
-    "sidst": "2026-11-06T15:36:13.367033+00:00",
+    "sidst": "2026-11-06T15:51:12.634016+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2236,8 +2251,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.93,
+    "pris": 660.13,
     "snitpris": 659.9,
-    "svag": true
+    "svag": false
   }
 }
