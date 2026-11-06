@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.758362,
+  "budget_used": 0.770395,
   "version": 3,
   "learned": [],
   "pending": {
@@ -25,14 +25,11 @@
     ],
     "gevinst: range_bund i range": [
       "2026-11-05 14:40: META: stop ramt (Alpaca). R=+1.45. Entry 611, exit 625. Grund til koeb: Pris ved stoette (0.04 ATR) med stram stop; modstand 621.59 er 2.15 ATR vaek, over 1,2R. Svag trend og volumen taler for lav conviction.. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.9, 'adx_1h': 19.4, 'rel_volumen_1h': 0.31, 'afstand_modstand_atr': 2.15, 'atr_percentil_30d': 12.5}"
-    ],
-    "tab: orb i high_vol": [
-      "2026-11-06 15:06: DLR: stop ramt (Alpaca). R=-1.66. Entry 177, exit 175. Grund til koeb: ORB breakout {'or_high': 176.52, 'or_low': 174.99, 'sidste_luk': 176.69}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': 0, 'rsi_1h': 45.5, 'adx_1h': 22.8, 'rel_volumen_1h': 0.26, 'afstand_modstand_atr': 0.54, 'atr_percentil_30d': 98.0}"
     ]
   },
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 16,
-  "ai_spend_today": 0.12000689999999994,
+  "ai_rounds_today": 17,
+  "ai_spend_today": 0.13203979999999993,
   "eq_day": "2026-11-06",
   "day_start_equity": 99992.62,
   "peak_equity": 100456.88,
@@ -130,13 +127,13 @@
       "last_entry_setups": [
         "breakout"
       ],
-      "last_hold_review": "2026-11-04T15:03:39.906738+00:00",
-      "last_review_price": 353.40999999999997,
+      "last_hold_review": "2026-11-06T15:26:38.909538+00:00",
+      "last_review_price": 344.08,
       "pos": {
         "entry": 342.545,
-        "stop": 340.14,
+        "stop": 342.545,
         "stop_initial": 340.14,
-        "high": 342.545,
+        "high": 344.08,
         "qty": 2.0,
         "entry_tid": "2026-11-06 15:21",
         "setup": "orb",
@@ -222,30 +219,6 @@
         "nyhed_op"
       ],
       "orb_day": "2026-11-06",
-      "pos": {
-        "entry": 459.47,
-        "stop": 443.76750000000004,
-        "stop_initial": 443.76750000000004,
-        "high": 459.47,
-        "qty": 21.0,
-        "entry_tid": "2026-11-06 14:51",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 50.9,
-          "adx_1h": 29.7,
-          "rel_volumen_1h": 3.25,
-          "afstand_modstand_atr": 1.93,
-          "atr_percentil_30d": 97.3
-        },
-        "target": 490.875,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-06T14:57:00.226240+00:00",
       "last_review_price": 453.1
     },
@@ -278,7 +251,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75563.42,
+  "last_btc_price": 75637.55,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2671,8 +2644,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.99,
-    "snitpris": 660.28,
-    "svag": false
+    "pris": 660.26,
+    "snitpris": 660.29,
+    "svag": true
   }
 }
