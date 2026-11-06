@@ -84,31 +84,7 @@
         "breakout"
       ],
       "last_hold_review": "2026-11-06T15:26:38.909538+00:00",
-      "last_review_price": 344.08,
-      "pos": {
-        "entry": 342.545,
-        "stop": 342.545,
-        "stop_initial": 340.14,
-        "high": 345.42,
-        "qty": 2.0,
-        "entry_tid": "2026-11-06 15:21",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 341.69, 'or_low': 338.59, 'sidste_luk': 342.47}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 0,
-          "trend_1d": 1,
-          "rsi_1h": 46.8,
-          "adx_1h": 17.7,
-          "rel_volumen_1h": 0.57,
-          "afstand_modstand_atr": 0.97,
-          "atr_percentil_30d": 95.4
-        },
-        "target": 347.3550000000001,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 344.08
     },
     "MSFT": {
       "last_entry_eval": "2026-11-05T15:01:09.630673+00:00",
@@ -184,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75805.19099999999,
+  "last_btc_price": 75796.4235,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2259,7 +2235,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T20:36:49.077438+00:00",
+    "sidst_hentet": "2026-11-06T20:51:50.489344+00:00",
     "opslag": [
       {
         "id": "t3_1xpdci3",
@@ -2517,8 +2493,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.78,
-    "snitpris": 658.98,
+    "pris": 657.34,
+    "snitpris": 658.94,
     "svag": true
   }
 }
