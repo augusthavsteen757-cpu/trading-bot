@@ -1,13 +1,5 @@
 {
-  "positions": {
-    "AAPL261120P00342500": {
-      "entry": 8.8,
-      "antal": 1,
-      "entry_tid": "2026-11-06T15:06:51.489837+00:00",
-      "call_andel": 0.357,
-      "trend": "ned"
-    }
-  },
+  "positions": {},
   "day": "2026-11-06",
   "new_today": 1,
   "traded_today": [
