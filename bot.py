@@ -64,6 +64,7 @@ ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med minds
 SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
+SCAN_END = tuple(int(x) for x in (os.getenv("SCAN_END") or "11:00").split(":"))  # New York-tid: sidste scanning og sidste raket-koeb
 MARKET_FILTER = (os.getenv("MARKET_FILTER") or "").strip().upper().replace("NONE", "")  # fx QQQ: ingen nye aktiekoeb naar markedet er under dagens snitpris
 ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
@@ -912,7 +913,7 @@ def scan_gainers(state, stocks_open):
         scan.update(dag=day, syms=[], sidst="")
     t = ny_time()
     due = not scan.get("sidst") or (now() - datetime.fromisoformat(scan["sidst"])).total_seconds() >= 600
-    if stocks_open and (9, 35) <= t <= (11, 0) and due and len(scan["syms"]) < SCAN_GAINERS:
+    if stocks_open and (9, 35) <= t <= SCAN_END and due and len(scan["syms"]) < SCAN_GAINERS:
         scan["sidst"] = now().isoformat()
         try:
             h = {"APCA-API-KEY-ID": os.getenv("ALPACA_API_KEY", ""), "APCA-API-SECRET-KEY": os.getenv("ALPACA_SECRET_KEY", "")}
@@ -1034,6 +1035,28 @@ def vwap_today(m5):
     return sum((b["h"] + b["l"] + b["c"]) / 3 * b["v"] for b in today) / vol, (closed[-1]["c"] if closed else None)
 
 
+def raket_signal(m5, price, vwap):
+    """Raket-koeb (ren regel): sidste lukkede 5m-bar lukker paa dagens hoejeste, prisen er over dagens snitpris
+    og hoejst 1 % over den lukning. Stop = dagens snitpris (1-8 % under). 9:45 til SCAN_END New York-tid."""
+    t = ny_now()
+    if not vwap or not ((9, 45) <= (t.hour, t.minute) <= SCAN_END):
+        return None
+    from zoneinfo import ZoneInfo
+    ny = ZoneInfo("America/New_York")
+    today = [b for b in m5 if b["t"].astimezone(ny).date() == t.date()
+             and (b["t"].astimezone(ny).hour, b["t"].astimezone(ny).minute) >= (9, 30)]
+    closed = [b for b in today if b["t"] + timedelta(minutes=5) <= now()]
+    if len(closed) < 4:
+        return None
+    last, before = closed[-1], closed[:-1]
+    top = max(b["h"] for b in before)
+    stop = vwap
+    risk = (price - stop) / price
+    if last["c"] > top and price > vwap and price <= last["c"] * 1.01 and 0.01 <= risk <= 0.08:
+        return stop, {"dagstop": round(top, 2), "vwap": round(vwap, 2), "risiko_pct": round(risk * 100, 1)}
+    return None
+
+
 def orb_signal(m5, price):
     """Opening range breakout (ren regel, ingen AI). Range = de 3 foerste 5m-bars (9:30-9:45 New York-tid).
     Koeb naar sidste lukkede 5m-bar lukker over toppen, og prisen ikke er loebet mere end en halv range vaek.
@@ -1120,6 +1143,23 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                            stop_loss=round(stop, 2), ai_koert="nej (ORB er ren regel)",
                            note=f"ORB: range {info.get('or_low')}-{info.get('or_high')}, maal {target:.2f}")
                 rec["handling"] = "KOEB (ORB)"
+                return
+    today_iso = ny_now().date().isoformat()
+    if raket and not holding and not closed and coin_can_buy and today_iso not in (cs.get("raket_day"), cs.get("orb_day")):
+        sig = raket_signal(m5, price, f.get("vwap"))
+        if sig:
+            stop, info = sig
+            cs["raket_day"] = ny_now().date().isoformat()  # max et raket-koeb pr. dag pr. aktie
+            risk_pct = max((price - stop) / price, 0.001)
+            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * min(MAX_POSITION_PCT, ORB_MAX_POSITION_PCT),
+                      room) * brake_factor()[0]
+            bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "raket", 3, f"Raket ny dagstop {info}", row,
+                                   target=None, luk_foer_luk=True)
+            if bought > 0:
+                row.update(handling="KOEB (raket)", antal=round(bought, 6), usd=round(bought * price, 2),
+                           stop_loss=round(stop, 2), ai_koert="nej (raket er ren regel)",
+                           note=f"Raket: ny top {info['dagstop']}, snitpris {info['vwap']}")
+                rec["handling"] = "KOEB (raket)"
                 return
     news_setup, news_block, f["_nyhedsjaeger"] = newsguard.signal_for(state, coin, price)
     f["_reddit"] = reddit.buzz(state, coin)
