@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T15:21:25.448403+00:00",
+    "sidst_hentet": "2026-11-06T15:37:00.474506+00:00",
     "opslag": [
       {
         "id": "t3_1xpejgx",
@@ -284,20 +284,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Altcoins med hoej regulatorisk eksponering reagerer typisk staerkere pa negative krypto-signaler.",
-        "tid": "2026-11-06T11:31:25.873684+00:00",
-        "pris_ved_nyhed": 90.27,
-        "udloeber": "2026-11-06T15:31:25.873684+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-06T11:51:25.101084+00:00",
@@ -368,7 +355,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75313.11499999999,
+  "last_btc_price": 75210.47,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
