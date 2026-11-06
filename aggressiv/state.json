@@ -10,7 +10,7 @@
       ]
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-05T14:34:34.676833+00:00",
+      "last_entry_eval": "2026-11-06T14:36:15.020703+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -23,9 +23,8 @@
       ]
     },
     "PLTR": {
-      "last_entry_eval": "2026-11-05T14:34:59.438309+00:00",
+      "last_entry_eval": "2026-11-06T14:36:27.964502+00:00",
       "last_entry_setups": [
-        "nyhed_op",
         "range_bund"
       ],
       "orb_day": "2026-11-04"
@@ -62,10 +61,14 @@
       ]
     },
     "NFLX": {
-      "orb_day": "2026-11-04"
+      "orb_day": "2026-11-04",
+      "last_entry_eval": "2026-11-06T14:36:48.064807+00:00",
+      "last_entry_setups": [
+        "trend_pullback"
+      ]
     },
     "HOOD": {
-      "last_entry_eval": "2026-11-05T14:35:47.224111+00:00",
+      "last_entry_eval": "2026-11-06T14:36:59.354734+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -108,10 +111,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.18648,
+  "budget_used": 0.211175,
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 4,
-  "ai_spend_today": 0.026306500000000003,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.051001200000000003,
   "ai_crypto_today": 0,
   "auto_tjek": "auto-tjek: seneste 8 handler +3465 USD (4 vundet), fuld fart",
   "eq_day": "2026-11-06",
@@ -2131,7 +2134,7 @@
   "scan": {
     "dag": "2026-11-06",
     "syms": [],
-    "sidst": "",
+    "sidst": "2026-11-06T14:36:11.134810+00:00",
     "alle": [
       "AEHL",
       "APP",
