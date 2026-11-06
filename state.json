@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75605.92,
+  "last_btc_price": 75619.5325,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2166,8 +2166,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T06:30:21.511733+00:00",
+    "sidst_hentet": "2026-11-06T06:45:21.879848+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp62bf",
+        "tid": "2026-11-06T06:40:47+00:00",
+        "titel": "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xoz1xs",
         "tid": "2026-11-06T00:31:13+00:00",
@@ -2400,7 +2410,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
