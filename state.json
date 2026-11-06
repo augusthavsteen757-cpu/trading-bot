@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76066.26000000001,
+  "last_btc_price": 76008.6,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2153,8 +2153,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T09:55:47.698036+00:00",
+    "sidst_hentet": "2026-11-06T10:10:47.791255+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp8zsk",
+        "tid": "2026-11-06T09:53:46+00:00",
+        "titel": "The Embarrassing Bull Case for BItcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp8zc5",
         "tid": "2026-11-06T09:52:57+00:00",
@@ -2395,16 +2405,6 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xoez7h",
-        "tid": "2026-11-05T10:08:14+00:00",
-        "titel": "Bitcoin conference 2 free tickets",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
