@@ -72,7 +72,8 @@ jobs:
           ORB_BREAKEVEN_R: '1.0'     # aabnings-handel: stop flyttes foerst til koebsprisen ved +1R, saa den har plads (0,5)
           # Raket-scanner: finder hver morgen op til 5 af dagens stoerste stigere (over 5 USD, +5 % eller mere,
           # blandt de 100 mest handlede) og handler dem foerst med de samme regler og stop-loss.
-          SCAN_GAINERS: ${{ vars.AGGRESSIV_SCAN_GAINERS || '5' }}
+          SCAN_GAINERS: ${{ vars.AGGRESSIV_SCAN_GAINERS || '10' }}   # op til 10 raketter om dagen (5)
+          SCAN_END: '13:00'          # scan og koeb raketter frem til 13:00 New York-tid = 19:00 dansk (11:00)
           # Skarpere AI: Chef/Skeptiker/Risk Manager faar denne stil med i hver vurdering.
           STRATEGY_STYLE: "Du styrer den AGGRESSIVE bot. Maalet er store gevinster: gaa efter de staerkeste bevaegelser (breakout med hoej volumen, staerk trend paa flere tidsrammer, positive nyheder med momentum), og koeb hellere faa store handler end mange smaa. Krav: mindst 2R plads til naeste modstand. Giv hoej conviction (4-5) naar tingene flugter. Undgaa svage, uklare setups helt."
           SKEPTIC_VETO_FLAGS: '6'    # Skeptikeren skal finde 6 problemer for automatisk veto (5)
