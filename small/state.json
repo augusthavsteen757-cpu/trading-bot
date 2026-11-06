@@ -77,31 +77,7 @@
       "last_entry_eval": "2026-11-05T14:36:58.656905+00:00",
       "last_entry_setups": [
         "range_bund"
-      ],
-      "pos": {
-        "entry": 4.145,
-        "stop": 4.145,
-        "stop_initial": 3.965,
-        "high": 4.41,
-        "qty": 2399.0,
-        "entry_tid": "2026-11-06 15:32",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 4.06, 'or_low': 3.87, 'sidste_luk': 4.18}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 55.4,
-          "adx_1h": 24.3,
-          "rel_volumen_1h": 0.85,
-          "afstand_modstand_atr": 0.9,
-          "atr_percentil_30d": 99.1
-        },
-        "target": 4.504999999999999,
-        "luk_foer_luk": true
-      }
+      ]
     },
     "OUST": {
       "orb_day": "2026-11-03",
@@ -119,6 +95,9 @@
     ],
     "tab: orb i range": [
       "2026-11-04 15:40: RGTI: stop ramt (Alpaca). R=-1.04. Entry 12, exit 11. Grund til koeb: ORB breakout {'or_high': 11.45, 'or_low': 11.05, 'sidste_luk': 11.52}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 56.0, 'adx_1h': 18.0, 'rel_volumen_1h': 0.52, 'afstand_modstand_atr': 0.36, 'atr_percentil_30d': 81.0}"
+    ],
+    "gevinst: orb i high_vol": [
+      "2026-11-06 20:52: ACHR: dagens slut (ORB). R=+1.64. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.06, 'or_low': 3.87, 'sidste_luk': 4.18}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 55.4, 'adx_1h': 24.3, 'rel_volumen_1h': 0.85, 'afstand_modstand_atr': 0.9, 'atr_percentil_30d': 99.1}"
     ]
   },
   "budget_month": "2026-11",
@@ -1854,8 +1833,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.15,
-    "snitpris": 273.18,
+    "pris": 273.99,
+    "snitpris": 273.19,
     "svag": false
   }
 }
