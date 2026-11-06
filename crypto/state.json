@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T13:16:25.480715+00:00",
+    "sidst_hentet": "2026-11-06T13:36:24.602569+00:00",
     "opslag": [
       {
         "id": "t3_1xp9g5q",
@@ -349,18 +349,6 @@
         "pris_ved_nyhed": 90.27,
         "udloeber": "2026-11-06T15:31:25.873684+00:00"
       },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Generel krypto-usikkerhed kan paavirke LTC, men ingen direkte sammenhaeng.",
-        "tid": "2026-11-06T11:31:25.873684+00:00",
-        "pris_ved_nyhed": 52.845,
-        "udloeber": "2026-11-06T13:31:25.873684+00:00"
-      },
       "DOGE/USD": {
         "kilde": "nyhed",
         "symbol": "DOGE/USD",
@@ -444,7 +432,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75616.465,
+  "last_btc_price": 75599.20749999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
