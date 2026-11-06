@@ -184,7 +184,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75629.2265,
+  "last_btc_price": 75683.7,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2541,8 +2541,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.79,
-    "snitpris": 659.28,
+    "pris": 656.13,
+    "snitpris": 659.25,
     "svag": true
   }
 }
