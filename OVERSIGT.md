@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.474 USD  ·  **I alt:** -526 USD (-0.53 %)  ·  **I dag:** -0.46 %  ·  sidst opdateret 6/11 16.11
+**Konto:** 99.516 USD  ·  **I alt:** -484 USD (-0.48 %)  ·  **I dag:** -0.39 %  ·  sidst opdateret 6/11 16.17
 
 **Ejer nu:**
 
@@ -12,6 +12,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 |---|---|---|---|
 | SPY | 13 | 739.84 | 6/11 15.56 |
 | QQQ | 15 | 663.83 | 6/11 15.51 |
+| MSFT | 18 | 533.73 | 6/11 16.16 |
 | AMD | 21 | 459.47 | 6/11 15.51 |
 
 **Lukkede handler:** 16 i alt, 6 med gevinst, samlet -93 USD
@@ -26,7 +27,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.366 USD  ·  **I alt:** -634 USD (-0.63 %)  ·  **I dag:** -0.25 %  ·  sidst opdateret 6/11 16.07
+**Konto:** 99.409 USD  ·  **I alt:** -591 USD (-0.59 %)  ·  **I dag:** -0.16 %  ·  sidst opdateret 6/11 16.12
 
 **Ejer nu:**
 
@@ -48,7 +49,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 16.11
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 16.16
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -62,13 +63,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 16.06
+**Konto:** 99.004 USD  ·  **I alt:** -996 USD (-1.00 %)  ·  **I dag:** -0.18 %  ·  sidst opdateret 6/11 16.16
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AAPL put 342.5 (udl. 20/11) | 1 | 8.82 | 6/11 16.06 |
+| AAPL put 342.5 (udl. 20/11) | 1 | 8.80 | 6/11 16.06 |
 
 **Lukkede handler:** 2 i alt, 0 med gevinst, samlet -820 USD
 
@@ -79,7 +80,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.546 USD  ·  **I alt:** +1.546 USD (+1.55 %)  ·  **I dag:** -1.76 %  ·  sidst opdateret 6/11 16.06
+**Konto:** 101.032 USD  ·  **I alt:** +1.032 USD (+1.03 %)  ·  **I dag:** -2.05 %  ·  sidst opdateret 6/11 16.17
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +2457 USD (4 vundet), fuld fart
 
@@ -88,6 +89,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.11** (dansk tid). Kun
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | AMD | 90 | 458.37 | 6/11 15.51 |
+| PLTR | 249 | 162.38 | 6/11 16.16 |
+| HOOD | 118 | 80.26 | 6/11 16.16 |
 
 **Lukkede handler:** 10 i alt, 4 med gevinst, samlet +2.457 USD
 
