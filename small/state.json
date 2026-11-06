@@ -147,20 +147,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SOUN": {
-        "kilde": "nyhed",
-        "symbol": "SOUN",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Cantor Fitzgerald saenkede kursmaalet men beholder kobsrating; faldet er allerede i gang og kan begraense sig selv. Svag negativ effekt.",
-        "tid": "2026-11-06T16:01:59.108044+00:00",
-        "pris_ved_nyhed": 4.02,
-        "udloeber": "2026-11-06T18:01:59.108044+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-06T16:01:59.108044+00:00",
@@ -196,7 +183,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.145,
+  "last_btc_price": 5.175,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1852,7 +1839,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.27,
+    "pris": 272.94,
     "snitpris": 272.71,
     "svag": false
   }
