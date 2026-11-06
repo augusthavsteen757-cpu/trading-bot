@@ -206,30 +206,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "St\u00e6rkt jobtal \u00f8ger renteforh\u00f8jelsesfrygt, hvilket rammer h\u00f8j-v\u00e6rdi v\u00e6kstaktier og halvledere inkl. AI-temaet via SOXL. Overskriften er svag og ventet.",
-        "tid": "2026-11-06T16:36:13.030400+00:00",
-        "pris_ved_nyhed": 189.095,
-        "udloeber": "2026-11-06T18:36:13.030400+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Renteforh\u00f8jelsesfrygt d\u00e6mper h\u00f8j-beta aktier og bill\u00e5nsfinansiering; effekten er makro og svag p\u00e5 kort sigt.",
-        "tid": "2026-11-06T16:36:13.030400+00:00",
-        "pris_ved_nyhed": 360.94,
-        "udloeber": "2026-11-06T18:36:13.030400+00:00"
-      },
       "ARM": {
         "kilde": "nyhed",
         "symbol": "ARM",
@@ -242,18 +218,6 @@
         "pris_ved_nyhed": 170.68,
         "udloeber": "2026-11-06T19:21:14.428476+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "H\u00f8jere renteudsigter presser v\u00e6kstaktier med lang duration; META n\u00e6vnes direkte, men effekten er makro og moderat.",
-        "tid": "2026-11-06T16:36:13.030400+00:00",
-        "pris_ved_nyhed": 620.92,
-        "udloeber": "2026-11-06T18:36:13.030400+00:00"
-      },
       "AVGO": {
         "kilde": "nyhed",
         "symbol": "AVGO",
@@ -265,18 +229,6 @@
         "tid": "2026-11-06T16:21:14.428476+00:00",
         "pris_ved_nyhed": 294.615,
         "udloeber": "2026-11-06T19:21:14.428476+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Strammere pengepolitik er typisk negativt for krypto og risikoaktiver, s\u00e5 COIN og MSTR kan f\u00f8lge med ned.",
-        "tid": "2026-11-06T16:36:13.030400+00:00",
-        "pris_ved_nyhed": 133.57,
-        "udloeber": "2026-11-06T18:36:13.030400+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -2132,8 +2084,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.8,
-    "snitpris": 659.17,
+    "pris": 658.91,
+    "snitpris": 659.16,
     "svag": true
   }
 }
