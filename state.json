@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75946.325,
+  "last_btc_price": 75921.9245,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1845,18 +1845,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Schiff kritiserer memecoins og roser BTC indirekte; svag og kendt kritiker, ingen ny fundamental effekt.",
-        "tid": "2026-11-06T11:50:48.410352+00:00",
-        "pris_ved_nyhed": 76062.90400000001,
-        "udloeber": "2026-11-06T12:50:48.410352+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1868,18 +1856,6 @@
         "tid": "2026-11-06T11:50:48.410352+00:00",
         "pris_ved_nyhed": 2241.6705,
         "udloeber": "2026-11-06T13:50:48.410352+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Memecoin-debatten kan skabe svag afsmitning til SOL, men intet direkte om Solana.",
-        "tid": "2026-11-06T11:50:48.410352+00:00",
-        "pris_ved_nyhed": 90.39895000000001,
-        "udloeber": "2026-11-06T12:50:48.410352+00:00"
       }
     },
     "dag": "2026-11-06",
