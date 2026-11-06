@@ -123,7 +123,7 @@
         "entry": 13.475000000000001,
         "stop": 13.275,
         "stop_initial": 13.275,
-        "high": 13.5,
+        "high": 13.54,
         "qty": 734.0,
         "entry_tid": "2026-11-06 15:51",
         "setup": "orb",
@@ -152,7 +152,7 @@
         "entry": 148.515,
         "stop": 145.03,
         "stop_initial": 145.03,
-        "high": 150.37,
+        "high": 150.64,
         "qty": 1.0,
         "entry_tid": "2026-11-06 15:21",
         "setup": "orb",
@@ -207,7 +207,7 @@
   "day_start_equity": 103458.81,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T16:31:12.935589+00:00",
+    "sidst_hentet": "2026-11-06T16:51:14.164455+00:00",
     "opslag": [
       {
         "id": "t3_1xper3z",
@@ -285,18 +285,6 @@
         "tid": "2026-11-06T16:36:13.030400+00:00",
         "pris_ved_nyhed": 189.095,
         "udloeber": "2026-11-06T18:36:13.030400+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Chipaktier rebounder premarket efter AI-frygt; AMD leder bounce, men dele af kursfaldet er allerede taget tilbage.",
-        "tid": "2026-11-06T14:46:13.117377+00:00",
-        "pris_ved_nyhed": 456.90999999999997,
-        "udloeber": "2026-11-06T16:46:13.117377+00:00"
       },
       "MSTR": {
         "kilde": "nyhed",
@@ -2213,7 +2201,7 @@
   "scan": {
     "dag": "2026-11-06",
     "syms": [],
-    "sidst": "2026-11-06T16:41:13.422139+00:00",
+    "sidst": "2026-11-06T16:51:13.749364+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2224,8 +2212,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.97,
+    "pris": 659.86,
     "snitpris": 659.87,
-    "svag": false
+    "svag": true
   }
 }
