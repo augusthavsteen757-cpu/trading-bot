@@ -119,9 +119,9 @@
       "last_review_price": 533.15,
       "pos": {
         "entry": 533.73,
-        "stop": 528.6424999999999,
+        "stop": 533.73,
         "stop_initial": 528.6424999999999,
-        "high": 535.92,
+        "high": 537.76,
         "qty": 18.0,
         "entry_tid": "2026-11-06 15:16",
         "setup": "orb",
@@ -255,7 +255,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75655.03899999999,
+  "last_btc_price": 75765.9,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1985,18 +1985,6 @@
         "pris_ved_nyhed": 188.14,
         "udloeber": "2026-11-06T18:21:20.748722+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "OpenAI-finansieringsrunde p\u00e5 20 mia. USD med store investorer kan styrke sentimentet omkring Microsofts AI-exposure.",
-        "tid": "2026-11-06T14:31:19.531090+00:00",
-        "pris_ved_nyhed": 530.86,
-        "udloeber": "2026-11-06T16:31:19.531090+00:00"
-      },
       "AMZN": {
         "kilde": "nyhed",
         "symbol": "AMZN",
@@ -2660,8 +2648,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.89,
-    "snitpris": 659.81,
+    "pris": 660.28,
+    "snitpris": 659.82,
     "svag": false
   }
 }
