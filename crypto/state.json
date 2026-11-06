@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T17:57:00.179793+00:00",
+    "sidst_hentet": "2026-11-06T18:16:59.849166+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpjsza",
+        "tid": "2026-11-06T18:11:06+00:00",
+        "titel": "More Than 1.8 Million Holders Now Own Tokenized Stocks On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xpg3e3",
         "tid": "2026-11-06T15:47:58+00:00",
@@ -239,29 +249,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xopx6t",
-        "tid": "2026-11-05T18:15:15+00:00",
-        "titel": "JTX launches tokenized equities trading on Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xopr41",
-        "tid": "2026-11-05T18:08:46+00:00",
-        "titel": "Shit going down in Paraguay right now. Dare we say it: Bitcoin fixes this.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -335,7 +325,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75641.345,
+  "last_btc_price": 75657.2495,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
