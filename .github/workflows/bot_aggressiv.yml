@@ -58,6 +58,8 @@ jobs:
           # Store, livlige aktier der kan bevaege sig meget paa en dag, men er nemme at handle.
           STOCKS: ${{ vars.AGGRESSIV_STOCKS || 'NVDA,TSLA,AMD,PLTR,COIN,MSTR,META,AVGO,NFLX,HOOD' }}
           BENCHMARK: QQQ
+          # 10 ekstra store, livlige aktier (6. nov): flere chancer for at finde noget godt. Laegges oven i STOCKS.
+          EXTRA_STOCKS: ${{ vars.AGGRESSIV_EXTRA_STOCKS || 'SMCI,MARA,RIOT,SOFI,RIVN,ARM,CRWD,SHOP,UBER,RBLX' }}
           MARKET_FILTER: ${{ vars.MARKET_FILTER_AGGRESSIV || 'QQQ' }}  # handl med markedet: ingen nye aktiekoeb naar QQQ er under dagens snitpris ('none' = slaa fra)
           # --- Det der goer botten aggressiv (hoved-botten i parentes) ---
           RISK_PER_TRADE_PCT: ${{ vars.AGGRESSIV_RISK_PER_TRADE_PCT || '0.025' }}     # tab ved stop max 2,5 % af kontoen (0,5 %)
