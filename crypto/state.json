@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T00:26:10.253653+00:00",
+    "sidst_hentet": "2026-11-06T00:46:10.872658+00:00",
     "opslag": [
+      {
+        "id": "t3_1xoz1xs",
+        "tid": "2026-11-06T00:31:13+00:00",
+        "titel": "Happy Gunpowder Treason Day Bitcoin!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xoxosi",
         "tid": "2026-11-05T23:29:39+00:00",
@@ -312,7 +322,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -462,7 +472,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76212.06899999999,
+  "last_btc_price": 76267.3765,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
