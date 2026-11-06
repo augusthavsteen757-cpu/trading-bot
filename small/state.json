@@ -24,7 +24,7 @@
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-05T14:32:17.326191+00:00",
+      "last_entry_eval": "2026-11-06T14:32:09.254479+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
@@ -89,78 +89,93 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.173208,
+  "budget_used": 0.179183,
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 0,
-  "ai_spend_today": 0.0,
+  "ai_rounds_today": 1,
+  "ai_spend_today": 0.0059748,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-06",
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-05T20:39:54.350401+00:00",
+    "sidst_hentet": "2026-11-06T14:31:56.283758+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "RGTI": {
+      "LUNR": {
         "kilde": "nyhed",
-        "symbol": "RGTI",
+        "symbol": "LUNR",
         "retning": "op",
         "styrke": 2,
-        "allerede_i_prisen": false,
+        "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "Konferencepr\u00e6sentation om chiplet-processorer er teknisk positivt, men har sj\u00e6ldent stor kurspr\u00e6gning. Forventes moderat og kortvarig interesse fra kvanteinvestorer.",
-        "tid": "2026-11-05T19:04:52.993289+00:00",
-        "pris_ved_nyhed": 9.665,
-        "udloeber": "2026-11-05T21:04:52.993289+00:00"
+        "begrundelse": "Stigning premarket fra oversolgt niveau op til regnskab 12. nov; kortsigtet rebound, men lille effekt da det meste er allerede i prisen.",
+        "tid": "2026-11-06T14:31:57.421968+00:00",
+        "pris_ved_nyhed": 8.98,
+        "udloeber": "2026-11-06T16:31:57.421968+00:00"
       },
-      "QUBT": {
+      "SOUN": {
         "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
+        "symbol": "SOUN",
+        "retning": "neutral",
+        "styrke": 1,
+        "allerede_i_prisen": true,
         "gyldig_timer": 2,
-        "begrundelse": "Kvantesektoren kan tr\u00e6kke QUBT med ved positiv RGTI-omtale, men sammenh\u00e6ngen er svag og smittesmitten typisk begr\u00e6nset.",
-        "tid": "2026-11-05T19:04:52.993289+00:00",
-        "pris_ved_nyhed": 5.5649999999999995,
-        "udloeber": "2026-11-05T21:04:52.993289+00:00"
+        "begrundelse": "Cantor fastholder overweight men saenker kursmaal til 10 dollar; blandet signal, sandsynligvis allerede priset ind.",
+        "tid": "2026-11-06T14:31:57.421968+00:00",
+        "pris_ved_nyhed": 3.885,
+        "udloeber": "2026-11-06T16:31:57.421968+00:00"
+      },
+      "UMAC": {
+        "kilde": "nyhed",
+        "symbol": "UMAC",
+        "retning": "neutral",
+        "styrke": 1,
+        "allerede_i_prisen": true,
+        "gyldig_timer": 2,
+        "begrundelse": "Needham fastholder buy men saenker kursmaal til 22 dollar; nedjustering d\u00e6mper optimisme, ingen klar retning.",
+        "tid": "2026-11-06T14:31:57.421968+00:00",
+        "pris_ved_nyhed": 11.285,
+        "udloeber": "2026-11-06T16:31:57.421968+00:00"
       }
     },
-    "dag": "2026-11-05",
-    "kald_i_dag": 4,
-    "sidste_kald": "2026-11-05T19:04:52.993289+00:00",
+    "dag": "2026-11-06",
+    "kald_i_dag": 1,
+    "sidste_kald": "2026-11-06T14:31:57.421968+00:00",
     "set_ids": [
-      "62820584",
-      "62816393",
-      "113966243",
-      "62865275",
-      "62917077",
-      "62885636",
-      "112724524",
-      "62870343",
-      "62857002",
       "62880521",
       "113112808",
-      "112725797",
+      "62885636",
+      "112724524",
       "62856684",
+      "62820584",
       "62832219",
-      "62938230",
-      "62863042",
-      "62864193",
-      "62912448",
+      "62865275",
       "111491028",
-      "62858783",
+      "62816393",
+      "62857002",
+      "62912448",
+      "62863042",
+      "114513607",
+      "113966243",
       "62884978",
-      "114513607"
+      "62864193",
+      "62917077",
+      "112725797",
+      "62938230",
+      "62858783",
+      "62870343",
+      "62974909",
+      "62972406",
+      "62971188"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.595,
+  "last_btc_price": 4.6850000000000005,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1807,6 +1822,10 @@
       "VST",
       "WULF",
       "XCUR"
+    ],
+    "2026-11-07": [
+      "BRK.A",
+      "BRK.B"
     ]
   },
   "scan": {},
