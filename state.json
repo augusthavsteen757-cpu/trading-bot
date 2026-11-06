@@ -184,7 +184,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75667.345,
+  "last_btc_price": 75688.34,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1926,18 +1926,6 @@
         "pris_ved_nyhed": 285.105,
         "udloeber": "2026-11-06T20:16:20.304138+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Rekordandel af global smartphone-omsaetning i Q3 er staerk indikation af efterspoergel, men Counterpoint-data kan vaere kendt i markedet.",
-        "tid": "2026-11-06T16:06:24.821831+00:00",
-        "pris_ved_nyhed": 345.415,
-        "udloeber": "2026-11-06T19:06:24.821831+00:00"
-      },
       "MSFT": {
         "kilde": "nyhed",
         "symbol": "MSFT",
@@ -2565,8 +2553,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.2,
-    "snitpris": 659.07,
-    "svag": false
+    "pris": 658.95,
+    "snitpris": 659.06,
+    "svag": true
   }
 }
