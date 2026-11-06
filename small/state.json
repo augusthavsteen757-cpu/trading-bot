@@ -148,30 +148,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "QUBT": {
-        "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kvanteaktier steg kraftigt fredag efter IonQs gode omsaetning og opjusteret outlook; sektor-smitte kan fortsaette, men rallyet er allerede delvist i prisen.",
-        "tid": "2026-11-06T18:26:56.869438+00:00",
-        "pris_ved_nyhed": 6.125,
-        "udloeber": "2026-11-06T20:26:56.869438+00:00"
-      },
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme kvante-rally som QUBT; RGTI faar medvind af IonQ-nyheden. Kursen er allerede steget, saa risiko for tilbagetraek.",
-        "tid": "2026-11-06T18:26:56.869438+00:00",
-        "pris_ved_nyhed": 11.434999999999999,
-        "udloeber": "2026-11-06T20:26:56.869438+00:00"
-      },
       "SOUN": {
         "kilde": "nyhed",
         "symbol": "SOUN",
@@ -1878,8 +1854,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.95,
-    "snitpris": 273.03,
+    "pris": 274.17,
+    "snitpris": 273.04,
     "svag": false
   }
 }
