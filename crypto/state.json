@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T01:46:10.887856+00:00",
+    "sidst_hentet": "2026-11-06T02:01:37.419674+00:00",
     "opslag": [
       {
         "id": "t3_1xoz1xs",
@@ -327,66 +327,6 @@
         "tid": "2026-11-06T00:01:10.228850+00:00",
         "pris_ved_nyhed": 2237.33,
         "udloeber": "2026-11-06T03:01:10.228850+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "USDC-stablecoin-konto live i Samsung Wallet for amerikanske brugere kan \u00f8ge Solana-aktivitet, men effekten er svag og indirekte.",
-        "tid": "2026-11-06T00:01:10.228850+00:00",
-        "pris_ved_nyhed": 89.34835,
-        "udloeber": "2026-11-06T02:01:10.228850+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Coinbase-udsagn om institutionelle flows kan give generel krypto-optimisme, der ogs\u00e5 kan l\u00f8fte LINK, men sammenh\u00e6ngen er l\u00f8s.",
-        "tid": "2026-11-06T00:01:10.228850+00:00",
-        "pris_ved_nyhed": 10.6885,
-        "udloeber": "2026-11-06T02:01:10.228850+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt krypto-udsalg og Greek 10% skat p\u00e5 kryptogevinster kan trykke mindre altcoins som LTC, men allerede delvist i prisen.",
-        "tid": "2026-11-06T00:01:10.228850+00:00",
-        "pris_ved_nyhed": 51.64,
-        "udloeber": "2026-11-06T02:01:10.228850+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "H\u00f8j beta p\u00e5 krypto-udsalg betyder at DOGE sandsynligvis falder mere end BTC i risk-off, men det er allerede set.",
-        "tid": "2026-11-06T00:01:10.228850+00:00",
-        "pris_ved_nyhed": 0.07117699999999999,
-        "udloeber": "2026-11-06T02:01:10.228850+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoin-beta over for risk-off og AI-udsalget; sandsynligvis allerede i prisen.",
-        "tid": "2026-11-06T00:01:10.228850+00:00",
-        "pris_ved_nyhed": 8.18505,
-        "udloeber": "2026-11-06T02:01:10.228850+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -450,7 +390,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76056.17,
+  "last_btc_price": 76083.83499999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
