@@ -28,8 +28,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T09:47:04.955148+00:00",
+    "sidst_hentet": "2026-11-06T10:02:05.367467+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp8zsk",
+        "tid": "2026-11-06T09:53:46+00:00",
+        "titel": "The Embarrassing Bull Case for BItcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xp8zc5",
+        "tid": "2026-11-06T09:52:57+00:00",
+        "titel": "Moving Bitcoin to a bank account",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp8rag",
         "tid": "2026-11-06T09:38:10+00:00",
@@ -300,26 +320,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoer5n",
-        "tid": "2026-11-05T09:54:20+00:00",
-        "titel": "Is holding 2 BTC enough to potentially retire someday? If so, what year?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoeop6",
-        "tid": "2026-11-05T09:49:39+00:00",
-        "titel": "PreStocks\u2019 Anthropic pre-IPO token on Solana: holders up 100x in one year.",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
@@ -392,7 +392,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76012.95449999999,
+  "last_btc_price": 76090.807,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
