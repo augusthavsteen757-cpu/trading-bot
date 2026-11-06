@@ -159,8 +159,18 @@
   "day_start_equity": 103458.81,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T18:46:16.120276+00:00",
+    "sidst_hentet": "2026-11-06T19:01:47.812119+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpkui1",
+        "tid": "2026-11-06T18:51:25+00:00",
+        "titel": "Nvidia Approaches Apollo to Finance Network of Small AI Data Centers in Retrofitted Telecom Buildings Across 20 States",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xpkidt",
         "tid": "2026-11-06T18:38:15+00:00",
@@ -212,7 +222,7 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 5 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 6 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2094,8 +2104,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.62,
+    "pris": 659.2,
     "snitpris": 659.07,
-    "svag": true
+    "svag": false
   }
 }
