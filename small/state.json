@@ -54,7 +54,7 @@
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-06T14:32:09.254479+00:00",
+      "last_entry_eval": "2026-11-06T15:32:13.812408+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
@@ -143,13 +143,37 @@
       }
     },
     "ACHR": {
-      "orb_day": "2026-11-03",
+      "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-03T15:03:02.949292+00:00",
       "last_review_price": 4.275,
       "last_entry_eval": "2026-11-05T14:36:58.656905+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "pos": {
+        "entry": 4.145,
+        "stop": 3.965,
+        "stop_initial": 3.965,
+        "high": 4.145,
+        "qty": 2399.0,
+        "entry_tid": "2026-11-06 15:32",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 4.06, 'or_low': 3.87, 'sidste_luk': 4.18}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 55.4,
+          "adx_1h": 24.3,
+          "rel_volumen_1h": 0.85,
+          "afstand_modstand_atr": 0.9,
+          "atr_percentil_30d": 99.1
+        },
+        "target": 4.504999999999999,
+        "luk_foer_luk": true
+      }
     },
     "OUST": {
       "orb_day": "2026-11-03",
@@ -170,10 +194,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.21286,
+  "budget_used": 0.218379,
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.0396511,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.045169799999999996,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-06",
   "day_start_equity": 99423.83,
@@ -256,7 +280,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.045,
+  "last_btc_price": 4.975,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1912,8 +1936,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 272.95,
-    "snitpris": 272.05,
+    "pris": 272.64,
+    "snitpris": 272.11,
     "svag": false
   }
 }
