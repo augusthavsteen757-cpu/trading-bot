@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T17:01:59.716382+00:00",
+    "sidst_hentet": "2026-11-06T17:22:00.064245+00:00",
     "opslag": [
       {
         "id": "t3_1xpg3e3",
@@ -249,19 +249,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoo4xx",
-        "tid": "2026-11-05T17:08:31+00:00",
-        "titel": "Stablecoin Account Goes Live In Samsung Wallet, Bringing USDC On Solana To Eligible U.S. Galaxy Users",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -335,7 +325,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75843.62,
+  "last_btc_price": 75780.35449999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
