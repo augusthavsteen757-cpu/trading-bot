@@ -7293,3 +7293,18 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-06 15:06,TSLA,356.55,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99572.85,-0.427,96390.44,-3.61,-0.382,-0.842,0.7459,
 2026-11-06 15:06,EQIX,1002.04,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,STOP RAMT,,,,99569.56,-0.43,96390.44,-3.61,-0.382,-0.842,0.7509,Solgt ca. 1001
 2026-11-06 15:06,DLR,175.35,high_vol,range_bund nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,STOP RAMT,,,,99569.4,-0.431,96390.44,-3.61,-0.382,-0.842,0.7509,Solgt ca. 175
+2026-11-06 15:11,BTC/USD,75183.25,high_vol,range_bund,nej (kun 1.5% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99519.83,-0.48,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,ETH/USD,2214.23,high_vol,range_bund,nej (kun 1.5% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99504.0,-0.496,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,SOL/USD,90.29,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99506.28,-0.494,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,SPY,739.15,high_vol,nyhed_op,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,736.79,99513.81,-0.486,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,QQQ,659.35,high_vol,nyhed_op,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,658.44,99513.57,-0.486,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,NVDA,192.27,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99495.43,-0.505,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,AAPL,341.4,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99499.65,-0.5,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,MSFT,532.4,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99486.56,-0.513,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,AMZN,262.86,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99486.48,-0.514,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,META,615.58,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99483.4,-0.517,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,GOOGL,288.2,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99486.74,-0.513,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,AMD,446.1,high_vol,,nej (positions-review),,,,,,,,,,,,,HOLD (position),,,443.77,99478.65,-0.521,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,TSLA,358.6,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99472.37,-0.528,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,EQIX,1007.31,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99471.32,-0.529,96687.54,-3.312,-0.461,-0.921,0.7509,
+2026-11-06 15:11,DLR,175.27,high_vol,range_bund nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99474.32,-0.526,96687.54,-3.312,-0.461,-0.921,0.7509,
