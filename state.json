@@ -184,7 +184,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75798.01000000001,
+  "last_btc_price": 75728.20000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1914,18 +1914,6 @@
         "pris_ved_nyhed": 441.825,
         "udloeber": "2026-11-06T22:36:22.862399+00:00"
       },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Unity-beat med f\u00f8rste GAAP-profit og h\u00e6vede m\u00e5l viser st\u00e6rk softwareeftersp\u00f8rgsel; positiv sentiment for store tech-annonc\u00f8rer og AI-stack spiller ind.",
-        "tid": "2026-11-06T18:16:20.304138+00:00",
-        "pris_ved_nyhed": 285.105,
-        "udloeber": "2026-11-06T20:16:20.304138+00:00"
-      },
       "MSFT": {
         "kilde": "nyhed",
         "symbol": "MSFT",
@@ -2295,7 +2283,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T19:56:50.517629+00:00",
+    "sidst_hentet": "2026-11-06T20:16:49.681268+00:00",
     "opslag": [
       {
         "id": "t3_1xpdci3",
@@ -2553,7 +2541,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.15,
+    "pris": 659.62,
     "snitpris": 659.03,
     "svag": false
   }
