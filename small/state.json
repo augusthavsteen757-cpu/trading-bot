@@ -131,7 +131,7 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T17:26:56.797964+00:00",
+    "sidst_hentet": "2026-11-06T17:41:56.942139+00:00",
     "opslag": [
       {
         "id": "t3_1xphn50",
@@ -196,7 +196,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.175,
+  "last_btc_price": 5.125,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1852,8 +1852,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.86,
-    "snitpris": 272.6,
+    "pris": 273.22,
+    "snitpris": 272.65,
     "svag": false
   }
 }
