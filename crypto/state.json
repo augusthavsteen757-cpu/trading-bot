@@ -28,8 +28,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T18:31:59.859403+00:00",
+    "sidst_hentet": "2026-11-06T18:52:00.263559+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpktxk",
+        "tid": "2026-11-06T18:50:48+00:00",
+        "titel": "How is bitcoin expected to have another bull run when the cap is already in the trillions?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xpkgk6",
+        "tid": "2026-11-06T18:36:16+00:00",
+        "titel": "Solana Ecosystem Roundup: October 2026",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xpjsza",
         "tid": "2026-11-06T18:11:06+00:00",
@@ -231,7 +251,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -305,7 +325,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75774.86300000001,
+  "last_btc_price": 75678.505,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
