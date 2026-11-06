@@ -306,18 +306,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH falder med markedet i det brede sell-off; overskriften giver ingen ny positiv kilde, og faldet er allerede synligt.",
-        "tid": "2026-11-06T02:16:36.599880+00:00",
-        "pris_ved_nyhed": 2233.1994999999997,
-        "udloeber": "2026-11-06T04:16:36.599880+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -329,30 +317,6 @@
         "tid": "2026-11-06T03:16:37.396872+00:00",
         "pris_ved_nyhed": 75954.14050000001,
         "udloeber": "2026-11-06T05:16:37.396872+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Dogecoin naevnt blandt de faldende coins; hoej beta til markedet g\u00f8r fortsat svaghed sandsynlig, men det er allerede i prisen.",
-        "tid": "2026-11-06T02:16:36.599880+00:00",
-        "pris_ved_nyhed": 0.0718655,
-        "udloeber": "2026-11-06T04:16:36.599880+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "SOL naevnt i sell-off-overskriften; ingen specifik nyhed, og effekten er allerede indregnet i kursen.",
-        "tid": "2026-11-06T02:16:36.599880+00:00",
-        "pris_ved_nyhed": 89.7598,
-        "udloeber": "2026-11-06T04:16:36.599880+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -418,7 +382,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75594.0215,
+  "last_btc_price": 75594.065,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
