@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.745904,
+  "budget_used": 0.750894,
   "version": 3,
   "learned": [],
   "pending": {
@@ -23,16 +23,16 @@
     "tab: adopteret i high_vol": [
       "2026-11-02 18:47: QQQ: stop ramt (Alpaca). R=-1.00. Entry 698, exit 689. Grund til koeb: ?. Features ved koeb: "
     ],
-    "tab: orb i high_vol": [
-      "2026-11-04 16:03: AMZN: stop ramt (Alpaca). R=-1.02. Entry 271, exit 267. Grund til koeb: ORB breakout {'or_high': 269.97, 'or_low': 263.9, 'sidste_luk': 270.41}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 1, 'rsi_1h': 79.0, 'adx_1h': 23.4, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.11, 'atr_percentil_30d': 92.9}"
-    ],
     "gevinst: range_bund i range": [
       "2026-11-05 14:40: META: stop ramt (Alpaca). R=+1.45. Entry 611, exit 625. Grund til koeb: Pris ved stoette (0.04 ATR) med stram stop; modstand 621.59 er 2.15 ATR vaek, over 1,2R. Svag trend og volumen taler for lav conviction.. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.9, 'adx_1h': 19.4, 'rel_volumen_1h': 0.31, 'afstand_modstand_atr': 2.15, 'atr_percentil_30d': 12.5}"
+    ],
+    "tab: orb i high_vol": [
+      "2026-11-06 15:06: DLR: stop ramt (Alpaca). R=-1.66. Entry 177, exit 175. Grund til koeb: ORB breakout {'or_high': 176.52, 'or_low': 174.99, 'sidste_luk': 176.69}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': 0, 'rsi_1h': 45.5, 'adx_1h': 22.8, 'rel_volumen_1h': 0.26, 'afstand_modstand_atr': 0.54, 'atr_percentil_30d': 98.0}"
     ]
   },
   "ai_day": "2026-11-06",
   "ai_rounds_today": 15,
-  "ai_spend_today": 0.10754919999999996,
+  "ai_spend_today": 0.11253919999999995,
   "eq_day": "2026-11-06",
   "day_start_equity": 99992.62,
   "peak_equity": 100456.88,
@@ -241,30 +241,6 @@
         "nyhed_op"
       ],
       "orb_day": "2026-11-06",
-      "pos": {
-        "entry": 1012.955,
-        "stop": 1003.3775,
-        "stop_initial": 1003.3775,
-        "high": 1012.955,
-        "qty": 9.0,
-        "entry_tid": "2026-11-06 14:57",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 1008.39, 'or_low': 998.36, 'sidste_luk': 1014.96}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 1,
-          "trend_1d": 0,
-          "rsi_1h": 50.3,
-          "adx_1h": 18.5,
-          "rel_volumen_1h": 0.36,
-          "afstand_modstand_atr": 0.24,
-          "atr_percentil_30d": 97.7
-        },
-        "target": 1032.1100000000001,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-06T15:02:19.613115+00:00",
       "last_review_price": 1009.93
     },
@@ -275,35 +251,11 @@
         "range_bund"
       ],
       "orb_day": "2026-11-06",
-      "pos": {
-        "entry": 176.68,
-        "stop": 175.755,
-        "stop_initial": 175.755,
-        "high": 176.68,
-        "qty": 9.0,
-        "entry_tid": "2026-11-06 14:57",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 176.52, 'or_low': 174.99, 'sidste_luk': 176.69}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": 0,
-          "rsi_1h": 45.5,
-          "adx_1h": 22.8,
-          "rel_volumen_1h": 0.26,
-          "afstand_modstand_atr": 0.54,
-          "atr_percentil_30d": 98.0
-        },
-        "target": 178.53000000000003,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-06T15:02:34.219284+00:00",
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75394.477,
+  "last_btc_price": 74952.22450000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2696,8 +2648,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 662.62,
-    "snitpris": 660.18,
+    "pris": 660.82,
+    "snitpris": 660.24,
     "svag": false
   }
 }
