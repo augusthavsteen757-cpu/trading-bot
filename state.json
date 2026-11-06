@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75966.4805,
+  "last_btc_price": 75961.57250000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2153,8 +2153,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T09:35:48.257681+00:00",
+    "sidst_hentet": "2026-11-06T09:55:47.698036+00:00",
     "opslag": [
+      {
+        "id": "t3_1xp8zc5",
+        "tid": "2026-11-06T09:52:57+00:00",
+        "titel": "Moving Bitcoin to a bank account",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xp8rag",
+        "tid": "2026-11-06T09:38:10+00:00",
+        "titel": "Long-term holders: Do you still risk staking your ETH or just keep it cold?",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
       {
         "id": "t3_1xp7wfz",
         "tid": "2026-11-06T08:41:15+00:00",
@@ -2385,26 +2405,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoer5n",
-        "tid": "2026-11-05T09:54:20+00:00",
-        "titel": "Is holding 2 BTC enough to potentially retire someday? If so, what year?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoeop6",
-        "tid": "2026-11-05T09:49:39+00:00",
-        "titel": "PreStocks\u2019 Anthropic pre-IPO token on Solana: holders up 100x in one year.",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
