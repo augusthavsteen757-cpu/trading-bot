@@ -325,18 +325,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Schiff roeser Bitcoin som den mest vaerdifulde af de tre, men det er gammel holdning og ingen ny information for kursen.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 76082.2745,
-        "udloeber": "2026-11-06T12:51:25.101084+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -456,7 +444,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76071.97,
+  "last_btc_price": 75933.4,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
