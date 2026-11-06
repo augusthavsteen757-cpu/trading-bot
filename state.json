@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75600.31599999999,
+  "last_btc_price": 75600.195,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1868,18 +1868,6 @@
         "tid": "2026-11-06T03:20:22.179366+00:00",
         "pris_ved_nyhed": 2233.055,
         "udloeber": "2026-11-06T06:20:22.179366+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Solana fulgte det generelle kryptosalg uden egen katalysator; effekten er allerede i kursen.",
-        "tid": "2026-11-06T02:19:54.894627+00:00",
-        "pris_ved_nyhed": 89.87854999999999,
-        "udloeber": "2026-11-06T04:19:54.894627+00:00"
       }
     },
     "dag": "2026-11-06",
