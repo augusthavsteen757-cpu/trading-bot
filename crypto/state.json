@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T20:32:00.473232+00:00",
+    "sidst_hentet": "2026-11-06T20:47:00.877855+00:00",
     "opslag": [
       {
         "id": "t3_1xpnc9b",
@@ -229,29 +229,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xotgbi",
-        "tid": "2026-11-05T20:32:37+00:00",
-        "titel": "I built a live 3D view of the Bitcoin network. You can watch the next block get found as it happens.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xotg9q",
-        "tid": "2026-11-05T20:32:33+00:00",
-        "titel": "Does Bitcoin make anarchy more viable?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -325,7 +305,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75799.41,
+  "last_btc_price": 75794.45550000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
