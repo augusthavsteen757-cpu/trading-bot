@@ -82,7 +82,7 @@
         "entry": 4.145,
         "stop": 4.145,
         "stop_initial": 3.965,
-        "high": 4.38,
+        "high": 4.39,
         "qty": 2399.0,
         "entry_tid": "2026-11-06 15:32",
         "setup": "orb",
@@ -198,7 +198,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.345,
+  "last_btc_price": 5.375,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1854,8 +1854,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.17,
-    "snitpris": 273.04,
+    "pris": 274.31,
+    "snitpris": 273.08,
     "svag": false
   }
 }
