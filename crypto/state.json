@@ -305,32 +305,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften beskriver at BTC har slettet gevinsten siden valget, hvilket allerede er sket i prisen. Scaramuccis 'second chance'-kommentar er en holdning, ikke ny efterspoergsel, saa den giver kun svag opadgaaende potentiale.",
-        "tid": "2026-11-06T04:46:36.878566+00:00",
-        "pris_ved_nyhed": 75678.15,
-        "udloeber": "2026-11-06T06:46:36.878566+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Krypto-markedet som helhed bevaeger sig sandsynligvis med BTC, men nyheden omtaler kun bitcoin. Sammenhaengen er svag og allerede kendt.",
-        "tid": "2026-11-06T04:46:36.878566+00:00",
-        "pris_ved_nyhed": 2230.0299999999997,
-        "udloeber": "2026-11-06T06:46:36.878566+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-06T04:46:36.878566+00:00",
@@ -395,7 +370,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75638.23999999999,
+  "last_btc_price": 75619.619,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
