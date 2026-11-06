@@ -131,24 +131,12 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T16:11:58.685057+00:00",
+    "sidst_hentet": "2026-11-06T16:31:56.709281+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigning premarket fra oversolgt niveau op til regnskab 12. nov; kortsigtet rebound, men lille effekt da det meste er allerede i prisen.",
-        "tid": "2026-11-06T14:31:57.421968+00:00",
-        "pris_ved_nyhed": 8.98,
-        "udloeber": "2026-11-06T16:31:57.421968+00:00"
-      },
       "SOUN": {
         "kilde": "nyhed",
         "symbol": "SOUN",
@@ -160,18 +148,6 @@
         "tid": "2026-11-06T16:01:59.108044+00:00",
         "pris_ved_nyhed": 4.02,
         "udloeber": "2026-11-06T18:01:59.108044+00:00"
-      },
-      "UMAC": {
-        "kilde": "nyhed",
-        "symbol": "UMAC",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Needham fastholder buy men saenker kursmaal til 22 dollar; nedjustering d\u00e6mper optimisme, ingen klar retning.",
-        "tid": "2026-11-06T14:31:57.421968+00:00",
-        "pris_ved_nyhed": 11.285,
-        "udloeber": "2026-11-06T16:31:57.421968+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -209,7 +185,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.075,
+  "last_btc_price": 5.115,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1865,8 +1841,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.09,
-    "snitpris": 272.18,
+    "pris": 272.96,
+    "snitpris": 272.2,
     "svag": false
   }
 }
