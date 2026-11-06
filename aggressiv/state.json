@@ -318,18 +318,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Politikerhandel mellem chipaktier har lille markedseffekt; nyheden er svag og fokuserer paa en enkelt persons timing, ikke fundamentale forhold.",
-        "tid": "2026-11-06T15:01:11.219885+00:00",
-        "pris_ved_nyhed": 304.27,
-        "udloeber": "2026-11-06T16:01:11.219885+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -2241,7 +2229,7 @@
   "scan": {
     "dag": "2026-11-06",
     "syms": [],
-    "sidst": "2026-11-06T15:51:12.634016+00:00",
+    "sidst": "2026-11-06T16:01:14.928625+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2252,7 +2240,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.33,
+    "pris": 660.06,
     "snitpris": 659.92,
     "svag": false
   }
