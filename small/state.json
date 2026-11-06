@@ -82,7 +82,7 @@
         "entry": 4.145,
         "stop": 4.145,
         "stop_initial": 3.965,
-        "high": 4.25,
+        "high": 4.28,
         "qty": 2399.0,
         "entry_tid": "2026-11-06 15:32",
         "setup": "orb",
@@ -131,7 +131,7 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T17:11:56.616915+00:00",
+    "sidst_hentet": "2026-11-06T17:26:56.797964+00:00",
     "opslag": [
       {
         "id": "t3_1xphn50",
@@ -196,7 +196,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.1850000000000005,
+  "last_btc_price": 5.205,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1852,8 +1852,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.69,
-    "snitpris": 272.52,
+    "pris": 273.87,
+    "snitpris": 272.54,
     "svag": false
   }
 }
