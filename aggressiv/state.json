@@ -2035,8 +2035,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.07,
-    "snitpris": 659.03,
-    "svag": false
+    "pris": 658.85,
+    "snitpris": 659.02,
+    "svag": true
   }
 }
