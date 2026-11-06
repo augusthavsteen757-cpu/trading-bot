@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75927.33,
+  "last_btc_price": 76068.26699999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1844,20 +1844,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Core Scientific opgiver Bitcoin-mining og satser paa AI-datacentre. Mindre hashrate-efterspoergsel, men ringe direkte paavirkning af BTC-prisen.",
-        "tid": "2026-11-06T07:15:21.476969+00:00",
-        "pris_ved_nyhed": 75293.753,
-        "udloeber": "2026-11-06T09:15:21.476969+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-06T08:20:49.218096+00:00",
