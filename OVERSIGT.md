@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 17.17** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 17.21** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.339 USD  ·  **I alt:** -661 USD (-0.66 %)  ·  **I dag:** -0.66 %  ·  sidst opdateret 6/11 17.16
+**Konto:** 99.306 USD  ·  **I alt:** -694 USD (-0.69 %)  ·  **I dag:** -0.71 %  ·  sidst opdateret 6/11 17.21
 
 **Ejer nu:**
 
@@ -27,28 +27,27 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 17.17** (dansk tid). Kun
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.436 USD  ·  **I alt:** -564 USD (-0.56 %)  ·  **I dag:** +0.05 %  ·  sidst opdateret 6/11 17.12
+**Konto:** 99.460 USD  ·  **I alt:** -540 USD (-0.54 %)  ·  **I dag:** +0.04 %  ·  sidst opdateret 6/11 17.17
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| LUNR | 30 | 9.66 | 6/11 16.17 |
 | ACHR | 2399 | 4.14 | 6/11 16.32 |
 
-**Lukkede handler:** 8 i alt, 3 med gevinst, samlet -550 USD
+**Lukkede handler:** 9 i alt, 3 med gevinst, samlet -551 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ LUNR | 6/11 17.17 | -1 USD | tidsstop (60 min uden gevinst) |
 | ❌ RGTI | 6/11 16.37 | -6 USD | stop ramt (Alpaca) |
 | ✅ ONDS | 6/11 16.37 | +10 USD | stop ramt (Alpaca) |
 | ❌ QUBT | 6/11 16.27 | -25 USD | stop ramt (Alpaca) |
 | ✅ RCAT | 6/11 16.27 | +13 USD | stop ramt (Alpaca) |
-| ❌ RGTI | 4/11 16.40 | -238 USD | stop ramt (Alpaca) |
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 17.12
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 17.17
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -76,7 +75,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 17.17** (dansk tid). Kun
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.890 USD  ·  **I alt:** -110 USD (-0.11 %)  ·  **I dag:** -3.49 %  ·  sidst opdateret 6/11 17.11
+**Konto:** 99.686 USD  ·  **I alt:** -314 USD (-0.31 %)  ·  **I dag:** -3.67 %  ·  sidst opdateret 6/11 17.16
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1046 USD (4 vundet), fuld fart
 
