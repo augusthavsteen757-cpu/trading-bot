@@ -184,7 +184,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75516.6,
+  "last_btc_price": 75626.696,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1926,18 +1926,6 @@
         "pris_ved_nyhed": 287.73,
         "udloeber": "2026-11-06T18:36:19.514105+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Cybertruck-udfasning er negativ for salg, men markedet kender til svag efterspoergsel; Cybercab-fokus kan skabe blandede signaler.",
-        "tid": "2026-11-06T15:46:18.763822+00:00",
-        "pris_ved_nyhed": 357.27,
-        "udloeber": "2026-11-06T17:46:18.763822+00:00"
-      },
       "AAPL": {
         "kilde": "nyhed",
         "symbol": "AAPL",
@@ -2541,8 +2529,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.29,
-    "snitpris": 659.64,
+    "pris": 656.49,
+    "snitpris": 659.61,
     "svag": true
   }
 }
