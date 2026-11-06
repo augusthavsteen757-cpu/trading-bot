@@ -145,7 +145,7 @@
         "entry": 533.73,
         "stop": 528.6424999999999,
         "stop_initial": 528.6424999999999,
-        "high": 533.73,
+        "high": 534.47,
         "qty": 18.0,
         "entry_tid": "2026-11-06 15:16",
         "setup": "orb",
@@ -230,7 +230,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75321.7,
+  "last_btc_price": 75229.032,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2623,8 +2623,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.19,
-    "snitpris": 660.22,
+    "pris": 656.11,
+    "snitpris": 660.05,
     "svag": true
   }
 }
