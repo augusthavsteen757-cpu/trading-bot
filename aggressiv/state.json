@@ -97,31 +97,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-06",
-      "pos": {
-        "entry": 80.26,
-        "stop": 79.03999999999999,
-        "stop_initial": 79.03999999999999,
-        "high": 80.26,
-        "qty": 118.0,
-        "entry_tid": "2026-11-06 15:16",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 80.02, 'or_low': 78.06, 'sidste_luk': 80.23}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 41.6,
-          "adx_1h": 30.9,
-          "rel_volumen_1h": 0.39,
-          "afstand_modstand_atr": 2.72,
-          "atr_percentil_30d": 97.8
-        },
-        "target": 83.92000000000004,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-06"
     },
     "AEHL": {},
     "APP": {
@@ -189,7 +165,8 @@
     "tab: orb i high_vol": [
       "2026-11-06 15:06: COIN: stop ramt (Alpaca). R=-1.08. Entry 138, exit 136. Grund til koeb: ORB breakout {'or_high': 137.92, 'or_low': 134.04, 'sidste_luk': 138.19}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.8, 'adx_1h': 23.0, 'rel_volumen_1h': 0.32, 'afstand_modstand_atr': 0.31, 'atr_percentil_30d': 96.5}",
       "2026-11-06 15:06: SMCI: stop ramt (Alpaca). R=-1.00. Entry 29, exit 29. Grund til koeb: ORB breakout {'or_high': 29.18, 'or_low': 28.34, 'sidste_luk': 29.29}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 49.6, 'adx_1h': 22.5, 'rel_volumen_1h': 0.4, 'afstand_modstand_atr': 2.77, 'atr_percentil_30d': 98.5}",
-      "2026-11-06 15:26: AMD: stop ramt (Alpaca). R=-1.02. Entry 458, exit 444. Grund til koeb: ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 50.6, 'adx_1h': 29.7, 'rel_volumen_1h': 3.25, 'afstand_modstand_atr': 2.0, 'atr_percentil_30d': 97.3}"
+      "2026-11-06 15:26: AMD: stop ramt (Alpaca). R=-1.02. Entry 458, exit 444. Grund til koeb: ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 50.6, 'adx_1h': 29.7, 'rel_volumen_1h': 3.25, 'afstand_modstand_atr': 2.0, 'atr_percentil_30d': 97.3}",
+      "2026-11-06 15:31: HOOD: stop ramt (Alpaca). R=-1.03. Entry 80, exit 79. Grund til koeb: ORB breakout {'or_high': 80.02, 'or_low': 78.06, 'sidste_luk': 80.23}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 41.6, 'adx_1h': 30.9, 'rel_volumen_1h': 0.39, 'afstand_modstand_atr': 2.72, 'atr_percentil_30d': 97.8}"
     ]
   },
   "budget_month": "2026-11",
@@ -198,7 +175,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.052296600000000006,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler +1149 USD (4 vundet), fuld fart",
+  "auto_tjek": "auto-tjek: seneste 10 handler +1046 USD (4 vundet), fuld fart",
   "eq_day": "2026-11-06",
   "day_start_equity": 103458.81,
   "peak_equity": 105445.49,
@@ -2258,8 +2235,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.26,
-    "snitpris": 660.29,
+    "pris": 658.19,
+    "snitpris": 660.22,
     "svag": true
   }
 }
