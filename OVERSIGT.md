@@ -1,27 +1,26 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.32** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.36** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.379 USD  ·  **I alt:** -621 USD (-0.62 %)  ·  **I dag:** -0.60 %  ·  sidst opdateret 6/11 18.32
+**Konto:** 99.353 USD  ·  **I alt:** -647 USD (-0.65 %)  ·  **I dag:** -0.61 %  ·  sidst opdateret 6/11 18.36
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | AAPL | 2 | 342.55 | 6/11 16.21 |
-| MSFT | 18 | 533.73 | 6/11 16.16 |
 
-**Lukkede handler:** 21 i alt, 6 med gevinst, samlet -580 USD
+**Lukkede handler:** 22 i alt, 6 med gevinst, samlet -597 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ MSFT | 6/11 18.36 | -17 USD | stop ramt (Alpaca) |
 | ❌ META | 6/11 17.56 | -49 USD | tidsstop (60 min uden gevinst) |
 | ❌ AMZN | 6/11 17.56 | -12 USD | tidsstop (60 min uden gevinst) |
 | ❌ SPY | 6/11 17.01 | -9 USD | tidsstop (60 min uden gevinst) |
 | ❌ QQQ | 6/11 16.31 | -82 USD | stop ramt (Alpaca) |
-| ❌ AMD | 6/11 16.27 | -335 USD | stop ramt (Alpaca) |
 
 ## 🔴 Small-botten (10 små aktier)
 
@@ -45,7 +44,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.32** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 18.27
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 18.32
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
