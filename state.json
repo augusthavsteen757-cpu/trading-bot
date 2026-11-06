@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 76230.43950000001,
+  "last_btc_price": 76225.2025,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2190,7 +2190,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T00:44:55.274028+00:00",
+    "sidst_hentet": "2026-11-06T00:59:55.444726+00:00",
     "opslag": [
       {
         "id": "t3_1xoz1xs",
@@ -2442,19 +2442,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xo5a0e",
-        "tid": "2026-11-05T00:55:33+00:00",
-        "titel": "bitcoin means to me",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
