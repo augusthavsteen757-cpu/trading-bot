@@ -2033,10 +2033,5 @@
       "UVXY"
     ]
   },
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 655.96,
-    "snitpris": 658.85,
-    "svag": true
-  }
+  "marked": {}
 }
