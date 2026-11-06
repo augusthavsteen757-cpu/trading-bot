@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75949.475,
+  "last_btc_price": 75890.8885,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1817,68 +1817,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "V\u00e6rdians\u00e6ttelsesrabat p\u00e5 chips og SMH-rebound kan tr\u00e6kke NVDA op via sektorrotation; effekten kan dog v\u00e6re delvist allerede indregnet.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 187.28500000000003,
-        "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Bernstein kalder AI-datacenter-faldet overdrevet; kan give lettelse, men aktien er sandsynligvis allerede faldet, s\u00e5 effekten kan v\u00e6re begr\u00e6nset.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 262.875,
-        "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Chipaktier handler 22% under S&P 500, og SMH rebounder fredag; mulig mean reversion, men SOX har allerede faldet 38%, s\u00e5 meget kan v\u00e6re prisat.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 441.825,
-        "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      },
-      "EQIX": {
-        "kilde": "nyhed",
-        "symbol": "EQIX",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Bernstein-kommentaren om kapacitet rammer direkte datacenter-REITs; lettelse mulig, men faldet efter valget kan allerede v\u00e6re prisat.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 1009.14,
-        "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Samme logik som EQIX: Bernstein-vurderingen om begr\u00e6nset kapacitetsp\u00e5virkning st\u00f8tter datacenter-REITs.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 173.67,
-        "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-06T18:36:22.862399+00:00",
