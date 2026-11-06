@@ -20,7 +20,32 @@
       "last_entry_eval": "2026-11-06T14:31:33.904514+00:00",
       "last_entry_setups": [
         "nyhed_op"
-      ]
+      ],
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 458.37,
+        "stop": 443.76750000000004,
+        "stop_initial": 443.76750000000004,
+        "high": 458.37,
+        "qty": 90.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 50.6,
+          "adx_1h": 29.7,
+          "rel_volumen_1h": 3.25,
+          "afstand_modstand_atr": 2.0,
+          "atr_percentil_30d": 97.3
+        },
+        "target": 502.1774999999999,
+        "luk_foer_luk": true
+      }
     },
     "PLTR": {
       "last_entry_eval": "2026-11-06T14:36:27.964502+00:00",
@@ -34,9 +59,33 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04",
+      "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-04T14:56:55.210211+00:00",
-      "last_review_price": 147.34
+      "last_review_price": 147.34,
+      "pos": {
+        "entry": 138.47,
+        "stop": 135.98,
+        "stop_initial": 135.98,
+        "high": 138.47,
+        "qty": 298.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 137.92, 'or_low': 134.04, 'sidste_luk': 138.19}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 42.8,
+          "adx_1h": 23.0,
+          "rel_volumen_1h": 0.32,
+          "afstand_modstand_atr": 0.31,
+          "atr_percentil_30d": 96.5
+        },
+        "target": 145.94000000000003,
+        "luk_foer_luk": true
+      }
     },
     "MSTR": {
       "last_entry_eval": "2026-11-06T14:32:01.752731+00:00",
@@ -85,7 +134,33 @@
       "orb_day": "2026-11-05"
     },
     "UVXY": {},
-    "SMCI": {},
+    "SMCI": {
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 29.325000000000003,
+        "stop": 28.7575,
+        "stop_initial": 28.7575,
+        "high": 29.325000000000003,
+        "qty": 361.0,
+        "entry_tid": "2026-11-06 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 29.18, 'or_low': 28.34, 'sidste_luk': 29.29}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 49.6,
+          "adx_1h": 22.5,
+          "rel_volumen_1h": 0.4,
+          "afstand_modstand_atr": 2.77,
+          "atr_percentil_30d": 98.5
+        },
+        "target": 31.02750000000001,
+        "luk_foer_luk": true
+      }
+    },
     "MARA": {},
     "RIOT": {},
     "SOFI": {},
@@ -2161,8 +2236,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.79,
-    "snitpris": 658.97,
+    "pris": 662.68,
+    "snitpris": 659.63,
     "svag": false
   }
 }
