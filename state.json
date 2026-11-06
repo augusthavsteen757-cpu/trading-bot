@@ -208,7 +208,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75989.92199999999,
+  "last_btc_price": 75852.685,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1866,18 +1866,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Regulatorisk usikkerhed rammer altcoins bredt; ETH paavirkes sandsynligvis sammen med BTC.",
-        "tid": "2026-11-06T14:11:19.921909+00:00",
-        "pris_ved_nyhed": 2225.33,
-        "udloeber": "2026-11-06T17:11:19.921909+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1889,18 +1877,6 @@
         "tid": "2026-11-06T16:36:19.514105+00:00",
         "pris_ved_nyhed": 75778.9,
         "udloeber": "2026-11-06T19:36:19.514105+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Skaerpet SEC-tilsyn kan ramme SOL haardere end BTC, da den ofte vurderes som mere regulatorisk foelsom.",
-        "tid": "2026-11-06T14:11:19.921909+00:00",
-        "pris_ved_nyhed": 89.76150000000001,
-        "udloeber": "2026-11-06T17:11:19.921909+00:00"
       },
       "SPY": {
         "kilde": "nyhed",
@@ -2601,8 +2577,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.6,
-    "snitpris": 659.88,
+    "pris": 659.08,
+    "snitpris": 659.87,
     "svag": true
   }
 }
