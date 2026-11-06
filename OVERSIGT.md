@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.22** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.516 USD  ·  **I alt:** -484 USD (-0.48 %)  ·  **I dag:** -0.39 %  ·  sidst opdateret 6/11 16.17
+**Konto:** 99.533 USD  ·  **I alt:** -467 USD (-0.47 %)  ·  **I dag:** -0.36 %  ·  sidst opdateret 6/11 16.22
 
 **Ejer nu:**
 
@@ -12,6 +12,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun
 |---|---|---|---|
 | SPY | 13 | 739.84 | 6/11 15.56 |
 | QQQ | 15 | 663.83 | 6/11 15.51 |
+| AAPL | 2 | 342.55 | 6/11 16.21 |
 | MSFT | 18 | 533.73 | 6/11 16.16 |
 | AMD | 21 | 459.47 | 6/11 15.51 |
 
@@ -25,9 +26,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun
 | ❌ NVDA | 5/11 15.56 | -39 USD | stop ramt (Alpaca) |
 | ✅ META | 5/11 15.40 | +115 USD | stop ramt (Alpaca) |
 
-## 🔴 Small-botten (10 små aktier)
+## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 99.409 USD  ·  **I alt:** -591 USD (-0.59 %)  ·  **I dag:** -0.16 %  ·  sidst opdateret 6/11 16.12
+**Konto:** 100.140 USD  ·  **I alt:** +140 USD (+0.14 %)  ·  **I dag:** +0.71 %  ·  sidst opdateret 6/11 16.17
 
 **Ejer nu:**
 
@@ -37,6 +38,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun
 | RCAT | 2683 | 3.71 | 6/11 15.52 |
 | QUBT | 1689 | 5.88 | 6/11 15.52 |
 | RGTI | 935 | 10.63 | 6/11 15.52 |
+| LUNR | 30 | 9.66 | 6/11 16.17 |
 
 **Lukkede handler:** 4 i alt, 1 med gevinst, samlet -542 USD
 
@@ -80,7 +82,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.032 USD  ·  **I alt:** +1.032 USD (+1.03 %)  ·  **I dag:** -2.05 %  ·  sidst opdateret 6/11 16.17
+**Konto:** 101.035 USD  ·  **I alt:** +1.035 USD (+1.04 %)  ·  **I dag:** -1.90 %  ·  sidst opdateret 6/11 16.21
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +2457 USD (4 vundet), fuld fart
 
@@ -91,6 +93,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.17** (dansk tid). Kun
 | AMD | 90 | 458.37 | 6/11 15.51 |
 | PLTR | 249 | 162.38 | 6/11 16.16 |
 | HOOD | 118 | 80.26 | 6/11 16.16 |
+| SHOP | 1 | 148.51 | 6/11 16.21 |
 
 **Lukkede handler:** 10 i alt, 4 med gevinst, samlet +2.457 USD
 
