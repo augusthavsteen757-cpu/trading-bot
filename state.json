@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75631.8,
+  "last_btc_price": 75667.18299999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1818,30 +1818,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Analytikeren ser bunden og s\u00e6lgerudmattelse; kan udl\u00f8se kortsigtet rebound, men 'Crypto is dead'-kommentar og lav tillid g\u00f8r signalet svagt.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 75847.075,
-        "udloeber": "2026-11-06T21:36:22.862399+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "NVDA og AI/chip-sektor er tunge i QQQ; en chip-rebound og AI-lettelse kan l\u00f8fte indekset indirekte.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 658.38,
-        "udloeber": "2026-11-06T21:36:22.862399+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1877,30 +1853,6 @@
         "tid": "2026-11-06T18:36:22.862399+00:00",
         "pris_ved_nyhed": 441.825,
         "udloeber": "2026-11-06T22:36:22.862399+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "AI-sektorens overdrevne fald kan give lettelse, men effekten p\u00e5 MSFT er indirekte og sandsynligvis allerede delvist i prisen.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 533.135,
-        "udloeber": "2026-11-06T21:36:22.862399+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Indirekte lettelse fra AI-sektor-kommentaren; svagt signal med begr\u00e6nset kendskab til META's egen eksponering.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 618.275,
-        "udloeber": "2026-11-06T21:36:22.862399+00:00"
       },
       "EQIX": {
         "kilde": "nyhed",
