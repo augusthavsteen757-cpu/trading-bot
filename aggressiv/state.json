@@ -52,7 +52,31 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04"
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 162.38,
+        "stop": 159.305,
+        "stop_initial": 159.305,
+        "high": 162.38,
+        "qty": 249.0,
+        "entry_tid": "2026-11-06 15:16",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 161.3, 'or_low': 157.31, 'sidste_luk': 162.14}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": 0,
+          "rsi_1h": 44.3,
+          "adx_1h": 27.6,
+          "rel_volumen_1h": 0.43,
+          "afstand_modstand_atr": 2.61,
+          "atr_percentil_30d": 95.9
+        },
+        "target": 171.60499999999996,
+        "luk_foer_luk": true
+      }
     },
     "COIN": {
       "last_entry_eval": "2026-11-06T14:31:51.466001+00:00",
@@ -97,7 +121,31 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04"
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 80.26,
+        "stop": 79.03999999999999,
+        "stop_initial": 79.03999999999999,
+        "high": 80.26,
+        "qty": 118.0,
+        "entry_tid": "2026-11-06 15:16",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 80.02, 'or_low': 78.06, 'sidste_luk': 80.23}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 41.6,
+          "adx_1h": 30.9,
+          "rel_volumen_1h": 0.39,
+          "afstand_modstand_atr": 2.72,
+          "atr_percentil_30d": 97.8
+        },
+        "target": 83.92000000000004,
+        "luk_foer_luk": true
+      }
     },
     "AEHL": {},
     "APP": {
@@ -2206,8 +2254,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.7,
-    "snitpris": 660.24,
-    "svag": true
+    "pris": 661.46,
+    "snitpris": 660.26,
+    "svag": false
   }
 }
