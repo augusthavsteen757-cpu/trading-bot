@@ -171,18 +171,6 @@
         "tid": "2026-11-06T18:26:56.869438+00:00",
         "pris_ved_nyhed": 11.434999999999999,
         "udloeber": "2026-11-06T20:26:56.869438+00:00"
-      },
-      "SOUN": {
-        "kilde": "kun_reddit",
-        "symbol": "SOUN",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Kun Reddit-hype om shortsqueeze uden konkret nyhed bag. Ingen trov\u00e6rdig katalysator, saa kun ekstra kontekst.",
-        "tid": "2026-11-06T18:26:56.869438+00:00",
-        "pris_ved_nyhed": 3.9450000000000003,
-        "udloeber": "2026-11-06T19:26:56.869438+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -221,7 +209,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.325,
+  "last_btc_price": 5.345,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1877,8 +1865,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.93,
-    "snitpris": 272.87,
+    "pris": 273.96,
+    "snitpris": 272.88,
     "svag": false
   }
 }
