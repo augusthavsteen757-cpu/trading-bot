@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75647.284,
+  "last_btc_price": 75641.15,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2166,7 +2166,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T13:25:48.130429+00:00",
+    "sidst_hentet": "2026-11-06T13:41:18.417831+00:00",
     "opslag": [
       {
         "id": "t3_1xp9g5q",
@@ -2397,39 +2397,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoix7i",
-        "tid": "2026-11-05T13:41:15+00:00",
-        "titel": "What will happen to BTC in the next 2 years?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoiw06",
-        "tid": "2026-11-05T13:39:43+00:00",
-        "titel": "Bitcoin future?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoiu5j",
-        "tid": "2026-11-05T13:37:23+00:00",
-        "titel": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
