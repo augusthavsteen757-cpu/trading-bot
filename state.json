@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75619.5325,
+  "last_btc_price": 75603.35,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1844,20 +1844,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Scaramucci taler om et koebsvindue efter et fald, men det er en meningsudtalelse fra en kendt investor, ikke ny fundamental data. Bitcoin har allerede haandteret tilbagegangen, sa effekten er sandsynligvis begraenset.",
-        "tid": "2026-11-06T04:50:21.977331+00:00",
-        "pris_ved_nyhed": 75675.125,
-        "udloeber": "2026-11-06T06:50:21.977331+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-06",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-06T04:50:21.977331+00:00",
