@@ -1,12 +1,17 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 15.47** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 15.51** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.992 USD  ·  **I alt:** -8 USD (-0.01 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 6/11 15.47
+**Konto:** 99.985 USD  ·  **I alt:** -15 USD (-0.01 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 6/11 15.51
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| QQQ | 15 | 663.83 | 6/11 15.51 |
+| AMD | 21 | 459.47 | 6/11 15.51 |
 
 **Lukkede handler:** 14 i alt, 6 med gevinst, samlet +32 USD
 
@@ -49,7 +54,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 15.47** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 15.46
+**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 15.51
 
 **Ejer nu:** intet
 
