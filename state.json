@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75831.525,
+  "last_btc_price": 75838.0665,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2126,8 +2126,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T23:16:48.140163+00:00",
+    "sidst_hentet": "2026-11-06T23:31:48.196566+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpre9l",
+        "tid": "2026-11-06T23:25:07+00:00",
+        "titel": "Paraguay Bank Collapse Shows Why Bitcoin Was Created",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xpqc5j",
         "tid": "2026-11-06T22:37:26+00:00",
@@ -2292,16 +2302,6 @@
         "id": "t3_1xoz1xs",
         "tid": "2026-11-06T00:31:13+00:00",
         "titel": "Happy Gunpowder Treason Day Bitcoin!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoxosi",
-        "tid": "2026-11-05T23:29:39+00:00",
-        "titel": "I bought a shit ton of bitcoin on January 8th 2026. I told myself (guy with failing track record) \u201cthere\u2019s no possible w",
         "symboler": [
           "BTC/USD"
         ],
