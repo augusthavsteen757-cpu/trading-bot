@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T22:37:29.822748+00:00",
+    "sidst_hentet": "2026-11-06T22:57:30.106585+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpqc5j",
+        "tid": "2026-11-06T22:37:26+00:00",
+        "titel": "$MNST, From Monster Beverage Corp, Is Now Listed On Solana Via Sunrise, Issued By Backpack Securities",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xpnc9b",
         "tid": "2026-11-06T20:31:32+00:00",
@@ -231,7 +241,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -305,7 +315,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75870.83,
+  "last_btc_price": 75828.16750000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
