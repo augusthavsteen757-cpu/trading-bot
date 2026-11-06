@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.36** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.41** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.353 USD  ·  **I alt:** -647 USD (-0.65 %)  ·  **I dag:** -0.61 %  ·  sidst opdateret 6/11 18.36
+**Konto:** 99.355 USD  ·  **I alt:** -645 USD (-0.64 %)  ·  **I dag:** -0.64 %  ·  sidst opdateret 6/11 18.41
 
 **Ejer nu:**
 
@@ -44,7 +44,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.36** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 18.32
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 18.37
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -58,7 +58,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.36** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.929 USD  ·  **I alt:** -1.071 USD (-1.07 %)  ·  **I dag:** -0.25 %  ·  sidst opdateret 6/11 18.31
+**Konto:** 98.929 USD  ·  **I alt:** -1.071 USD (-1.07 %)  ·  **I dag:** -0.25 %  ·  sidst opdateret 6/11 18.41
 
 **Ejer nu:** intet
 
@@ -72,24 +72,23 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 18.36** (dansk tid). Kun
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.198 USD  ·  **I alt:** +198 USD (+0.20 %)  ·  **I dag:** -3.14 %  ·  sidst opdateret 6/11 18.32
+**Konto:** 100.183 USD  ·  **I alt:** +183 USD (+0.18 %)  ·  **I dag:** -3.14 %  ·  sidst opdateret 6/11 18.37
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +609 USD (4 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +367 USD (3 vundet), fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| RIVN | 734 | 13.48 | 6/11 16.51 |
 | SHOP | 1 | 148.51 | 6/11 16.21 |
 
-**Lukkede handler:** 14 i alt, 4 med gevinst, samlet +536 USD
+**Lukkede handler:** 15 i alt, 4 med gevinst, samlet +525 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ RIVN | 6/11 18.36 | -11 USD | tidsstop (90 min uden gevinst) |
 | ❌ META | 6/11 18.21 | -245 USD | tidsstop (90 min uden gevinst) |
 | ❌ PLTR | 6/11 17.46 | -192 USD | tidsstop (90 min uden gevinst) |
 | ❌ HOOD | 6/11 16.31 | -149 USD | stop ramt (Alpaca) |
 | ❌ AMD | 6/11 16.26 | -1.336 USD | stop ramt (Alpaca) |
-| ❌ SMCI | 6/11 16.06 | -204 USD | stop ramt (Alpaca) |
 
