@@ -31,7 +31,9 @@
         },
         "target": 5.315000000000003,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-06T14:56:58.825758+00:00",
+      "last_review_price": 4.885
     },
     "RCAT": {
       "last_entry_eval": "2026-11-05T14:32:05.473303+00:00",
@@ -62,7 +64,9 @@
         },
         "target": 4.005,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-06T14:57:09.954353+00:00",
+      "last_review_price": 3.68
     },
     "UMAC": {
       "last_entry_eval": "2026-11-03T14:33:34.228073+00:00",
@@ -116,7 +120,9 @@
         },
         "target": 6.119999999999999,
         "luk_foer_luk": true
-      }
+      },
+      "last_hold_review": "2026-11-06T14:57:23.182014+00:00",
+      "last_review_price": 5.83
     },
     "RGTI": {
       "last_entry_eval": "2026-11-05T14:32:45.642618+00:00",
@@ -124,8 +130,8 @@
         "range_bund"
       ],
       "orb_day": "2026-11-06",
-      "last_hold_review": "2026-11-04T15:20:14.498311+00:00",
-      "last_review_price": 11.475000000000001,
+      "last_hold_review": "2026-11-06T14:57:36.163977+00:00",
+      "last_review_price": 10.58,
       "pos": {
         "entry": 10.629999999999999,
         "stop": 10.335,
@@ -188,10 +194,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.184694,
+  "budget_used": 0.207166,
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 2,
-  "ai_spend_today": 0.011485299999999999,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.0339572,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-06",
   "day_start_equity": 99423.83,
@@ -274,7 +280,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.9350000000000005,
+  "last_btc_price": 4.885,
   "earnings_cache": {
     "2026-11-02": [
       "AAPL",
@@ -1930,8 +1936,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 272.44,
-    "snitpris": 271.67,
+    "pris": 271.89,
+    "snitpris": 271.69,
     "svag": false
   }
 }
