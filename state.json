@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75899.14050000001,
+  "last_btc_price": 75905.26000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1856,18 +1856,6 @@
         "tid": "2026-11-06T10:50:48.789685+00:00",
         "pris_ved_nyhed": 76038.09,
         "udloeber": "2026-11-06T11:50:48.789685+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Diskussion om staking hos langtidsholdere er ren stemning uden nyhedsgrundlag; ingen klar retning.",
-        "tid": "2026-11-06T10:20:47.362379+00:00",
-        "pris_ved_nyhed": 2237.23,
-        "udloeber": "2026-11-06T11:20:47.362379+00:00"
       }
     },
     "dag": "2026-11-06",
