@@ -131,7 +131,7 @@
   "day_start_equity": 99423.83,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-06T19:22:31.107459+00:00",
+    "sidst_hentet": "2026-11-06T19:42:30.129400+00:00",
     "opslag": [
       {
         "id": "t3_1xphn50",
@@ -1865,7 +1865,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.87,
+    "pris": 273.86,
     "snitpris": 272.9,
     "svag": false
   }
