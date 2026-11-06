@@ -184,7 +184,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75728.93400000001,
+  "last_btc_price": 75758.75,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1854,18 +1854,6 @@
         "pris_ved_nyhed": 75847.075,
         "udloeber": "2026-11-06T21:36:22.862399+00:00"
       },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Potentiel regulatorisk usikkerhed om skattefritagelse for nonprofits kan skabe risk-off stemning, men er bredt og utydeligt for markedet.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 738.435,
-        "udloeber": "2026-11-06T20:36:22.862399+00:00"
-      },
       "QQQ": {
         "kilde": "nyhed",
         "symbol": "QQQ",
@@ -1925,18 +1913,6 @@
         "tid": "2026-11-06T18:36:22.862399+00:00",
         "pris_ved_nyhed": 533.135,
         "udloeber": "2026-11-06T21:36:22.862399+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Indirekte: hvis BTC rebounder, f\u00f8lger altcoins typisk med, men ETH har ingen egen nyhed her.",
-        "tid": "2026-11-06T18:36:22.862399+00:00",
-        "pris_ved_nyhed": 2230.165,
-        "udloeber": "2026-11-06T20:36:22.862399+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2283,7 +2259,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T20:16:49.681268+00:00",
+    "sidst_hentet": "2026-11-06T20:36:49.077438+00:00",
     "opslag": [
       {
         "id": "t3_1xpdci3",
@@ -2541,8 +2517,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.07,
-    "snitpris": 659.03,
-    "svag": false
+    "pris": 658.85,
+    "snitpris": 659.02,
+    "svag": true
   }
 }
