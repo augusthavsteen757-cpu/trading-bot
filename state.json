@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.771052,
+  "budget_used": 0.793695,
   "version": 3,
   "learned": [],
   "pending": {
@@ -31,8 +31,8 @@
     ]
   },
   "ai_day": "2026-11-06",
-  "ai_rounds_today": 17,
-  "ai_spend_today": 0.13269679999999992,
+  "ai_rounds_today": 20,
+  "ai_spend_today": 0.15533959999999994,
   "eq_day": "2026-11-06",
   "day_start_equity": 99992.62,
   "peak_equity": 100456.88,
@@ -60,7 +60,7 @@
         "entry": 739.84,
         "stop": 736.7875,
         "stop_initial": 736.7875,
-        "high": 740.86,
+        "high": 740.94,
         "qty": 13.0,
         "entry_tid": "2026-11-06 14:56",
         "setup": "orb",
@@ -85,7 +85,7 @@
     },
     "QQQ": {
       "orb_day": "2026-11-06",
-      "last_entry_eval": "2026-11-06T14:31:47.154343+00:00",
+      "last_entry_eval": "2026-11-06T15:51:45.234164+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
@@ -112,7 +112,7 @@
         "entry": 342.545,
         "stop": 342.545,
         "stop_initial": 340.14,
-        "high": 344.32,
+        "high": 345.29,
         "qty": 2.0,
         "entry_tid": "2026-11-06 15:21",
         "setup": "orb",
@@ -145,7 +145,7 @@
         "entry": 533.73,
         "stop": 528.6424999999999,
         "stop_initial": 528.6424999999999,
-        "high": 535.29,
+        "high": 535.39,
         "qty": 18.0,
         "entry_tid": "2026-11-06 15:16",
         "setup": "orb",
@@ -171,9 +171,33 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "orb_day": "2026-11-04",
+      "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-05T15:29:52.157925+00:00",
-      "last_review_price": 255.96
+      "last_review_price": 255.96,
+      "pos": {
+        "entry": 263.90999999999997,
+        "stop": 261.045,
+        "stop_initial": 261.045,
+        "high": 263.90999999999997,
+        "qty": 37.0,
+        "entry_tid": "2026-11-06 15:52",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 263.49, 'or_low': 258.6, 'sidste_luk': 263.68}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 1,
+          "rsi_1h": 56.5,
+          "adx_1h": 22.2,
+          "rel_volumen_1h": 0.64,
+          "afstand_modstand_atr": 1.69,
+          "atr_percentil_30d": 92.4
+        },
+        "target": 269.6399999999999,
+        "luk_foer_luk": true
+      }
     },
     "META": {
       "last_entry_eval": "2026-11-05T14:50:55.944929+00:00",
@@ -181,10 +205,35 @@
         "range_bund"
       ],
       "last_hold_review": "2026-11-05T14:32:11.566084+00:00",
-      "last_review_price": 628.87
+      "last_review_price": 628.87,
+      "orb_day": "2026-11-06",
+      "pos": {
+        "entry": 624.97,
+        "stop": 614.42,
+        "stop_initial": 614.42,
+        "high": 624.97,
+        "qty": 15.0,
+        "entry_tid": "2026-11-06 15:52",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 621.8, 'or_low': 607.04, 'sidste_luk': 623.83}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 55.0,
+          "adx_1h": 25.4,
+          "rel_volumen_1h": 0.7,
+          "afstand_modstand_atr": 0.15,
+          "atr_percentil_30d": 92.0
+        },
+        "target": 646.0700000000002,
+        "luk_foer_luk": true
+      }
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-06T14:46:59.466991+00:00",
+      "last_entry_eval": "2026-11-06T15:52:12.753780+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
@@ -211,7 +260,7 @@
       "last_review_price": 385.735
     },
     "EQIX": {
-      "last_entry_eval": "2026-11-06T14:32:26.509077+00:00",
+      "last_entry_eval": "2026-11-06T15:52:26.604221+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
@@ -230,7 +279,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75668.435,
+  "last_btc_price": 75625.348,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2365,7 +2414,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T15:31:21.577307+00:00",
+    "sidst_hentet": "2026-11-06T15:51:18.768500+00:00",
     "opslag": [
       {
         "id": "t3_1xpdci3",
@@ -2623,8 +2672,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.93,
+    "pris": 660.13,
     "snitpris": 659.9,
-    "svag": true
+    "svag": false
   }
 }
