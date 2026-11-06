@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T13:36:24.602569+00:00",
+    "sidst_hentet": "2026-11-06T13:51:25.570979+00:00",
     "opslag": [
+      {
+        "id": "t3_1xpdajq",
+        "tid": "2026-11-06T13:51:09+00:00",
+        "titel": "I have .10 BTC (ETF) now.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xp9g5q",
         "tid": "2026-11-06T10:22:11+00:00",
@@ -289,54 +299,12 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xoix7i",
-        "tid": "2026-11-05T13:41:15+00:00",
-        "titel": "What will happen to BTC in the next 2 years?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoiw06",
-        "tid": "2026-11-05T13:39:43+00:00",
-        "titel": "Bitcoin future?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoiu5j",
-        "tid": "2026-11-05T13:37:23+00:00",
-        "titel": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff siger ETH's vaerdi er lavere end prisen antyder, en negativ kommentar der kan skabe usikkerhed, men er kun en enkelt stemme.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 2242.2200000000003,
-        "udloeber": "2026-11-06T13:51:25.101084+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
@@ -348,18 +316,6 @@
         "tid": "2026-11-06T11:31:25.873684+00:00",
         "pris_ved_nyhed": 90.27,
         "udloeber": "2026-11-06T15:31:25.873684+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff kalder memecoins et 'litmus test' og stiller spoergsmaal ved fremtidig efterspoergsel, hvilket kan daempe spekulativ koeb i DOGE.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 0.0725557,
-        "udloeber": "2026-11-06T13:51:25.101084+00:00"
       }
     },
     "dag": "2026-11-06",
@@ -432,7 +388,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75788.8795,
+  "last_btc_price": 75796.235,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
