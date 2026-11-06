@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.22** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.27** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.533 USD  ·  **I alt:** -467 USD (-0.47 %)  ·  **I dag:** -0.36 %  ·  sidst opdateret 6/11 16.22
+**Konto:** 99.488 USD  ·  **I alt:** -512 USD (-0.51 %)  ·  **I dag:** -0.52 %  ·  sidst opdateret 6/11 16.27
 
 **Ejer nu:**
 
@@ -14,21 +14,20 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.22** (dansk tid). Kun
 | QQQ | 15 | 663.83 | 6/11 15.51 |
 | AAPL | 2 | 342.55 | 6/11 16.21 |
 | MSFT | 18 | 533.73 | 6/11 16.16 |
-| AMD | 21 | 459.47 | 6/11 15.51 |
 
-**Lukkede handler:** 16 i alt, 6 med gevinst, samlet -93 USD
+**Lukkede handler:** 17 i alt, 6 med gevinst, samlet -428 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ AMD | 6/11 16.27 | -335 USD | stop ramt (Alpaca) |
 | ❌ DLR | 6/11 16.06 | -14 USD | stop ramt (Alpaca) |
 | ❌ EQIX | 6/11 16.06 | -111 USD | stop ramt (Alpaca) |
 | ❌ AMZN | 5/11 16.49 | -45 USD | stop ramt (Alpaca) |
 | ❌ NVDA | 5/11 15.56 | -39 USD | stop ramt (Alpaca) |
-| ✅ META | 5/11 15.40 | +115 USD | stop ramt (Alpaca) |
 
-## 🟢 Small-botten (10 små aktier)
+## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 100.140 USD  ·  **I alt:** +140 USD (+0.14 %)  ·  **I dag:** +0.71 %  ·  sidst opdateret 6/11 16.17
+**Konto:** 99.894 USD  ·  **I alt:** -106 USD (-0.11 %)  ·  **I dag:** +0.52 %  ·  sidst opdateret 6/11 16.22
 
 **Ejer nu:**
 
@@ -51,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.22** (dansk tid). Kun
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 16.16
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 16.26
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -65,7 +64,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 16.22** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.004 USD  ·  **I alt:** -996 USD (-1.00 %)  ·  **I dag:** -0.18 %  ·  sidst opdateret 6/11 16.16
+**Konto:** 98.954 USD  ·  **I alt:** -1.046 USD (-1.05 %)  ·  **I dag:** -0.23 %  ·  sidst opdateret 6/11 16.26
 
 **Ejer nu:**
 
