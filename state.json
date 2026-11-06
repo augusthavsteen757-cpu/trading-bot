@@ -191,7 +191,7 @@
       ]
     }
   },
-  "last_btc_price": 75456.371,
+  "last_btc_price": 75557.57,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2178,7 +2178,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-06T05:05:21.616059+00:00",
+    "sidst_hentet": "2026-11-06T05:20:21.672405+00:00",
     "opslag": [
       {
         "id": "t3_1xoz1xs",
@@ -2410,19 +2410,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoafvg",
-        "tid": "2026-11-05T05:17:56+00:00",
-        "titel": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
