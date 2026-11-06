@@ -56,30 +56,6 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "pos": {
-        "entry": 739.84,
-        "stop": 736.7875,
-        "stop_initial": 736.7875,
-        "high": 740.94,
-        "qty": 13.0,
-        "entry_tid": "2026-11-06 14:56",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 738.97, 'or_low': 734.61, 'sidste_luk': 740.88}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 38.2,
-          "adx_1h": 37.3,
-          "rel_volumen_1h": 1.43,
-          "afstand_modstand_atr": 3.34,
-          "atr_percentil_30d": 100.0
-        },
-        "target": 745.945,
-        "luk_foer_luk": true
-      },
       "last_hold_review": "2026-11-06T15:01:46.064294+00:00",
       "last_review_price": 740.335
     },
@@ -145,7 +121,7 @@
         "entry": 533.73,
         "stop": 528.6424999999999,
         "stop_initial": 528.6424999999999,
-        "high": 535.44,
+        "high": 535.92,
         "qty": 18.0,
         "entry_tid": "2026-11-06 15:16",
         "setup": "orb",
@@ -279,7 +255,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75630.195,
+  "last_btc_price": 75680.505,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2672,7 +2648,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.33,
+    "pris": 660.06,
     "snitpris": 659.92,
     "svag": false
   }
