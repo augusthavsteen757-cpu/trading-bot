@@ -3877,3 +3877,4 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-06 20:57,RBLX,49.2,range,trend_pullback breakout,nej (markedet falder (QQQ 655.96 under dagens snitpris 658.85)),,,,,,,,,,,,,HOLD,,,,100181.69,0.182,100000.0,0.0,-3.168,-4.992,0.2141,
 2026-11-07 12:34,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
 2026-11-07 12:38,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
+2026-11-07 13:08,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50010000,""message"":""internal server error occurred""}"
