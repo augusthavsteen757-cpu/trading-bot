@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75689.67,
+  "last_btc_price": 75673.105,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1822,20 +1822,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Solana har mistet vigtig support, og udstroemning fra spot SOL-ETF'er efter Alpenglow-opgraderingen taler for yderligere pres. Overraskende og klart negativt signal.",
-        "tid": "2026-11-07T17:18:42.371300+00:00",
-        "pris_ved_nyhed": 89.5795,
-        "udloeber": "2026-11-07T20:18:42.371300+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-07",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-07T19:03:42.279939+00:00",
