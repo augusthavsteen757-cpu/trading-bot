@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75932.98499999999,
+  "last_btc_price": 75995.5,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1817,20 +1817,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "ETH foelger BTC-retningen i selloff-scenariet. Samme usikkerhed og tidsramme, svagere signal da nyheden ikke n\u00e6vner ETH isoleret.",
-        "tid": "2026-11-07T00:01:48.401657+00:00",
-        "pris_ved_nyhed": 2236.46,
-        "udloeber": "2026-11-07T03:01:48.401657+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-07",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-07T00:01:48.401657+00:00",
@@ -2139,7 +2126,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T02:42:20.083292+00:00",
+    "sidst_hentet": "2026-11-07T03:02:19.636775+00:00",
     "opslag": [
       {
         "id": "t3_1xptwlw",
