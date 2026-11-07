@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75675.5075,
+  "last_btc_price": 75656.91500000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1822,20 +1822,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Microsoft-revurdering af computerkontrakter rammer neocloud-aktier og kan smitte til AI-hype og risikosentiment i krypto, dog indirekte.",
-        "tid": "2026-11-07T20:53:42.076828+00:00",
-        "pris_ved_nyhed": 75520.16,
-        "udloeber": "2026-11-07T22:53:42.076828+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-07",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-07T20:53:42.076828+00:00",
@@ -2144,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T22:39:09.586001+00:00",
+    "sidst_hentet": "2026-11-07T22:54:09.651861+00:00",
     "opslag": [
       {
         "id": "t3_1xqiaou",
