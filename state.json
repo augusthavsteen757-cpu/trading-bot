@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75696.9695,
+  "last_btc_price": 75715.35,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2144,7 +2144,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T18:18:41.720367+00:00",
+    "sidst_hentet": "2026-11-07T18:38:42.336292+00:00",
     "opslag": [
       {
         "id": "t3_1xqam9j",
@@ -2265,19 +2265,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xpkgk6",
-        "tid": "2026-11-06T18:36:16+00:00",
-        "titel": "Solana Ecosystem Roundup: October 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
