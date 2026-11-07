@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75927.622,
+  "last_btc_price": 75907.7375,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2126,8 +2126,48 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T11:33:13.098189+00:00",
+    "sidst_hentet": "2026-11-07T11:53:11.931062+00:00",
     "opslag": [
+      {
+        "id": "t3_1xq4ewc",
+        "tid": "2026-11-07T11:41:34+00:00",
+        "titel": "House Of Sol With Ben Brophy Podcast - LSEG: What Banks Need to Scale Onchain Lending, with Bud Novin",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xq4e97",
+        "tid": "2026-11-07T11:40:27+00:00",
+        "titel": "The Stack With Ilan Gitter Podcast - The New Solana Program That Could Replace Subscriptions and Payments",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xq4azn",
+        "tid": "2026-11-07T11:34:49+00:00",
+        "titel": "Solandy - Building Apps for the Solana Badge [Solana Tutorial] - Oct 30th '26",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xq4ays",
+        "tid": "2026-11-07T11:34:46+00:00",
+        "titel": "Solandy - Introducing Ballista [Solana Tutorial] - Oct 21st '26",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xq30x3",
         "tid": "2026-11-07T10:11:48+00:00",
@@ -2249,7 +2289,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
