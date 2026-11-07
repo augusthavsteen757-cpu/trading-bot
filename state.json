@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75665.476,
+  "last_btc_price": 75693.3675,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2144,8 +2144,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T22:08:42.402797+00:00",
+    "sidst_hentet": "2026-11-07T22:23:42.679612+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqiaou",
+        "tid": "2026-11-07T22:08:06+00:00",
+        "titel": "Most people outside of the bitcoin echo chamber don't know anything about bitcoin. They would rather have $10k instead o",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqhsai",
         "tid": "2026-11-07T21:44:52+00:00",
@@ -2297,7 +2307,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
