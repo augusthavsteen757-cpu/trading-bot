@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75652.92,
+  "last_btc_price": 75665.95,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T16:18:12.749502+00:00",
+    "sidst_hentet": "2026-11-07T16:38:13.062911+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqam9j",
+        "tid": "2026-11-07T16:36:27+00:00",
+        "titel": "There were 4 Whitepapers - In 2024 a Different Version of the Bitcoin Whitepaper Was Discovered - Full Study at TheBitco",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xqadgb",
+        "tid": "2026-11-07T16:26:09+00:00",
+        "titel": "In November 2010, two Bitcoin blocks accidentally repeated transaction IDs from earlier blocks.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xq4ewc",
         "tid": "2026-11-07T11:41:34+00:00",
@@ -2254,7 +2274,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
