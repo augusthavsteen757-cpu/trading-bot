@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75674.576,
+  "last_btc_price": 75677.5695,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1834,18 +1834,6 @@
         "tid": "2026-11-07T17:18:42.371300+00:00",
         "pris_ved_nyhed": 89.5795,
         "udloeber": "2026-11-07T20:18:42.371300+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Saylor-kommentar om uddannelse er generel karrierer\u00e5dgivning uden kursrelevans for bitcoin; meget lav direkte effekt p\u00e5 BTC-prisen.",
-        "tid": "2026-11-07T19:03:42.279939+00:00",
-        "pris_ved_nyhed": 75721.9925,
-        "udloeber": "2026-11-07T20:03:42.279939+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -2156,7 +2144,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T19:48:42.376339+00:00",
+    "sidst_hentet": "2026-11-07T20:08:41.612373+00:00",
     "opslag": [
       {
         "id": "t3_1xqeum1",
