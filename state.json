@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75572.75,
+  "last_btc_price": 75510.79550000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2156,8 +2156,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T20:58:42.655830+00:00",
+    "sidst_hentet": "2026-11-07T21:18:41.905404+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqh588",
+        "tid": "2026-11-07T21:15:44+00:00",
+        "titel": "Que esta pasando con bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqeum1",
         "tid": "2026-11-07T19:34:54+00:00",
@@ -2279,7 +2289,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
