@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-07T16:18:53.279300+00:00",
+    "sidst_hentet": "2026-11-07T16:38:53.063625+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqam9j",
+        "tid": "2026-11-07T16:36:27+00:00",
+        "titel": "There were 4 Whitepapers - In 2024 a Different Version of the Bitcoin Whitepaper Was Discovered - Full Study at TheBitco",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xqadgb",
+        "tid": "2026-11-07T16:26:09+00:00",
+        "titel": "In November 2010, two Bitcoin blocks accidentally repeated transaction IDs from earlier blocks.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xq4ewc",
         "tid": "2026-11-07T11:41:34+00:00",
@@ -176,7 +196,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -252,7 +272,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75676.6,
+  "last_btc_price": 75666.8635,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
