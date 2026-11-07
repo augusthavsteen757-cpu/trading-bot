@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75591.525,
+  "last_btc_price": 75595.918,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1834,18 +1834,6 @@
         "tid": "2026-11-07T20:53:42.076828+00:00",
         "pris_ved_nyhed": 75520.16,
         "udloeber": "2026-11-07T22:53:42.076828+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Kun et Reddit-tutorialopslag uden konkret nyhed; ingen klar prispaavirkning forventes.",
-        "tid": "2026-11-07T20:53:42.076828+00:00",
-        "pris_ved_nyhed": 88.8743,
-        "udloeber": "2026-11-07T21:53:42.076828+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -2156,8 +2144,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T21:33:42.538551+00:00",
+    "sidst_hentet": "2026-11-07T21:53:41.805866+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqhsai",
+        "tid": "2026-11-07T21:44:52+00:00",
+        "titel": "Bitcoin VS gold",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqh588",
         "tid": "2026-11-07T21:15:44+00:00",
@@ -2192,6 +2190,16 @@
         "id": "t3_1xqadgb",
         "tid": "2026-11-07T16:26:09+00:00",
         "titel": "In November 2010, two Bitcoin blocks accidentally repeated transaction IDs from earlier blocks.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xq6nvc",
+        "tid": "2026-11-07T13:42:06+00:00",
+        "titel": "The only legal way to blow up a central bank: a free browser game built on real Bitcoin blocks",
         "symboler": [
           "BTC/USD"
         ],
@@ -2289,7 +2297,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
