@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75873.2545,
+  "last_btc_price": 75842.88500000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T13:33:18.851715+00:00",
+    "sidst_hentet": "2026-11-07T13:53:12.384656+00:00",
     "opslag": [
       {
         "id": "t3_1xq4ewc",
@@ -2272,19 +2272,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xpdajq",
-        "tid": "2026-11-06T13:51:09+00:00",
-        "titel": "I have .10 BTC (ETF) now.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
