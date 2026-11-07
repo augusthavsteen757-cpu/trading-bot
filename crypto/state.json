@@ -181,18 +181,6 @@
         "tid": "2026-11-07T17:18:52.948032+00:00",
         "pris_ved_nyhed": 89.575,
         "udloeber": "2026-11-07T20:18:52.948032+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Saylor-kommentar om uddannelse har ingen direkte indtjenings- eller efterspoergselseffekt paa Bitcoin. Ren personlig holdning, sandsynligvis uden markedseffekt.",
-        "tid": "2026-11-07T19:03:53.447547+00:00",
-        "pris_ved_nyhed": 75721.3935,
-        "udloeber": "2026-11-07T20:03:53.447547+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -269,7 +257,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75702.14499999999,
+  "last_btc_price": 75686.41,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
