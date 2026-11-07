@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-07T09:58:26.124723+00:00",
+    "sidst_hentet": "2026-11-07T10:18:26.090718+00:00",
     "opslag": [
+      {
+        "id": "t3_1xq30x3",
+        "tid": "2026-11-07T10:11:48+00:00",
+        "titel": "BITCOIN RETROSPECTIVE 2026: THE YEAR EVERYTHING TRIED TO BREAK IT",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xq1819",
         "tid": "2026-11-07T08:12:43+00:00",
@@ -179,16 +189,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp9e0b",
-        "tid": "2026-11-06T10:18:20+00:00",
-        "titel": "Bitcoin Core 32.1, Lightning security fixes, and a question for node operators",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
@@ -267,7 +267,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75948.663,
+  "last_btc_price": 75960.85,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
