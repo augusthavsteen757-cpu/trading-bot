@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-07T09:23:25.903545+00:00",
+    "sidst_hentet": "2026-11-07T09:43:25.502180+00:00",
     "opslag": [
       {
         "id": "t3_1xq1819",
@@ -209,19 +209,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8rag",
-        "tid": "2026-11-06T09:38:10+00:00",
-        "titel": "Long-term holders: Do you still risk staking your ETH or just keep it cold?",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -297,7 +287,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76018.1445,
+  "last_btc_price": 76005.54999999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
