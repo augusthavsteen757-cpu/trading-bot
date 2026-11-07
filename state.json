@@ -162,7 +162,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75913.16500000001,
+  "last_btc_price": 75749.845,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2128,7 +2128,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T12:23:12.188639+00:00",
+    "sidst_hentet": "2026-11-07T12:43:50.791730+00:00",
     "opslag": [
       {
         "id": "t3_1xq4ewc",
