@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75936.26,
+  "last_btc_price": 75956.7,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2126,7 +2126,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T09:42:43.948915+00:00",
+    "sidst_hentet": "2026-11-07T10:02:43.574545+00:00",
     "opslag": [
       {
         "id": "t3_1xq1819",
@@ -2257,29 +2257,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8zsk",
-        "tid": "2026-11-06T09:53:46+00:00",
-        "titel": "The Embarrassing Bull Case for BItcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8zc5",
-        "tid": "2026-11-06T09:52:57+00:00",
-        "titel": "Moving Bitcoin to a bank account",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
