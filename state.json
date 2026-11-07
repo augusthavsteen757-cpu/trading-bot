@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 76089.695,
+  "last_btc_price": 76063.535,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2292,5 +2292,6 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
-  "marked": {}
+  "marked": {},
+  "marked_trend": null
 }
