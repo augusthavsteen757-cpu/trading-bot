@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75958.265,
+  "last_btc_price": 75952.64600000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2126,8 +2126,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T10:02:43.574545+00:00",
+    "sidst_hentet": "2026-11-07T10:17:44.291927+00:00",
     "opslag": [
+      {
+        "id": "t3_1xq30x3",
+        "tid": "2026-11-07T10:11:48+00:00",
+        "titel": "BITCOIN RETROSPECTIVE 2026: THE YEAR EVERYTHING TRIED TO BREAK IT",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xq1819",
         "tid": "2026-11-07T08:12:43+00:00",
@@ -2259,7 +2269,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
