@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75801.375,
+  "last_btc_price": 75822.185,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2163,8 +2163,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T01:17:19.396349+00:00",
+    "sidst_hentet": "2026-11-07T01:32:19.487050+00:00",
     "opslag": [
+      {
+        "id": "t3_1xptwlw",
+        "tid": "2026-11-07T01:24:11+00:00",
+        "titel": "SATOSHI - Nov 6th 2009 - \"There will be deflation & early holders of money (BTC) will see its value increase\"",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xpre9l",
         "tid": "2026-11-06T23:25:07+00:00",
@@ -2336,7 +2346,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {}
