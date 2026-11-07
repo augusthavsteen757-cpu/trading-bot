@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 76015.3755,
+  "last_btc_price": 76005.9125,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2126,7 +2126,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T09:22:43.817466+00:00",
+    "sidst_hentet": "2026-11-07T09:42:43.948915+00:00",
     "opslag": [
       {
         "id": "t3_1xq1819",
@@ -2277,19 +2277,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8rag",
-        "tid": "2026-11-06T09:38:10+00:00",
-        "titel": "Long-term holders: Do you still risk staking your ETH or just keep it cold?",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
