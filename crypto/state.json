@@ -193,18 +193,6 @@
         "tid": "2026-11-07T19:03:53.447547+00:00",
         "pris_ved_nyhed": 75721.3935,
         "udloeber": "2026-11-07T20:03:53.447547+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hvis ETF-udstr\u00f8mning smitter over p\u00e5 andre altcoins og krypto-ETF'er generelt, kan ETH blive ramt svagt via samme risikostemning.",
-        "tid": "2026-11-07T17:18:52.948032+00:00",
-        "pris_ved_nyhed": 2232.8194999999996,
-        "udloeber": "2026-11-07T19:18:52.948032+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -281,7 +269,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75681.26000000001,
+  "last_btc_price": 75694.9015,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
