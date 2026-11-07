@@ -28,8 +28,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-07T01:07:30.779501+00:00",
+    "sidst_hentet": "2026-11-07T01:27:29.710707+00:00",
     "opslag": [
+      {
+        "id": "t3_1xptwlw",
+        "tid": "2026-11-07T01:24:11+00:00",
+        "titel": "SATOSHI - Nov 6th 2009 - \"There will be deflation & early holders of money (BTC) will see its value increase\"",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xpre9l",
         "tid": "2026-11-06T23:25:07+00:00",
@@ -231,7 +241,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -356,7 +366,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75791.685,
+  "last_btc_price": 75802.87,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
