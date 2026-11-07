@@ -12,20 +12,19 @@
     "LINK/USD": {},
     "LTC/USD": {}
   },
-  "learned": [],
+  "learned": [
+    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
+  ],
   "pending": {
     "tab: testkoeb i range": [
       "2026-11-04 00:37: BTC/USD: Chef solgte. R=-0.39. Entry 77449, exit 76848. Grund til koeb: Manuelt testkoeb for at teste koeb, stop og log. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 58.0, 'adx_1h': 21.5, 'rel_volumen_1h': 0.42, 'afstand_modstand_atr': 0.44, 'atr_percentil_30d': 64.3}"
-    ],
-    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav": [
-      "2026-11-07 12:33: APIError: {\"code\":50310000,\"message\":\"service unavailable\"}"
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.094825,
+  "budget_used": 0.098089,
   "ai_day": "2026-11-07",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.000427,
+  "ai_spend_today": 0.003691,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-07",
   "day_start_equity": 99985.56,

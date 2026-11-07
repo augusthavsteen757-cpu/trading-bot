@@ -7980,3 +7980,4 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-07 12:28,LINK/USD,10.8,range,range_bund,nej (kun 0.6% til modstand (krypto kraever 2% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99985.56,-0.014,98343.39,-1.657,0.0,-0.018,0.0948,
 2026-11-07 12:28,LTC/USD,52.17,range,range_bund,nej (kun 0.9% til modstand (krypto kraever 2% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99985.56,-0.014,98343.39,-1.657,0.0,-0.018,0.0948,
 2026-11-07 12:33,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
+2026-11-07 12:38,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
