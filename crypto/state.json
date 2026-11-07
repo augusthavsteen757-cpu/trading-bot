@@ -169,20 +169,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Solana har mistet n\u00f8glesupport, og udstr\u00f8mning fra spot SOL-ETF efter Alpenglow-opgraderingen tyder p\u00e5 svag eftersp\u00f8rgsel. Nyheden er negativ og kan udl\u00f8se yderligere salg.",
-        "tid": "2026-11-07T17:18:52.948032+00:00",
-        "pris_ved_nyhed": 89.575,
-        "udloeber": "2026-11-07T20:18:52.948032+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-07",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-07T19:03:53.447547+00:00",
@@ -257,7 +244,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75687.0265,
+  "last_btc_price": 75675.5,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
