@@ -3111,3 +3111,4 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-06 20:57,OUST,34.59,high_vol,breakout,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100035.37,0.035,90363.48,-9.637,0.615,-0.138,0.2297,
 2026-11-07 12:34,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
 2026-11-07 12:39,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
+2026-11-07 13:08,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50010000,""message"":""internal server error occurred""}"
