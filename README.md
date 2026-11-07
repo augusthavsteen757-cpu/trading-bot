@@ -78,3 +78,6 @@ Paper-kontoen er i sig selv sikker: `paper=True` er hardcodet.
 ## Koer paa GitHub
 Secrets: `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`, `ANTHROPIC_API_KEY`. Repoet skal vaere offentligt for gratis minutter.
 Stop botten: Actions > koersel > Cancel (den starter ikke sig selv igen efter Cancel).
+
+## Ingen morgenkoeb i et faldende marked
+Er SPY i en faldende trend paa dagsbasis, laver botten ingen ORB-morgenkoeb den dag. Slaa fra med Actions-variablen `ORB_TREND_FILTER=none`.
