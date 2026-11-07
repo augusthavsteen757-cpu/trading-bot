@@ -244,32 +244,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Analytikere ser salgspres udt\u00f8mt og mulig bund; dog forudser en nyhed yderligere fald til 73.400-74.500 foer opsving.",
-        "tid": "2026-11-07T00:02:29.662596+00:00",
-        "pris_ved_nyhed": 75786.75,
-        "udloeber": "2026-11-07T04:02:29.662596+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Samme bund-signal som BTC; ETH f\u00f8lger typisk BTC, og stabile obligationer st\u00f8tter risikoappetit.",
-        "tid": "2026-11-07T00:02:29.662596+00:00",
-        "pris_ved_nyhed": 2236.429,
-        "udloeber": "2026-11-07T04:02:29.662596+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-07",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-07T00:02:29.662596+00:00",
@@ -342,7 +317,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75788.35,
+  "last_btc_price": 75766.103,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
