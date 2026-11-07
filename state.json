@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75676.207,
+  "last_btc_price": 75680.6765,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2156,7 +2156,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T19:13:42.484893+00:00",
+    "sidst_hentet": "2026-11-07T19:33:41.688911+00:00",
     "opslag": [
       {
         "id": "t3_1xqam9j",
@@ -2267,19 +2267,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xpll6b",
-        "tid": "2026-11-06T19:20:16+00:00",
-        "titel": "Invest in bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
