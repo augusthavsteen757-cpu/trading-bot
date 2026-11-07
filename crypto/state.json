@@ -28,7 +28,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-07T01:42:30.309878+00:00",
+    "sidst_hentet": "2026-11-07T02:02:30.456387+00:00",
     "opslag": [
       {
         "id": "t3_1xptwlw",
@@ -280,18 +280,6 @@
         "tid": "2026-11-07T00:02:29.662596+00:00",
         "pris_ved_nyhed": 52.533500000000004,
         "udloeber": "2026-11-07T03:02:29.662596+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygter om tokeniserede aktier p\u00e5 Solana og \u00f8kosystemv\u00e6kst; kun hype, ingen bekr\u00e6ftet nyhed.",
-        "tid": "2026-11-07T00:02:29.662596+00:00",
-        "pris_ved_nyhed": 90.015,
-        "udloeber": "2026-11-07T02:02:29.662596+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -366,7 +354,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75935.61,
+  "last_btc_price": 75966.45000000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
