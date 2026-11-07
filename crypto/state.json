@@ -268,18 +268,6 @@
         "tid": "2026-11-07T00:02:29.662596+00:00",
         "pris_ved_nyhed": 2236.429,
         "udloeber": "2026-11-07T04:02:29.662596+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Bredere altcoin-rebound kan l\u00f8fte LTC svagt, hvis BTC stabiliserer.",
-        "tid": "2026-11-07T00:02:29.662596+00:00",
-        "pris_ved_nyhed": 52.533500000000004,
-        "udloeber": "2026-11-07T03:02:29.662596+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -354,7 +342,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75942.645,
+  "last_btc_price": 76008.1195,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
