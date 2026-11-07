@@ -1831,5 +1831,6 @@
     ]
   },
   "scan": {},
-  "marked": {}
+  "marked": {},
+  "marked_trend": null
 }
