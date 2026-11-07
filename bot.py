@@ -65,6 +65,7 @@ SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste sti
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
 SCAN_END = tuple(int(x) for x in (os.getenv("SCAN_END") or "11:00").split(":"))  # New York-tid: sidste scanning og sidste raket-koeb
+ORB_TREND_FILTER = (os.getenv("ORB_TREND_FILTER") or "SPY").strip().upper().replace("NONE", "")  # ingen ORB naar SPY's dagstrend er ned
 MARKET_FILTER = (os.getenv("MARKET_FILTER") or "").strip().upper().replace("NONE", "")  # fx QQQ: ingen nye aktiekoeb naar markedet er under dagens snitpris
 ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
 BENCHMARK = (os.getenv("BENCHMARK") or (CRYPTO + STOCKS + ["BTC/USD"])[0]).strip()  # koeb-og-behold sammenlignes med denne
@@ -964,6 +965,15 @@ def run_round(state, brain):
             print("Markeds-filter:", state["marked"])
         except Exception as e:  # filteret maa aldrig stoppe botten
             print("Markeds-filter fejlede:", type(e).__name__)
+    state["marked_trend"] = None
+    if ORB_TREND_FILTER and stocks_open and not TEST_MODE:
+        # Uge 1: 9 ORB-tab paa en fredag hvor hele markedet faldt. Er SPY i en faldende dagstrend, laves ingen morgenkoeb.
+        try:
+            d, _, _, p = get_stock_data(ORB_TREND_FILTER)
+            state["marked_trend"] = fx.trend_state([b["c"] for b in d] + [p])
+            print("ORB-trendfilter:", ORB_TREND_FILTER, state["marked_trend"])
+        except Exception as e:  # filteret maa aldrig stoppe botten
+            print("ORB-trendfilter fejlede:", type(e).__name__)
     for sym in reversed(scan_gainers(state, stocks_open)):  # raketter foerst, saa de faar pengene foer de faste aktier
         for lst in (COINS, STOCKS, ORB_SYMBOLS):
             if sym in lst:
@@ -1118,6 +1128,9 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
     action = row.get("handling") or ("HOLD (position)" if holding else "HOLD")
     if coin in ORB_SYMBOLS and not holding and not closed and coin_can_buy and cs.get("orb_day") != ny_now().date().isoformat():
         sig = orb_signal(m5, price)
+        if sig and (state.get("marked_trend") or 0) < 0:
+            row["note"] = f"ORB-signal, men {ORB_TREND_FILTER} er i en faldende dagstrend: intet morgenkoeb"
+            sig = None
         if sig and raket and f.get("vwap") and price < f["vwap"]:  # raket under dagens snitpris: den er ved at falde
             row["note"] = f"ORB-signal, men raketten er under dagens snitpris ({f['vwap']:.2f})"
             sig = None
