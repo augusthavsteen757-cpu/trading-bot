@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75751.67050000001,
+  "last_btc_price": 75782.301,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1834,18 +1834,6 @@
         "tid": "2026-11-07T17:18:42.371300+00:00",
         "pris_ved_nyhed": 89.5795,
         "udloeber": "2026-11-07T20:18:42.371300+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslag om Bitcoin-whitepapers og historiske blokker er ren baggrundsstoej uden handelsmaessig vaerdi.",
-        "tid": "2026-11-07T17:18:42.371300+00:00",
-        "pris_ved_nyhed": 75692.7365,
-        "udloeber": "2026-11-07T18:18:42.371300+00:00"
       }
     },
     "dag": "2026-11-07",
@@ -2156,7 +2144,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-07T17:58:42.488072+00:00",
+    "sidst_hentet": "2026-11-07T18:18:41.720367+00:00",
     "opslag": [
       {
         "id": "t3_1xqam9j",
@@ -2287,19 +2275,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xpjsza",
-        "tid": "2026-11-06T18:11:06+00:00",
-        "titel": "More Than 1.8 Million Holders Now Own Tokenized Stocks On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
