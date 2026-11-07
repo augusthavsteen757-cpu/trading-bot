@@ -160,7 +160,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75930.9575,
+  "last_btc_price": 75961.53,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1818,18 +1818,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Paraguay-banksammenbrud kan give kortvarig efterspoergsel efter BTC, men det er et rygte uden bekraeftet nyhed bag.",
-        "tid": "2026-11-07T00:01:48.401657+00:00",
-        "pris_ved_nyhed": 75785.05,
-        "udloeber": "2026-11-07T02:01:48.401657+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1841,18 +1829,6 @@
         "tid": "2026-11-07T00:01:48.401657+00:00",
         "pris_ved_nyhed": 2236.46,
         "udloeber": "2026-11-07T03:01:48.401657+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om MNST-listing paa Solana kan skabe hype, men er ikke bekraeftet af rigtig nyhedskilde og har lav relevans for SOL-prisen.",
-        "tid": "2026-11-07T00:01:48.401657+00:00",
-        "pris_ved_nyhed": 90.0476,
-        "udloeber": "2026-11-07T02:01:48.401657+00:00"
       }
     },
     "dag": "2026-11-07",
