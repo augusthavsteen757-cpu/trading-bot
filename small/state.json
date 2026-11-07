@@ -87,7 +87,9 @@
       ]
     }
   },
-  "learned": [],
+  "learned": [
+    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
+  ],
   "pending": {
     "tab: orb i high_vol": [
       "2026-11-03 15:22: ACHR: stop ramt (Alpaca). R=-1.12. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.27, 'or_low': 4.22, 'sidste_luk': 4.28}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 53.3, 'adx_1h': 22.2, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.18, 'atr_percentil_30d': 91.4}",
@@ -98,16 +100,13 @@
     ],
     "gevinst: orb i high_vol": [
       "2026-11-06 20:52: ACHR: dagens slut (ORB). R=+1.64. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.06, 'or_low': 3.87, 'sidste_luk': 4.18}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 55.4, 'adx_1h': 24.3, 'rel_volumen_1h': 0.85, 'afstand_modstand_atr': 0.9, 'atr_percentil_30d': 99.1}"
-    ],
-    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav": [
-      "2026-11-07 12:34: APIError: {\"code\":50310000,\"message\":\"service unavailable\"}"
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.2297,
+  "budget_used": 0.233046,
   "ai_day": "2026-11-07",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0,
+  "ai_spend_today": 0.003346,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-07",
   "day_start_equity": 100035.37,
