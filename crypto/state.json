@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-08T22:26:13.060090+00:00",
+    "sidst_hentet": "2026-11-08T22:41:40.891794+00:00",
     "opslag": [
       {
         "id": "t3_1xramjx",
@@ -179,32 +179,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "ETF-udstroemninger i Ethereum-produkter betyder mindre kobt for ETH, og samme sentiment-skift rammer altcoins generelt.",
-        "tid": "2026-11-08T19:36:14.245348+00:00",
-        "pris_ved_nyhed": 2229.348,
-        "udloeber": "2026-11-08T22:36:14.245348+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Solana-ETF'er ser ogsaa udstroemning, hvilket svaekker efterspoergslen fra institutionelle koebere i de naeste timer.",
-        "tid": "2026-11-08T19:36:14.245348+00:00",
-        "pris_ved_nyhed": 89.467,
-        "udloeber": "2026-11-08T22:36:14.245348+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-08",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-08T20:56:12.407185+00:00",
@@ -282,7 +257,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74165.39749999999,
+  "last_btc_price": 74403.92499999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
