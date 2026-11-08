@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75791.6925,
+  "last_btc_price": 75823.082,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T13:40:03.324317+00:00",
+    "sidst_hentet": "2026-11-08T14:00:02.926965+00:00",
     "opslag": [
       {
         "id": "t3_1xqw73c",
@@ -2242,19 +2242,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xq6nvc",
-        "tid": "2026-11-07T13:42:06+00:00",
-        "titel": "The only legal way to blow up a central bank: a free browser game built on real Bitcoin blocks",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
