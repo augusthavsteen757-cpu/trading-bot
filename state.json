@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74229.5275,
+  "last_btc_price": 74154.395,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1822,32 +1822,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "ETF-udstroemning fra ETH-produkter peger paa svagere institutionel efterspoergsel og lavere sentiment i markedet.",
-        "tid": "2026-11-08T19:35:31.509671+00:00",
-        "pris_ved_nyhed": 2229.505,
-        "udloeber": "2026-11-08T22:35:31.509671+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Solana-ETF'er rammes ogsaa af udstroemning, og det faldende fear-indeks trykker altcoins generelt.",
-        "tid": "2026-11-08T19:35:31.509671+00:00",
-        "pris_ved_nyhed": 89.527,
-        "udloeber": "2026-11-08T22:35:31.509671+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-08",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-08T20:56:03.505989+00:00",
@@ -2156,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T22:21:02.409293+00:00",
+    "sidst_hentet": "2026-11-08T22:36:03.102807+00:00",
     "opslag": [
       {
         "id": "t3_1xramjx",
