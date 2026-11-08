@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73859.875,
+  "last_btc_price": 74151.83499999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1823,18 +1823,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Et lille solo mining-pool-projekt uden markedspaavirkning. Kun ekstra kontekst, ingen reel nyhed.",
-        "tid": "2026-11-08T20:56:03.505989+00:00",
-        "pris_ved_nyhed": 75678.16200000001,
-        "udloeber": "2026-11-08T21:56:03.505989+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -2168,7 +2156,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T21:46:03.073292+00:00",
+    "sidst_hentet": "2026-11-08T22:01:04.617583+00:00",
     "opslag": [
       {
         "id": "t3_1xr88kx",
