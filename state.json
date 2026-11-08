@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74481.97450000001,
+  "last_btc_price": 74550.485,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2156,8 +2156,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T22:01:04.617583+00:00",
+    "sidst_hentet": "2026-11-08T22:21:02.409293+00:00",
     "opslag": [
+      {
+        "id": "t3_1xramjx",
+        "tid": "2026-11-08T22:10:47+00:00",
+        "titel": "#bitcoin_#finance_#prediction_market",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xr88kx",
         "tid": "2026-11-08T20:27:36+00:00",
@@ -2282,16 +2292,6 @@
         "id": "t3_1xqjjtp",
         "tid": "2026-11-07T23:07:02+00:00",
         "titel": "Women in the Bitcoin space",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqiaou",
-        "tid": "2026-11-07T22:08:06+00:00",
-        "titel": "Most people outside of the bitcoin echo chamber don't know anything about bitcoin. They would rather have $10k instead o",
         "symboler": [
           "BTC/USD"
         ],
