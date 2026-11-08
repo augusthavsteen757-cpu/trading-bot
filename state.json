@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75802.085,
+  "last_btc_price": 75845.33499999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T09:24:31.875994+00:00",
+    "sidst_hentet": "2026-11-08T09:40:03.655150+00:00",
     "opslag": [
+      {
+        "id": "t3_1xquk35",
+        "tid": "2026-11-08T09:31:38+00:00",
+        "titel": "CZ says he sold his apartment for $900,000 to buy Bitcoin at $400Binance founder Changpeng Zhao says he sold his apartme",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqosur",
         "tid": "2026-11-08T03:34:58+00:00",
@@ -2284,7 +2294,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
