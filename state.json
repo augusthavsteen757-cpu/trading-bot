@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75909.62150000001,
+  "last_btc_price": 75744.75,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T16:35:32.409516+00:00",
+    "sidst_hentet": "2026-11-08T16:50:32.444652+00:00",
     "opslag": [
       {
         "id": "t3_1xr1yol",
@@ -2282,19 +2282,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xqam9j",
-        "tid": "2026-11-07T16:36:27+00:00",
-        "titel": "There were 4 Whitepapers - In 2024 a Different Version of the Bitcoin Whitepaper Was Discovered - Full Study at TheBitco",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
