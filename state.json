@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75767.82,
+  "last_btc_price": 75815.1325,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2168,7 +2168,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T19:25:31.759937+00:00",
+    "sidst_hentet": "2026-11-08T19:45:32.475067+00:00",
     "opslag": [
       {
         "id": "t3_1xr2wjq",
@@ -2319,19 +2319,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqeum1",
-        "tid": "2026-11-07T19:34:54+00:00",
-        "titel": "Solandy - Connection the Badge to Solana [Solana Tutorial] - Nov 2nd '26",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
