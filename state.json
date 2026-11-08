@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75895.3885,
+  "last_btc_price": 75925.12,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T16:15:31.872206+00:00",
+    "sidst_hentet": "2026-11-08T16:35:32.409516+00:00",
     "opslag": [
       {
         "id": "t3_1xr1yol",
@@ -2292,19 +2292,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqadgb",
-        "tid": "2026-11-07T16:26:09+00:00",
-        "titel": "In November 2010, two Bitcoin blocks accidentally repeated transaction IDs from earlier blocks.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
