@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75709.04999999999,
+  "last_btc_price": 75684.157,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T00:09:09.663731+00:00",
+    "sidst_hentet": "2026-11-08T00:29:10.003207+00:00",
     "opslag": [
+      {
+        "id": "t3_1xql300",
+        "tid": "2026-11-08T00:20:12+00:00",
+        "titel": "Do you think Bitcoin will ever become a normal way to pay for everyday stuff?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqjjtp",
         "tid": "2026-11-07T23:07:02+00:00",
@@ -2284,7 +2294,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
