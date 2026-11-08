@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74802.2265,
+  "last_btc_price": 75559.69,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T22:56:02.196225+00:00",
+    "sidst_hentet": "2026-11-08T23:16:02.641902+00:00",
     "opslag": [
       {
         "id": "t3_1xramjx",
@@ -2262,19 +2262,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqjjtp",
-        "tid": "2026-11-07T23:07:02+00:00",
-        "titel": "Women in the Bitcoin space",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
