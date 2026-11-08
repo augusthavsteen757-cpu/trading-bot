@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-08T21:21:12.937166+00:00",
+    "sidst_hentet": "2026-11-08T21:36:13.240443+00:00",
     "opslag": [
       {
         "id": "t3_1xr88kx",
@@ -225,18 +225,6 @@
         "tid": "2026-11-08T19:36:14.245348+00:00",
         "pris_ved_nyhed": 89.467,
         "udloeber": "2026-11-08T22:36:14.245348+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Svagere markedssentiment rammer typisk smaa altcoins mere end BTC, men der er ingen direkte AVAX-nyhed.",
-        "tid": "2026-11-08T19:36:14.245348+00:00",
-        "pris_ved_nyhed": 8.190660000000001,
-        "udloeber": "2026-11-08T21:36:14.245348+00:00"
       }
     },
     "dag": "2026-11-08",
@@ -316,7 +304,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75593.3525,
+  "last_btc_price": 75614.25,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
