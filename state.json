@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75952.25,
+  "last_btc_price": 75930.965,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T14:55:03.369646+00:00",
+    "sidst_hentet": "2026-11-08T15:10:30.750628+00:00",
     "opslag": [
+      {
+        "id": "t3_1xr0i8h",
+        "tid": "2026-11-08T15:06:09+00:00",
+        "titel": "I made a game where you retire on Bitcoin in any month since 2013. How long can you last?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xr0g68",
+        "tid": "2026-11-08T15:03:40+00:00",
+        "titel": "I made a game where you retire on Bitcoin in any month since 2013. How long do you last?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqzzbn",
         "tid": "2026-11-08T14:42:50+00:00",
@@ -2254,7 +2274,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
