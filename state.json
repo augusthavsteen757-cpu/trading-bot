@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75928.13,
+  "last_btc_price": 75940.774,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T14:35:04.296116+00:00",
+    "sidst_hentet": "2026-11-08T14:55:03.369646+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqzzbn",
+        "tid": "2026-11-08T14:42:50+00:00",
+        "titel": "BlackRock's IBIT holders sold 56,800 BTC near $63K in June, then bought 78,000 back near $77,600. Their average cost is ",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqw73c",
         "tid": "2026-11-08T11:20:00+00:00",
@@ -2244,7 +2254,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
