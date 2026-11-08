@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75808.8735,
+  "last_btc_price": 75769.49100000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T08:04:31.393317+00:00",
+    "sidst_hentet": "2026-11-08T08:19:31.770136+00:00",
     "opslag": [
       {
         "id": "t3_1xqosur",
@@ -2282,19 +2282,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xq1819",
-        "tid": "2026-11-07T08:12:43+00:00",
-        "titel": "Erasing the Honeypot. How Air-Gapped Bitcoin PSBTs Defeat the EIP-7702 Attack Vector and Render the $6.4 Billion Hot-Wal",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
