@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75753.47,
+  "last_btc_price": 75754.1515,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-08T03:19:09.876220+00:00",
+    "sidst_hentet": "2026-11-08T03:39:09.782088+00:00",
     "opslag": [
+      {
+        "id": "t3_1xqosur",
+        "tid": "2026-11-08T03:34:58+00:00",
+        "titel": "My BTC prediction from 3 months ago. Let\u2019s see how it holds up",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xql300",
         "tid": "2026-11-08T00:20:12+00:00",
@@ -2284,7 +2294,7 @@
         "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
