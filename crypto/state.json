@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-08T14:50:49.049083+00:00",
+    "sidst_hentet": "2026-11-08T15:05:49.451914+00:00",
     "opslag": [
+      {
+        "id": "t3_1xr0g68",
+        "tid": "2026-11-08T15:03:40+00:00",
+        "titel": "I made a game where you retire on Bitcoin in any month since 2013. How long do you last?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xqzzbn",
         "tid": "2026-11-08T14:42:50+00:00",
@@ -146,7 +156,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -225,7 +235,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75959.473,
+  "last_btc_price": 75961.47,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
