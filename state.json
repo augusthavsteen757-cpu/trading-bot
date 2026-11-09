@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74839.475,
+  "last_btc_price": 74888.275,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,8 +2131,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T01:21:02.741954+00:00",
+    "sidst_hentet": "2026-11-09T01:41:02.085498+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrekvu",
+        "tid": "2026-11-09T01:15:37+00:00",
+        "titel": "wouldnt be easier to have solutions to bitcoin such as Strike or maybe Paypal or any offchain apps that allow to send sa",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xre9i1",
         "tid": "2026-11-09T01:00:07+00:00",
@@ -2294,7 +2304,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
