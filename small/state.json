@@ -81,7 +81,7 @@
     },
     "OUST": {
       "orb_day": "2026-11-03",
-      "last_entry_eval": "2026-11-06T14:42:11.881856+00:00",
+      "last_entry_eval": "2026-11-09T19:53:47.717785+00:00",
       "last_entry_setups": [
         "breakout"
       ]
@@ -106,10 +106,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.290355,
+  "budget_used": 0.296396,
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 9,
-  "ai_spend_today": 0.05730880000000001,
+  "ai_rounds_today": 10,
+  "ai_spend_today": 0.0633498,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-09",
   "day_start_equity": 100034.26,
@@ -1822,8 +1822,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 283.13,
-    "snitpris": 280.49,
+    "pris": 282.99,
+    "snitpris": 280.51,
     "svag": false
   },
   "marked_trend": -1
