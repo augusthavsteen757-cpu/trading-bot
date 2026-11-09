@@ -36,10 +36,10 @@
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ]
   },
-  "ai_day": "2026-11-08",
+  "ai_day": "2026-11-09",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0006476,
-  "eq_day": "2026-11-08",
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-09",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
   "test_kob_id": "testkoeb-2026-11-01",
@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74589.84,
+  "last_btc_price": 74729.0655,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1823,8 +1823,8 @@
   },
   "nyhedsjaeger": {
     "signaler": {},
-    "dag": "2026-11-08",
-    "kald_i_dag": 2,
+    "dag": "2026-11-09",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-08T20:56:03.505989+00:00",
     "set_ids": [
       "62916397",
