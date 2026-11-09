@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74804.975,
+  "last_btc_price": 74809.745,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1862,18 +1862,6 @@
         "pris_ved_nyhed": 1067.62,
         "udloeber": "2026-11-09T21:17:37.586890+00:00"
       },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Satellitopsendelse for Amazon Leo er lille kursrelevant nyhed uden klar effekt p\u00e5 indtjening.",
-        "tid": "2026-11-09T17:57:36.366195+00:00",
-        "pris_ved_nyhed": 268.53999999999996,
-        "udloeber": "2026-11-09T19:57:36.366195+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1897,18 +1885,6 @@
         "tid": "2026-11-09T19:03:12.284258+00:00",
         "pris_ved_nyhed": 290.61,
         "udloeber": "2026-11-09T22:03:12.284258+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny rekord-markedsv\u00e6rdi og lavere AI-capex er positivt, men nyheden er allerede offentliggjort og prissat.",
-        "tid": "2026-11-09T17:57:36.366195+00:00",
-        "pris_ved_nyhed": 348.9,
-        "udloeber": "2026-11-09T19:57:36.366195+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -2279,7 +2255,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T19:38:11.204747+00:00",
+    "sidst_hentet": "2026-11-09T19:58:09.346782+00:00",
     "opslag": [
       {
         "id": "t3_1xrrjrt",
@@ -2567,8 +2543,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.06,
-    "snitpris": 675.06,
+    "pris": 678.57,
+    "snitpris": 675.13,
     "svag": false
   },
   "marked_trend": -1
