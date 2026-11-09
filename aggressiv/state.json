@@ -111,7 +111,8 @@
       "orb_day": "2026-11-06"
     },
     "UBER": {},
-    "RBLX": {}
+    "RBLX": {},
+    "CKX": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -136,6 +137,9 @@
     ],
     "teknisk fejl: APIError: {\"code\":50010000,\"message\":\"internal ser": [
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 6 t": [
+      "2026-11-09 14:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 6 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2161,15 +2165,22 @@
   },
   "scan": {
     "dag": "2026-11-09",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "CKX"
+    ],
+    "sidst": "2026-11-09T14:37:11.665409+00:00",
     "alle": [
       "AEHL",
       "APP",
+      "CKX",
       "SNDQ",
       "SOXS",
       "UVXY"
-    ]
+    ],
+    "navne": {
+      "CKX": "CKX Lands, Inc."
+    },
+    "omvendt": []
   },
   "marked": {},
   "marked_trend": -1
