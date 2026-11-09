@@ -61,9 +61,9 @@
       "last_review_price": 10.58
     },
     "LUNR": {
-      "last_entry_eval": "2026-11-09T14:33:26.025243+00:00",
+      "last_entry_eval": "2026-11-09T14:58:13.159529+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "breakout"
       ],
       "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-06T15:22:15.851172+00:00",
@@ -105,10 +105,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.251833,
+  "budget_used": 0.257914,
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 3,
-  "ai_spend_today": 0.018786599999999997,
+  "ai_rounds_today": 4,
+  "ai_spend_today": 0.024867699999999996,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-09",
   "day_start_equity": 100034.26,
@@ -213,7 +213,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.695,
+  "last_btc_price": 5.725,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1851,8 +1851,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 278.56,
-    "snitpris": 277.92,
+    "pris": 279.07,
+    "snitpris": 278.06,
     "svag": false
   },
   "marked_trend": -1
