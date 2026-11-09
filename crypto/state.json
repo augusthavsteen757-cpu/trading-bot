@@ -251,18 +251,6 @@
         "tid": "2026-11-09T03:16:42.252656+00:00",
         "pris_ved_nyhed": 74853.775,
         "udloeber": "2026-11-09T05:16:42.252656+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Ethereum faldt skarpt sammen med markedet; frygt og inflationsventen driver salget. Allerede reflekteret i prisen.",
-        "tid": "2026-11-09T02:11:40.740730+00:00",
-        "pris_ved_nyhed": 2143.079,
-        "udloeber": "2026-11-09T05:11:40.740730+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -345,7 +333,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74583.145,
+  "last_btc_price": 74557.76000000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
