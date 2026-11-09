@@ -112,7 +112,8 @@
     "UBER": {},
     "RBLX": {},
     "CKX": {},
-    "NWGL": {}
+    "NWGL": {},
+    "MF": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -146,10 +147,13 @@
       "2026-11-09 15:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 t": [
-      "2026-11-09 16:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
-      "2026-11-09 16:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+      "2026-11-09 16:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
+      "2026-11-09 16:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
+      "2026-11-09 16:32: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -163,8 +167,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T16:12:14.619468+00:00",
+    "sidst_hentet": "2026-11-09T16:32:12.230813+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrvueo",
+        "tid": "2026-11-09T16:14:25+00:00",
+        "titel": "Every NVDA trade Washington filed since August: 8 sells, 4 buys",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xruk8o",
         "tid": "2026-11-09T15:26:54+00:00",
@@ -266,7 +280,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 10 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2317,13 +2331,15 @@
     "dag": "2026-11-09",
     "syms": [
       "CKX",
-      "NWGL"
+      "NWGL",
+      "MF"
     ],
-    "sidst": "2026-11-09T16:17:16.598094+00:00",
+    "sidst": "2026-11-09T16:32:11.946088+00:00",
     "alle": [
       "AEHL",
       "APP",
       "CKX",
+      "MF",
       "NWGL",
       "SNDQ",
       "SOXS",
@@ -2331,14 +2347,15 @@
     ],
     "navne": {
       "CKX": "CKX Lands, Inc.",
-      "NWGL": "CL Workshop Group Limited American Depositary Shares"
+      "NWGL": "CL Workshop Group Limited American Depositary Shares",
+      "MF": "MindForge Inc. Class A Ordinary Shares"
     },
     "omvendt": []
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.85,
-    "snitpris": 673.14,
+    "pris": 674.91,
+    "snitpris": 673.18,
     "svag": false
   },
   "marked_trend": -1
