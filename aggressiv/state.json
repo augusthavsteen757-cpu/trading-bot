@@ -153,20 +153,20 @@
       "2026-11-09 17:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
-      "2026-11-09 17:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 17:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 17:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
-      "2026-11-09 17:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+      "2026-11-09 17:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
+      "2026-11-09 17:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 61 t": [
       "2026-11-09 17:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars",
       "2026-11-09 17:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 t": [
-      "2026-11-09 17:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
       "2026-11-09 17:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
       "2026-11-09 17:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
-      "2026-11-09 17:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
+      "2026-11-09 17:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
+      "2026-11-09 17:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2325,7 +2325,7 @@
       "NWGL",
       "MF"
     ],
-    "sidst": "2026-11-09T17:42:14.591898+00:00",
+    "sidst": "2026-11-09T17:57:13.708351+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2345,8 +2345,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.56,
-    "snitpris": 674.11,
+    "pris": 677.32,
+    "snitpris": 674.14,
     "svag": false
   },
   "marked_trend": -1
