@@ -3112,3 +3112,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-07 12:34,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
 2026-11-07 12:39,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50310000,""message"":""service unavailable""}"
 2026-11-07 13:08,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: {""code"":50010000,""message"":""internal server error occurred""}"
+2026-11-09 14:33,ONDS,5.415,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,RCAT,3.98,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,UMAC,12.3,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,BBAI,2.215,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,SOUN,4.065,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,QUBT,6.355,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,RGTI,11.86,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2334,
+2026-11-09 14:33,LUNR,10.58,high_vol,nyhed_op,setup: nyhed_op,"neutral(2): LUNR er i high_vol-regime med flad 1h/4h og ned 1d, lav efficiency og meget lav volumen. Markedet er urolig; nyhed_op-setup bør behandles med forsigtighed.",bullish(3): NASA har valgt Intuitive Machines til nye kommercielle maanelandinger og en ny 10 mia. USD leveringsramme. Det er en markant positiv kontrakt-nyhed for LUNR og kan give kursstigning de naeste timer.,"bullish(2): Indekset er faldet fra 50 til 26 paa 7 dage og ligger i Fear-zonen med et Extreme Fear-punkt for fire dage siden. Det kan vaere en koebsmulighed, men det er kun et groft maal for risikolyst, saa positionsstoerrelsen bor holdes moderat.","neutral(1): Flad trend, lav efficiency (0.04) og ADX 27 under kaotisk momentum. Pris ligger taet paa modstand 10.69 og 1.64 ATR over EMA20. Lavt volumen. Koeb her giver darlig risk/reward; afvent klar opbrud med volumen.",HOLD,2,"Nyheden er positiv, men modstand 10.69 kun 0.3 ATR vaek giver under 1,2R plads. Volumen minimal, trend flad/ned, kursen ikke reageret endnu.",,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2396,
+2026-11-09 14:33,ACHR,4.36,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2396,
+2026-11-09 14:33,OUST,34.96,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,91546.91,-8.453,0.0,-0.139,0.2396,
