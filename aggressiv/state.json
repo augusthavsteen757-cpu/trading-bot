@@ -139,10 +139,10 @@
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 t": [
-      "2026-11-09 15:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
-      "2026-11-09 15:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
+      "2026-11-09 15:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
+      "2026-11-09 15:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -336,18 +336,6 @@
         "tid": "2026-11-09T14:57:15.768507+00:00",
         "pris_ved_nyhed": 83.93,
         "udloeber": "2026-11-09T18:57:15.768507+00:00"
-      },
-      "SMCI": {
-        "kilde": "kun_reddit",
-        "symbol": "SMCI",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Kun et Reddit-rygte om SMCI, der outperformer Dell. Ingen bekraeftet nyhed, saa ingen klar retning.",
-        "tid": "2026-11-09T14:32:12.824430+00:00",
-        "pris_ved_nyhed": 27.335,
-        "udloeber": "2026-11-09T15:32:12.824430+00:00"
       },
       "RIOT": {
         "kilde": "nyhed",
@@ -2331,8 +2319,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.04,
-    "snitpris": 671.42,
+    "pris": 674.5,
+    "snitpris": 671.57,
     "svag": false
   },
   "marked_trend": -1
