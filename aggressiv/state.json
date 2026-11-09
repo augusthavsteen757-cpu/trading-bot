@@ -193,16 +193,16 @@
       "2026-11-09 19:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 ": [
-      "2026-11-09 20:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
       "2026-11-09 20:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
       "2026-11-09 20:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
-      "2026-11-09 20:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars"
+      "2026-11-09 20:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
+      "2026-11-09 20:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 65 t": [
-      "2026-11-09 20:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
-      "2026-11-09 20:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
+      "2026-11-09 20:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
+      "2026-11-09 20:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -216,7 +216,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T20:02:47.593642+00:00",
+    "sidst_hentet": "2026-11-09T20:22:44.756526+00:00",
     "opslag": [
       {
         "id": "t3_1xs1nxz",
@@ -417,19 +417,9 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xr7qz8",
-        "tid": "2026-11-08T20:06:54+00:00",
-        "titel": "Nvidia Board to Probe Spying Case After CEO Admits Infidelity",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -2346,8 +2336,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 680.63,
-    "snitpris": 675.28,
+    "pris": 680.69,
+    "snitpris": 675.39,
     "svag": false
   },
   "marked_trend": -1
