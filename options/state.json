@@ -6,12 +6,20 @@
       "entry_tid": "2026-11-09T15:03:01.806553+00:00",
       "call_andel": 0.739,
       "trend": "op"
+    },
+    "SPY261123P00755000": {
+      "entry": 9.55,
+      "antal": 1,
+      "entry_tid": "2026-11-09T18:48:31.241504+00:00",
+      "call_andel": 0.388,
+      "trend": "ned"
     }
   },
   "day": "2026-11-09",
-  "new_today": 1,
+  "new_today": 2,
   "traded_today": [
-    "AMZN"
+    "AMZN",
+    "SPY"
   ],
   "peak_equity": 100050.97,
   "test_kob_id": "testkoeb-options-2026-11-03"
