@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74777.7615,
+  "last_btc_price": 74816.53,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "EQIX": {
-        "kilde": "nyhed",
-        "symbol": "EQIX",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Datacenter-REIT'er med etableret infrastruktur kan se efterspoergsel, naar investorer foretraekker etablerede aktoerer i AI-opbygningen.",
-        "tid": "2026-11-09T17:17:37.586890+00:00",
-        "pris_ved_nyhed": 1067.62,
-        "udloeber": "2026-11-09T21:17:37.586890+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
