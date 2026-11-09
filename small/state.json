@@ -115,7 +115,7 @@
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-09T18:23:06.284256+00:00",
+    "sidst_hentet": "2026-11-09T18:38:38.534956+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -195,7 +195,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.965,
+  "last_btc_price": 5.945,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1833,8 +1833,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.0,
-    "snitpris": 279.79,
+    "pris": 282.18,
+    "snitpris": 279.81,
     "svag": false
   },
   "marked_trend": -1
