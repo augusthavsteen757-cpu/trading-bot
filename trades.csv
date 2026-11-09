@@ -11037,3 +11037,18 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-09 16:22,TSLA,378.11,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96448.5,-3.551,0.0,-1.101,0.9555,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
 2026-11-09 16:22,EQIX,1062.53,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96448.5,-3.551,0.0,-1.101,0.9555,
 2026-11-09 16:23,DLR,181.08,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96448.5,-3.551,0.0,-1.101,0.9555,
+2026-11-09 16:27,BTC/USD,74702.28,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,ETH/USD,2124.7,high_vol,nyhed_op,nej (kun 0.3% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,SOL/USD,86.62,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,SPY,750.08,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,QQQ,675.43,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,NVDA,175.76,high_vol,range_bund nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,AAPL,350.4,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,MSFT,540.42,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,AMZN,268.18,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,META,640.95,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,GOOGL,290.71,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9555,
+2026-11-09 16:27,AMD,499.35,high_vol,breakout,setup: breakout,"neutral(2): AMD er i high_vol-regime med flad 1h/4h-trend og ned på dagen; ATR-percentil 91 og 312% vol signalerer urolig markedstilstand. Breakout-setup er svagt: prisen er nær 24h-højdepunktet, og modstanden ligger kun 1,09 ATR væk. Afvent bekræftelse.","bullish(2): Flere positive AMD-nyheder: Google Cloud TPU 8tx bruger AMD EPYC, en analytiker opgraderer, og ARK koeber AMD. Chip-aktier er nedtrykt, hvilket kan give en kortsigtet opsving. Jim Cramers kommentar om datacenter-risiko er dog en modvind.","bullish(2): Indekset er faldet fra 50 til 26-29 og ligger i frygtzonen, mens det seneste punkt er 26, tæt paa ekstrem frygt. Det kan vaere en koebsmulighed, men svagt, da frygten kan forlaenges.","neutral(1): Efficiency 0.06 og flad/ned trend viser svag retning; ADX 24.5 og høj vol giver støj. Kun 0.37 ATR fra 24h-high, modstand kun 1.09 ATR væk, og pris 2.65 ATR over EMA20 gør breakout-koeb dårlig risk/reward. Afventer.",HOLD,2,"Kun 1,09 ATR til modstand (under 1,2R), pris 2,65 ATR over EMA20, rel. volumen 1,03 under lektiens 1,5 krav, høj volatilitet og dårlig ORB-historik.",,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9636,
+2026-11-09 16:28,TSLA,378.38,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9636,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 16:28,EQIX,1063.78,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9636,
+2026-11-09 16:28,DLR,181.21,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,96069.01,-3.931,0.0,-1.101,0.9636,
