@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75116.0615,
+  "last_btc_price": 75083.80799999999,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2110,8 +2110,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T23:18:05.504326+00:00",
+    "sidst_hentet": "2026-11-09T23:38:05.462803+00:00",
     "opslag": [
+      {
+        "id": "t3_1xs7gu9",
+        "tid": "2026-11-09T23:34:20+00:00",
+        "titel": "So like what\u2019s there bitcoin corn?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xs7eiv",
+        "tid": "2026-11-09T23:31:24+00:00",
+        "titel": "SOL to USDT without binance, changenow or fixedfloat?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xrxe0j",
         "tid": "2026-11-09T17:10:35+00:00",
@@ -2341,19 +2361,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrccz8",
-        "tid": "2026-11-08T23:29:45+00:00",
-        "titel": "free bitcoin for a stranger",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
