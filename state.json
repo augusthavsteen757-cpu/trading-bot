@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74860.18599999999,
+  "last_btc_price": 74770.54999999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2144,8 +2144,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T04:31:32.602506+00:00",
+    "sidst_hentet": "2026-11-09T04:51:32.120019+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrild7",
+        "tid": "2026-11-09T04:43:36+00:00",
+        "titel": "A personal story about how I found bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xrgdxw",
         "tid": "2026-11-09T02:46:45+00:00",
@@ -2327,7 +2337,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
