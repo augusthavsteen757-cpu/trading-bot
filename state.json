@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74559.74650000001,
+  "last_btc_price": 74475.05799999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1822,20 +1822,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Politisk uro om Iran-krigen kan give risk-off, men Warrens udtalelse er ikke direkte krypto-relevant og ventet; svag og usikker sammenhaeng.",
-        "tid": "2026-11-09T03:16:32.364674+00:00",
-        "pris_ved_nyhed": 74841.105,
-        "udloeber": "2026-11-09T05:16:32.364674+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-09",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-09T04:36:32.416904+00:00",
