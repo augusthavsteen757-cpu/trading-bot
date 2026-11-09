@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T18:38:19.191551+00:00",
+    "sidst_hentet": "2026-11-09T18:58:19.358959+00:00",
     "opslag": [
       {
         "id": "t3_1xrxe0j",
@@ -294,19 +294,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xr5lwq",
-        "tid": "2026-11-08T18:40:26+00:00",
-        "titel": "Before Bitcoin, there were the Yap Stones: How a 4-ton limestone at the bottom of the Pacific Ocean proved that money is",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -397,7 +387,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74541.58499999999,
+  "last_btc_price": 74561.269,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
