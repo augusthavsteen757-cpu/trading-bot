@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74536.1,
+  "last_btc_price": 74489.462,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1846,18 +1846,6 @@
         "tid": "2026-11-09T10:41:56.630959+00:00",
         "pris_ved_nyhed": 74044.25,
         "udloeber": "2026-11-09T12:41:56.630959+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "H\u00f8jbeta-altcoin kan falde mere end BTC, hvis tech-aktier sv\u00e6kkes og renteforhoeelse prises ind.",
-        "tid": "2026-11-09T10:41:56.630959+00:00",
-        "pris_ved_nyhed": 85.84514999999999,
-        "udloeber": "2026-11-09T11:41:56.630959+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2168,7 +2156,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T11:26:58.016863+00:00",
+    "sidst_hentet": "2026-11-09T11:41:58.408608+00:00",
     "opslag": [
       {
         "id": "t3_1xroc9b",
