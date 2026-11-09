@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74209.508,
+  "last_btc_price": 74334.86,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1823,18 +1823,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Trump-familiens krypto-engagement kan give politisk debat og volatilitet, men nyheden er kendt og ny effekt er usikker.",
-        "tid": "2026-11-09T06:51:34.024482+00:00",
-        "pris_ved_nyhed": 74212.5475,
-        "udloeber": "2026-11-09T08:51:34.024482+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
