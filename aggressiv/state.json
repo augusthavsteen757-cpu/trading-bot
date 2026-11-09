@@ -147,16 +147,19 @@
       "2026-11-09 15:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 t": [
-      "2026-11-09 16:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
-      "2026-11-09 16:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+      "2026-11-09 16:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
+      "2026-11-09 17:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
       "2026-11-09 16:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 16:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 16:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 16:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 61 t": [
+      "2026-11-09 17:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -170,8 +173,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T16:47:12.787820+00:00",
+    "sidst_hentet": "2026-11-09T17:02:13.117448+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrwtx8",
+        "tid": "2026-11-09T16:50:40+00:00",
+        "titel": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xrwncx",
         "tid": "2026-11-09T16:44:09+00:00",
@@ -293,7 +306,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -392,18 +405,6 @@
         "tid": "2026-11-09T16:12:15.671455+00:00",
         "pris_ved_nyhed": 378.275,
         "udloeber": "2026-11-09T18:12:15.671455+00:00"
-      },
-      "MARA": {
-        "kilde": "nyhed",
-        "symbol": "MARA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin fremh\u00e6ves som top-valg i nedtur, hvilket kan give kortvarig st\u00f8tte til BTC-relaterede minere. Svag analytikerkommentar.",
-        "tid": "2026-11-09T14:57:15.768507+00:00",
-        "pris_ved_nyhed": 6.4350000000000005,
-        "udloeber": "2026-11-09T16:57:15.768507+00:00"
       },
       "MSTR": {
         "kilde": "nyhed",
@@ -2331,8 +2332,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.78,
-    "snitpris": 673.41,
+    "pris": 676.84,
+    "snitpris": 673.44,
     "svag": false
   },
   "marked_trend": -1
