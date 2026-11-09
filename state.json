@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74829.93,
+  "last_btc_price": 74907.4635,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1834,30 +1834,6 @@
         "tid": "2026-11-09T03:16:32.364674+00:00",
         "pris_ved_nyhed": 74841.105,
         "udloeber": "2026-11-09T05:16:32.364674+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt krypto-salg p\u00e5 frygtsentiment. ETH f\u00f8lger BTC, og den generelle usikkerhed f\u00f8r inflationsrapporten holder kursen neutral.",
-        "tid": "2026-11-09T02:11:33.404620+00:00",
-        "pris_ved_nyhed": 2143.3115,
-        "udloeber": "2026-11-09T04:11:33.404620+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "SOL falder med markedet p\u00e5 frygtsentiment. Ingen selvst\u00e6ndig katalysator, s\u00e5 signalet er svagt og neutralt.",
-        "tid": "2026-11-09T02:11:33.404620+00:00",
-        "pris_ved_nyhed": 87.88300000000001,
-        "udloeber": "2026-11-09T04:11:33.404620+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2168,7 +2144,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T03:56:32.518772+00:00",
+    "sidst_hentet": "2026-11-09T04:11:32.819209+00:00",
     "opslag": [
       {
         "id": "t3_1xrgdxw",
