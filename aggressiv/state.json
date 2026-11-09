@@ -49,10 +49,9 @@
       "last_review_price": 138.98
     },
     "META": {
-      "last_entry_eval": "2026-11-05T14:35:24.313500+00:00",
+      "last_entry_eval": "2026-11-09T14:42:20.763403+00:00",
       "last_entry_setups": [
-        "nyhed_op",
-        "trend_pullback"
+        "breakout"
       ],
       "orb_day": "2026-11-06"
     },
@@ -115,7 +114,8 @@
     "CKX": {}
   },
   "learned": [
-    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
+    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
+    "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 6 t"
   ],
   "pending": {
     "teknisk fejl: APIError: {\"message\": \"unauthorized.\"}\n": [
@@ -137,16 +137,13 @@
     ],
     "teknisk fejl: APIError: {\"code\":50010000,\"message\":\"internal ser": [
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
-    ],
-    "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 6 t": [
-      "2026-11-09 14:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 6 time-bars"
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.264446,
+  "budget_used": 0.274951,
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.04717400000000001,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.057678600000000003,
   "ai_crypto_today": 0,
   "auto_tjek": "auto-tjek: seneste 10 handler +78 USD (2 vundet), fuld fart",
   "eq_day": "2026-11-09",
