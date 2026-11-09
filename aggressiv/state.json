@@ -169,15 +169,16 @@
       "2026-11-09 17:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 ": [
-      "2026-11-09 18:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
-      "2026-11-09 18:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
+      "2026-11-09 18:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
+      "2026-11-09 18:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 63 t": [
       "2026-11-09 18:32: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
       "2026-11-09 18:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
-      "2026-11-09 18:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars"
+      "2026-11-09 18:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
+      "2026-11-09 18:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -378,18 +379,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Coinbase har f\u00e5et endelig godkendelse til trust-bank charter fra regulator. Klar positiv regulatorisk nyhed der kan l\u00f8fte COIN og krypto-sentiment; ukendt hvor meget der allerede er prisat.",
-        "tid": "2026-11-09T14:47:15.351023+00:00",
-        "pris_ved_nyhed": 134.28,
-        "udloeber": "2026-11-09T18:47:15.351023+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -401,18 +390,6 @@
         "tid": "2026-11-09T14:57:15.768507+00:00",
         "pris_ved_nyhed": 83.93,
         "udloeber": "2026-11-09T18:57:15.768507+00:00"
-      },
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Morgan Stanley fastholder Buy og h\u00e6ver target fra $35.50 til $41. Analytikeropgradering kan tr\u00e6kke aktien op, is\u00e6r hvis bitcoin-stemningen er stabil.",
-        "tid": "2026-11-09T14:47:15.351023+00:00",
-        "pris_ved_nyhed": 16.925,
-        "udloeber": "2026-11-09T18:47:15.351023+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2328,8 +2305,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.12,
-    "snitpris": 674.4,
+    "pris": 677.38,
+    "snitpris": 674.42,
     "svag": false
   },
   "marked_trend": -1
