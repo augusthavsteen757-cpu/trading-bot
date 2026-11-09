@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74872.25899999999,
+  "last_btc_price": 74777.7615,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Nasdaq 100 er steget 3% med chip-rebound (SOXX +7%). Momentum kan forts\u00e6tte, men rallyet er allerede sket, s\u00e5 gevinsten kan v\u00e6re begr\u00e6nset.",
-        "tid": "2026-11-09T18:12:34.429381+00:00",
-        "pris_ved_nyhed": 677.145,
-        "udloeber": "2026-11-09T21:12:34.429381+00:00"
-      },
       "EQIX": {
         "kilde": "nyhed",
         "symbol": "EQIX",
