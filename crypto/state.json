@@ -280,18 +280,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Trumps forsvar af familiens krypto-aktiviteter kan give opm\u00e6rksomhed, men det er kendt politisk stof og sandsynligvis begr\u00e6nset kursvirkning.",
-        "tid": "2026-11-09T06:52:02.073462+00:00",
-        "pris_ved_nyhed": 74230.966,
-        "udloeber": "2026-11-09T08:52:02.073462+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -387,7 +375,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74197.035,
+  "last_btc_price": 74304.6,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
