@@ -147,16 +147,16 @@
       "2026-11-09 15:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 t": [
-      "2026-11-09 16:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
-      "2026-11-09 16:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+      "2026-11-09 16:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
+      "2026-11-09 16:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
-      "2026-11-09 16:32: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 16:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 16:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
-      "2026-11-09 16:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+      "2026-11-09 16:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
+      "2026-11-09 16:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -357,18 +357,6 @@
         "pris_ved_nyhed": 134.28,
         "udloeber": "2026-11-09T18:47:15.351023+00:00"
       },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Udvidet McDonald's-partnerskab over 14 markeder styrker Uber Eats-volumen. Positiv, men ikke st\u00f8rre \u00f8konomisk overraskelse.",
-        "tid": "2026-11-09T14:47:15.351023+00:00",
-        "pris_ved_nyhed": 69.01,
-        "udloeber": "2026-11-09T16:47:15.351023+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -393,18 +381,6 @@
         "pris_ved_nyhed": 16.925,
         "udloeber": "2026-11-09T18:47:15.351023+00:00"
       },
-      "CRWD": {
-        "kilde": "nyhed",
-        "symbol": "CRWD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bernstein h\u00e6ver target fra $132 til $177. Positivt, men beskedent signal for en aktie der sandsynligvis allerede er rimeligt prisfastsat.",
-        "tid": "2026-11-09T14:47:15.351023+00:00",
-        "pris_ved_nyhed": 219.61,
-        "udloeber": "2026-11-09T16:47:15.351023+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -416,18 +392,6 @@
         "tid": "2026-11-09T16:12:15.671455+00:00",
         "pris_ved_nyhed": 378.275,
         "udloeber": "2026-11-09T18:12:15.671455+00:00"
-      },
-      "CKX": {
-        "kilde": "nyhed",
-        "symbol": "CKX",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "$1 mia. investering ledet af Brad Jacobs er stor nyhed, men den er annonceret kl. 11:12 og 14:03, og reverse split og prefs kan d\u00e6mpe gl\u00e6den.",
-        "tid": "2026-11-09T14:47:15.351023+00:00",
-        "pris_ved_nyhed": null,
-        "udloeber": "2026-11-09T16:47:15.351023+00:00"
       },
       "MARA": {
         "kilde": "nyhed",
@@ -2367,8 +2331,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.96,
-    "snitpris": 673.3,
+    "pris": 676.5,
+    "snitpris": 673.37,
     "svag": false
   },
   "marked_trend": -1
