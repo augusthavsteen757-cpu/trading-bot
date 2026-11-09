@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74625.27,
+  "last_btc_price": 74709.12,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1910,18 +1910,6 @@
         "pris_ved_nyhed": 543.385,
         "udloeber": "2026-11-09T18:42:37.125294+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ackman-nyheden om Huang naevner META kun indirekte via AI-sektoren; ingen klar effekt paa META.",
-        "tid": "2026-11-09T16:52:34.538408+00:00",
-        "pris_ved_nyhed": 641.875,
-        "udloeber": "2026-11-09T17:52:34.538408+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2543,8 +2531,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.18,
-    "snitpris": 674.08,
+    "pris": 677.56,
+    "snitpris": 674.11,
     "svag": false
   },
   "marked_trend": -1
