@@ -137,6 +137,9 @@
     ],
     "teknisk fejl: APIError: {\"code\":50010000,\"message\":\"internal ser": [
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 t": [
+      "2026-11-09 15:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2297,8 +2300,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.3,
-    "snitpris": 669.89,
+    "pris": 672.75,
+    "snitpris": 670.27,
     "svag": false
   },
   "marked_trend": -1
