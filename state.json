@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74641.805,
+  "last_btc_price": 74600.375,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2144,8 +2144,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T04:51:32.120019+00:00",
+    "sidst_hentet": "2026-11-09T05:06:33.549099+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrivqt",
+        "tid": "2026-11-09T04:59:27+00:00",
+        "titel": "In March 2012, hackers broke into the hosting company Linode and drained about 46,000 #Bitcoin from Bitcoinica and other",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xrild7",
         "tid": "2026-11-09T04:43:36+00:00",
@@ -2337,7 +2347,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
