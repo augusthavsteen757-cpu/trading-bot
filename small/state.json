@@ -121,18 +121,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "NASA-kontrakt via CLPS 2 styrker indtaegtsudsigter, men aktien steg allerede mandag, sa en del er indregnet.",
-        "tid": "2026-11-09T16:43:04.328408+00:00",
-        "pris_ved_nyhed": 12.065000000000001,
-        "udloeber": "2026-11-09T18:43:04.328408+00:00"
-      },
       "ACHR": {
         "kilde": "nyhed",
         "symbol": "ACHR",
@@ -195,7 +183,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.945,
+  "last_btc_price": 5.955,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1833,8 +1821,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.18,
-    "snitpris": 279.81,
+    "pris": 282.24,
+    "snitpris": 279.84,
     "svag": false
   },
   "marked_trend": -1
