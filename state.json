@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74546.219,
+  "last_btc_price": 74590.47750000001,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1886,30 +1886,6 @@
         "pris_ved_nyhed": 752.04,
         "udloeber": "2026-11-09T20:27:34.144838+00:00"
       },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitmine k\u00f8ber 9.587 ETH og Tom Lee kalder Buterins udmelding et skift; k\u00f8b fra et stort treasury-selskab kan skabe kortvarigt pres opad.",
-        "tid": "2026-11-09T15:42:33.710292+00:00",
-        "pris_ved_nyhed": 2139.466,
-        "udloeber": "2026-11-09T18:42:33.710292+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Generisk whale-alert uden konkret nyhed om indtjening eller produkt; ingen klar kursp\u00e5virkning forventes.",
-        "tid": "2026-11-09T17:42:37.125294+00:00",
-        "pris_ved_nyhed": 543.385,
-        "udloeber": "2026-11-09T18:42:37.125294+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2567,8 +2543,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.1,
-    "snitpris": 674.37,
+    "pris": 677.12,
+    "snitpris": 674.4,
     "svag": false
   },
   "marked_trend": -1
