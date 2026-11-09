@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74953.439,
+  "last_btc_price": 74823.679,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1814,30 +1814,6 @@
         "pris_ved_nyhed": 75409.7975,
         "udloeber": "2026-11-09T17:52:37.212357+00:00"
       },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Formation Securities' tokeniserede vaerdipapirer paa Solana kan give lidt hype, men er ikke bekraeftet og virker ikke kursdrivende kortsigtet.",
-        "tid": "2026-11-09T14:07:32.384349+00:00",
-        "pris_ved_nyhed": 86.5435,
-        "udloeber": "2026-11-09T17:07:32.384349+00:00"
-      },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Alphabet steg allerede mandag p\u00e5 nyheden om egne AI-chips; momentum kan forts\u00e6tte, men meldingen er delvist indregnet.",
-        "tid": "2026-11-09T15:02:41.803243+00:00",
-        "pris_ved_nyhed": 294.16,
-        "udloeber": "2026-11-09T17:02:41.803243+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -2543,8 +2519,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.84,
-    "snitpris": 673.44,
+    "pris": 677.0,
+    "snitpris": 673.5,
     "svag": false
   },
   "marked_trend": -1
