@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74634.6735,
+  "last_btc_price": 74892.04000000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2131,7 +2131,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T00:11:02.712630+00:00",
+    "sidst_hentet": "2026-11-09T00:26:02.989037+00:00",
     "opslag": [
       {
         "id": "t3_1xrcqv5",
@@ -2162,6 +2162,16 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xr8jz3",
+        "tid": "2026-11-08T20:41:18+00:00",
+        "titel": "Need a tiny amount of SOL (0.0005) for gas fees to connect my wallet",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
       },
       {
         "id": "t3_1xr88kx",
@@ -2267,16 +2277,6 @@
         "id": "t3_1xqosur",
         "tid": "2026-11-08T03:34:58+00:00",
         "titel": "My BTC prediction from 3 months ago. Let\u2019s see how it holds up",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xql300",
-        "tid": "2026-11-08T00:20:12+00:00",
-        "titel": "Do you think Bitcoin will ever become a normal way to pay for everyday stuff?",
         "symboler": [
           "BTC/USD"
         ],
