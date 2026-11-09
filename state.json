@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74770.30350000001,
+  "last_btc_price": 74705.0,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -1823,18 +1823,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme makrorisiko som BTC; Nvidia-nyheden rammer ikke ETH direkte, og effekten er usikker.",
-        "tid": "2026-11-09T10:41:56.630959+00:00",
-        "pris_ved_nyhed": 2104.469,
-        "udloeber": "2026-11-09T12:41:56.630959+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -2156,7 +2144,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T12:21:58.672361+00:00",
+    "sidst_hentet": "2026-11-09T12:41:58.705500+00:00",
     "opslag": [
       {
         "id": "t3_1xroc9b",
