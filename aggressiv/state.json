@@ -181,14 +181,15 @@
       "2026-11-09 19:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 64 t": [
-      "2026-11-09 19:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars",
       "2026-11-09 19:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars",
       "2026-11-09 19:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars",
-      "2026-11-09 19:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars"
+      "2026-11-09 19:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars",
+      "2026-11-09 19:27: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 64 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 ": [
       "2026-11-09 19:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars",
-      "2026-11-09 19:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars"
+      "2026-11-09 19:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars",
+      "2026-11-09 19:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2302,8 +2303,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.18,
-    "snitpris": 674.56,
+    "pris": 677.26,
+    "snitpris": 674.59,
     "svag": false
   },
   "marked_trend": -1
