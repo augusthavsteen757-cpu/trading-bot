@@ -153,20 +153,20 @@
       "2026-11-09 17:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
-      "2026-11-09 17:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 17:27: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 17:32: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
-      "2026-11-09 17:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+      "2026-11-09 17:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
+      "2026-11-09 17:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 61 t": [
       "2026-11-09 17:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars",
       "2026-11-09 17:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 t": [
-      "2026-11-09 17:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
       "2026-11-09 17:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
       "2026-11-09 17:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
-      "2026-11-09 17:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
+      "2026-11-09 17:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars",
+      "2026-11-09 17:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -420,18 +420,6 @@
         "tid": "2026-11-09T16:12:15.671455+00:00",
         "pris_ved_nyhed": 378.275,
         "udloeber": "2026-11-09T18:12:15.671455+00:00"
-      },
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "MicroStrategy er stort ETH/BTC-eksponeret; ETH-kob fra Bitmine og Tom Lee-kommentar kan give positiv stemning og kobsinteresse i krypto-aktier.",
-        "tid": "2026-11-09T15:37:13.270338+00:00",
-        "pris_ved_nyhed": 128.22,
-        "udloeber": "2026-11-09T17:37:13.270338+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2327,7 +2315,7 @@
       "NWGL",
       "MF"
     ],
-    "sidst": "2026-11-09T17:32:14.141838+00:00",
+    "sidst": "2026-11-09T17:42:14.591898+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2347,8 +2335,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.01,
-    "snitpris": 674.02,
+    "pris": 677.52,
+    "snitpris": 674.04,
     "svag": false
   },
   "marked_trend": -1
