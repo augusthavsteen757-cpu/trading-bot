@@ -239,20 +239,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Politisk uro om Iran-krigen kan give risk-off, men Warrens udmelding er vag og sandsynligvis allerede kendt for markedet.",
-        "tid": "2026-11-09T03:16:42.252656+00:00",
-        "pris_ved_nyhed": 74853.775,
-        "udloeber": "2026-11-09T05:16:42.252656+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-09",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-09T04:37:02.031520+00:00",
@@ -333,7 +320,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74557.76000000001,
+  "last_btc_price": 74496.1805,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
