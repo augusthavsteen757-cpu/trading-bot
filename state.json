@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75294.25,
+  "last_btc_price": 75159.50450000001,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2168,8 +2168,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T02:31:32.012367+00:00",
+    "sidst_hentet": "2026-11-09T02:51:32.446508+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrgdxw",
+        "tid": "2026-11-09T02:46:45+00:00",
+        "titel": "Where do I buy bitcoin and also have my own private keys ?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xrekvu",
         "tid": "2026-11-09T01:15:37+00:00",
@@ -2321,6 +2331,16 @@
         "sub": "Bitcoin"
       },
       {
+        "id": "t3_1xqv6db",
+        "tid": "2026-11-08T10:13:11+00:00",
+        "titel": "Would the people in Paraguay be better off if they had their money in bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
         "id": "t3_1xquk35",
         "tid": "2026-11-08T09:31:38+00:00",
         "titel": "CZ says he sold his apartment for $900,000 to buy Bitcoin at $400Binance founder Changpeng Zhao says he sold his apartme",
@@ -2341,7 +2361,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
