@@ -146,10 +146,10 @@
       "2026-11-09 15:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 t": [
-      "2026-11-09 16:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
-      "2026-11-09 16:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+      "2026-11-09 16:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
+      "2026-11-09 16:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2336,8 +2336,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.07,
-    "snitpris": 673.04,
+    "pris": 676.03,
+    "snitpris": 673.1,
     "svag": false
   },
   "marked_trend": -1
