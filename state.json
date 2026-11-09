@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.848934,
+  "budget_used": 0.856525,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -37,8 +37,8 @@
     ]
   },
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.04270969999999999,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.050300799999999986,
   "eq_day": "2026-11-09",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
@@ -110,9 +110,9 @@
       "last_review_price": 255.96
     },
     "META": {
-      "last_entry_eval": "2026-11-05T14:50:55.944929+00:00",
+      "last_entry_eval": "2026-11-09T14:42:54.023726+00:00",
       "last_entry_setups": [
-        "range_bund"
+        "breakout"
       ],
       "last_hold_review": "2026-11-05T14:32:11.566084+00:00",
       "last_review_price": 628.87,
@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74363.5205,
+  "last_btc_price": 74276.318,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
