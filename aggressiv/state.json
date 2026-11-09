@@ -153,10 +153,10 @@
       "2026-11-09 17:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
-      "2026-11-09 17:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 18:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 18:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
-      "2026-11-09 18:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+      "2026-11-09 18:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
+      "2026-11-09 18:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 61 t": [
       "2026-11-09 17:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars",
@@ -171,7 +171,8 @@
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 ": [
       "2026-11-09 18:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
-      "2026-11-09 18:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
+      "2026-11-09 18:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
+      "2026-11-09 18:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -433,18 +434,6 @@
         "tid": "2026-11-09T14:47:15.351023+00:00",
         "pris_ved_nyhed": 16.925,
         "udloeber": "2026-11-09T18:47:15.351023+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Generel markedsopgang og v\u00e6kstrotation l\u00f8fter TSLA, men signalet er svagt og delvist indregnet.",
-        "tid": "2026-11-09T16:12:15.671455+00:00",
-        "pris_ved_nyhed": 378.275,
-        "udloeber": "2026-11-09T18:12:15.671455+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2360,8 +2349,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.73,
-    "snitpris": 674.23,
+    "pris": 677.07,
+    "snitpris": 674.24,
     "svag": false
   },
   "marked_trend": -1
