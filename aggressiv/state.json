@@ -153,10 +153,10 @@
       "2026-11-09 17:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 62 t": [
-      "2026-11-09 18:07: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 18:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
       "2026-11-09 18:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
-      "2026-11-09 18:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
+      "2026-11-09 18:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars",
+      "2026-11-09 18:27: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 62 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 61 t": [
       "2026-11-09 17:02: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 61 time-bars",
@@ -169,10 +169,10 @@
       "2026-11-09 17:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 ": [
-      "2026-11-09 18:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
-      "2026-11-09 18:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
+      "2026-11-09 18:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
+      "2026-11-09 18:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -186,8 +186,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T18:07:16.468888+00:00",
+    "sidst_hentet": "2026-11-09T18:27:12.945839+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrzgq7",
+        "tid": "2026-11-09T18:26:20+00:00",
+        "titel": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention (Gift Article)",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xryt98",
         "tid": "2026-11-09T18:02:48+00:00",
@@ -359,46 +369,10 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Sektoren rallier mens NVDA falder; AMD kan profitere af rotation vaek fra NVDA, men signalet er svagt.",
-        "tid": "2026-11-09T16:27:13.080205+00:00",
-        "pris_ved_nyhed": 499.21500000000003,
-        "udloeber": "2026-11-09T18:27:13.080205+00:00"
-      },
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Chipsektoren rallier, mens NVDA splittes ud; AVGO kan nyde godt af sektorstyrken, men effekten er indirekte.",
-        "tid": "2026-11-09T16:27:13.080205+00:00",
-        "pris_ved_nyhed": 318.32,
-        "udloeber": "2026-11-09T18:27:13.080205+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA er ekstremt oversolgt og har underperformet sektoren; rygterne er usandsynlige at holde, sa en teknisk rebound er mulig, men det er allerede i prisen.",
-        "tid": "2026-11-09T16:27:13.080205+00:00",
-        "pris_ved_nyhed": 175.49,
-        "udloeber": "2026-11-09T18:27:13.080205+00:00"
-      },
       "COIN": {
         "kilde": "nyhed",
         "symbol": "COIN",
@@ -2349,8 +2323,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.35,
-    "snitpris": 674.28,
+    "pris": 676.2,
+    "snitpris": 674.3,
     "svag": false
   },
   "marked_trend": -1
