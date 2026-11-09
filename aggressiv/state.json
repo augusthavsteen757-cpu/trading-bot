@@ -140,10 +140,10 @@
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 t": [
-      "2026-11-09 15:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
-      "2026-11-09 15:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
+      "2026-11-09 15:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
+      "2026-11-09 15:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -157,7 +157,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T15:42:13.835833+00:00",
+    "sidst_hentet": "2026-11-09T15:57:13.898492+00:00",
     "opslag": [
       {
         "id": "t3_1xruk8o",
@@ -2325,8 +2325,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.88,
-    "snitpris": 672.13,
+    "pris": 677.0,
+    "snitpris": 672.35,
     "svag": false
   },
   "marked_trend": -1
