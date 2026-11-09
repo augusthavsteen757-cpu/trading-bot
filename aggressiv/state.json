@@ -193,16 +193,16 @@
       "2026-11-09 19:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 11 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 ": [
-      "2026-11-09 20:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
       "2026-11-09 20:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
       "2026-11-09 20:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
-      "2026-11-09 20:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars"
+      "2026-11-09 20:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars",
+      "2026-11-09 20:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 12 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 65 t": [
-      "2026-11-09 20:12: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:17: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:22: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
-      "2026-11-09 20:27: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
+      "2026-11-09 20:27: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
+      "2026-11-09 20:32: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2336,8 +2336,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 681.12,
-    "snitpris": 675.49,
+    "pris": 681.42,
+    "snitpris": 675.58,
     "svag": false
   },
   "marked_trend": -1
