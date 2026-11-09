@@ -111,7 +111,8 @@
     },
     "UBER": {},
     "RBLX": {},
-    "CKX": {}
+    "CKX": {},
+    "NWGL": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -139,10 +140,10 @@
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 t": [
-      "2026-11-09 15:22: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:27: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
       "2026-11-09 15:32: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
-      "2026-11-09 15:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
+      "2026-11-09 15:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars",
+      "2026-11-09 15:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 7 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -156,8 +157,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T15:22:13.327521+00:00",
+    "sidst_hentet": "2026-11-09T15:42:13.835833+00:00",
     "opslag": [
+      {
+        "id": "t3_1xruk8o",
+        "tid": "2026-11-09T15:26:54+00:00",
+        "titel": "What do we actually know about Nvidia CEO Jensen Huang\u2019s infidelity?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xru2mp",
         "tid": "2026-11-09T15:08:12+00:00",
@@ -249,7 +260,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 9 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 10 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2302,26 +2313,29 @@
   "scan": {
     "dag": "2026-11-09",
     "syms": [
-      "CKX"
+      "CKX",
+      "NWGL"
     ],
-    "sidst": "2026-11-09T15:27:14.323629+00:00",
+    "sidst": "2026-11-09T15:42:13.463917+00:00",
     "alle": [
       "AEHL",
       "APP",
       "CKX",
+      "NWGL",
       "SNDQ",
       "SOXS",
       "UVXY"
     ],
     "navne": {
-      "CKX": "CKX Lands, Inc."
+      "CKX": "CKX Lands, Inc.",
+      "NWGL": "CL Workshop Group Limited American Depositary Shares"
     },
     "omvendt": []
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.08,
-    "snitpris": 671.69,
+    "pris": 674.49,
+    "snitpris": 671.78,
     "svag": false
   },
   "marked_trend": -1
