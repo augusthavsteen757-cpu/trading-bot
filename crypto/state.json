@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T15:53:18.785323+00:00",
+    "sidst_hentet": "2026-11-09T16:08:18.982217+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrvem5",
+        "tid": "2026-11-09T15:58:34+00:00",
+        "titel": "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xrv67s",
         "tid": "2026-11-09T15:50:02+00:00",
@@ -296,7 +306,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -311,18 +321,6 @@
         "tid": "2026-11-09T14:52:34.617542+00:00",
         "pris_ved_nyhed": 74821.3,
         "udloeber": "2026-11-09T16:52:34.617542+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Tokeniseret vaerdipapir-boers paa Solana er ufortrinlig og uden bekraeftet nyhedsdaekning; kun svag kontekst.",
-        "tid": "2026-11-09T14:07:34.236334+00:00",
-        "pris_ved_nyhed": 86.5435,
-        "udloeber": "2026-11-09T16:07:34.236334+00:00"
       },
       "ETH/USD": {
         "kilde": "nyhed",
@@ -424,7 +422,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 75306.985,
+  "last_btc_price": 75057.105,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
