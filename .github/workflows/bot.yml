@@ -43,6 +43,7 @@ jobs:
           COINS: ${{ vars.COINS }}
           STOCKS: ${{ vars.STOCKS }}
           EXTRA_STOCKS: EQIX,DLR  # paper-test af datacenter-jord-idéen fra 4. nov
+          ORB_TREND_FILTER: ${{ vars.ORB_TREND_FILTER }}
           MARKET_FILTER: ${{ vars.MARKET_FILTER_MAIN || 'QQQ' }}  # handl med markedet: ingen nye aktiekoeb naar QQQ er under dagens snitpris ('none' = slaa fra)
           RESET_HALT: ${{ vars.RESET_HALT }}
           NEWS_MAX_CALLS_PER_DAY: ${{ vars.NEWS_MAX_CALLS_PER_DAY }}

@@ -12,28 +12,33 @@
     "LINK/USD": {},
     "LTC/USD": {}
   },
-  "learned": [],
+  "learned": [
+    "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
+  ],
   "pending": {
     "tab: testkoeb i range": [
       "2026-11-04 00:37: BTC/USD: Chef solgte. R=-0.39. Entry 77449, exit 76848. Grund til koeb: Manuelt testkoeb for at teste koeb, stop og log. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 58.0, 'adx_1h': 21.5, 'rel_volumen_1h': 0.42, 'afstand_modstand_atr': 0.44, 'atr_percentil_30d': 64.3}"
+    ],
+    "teknisk fejl: APIError: {\"code\":50010000,\"message\":\"internal ser": [
+      "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.094398,
-  "ai_day": "2026-11-06",
+  "budget_used": 0.102749,
+  "ai_day": "2026-11-09",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0033618000000000003,
+  "ai_spend_today": 0.0029117000000000006,
   "ai_crypto_today": 0,
-  "eq_day": "2026-11-06",
+  "eq_day": "2026-11-09",
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-06T12:01:25.705532+00:00",
+    "sidst_hentet": "2026-11-09T23:38:50.093372+00:00",
     "opslag": [
       {
-        "id": "t3_1xp9g5q",
-        "tid": "2026-11-06T10:22:11+00:00",
-        "titel": "Bitcoin's proof of work began as a 1997 plan to put spammers out of business:",
+        "id": "t3_1xs7gu9",
+        "tid": "2026-11-09T23:34:20+00:00",
+        "titel": "So like what\u2019s there bitcoin corn?",
         "symboler": [
           "BTC/USD"
         ],
@@ -41,149 +46,9 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xp9e0b",
-        "tid": "2026-11-06T10:18:20+00:00",
-        "titel": "Bitcoin Core 32.1, Lightning security fixes, and a question for node operators",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8zsk",
-        "tid": "2026-11-06T09:53:46+00:00",
-        "titel": "The Embarrassing Bull Case for BItcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8zc5",
-        "tid": "2026-11-06T09:52:57+00:00",
-        "titel": "Moving Bitcoin to a bank account",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp8rag",
-        "tid": "2026-11-06T09:38:10+00:00",
-        "titel": "Long-term holders: Do you still risk staking your ETH or just keep it cold?",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
-      },
-      {
-        "id": "t3_1xp7wfz",
-        "tid": "2026-11-06T08:41:15+00:00",
-        "titel": "Infinite Minds, Finite Coins. AI Abundance vs. Digital Scarcity: Why Machine Intelligence Drives Capital Toward a $1 Mil",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xp7vrk",
-        "tid": "2026-11-06T08:40:04+00:00",
-        "titel": "Infinite Minds, Finite Coins. AI Abundance vs. Digital Scarcity: Why Machine Intelligence Drives Capital Toward a $1 Mil",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xp62bf",
-        "tid": "2026-11-06T06:40:47+00:00",
-        "titel": "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoz1xs",
-        "tid": "2026-11-06T00:31:13+00:00",
-        "titel": "Happy Gunpowder Treason Day Bitcoin!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoxosi",
-        "tid": "2026-11-05T23:29:39+00:00",
-        "titel": "I bought a shit ton of bitcoin on January 8th 2026. I told myself (guy with failing track record) \u201cthere\u2019s no possible w",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xotgbi",
-        "tid": "2026-11-05T20:32:37+00:00",
-        "titel": "I built a live 3D view of the Bitcoin network. You can watch the next block get found as it happens.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xorzlq",
-        "tid": "2026-11-05T19:34:19+00:00",
-        "titel": "Bull Bitcoin just became the first exchange to make every on-chain buy and sell a Payjoin by default. Payjoin is an enha",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xorfs5",
-        "tid": "2026-11-05T19:12:47+00:00",
-        "titel": "The Time Warp: How Lying About the Time Could Break Bitcoin's Difficulty",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoqa10",
-        "tid": "2026-11-05T18:28:40+00:00",
-        "titel": "whoa.. Whoa.. WHOA. What is going on with bitcoin diving?!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xoq2yd",
-        "tid": "2026-11-05T18:21:22+00:00",
-        "titel": "Bitcoin Is the Canary: Rising Prices, Rising Unemployment, and a Rush for Cash",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xopx6t",
-        "tid": "2026-11-05T18:15:15+00:00",
-        "titel": "JTX launches tokenized equities trading on Solana",
+        "id": "t3_1xs7eiv",
+        "tid": "2026-11-09T23:31:24+00:00",
+        "titel": "SOL to USDT without binance, changenow or fixedfloat?",
         "symboler": [
           "SOL/USD"
         ],
@@ -191,9 +56,9 @@
         "sub": "solana"
       },
       {
-        "id": "t3_1xopr41",
-        "tid": "2026-11-05T18:08:46+00:00",
-        "titel": "Shit going down in Paraguay right now. Dare we say it: Bitcoin fixes this.",
+        "id": "t3_1xrxe0j",
+        "tid": "2026-11-09T17:10:35+00:00",
+        "titel": "Why Bitcoin Is The Only Money AI Can't Control (Here's Why)",
         "symboler": [
           "BTC/USD"
         ],
@@ -201,9 +66,69 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xoo4xx",
-        "tid": "2026-11-05T17:08:31+00:00",
-        "titel": "Stablecoin Account Goes Live In Samsung Wallet, Bringing USDC On Solana To Eligible U.S. Galaxy Users",
+        "id": "t3_1xrvem5",
+        "tid": "2026-11-09T15:58:34+00:00",
+        "titel": "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrv67s",
+        "tid": "2026-11-09T15:50:02+00:00",
+        "titel": "Bitcoin to Paypal exchange for small amounts without KYC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrv3aw",
+        "tid": "2026-11-09T15:47:14+00:00",
+        "titel": "LNbits urges Bitcoin Lightning server operators to shut down immediately",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xru6qh",
+        "tid": "2026-11-09T15:12:28+00:00",
+        "titel": "A Finnish home swapped district heating for a Bitcoin miner",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrsj4y",
+        "tid": "2026-11-09T14:06:29+00:00",
+        "titel": "How fake randomness stole $130m in Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xrrjrt",
+        "tid": "2026-11-09T13:23:39+00:00",
+        "titel": "BTC 180k soon in 2028",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrqym6",
+        "tid": "2026-11-09T12:56:21+00:00",
+        "titel": "Formation Securities Plans First Tokenized Securities Venue on Solana",
         "symboler": [
           "SOL/USD"
         ],
@@ -211,9 +136,9 @@
         "sub": "solana"
       },
       {
-        "id": "t3_1xomcx7",
-        "tid": "2026-11-05T16:00:47+00:00",
-        "titel": "Is 75k a good average price for bitcoin",
+        "id": "t3_1xroc9b",
+        "tid": "2026-11-09T10:32:22+00:00",
+        "titel": "Wherer to buy BTC without KYC?",
         "symboler": [
           "BTC/USD"
         ],
@@ -221,49 +146,9 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xom91c",
-        "tid": "2026-11-05T15:56:44+00:00",
-        "titel": "What would happen when banks create Bitcoin backed currency?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xom43k",
-        "tid": "2026-11-05T15:51:11+00:00",
-        "titel": "Solana Changelog: November 5, 2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xolsia",
-        "tid": "2026-11-05T15:38:12+00:00",
-        "titel": "For you scared BTC hodlers",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xol876",
-        "tid": "2026-11-05T15:16:05+00:00",
-        "titel": "Bitcoin recovery",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xokzrp",
-        "tid": "2026-11-05T15:07:02+00:00",
-        "titel": "Trump Media Bitcoin Transfer of 4,259 BTC Nearly Matches Pledged Loan Collateral",
+        "id": "t3_1xrnymk",
+        "tid": "2026-11-09T10:09:59+00:00",
+        "titel": "Satoshi Disabled 15 Bitcoin Commands in 2010. Sixteen Years Later, Developers Want Them Back.",
         "symboler": [
           "BTC/USD"
         ],
@@ -271,9 +156,9 @@
         "sub": "CryptoCurrency"
       },
       {
-        "id": "t3_1xokw13",
-        "tid": "2026-11-05T15:02:53+00:00",
-        "titel": "Why is bitcoin completely related to the market? In which scenario is bitcoin ever booming during a market crash? My gue",
+        "id": "t3_1xrnxu3",
+        "tid": "2026-11-09T10:08:33+00:00",
+        "titel": "Satoshi Disabled 15 Bitcoin Commands in 2010. Sixteen Years Later, Developers Want Them Back.",
         "symboler": [
           "BTC/USD"
         ],
@@ -281,9 +166,9 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xokkru",
-        "tid": "2026-11-05T14:50:57+00:00",
-        "titel": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
+        "id": "t3_1xrnq9u",
+        "tid": "2026-11-09T09:55:40+00:00",
+        "titel": "ig news weeks like elections or fed meetings: how do you tell what's already priced in for btc?",
         "symboler": [
           "BTC/USD"
         ],
@@ -291,9 +176,9 @@
         "sub": "CryptoCurrency"
       },
       {
-        "id": "t3_1xoix7i",
-        "tid": "2026-11-05T13:41:15+00:00",
-        "titel": "What will happen to BTC in the next 2 years?",
+        "id": "t3_1xrn21l",
+        "tid": "2026-11-09T09:12:20+00:00",
+        "titel": "$BTC Manip\u00fclasyon Stratejisi \ud83c\udfaf",
         "symboler": [
           "BTC/USD"
         ],
@@ -301,9 +186,9 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xoiw06",
-        "tid": "2026-11-05T13:39:43+00:00",
-        "titel": "Bitcoin future?",
+        "id": "t3_1xrma63",
+        "tid": "2026-11-09T08:21:34+00:00",
+        "titel": "For people who are unmarried, how easy would it be for your family members to gain access to your BTC after you die?",
         "symboler": [
           "BTC/USD"
         ],
@@ -311,9 +196,9 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xoiu5j",
-        "tid": "2026-11-05T13:37:23+00:00",
-        "titel": "Mercado Bitcoin wallets show post-hack transfers after $46M theft",
+        "id": "t3_1xrlxol",
+        "tid": "2026-11-09T08:00:39+00:00",
+        "titel": "Mentor Monday, November 09, 2026: Ask all your bitcoin questions!",
         "symboler": [
           "BTC/USD"
         ],
@@ -321,155 +206,181 @@
         "sub": "Bitcoin"
       },
       {
-        "id": "t3_1xohd9i",
-        "tid": "2026-11-05T12:26:23+00:00",
-        "titel": "My conversation with Claude about all things Ethereum, from Vitalik's vision to competing with Bitcoin.",
+        "id": "t3_1xrivqt",
+        "tid": "2026-11-09T04:59:27+00:00",
+        "titel": "In March 2012, hackers broke into the hosting company Linode and drained about 46,000 #Bitcoin from Bitcoinica and other",
         "symboler": [
-          "BTC/USD",
-          "ETH/USD"
+          "BTC/USD"
         ],
         "score": 0,
-        "sub": "CryptoCurrency"
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrild7",
+        "tid": "2026-11-09T04:43:36+00:00",
+        "titel": "A personal story about how I found bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xriac3",
+        "tid": "2026-11-09T04:26:38+00:00",
+        "titel": "BITCOIN\u2019S FUTURE",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrgewn",
+        "tid": "2026-11-09T02:48:10+00:00",
+        "titel": "The house has rewritten rules since 1913. Nobody's rewritten 21 million since 2009 (Bitcoin art)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrgdxw",
+        "tid": "2026-11-09T02:46:45+00:00",
+        "titel": "Where do I buy bitcoin and also have my own private keys ?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrekvu",
+        "tid": "2026-11-09T01:15:37+00:00",
+        "titel": "wouldnt be easier to have solutions to bitcoin such as Strike or maybe Paypal or any offchain apps that allow to send sa",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xre9i1",
+        "tid": "2026-11-09T01:00:07+00:00",
+        "titel": "Satoshi's Code Reopened: Someone Just Deciphered Bitcoin Puzzle Into Genesis Block Data",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrcqv5",
+        "tid": "2026-11-08T23:48:25+00:00",
+        "titel": "Am I crazy for thinking Bitcoin could benefit from an AI selloff?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Schiff roeser Bitcoin som den mest vaerdifulde af de tre, men det er gammel holdning og ingen ny information for kursen.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 76082.2745,
-        "udloeber": "2026-11-06T12:51:25.101084+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff siger ETH's vaerdi er lavere end prisen antyder, en negativ kommentar der kan skabe usikkerhed, men er kun en enkelt stemme.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 2242.2200000000003,
-        "udloeber": "2026-11-06T13:51:25.101084+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Altcoins med hoej regulatorisk eksponering reagerer typisk staerkere pa negative krypto-signaler.",
-        "tid": "2026-11-06T11:31:25.873684+00:00",
-        "pris_ved_nyhed": 90.27,
-        "udloeber": "2026-11-06T15:31:25.873684+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Generel krypto-usikkerhed kan paavirke LTC, men ingen direkte sammenhaeng.",
-        "tid": "2026-11-06T11:31:25.873684+00:00",
-        "pris_ved_nyhed": 52.845,
-        "udloeber": "2026-11-06T13:31:25.873684+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff kalder memecoins et 'litmus test' og stiller spoergsmaal ved fremtidig efterspoergsel, hvilket kan daempe spekulativ koeb i DOGE.",
-        "tid": "2026-11-06T11:51:25.101084+00:00",
-        "pris_ved_nyhed": 0.0725557,
-        "udloeber": "2026-11-06T13:51:25.101084+00:00"
-      }
-    },
-    "dag": "2026-11-06",
+    "signaler": {},
+    "dag": "2026-11-09",
     "kald_i_dag": 10,
-    "sidste_kald": "2026-11-06T11:51:25.101084+00:00",
+    "sidste_kald": "2026-11-09T14:52:34.617542+00:00",
     "set_ids": [
-      "62882663",
-      "62850799",
-      "62851870",
-      "62906225",
-      "62902639",
-      "62882518",
-      "62968804",
-      "62836190",
-      "62969811",
-      "62903974",
-      "62851139",
-      "62832701",
-      "62832505",
-      "62853988",
+      "63027750",
+      "62859713",
+      "63018066",
+      "63020476",
+      "63018357",
+      "62914738",
+      "62808089",
+      "62853100",
       "62880252",
-      "62965758",
-      "62850423",
-      "62824244",
-      "62965453",
-      "62833671",
-      "62834251",
-      "62942835",
-      "62822395",
+      "62854452",
+      "63018185",
+      "62833774",
+      "62906643",
+      "62829579",
+      "62861114",
       "62839577",
       "62822561",
-      "62846923",
+      "62822395",
+      "62851870",
+      "62882663",
       "62942781",
-      "62853100",
-      "62832703",
       "62902458",
+      "62902639",
       "62941001",
-      "62940684",
-      "62807399",
-      "62833774",
+      "63024253",
+      "63023650",
       "62968424",
-      "62835273",
-      "62920255",
-      "62939997",
-      "62838223",
+      "62965758",
       "62966183",
-      "62918639",
-      "62906643",
-      "62859713",
-      "62966994",
-      "62967571",
-      "62902868",
-      "62947606",
-      "62886875",
+      "62807399",
       "62956561",
-      "62829579",
+      "63020588",
+      "62918639",
+      "63021484",
+      "62853988",
+      "62939997",
+      "62834251",
+      "63031374",
       "62839772",
-      "62861114",
-      "62808089",
-      "62834276",
+      "62836190",
+      "62882518",
+      "62832703",
+      "63021778",
       "62807858",
-      "62914738",
-      "62854452",
+      "63002661",
+      "62947606",
+      "62965453",
+      "62886875",
+      "62851139",
       "62831862",
+      "62940684",
+      "62906225",
+      "62920255",
+      "62838223",
+      "62833671",
+      "62967571",
+      "62824244",
+      "62832701",
+      "63022966",
+      "62834276",
+      "62832505",
+      "62966994",
+      "63004724",
+      "63022386",
+      "62969811",
+      "62968804",
+      "62902868",
+      "62850423",
+      "63021629",
       "62833555",
+      "62850799",
+      "62903974",
+      "62970490",
       "62835163",
-      "62970490"
+      "62835273",
+      "62846923",
+      "62942835",
+      "63034915"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 76031.86,
+  "last_btc_price": 75130.75,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
-  "marked": {}
+  "marked": {},
+  "marked_trend": null
 }

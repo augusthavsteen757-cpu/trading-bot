@@ -1,41 +1,42 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 13.10** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 00.48** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.992 USD  ·  **I alt:** -8 USD (-0.01 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 6/11 13.10
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 00.48
 
 **Ejer nu:** intet
 
-**Lukkede handler:** 14 i alt, 6 med gevinst, samlet +32 USD
+**Lukkede handler:** 23 i alt, 7 med gevinst, samlet -596 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
-| ❌ AMZN | 5/11 16.49 | -45 USD | stop ramt (Alpaca) |
-| ❌ NVDA | 5/11 15.56 | -39 USD | stop ramt (Alpaca) |
-| ✅ META | 5/11 15.40 | +115 USD | stop ramt (Alpaca) |
-| ❌ AAPL | 4/11 17.28 | -7 USD | tidsstop (60 min uden gevinst) |
-| ✅ GOOGL | 4/11 17.18 | +0 USD | stop ramt (Alpaca) |
+| ✅ AAPL | 6/11 21.52 | +1 USD | dagens slut (ORB) |
+| ❌ MSFT | 6/11 18.36 | -17 USD | stop ramt (Alpaca) |
+| ❌ META | 6/11 17.56 | -49 USD | tidsstop (60 min uden gevinst) |
+| ❌ AMZN | 6/11 17.56 | -12 USD | tidsstop (60 min uden gevinst) |
+| ❌ SPY | 6/11 17.01 | -9 USD | tidsstop (60 min uden gevinst) |
 
-## 🔴 Small-botten (10 små aktier)
+## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 99.424 USD  ·  **I alt:** -576 USD (-0.58 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 5/11 21.55
+**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 9/11 21.58
 
 **Ejer nu:** intet
 
-**Lukkede handler:** 4 i alt, 1 med gevinst, samlet -542 USD
+**Lukkede handler:** 10 i alt, 4 med gevinst, samlet +156 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
-| ❌ RGTI | 4/11 16.40 | -238 USD | stop ramt (Alpaca) |
-| ✅ LUNR | 3/11 20.23 | +5 USD | stop ramt (Alpaca) |
-| ❌ UMAC | 3/11 16.52 | -203 USD | stop ramt (Alpaca) |
-| ❌ ACHR | 3/11 16.22 | -105 USD | stop ramt (Alpaca) |
+| ✅ ACHR | 6/11 21.52 | +708 USD | dagens slut (ORB) |
+| ❌ LUNR | 6/11 17.17 | -1 USD | tidsstop (60 min uden gevinst) |
+| ❌ RGTI | 6/11 16.37 | -6 USD | stop ramt (Alpaca) |
+| ✅ ONDS | 6/11 16.37 | +10 USD | stop ramt (Alpaca) |
+| ❌ QUBT | 6/11 16.27 | -25 USD | stop ramt (Alpaca) |
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 6/11 13.06
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 00.43
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -49,32 +50,37 @@ Opdateres af sig selv hvert 5. minut. Sidst: **6/11 kl. 13.10** (dansk tid). Kun
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** -0.05 %  ·  sidst opdateret 5/11 21.55
+**Konto:** 98.658 USD  ·  **I alt:** -1.342 USD (-1.34 %)  ·  **I dag:** -0.27 %  ·  sidst opdateret 9/11 21.58
 
-**Ejer nu:** intet
+**Ejer nu:**
 
-**Lukkede handler:** 2 i alt, 0 med gevinst, samlet -820 USD
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| AMZN call 272.5 (udl. 27/11) | 1 | 8.40 | 9/11 16.03 |
+
+**Lukkede handler:** 3 i alt, 0 med gevinst, samlet -1.070 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ AAPL put 342.5 (udl. 20/11) | 6/11 16.51 | -250 USD | trenden vendte (op) |
 | ❌ AMZN call 272.5 (udl. 20/11) | 5/11 15.55 | -300 USD | stop -42% |
 | ❌ SPY put 757 (udl. 20/11) | 4/11 15.32 | -520 USD | stop -43% |
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 103.459 USD  ·  **I alt:** +3.459 USD (+3.46 %)  ·  **I dag:** +3.01 %  ·  sidst opdateret 5/11 22.00
+**Konto:** 100.178 USD  ·  **I alt:** +178 USD (+0.18 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 9/11 21.58
 
-**Selv-tjek:** auto-tjek: seneste 8 handler +3465 USD (4 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +78 USD (2 vundet), fuld fart
 
 **Ejer nu:** intet
 
-**Lukkede handler:** 8 i alt, 4 med gevinst, samlet +3.465 USD
+**Lukkede handler:** 16 i alt, 4 med gevinst, samlet +524 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
-| ✅ SOXS | 5/11 21.54 | +2.350 USD | dagens slut (ORB) |
-| ✅ SNDQ | 5/11 17.29 | +668 USD | raket vendt (under dagens snitpris) |
-| ✅ NFLX | 4/11 21.52 | +289 USD | dagens slut (ORB) |
-| ✅ MSTR | 4/11 21.52 | +231 USD | dagens slut (ORB) |
-| ❌ PLTR | 4/11 17.22 | -0 USD | stop ramt (Alpaca) |
+| ❌ SHOP | 6/11 21.07 | -0 USD | tidsstop (90 min uden gevinst) |
+| ❌ RIVN | 6/11 18.36 | -11 USD | tidsstop (90 min uden gevinst) |
+| ❌ META | 6/11 18.21 | -245 USD | tidsstop (90 min uden gevinst) |
+| ❌ PLTR | 6/11 17.46 | -192 USD | tidsstop (90 min uden gevinst) |
+| ❌ HOOD | 6/11 16.31 | -149 USD | stop ramt (Alpaca) |
 
