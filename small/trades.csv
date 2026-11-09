@@ -3222,3 +3222,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-09 15:23,LUNR,11.46,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,97802.2,-2.198,0.0,-0.139,0.2581,
 2026-11-09 15:23,ACHR,4.565,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,97802.2,-2.198,0.0,-0.139,0.2581,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
 2026-11-09 15:23,OUST,36.45,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,97802.2,-2.198,0.0,-0.139,0.2581,
+2026-11-09 15:28,ONDS,5.845,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,RCAT,4.295,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,UMAC,12.97,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 15:28,BBAI,2.235,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,SOUN,4.065,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,QUBT,6.565,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 15:28,RGTI,12.48,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,LUNR,11.73,high_vol,breakout,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
+2026-11-09 15:28,ACHR,4.605,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 15:28,OUST,36.67,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98816.57,-1.183,0.0,-0.139,0.2581,
