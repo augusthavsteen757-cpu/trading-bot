@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74898.3355,
+  "last_btc_price": 75063.541,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2242,7 +2242,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T15:02:40.423669+00:00",
+    "sidst_hentet": "2026-11-09T15:22:35.122112+00:00",
     "opslag": [
       {
         "id": "t3_1xrrjrt",
@@ -2530,8 +2530,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.97,
-    "snitpris": 671.13,
+    "pris": 674.68,
+    "snitpris": 671.33,
     "svag": false
   },
   "marked_trend": -1
