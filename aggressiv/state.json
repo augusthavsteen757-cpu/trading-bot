@@ -169,16 +169,16 @@
       "2026-11-09 17:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 9 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 ": [
-      "2026-11-09 18:37: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:42: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
       "2026-11-09 18:47: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
-      "2026-11-09 18:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
+      "2026-11-09 18:52: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars",
+      "2026-11-09 18:57: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 10 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for MF: 207 dag-bars, 63 t": [
-      "2026-11-09 18:37: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
       "2026-11-09 18:42: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
       "2026-11-09 18:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
-      "2026-11-09 18:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars"
+      "2026-11-09 18:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars",
+      "2026-11-09 18:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 63 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -378,20 +378,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "HOOD": {
-        "kilde": "nyhed",
-        "symbol": "HOOD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Robinhood udvider adgang til IPO'er for UK-brugere uden kommission. Det styrker v\u00e6kstfort\u00e6llingen, men er morgennyhed fra 09:02 og delvist prisat.",
-        "tid": "2026-11-09T14:57:15.768507+00:00",
-        "pris_ved_nyhed": 83.93,
-        "udloeber": "2026-11-09T18:57:15.768507+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-09",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-09T16:27:13.080205+00:00",
@@ -2305,8 +2292,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.31,
-    "snitpris": 674.45,
+    "pris": 677.84,
+    "snitpris": 674.47,
     "svag": false
   },
   "marked_trend": -1
