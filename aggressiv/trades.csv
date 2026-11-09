@@ -4325,3 +4325,25 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-09 16:12,SHOP,150.59,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
 2026-11-09 16:12,UBER,69.53,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
 2026-11-09 16:12,RBLX,51.24,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,CKX,,,,,,,,,,,,,,,,,FEJL (RuntimeError),,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+2026-11-09 16:17,NWGL,3.63,trend_op,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 16:17,NVDA,176.44,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,TSLA,378.5,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 16:17,AMD,503.15,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,PLTR,170.19,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,COIN,138.6,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,MSTR,127.81,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,META,640.03,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,AVGO,320.25,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,NFLX,63.5,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,HOOD,84.59,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,SMCI,29.34,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,MARA,6.635,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,RIOT,17.59,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,SOFI,16.84,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,RIVN,13.96,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 16:17,ARM,187.51,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,CRWD,223.37,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,SHOP,150.35,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-09 16:17,UBER,69.65,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,
+2026-11-09 16:17,RBLX,51.38,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100177.75,0.178,100000.0,0.0,0.0,-4.996,0.2786,

@@ -148,7 +148,8 @@
     "teknisk fejl: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 t": [
       "2026-11-09 16:02: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
       "2026-11-09 16:07: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
-      "2026-11-09 16:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
+      "2026-11-09 16:12: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars",
+      "2026-11-09 16:17: CKX: RuntimeError: For lidt data for CKX: 207 dag-bars, 8 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2317,7 +2318,7 @@
       "CKX",
       "NWGL"
     ],
-    "sidst": "2026-11-09T16:02:14.723845+00:00",
+    "sidst": "2026-11-09T16:17:16.598094+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2335,8 +2336,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.83,
-    "snitpris": 672.97,
+    "pris": 676.07,
+    "snitpris": 673.04,
     "svag": false
   },
   "marked_trend": -1
