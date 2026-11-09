@@ -61,7 +61,7 @@
       "last_review_price": 10.58
     },
     "LUNR": {
-      "last_entry_eval": "2026-11-09T14:58:13.159529+00:00",
+      "last_entry_eval": "2026-11-09T15:58:15.019810+00:00",
       "last_entry_setups": [
         "breakout"
       ],
@@ -105,16 +105,16 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.264043,
+  "budget_used": 0.270324,
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.030997199999999996,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.0372783,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-09",
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-09T15:43:04.547224+00:00",
+    "sidst_hentet": "2026-11-09T15:58:05.019892+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -214,7 +214,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.955,
+  "last_btc_price": 5.975,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1852,8 +1852,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.35,
-    "snitpris": 278.68,
+    "pris": 280.58,
+    "snitpris": 278.73,
     "svag": false
   },
   "marked_trend": -1
