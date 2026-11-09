@@ -121,18 +121,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ACHR": {
-        "kilde": "nyhed",
-        "symbol": "ACHR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigning op til regnskab er ventet og delvist indregnet. Efter lukning kan regnskabet give store udsving i begge retninger.",
-        "tid": "2026-11-09T17:43:04.770836+00:00",
-        "pris_ved_nyhed": 4.645,
-        "udloeber": "2026-11-09T19:43:04.770836+00:00"
-      },
       "ONDS": {
         "kilde": "nyhed",
         "symbol": "ONDS",
@@ -196,7 +184,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 6.045,
+  "last_btc_price": 6.035,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1834,8 +1822,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.21,
-    "snitpris": 280.19,
+    "pris": 283.25,
+    "snitpris": 280.43,
     "svag": false
   },
   "marked_trend": -1
