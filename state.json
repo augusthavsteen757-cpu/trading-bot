@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74822.8,
+  "last_btc_price": 74872.25899999999,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kursfald under 75.000 med ETF-udstr\u00f8mning og likvidationer; faldet er sket, men momentum kan forts\u00e6tte kort.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 74624.35500000001,
-        "udloeber": "2026-11-09T21:03:12.284258+00:00"
-      },
       "QQQ": {
         "kilde": "nyhed",
         "symbol": "QQQ",
@@ -1850,18 +1838,6 @@
         "pris_ved_nyhed": 290.61,
         "udloeber": "2026-11-09T22:03:12.284258+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Robotaxi-udvidelse og solarfabrik er positive, men ventede led i kendt strategi; begr\u00e6nset overraskelse.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 378.43,
-        "udloeber": "2026-11-09T21:03:12.284258+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1885,30 +1861,6 @@
         "tid": "2026-11-09T18:27:34.144838+00:00",
         "pris_ved_nyhed": 180.18,
         "udloeber": "2026-11-09T21:27:34.144838+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Smittes af BTC-fald og ETF-pres; forventet fortsat svaghed kort sigt.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 2123.4030000000002,
-        "udloeber": "2026-11-09T21:03:12.284258+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoin-svaghed f\u00f8lger BTC; mindre direkte eksponering men samme risikosentiment.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 86.5752,
-        "udloeber": "2026-11-09T21:03:12.284258+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -2219,8 +2171,68 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T20:48:10.283230+00:00",
+    "sidst_hentet": "2026-11-09T21:08:05.186637+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrxe0j",
+        "tid": "2026-11-09T17:10:35+00:00",
+        "titel": "Why Bitcoin Is The Only Money AI Can't Control (Here's Why)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrvem5",
+        "tid": "2026-11-09T15:58:34+00:00",
+        "titel": "The Office: Michael Puts Dunder Mifflin on a Bitcoin Standard (Part 1)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrv67s",
+        "tid": "2026-11-09T15:50:02+00:00",
+        "titel": "Bitcoin to Paypal exchange for small amounts without KYC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrv3aw",
+        "tid": "2026-11-09T15:47:14+00:00",
+        "titel": "LNbits urges Bitcoin Lightning server operators to shut down immediately",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xru6qh",
+        "tid": "2026-11-09T15:12:28+00:00",
+        "titel": "A Finnish home swapped district heating for a Bitcoin miner",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xrsj4y",
+        "tid": "2026-11-09T14:06:29+00:00",
+        "titel": "How fake randomness stole $130m in Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xrrjrt",
         "tid": "2026-11-09T13:23:39+00:00",
@@ -2410,99 +2422,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xr8jz3",
-        "tid": "2026-11-08T20:41:18+00:00",
-        "titel": "Need a tiny amount of SOL (0.0005) for gas fees to connect my wallet",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xr88kx",
-        "tid": "2026-11-08T20:27:36+00:00",
-        "titel": "I built X39 Mining, an independent Bitcoin solo pool with a public dashboard",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xr2wjq",
-        "tid": "2026-11-08T16:49:49+00:00",
-        "titel": "Quantum Resistant BTC-transactions Without New Cryptography?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xr1yol",
-        "tid": "2026-11-08T16:10:25+00:00",
-        "titel": "These Finland homes get free heat from bitcoin miners",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xr0s1q",
-        "tid": "2026-11-08T15:18:23+00:00",
-        "titel": "Solana Ecosystem News - November 8-2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xr0rft",
-        "tid": "2026-11-08T15:17:36+00:00",
-        "titel": "Solana Ecosystem News - November 8-2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xr0i8h",
-        "tid": "2026-11-08T15:06:09+00:00",
-        "titel": "I made a game where you retire on Bitcoin in any month since 2013. How long can you last?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xr0g68",
-        "tid": "2026-11-08T15:03:40+00:00",
-        "titel": "I made a game where you retire on Bitcoin in any month since 2013. How long do you last?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqzzbn",
-        "tid": "2026-11-08T14:42:50+00:00",
-        "titel": "BlackRock's IBIT holders sold 56,800 BTC near $63K in June, then bought 78,000 back near $77,600. Their average cost is ",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
