@@ -133,30 +133,6 @@
         "pris_ved_nyhed": 12.065000000000001,
         "udloeber": "2026-11-09T18:43:04.328408+00:00"
       },
-      "QUBT": {
-        "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Kvantesektor-smitte: RGTI-optr\u00e6k og regnskabsfokus kan tr\u00e6kke QUBT med, da de handles som samlet kvantegruppe.",
-        "tid": "2026-11-09T16:23:07.626691+00:00",
-        "pris_ved_nyhed": 6.6850000000000005,
-        "udloeber": "2026-11-09T18:23:07.626691+00:00"
-      },
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kursen stiger allerede inden Q3-regnskabet tirsdag; forventninger er delvist indregnet, men regnskabsreaktion kan forst\u00e6rke bev\u00e6gelsen.",
-        "tid": "2026-11-09T16:23:07.626691+00:00",
-        "pris_ved_nyhed": 12.715,
-        "udloeber": "2026-11-09T18:23:07.626691+00:00"
-      },
       "ACHR": {
         "kilde": "nyhed",
         "symbol": "ACHR",
@@ -1857,8 +1833,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 281.92,
-    "snitpris": 279.71,
+    "pris": 281.85,
+    "snitpris": 279.74,
     "svag": false
   },
   "marked_trend": -1
