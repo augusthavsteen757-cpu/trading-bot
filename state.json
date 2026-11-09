@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74071.92850000001,
+  "last_btc_price": 74067.145,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2168,8 +2168,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T09:56:57.151615+00:00",
+    "sidst_hentet": "2026-11-09T10:16:57.277215+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrnymk",
+        "tid": "2026-11-09T10:09:59+00:00",
+        "titel": "Satoshi Disabled 15 Bitcoin Commands in 2010. Sixteen Years Later, Developers Want Them Back.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xrnxu3",
+        "tid": "2026-11-09T10:08:33+00:00",
+        "titel": "Satoshi Disabled 15 Bitcoin Commands in 2010. Sixteen Years Later, Developers Want Them Back.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xrnq9u",
         "tid": "2026-11-09T09:55:40+00:00",
@@ -2409,19 +2429,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xqv6db",
-        "tid": "2026-11-08T10:13:11+00:00",
-        "titel": "Would the people in Paraguay be better off if they had their money in bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
