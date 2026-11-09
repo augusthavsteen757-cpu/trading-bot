@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74862.1345,
+  "last_btc_price": 74922.65,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1801,32 +1801,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "NHTSA-unders\u00f8gelse af Waymo kan give negativ reaktion for Alphabets autonomi-ambitioner.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 290.61,
-        "udloeber": "2026-11-09T22:03:12.284258+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "JPMorgan-optagelse paa Analyst Focus List med AI-annoncemomentum kan give positiv kursreaktion; relativt ny information.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 641.78,
-        "udloeber": "2026-11-09T22:03:12.284258+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-09",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-09T19:03:12.284258+00:00",
