@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74742.2065,
+  "last_btc_price": 74808.45,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1814,18 +1814,6 @@
         "pris_ved_nyhed": 74624.35500000001,
         "udloeber": "2026-11-09T21:03:12.284258+00:00"
       },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Affairrelateret kursfald er allerede sket; nyheden om Huang's formue er ren opf\u00f8lgning.",
-        "tid": "2026-11-09T19:03:12.284258+00:00",
-        "pris_ved_nyhed": 176.70999999999998,
-        "udloeber": "2026-11-09T20:03:12.284258+00:00"
-      },
       "AMD": {
         "kilde": "nyhed",
         "symbol": "AMD",
@@ -2543,8 +2531,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.08,
-    "snitpris": 675.18,
+    "pris": 679.06,
+    "snitpris": 675.2,
     "svag": false
   },
   "marked_trend": -1
