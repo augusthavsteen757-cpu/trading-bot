@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.906788,
+  "budget_used": 0.922556,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -37,8 +37,8 @@
     ]
   },
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 12,
-  "ai_spend_today": 0.10056439999999996,
+  "ai_rounds_today": 14,
+  "ai_spend_today": 0.11633239999999996,
   "eq_day": "2026-11-09",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
@@ -75,7 +75,7 @@
       "last_review_price": 661.3199999999999
     },
     "NVDA": {
-      "last_entry_eval": "2026-11-09T14:47:49.052804+00:00",
+      "last_entry_eval": "2026-11-09T15:47:50.263012+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
@@ -110,7 +110,7 @@
       "last_review_price": 255.96
     },
     "META": {
-      "last_entry_eval": "2026-11-09T14:42:54.023726+00:00",
+      "last_entry_eval": "2026-11-09T15:48:08.546012+00:00",
       "last_entry_setups": [
         "breakout"
       ],
@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75309.5585,
+  "last_btc_price": 75406.975,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2531,8 +2531,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.49,
-    "snitpris": 671.78,
+    "pris": 675.04,
+    "snitpris": 671.89,
     "svag": false
   },
   "marked_trend": -1
