@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75236.35,
+  "last_btc_price": 75228.6,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2110,7 +2110,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T23:38:05.462803+00:00",
+    "sidst_hentet": "2026-11-09T23:58:05.656829+00:00",
     "opslag": [
       {
         "id": "t3_1xs7gu9",
@@ -2351,19 +2351,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrcqv5",
-        "tid": "2026-11-08T23:48:25+00:00",
-        "titel": "Am I crazy for thinking Bitcoin could benefit from an AI selloff?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
