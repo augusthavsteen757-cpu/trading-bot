@@ -300,18 +300,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Samme rotation fra krypto til guld rammer ETH. Nedgangen er omtalt som sket i sidste uge, saa meget kan vaere prissat.",
-        "tid": "2026-11-09T09:27:02.399067+00:00",
-        "pris_ved_nyhed": 2104.3475,
-        "udloeber": "2026-11-09T12:27:02.399067+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -409,7 +397,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74579.1,
+  "last_btc_price": 74614.17,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
