@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74812.95449999999,
+  "last_btc_price": 74789.2235,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1825,18 +1825,6 @@
         "tid": "2026-11-09T19:03:12.284258+00:00",
         "pris_ved_nyhed": 641.78,
         "udloeber": "2026-11-09T22:03:12.284258+00:00"
-      },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Samme sammenh\u00e6ng som EQIX: udsigt til fortsat datacenter-udbygning st\u00f8tter DLR's v\u00e6kst.",
-        "tid": "2026-11-09T18:27:34.144838+00:00",
-        "pris_ved_nyhed": 180.18,
-        "udloeber": "2026-11-09T21:27:34.144838+00:00"
       }
     },
     "dag": "2026-11-09",
