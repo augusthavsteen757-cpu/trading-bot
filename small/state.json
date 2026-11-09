@@ -115,7 +115,7 @@
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-09T17:48:04.277690+00:00",
+    "sidst_hentet": "2026-11-09T18:03:06.055497+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -168,18 +168,6 @@
         "tid": "2026-11-09T17:43:04.770836+00:00",
         "pris_ved_nyhed": 4.645,
         "udloeber": "2026-11-09T19:43:04.770836+00:00"
-      },
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften om markedsrally og CNH/Planet-gevinster naevner ikke ONDS direkte; generel markedsstemning, men ingen konkret ONDS-katalysator. Gevinsterne er sket i dag, sandsynligvis allerede i kursen.",
-        "tid": "2026-11-09T16:58:06.826907+00:00",
-        "pris_ved_nyhed": 6.035,
-        "udloeber": "2026-11-09T17:58:06.826907+00:00"
       }
     },
     "dag": "2026-11-09",
@@ -231,7 +219,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.975,
+  "last_btc_price": 5.995,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1869,8 +1857,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 281.62,
-    "snitpris": 279.59,
+    "pris": 281.68,
+    "snitpris": 279.61,
     "svag": false
   },
   "marked_trend": -1
