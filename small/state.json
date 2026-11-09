@@ -30,15 +30,14 @@
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-06T16:37:12.304907+00:00",
+      "last_entry_eval": "2026-11-09T14:38:07.712475+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-03T14:33:45.901963+00:00",
+      "last_entry_eval": "2026-11-09T14:38:21.631201+00:00",
       "last_entry_setups": [
-        "nyhed_op",
         "range_bund"
       ],
       "orb_day": "2026-11-04"
@@ -106,10 +105,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.239616,
+  "budget_used": 0.25163,
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 1,
-  "ai_spend_today": 0.0065696,
+  "ai_rounds_today": 3,
+  "ai_spend_today": 0.0185836,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-09",
   "day_start_equity": 100034.26,
@@ -201,7 +200,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.415,
+  "last_btc_price": 5.465,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
