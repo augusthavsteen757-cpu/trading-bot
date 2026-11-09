@@ -61,6 +61,7 @@ jobs:
           # 10 ekstra store, livlige aktier (6. nov): flere chancer for at finde noget godt. Laegges oven i STOCKS.
           EXTRA_STOCKS: ${{ vars.AGGRESSIV_EXTRA_STOCKS || 'SMCI,MARA,RIOT,SOFI,RIVN,ARM,CRWD,SHOP,UBER,RBLX' }}
           MARKET_FILTER: ${{ vars.MARKET_FILTER_AGGRESSIV || 'QQQ' }}  # handl med markedet: ingen nye aktiekoeb naar QQQ er under dagens snitpris ('none' = slaa fra)
+          ORB_TREND_FILTER: ${{ vars.ORB_TREND_FILTER_AGGRESSIV || 'NONE' }}  # 9. nov: SPY-trendfilteret (PR #51) slaaet fra her; aggressiv har allerede QQQ-filteret ovenfor
           # --- Det der goer botten aggressiv (hoved-botten i parentes) ---
           RISK_PER_TRADE_PCT: ${{ vars.AGGRESSIV_RISK_PER_TRADE_PCT || '0.025' }}     # tab ved stop max 2,5 % af kontoen (0,5 %)
           MAX_POSITION_PCT: ${{ vars.AGGRESSIV_MAX_POSITION_PCT || '0.40' }}          # op til 40 % i en aktie (15 %)
