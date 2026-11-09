@@ -150,8 +150,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T14:47:14.301663+00:00",
+    "sidst_hentet": "2026-11-09T15:02:18.257513+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrtr5l",
+        "tid": "2026-11-09T14:56:02+00:00",
+        "titel": "$55,000 gain in 55 seconds flipping $NVDA calls at open",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xrt5lp",
         "tid": "2026-11-09T14:32:07+00:00",
@@ -223,7 +233,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 7 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 8 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2287,8 +2297,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 672.43,
-    "snitpris": 669.56,
+    "pris": 673.3,
+    "snitpris": 669.89,
     "svag": false
   },
   "marked_trend": -1
