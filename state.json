@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 0.922931,
+  "budget_used": 0.938535,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -37,8 +37,8 @@
     ]
   },
   "ai_day": "2026-11-09",
-  "ai_rounds_today": 14,
-  "ai_spend_today": 0.11670739999999996,
+  "ai_rounds_today": 16,
+  "ai_spend_today": 0.13231169999999998,
   "eq_day": "2026-11-09",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
@@ -119,18 +119,18 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-09T15:03:23.943303+00:00",
+      "last_entry_eval": "2026-11-09T16:03:06.462328+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "nyhed_op",
+        "trend_pullback"
       ],
       "orb_day": "2026-11-04",
       "last_hold_review": "2026-11-04T15:04:03.880596+00:00",
       "last_review_price": 294.01
     },
     "AMD": {
-      "last_entry_eval": "2026-11-09T15:28:01.273790+00:00",
+      "last_entry_eval": "2026-11-09T16:03:18.935756+00:00",
       "last_entry_setups": [
-        "breakout",
         "nyhed_op"
       ],
       "orb_day": "2026-11-06",
@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75445.1335,
+  "last_btc_price": 75393.3945,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2531,8 +2531,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.0,
-    "snitpris": 672.35,
+    "pris": 678.38,
+    "snitpris": 672.61,
     "svag": false
   },
   "marked_trend": -1
