@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74118.5,
+  "last_btc_price": 74204.98999999999,
   "earnings_cache": {
     "2026-11-01": [],
     "2026-11-02": [
@@ -2168,8 +2168,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-09T09:36:57.077768+00:00",
+    "sidst_hentet": "2026-11-09T09:56:57.151615+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrnq9u",
+        "tid": "2026-11-09T09:55:40+00:00",
+        "titel": "ig news weeks like elections or fed meetings: how do you tell what's already priced in for btc?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xrn21l",
         "tid": "2026-11-09T09:12:20+00:00",
@@ -2411,7 +2421,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
