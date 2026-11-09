@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-09T01:21:41.401780+00:00",
+    "sidst_hentet": "2026-11-09T01:41:41.123014+00:00",
     "opslag": [
+      {
+        "id": "t3_1xrekvu",
+        "tid": "2026-11-09T01:15:37+00:00",
+        "titel": "wouldnt be easier to have solutions to bitcoin such as Strike or maybe Paypal or any offchain apps that allow to send sa",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xre9i1",
         "tid": "2026-11-09T01:00:07+00:00",
@@ -186,7 +196,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -267,7 +277,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74724.095,
+  "last_btc_price": 74932.138,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
