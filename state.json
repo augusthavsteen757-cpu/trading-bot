@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74808.45,
+  "last_btc_price": 74839.76699999999,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1814,18 +1814,6 @@
         "pris_ved_nyhed": 74624.35500000001,
         "udloeber": "2026-11-09T21:03:12.284258+00:00"
       },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD f\u00f8lger chip-rebounden t\u00e6t og er ikke ramt af Nvidia-proben. Relativ styrke mod NVDA kan give en kortvarig opadg\u00e5ende bev\u00e6gelse.",
-        "tid": "2026-11-09T18:12:34.429381+00:00",
-        "pris_ved_nyhed": 504.78499999999997,
-        "udloeber": "2026-11-09T20:12:34.429381+00:00"
-      },
       "QQQ": {
         "kilde": "nyhed",
         "symbol": "QQQ",
@@ -2531,8 +2519,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.06,
-    "snitpris": 675.2,
+    "pris": 679.38,
+    "snitpris": 675.23,
     "svag": false
   },
   "marked_trend": -1
