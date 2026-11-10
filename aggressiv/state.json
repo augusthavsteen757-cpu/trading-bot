@@ -326,7 +326,8 @@
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68": [
       "2026-11-10 20:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
       "2026-11-10 20:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
-      "2026-11-10 20:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
+      "2026-11-10 20:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
+      "2026-11-10 20:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -340,7 +341,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T20:01:03.419698+00:00",
+    "sidst_hentet": "2026-11-10T20:16:03.499888+00:00",
     "opslag": [
       {
         "id": "t3_1xswibo",
@@ -2139,8 +2140,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 672.22,
-    "snitpris": 673.53,
+    "pris": 673.03,
+    "snitpris": 673.52,
     "svag": true
   },
   "marked_trend": null
