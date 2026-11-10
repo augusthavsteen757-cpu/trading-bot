@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 19:25: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 19:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 19:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 19:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 19:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -335,8 +335,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T19:30:59.824807+00:00",
+    "sidst_hentet": "2026-11-10T19:46:01.208133+00:00",
     "opslag": [
+      {
+        "id": "t3_1xswibo",
+        "tid": "2026-11-10T19:40:42+00:00",
+        "titel": "30k NVDA YOLO",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xsw1s3",
         "tid": "2026-11-10T19:23:02+00:00",
@@ -416,29 +426,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xs1jqu",
-        "tid": "2026-11-09T19:42:29+00:00",
-        "titel": "\"I told him not to tap it.\" - Dr. Lisa Su, CEO, AMD",
-        "symboler": [
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xs1a4q",
-        "tid": "2026-11-09T19:32:38+00:00",
-        "titel": "Matt Levine: Is the Nvidia Affair Securities Fraud?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 10 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 9 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2167,8 +2157,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.41,
-    "snitpris": 673.61,
+    "pris": 672.1,
+    "snitpris": 673.59,
     "svag": true
   },
   "marked_trend": null
