@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73466.60500000001,
+  "last_btc_price": 73361.66,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1589,30 +1589,6 @@
         "pris_ved_nyhed": 167.735,
         "udloeber": "2026-11-10T20:14:57.938108+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Generel whale-options-liste med mange aktier; ingen konkret MSFT-driver.",
-        "tid": "2026-11-10T17:45:02.020241+00:00",
-        "pris_ved_nyhed": 528.18,
-        "udloeber": "2026-11-10T18:45:02.020241+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Generel whale-options-liste uden konkret nyhed; ingen klar retning for META.",
-        "tid": "2026-11-10T17:45:02.020241+00:00",
-        "pris_ved_nyhed": 639.54,
-        "udloeber": "2026-11-10T18:45:02.020241+00:00"
-      },
       "AMD": {
         "kilde": "nyhed",
         "symbol": "AMD",
@@ -2096,8 +2072,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 670.29,
-    "snitpris": 673.8,
+    "pris": 670.63,
+    "snitpris": 673.79,
     "svag": true
   },
   "marked_trend": -1
