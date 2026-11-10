@@ -325,7 +325,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68": [
       "2026-11-10 20:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
-      "2026-11-10 20:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
+      "2026-11-10 20:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
+      "2026-11-10 20:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -425,20 +426,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 8 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "JP Morgan fastholder overweight og haever kursmaal til 28; analytikeropgradering kan give koeb i de kommende timer, men effekten er ofte begr\u00e6nset.",
-        "tid": "2026-11-10T17:06:39.002529+00:00",
-        "pris_ved_nyhed": 17.34,
-        "udloeber": "2026-11-10T20:06:39.002529+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-10T17:06:39.002529+00:00",
@@ -2151,8 +2139,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.59,
-    "snitpris": 673.56,
+    "pris": 672.22,
+    "snitpris": 673.53,
     "svag": true
   },
   "marked_trend": null
