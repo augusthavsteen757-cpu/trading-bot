@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 17:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 17:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 17:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -464,18 +464,6 @@
         "pris_ved_nyhed": 323.995,
         "udloeber": "2026-11-10T18:56:35.124696+00:00"
       },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Fubon-d\u00e6kning med Buy og kursmaal 200 er en mindre positiv analytikerkommentar, og den er gammel nok til at vaere delvist indpreget.",
-        "tid": "2026-11-10T15:26:04.729703+00:00",
-        "pris_ved_nyhed": 167.6,
-        "udloeber": "2026-11-10T17:26:04.729703+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -511,18 +499,6 @@
         "tid": "2026-11-10T14:46:02.919897+00:00",
         "pris_ved_nyhed": 517.755,
         "udloeber": "2026-11-10T17:46:02.919897+00:00"
-      },
-      "SECZ": {
-        "kilde": "nyhed",
-        "symbol": "SECZ",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Revenue-beat, buyback og analytikeropjusteringer. Aktien steg 39%, s\u00e5 meget er allerede i prisen; momentum kan dog fortsaette kort tid.",
-        "tid": "2026-11-10T15:26:04.729703+00:00",
-        "pris_ved_nyhed": 9.795,
-        "udloeber": "2026-11-10T17:26:04.729703+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -2309,8 +2285,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.23,
-    "snitpris": 674.69,
+    "pris": 669.86,
+    "snitpris": 674.65,
     "svag": true
   },
   "marked_trend": null
