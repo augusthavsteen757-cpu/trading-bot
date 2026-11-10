@@ -20,7 +20,31 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "orb_day": "2026-11-06"
+      "orb_day": "2026-11-10",
+      "pos": {
+        "entry": 527.5899999999999,
+        "stop": 509.915,
+        "stop_initial": 509.915,
+        "high": 527.5899999999999,
+        "qty": 21.0,
+        "entry_tid": "2026-11-10 14:56",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 519.48, 'or_low': 500.35, 'sidste_luk': 525.18}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 68.6,
+          "adx_1h": 33.1,
+          "rel_volumen_1h": 1.81,
+          "afstand_modstand_atr": 0.09,
+          "atr_percentil_30d": 89.6
+        },
+        "target": 580.6149999999996,
+        "luk_foer_luk": true
+      }
     },
     "PLTR": {
       "last_entry_eval": "2026-11-06T14:36:27.964502+00:00",
@@ -64,7 +88,7 @@
         "entry": 326.1,
         "stop": 320.76,
         "stop_initial": 320.76,
-        "high": 326.1,
+        "high": 330.94,
         "qty": 122.0,
         "entry_tid": "2026-11-10 14:51",
         "setup": "orb",
@@ -139,7 +163,7 @@
         "entry": 226.8,
         "stop": 221.82999999999998,
         "stop_initial": 221.82999999999998,
-        "high": 226.8,
+        "high": 229.28,
         "qty": 176.0,
         "entry_tid": "2026-11-10 14:51",
         "setup": "orb",
@@ -268,10 +292,10 @@
       "2026-11-09 20:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64": [
-      "2026-11-10 14:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars",
       "2026-11-10 14:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars",
       "2026-11-10 14:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars",
-      "2026-11-10 14:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
+      "2026-11-10 14:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars",
+      "2026-11-10 14:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2292,7 +2316,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T14:46:01.929022+00:00",
+    "sidst": "2026-11-10T14:56:02.532458+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2320,8 +2344,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.51,
-    "snitpris": 673.38,
+    "pris": 676.05,
+    "snitpris": 673.7,
     "svag": false
   },
   "marked_trend": null
