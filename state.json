@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74611.5185,
+  "last_btc_price": 74599.9265,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2123,7 +2123,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T08:08:56.346006+00:00",
+    "sidst_hentet": "2026-11-10T08:28:56.026401+00:00",
     "opslag": [
       {
         "id": "t3_1xsgbm6",
@@ -2294,19 +2294,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrma63",
-        "tid": "2026-11-09T08:21:34+00:00",
-        "titel": "For people who are unmarried, how easy would it be for your family members to gain access to your BTC after you die?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
