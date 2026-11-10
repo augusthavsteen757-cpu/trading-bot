@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73317.833,
+  "last_btc_price": 73500.2855,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1565,30 +1565,6 @@
         "pris_ved_nyhed": 2017.6399999999999,
         "udloeber": "2026-11-10T21:10:00.318478+00:00"
       },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA er en stor v\u00e6gt i QQQ, s\u00e5 et fald i Nvidia kan tr\u00e6kke indekset lidt ned de n\u00e6ste timer.",
-        "tid": "2026-11-10T18:14:57.938108+00:00",
-        "pris_ved_nyhed": 669.13,
-        "udloeber": "2026-11-10T20:14:57.938108+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Eksportkontrol-bekymring om Kina rammer Nvidias partnere og kan smitte negativt til NVDA; overskriften viser SMCI-fald, og det er delvist allerede synligt i kurserne.",
-        "tid": "2026-11-10T18:14:57.938108+00:00",
-        "pris_ved_nyhed": 167.735,
-        "udloeber": "2026-11-10T20:14:57.938108+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1910,7 +1886,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T19:55:00.080834+00:00",
+    "sidst_hentet": "2026-11-10T20:15:00.903519+00:00",
     "opslag": [
       {
         "id": "t3_1xsnslb",
@@ -2048,7 +2024,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.59,
+    "pris": 673.02,
     "snitpris": 673.53,
     "svag": true
   },
