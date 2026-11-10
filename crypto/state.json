@@ -202,18 +202,6 @@
         "pris_ved_nyhed": 74238.70999999999,
         "udloeber": "2026-11-10T12:19:49.959939+00:00"
       },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme makro-effekt: haardere pengepolitik og Nasdaq-svaghed rammer ETH som risikoaktiv kryptokurs.",
-        "tid": "2026-11-10T09:59:50.326809+00:00",
-        "pris_ved_nyhed": 2102.286,
-        "udloeber": "2026-11-10T11:59:50.326809+00:00"
-      },
       "AVAX/USD": {
         "kilde": "nyhed",
         "symbol": "AVAX/USD",
@@ -340,7 +328,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74317.335,
+  "last_btc_price": 74260.522,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
