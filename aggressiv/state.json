@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 19:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 19:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 19:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 19:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 19:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:25: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -422,18 +422,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "NVIDIAs fokus paa robotaxi-software kan skabe sammenligning og spekulativ koeb i Tesla, som er t\u00e6t knyttet til autonomi-temaet. Indirekte og svag sammenh\u00e6ng.",
-        "tid": "2026-11-10T16:21:05.421459+00:00",
-        "pris_ved_nyhed": 376.65,
-        "udloeber": "2026-11-10T19:21:05.421459+00:00"
-      },
       "RIOT": {
         "kilde": "nyhed",
         "symbol": "RIOT",
@@ -2159,8 +2147,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.94,
-    "snitpris": 673.66,
+    "pris": 672.04,
+    "snitpris": 673.64,
     "svag": true
   },
   "marked_trend": null
