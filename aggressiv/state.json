@@ -360,7 +360,8 @@
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66": [
-      "2026-11-10 16:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
+      "2026-11-10 16:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
+      "2026-11-10 16:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2426,8 +2427,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.19,
-    "snitpris": 675.53,
+    "pris": 674.76,
+    "snitpris": 675.52,
     "svag": true
   },
   "marked_trend": null
