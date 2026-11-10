@@ -209,20 +209,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitcoin-reserve-nyheden kan smitte over paa den bredere krypto-stemning, men effekten paa ETH er svagere end paa BTC.",
-        "tid": "2026-11-10T13:35:24.454332+00:00",
-        "pris_ved_nyhed": 2059.0005,
-        "udloeber": "2026-11-10T16:35:24.454332+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-10T13:45:25.170263+00:00",
@@ -326,7 +313,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73137.20300000001,
+  "last_btc_price": 72894.23999999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
