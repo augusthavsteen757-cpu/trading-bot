@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T04:19:19.086027+00:00",
+    "sidst_hentet": "2026-11-10T04:39:19.214079+00:00",
     "opslag": [
       {
         "id": "t3_1xs9tbj",
@@ -234,35 +234,12 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xriac3",
-        "tid": "2026-11-09T04:26:38+00:00",
-        "titel": "BITCOIN\u2019S FUTURE",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften er underholdning og kommentar om AI-aktier, ikke en konkret BTC-katalysator. Pompliano-kommentar og Polymarket-spekulation giver kun svag, kortvarig hype.",
-        "tid": "2026-11-10T03:34:19.530199+00:00",
-        "pris_ved_nyhed": 74486.285,
-        "udloeber": "2026-11-10T04:34:19.530199+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-10T03:34:19.530199+00:00",
@@ -359,7 +336,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74681.125,
+  "last_btc_price": 74596.905,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
