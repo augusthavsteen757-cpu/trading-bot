@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74181.19200000001,
+  "last_btc_price": 74070.33499999999,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2147,7 +2147,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T10:23:57.029118+00:00",
+    "sidst_hentet": "2026-11-10T10:43:56.711126+00:00",
     "opslag": [
       {
         "id": "t3_1xsjbi1",
@@ -2288,19 +2288,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xroc9b",
-        "tid": "2026-11-09T10:32:22+00:00",
-        "titel": "Wherer to buy BTC without KYC?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
