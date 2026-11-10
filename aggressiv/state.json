@@ -351,10 +351,10 @@
       "2026-11-10 15:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65": [
-      "2026-11-10 15:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
-      "2026-11-10 15:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
+      "2026-11-10 15:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
+      "2026-11-10 16:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
     ],
     "tab: orb i range": [
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
@@ -614,18 +614,6 @@
         "pris_ved_nyhed": 517.755,
         "udloeber": "2026-11-10T17:46:02.919897+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte nyhed; AI-kapacitetsdebatten er generel og uden klar retning for META.",
-        "tid": "2026-11-10T15:01:07.441219+00:00",
-        "pris_ved_nyhed": 644.66,
-        "udloeber": "2026-11-10T16:01:07.441219+00:00"
-      },
       "PXLW": {
         "kilde": "nyhed",
         "symbol": "PXLW",
@@ -685,18 +673,6 @@
         "tid": "2026-11-10T15:01:07.441219+00:00",
         "pris_ved_nyhed": 5.81,
         "udloeber": "2026-11-10T17:01:07.441219+00:00"
-      },
-      "NFLX": {
-        "kilde": "nyhed",
-        "symbol": "NFLX",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Rose d'Or-nominering for en serie er ubetydelig for kursen.",
-        "tid": "2026-11-10T15:01:07.441219+00:00",
-        "pris_ved_nyhed": 62.724999999999994,
-        "udloeber": "2026-11-10T16:01:07.441219+00:00"
       },
       "RIVN": {
         "kilde": "nyhed",
@@ -2407,7 +2383,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T15:46:10.645391+00:00",
+    "sidst": "2026-11-10T16:01:18.160441+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2435,8 +2411,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 672.54,
-    "snitpris": 675.72,
+    "pris": 672.68,
+    "snitpris": 675.6,
     "svag": true
   },
   "marked_trend": null
