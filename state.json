@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73371.03150000001,
+  "last_btc_price": 73281.7,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1601,18 +1601,6 @@
         "pris_ved_nyhed": 510.05999999999995,
         "udloeber": "2026-11-10T20:00:02.053311+00:00"
       },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "CNBC-omtale af Amazon i 'final trades' er generisk og giver ingen klar retning for aktien.",
-        "tid": "2026-11-10T18:14:57.938108+00:00",
-        "pris_ved_nyhed": 268.46500000000003,
-        "udloeber": "2026-11-10T19:14:57.938108+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1934,7 +1922,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T18:54:57.600820+00:00",
+    "sidst_hentet": "2026-11-10T19:14:58.803760+00:00",
     "opslag": [
       {
         "id": "t3_1xsnslb",
@@ -2072,8 +2060,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.61,
-    "snitpris": 673.71,
+    "pris": 672.55,
+    "snitpris": 673.68,
     "svag": true
   },
   "marked_trend": -1
