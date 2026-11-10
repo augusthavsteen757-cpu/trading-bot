@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74621.03450000001,
+  "last_btc_price": 74597.65,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1801,20 +1801,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Modstridende analytikerudsagn om Bitcoin; ingen klar ny katalysator. Meningsudveksling er sandsynligvis allerede priset ind.",
-        "tid": "2026-11-10T02:43:29.502597+00:00",
-        "pris_ved_nyhed": 74715.813,
-        "udloeber": "2026-11-10T04:43:29.502597+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-10T03:38:30.109820+00:00",
