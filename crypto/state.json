@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T13:04:49.972127+00:00",
+    "sidst_hentet": "2026-11-10T13:20:24.760422+00:00",
     "opslag": [
       {
         "id": "t3_1xsly0q",
@@ -189,20 +189,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Tokeniseret aktiehandel kan oege efterspoergslen efter infrastrukturtokens generelt. Indirekte sammenhaeng, sa svag styrke.",
-        "tid": "2026-11-10T10:19:49.959939+00:00",
-        "pris_ved_nyhed": 10.47,
-        "udloeber": "2026-11-10T13:19:49.959939+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-10T10:19:49.959939+00:00",
@@ -304,7 +291,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74245.823,
+  "last_btc_price": 74195.0895,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
