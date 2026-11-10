@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73576.0375,
+  "last_btc_price": 73525.82,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1849,8 +1849,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T22:50:32.205660+00:00",
+    "sidst_hentet": "2026-11-10T23:05:33.610976+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt1joz",
+        "tid": "2026-11-10T23:03:44+00:00",
+        "titel": "Metaplex Signs MOU for Tokenized Gold Production on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xszm2a",
         "tid": "2026-11-10T21:42:31+00:00",
@@ -2092,7 +2102,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
