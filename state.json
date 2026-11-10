@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75149.15,
+  "last_btc_price": 75128.7215,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2123,7 +2123,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T00:53:29.336938+00:00",
+    "sidst_hentet": "2026-11-10T01:13:29.288815+00:00",
     "opslag": [
       {
         "id": "t3_1xs7gu9",
@@ -2354,19 +2354,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xre9i1",
-        "tid": "2026-11-09T01:00:07+00:00",
-        "titel": "Satoshi's Code Reopened: Someone Just Deciphered Bitcoin Puzzle Into Genesis Block Data",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
