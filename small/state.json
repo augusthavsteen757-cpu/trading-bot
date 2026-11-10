@@ -115,49 +115,12 @@
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-10T17:25:35.301751+00:00",
+    "sidst_hentet": "2026-11-10T17:40:36.708833+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ACHR": {
-        "kilde": "nyhed",
-        "symbol": "ACHR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rumsektorens rally og NASA-kontrakter kan give sympatistigning i ACHR, men sammenh\u00e6ngen er indirekte.",
-        "tid": "2026-11-10T15:40:06.314710+00:00",
-        "pris_ved_nyhed": 4.585,
-        "udloeber": "2026-11-10T17:40:06.314710+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rocket Labs rekordomsaetning smitter ofte til sektorfaellesskabet, sa RCAT kan profitere, men Neutron-forsinkelsen tr\u00e6kker den anden vej.",
-        "tid": "2026-11-10T15:40:06.314710+00:00",
-        "pris_ved_nyhed": 4.215,
-        "udloeber": "2026-11-10T17:40:06.314710+00:00"
-      },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "NASA-kontrakter og rally i rumsektoren kan give kortvarigt momentum, men rallyet kan allerede vaere indregnet i prisen.",
-        "tid": "2026-11-10T15:40:06.314710+00:00",
-        "pris_ved_nyhed": 11.805,
-        "udloeber": "2026-11-10T17:40:06.314710+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-10T15:40:06.314710+00:00",
@@ -219,7 +182,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.555,
+  "last_btc_price": 5.515,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1597,9 +1560,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.67,
+    "pris": 279.18,
     "snitpris": 279.56,
-    "svag": false
+    "svag": true
   },
   "marked_trend": -1
 }
