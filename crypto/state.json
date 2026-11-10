@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T17:05:25.225761+00:00",
+    "sidst_hentet": "2026-11-10T17:25:25.434644+00:00",
     "opslag": [
       {
         "id": "t3_1xssbug",
@@ -224,19 +224,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xrxe0j",
-        "tid": "2026-11-09T17:10:35+00:00",
-        "titel": "Why Bitcoin Is The Only Money AI Can't Control (Here's Why)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -343,7 +333,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73006.7,
+  "last_btc_price": 72927.117,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
