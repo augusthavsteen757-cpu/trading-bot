@@ -61,6 +61,7 @@ ORB_MAX_POSITION_PCT = env_f("ORB_MAX_POSITION_PCT", 0.10)  # ORB: max 10 % pr. 
 MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max bruge halvdelen af AI-runderne
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
+PARTIAL_AT_R = env_f("PARTIAL_AT_R", 0)  # >0: saelg halvdelen af en aktie-handel ved +X R og flyt stop til koebsprisen (0 = fra)
 SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
@@ -586,6 +587,27 @@ class Broker:
         self.t.close_position(coin.replace("/", ""))
         return qty
 
+    def sell_qty(self, coin, qty):
+        """Saelg en del af en aktie-position (hele aktier). Stop-ordren annulleres foerst og skal genskabes bagefter."""
+        if self.paper_only:
+            if TEST_MODE:
+                self.fake["qty"][coin] = max(self.fake["qty"].get(coin, 0.0) - qty, 0.0)
+            return qty
+        from alpaca.trading.requests import MarketOrderRequest
+        from alpaca.trading.enums import OrderSide, TimeInForce
+        self.cancel_open_orders(coin)
+        order = self.t.submit_order(MarketOrderRequest(symbol=coin, qty=int(qty), side=OrderSide.SELL,
+                                                       time_in_force=TimeInForce.DAY))
+        for _ in range(15):  # vent til salget er fyldt, foer en ny stop-ordre laegges paa resten
+            time.sleep(2)
+            try:
+                st = str(self.t.get_order_by_id(order.id).status).lower()
+                if st.endswith("filled") and "partially" not in st:
+                    break
+            except Exception:
+                pass
+        return qty
+
     def last_sell_price(self, coin):
         """Fyldt pris paa seneste salg (fx stop ramt mellem to runder)."""
         if self.paper_only:
@@ -677,6 +699,26 @@ def manage_position(broker, state, cs, coin, f, qty, brain, row):
         close_trade(brain, state, cs, coin, price, "maal naaet")
         row.update(handling="SALG (maal)", antal=round(qty, 6))
         return True
+    r_unit0 = pos["entry"] - pos["stop_initial"]
+    if (PARTIAL_AT_R > 0 and is_stock(coin) and not pos.get("delsalg") and r_unit0 > 0 and int(qty) >= 2
+            and price >= pos["entry"] + PARTIAL_AT_R * r_unit0):
+        # Proff-regel: tag halvdelen af gevinsten hjem, naar handlen har tjent det den risikerede.
+        # Resten koerer videre med stop paa koebsprisen, saa handlen ikke kan ende i minus.
+        half = int(qty) // 2
+        broker.sell_qty(coin, half)
+        r = (price - pos["entry"]) / r_unit0
+        append_csv(CLOSED_CSV, CLOSED_FIELDS, {
+            "coin": coin, "entry_tid": pos["entry_tid"], "exit_tid": ts(), "setup": pos["setup"], "regime": pos["regime"],
+            "conviction": pos.get("conviction", ""), "entry": round(pos["entry"], 2), "exit": round(price, 2),
+            "stop_initial": round(pos["stop_initial"], 2), "r_multiple": round(r, 2),
+            "pnl_usd": round((price - pos["entry"]) * half, 2), "exit_aarsag": f"halvdel solgt (+{PARTIAL_AT_R:g}R)", "timer": ""})
+        rest = qty - half
+        pos["qty"], pos["delsalg"] = rest, True
+        pos["stop"] = max(pos["stop"], pos["entry"])
+        broker.place_stop(coin, rest, pos["stop"])
+        row.update(handling="DELSALG (halvdel)", antal=half, stop_loss=round(pos["stop"], 2),
+                   note=f"Halvdelen solgt ved +{r:.1f}R, resten koerer med stop paa koebsprisen {pos['stop']:.2f}")
+        return False
     if pos.get("setup") == "adopteret" and is_stock(coin) and cs.get("orb_day") == ny_now().date().isoformat():
         pos["luk_foer_luk"] = True  # ORB-koeb hvis stop-ordre fejlede: stadig en dagshandel
     if pos.get("luk_foer_luk") and price <= pos["entry"]:  # tidsstop: et godt breakout virker hurtigt
