@@ -312,10 +312,10 @@
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66": [
-      "2026-11-10 16:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
-      "2026-11-10 16:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
+      "2026-11-10 16:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
+      "2026-11-10 16:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -500,30 +500,6 @@
         "pris_ved_nyhed": 167.6,
         "udloeber": "2026-11-10T17:26:04.729703+00:00"
       },
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Flere analytikeropgraderinger og kursmaal-hop til 28 USD for RIOT.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": 18.33,
-        "udloeber": "2026-11-10T16:46:02.919897+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Coinbase bakker CFTC op i sag om aktie-perpetuals; positiv regulatorisk stemning for kryptob\u00f8rser.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": 133.96,
-        "udloeber": "2026-11-10T16:46:02.919897+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -559,18 +535,6 @@
         "tid": "2026-11-10T14:46:02.919897+00:00",
         "pris_ved_nyhed": 517.755,
         "udloeber": "2026-11-10T17:46:02.919897+00:00"
-      },
-      "PXLW": {
-        "kilde": "nyhed",
-        "symbol": "PXLW",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Direkte Meta-partnerskab og aktien stiger kraftigt; momentum kan fortsaette, men er allerede steget.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": null,
-        "udloeber": "2026-11-10T16:46:02.919897+00:00"
       },
       "SECZ": {
         "kilde": "nyhed",
@@ -2341,7 +2305,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T16:36:40.157843+00:00",
+    "sidst": "2026-11-10T16:46:40.708339+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2369,8 +2333,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.72,
-    "snitpris": 675.21,
+    "pris": 672.21,
+    "snitpris": 675.15,
     "svag": true
   },
   "marked_trend": null
