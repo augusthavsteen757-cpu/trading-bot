@@ -3,7 +3,7 @@
   "coins": {
     "BTC/USD": {},
     "ONDS": {
-      "last_entry_eval": "2026-11-10T14:30:17.673788+00:00",
+      "last_entry_eval": "2026-11-10T15:35:07.320265+00:00",
       "last_entry_setups": [
         "nyhed_op"
       ],
@@ -36,7 +36,7 @@
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-10T14:31:20.060579+00:00",
+      "last_entry_eval": "2026-11-10T15:35:26.529821+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -106,10 +106,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.321709,
+  "budget_used": 0.334347,
   "ai_day": "2026-11-10",
-  "ai_rounds_today": 4,
-  "ai_spend_today": 0.0250421,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.03768020000000001,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-10",
   "day_start_equity": 100034.26,
@@ -1620,9 +1620,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.83,
-    "snitpris": 280.04,
-    "svag": true
+    "pris": 280.04,
+    "snitpris": 280.03,
+    "svag": false
   },
   "marked_trend": -1
 }
