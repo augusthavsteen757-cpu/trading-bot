@@ -2138,11 +2138,6 @@
     },
     "omvendt": []
   },
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 675.28,
-    "snitpris": 673.66,
-    "svag": false
-  },
+  "marked": {},
   "marked_trend": null
 }
