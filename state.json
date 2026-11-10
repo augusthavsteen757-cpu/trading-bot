@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 75015.70199999999,
+  "last_btc_price": 75051.2,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2123,8 +2123,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T01:13:29.288815+00:00",
+    "sidst_hentet": "2026-11-10T01:28:29.443270+00:00",
     "opslag": [
+      {
+        "id": "t3_1xs9tbj",
+        "tid": "2026-11-10T01:19:04+00:00",
+        "titel": "Buy Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xs7gu9",
         "tid": "2026-11-09T23:34:20+00:00",
@@ -2339,16 +2349,6 @@
         "id": "t3_1xrgdxw",
         "tid": "2026-11-09T02:46:45+00:00",
         "titel": "Where do I buy bitcoin and also have my own private keys ?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrekvu",
-        "tid": "2026-11-09T01:15:37+00:00",
-        "titel": "wouldnt be easier to have solutions to bitcoin such as Strike or maybe Paypal or any offchain apps that allow to send sa",
         "symboler": [
           "BTC/USD"
         ],
