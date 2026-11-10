@@ -375,10 +375,10 @@
       "2026-11-10 15:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65": [
-      "2026-11-10 15:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
-      "2026-11-10 15:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
+      "2026-11-10 15:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
+      "2026-11-10 15:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
     ],
     "tab: orb i range": [
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
@@ -565,18 +565,6 @@
         "tid": "2026-11-10T15:26:04.729703+00:00",
         "pris_ved_nyhed": 167.6,
         "udloeber": "2026-11-10T17:26:04.729703+00:00"
-      },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Forlaenget accepfrist for Delivery Hero-opk\u00f8b; ingen klar kursdrivende nyhed.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": 69.97,
-        "udloeber": "2026-11-10T15:46:02.919897+00:00"
       },
       "RIOT": {
         "kilde": "nyhed",
@@ -2443,7 +2431,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T15:36:03.718276+00:00",
+    "sidst": "2026-11-10T15:46:10.645391+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2471,8 +2459,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.64,
-    "snitpris": 676.3,
+    "pris": 674.25,
+    "snitpris": 676.22,
     "svag": true
   },
   "marked_trend": null
