@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74715.813,
+  "last_btc_price": 74838.3395,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2147,7 +2147,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T02:28:29.943825+00:00",
+    "sidst_hentet": "2026-11-10T02:48:29.504623+00:00",
     "opslag": [
       {
         "id": "t3_1xs9tbj",
@@ -2358,29 +2358,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrgewn",
-        "tid": "2026-11-09T02:48:10+00:00",
-        "titel": "The house has rewritten rules since 1913. Nobody's rewritten 21 million since 2009 (Bitcoin art)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xrgdxw",
-        "tid": "2026-11-09T02:46:45+00:00",
-        "titel": "Where do I buy bitcoin and also have my own private keys ?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
