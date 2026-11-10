@@ -133,18 +133,6 @@
         "pris_ved_nyhed": 4.585,
         "udloeber": "2026-11-10T17:40:06.314710+00:00"
       },
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Indra har valgt Ouster-lidar til elektroniske bompengeprojekter. Ny kunde og mulig efterspoergsel, men aftalens storrelse er ukendt.",
-        "tid": "2026-11-10T14:30:06.216819+00:00",
-        "pris_ved_nyhed": 38.51,
-        "udloeber": "2026-11-10T17:30:06.216819+00:00"
-      },
       "RCAT": {
         "kilde": "nyhed",
         "symbol": "RCAT",
@@ -231,7 +219,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.545,
+  "last_btc_price": 5.5649999999999995,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1609,8 +1597,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.18,
-    "snitpris": 279.57,
+    "pris": 279.42,
+    "snitpris": 279.56,
     "svag": true
   },
   "marked_trend": -1
