@@ -193,18 +193,6 @@
         "tid": "2026-11-10T13:35:24.454332+00:00",
         "pris_ved_nyhed": 2059.0005,
         "udloeber": "2026-11-10T16:35:24.454332+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om 1 mio. Solana-wallets med tokeniserede real-world assets er ikke bekraeftet, men kan give hype og ekstra efterspoergsel.",
-        "tid": "2026-11-10T13:35:24.454332+00:00",
-        "pris_ved_nyhed": 83.92914999999999,
-        "udloeber": "2026-11-10T15:35:24.454332+00:00"
       }
     },
     "dag": "2026-11-10",
@@ -310,7 +298,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73990.01800000001,
+  "last_btc_price": 73509.275,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
