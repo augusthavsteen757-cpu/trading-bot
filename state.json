@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74745.87950000001,
+  "last_btc_price": 74702.641,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1825,18 +1825,6 @@
         "tid": "2026-11-10T05:03:30.789458+00:00",
         "pris_ved_nyhed": 2123.45,
         "udloeber": "2026-11-10T07:03:30.789458+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte link til Solana i overskriften. Kun generel krypto-risiko, ingen klar retning.",
-        "tid": "2026-11-10T05:03:30.789458+00:00",
-        "pris_ved_nyhed": 86.23840000000001,
-        "udloeber": "2026-11-10T06:03:30.789458+00:00"
       }
     },
     "dag": "2026-11-10",
