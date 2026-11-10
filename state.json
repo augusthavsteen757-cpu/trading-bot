@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74229.0,
+  "last_btc_price": 74258.975,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1801,44 +1801,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NYSE-nyheden handler om Avalanche (AVAX), ikke Bitcoin. Kun svag indirekte smitte via generel krypto-sentiment; ingen klar BTC-effekt.",
-        "tid": "2026-11-10T10:23:57.996514+00:00",
-        "pris_ved_nyhed": 74203.11,
-        "udloeber": "2026-11-10T12:23:57.996514+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Tokeniserede aktier paa blockchain kan styrke fortaellingen om Ethereum som settlement-lag, men AVAX er den direkte vinder; effekten paa ETH er svag og indirekte.",
-        "tid": "2026-11-10T10:23:57.996514+00:00",
-        "pris_ved_nyhed": 2090.625,
-        "udloeber": "2026-11-10T12:23:57.996514+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Konkurrerende layer-1-kaeder kan faa smitte-effekt i sektorstemningen, men der er ingen direkte link til Solana; AVAX-spiket kan ogsaa vaere isoleret.",
-        "tid": "2026-11-10T10:23:57.996514+00:00",
-        "pris_ved_nyhed": 85.0283,
-        "udloeber": "2026-11-10T12:23:57.996514+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 9,
     "sidste_kald": "2026-11-10T10:23:57.996514+00:00",
