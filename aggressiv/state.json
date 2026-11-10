@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 18:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 18:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 18:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 18:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -335,7 +335,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T18:01:05.748379+00:00",
+    "sidst_hentet": "2026-11-10T18:20:57.717002+00:00",
     "opslag": [
       {
         "id": "t3_1xssmwj",
@@ -426,19 +426,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xryt98",
-        "tid": "2026-11-09T18:02:48+00:00",
-        "titel": "NVDA SPY",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 10 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 9 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -489,18 +479,6 @@
         "tid": "2026-11-10T16:21:05.421459+00:00",
         "pris_ved_nyhed": 376.65,
         "udloeber": "2026-11-10T19:21:05.421459+00:00"
-      },
-      "RIVN": {
-        "kilde": "nyhed",
-        "symbol": "RIVN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "CEO peger paa 2027 som 'inflection year' med R2 og autonomi; positiv fremtidsudsigt, men konkret effekt kan vaere moderat og delvist kendt.",
-        "tid": "2026-11-10T15:16:02.258796+00:00",
-        "pris_ved_nyhed": 14.055,
-        "udloeber": "2026-11-10T18:16:02.258796+00:00"
       },
       "MARA": {
         "kilde": "nyhed",
@@ -2263,8 +2241,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 669.03,
-    "snitpris": 673.99,
+    "pris": 668.91,
+    "snitpris": 673.95,
     "svag": true
   },
   "marked_trend": null
