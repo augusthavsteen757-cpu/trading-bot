@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 17:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 17:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 17:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -487,18 +487,6 @@
         "tid": "2026-11-10T14:31:00.711983+00:00",
         "pris_ved_nyhed": 27.45,
         "udloeber": "2026-11-10T18:31:00.711983+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Investering paa 2,5 mia. USD i Anthropic-IPO styrker AI-relation og kan give opmaerksomhed.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": 517.755,
-        "udloeber": "2026-11-10T17:46:02.919897+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -2257,7 +2245,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T17:31:35.451961+00:00",
+    "sidst": "2026-11-10T17:46:04.730101+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2285,8 +2273,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 667.75,
-    "snitpris": 674.49,
+    "pris": 668.2,
+    "snitpris": 674.37,
     "svag": true
   },
   "marked_trend": null
