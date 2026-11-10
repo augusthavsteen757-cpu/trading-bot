@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74889.984,
+  "last_btc_price": 75090.83499999999,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Usammenh\u00e6ngende rygte om bitcoin corn uden substans, ingen handelsrelevans.",
-        "tid": "2026-11-10T00:03:05.349907+00:00",
-        "pris_ved_nyhed": 75234.2635,
-        "udloeber": "2026-11-10T01:03:05.349907+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1825,18 +1813,6 @@
         "tid": "2026-11-10T00:03:05.349907+00:00",
         "pris_ved_nyhed": 2131.7749999999996,
         "udloeber": "2026-11-10T04:03:05.349907+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Sp\u00f8rgsm\u00e5l om SOL-konvertering, ikke et kursrelevant signal.",
-        "tid": "2026-11-10T00:03:05.349907+00:00",
-        "pris_ved_nyhed": 86.67175,
-        "udloeber": "2026-11-10T01:03:05.349907+00:00"
       }
     },
     "dag": "2026-11-10",
