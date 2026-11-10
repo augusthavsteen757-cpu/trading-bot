@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73694.285,
+  "last_btc_price": 73843.5,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1564,18 +1564,6 @@
         "tid": "2026-11-10T17:10:00.318478+00:00",
         "pris_ved_nyhed": 2017.6399999999999,
         "udloeber": "2026-11-10T21:10:00.318478+00:00"
-      },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Google lancerer egne TPU-chips til 2027 og udvidet adgang til Gemini 4 Carbon; kan styrke AI-fortaellingen, men aktien falder lidt nu.",
-        "tid": "2026-11-10T18:00:02.053311+00:00",
-        "pris_ved_nyhed": 286.88,
-        "udloeber": "2026-11-10T21:00:02.053311+00:00"
       }
     },
     "dag": "2026-11-10",
@@ -2022,11 +2010,6 @@
     "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 675.28,
-    "snitpris": 673.74,
-    "svag": false
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
