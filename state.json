@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74681.48550000001,
+  "last_btc_price": 74662.815,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH haenger ikke med i akkumuleringssignalet og llagged aktier. Overskriften signalerer svag relativ styrke, sa ingen klar retning.",
-        "tid": "2026-11-10T02:28:31.294247+00:00",
-        "pris_ved_nyhed": 2119.6115,
-        "udloeber": "2026-11-10T04:28:31.294247+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1825,18 +1813,6 @@
         "tid": "2026-11-10T02:43:29.502597+00:00",
         "pris_ved_nyhed": 74715.813,
         "udloeber": "2026-11-10T04:43:29.502597+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ingen direkte omtale af SOL. Generelt svagt krypto-momentum og usikkerhed om Iran-konflikten gor retningen uklar.",
-        "tid": "2026-11-10T02:28:31.294247+00:00",
-        "pris_ved_nyhed": 85.99549999999999,
-        "udloeber": "2026-11-10T04:28:31.294247+00:00"
       }
     },
     "dag": "2026-11-10",
@@ -2147,7 +2123,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T04:18:30.899500+00:00",
+    "sidst_hentet": "2026-11-10T04:33:31.034293+00:00",
     "opslag": [
       {
         "id": "t3_1xs9tbj",
@@ -2348,19 +2324,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xriac3",
-        "tid": "2026-11-09T04:26:38+00:00",
-        "titel": "BITCOIN\u2019S FUTURE",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
