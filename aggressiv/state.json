@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 18:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 18:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 18:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 18:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2219,8 +2219,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 670.33,
-    "snitpris": 673.83,
+    "pris": 670.29,
+    "snitpris": 673.81,
     "svag": true
   },
   "marked_trend": null
