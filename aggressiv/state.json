@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 18:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 18:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 18:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 18:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -335,7 +335,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T18:20:57.717002+00:00",
+    "sidst_hentet": "2026-11-10T18:35:59.201845+00:00",
     "opslag": [
       {
         "id": "t3_1xssmwj",
@@ -416,19 +416,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrzgq7",
-        "tid": "2026-11-09T18:26:20+00:00",
-        "titel": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention (Gift Article)",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 9 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 8 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -455,18 +445,6 @@
         "tid": "2026-11-10T16:56:35.124696+00:00",
         "pris_ved_nyhed": 166.91,
         "udloeber": "2026-11-10T18:56:35.124696+00:00"
-      },
-      "SMCI": {
-        "kilde": "nyhed",
-        "symbol": "SMCI",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Rapport om mulig eksportkontrolbrud med Supermicro-servere i Kina plus negativ Susquehanna-vurdering peger nedad.",
-        "tid": "2026-11-10T14:31:00.711983+00:00",
-        "pris_ved_nyhed": 27.45,
-        "udloeber": "2026-11-10T18:31:00.711983+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -2241,8 +2219,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 669.51,
-    "snitpris": 673.86,
+    "pris": 670.33,
+    "snitpris": 673.83,
     "svag": true
   },
   "marked_trend": null
