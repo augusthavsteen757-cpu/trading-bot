@@ -33,8 +33,128 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T17:25:25.434644+00:00",
+    "sidst_hentet": "2026-11-10T23:25:58.593265+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt1joz",
+        "tid": "2026-11-10T23:03:44+00:00",
+        "titel": "Metaplex Signs MOU for Tokenized Gold Production on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xszm2a",
+        "tid": "2026-11-10T21:42:31+00:00",
+        "titel": "What\u2019s the safest way to convert a relatively large amount of USD cash into Bitcoin for long-term holding?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xsxsxd",
+        "tid": "2026-11-10T20:31:05+00:00",
+        "titel": "0xB10C, Sjors Provoost - Bitcoin Optech Newsletter #430 Recap Podcast",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xsxf74",
+        "tid": "2026-11-10T20:16:09+00:00",
+        "titel": "Buying bitcoin with no KYC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xswthx",
+        "tid": "2026-11-10T19:52:40+00:00",
+        "titel": "8000 eu de bitcoin parti en fum\u00e9e",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xsvny2",
+        "tid": "2026-11-10T19:08:08+00:00",
+        "titel": "Why hasn't the USA government sold the seized Bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xsuiuc",
+        "tid": "2026-11-10T18:25:24+00:00",
+        "titel": "Marinade not paying for my staked native Sol.",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xsu5ey",
+        "tid": "2026-11-10T18:12:00+00:00",
+        "titel": "Will the next decade become the first where the Satoshi term outweights Bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xsu0i4",
+        "tid": "2026-11-10T18:06:59+00:00",
+        "titel": "Should I keep throwing money into Bitcoin ?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xstzwq",
+        "tid": "2026-11-10T18:06:24+00:00",
+        "titel": "How much bitcoin has been lost forever ?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xstpp4",
+        "tid": "2026-11-10T17:56:18+00:00",
+        "titel": "Bitcoin under 67k ? \ud83e\udd14",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xstda6",
+        "tid": "2026-11-10T17:43:05+00:00",
+        "titel": "Tom Lee Blames Ethereum Slump on \u2018Impatience,\u2019 Says \u2018Buckle Up\u2019 for Crypto Rally",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
       {
         "id": "t3_1xssbug",
         "tid": "2026-11-10T17:03:42+00:00",
@@ -226,7 +346,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -333,7 +453,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73018.2495,
+  "last_btc_price": 73628.5275,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},

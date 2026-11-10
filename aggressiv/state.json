@@ -318,10 +318,16 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 17:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 19:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68": [
+      "2026-11-10 20:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
+      "2026-11-10 20:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
+      "2026-11-10 20:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
+      "2026-11-10 20:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -335,8 +341,38 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T17:21:37.604309+00:00",
+    "sidst_hentet": "2026-11-10T20:55:57.914924+00:00",
     "opslag": [
+      {
+        "id": "t3_1xswibo",
+        "tid": "2026-11-10T19:40:42+00:00",
+        "titel": "30k NVDA YOLO",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
+      {
+        "id": "t3_1xsw1s3",
+        "tid": "2026-11-10T19:23:02+00:00",
+        "titel": "NVDA HOLD (or not)",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
+      {
+        "id": "t3_1xsw0y6",
+        "tid": "2026-11-10T19:22:12+00:00",
+        "titel": "NVDA -125k, would you quit?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xssmwj",
         "tid": "2026-11-10T17:15:07+00:00",
@@ -386,193 +422,12 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xs1nxz",
-        "tid": "2026-11-09T19:46:52+00:00",
-        "titel": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xs1jqu",
-        "tid": "2026-11-09T19:42:29+00:00",
-        "titel": "\"I told him not to tap it.\" - Dr. Lisa Su, CEO, AMD",
-        "symboler": [
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xs1a4q",
-        "tid": "2026-11-09T19:32:38+00:00",
-        "titel": "Matt Levine: Is the Nvidia Affair Securities Fraud?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrzgq7",
-        "tid": "2026-11-09T18:26:20+00:00",
-        "titel": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention (Gift Article)",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xryt98",
-        "tid": "2026-11-09T18:02:48+00:00",
-        "titel": "NVDA SPY",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrygsc",
-        "tid": "2026-11-09T17:50:14+00:00",
-        "titel": "Fall of NVIDIA",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 8 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredere AI-usikkerhed fra Eisman-kommentar kan smitte over paa andre AI-halvledere som Broadcom, men det er indirekte.",
-        "tid": "2026-11-10T16:56:35.124696+00:00",
-        "pris_ved_nyhed": 323.995,
-        "udloeber": "2026-11-10T18:56:35.124696+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Eisman-advarsel om AI-boble og BofA-nedgradering fra US 1 List kan give let presstryk paa AI-aktier, men signalet er svagt.",
-        "tid": "2026-11-10T16:56:35.124696+00:00",
-        "pris_ved_nyhed": 166.91,
-        "udloeber": "2026-11-10T18:56:35.124696+00:00"
-      },
-      "SMCI": {
-        "kilde": "nyhed",
-        "symbol": "SMCI",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Rapport om mulig eksportkontrolbrud med Supermicro-servere i Kina plus negativ Susquehanna-vurdering peger nedad.",
-        "tid": "2026-11-10T14:31:00.711983+00:00",
-        "pris_ved_nyhed": 27.45,
-        "udloeber": "2026-11-10T18:31:00.711983+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Investering paa 2,5 mia. USD i Anthropic-IPO styrker AI-relation og kan give opmaerksomhed.",
-        "tid": "2026-11-10T14:46:02.919897+00:00",
-        "pris_ved_nyhed": 517.755,
-        "udloeber": "2026-11-10T17:46:02.919897+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "NVIDIAs fokus paa robotaxi-software kan skabe sammenligning og spekulativ koeb i Tesla, som er t\u00e6t knyttet til autonomi-temaet. Indirekte og svag sammenh\u00e6ng.",
-        "tid": "2026-11-10T16:21:05.421459+00:00",
-        "pris_ved_nyhed": 376.65,
-        "udloeber": "2026-11-10T19:21:05.421459+00:00"
-      },
-      "RIVN": {
-        "kilde": "nyhed",
-        "symbol": "RIVN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "CEO peger paa 2027 som 'inflection year' med R2 og autonomi; positiv fremtidsudsigt, men konkret effekt kan vaere moderat og delvist kendt.",
-        "tid": "2026-11-10T15:16:02.258796+00:00",
-        "pris_ved_nyhed": 14.055,
-        "udloeber": "2026-11-10T18:16:02.258796+00:00"
-      },
-      "MARA": {
-        "kilde": "nyhed",
-        "symbol": "MARA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktietilbagekoeb og overgang til overskud efter Q3 kan give stoette; stigning er i gang, saa gevinsten kan allerede vaere delvist i prisen.",
-        "tid": "2026-11-10T17:06:39.002529+00:00",
-        "pris_ved_nyhed": 7.045,
-        "udloeber": "2026-11-10T19:06:39.002529+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Zuckerbergs formueopgoerelse og aktiegaver er personlig finansnyhed uden direkte indtjeningseffekt paa Meta; svag paavirkning.",
-        "tid": "2026-11-10T17:06:39.002529+00:00",
-        "pris_ved_nyhed": 639.7,
-        "udloeber": "2026-11-10T19:06:39.002529+00:00"
-      },
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "JP Morgan fastholder overweight og haever kursmaal til 28; analytikeropgradering kan give koeb i de kommende timer, men effekten er ofte begr\u00e6nset.",
-        "tid": "2026-11-10T17:06:39.002529+00:00",
-        "pris_ved_nyhed": 17.34,
-        "udloeber": "2026-11-10T20:06:39.002529+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Sektorstemning i bitcoin-miner-segmentet smitter af paa COIN via f\u00e6lles krypto-sentiment; svag indirekte sammenhaeng.",
-        "tid": "2026-11-10T17:06:39.002529+00:00",
-        "pris_ved_nyhed": 130.135,
-        "udloeber": "2026-11-10T19:06:39.002529+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-10",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-10T17:06:39.002529+00:00",
@@ -2257,7 +2112,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T17:31:35.451961+00:00",
+    "sidst": "2026-11-10T17:46:04.730101+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2283,11 +2138,6 @@
     },
     "omvendt": []
   },
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 670.06,
-    "snitpris": 674.6,
-    "svag": true
-  },
+  "marked": {},
   "marked_trend": null
 }
