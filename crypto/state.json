@@ -33,8 +33,38 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T16:10:24.929654+00:00",
+    "sidst_hentet": "2026-11-10T16:30:24.835171+00:00",
     "opslag": [
+      {
+        "id": "t3_1xsrejg",
+        "tid": "2026-11-10T16:29:23+00:00",
+        "titel": "Solana Privacy Rings From Helius Are Live On Solana Mainnet",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xsrasj",
+        "tid": "2026-11-10T16:25:29+00:00",
+        "titel": "Users Can Now Trade Any Solana Token On Fomo Directly From X Cashtags",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xsr9ez",
+        "tid": "2026-11-10T16:24:03+00:00",
+        "titel": "Has anyone used a home Bitcoin mining rig to heat a pool long-term?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xsqv3d",
         "tid": "2026-11-10T16:09:16+00:00",
@@ -176,7 +206,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -296,7 +326,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73287.5245,
+  "last_btc_price": 73137.20300000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
