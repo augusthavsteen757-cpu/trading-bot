@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 18:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 18:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 18:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 18:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 19:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -422,30 +422,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredere AI-usikkerhed fra Eisman-kommentar kan smitte over paa andre AI-halvledere som Broadcom, men det er indirekte.",
-        "tid": "2026-11-10T16:56:35.124696+00:00",
-        "pris_ved_nyhed": 323.995,
-        "udloeber": "2026-11-10T18:56:35.124696+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Eisman-advarsel om AI-boble og BofA-nedgradering fra US 1 List kan give let presstryk paa AI-aktier, men signalet er svagt.",
-        "tid": "2026-11-10T16:56:35.124696+00:00",
-        "pris_ved_nyhed": 166.91,
-        "udloeber": "2026-11-10T18:56:35.124696+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -2219,8 +2195,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.52,
-    "snitpris": 673.77,
+    "pris": 671.26,
+    "snitpris": 673.74,
     "svag": true
   },
   "marked_trend": null
