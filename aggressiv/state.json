@@ -122,7 +122,11 @@
     "RBLX": {},
     "CKX": {},
     "NWGL": {},
-    "MF": {}
+    "MF": {},
+    "PEPG": {},
+    "SMX": {},
+    "SECZ": {},
+    "PXLW": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -212,6 +216,9 @@
       "2026-11-09 20:47: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:52: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars",
       "2026-11-09 20:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64": [
+      "2026-11-10 14:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2168,14 +2175,23 @@
   },
   "scan": {
     "dag": "2026-11-10",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "PEPG",
+      "SMX",
+      "SECZ",
+      "PXLW"
+    ],
+    "sidst": "2026-11-10T14:35:59.818018+00:00",
     "alle": [
       "AEHL",
       "APP",
       "CKX",
       "MF",
       "NWGL",
+      "PEPG",
+      "PXLW",
+      "SECZ",
+      "SMX",
       "SNDQ",
       "SOXS",
       "UVXY"
@@ -2183,7 +2199,11 @@
     "navne": {
       "CKX": "CKX Lands, Inc.",
       "NWGL": "CL Workshop Group Limited American Depositary Shares",
-      "MF": "MindForge Inc. Class A Ordinary Shares"
+      "MF": "MindForge Inc. Class A Ordinary Shares",
+      "PEPG": "PepGen Inc. Common Stock",
+      "SMX": "SMX (Security Matters) Public Limited Company Ordinary Shares",
+      "SECZ": "Securitize Corp.",
+      "PXLW": "Pixelworks, Inc. Common Stock"
     },
     "omvendt": []
   },
