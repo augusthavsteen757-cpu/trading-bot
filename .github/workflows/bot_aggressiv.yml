@@ -74,6 +74,7 @@ jobs:
           ORB_HOLD_WINNERS_R: '1.0'  # aabnings-handel der er +1R ved lukketid beholdes over natten med laast stop (saelges altid)
           ORB_BREAKEVEN_R: '1.0'     # aabnings-handel: stop flyttes foerst til koebsprisen ved +1R, saa den har plads (0,5)
           PARTIAL_AT_R: '1.0'        # 10. nov: saelg halvdelen ved +1R og flyt stop til koebsprisen (fra)
+          ORB_MIN_REL_VOL: '1.5'     # 11. nov: ORB kun med mindst 1,5x normal volumen sidste 15 min (fra)
           # Raket-scanner: finder hver morgen op til 5 af dagens stoerste stigere (over 5 USD, +5 % eller mere,
           # blandt de 100 mest handlede) og handler dem foerst med de samme regler og stop-loss.
           SCAN_GAINERS: ${{ vars.AGGRESSIV_SCAN_GAINERS || '10' }}   # op til 10 raketter om dagen (5)
