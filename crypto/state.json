@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T01:43:50.398358+00:00",
+    "sidst_hentet": "2026-11-10T02:03:50.388238+00:00",
     "opslag": [
       {
         "id": "t3_1xs9tbj",
@@ -281,42 +281,6 @@
         "tid": "2026-11-10T00:03:49.953526+00:00",
         "pris_ved_nyhed": 2131.9825,
         "udloeber": "2026-11-10T03:03:49.953526+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Memecoin-svaghed og negativ Musk-omtale; DOGE faldt allerede 18% sammen med SHIB.",
-        "tid": "2026-11-10T00:03:49.953526+00:00",
-        "pris_ved_nyhed": 0.07003,
-        "udloeber": "2026-11-10T02:03:49.953526+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt krypto-salg og likvidationer rammer ofte altcoins med lavere likviditet som LTC.",
-        "tid": "2026-11-10T00:03:49.953526+00:00",
-        "pris_ved_nyhed": 51.4035,
-        "udloeber": "2026-11-10T02:03:49.953526+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "SOL n\u00e6vnt i markedsfaldet; h\u00f8jbeta-altcoin kan forl\u00e6nge faldet kort sigt.",
-        "tid": "2026-11-10T00:03:49.953526+00:00",
-        "pris_ved_nyhed": 86.65594999999999,
-        "udloeber": "2026-11-10T02:03:49.953526+00:00"
       }
     },
     "dag": "2026-11-10",
@@ -413,7 +377,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74998.91500000001,
+  "last_btc_price": 74924.906,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
