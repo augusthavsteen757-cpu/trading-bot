@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73375.58850000001,
+  "last_btc_price": 73246.2905,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1589,18 +1589,6 @@
         "pris_ved_nyhed": 167.735,
         "udloeber": "2026-11-10T20:14:57.938108+00:00"
       },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Google-TPU-nyheden kan oege konkurrencen i AI-chips, hvilket er negativt for NVDA; AMD kan drage fordel som alternativ, men effekten er svag.",
-        "tid": "2026-11-10T18:00:02.053311+00:00",
-        "pris_ved_nyhed": 510.05999999999995,
-        "udloeber": "2026-11-10T20:00:02.053311+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2060,8 +2048,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 672.6,
-    "snitpris": 673.58,
+    "pris": 672.63,
+    "snitpris": 673.56,
     "svag": true
   },
   "marked_trend": -1
