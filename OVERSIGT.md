@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 17.30** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 17.35** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 17.29
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 17.35
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 17.30** (dansk tid). Ku
 
 ## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 17.25
+**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 17.30
 
 **Ejer nu:** intet
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 17.30** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.966 USD  ·  **I alt:** -1.034 USD (-1.03 %)  ·  **I dag:** +0.22 %  ·  sidst opdateret 10/11 17.25
+**Konto:** 98.930 USD  ·  **I alt:** -1.070 USD (-1.07 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 10/11 17.30
 
 **Ejer nu:**
 
@@ -68,24 +68,23 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 17.30** (dansk tid). Ku
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.966 USD  ·  **I alt:** -34 USD (-0.03 %)  ·  **I dag:** -0.11 %  ·  sidst opdateret 10/11 17.21
+**Konto:** 99.861 USD  ·  **I alt:** -139 USD (-0.14 %)  ·  **I dag:** -0.27 %  ·  sidst opdateret 10/11 17.32
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -2963 USD (0 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -2251 USD (0 vundet), BREMSE (halv stoerrelse)
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AMD | 21 | 527.59 | 10/11 15.56 |
 | CRWD | 176 | 226.80 | 10/11 15.51 |
 
-**Lukkede handler:** 18 i alt, 4 med gevinst, samlet +502 USD
+**Lukkede handler:** 19 i alt, 4 med gevinst, samlet +410 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ AMD | 10/11 17.26 | -93 USD | tidsstop (90 min uden gevinst) |
 | ❌ AVGO | 10/11 16.56 | -7 USD | stop ramt (Alpaca) |
 | ❌ COIN | 10/11 16.26 | -15 USD | stop ramt (Alpaca) |
 | ❌ SHOP | 6/11 21.07 | -0 USD | tidsstop (90 min uden gevinst) |
 | ❌ RIVN | 6/11 18.36 | -11 USD | tidsstop (90 min uden gevinst) |
-| ❌ META | 6/11 18.21 | -245 USD | tidsstop (90 min uden gevinst) |
 
