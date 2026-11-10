@@ -320,7 +320,8 @@
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
       "2026-11-10 17:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 17:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 17:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -334,8 +335,18 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T17:01:40.337387+00:00",
+    "sidst_hentet": "2026-11-10T17:21:37.604309+00:00",
     "opslag": [
+      {
+        "id": "t3_1xssmwj",
+        "tid": "2026-11-10T17:15:07+00:00",
+        "titel": "Can someone explain the bear case for NVDA? How is this not an obvious buying opportunity?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xsrpzg",
         "tid": "2026-11-10T16:41:09+00:00",
@@ -435,29 +446,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrxbbo",
-        "tid": "2026-11-09T17:07:52+00:00",
-        "titel": "NY Times - U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xrx5zn",
-        "tid": "2026-11-09T17:02:35+00:00",
-        "titel": "NY Times - U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 11 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -544,18 +535,6 @@
         "tid": "2026-11-10T16:21:05.421459+00:00",
         "pris_ved_nyhed": 376.65,
         "udloeber": "2026-11-10T19:21:05.421459+00:00"
-      },
-      "SMX": {
-        "kilde": "nyhed",
-        "symbol": "SMX",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Aktien er allerede steget ca. 114% og har ramt circuit breaker. Stor del af bevaegelsen er sket, men momentum kan give yderligere kortsigtet opgang eller hurtig tilbagevending.",
-        "tid": "2026-11-10T16:21:05.421459+00:00",
-        "pris_ved_nyhed": 19.93,
-        "udloeber": "2026-11-10T17:21:05.421459+00:00"
       },
       "RIVN": {
         "kilde": "nyhed",
@@ -2330,8 +2309,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 671.06,
-    "snitpris": 674.74,
+    "pris": 671.23,
+    "snitpris": 674.69,
     "svag": true
   },
   "marked_trend": null
