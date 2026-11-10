@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74115.27,
+  "last_btc_price": 74228.015,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -2110,8 +2110,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T12:29:29.681716+00:00",
+    "sidst_hentet": "2026-11-10T12:49:29.271879+00:00",
     "opslag": [
+      {
+        "id": "t3_1xsly0q",
+        "tid": "2026-11-10T12:43:25+00:00",
+        "titel": "More Than 1 Million Wallets On Solana Now Hold Tokenized Real-world Assets",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xsjbi1",
         "tid": "2026-11-10T10:16:32+00:00",
@@ -2253,7 +2263,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
