@@ -312,10 +312,10 @@
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66": [
-      "2026-11-10 16:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
-      "2026-11-10 16:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
+      "2026-11-10 16:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
+      "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -329,7 +329,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T16:41:41.318094+00:00",
+    "sidst_hentet": "2026-11-10T17:01:40.337387+00:00",
     "opslag": [
       {
         "id": "t3_1xsrpzg",
@@ -450,29 +450,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrwtx8",
-        "tid": "2026-11-09T16:50:40+00:00",
-        "titel": "Alleged Chinese spy linked to Nvidia chief pitched AI chip deals to investors",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xrwncx",
-        "tid": "2026-11-09T16:44:09+00:00",
-        "titel": "Unpopular opinion, but Jensen's affair shouldn't matter to Nvidia or the stock. Thoughts?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -571,18 +551,6 @@
         "tid": "2026-11-10T16:21:05.421459+00:00",
         "pris_ved_nyhed": 19.93,
         "udloeber": "2026-11-10T17:21:05.421459+00:00"
-      },
-      "PEPG": {
-        "kilde": "nyhed",
-        "symbol": "PEPG",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme makro-chok som SMX: h\u00f8jere inflation og svagere risikoappetit presser sm\u00e5 biotek/tech-aktier i den n\u00e6re time.",
-        "tid": "2026-11-10T15:01:07.441219+00:00",
-        "pris_ved_nyhed": 5.81,
-        "udloeber": "2026-11-10T17:01:07.441219+00:00"
       },
       "RIVN": {
         "kilde": "nyhed",
@@ -2305,7 +2273,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T16:46:40.708339+00:00",
+    "sidst": "2026-11-10T17:01:39.817511+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2333,8 +2301,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 670.53,
-    "snitpris": 674.9,
+    "pris": 669.9,
+    "snitpris": 674.85,
     "svag": true
   },
   "marked_trend": null
