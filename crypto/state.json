@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T03:14:18.394442+00:00",
+    "sidst_hentet": "2026-11-10T03:29:18.588813+00:00",
     "opslag": [
       {
         "id": "t3_1xs9tbj",
@@ -273,18 +273,6 @@
         "tid": "2026-11-10T02:24:18.705976+00:00",
         "pris_ved_nyhed": 74797.44,
         "udloeber": "2026-11-10T04:24:18.705976+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Dogecoin naevnt som steady; ingen egen katalysator, og den stoerste kurspaavirkning er nok fra BTC-retningen.",
-        "tid": "2026-11-10T02:24:18.705976+00:00",
-        "pris_ved_nyhed": 0.06961149999999999,
-        "udloeber": "2026-11-10T03:24:18.705976+00:00"
       }
     },
     "dag": "2026-11-10",
@@ -382,7 +370,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74662.71350000001,
+  "last_btc_price": 74561.3165,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
