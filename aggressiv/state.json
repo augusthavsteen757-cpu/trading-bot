@@ -375,10 +375,10 @@
       "2026-11-10 15:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65": [
-      "2026-11-10 15:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
-      "2026-11-10 15:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
+      "2026-11-10 15:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
+      "2026-11-10 15:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
     ],
     "tab: orb i range": [
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
@@ -2481,9 +2481,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.41,
+    "pris": 675.95,
     "snitpris": 676.28,
-    "svag": false
+    "svag": true
   },
   "marked_trend": null
 }
