@@ -121,18 +121,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny ordre paa taktiske droner giver konkret omsaetningspotentiale. Kun 12 minutter gammel, og markedet har sandsynligvis ikke fuldt prissat den endnu.",
-        "tid": "2026-11-10T14:45:15.131810+00:00",
-        "pris_ved_nyhed": 5.775,
-        "udloeber": "2026-11-10T16:45:15.131810+00:00"
-      },
       "ACHR": {
         "kilde": "nyhed",
         "symbol": "ACHR",
@@ -243,7 +231,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.595,
+  "last_btc_price": 5.59,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1621,8 +1609,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 278.75,
-    "snitpris": 279.65,
+    "pris": 278.98,
+    "snitpris": 279.64,
     "svag": true
   },
   "marked_trend": -1
