@@ -3992,3 +3992,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-10 15:15,LUNR,11.98,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
 2026-11-10 15:15,ACHR,4.585,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
 2026-11-10 15:15,OUST,39.7,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-10 15:20,ONDS,5.805,high_vol,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,RCAT,4.3,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,UMAC,13.18,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,BBAI,2.345,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,SOUN,3.895,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,QUBT,6.545,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,RGTI,12.59,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,LUNR,11.97,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,ACHR,4.585,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
+2026-11-10 15:20,OUST,40.09,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100034.26,0.034,98140.32,-1.86,0.0,-0.139,0.3217,
