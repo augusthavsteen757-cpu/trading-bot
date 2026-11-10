@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 15.50** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 15.55** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.50
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.55
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 15.50** (dansk tid). Ku
 
 ## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.45
+**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.50
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 15.50** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.45
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.50
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -68,11 +68,16 @@ Opdateres af sig selv hvert 5. minut. Sidst: **10/11 kl. 15.50** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.178 USD  ·  **I alt:** +178 USD (+0.18 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.46
+**Konto:** 100.163 USD  ·  **I alt:** +163 USD (+0.16 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 10/11 15.51
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +78 USD (2 vundet), fuld fart
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| AVGO | 122 | 326.10 | 10/11 15.51 |
+| CRWD | 176 | 226.80 | 10/11 15.51 |
 
 **Lukkede handler:** 16 i alt, 4 med gevinst, samlet +524 USD
 
