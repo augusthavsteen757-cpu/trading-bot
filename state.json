@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73297.046,
+  "last_btc_price": 73435.617,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1565,18 +1565,6 @@
         "pris_ved_nyhed": 2051.0915,
         "udloeber": "2026-11-10T17:34:34.160305+00:00"
       },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hoejbeta altcoin reagerer ofte kraftigere paa risk-off bevaegelser fra makronyheder, saa retningen er ned, men signalet er svagt.",
-        "tid": "2026-11-10T14:19:30.366297+00:00",
-        "pris_ved_nyhed": 83.8247,
-        "udloeber": "2026-11-10T16:19:30.366297+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1982,7 +1970,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T15:59:34.329454+00:00",
+    "sidst_hentet": "2026-11-10T16:19:35.458208+00:00",
     "opslag": [
       {
         "id": "t3_1xsnslb",
@@ -2120,8 +2108,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.76,
-    "snitpris": 675.51,
+    "pris": 673.94,
+    "snitpris": 675.48,
     "svag": true
   },
   "marked_trend": -1
