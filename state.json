@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.099069,
+  "budget_used": 1.145459,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -37,8 +37,8 @@
     ]
   },
   "ai_day": "2026-11-10",
-  "ai_rounds_today": 14,
-  "ai_spend_today": 0.12260339999999997,
+  "ai_rounds_today": 20,
+  "ai_spend_today": 0.16899359999999997,
   "eq_day": "2026-11-10",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
@@ -75,7 +75,7 @@
       "last_review_price": 661.3199999999999
     },
     "NVDA": {
-      "last_entry_eval": "2026-11-10T15:19:47.707217+00:00",
+      "last_entry_eval": "2026-11-10T20:30:06.670242+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -84,7 +84,7 @@
     },
     "AAPL": {
       "orb_day": "2026-11-06",
-      "last_entry_eval": "2026-11-10T14:35:24.275705+00:00",
+      "last_entry_eval": "2026-11-10T20:30:20.984223+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -92,7 +92,7 @@
       "last_review_price": 344.08
     },
     "MSFT": {
-      "last_entry_eval": "2026-11-10T15:40:06.839634+00:00",
+      "last_entry_eval": "2026-11-10T20:30:35.848743+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -101,7 +101,7 @@
       "last_review_price": 533.15
     },
     "AMZN": {
-      "last_entry_eval": "2026-11-10T15:40:18.725708+00:00",
+      "last_entry_eval": "2026-11-10T20:30:44.744315+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -110,7 +110,7 @@
       "last_review_price": 255.96
     },
     "META": {
-      "last_entry_eval": "2026-11-10T15:40:34.432267+00:00",
+      "last_entry_eval": "2026-11-10T20:30:54.669870+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -119,9 +119,9 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-10T14:59:52.335038+00:00",
+      "last_entry_eval": "2026-11-10T20:31:04.323292+00:00",
       "last_entry_setups": [
-        "trend_pullback"
+        "nyhed_op"
       ],
       "orb_day": "2026-11-04",
       "last_hold_review": "2026-11-04T15:04:03.880596+00:00",
@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73582.83,
+  "last_btc_price": 73585.73,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -2024,9 +2024,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.07,
-    "snitpris": 673.52,
-    "svag": true
+    "pris": 674.08,
+    "snitpris": 673.55,
+    "svag": false
   },
   "marked_trend": -1
 }
