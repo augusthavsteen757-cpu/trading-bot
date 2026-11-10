@@ -3892,3 +3892,353 @@ tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal
 2026-11-09 20:58,GOOGL,288.31,ned,0.713,196738,bullish,VENT,,,,,98657.54,-0.27,hint og trend peger ikke samme vej
 2026-11-09 20:58,AMD,509.205,ned,0.685,325820,bullish,VENT,,,,,98657.54,-0.27,hint og trend peger ikke samme vej
 2026-11-09 20:58,TSLA,378.73,flad,0.553,481366,ingen,VENT,,,,,98657.54,-0.27,intet klart hint
+2026-11-10 14:35,SPY,748.68,ned,0.362,2495761,bearish,VENT,,,,,98966.5,0.22,koeb kun 10:00-15:00 New York
+2026-11-10 14:35,QQQ,673.46,ned,0.452,1757963,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 14:35,NVDA,171.97,ned,0.555,1945300,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 14:35,AAPL,350.77,op,0.55,529904,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 14:35,MSFT,542.0,op,0.633,156324,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 14:35,AMZN,270.255,op,0.672,398291,bullish,VENT,,,,,98966.5,0.22,koeb kun 10:00-15:00 New York
+2026-11-10 14:35,META,639.22,ned,0.674,214888,bullish,VENT,,,,,98966.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 14:35,GOOGL,288.1,ned,0.714,210829,bullish,VENT,,,,,98966.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 14:35,AMD,507.52,ned,0.677,344368,bullish,VENT,,,,,98966.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 14:35,TSLA,376.0,ned,0.553,526565,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 14:40,SPY,749.035,ned,0.362,2495710,bearish,VENT,,,,,99037.5,0.29,koeb kun 10:00-15:00 New York
+2026-11-10 14:40,QQQ,674.36,ned,0.452,1757963,ingen,VENT,,,,,99037.5,0.29,intet klart hint
+2026-11-10 14:40,NVDA,172.4,ned,0.555,1945300,ingen,VENT,,,,,99037.5,0.29,intet klart hint
+2026-11-10 14:40,AAPL,351.275,op,0.55,529904,ingen,VENT,,,,,99037.5,0.29,intet klart hint
+2026-11-10 14:40,MSFT,542.84,op,0.633,156324,ingen,VENT,,,,,99037.5,0.29,intet klart hint
+2026-11-10 14:40,AMZN,271.69,op,0.673,398913,bullish,VENT,,,,,99037.5,0.29,koeb kun 10:00-15:00 New York
+2026-11-10 14:40,META,642.62,ned,0.674,215159,bullish,VENT,,,,,99037.5,0.29,hint og trend peger ikke samme vej
+2026-11-10 14:40,GOOGL,290.175,ned,0.714,210924,bullish,VENT,,,,,99037.5,0.29,hint og trend peger ikke samme vej
+2026-11-10 14:40,AMD,513.52,ned,0.683,345665,bullish,VENT,,,,,99037.5,0.29,hint og trend peger ikke samme vej
+2026-11-10 14:40,TSLA,375.935,ned,0.553,526565,ingen,VENT,,,,,99037.5,0.29,intet klart hint
+2026-11-10 14:44,SPY,749.25,ned,0.42,663685,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,QQQ,674.63,ned,0.454,596722,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,NVDA,171.88,ned,0.419,127359,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,AAPL,350.59,op,0.389,93597,bearish,VENT,,,,,98981.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 14:45,MSFT,542.9,op,0.605,76828,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,AMZN,270.96,op,0.532,90887,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,META,641.57,ned,0.652,86814,bullish,VENT,,,,,98981.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 14:45,GOOGL,289.12,ned,0.588,62465,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:45,AMD,520.23,ned,0.704,141434,bullish,VENT,,,,,98981.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 14:45,TSLA,375.68,ned,0.489,114298,ingen,VENT,,,,,98981.5,0.23,intet klart hint
+2026-11-10 14:49,SPY,748.49,ned,0.523,413012,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,QQQ,673.51,ned,0.462,378893,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,NVDA,171.15,ned,0.537,230504,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,AAPL,350.38,op,0.608,88366,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,MSFT,541.9,op,0.599,43556,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,AMZN,270.18,op,0.604,72275,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,META,639.86,ned,0.579,47625,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,GOOGL,288.14,ned,0.576,36604,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:50,AMD,518.415,ned,0.685,65530,bullish,VENT,,,,,98984.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 14:50,TSLA,374.895,ned,0.555,98952,ingen,VENT,,,,,98984.5,0.23,intet klart hint
+2026-11-10 14:55,SPY,748.31,ned,0.518,447228,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,QQQ,676.05,ned,0.471,376941,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,NVDA,171.285,ned,0.582,346269,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,AAPL,348.45,op,0.567,103832,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,MSFT,541.61,op,0.572,40084,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,AMZN,270.09,op,0.703,97258,bullish,VENT,,,,,98967.5,0.22,koeb kun 10:00-15:00 New York
+2026-11-10 14:55,META,640.47,ned,0.585,45303,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,GOOGL,289.28,ned,0.648,36360,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 14:55,AMD,526.155,op,0.69,75822,bullish,VENT,,,,,98967.5,0.22,koeb kun 10:00-15:00 New York
+2026-11-10 14:55,TSLA,376.47,ned,0.598,134431,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:00,SPY,750.74,ned,0.516,488832,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,QQQ,679.0,ned,0.455,397481,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,NVDA,173.01,ned,0.579,496794,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,AAPL,348.02,op,0.561,116949,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,MSFT,542.25,op,0.586,37300,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,AMZN,271.25,op,0.752,112864,bullish,VENT,,,,,98894.5,0.14,har allerede en handel i aktien
+2026-11-10 15:00,META,643.4,ned,0.596,49370,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:00,GOOGL,291.13,ned,0.727,41753,bullish,VENT,,,,,98894.5,0.14,hint og trend peger ikke samme vej
+2026-11-10 15:00,AMD,534.465,op,0.708,101256,bullish,VENT,,,,,98894.5,0.14,"1 kontrakt koster 2897 USD, mere end 1% af kontoen"
+2026-11-10 15:00,TSLA,376.12,ned,0.598,163856,ingen,VENT,,,,,98894.5,0.14,intet klart hint
+2026-11-10 15:04,SPY,751.68,ned,0.503,517300,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,QQQ,679.955,ned,0.446,412968,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,NVDA,173.105,ned,0.569,592325,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,AAPL,348.39,op,0.559,135875,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,MSFT,543.015,op,0.569,40794,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,AMZN,272.43,op,0.763,127135,bullish,VENT,,,,,98922.5,0.17,har allerede en handel i aktien
+2026-11-10 15:05,META,645.47,ned,0.609,51348,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:05,GOOGL,290.69,ned,0.729,46225,bullish,VENT,,,,,98922.5,0.17,hint og trend peger ikke samme vej
+2026-11-10 15:05,AMD,537.08,op,0.708,123864,bullish,VENT,,,,,98922.5,0.17,"1 kontrakt koster 2847 USD, mere end 1% af kontoen"
+2026-11-10 15:05,TSLA,376.895,ned,0.592,180776,ingen,VENT,,,,,98922.5,0.17,intet klart hint
+2026-11-10 15:10,SPY,751.8,ned,0.464,581294,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,QQQ,679.85,ned,0.458,428132,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,NVDA,174.13,ned,0.576,694410,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,AAPL,347.645,op,0.502,173949,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,MSFT,542.74,op,0.577,40887,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,AMZN,271.995,op,0.754,140146,bullish,VENT,,,,,98899.5,0.15,har allerede en handel i aktien
+2026-11-10 15:10,META,645.17,ned,0.613,53409,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:10,GOOGL,290.03,ned,0.726,51081,bullish,VENT,,,,,98899.5,0.15,hint og trend peger ikke samme vej
+2026-11-10 15:10,AMD,535.4,op,0.727,152138,bullish,VENT,,,,,98899.5,0.15,"1 kontrakt koster 3350 USD, mere end 1% af kontoen"
+2026-11-10 15:10,TSLA,376.545,ned,0.598,208507,ingen,VENT,,,,,98899.5,0.15,intet klart hint
+2026-11-10 15:14,SPY,750.98,ned,0.468,657745,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,QQQ,679.14,ned,0.461,444855,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,NVDA,173.18,ned,0.589,794356,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,AAPL,347.05,op,0.49,198792,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,MSFT,542.45,op,0.574,42682,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,AMZN,271.63,op,0.749,154391,bullish,VENT,,,,,98918.5,0.17,har allerede en handel i aktien
+2026-11-10 15:15,META,645.515,ned,0.594,55877,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:15,GOOGL,290.1,ned,0.752,60527,bullish,VENT,,,,,98918.5,0.17,hint og trend peger ikke samme vej
+2026-11-10 15:15,AMD,536.06,op,0.739,187510,bullish,VENT,,,,,98918.5,0.17,"1 kontrakt koster 3387 USD, mere end 1% af kontoen"
+2026-11-10 15:15,TSLA,376.945,ned,0.612,238924,ingen,VENT,,,,,98918.5,0.17,intet klart hint
+2026-11-10 15:20,SPY,750.63,ned,0.475,712086,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,QQQ,677.75,ned,0.466,475871,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,NVDA,172.565,ned,0.589,847167,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,AAPL,346.72,op,0.484,218633,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,MSFT,541.93,op,0.573,44820,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,AMZN,272.315,op,0.763,177850,bullish,VENT,,,,,98967.5,0.22,har allerede en handel i aktien
+2026-11-10 15:20,META,643.97,ned,0.621,63376,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:20,GOOGL,290.745,ned,0.764,67232,bullish,VENT,,,,,98967.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 15:20,AMD,532.985,op,0.736,216644,bullish,VENT,,,,,98967.5,0.22,"1 kontrakt koster 2801 USD, mere end 1% af kontoen"
+2026-11-10 15:20,TSLA,377.23,ned,0.614,258385,ingen,VENT,,,,,98967.5,0.22,intet klart hint
+2026-11-10 15:24,SPY,749.49,ned,0.474,742268,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,QQQ,676.2,ned,0.471,492224,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,NVDA,171.57,ned,0.595,911021,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,AAPL,346.98,op,0.497,237371,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,MSFT,541.84,op,0.584,46938,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,AMZN,271.91,op,0.765,192666,bullish,VENT,,,,,99011.5,0.26,har allerede en handel i aktien
+2026-11-10 15:25,META,642.26,ned,0.624,67283,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:25,GOOGL,290.42,ned,0.767,70796,bullish,VENT,,,,,99011.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 15:25,AMD,532.86,op,0.733,231782,bullish,VENT,,,,,99011.5,0.26,"1 kontrakt koster 2876 USD, mere end 1% af kontoen"
+2026-11-10 15:25,TSLA,376.44,ned,0.611,270784,ingen,VENT,,,,,99011.5,0.26,intet klart hint
+2026-11-10 15:30,SPY,749.33,ned,0.472,767504,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,QQQ,676.99,ned,0.466,511522,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,NVDA,171.49,ned,0.592,965611,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,AAPL,347.135,op,0.491,259032,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,MSFT,542.67,op,0.592,48012,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,AMZN,272.2,op,0.761,204354,bullish,VENT,,,,,99021.5,0.27,har allerede en handel i aktien
+2026-11-10 15:30,META,643.685,ned,0.63,71555,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:30,GOOGL,290.235,ned,0.758,74141,bullish,VENT,,,,,99021.5,0.27,hint og trend peger ikke samme vej
+2026-11-10 15:30,AMD,533.14,op,0.729,249525,bullish,VENT,,,,,99021.5,0.27,"1 kontrakt koster 2912 USD, mere end 1% af kontoen"
+2026-11-10 15:30,TSLA,376.725,ned,0.602,287733,ingen,VENT,,,,,99021.5,0.27,intet klart hint
+2026-11-10 15:34,SPY,749.83,ned,0.467,805147,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,QQQ,677.53,ned,0.461,536639,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,NVDA,171.515,ned,0.59,1006941,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,AAPL,347.24,op,0.484,279422,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,MSFT,543.43,op,0.592,49096,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,AMZN,271.94,op,0.758,213569,bullish,VENT,,,,,98955.5,0.2,har allerede en handel i aktien
+2026-11-10 15:35,META,643.91,ned,0.633,74648,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:35,GOOGL,289.945,ned,0.761,76629,bullish,VENT,,,,,98955.5,0.2,hint og trend peger ikke samme vej
+2026-11-10 15:35,AMD,531.0,op,0.715,270222,bullish,VENT,,,,,98955.5,0.2,"1 kontrakt koster 3300 USD, mere end 1% af kontoen"
+2026-11-10 15:35,TSLA,377.205,ned,0.601,299077,ingen,VENT,,,,,98955.5,0.2,intet klart hint
+2026-11-10 15:40,SPY,749.15,ned,0.457,868388,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,QQQ,675.59,ned,0.46,565200,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,NVDA,171.04,ned,0.589,1062103,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,AAPL,348.39,op,0.479,295564,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,MSFT,542.61,op,0.592,51399,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,AMZN,271.44,op,0.758,220029,bullish,VENT,,,,,98992.5,0.24,har allerede en handel i aktien
+2026-11-10 15:40,META,643.14,ned,0.629,77616,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:40,GOOGL,289.42,ned,0.765,80613,bullish,VENT,,,,,98992.5,0.24,hint og trend peger ikke samme vej
+2026-11-10 15:40,AMD,527.58,op,0.713,286657,bullish,VENT,,,,,98992.5,0.24,"1 kontrakt koster 2906 USD, mere end 1% af kontoen"
+2026-11-10 15:40,TSLA,376.06,ned,0.6,313316,ingen,VENT,,,,,98992.5,0.24,intet klart hint
+2026-11-10 15:50,SPY,746.93,ned,0.453,956563,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,QQQ,672.63,ned,0.453,602131,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,NVDA,168.76,ned,0.586,1134582,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,AAPL,347.63,op,0.482,311150,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,MSFT,542.04,op,0.583,54132,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,AMZN,270.46,op,0.753,230252,bullish,VENT,,,,,99100.5,0.35,har allerede en handel i aktien
+2026-11-10 15:50,META,641.77,ned,0.63,82846,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:50,GOOGL,288.5,ned,0.768,84647,bullish,VENT,,,,,99100.5,0.35,hint og trend peger ikke samme vej
+2026-11-10 15:50,AMD,522.23,flad,0.702,307465,bullish,VENT,,,,,99100.5,0.35,hint og trend peger ikke samme vej
+2026-11-10 15:50,TSLA,375.52,ned,0.599,342146,ingen,VENT,,,,,99100.5,0.35,intet klart hint
+2026-11-10 15:55,SPY,746.93,ned,0.442,1012746,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,QQQ,672.34,ned,0.455,621532,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,NVDA,167.81,ned,0.579,1177564,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,AAPL,347.52,op,0.491,328537,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,MSFT,542.18,op,0.585,55188,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,AMZN,269.92,op,0.763,233584,bullish,VENT,,,,,99066.5,0.32,har allerede en handel i aktien
+2026-11-10 15:55,META,642.43,ned,0.63,84770,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 15:55,GOOGL,287.885,ned,0.769,87993,bullish,VENT,,,,,99066.5,0.32,hint og trend peger ikke samme vej
+2026-11-10 15:55,AMD,519.61,ned,0.688,322765,bullish,VENT,,,,,99066.5,0.32,hint og trend peger ikke samme vej
+2026-11-10 15:55,TSLA,376.03,ned,0.597,354795,ingen,VENT,,,,,99066.5,0.32,intet klart hint
+2026-11-10 16:00,SPY,747.53,ned,0.441,1074558,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,QQQ,673.74,ned,0.457,651324,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,NVDA,169.41,ned,0.578,1260211,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,AAPL,347.345,op,0.497,336331,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,MSFT,542.99,op,0.587,56155,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,AMZN,270.38,op,0.753,243690,bullish,VENT,,,,,99010.5,0.26,har allerede en handel i aktien
+2026-11-10 16:00,META,643.07,ned,0.632,87848,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:00,GOOGL,288.35,ned,0.767,92117,bullish,VENT,,,,,99010.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 16:01,AMD,525.34,flad,0.685,337278,bullish,VENT,,,,,99010.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 16:01,TSLA,377.98,ned,0.591,370191,ingen,VENT,,,,,99010.5,0.26,intet klart hint
+2026-11-10 16:05,SPY,747.71,ned,0.443,1145449,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,QQQ,673.73,ned,0.459,695558,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,NVDA,169.455,ned,0.567,1380834,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,AAPL,347.61,op,0.501,346599,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,MSFT,542.83,op,0.589,58666,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,AMZN,269.825,op,0.746,249261,bullish,VENT,,,,,99000.5,0.25,har allerede en handel i aktien
+2026-11-10 16:05,META,642.3,ned,0.635,91273,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:05,GOOGL,288.04,ned,0.742,96987,bullish,VENT,,,,,99000.5,0.25,hint og trend peger ikke samme vej
+2026-11-10 16:05,AMD,526.37,op,0.679,349426,bullish,VENT,,,,,99000.5,0.25,"1 kontrakt koster 2922 USD, mere end 1% af kontoen"
+2026-11-10 16:05,TSLA,377.03,ned,0.584,382668,ingen,VENT,,,,,99000.5,0.25,intet klart hint
+2026-11-10 16:10,SPY,747.8,ned,0.441,1200583,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,QQQ,674.16,ned,0.457,722303,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,NVDA,169.42,ned,0.565,1469797,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,AAPL,347.56,op,0.504,358866,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,MSFT,542.675,op,0.584,61832,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,AMZN,269.74,op,0.736,258751,bullish,VENT,,,,,98991.5,0.24,har allerede en handel i aktien
+2026-11-10 16:10,META,642.33,ned,0.633,94494,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:10,GOOGL,288.15,ned,0.744,100094,bullish,VENT,,,,,98991.5,0.24,hint og trend peger ikke samme vej
+2026-11-10 16:10,AMD,528.94,op,0.675,359128,bullish,VENT,,,,,98991.5,0.24,"1 kontrakt koster 2922 USD, mere end 1% af kontoen"
+2026-11-10 16:10,TSLA,377.76,ned,0.586,398482,ingen,VENT,,,,,98991.5,0.24,intet klart hint
+2026-11-10 16:15,SPY,748.085,ned,0.447,1249389,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,QQQ,674.57,ned,0.455,746082,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,NVDA,170.02,ned,0.564,1558703,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,AAPL,347.51,op,0.504,364219,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,MSFT,542.96,op,0.595,63765,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,AMZN,269.5,op,0.733,265264,bullish,VENT,,,,,98945.5,0.19,har allerede en handel i aktien
+2026-11-10 16:15,META,642.84,ned,0.631,97214,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:15,GOOGL,287.94,ned,0.74,103057,bullish,VENT,,,,,98945.5,0.19,hint og trend peger ikke samme vej
+2026-11-10 16:15,AMD,529.45,op,0.673,371261,bullish,VENT,,,,,98945.5,0.19,"1 kontrakt koster 2965 USD, mere end 1% af kontoen"
+2026-11-10 16:15,TSLA,377.98,ned,0.579,410639,ingen,VENT,,,,,98945.5,0.19,intet klart hint
+2026-11-10 16:20,SPY,747.55,ned,0.449,1283559,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,QQQ,673.71,ned,0.454,770819,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,NVDA,168.68,ned,0.56,1653020,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,AAPL,347.33,op,0.504,369119,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,MSFT,543.105,op,0.594,64066,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,AMZN,269.41,op,0.734,267861,bullish,VENT,,,,,98961.5,0.21,har allerede en handel i aktien
+2026-11-10 16:20,META,642.14,ned,0.629,98685,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:20,GOOGL,287.77,ned,0.739,104985,bullish,VENT,,,,,98961.5,0.21,hint og trend peger ikke samme vej
+2026-11-10 16:20,AMD,526.02,op,0.675,383231,bullish,VENT,,,,,98961.5,0.21,"1 kontrakt koster 3261 USD, mere end 1% af kontoen"
+2026-11-10 16:20,TSLA,376.74,ned,0.579,420053,ingen,VENT,,,,,98961.5,0.21,intet klart hint
+2026-11-10 16:25,SPY,747.68,ned,0.447,1303319,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,QQQ,673.58,ned,0.452,795544,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,NVDA,168.72,ned,0.567,1772701,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,AAPL,347.3,op,0.505,371897,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,MSFT,542.98,op,0.594,64693,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,AMZN,269.335,op,0.733,273968,bullish,VENT,,,,,98966.5,0.22,har allerede en handel i aktien
+2026-11-10 16:25,META,642.91,ned,0.632,100414,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:25,GOOGL,287.51,ned,0.743,108001,bullish,VENT,,,,,98966.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 16:25,AMD,523.48,flad,0.673,392959,bullish,VENT,,,,,98966.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 16:25,TSLA,376.59,ned,0.581,432999,ingen,VENT,,,,,98966.5,0.22,intet klart hint
+2026-11-10 16:30,SPY,747.73,ned,0.448,1328458,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,QQQ,672.77,ned,0.45,818172,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,NVDA,168.98,ned,0.571,1802832,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,AAPL,347.3,op,0.506,373891,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,MSFT,542.59,op,0.591,65917,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,AMZN,269.065,op,0.725,280901,bullish,VENT,,,,,98930.5,0.18,har allerede en handel i aktien
+2026-11-10 16:30,META,643.25,ned,0.648,99972,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:30,GOOGL,287.09,ned,0.738,109268,bullish,VENT,,,,,98930.5,0.18,hint og trend peger ikke samme vej
+2026-11-10 16:30,AMD,520.67,flad,0.673,398815,bullish,VENT,,,,,98930.5,0.18,hint og trend peger ikke samme vej
+2026-11-10 16:30,TSLA,375.985,ned,0.58,442619,ingen,VENT,,,,,98930.5,0.18,intet klart hint
+2026-11-10 16:35,SPY,747.55,ned,0.45,1353343,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,QQQ,672.895,ned,0.45,832391,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,NVDA,168.8,ned,0.569,1857618,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,AAPL,347.39,op,0.506,376124,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,MSFT,542.05,op,0.592,66585,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,AMZN,268.86,op,0.72,285964,bullish,VENT,,,,,98940.5,0.19,har allerede en handel i aktien
+2026-11-10 16:35,META,644.34,ned,0.647,101180,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:35,GOOGL,287.45,ned,0.736,110753,bullish,VENT,,,,,98940.5,0.19,hint og trend peger ikke samme vej
+2026-11-10 16:35,AMD,520.86,flad,0.673,404669,bullish,VENT,,,,,98940.5,0.19,hint og trend peger ikke samme vej
+2026-11-10 16:35,TSLA,375.61,ned,0.58,450427,ingen,VENT,,,,,98940.5,0.19,intet klart hint
+2026-11-10 16:40,SPY,746.84,ned,0.449,1378655,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,QQQ,671.8,ned,0.449,846718,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,NVDA,168.2,ned,0.57,1944369,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,AAPL,347.25,op,0.506,379467,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,MSFT,541.36,op,0.593,67513,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,AMZN,268.9,op,0.717,288576,bullish,VENT,,,,,98994.5,0.24,har allerede en handel i aktien
+2026-11-10 16:40,META,642.225,ned,0.648,103483,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:40,GOOGL,287.27,ned,0.735,112513,bullish,VENT,,,,,98994.5,0.24,hint og trend peger ikke samme vej
+2026-11-10 16:40,AMD,517.69,ned,0.67,410580,bullish,VENT,,,,,98994.5,0.24,hint og trend peger ikke samme vej
+2026-11-10 16:40,TSLA,376.145,ned,0.578,459202,ingen,VENT,,,,,98994.5,0.24,intet klart hint
+2026-11-10 16:45,SPY,746.93,ned,0.45,1397351,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,QQQ,671.31,ned,0.451,861634,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,NVDA,167.51,ned,0.567,1987293,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,AAPL,347.46,op,0.509,384214,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,MSFT,542.61,op,0.597,68942,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,AMZN,268.995,op,0.714,292604,bullish,VENT,,,,,98980.5,0.23,har allerede en handel i aktien
+2026-11-10 16:45,META,641.905,ned,0.648,105966,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:45,GOOGL,287.12,ned,0.734,117221,bullish,VENT,,,,,98980.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 16:45,AMD,515.6,ned,0.665,415269,bullish,VENT,,,,,98980.5,0.23,hint og trend peger ikke samme vej
+2026-11-10 16:45,TSLA,375.715,ned,0.578,464616,ingen,VENT,,,,,98980.5,0.23,intet klart hint
+2026-11-10 16:50,SPY,746.36,ned,0.452,1421641,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,QQQ,670.24,ned,0.445,870412,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,NVDA,167.02,ned,0.567,2025967,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,AAPL,347.76,op,0.511,387831,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,MSFT,543.45,op,0.593,69931,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,AMZN,268.85,op,0.711,296154,bullish,VENT,,,,,99013.5,0.26,har allerede en handel i aktien
+2026-11-10 16:50,META,640.42,ned,0.65,108438,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:50,GOOGL,287.1,ned,0.738,120233,bullish,VENT,,,,,99013.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 16:50,AMD,510.2,ned,0.662,420055,bullish,VENT,,,,,99013.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 16:50,TSLA,375.15,ned,0.578,469950,ingen,VENT,,,,,99013.5,0.26,intet klart hint
+2026-11-10 16:55,SPY,746.32,ned,0.453,1448090,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 16:55,QQQ,670.13,ned,0.445,890967,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 16:55,NVDA,166.96,ned,0.565,2063582,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 16:55,AAPL,348.03,op,0.513,390553,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 16:55,MSFT,543.1,op,0.589,71607,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 16:55,AMZN,268.69,op,0.709,299033,bullish,VENT,,,,,99028.5,0.28,har allerede en handel i aktien
+2026-11-10 16:55,META,638.05,ned,0.651,110739,bullish,VENT,,,,,99028.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 16:55,GOOGL,287.49,ned,0.737,124456,bullish,VENT,,,,,99028.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 16:55,AMD,508.895,ned,0.66,428050,bullish,VENT,,,,,99028.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 16:55,TSLA,375.58,ned,0.578,478558,ingen,VENT,,,,,99028.5,0.28,intet klart hint
+2026-11-10 17:00,SPY,746.24,ned,0.456,1472969,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:00,QQQ,669.58,ned,0.444,911518,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:00,NVDA,166.995,ned,0.562,2122493,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:00,AAPL,348.23,op,0.513,393616,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:00,MSFT,543.06,op,0.591,72554,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:00,AMZN,268.825,op,0.709,301004,bullish,VENT,,,,,99030.5,0.28,har allerede en handel i aktien
+2026-11-10 17:00,META,640.32,ned,0.652,112854,bullish,VENT,,,,,99030.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 17:00,GOOGL,287.08,ned,0.736,125756,bullish,VENT,,,,,99030.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 17:01,AMD,509.59,ned,0.657,436477,bullish,VENT,,,,,99030.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 17:01,TSLA,375.44,ned,0.577,485006,ingen,VENT,,,,,99030.5,0.28,intet klart hint
+2026-11-10 17:05,SPY,746.345,ned,0.454,1519178,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,QQQ,670.42,ned,0.44,940317,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,NVDA,167.085,ned,0.555,2193379,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,AAPL,348.27,op,0.515,397909,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,MSFT,543.08,op,0.595,76105,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,AMZN,268.99,op,0.71,305294,bullish,VENT,,,,,99027.5,0.28,har allerede en handel i aktien
+2026-11-10 17:05,META,639.66,ned,0.649,117276,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:05,GOOGL,286.91,ned,0.736,129201,bullish,VENT,,,,,99027.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 17:05,AMD,508.98,ned,0.652,448241,bullish,VENT,,,,,99027.5,0.28,hint og trend peger ikke samme vej
+2026-11-10 17:05,TSLA,376.06,ned,0.575,499084,ingen,VENT,,,,,99027.5,0.28,intet klart hint
+2026-11-10 17:10,SPY,747.365,ned,0.453,1546925,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,QQQ,670.74,ned,0.44,967175,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,NVDA,167.175,ned,0.552,2257594,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,AAPL,348.38,op,0.518,404429,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,MSFT,543.07,op,0.597,77642,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,AMZN,268.82,op,0.708,308659,bullish,VENT,,,,,98963.5,0.21,har allerede en handel i aktien
+2026-11-10 17:10,META,640.87,ned,0.642,122125,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,GOOGL,287.46,ned,0.734,130919,bullish,VENT,,,,,98963.5,0.21,hint og trend peger ikke samme vej
+2026-11-10 17:10,AMD,509.22,ned,0.65,462232,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:10,TSLA,376.03,ned,0.573,507153,ingen,VENT,,,,,98963.5,0.21,intet klart hint
+2026-11-10 17:15,SPY,747.28,ned,0.452,1576369,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,QQQ,671.06,ned,0.44,1002329,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,NVDA,167.19,ned,0.551,2295798,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,AAPL,348.21,op,0.519,409458,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,MSFT,543.28,op,0.596,78542,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,AMZN,268.635,op,0.706,312674,bullish,VENT,,,,,98942.5,0.19,har allerede en handel i aktien
+2026-11-10 17:15,META,640.53,ned,0.64,126455,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,GOOGL,287.19,ned,0.736,133627,bullish,VENT,,,,,98942.5,0.19,hint og trend peger ikke samme vej
+2026-11-10 17:15,AMD,510.58,ned,0.647,470301,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:15,TSLA,375.94,ned,0.569,515694,ingen,VENT,,,,,98942.5,0.19,intet klart hint
+2026-11-10 17:20,SPY,747.72,ned,0.451,1612308,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,QQQ,671.28,ned,0.439,1023258,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,NVDA,167.77,ned,0.55,2344559,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,AAPL,348.1,op,0.522,415949,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,MSFT,543.64,op,0.596,79465,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,AMZN,269.07,op,0.706,315631,bullish,VENT,,,,,98928.5,0.18,har allerede en handel i aktien
+2026-11-10 17:20,META,640.61,ned,0.641,129536,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,GOOGL,287.265,ned,0.734,135728,bullish,VENT,,,,,98928.5,0.18,hint og trend peger ikke samme vej
+2026-11-10 17:20,AMD,510.28,ned,0.644,477339,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:20,TSLA,376.09,ned,0.569,523021,ingen,VENT,,,,,98928.5,0.18,intet klart hint
+2026-11-10 17:25,SPY,746.465,ned,0.453,1630948,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,QQQ,669.87,ned,0.435,1042109,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,NVDA,167.56,ned,0.549,2380711,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,AAPL,348.16,op,0.523,420135,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,MSFT,536.09,op,0.594,80345,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,AMZN,268.81,op,0.705,317420,bullish,VENT,,,,,99009.5,0.26,har allerede en handel i aktien
+2026-11-10 17:25,META,639.475,ned,0.641,131010,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,GOOGL,286.75,ned,0.733,136900,bullish,VENT,,,,,99009.5,0.26,hint og trend peger ikke samme vej
+2026-11-10 17:25,AMD,507.76,ned,0.639,480702,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:25,TSLA,375.605,ned,0.569,529315,ingen,VENT,,,,,99009.5,0.26,intet klart hint
+2026-11-10 17:30,SPY,746.98,ned,0.453,1656701,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,QQQ,670.33,ned,0.435,1054465,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,NVDA,167.685,ned,0.549,2431013,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,AAPL,348.235,op,0.524,423690,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,MSFT,535.165,op,0.594,80758,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,AMZN,269.23,op,0.704,319055,bullish,VENT,,,,,98970.5,0.22,har allerede en handel i aktien
+2026-11-10 17:30,META,640.86,ned,0.64,133235,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,GOOGL,286.785,ned,0.721,140377,bullish,VENT,,,,,98970.5,0.22,hint og trend peger ikke samme vej
+2026-11-10 17:30,AMD,509.5,ned,0.639,494233,ingen,VENT,,,,,98970.5,0.22,intet klart hint
+2026-11-10 17:30,TSLA,376.48,ned,0.57,533941,ingen,VENT,,,,,98970.5,0.22,intet klart hint

@@ -8,12 +8,9 @@
       "trend": "op"
     }
   },
-  "day": "2026-11-09",
-  "new_today": 2,
-  "traded_today": [
-    "AMZN",
-    "SPY"
-  ],
+  "day": "2026-11-10",
+  "new_today": 0,
+  "traded_today": [],
   "peak_equity": 100050.97,
   "test_kob_id": "testkoeb-options-2026-11-03"
 }
