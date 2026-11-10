@@ -318,10 +318,10 @@
       "2026-11-10 17:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67": [
-      "2026-11-10 17:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
       "2026-11-10 17:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
-      "2026-11-10 17:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
+      "2026-11-10 17:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars",
+      "2026-11-10 17:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 67 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2257,7 +2257,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T17:16:36.296065+00:00",
+    "sidst": "2026-11-10T17:31:35.451961+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2285,8 +2285,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 669.86,
-    "snitpris": 674.65,
+    "pris": 670.06,
+    "snitpris": 674.6,
     "svag": true
   },
   "marked_trend": null
