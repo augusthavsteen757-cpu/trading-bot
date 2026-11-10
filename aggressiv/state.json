@@ -218,7 +218,8 @@
       "2026-11-09 20:57: MF: RuntimeError: For lidt data for MF: 207 dag-bars, 65 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64": [
-      "2026-11-10 14:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
+      "2026-11-10 14:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars",
+      "2026-11-10 14:41: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 64 time-bars"
     ]
   },
   "budget_month": "2026-11",
