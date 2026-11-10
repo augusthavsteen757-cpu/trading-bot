@@ -401,7 +401,8 @@
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65": [
       "2026-11-10 15:06: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
       "2026-11-10 15:11: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
-      "2026-11-10 15:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
+      "2026-11-10 15:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars",
+      "2026-11-10 15:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -415,7 +416,7 @@
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T15:01:06.491993+00:00",
+    "sidst_hentet": "2026-11-10T15:21:03.362862+00:00",
     "opslag": [
       {
         "id": "t3_1xsik05",
@@ -566,19 +567,9 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xru2mp",
-        "tid": "2026-11-09T15:08:12+00:00",
-        "titel": "Nvidia's down but Micron out-earned Apple last qtr and is worth a 6th as much",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 16 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2483,7 +2474,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T15:06:03.455521+00:00",
+    "sidst": "2026-11-10T15:21:03.234595+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2511,8 +2502,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.11,
-    "snitpris": 676.13,
+    "pris": 678.2,
+    "snitpris": 676.25,
     "svag": false
   },
   "marked_trend": null
