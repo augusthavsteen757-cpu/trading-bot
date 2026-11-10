@@ -165,7 +165,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74275.20999999999,
+  "last_btc_price": 74311.545,
   "earnings_cache": {
     "2026-11-04": [
       "AAUC",
@@ -1802,18 +1802,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "MARA er en bitcoin-miner; nyheden handler primaert om AI-energi og har kun svag direkte effekt paa BTC-kursen. Begraenset paavirkning ventes.",
-        "tid": "2026-11-10T07:03:55.546660+00:00",
-        "pris_ved_nyhed": 74684.465,
-        "udloeber": "2026-11-10T09:03:55.546660+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -2147,7 +2135,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-10T08:48:55.679168+00:00",
+    "sidst_hentet": "2026-11-10T09:08:56.001392+00:00",
     "opslag": [
       {
         "id": "t3_1xsgbm6",
