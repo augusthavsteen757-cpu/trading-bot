@@ -62,6 +62,7 @@ MAX_CRYPTO_AI_ROUNDS = int(env_f("MAX_CRYPTO_AI_ROUNDS", 10))  # krypto maa max 
 ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
 PARTIAL_AT_R = env_f("PARTIAL_AT_R", 0)  # >0: saelg halvdelen af en aktie-handel ved +X R og flyt stop til koebsprisen (0 = fra)
+ORB_MIN_REL_VOL = env_f("ORB_MIN_REL_VOL", 0)  # >0: ORB kun naar volumen sidste 15 min er mindst X gange normalt (aegte breakout)
 SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
@@ -1172,6 +1173,11 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
         sig = orb_signal(m5, price)
         if sig and (state.get("marked_trend") or 0) < 0:
             row["note"] = f"ORB-signal, men {ORB_TREND_FILTER} er i en faldende dagstrend: intet morgenkoeb"
+            sig = None
+        if sig and ORB_MIN_REL_VOL > 0 and not TEST_MODE and (f.get("rel_volumen_15m") or 0) < ORB_MIN_REL_VOL:
+            # Proff-regel: et breakout uden ekstra koebere (lav volumen) falder ofte tilbage. Alle 9 aggressive
+            # ORB-handler 4.-10. nov med volumen under 1,5x normalt tabte (ca. -1.650 USD); alle vindere havde over 1,5x.
+            row["note"] = f"ORB-signal, men for lav volumen ({f.get('rel_volumen_15m')}x normalt, kraever {ORB_MIN_REL_VOL:g}x)"
             sig = None
         if sig and raket and f.get("vwap") and price < f["vwap"]:  # raket under dagens snitpris: den er ved at falde
             row["note"] = f"ORB-signal, men raketten er under dagens snitpris ({f['vwap']:.2f})"
