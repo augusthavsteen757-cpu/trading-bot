@@ -36,7 +36,7 @@
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-10T17:35:46.496818+00:00",
+      "last_entry_eval": "2026-11-10T18:40:41.010589+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -106,10 +106,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.340949,
+  "budget_used": 0.346959,
   "ai_day": "2026-11-10",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.04428260000000002,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.050292700000000023,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-10",
   "day_start_equity": 100034.26,
@@ -182,7 +182,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.485,
+  "last_btc_price": 5.495,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1560,8 +1560,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.73,
-    "snitpris": 279.55,
+    "pris": 279.88,
+    "snitpris": 279.56,
     "svag": false
   },
   "marked_trend": -1
