@@ -162,31 +162,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-10",
-      "pos": {
-        "entry": 226.8,
-        "stop": 221.82999999999998,
-        "stop_initial": 221.82999999999998,
-        "high": 230.06,
-        "qty": 176.0,
-        "entry_tid": "2026-11-10 14:51",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 225.18, 'or_low': 218.48, 'sidste_luk': 225.24}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 48.9,
-          "adx_1h": 27.2,
-          "rel_volumen_1h": 1.71,
-          "afstand_modstand_atr": 0.6,
-          "atr_percentil_30d": 93.5
-        },
-        "target": 241.7100000000001,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-10"
     },
     "SHOP": {
       "orb_day": "2026-11-10",
@@ -336,10 +312,10 @@
       "2026-11-10 15:26: COIN: stop ramt (Alpaca). R=-1.04. Entry 136, exit 132. Grund til koeb: ORB breakout {'or_high': 134.67, 'or_low': 130.27, 'sidste_luk': 135.6}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 44.1, 'adx_1h': 15.5, 'rel_volumen_1h': 0.01, 'afstand_modstand_atr': 0.81, 'atr_percentil_30d': 78.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66": [
-      "2026-11-10 16:16: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:21: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
       "2026-11-10 16:26: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
-      "2026-11-10 16:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
+      "2026-11-10 16:31: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
+      "2026-11-10 16:36: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -348,7 +324,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.05965980000000001,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -2251 USD (0 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -2240 USD (0 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-10",
   "day_start_equity": 100177.75,
   "peak_equity": 105445.49,
@@ -2355,7 +2331,7 @@
       "SECZ",
       "PXLW"
     ],
-    "sidst": "2026-11-10T16:26:36.838034+00:00",
+    "sidst": "2026-11-10T16:36:40.157843+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2383,8 +2359,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.29,
-    "snitpris": 675.4,
+    "pris": 673.42,
+    "snitpris": 675.33,
     "svag": true
   },
   "marked_trend": null
