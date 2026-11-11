@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73313.9405,
+  "last_btc_price": 73347.155,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,8 +1886,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T02:05:33.875120+00:00",
+    "sidst_hentet": "2026-11-11T02:25:33.323856+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt5xx4",
+        "tid": "2026-11-11T02:23:20+00:00",
+        "titel": "I found a laptop with 500 btc",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt5jz7",
         "tid": "2026-11-11T02:05:00+00:00",
@@ -2159,7 +2169,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
