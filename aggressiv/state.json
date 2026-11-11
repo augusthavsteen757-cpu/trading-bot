@@ -577,18 +577,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "AI-chip-rally drevet af CoreWeaves st\u00e6rke resultater; AVGO er en stor AI-chipleverand\u00f8r og b\u00f8r profitere af stemningen.",
-        "tid": "2026-11-11T16:08:46.910923+00:00",
-        "pris_ved_nyhed": 351.46500000000003,
-        "udloeber": "2026-11-11T19:08:46.910923+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -2097,8 +2085,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.7,
-    "snitpris": 691.0,
+    "pris": 693.95,
+    "snitpris": 691.06,
     "svag": false
   },
   "marked_trend": null
