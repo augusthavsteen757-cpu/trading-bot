@@ -14845,3 +14845,18 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-11 17:32,TSLA,393.61,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99516.96,-0.483,95588.12,-4.412,0.154,-0.949,1.3115,
 2026-11-11 17:32,EQIX,1073.13,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99513.88,-0.486,95588.12,-4.412,0.154,-0.949,1.3115,
 2026-11-11 17:32,DLR,181.97,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99516.67,-0.483,95588.12,-4.412,0.154,-0.949,1.3115,
+2026-11-11 17:37,BTC/USD,74442.8,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99559.21,-0.441,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,ETH/USD,2089.13,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99562.02,-0.438,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,SOL/USD,85.31,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99560.63,-0.439,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,SPY,761.11,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,758.25,99563.2,-0.437,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,QQQ,694.74,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99568.87,-0.431,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,NVDA,177.01,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,175.71,99563.6,-0.436,95735.31,-4.265,0.22,-0.883,1.3115,Stop flyttet 173 til 176
+2026-11-11 17:37,AAPL,354.4,range,trend_pullback nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99564.35,-0.436,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,MSFT,521.05,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99563.92,-0.436,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,AMZN,266.51,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99564.32,-0.436,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,META,643.03,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99564.92,-0.435,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,GOOGL,293.73,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99562.48,-0.438,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,AMD,558.83,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,550.09,99566.87,-0.433,95735.31,-4.265,0.22,-0.883,1.3115,Stop flyttet 533 til 550
+2026-11-11 17:37,TSLA,393.75,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99566.91,-0.433,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,EQIX,1071.33,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99565.13,-0.435,95735.31,-4.265,0.22,-0.883,1.3115,
+2026-11-11 17:37,DLR,181.66,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99562.6,-0.437,95735.31,-4.265,0.22,-0.883,1.3115,
