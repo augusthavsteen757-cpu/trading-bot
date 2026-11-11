@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T16:53:06.880348+00:00",
+    "sidst_hentet": "2026-11-11T17:08:07.962157+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtn9z2",
+        "tid": "2026-11-11T17:06:18+00:00",
+        "titel": "Sunrise Partners with DomaProtocol for Tokenized Domains on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xti8w2",
         "tid": "2026-11-11T13:51:12+00:00",
@@ -334,16 +344,6 @@
         ],
         "score": 0,
         "sub": "ethereum"
-      },
-      {
-        "id": "t3_1xssbug",
-        "tid": "2026-11-10T17:03:42+00:00",
-        "titel": "Bitcoin is going to be $250,000 within twelve months",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
@@ -469,7 +469,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 74148.563,
+  "last_btc_price": 74137.9305,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
