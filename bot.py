@@ -63,6 +63,8 @@ ORB_TARGET_R = env_f("ORB_TARGET_R", 2.0)   # maal = 2 x risikoen
 ORB_HOLD_WINNERS_R = env_f("ORB_HOLD_WINNERS_R", 0)  # >0: ORB-handler med mindst saa meget gevinst (i R) beholdes over natten
 PARTIAL_AT_R = env_f("PARTIAL_AT_R", 0)  # >0: saelg halvdelen af en aktie-handel ved +X R og flyt stop til koebsprisen (0 = fra)
 ORB_MIN_REL_VOL = env_f("ORB_MIN_REL_VOL", 0)  # >0: ORB kun naar volumen sidste 15 min er mindst X gange normalt (aegte breakout)
+ORB_APLUS_REL_VOL = env_f("ORB_APLUS_REL_VOL", 0)  # >0: ORB med mindst saa meget volumen er et "A+-signal" og faar stoerre indsats
+ORB_APLUS_MULT = env_f("ORB_APLUS_MULT", 1.0)  # A+-signal: risiko og max-stoerrelse ganges med dette tal (loftet over alt bevares)
 SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste stigere hos Alpaca og handl op til saa mange ekstra aktier
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
@@ -1194,7 +1196,13 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
             stop, target, info = sig
             cs["orb_day"] = ny_now().date().isoformat()  # max en ORB-handel pr. dag pr. symbol
             risk_pct = max((price - stop) / price, 0.001)
-            usd = min(equity * RISK_PER_TRADE_PCT / risk_pct, equity * min(MAX_POSITION_PCT, ORB_MAX_POSITION_PCT),
+            mult = 1.0
+            if ORB_APLUS_REL_VOL > 0 and (f.get("rel_volumen_15m") or 0) >= ORB_APLUS_REL_VOL:
+                # A+-signal: rigtig mange koebere bag breakoutet = proff-traderens "sats stoerre paa de bedste".
+                mult = ORB_APLUS_MULT
+                info["a_plus"] = f"{f.get('rel_volumen_15m')}x volumen, indsats x{mult:g}"
+            usd = min(equity * RISK_PER_TRADE_PCT * mult / risk_pct,
+                      equity * min(MAX_POSITION_PCT * mult, ORB_MAX_POSITION_PCT * mult, MAX_TOTAL_EXPOSURE_PCT),
                       room) * brake_factor()[0]
             rec["orb"] = info
             bought = buy_with_plan(broker, cs, f, coin, usd, price, stop, "orb", 3, f"ORB breakout {info}", row,
