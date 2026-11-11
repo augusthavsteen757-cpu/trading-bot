@@ -244,7 +244,7 @@
         "entry": 550.0899999999999,
         "stop": 550.0899999999999,
         "stop_initial": 533.2149999999999,
-        "high": 561.14,
+        "high": 561.85,
         "qty": 18.0,
         "entry_tid": "2026-11-11 15:52",
         "setup": "orb",
@@ -293,7 +293,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74350.78,
+  "last_btc_price": 74382.2145,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1513,18 +1513,6 @@
         "pris_ved_nyhed": 294.18,
         "udloeber": "2026-11-11T21:02:16.051293+00:00"
       },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Cykliske sektorer stiger og tech bidrager markant, men effekten paa det bredere marked er moderat.",
-        "tid": "2026-11-11T16:07:11.209018+00:00",
-        "pris_ved_nyhed": 758.265,
-        "udloeber": "2026-11-11T18:07:11.209018+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1894,7 +1882,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T17:52:13.333780+00:00",
+    "sidst_hentet": "2026-11-11T18:12:08.107367+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -2222,8 +2210,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 693.51,
-    "snitpris": 690.18,
+    "pris": 693.79,
+    "snitpris": 690.25,
     "svag": false
   },
   "marked_trend": 0
