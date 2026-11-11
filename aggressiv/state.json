@@ -140,33 +140,32 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-10",
+      "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-04T14:57:06.691036+00:00",
       "last_review_price": 138.98,
-      "plan": {
-        "entry": 126.0,
-        "stop": 122.03999999999999,
-        "stop_initial": 122.03999999999999,
-        "high": 126.0,
-        "qty": 0.0,
-        "entry_tid": "2026-11-10 15:01",
+      "pos": {
+        "entry": 123.91,
+        "stop": 121.975,
+        "stop_initial": 121.975,
+        "high": 123.91,
+        "qty": 6.0,
+        "entry_tid": "2026-11-11 16:28",
         "setup": "orb",
         "regime": "high_vol",
         "conviction": 3,
-        "grund": "ORB breakout {'or_high': 124.26, 'or_low': 119.82, 'sidste_luk': 125.08}",
+        "grund": "ORB breakout {'or_high': 123.59, 'or_low': 120.36, 'sidste_luk': 123.83}",
         "features": {
-          "trend_1h": -1,
+          "trend_1h": 0,
           "trend_4h": -1,
           "trend_1d": -1,
-          "rsi_1h": 44.8,
-          "adx_1h": 27.7,
-          "rel_volumen_1h": 0.03,
-          "afstand_modstand_atr": 0.87,
-          "atr_percentil_30d": 89.7
+          "rsi_1h": 47.2,
+          "adx_1h": 19.0,
+          "rel_volumen_1h": 0.74,
+          "afstand_modstand_atr": 0.89,
+          "atr_percentil_30d": 87.8
         },
-        "target": 137.88000000000002,
-        "luk_foer_luk": true,
-        "plan_tid": "2026-11-10T15:01:35.088779+00:00"
+        "target": 129.715,
+        "luk_foer_luk": true
       }
     },
     "META": {
@@ -225,7 +224,7 @@
         "entry": 84.75999999999999,
         "stop": 83.32249999999999,
         "stop_initial": 83.32249999999999,
-        "high": 84.79,
+        "high": 84.98,
         "qty": 41.0,
         "entry_tid": "2026-11-11 15:59",
         "setup": "orb",
@@ -267,7 +266,7 @@
         "entry": 29.875,
         "stop": 29.875,
         "stop_initial": 29.5075,
-        "high": 30.76,
+        "high": 30.79,
         "qty": 333.0,
         "entry_tid": "2026-11-11 15:24",
         "setup": "orb",
@@ -398,7 +397,7 @@
         "entry": 6.68,
         "stop": 6.12,
         "stop_initial": 6.12,
-        "high": 7.03,
+        "high": 7.04,
         "qty": 2222.0,
         "entry_tid": "2026-11-11 15:08",
         "setup": "orb",
@@ -2381,8 +2380,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.84,
-    "snitpris": 687.72,
+    "pris": 691.61,
+    "snitpris": 687.83,
     "svag": false
   },
   "marked_trend": null
