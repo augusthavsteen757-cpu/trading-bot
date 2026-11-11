@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73808.99299999999,
+  "last_btc_price": 73727.64,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1713,7 +1713,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T23:27:44.715063+00:00",
+    "sidst_hentet": "2026-11-11T23:42:44.816387+00:00",
     "opslag": [
       {
         "id": "t3_1xtw10x",
@@ -1904,19 +1904,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt24zu",
-        "tid": "2026-11-10T23:29:26+00:00",
-        "titel": "Told my kid I may have 500 BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
