@@ -36,7 +36,7 @@
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-10T19:40:48.414839+00:00",
+      "last_entry_eval": "2026-11-11T18:52:45.446601+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -102,10 +102,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.409881,
+  "budget_used": 0.416649,
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.049340600000000005,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.056108700000000004,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
@@ -117,18 +117,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ondas n\u00e6vnes blandt de mest shortede aktier; h\u00f8j short-interesse kan udl\u00f8se short squeeze, hvis k\u00f8bspres opst\u00e5r. Usikkert om det er ny information for markedet.",
-        "tid": "2026-11-11T16:47:39.216823+00:00",
-        "pris_ved_nyhed": 5.785,
-        "udloeber": "2026-11-11T18:47:39.216823+00:00"
-      },
       "RGTI": {
         "kilde": "nyhed",
         "symbol": "RGTI",
@@ -1389,7 +1377,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 283.53,
+    "pris": 283.47,
     "snitpris": 282.54,
     "svag": false
   },
