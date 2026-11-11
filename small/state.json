@@ -227,7 +227,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.825,
+  "last_btc_price": 5.835,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1388,8 +1388,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 283.34,
-    "snitpris": 282.39,
+    "pris": 283.39,
+    "snitpris": 282.41,
     "svag": false
   },
   "marked_trend": 0
