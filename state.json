@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73594.75649999999,
+  "last_btc_price": 73682.6755,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1541,18 +1541,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslagene om laptop med 500 BTC er useri\u00f8se rygter uden nyhedsvaerdi for SOL.",
-        "tid": "2026-11-11T03:35:34.191975+00:00",
-        "pris_ved_nyhed": 83.3725,
-        "udloeber": "2026-11-11T04:35:34.191975+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
