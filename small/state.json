@@ -18,31 +18,7 @@
       ],
       "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-11T16:22:42.851244+00:00",
-      "last_review_price": 4.46,
-      "pos": {
-        "entry": 4.445,
-        "stop": 4.385,
-        "stop_initial": 4.385,
-        "high": 4.46,
-        "qty": 2250.0,
-        "entry_tid": "2026-11-11 16:17",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 4.42, 'or_low': 4.35, 'sidste_luk': 4.46}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 60.5,
-          "adx_1h": 21.8,
-          "rel_volumen_1h": 0.31,
-          "afstand_modstand_atr": 0.5,
-          "atr_percentil_30d": 88.4
-        },
-        "target": 4.565000000000001,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 4.46
     },
     "UMAC": {
       "last_entry_eval": "2026-11-10T14:31:07.967568+00:00",
@@ -115,10 +91,6 @@
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
   ],
   "pending": {
-    "tab: orb i high_vol": [
-      "2026-11-03 15:22: ACHR: stop ramt (Alpaca). R=-1.12. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.27, 'or_low': 4.22, 'sidste_luk': 4.28}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 53.3, 'adx_1h': 22.2, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 0.18, 'atr_percentil_30d': 91.4}",
-      "2026-11-03 15:52: UMAC: stop ramt (Alpaca). R=-1.07. Entry 15, exit 15. Grund til koeb: ORB breakout {'or_high': 14.98, 'or_low': 14.42, 'sidste_luk': 14.98}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 39.6, 'adx_1h': 24.5, 'rel_volumen_1h': 1.51, 'afstand_modstand_atr': 2.39, 'atr_percentil_30d': 98.6}"
-    ],
     "tab: orb i range": [
       "2026-11-04 15:40: RGTI: stop ramt (Alpaca). R=-1.04. Entry 12, exit 11. Grund til koeb: ORB breakout {'or_high': 11.45, 'or_low': 11.05, 'sidste_luk': 11.52}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 56.0, 'adx_1h': 18.0, 'rel_volumen_1h': 0.52, 'afstand_modstand_atr': 0.36, 'atr_percentil_30d': 81.0}"
     ],
@@ -130,16 +102,16 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.398389,
+  "budget_used": 0.403035,
   "ai_day": "2026-11-11",
   "ai_rounds_today": 6,
-  "ai_spend_today": 0.0378486,
+  "ai_spend_today": 0.0424946,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-11T17:02:39.511448+00:00",
+    "sidst_hentet": "2026-11-11T17:17:41.161358+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -255,7 +227,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.775,
+  "last_btc_price": 5.795,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1416,7 +1388,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.68,
+    "pris": 282.96,
     "snitpris": 282.3,
     "svag": false
   },
