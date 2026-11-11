@@ -112,7 +112,7 @@
         "entry": 175.70999999999998,
         "stop": 175.70999999999998,
         "stop_initial": 173.47500000000002,
-        "high": 177.24,
+        "high": 177.33,
         "qty": 56.0,
         "entry_tid": "2026-11-11 15:57",
         "setup": "orb",
@@ -244,7 +244,7 @@
         "entry": 550.0899999999999,
         "stop": 550.0899999999999,
         "stop_initial": 533.2149999999999,
-        "high": 564.36,
+        "high": 565.46,
         "qty": 18.0,
         "entry_tid": "2026-11-11 15:52",
         "setup": "orb",
@@ -293,7 +293,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74435.5355,
+  "last_btc_price": 74506.59049999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1882,7 +1882,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T18:12:08.107367+00:00",
+    "sidst_hentet": "2026-11-11T18:32:13.670393+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -2210,8 +2210,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 695.06,
-    "snitpris": 690.44,
+    "pris": 695.17,
+    "snitpris": 690.53,
     "svag": false
   },
   "marked_trend": 0
