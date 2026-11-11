@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T01:51:29.089699+00:00",
+    "sidst_hentet": "2026-11-11T02:11:28.554561+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt5jz7",
+        "tid": "2026-11-11T02:05:00+00:00",
+        "titel": "I am a laptop. I have 500 Bitcoin inside me.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt5jx8",
+        "tid": "2026-11-11T02:04:56+00:00",
+        "titel": "any hot guys can teach me abt bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt57ko",
         "tid": "2026-11-11T01:48:13+00:00",
@@ -356,7 +376,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -544,7 +564,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73436.85399999999,
+  "last_btc_price": 73334.3,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
