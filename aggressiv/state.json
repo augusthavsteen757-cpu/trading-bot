@@ -38,31 +38,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-11",
-      "pos": {
-        "entry": 394.575,
-        "stop": 389.5125,
-        "stop_initial": 389.5125,
-        "high": 394.73,
-        "qty": 50.0,
-        "entry_tid": "2026-11-11 15:23",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 392.56, 'or_low': 386.46, 'sidste_luk': 393.86}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 1,
-          "rsi_1h": 72.2,
-          "adx_1h": 31.2,
-          "rel_volumen_1h": 1.14,
-          "afstand_modstand_atr": 1.2,
-          "atr_percentil_30d": 74.0
-        },
-        "target": 409.7625,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-11"
     },
     "AMD": {
       "last_entry_eval": "2026-11-11T14:33:58.029988+00:00",
@@ -74,7 +50,7 @@
         "entry": 546.505,
         "stop": 533.2149999999999,
         "stop_initial": 533.2149999999999,
-        "high": 554.93,
+        "high": 555.0,
         "qty": 36.0,
         "entry_tid": "2026-11-11 15:43",
         "setup": "orb",
@@ -372,7 +348,7 @@
         "entry": 6.68,
         "stop": 6.12,
         "stop_initial": 6.12,
-        "high": 7.19,
+        "high": 7.22,
         "qty": 2222.0,
         "entry_tid": "2026-11-11 15:08",
         "setup": "orb",
@@ -524,7 +500,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.06106780000000001,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -240 USD (2 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -120 USD (2 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-11",
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
@@ -775,30 +751,6 @@
         "tid": "2026-11-11T15:03:52.147035+00:00",
         "pris_ved_nyhed": 133.345,
         "udloeber": "2026-11-11T18:03:52.147035+00:00"
-      },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Udvidet Revolut Pay-integration i UK og Europa kan oege brugerengagement og betalingsvolumen.",
-        "tid": "2026-11-11T14:48:53.695596+00:00",
-        "pris_ved_nyhed": 69.35,
-        "udloeber": "2026-11-11T16:48:53.695596+00:00"
-      },
-      "RBLX": {
-        "kilde": "nyhed",
-        "symbol": "RBLX",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "EU's Digital Fairness Act-forslag kan ramme spilplatforme med regler for mikrotransaktioner. Usikker kursvirkning, mest negativ risiko.",
-        "tid": "2026-11-11T14:48:53.695596+00:00",
-        "pris_ved_nyhed": 52.14,
-        "udloeber": "2026-11-11T16:48:53.695596+00:00"
       },
       "HOOD": {
         "kilde": "nyhed",
@@ -2356,8 +2308,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 692.17,
-    "snitpris": 688.4,
+    "pris": 692.92,
+    "snitpris": 688.6,
     "svag": false
   },
   "marked_trend": null
