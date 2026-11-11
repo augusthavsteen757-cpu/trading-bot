@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T06:16:59.730705+00:00",
+    "sidst_hentet": "2026-11-11T06:31:59.833265+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtai89",
+        "tid": "2026-11-11T06:23:57+00:00",
+        "titel": "I see a cleansing of shitcoins with the decline of the trump crime family, but also a disappointment for ethereum",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xt61v1",
         "tid": "2026-11-11T02:28:38+00:00",
@@ -406,7 +416,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -537,7 +547,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73757.17,
+  "last_btc_price": 73741.47,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
