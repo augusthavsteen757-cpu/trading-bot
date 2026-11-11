@@ -410,18 +410,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Rygter om 500 BTC fundet p\u00e5 en gammel laptop; ubekr\u00e6ftet hype uden markedsp\u00e5virkning.",
-        "tid": "2026-11-11T01:51:30.279123+00:00",
-        "pris_ved_nyhed": 73667.6385,
-        "udloeber": "2026-11-11T02:51:30.279123+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -594,7 +582,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73578.35,
+  "last_btc_price": 73567.998,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
