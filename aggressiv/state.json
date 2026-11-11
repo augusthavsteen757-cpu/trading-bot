@@ -460,7 +460,7 @@
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T17:49:12.991219+00:00",
+    "sidst_hentet": "2026-11-11T18:04:17.168356+00:00",
     "opslag": [
       {
         "id": "t3_1xtmhxf",
@@ -636,18 +636,6 @@
         "tid": "2026-11-11T16:08:46.910923+00:00",
         "pris_ved_nyhed": 393.35,
         "udloeber": "2026-11-11T18:08:46.910923+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Tokeniserede aktier og perpetual equity-futures kan oege handelsvolumen og efterspoergsel paa platforme som Coinbase; overskriften er dog stadig omstridt.",
-        "tid": "2026-11-11T15:03:52.147035+00:00",
-        "pris_ved_nyhed": 133.345,
-        "udloeber": "2026-11-11T18:03:52.147035+00:00"
       },
       "HOOD": {
         "kilde": "nyhed",
@@ -2193,8 +2181,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.33,
-    "snitpris": 690.07,
+    "pris": 694.06,
+    "snitpris": 690.15,
     "svag": false
   },
   "marked_trend": null
