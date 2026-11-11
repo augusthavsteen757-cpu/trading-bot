@@ -293,7 +293,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74420.9405,
+  "last_btc_price": 74373.696,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1489,18 +1489,6 @@
         "pris_ved_nyhed": 354.52,
         "udloeber": "2026-11-11T19:22:12.593004+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften om whale-aktivitet er generisk og giver ingen klar retning.",
-        "tid": "2026-11-11T17:47:12.952333+00:00",
-        "pris_ved_nyhed": 643.53,
-        "udloeber": "2026-11-11T18:47:12.952333+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1882,7 +1870,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T18:32:13.670393+00:00",
+    "sidst_hentet": "2026-11-11T18:52:11.535117+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -2210,8 +2198,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 695.41,
-    "snitpris": 690.82,
+    "pris": 695.12,
+    "snitpris": 690.89,
     "svag": false
   },
   "marked_trend": 0
