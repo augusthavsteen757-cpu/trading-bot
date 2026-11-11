@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.17** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.18** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.454 USD  ·  **I alt:** -546 USD (-0.55 %)  ·  **I dag:** +0.09 %  ·  sidst opdateret 11/11 21.13
+**Konto:** 99.446 USD  ·  **I alt:** -554 USD (-0.55 %)  ·  **I dag:** +0.10 %  ·  sidst opdateret 11/11 21.18
 
 **Ejer nu:**
 
@@ -40,7 +40,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.17** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.08
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.13
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -73,26 +73,25 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.17** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.456 USD  ·  **I alt:** +1.456 USD (+1.46 %)  ·  **I dag:** +1.94 %  ·  sidst opdateret 11/11 21.09
+**Konto:** 101.453 USD  ·  **I alt:** +1.453 USD (+1.45 %)  ·  **I dag:** +1.91 %  ·  sidst opdateret 11/11 21.14
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +1216 USD (5 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +1406 USD (5 vundet), fuld fart
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | AMD | 18 | 546.50 | 11/11 16.43 |
-| COIN | 47 | 136.90 | 11/11 16.44 |
 | HOOD | 41 | 84.76 | 11/11 16.59 |
 | CRWG | 1111 | 6.68 | 11/11 16.08 |
 
-**Lukkede handler:** 29 i alt, 9 med gevinst, samlet +1.626 USD
+**Lukkede handler:** 30 i alt, 9 med gevinst, samlet +1.622 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ COIN | 11/11 21.14 | -4 USD | stop ramt (Alpaca) |
 | ❌ NVDA | 11/11 20.19 | -20 USD | tidsstop (90 min uden gevinst) |
 | ❌ MSTR | 11/11 18.59 | -4 USD | tidsstop (90 min uden gevinst) |
 | ✅ AMD | 11/11 18.49 | +254 USD | halvdel solgt (+1R) |
 | ✅ COIN | 11/11 18.44 | +92 USD | halvdel solgt (+1R) |
-| ❌ MARA | 11/11 18.29 | -1 USD | tidsstop (90 min uden gevinst) |
 
