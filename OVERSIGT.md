@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 18.02** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.410 USD  ·  **I alt:** -590 USD (-0.59 %)  ·  **I dag:** +0.05 %  ·  sidst opdateret 11/11 17.57
+**Konto:** 99.463 USD  ·  **I alt:** -537 USD (-0.54 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 11/11 18.02
 
 **Ejer nu:**
 
@@ -26,7 +26,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Ku
 
 ## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 100.023 USD  ·  **I alt:** +23 USD (+0.02 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 11/11 17.52
+**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 17.57
 
 **Ejer nu:**
 
@@ -46,7 +46,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 17.53
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 17.58
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -60,7 +60,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.110 USD  ·  **I alt:** -1.890 USD (-1.89 %)  ·  **I dag:** -0.76 %  ·  sidst opdateret 11/11 17.52
+**Konto:** 98.119 USD  ·  **I alt:** -1.881 USD (-1.88 %)  ·  **I dag:** -0.75 %  ·  sidst opdateret 11/11 17.57
 
 **Ejer nu:**
 
@@ -79,9 +79,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.536 USD  ·  **I alt:** +1.536 USD (+1.54 %)  ·  **I dag:** +1.94 %  ·  sidst opdateret 11/11 17.54
+**Konto:** 101.634 USD  ·  **I alt:** +1.634 USD (+1.63 %)  ·  **I dag:** +2.05 %  ·  sidst opdateret 11/11 17.59
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -120 USD (2 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler +769 USD (3 vundet), fuld fart
 
 **Ejer nu:**
 
@@ -93,15 +93,15 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.57** (dansk tid). Ku
 | MSTR | 6 | 123.91 | 11/11 17.28 |
 | HOOD | 41 | 84.76 | 11/11 16.59 |
 | MARA | 222 | 7.87 | 11/11 16.59 |
-| CRWG | 2222 | 6.68 | 11/11 16.08 |
+| CRWG | 1111 | 6.68 | 11/11 16.08 |
 
-**Lukkede handler:** 23 i alt, 6 med gevinst, samlet +661 USD
+**Lukkede handler:** 24 i alt, 7 med gevinst, samlet +1.305 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ CRWG | 11/11 17.58 | +644 USD | halvdel solgt (+1R) |
 | ❌ TSLA | 11/11 17.53 | -72 USD | tidsstop (90 min uden gevinst) |
 | ✅ SMCI | 11/11 17.49 | +378 USD | maal naaet |
 | ✅ SMCI | 11/11 16.39 | +138 USD | halvdel solgt (+1R) |
 | ❌ CRWD | 10/11 17.37 | -194 USD | tidsstop (90 min uden gevinst) |
-| ❌ AMD | 10/11 17.26 | -93 USD | tidsstop (90 min uden gevinst) |
 
