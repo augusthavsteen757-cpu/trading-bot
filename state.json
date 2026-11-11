@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.25293,
+  "budget_used": 1.283779,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -37,8 +37,8 @@
     ]
   },
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 13,
-  "ai_spend_today": 0.10747179999999999,
+  "ai_rounds_today": 17,
+  "ai_spend_today": 0.13832060000000004,
   "eq_day": "2026-11-11",
   "day_start_equity": 99350.58,
   "peak_equity": 100456.88,
@@ -84,8 +84,9 @@
     },
     "AAPL": {
       "orb_day": "2026-11-06",
-      "last_entry_eval": "2026-11-11T15:07:32.538152+00:00",
+      "last_entry_eval": "2026-11-11T15:32:47.967544+00:00",
       "last_entry_setups": [
+        "breakout",
         "nyhed_op",
         "trend_pullback"
       ],
@@ -102,7 +103,7 @@
       "last_review_price": 533.15
     },
     "AMZN": {
-      "last_entry_eval": "2026-11-11T14:32:56.951056+00:00",
+      "last_entry_eval": "2026-11-11T15:33:05.962687+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -111,7 +112,7 @@
       "last_review_price": 255.96
     },
     "META": {
-      "last_entry_eval": "2026-11-11T14:33:06.755919+00:00",
+      "last_entry_eval": "2026-11-11T15:33:16.571388+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -120,7 +121,7 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-11T14:33:19.148014+00:00",
+      "last_entry_eval": "2026-11-11T15:33:27.440339+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -166,7 +167,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73506.42050000001,
+  "last_btc_price": 73578.1275,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -2095,9 +2096,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 685.87,
-    "snitpris": 686.04,
-    "svag": true
+    "pris": 687.88,
+    "snitpris": 686.18,
+    "svag": false
   },
   "marked_trend": -1
 }
