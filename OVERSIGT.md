@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.17** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.23** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.17
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.23
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.17** (dansk tid). Ku
 
 ## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.12
+**Konto:** 100.034 USD  ·  **I alt:** +34 USD (+0.03 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.22
 
 **Ejer nu:** intet
 
@@ -50,25 +50,26 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.17** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.356 USD  ·  **I alt:** -1.644 USD (-1.64 %)  ·  **I dag:** -0.51 %  ·  sidst opdateret 11/11 16.12
+**Konto:** 98.320 USD  ·  **I alt:** -1.680 USD (-1.68 %)  ·  **I dag:** -0.54 %  ·  sidst opdateret 11/11 16.22
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AMZN call 272.5 (udl. 27/11) | 1 | 8.40 | 9/11 16.03 |
+| AMZN call 270 (udl. 4/12) | 1 | 8.00 | 11/11 16.22 |
 
-**Lukkede handler:** 3 i alt, 0 med gevinst, samlet -1.070 USD
+**Lukkede handler:** 4 i alt, 0 med gevinst, samlet -1.410 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ AMZN call 272.5 (udl. 27/11) | 11/11 16.22 | -340 USD | stop -40% |
 | ❌ AAPL put 342.5 (udl. 20/11) | 6/11 16.51 | -250 USD | trenden vendte (op) |
 | ❌ AMZN call 272.5 (udl. 20/11) | 5/11 15.55 | -300 USD | stop -42% |
 | ❌ SPY put 757 (udl. 20/11) | 4/11 15.32 | -520 USD | stop -43% |
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.301 USD  ·  **I alt:** -699 USD (-0.70 %)  ·  **I dag:** -0.29 %  ·  sidst opdateret 11/11 16.14
+**Konto:** 99.657 USD  ·  **I alt:** -343 USD (-0.34 %)  ·  **I dag:** +0.09 %  ·  sidst opdateret 11/11 16.19
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -2240 USD (0 vundet), BREMSE (halv stoerrelse)
 
