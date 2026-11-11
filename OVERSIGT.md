@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.27** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.33** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.358 USD  ·  **I alt:** -642 USD (-0.64 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 11/11 17.27
+**Konto:** 99.336 USD  ·  **I alt:** -664 USD (-0.66 %)  ·  **I dag:** +0.02 %  ·  sidst opdateret 11/11 17.32
 
 **Ejer nu:**
 
@@ -27,7 +27,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.27** (dansk tid). Ku
 
 ## 🟢 Small-botten (10 små aktier)
 
-**Konto:** 100.046 USD  ·  **I alt:** +46 USD (+0.05 %)  ·  **I dag:** +0.02 %  ·  sidst opdateret 11/11 17.22
+**Konto:** 100.023 USD  ·  **I alt:** +23 USD (+0.02 %)  ·  **I dag:** -0.01 %  ·  sidst opdateret 11/11 17.32
 
 **Ejer nu:**
 
@@ -61,7 +61,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.27** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.103 USD  ·  **I alt:** -1.897 USD (-1.90 %)  ·  **I dag:** -0.76 %  ·  sidst opdateret 11/11 17.17
+**Konto:** 98.111 USD  ·  **I alt:** -1.889 USD (-1.89 %)  ·  **I dag:** -0.75 %  ·  sidst opdateret 11/11 17.27
 
 **Ejer nu:**
 
@@ -80,7 +80,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.27** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.726 USD  ·  **I alt:** +726 USD (+0.73 %)  ·  **I dag:** +1.18 %  ·  sidst opdateret 11/11 17.24
+**Konto:** 101.089 USD  ·  **I alt:** +1.089 USD (+1.09 %)  ·  **I dag:** +1.38 %  ·  sidst opdateret 11/11 17.29
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -767 USD (1 vundet), BREMSE (halv stoerrelse)
 
@@ -92,6 +92,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.27** (dansk tid). Ku
 | TSLA | 50 | 394.57 | 11/11 16.23 |
 | AMD | 36 | 546.50 | 11/11 16.43 |
 | COIN | 94 | 136.90 | 11/11 16.44 |
+| MSTR | 6 | 123.91 | 11/11 17.28 |
 | HOOD | 41 | 84.76 | 11/11 16.59 |
 | SMCI | 333 | 29.88 | 11/11 16.24 |
 | MARA | 222 | 7.87 | 11/11 16.59 |
