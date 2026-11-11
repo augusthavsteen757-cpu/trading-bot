@@ -17,13 +17,13 @@
         "breakout"
       ],
       "orb_day": "2026-11-11",
-      "last_hold_review": "2026-11-06T14:57:09.954353+00:00",
-      "last_review_price": 3.68,
+      "last_hold_review": "2026-11-11T16:22:42.851244+00:00",
+      "last_review_price": 4.46,
       "pos": {
         "entry": 4.445,
         "stop": 4.385,
         "stop_initial": 4.385,
-        "high": 4.445,
+        "high": 4.46,
         "qty": 2250.0,
         "entry_tid": "2026-11-11 16:17",
         "setup": "orb",
@@ -105,10 +105,9 @@
     },
     "OUST": {
       "orb_day": "2026-11-03",
-      "last_entry_eval": "2026-11-11T16:12:48.508687+00:00",
+      "last_entry_eval": "2026-11-11T16:22:59.442343+00:00",
       "last_entry_setups": [
-        "nyhed_op",
-        "trend_pullback"
+        "nyhed_op"
       ]
     }
   },
@@ -131,10 +130,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.379525,
+  "budget_used": 0.391921,
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 3,
-  "ai_spend_today": 0.0189845,
+  "ai_rounds_today": 5,
+  "ai_spend_today": 0.0313802,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
@@ -241,7 +240,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.785,
+  "last_btc_price": 5.805,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1402,7 +1401,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.8,
+    "pris": 282.89,
     "snitpris": 282.2,
     "svag": false
   },
