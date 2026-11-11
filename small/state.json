@@ -81,9 +81,10 @@
     },
     "OUST": {
       "orb_day": "2026-11-03",
-      "last_entry_eval": "2026-11-11T15:42:46.346444+00:00",
+      "last_entry_eval": "2026-11-11T16:12:48.508687+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "nyhed_op",
+        "trend_pullback"
       ]
     }
   },
@@ -106,16 +107,16 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.373053,
+  "budget_used": 0.379525,
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 2,
-  "ai_spend_today": 0.0125127,
+  "ai_rounds_today": 3,
+  "ai_spend_today": 0.0189845,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-11T15:57:38.015904+00:00",
+    "sidst_hentet": "2026-11-11T16:12:38.209241+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -1377,7 +1378,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.83,
+    "pris": 282.62,
     "snitpris": 282.19,
     "svag": false
   },
