@@ -105,9 +105,9 @@
     },
     "OUST": {
       "orb_day": "2026-11-03",
-      "last_entry_eval": "2026-11-11T16:22:59.442343+00:00",
+      "last_entry_eval": "2026-11-11T17:12:48.922069+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "trend_pullback"
       ]
     }
   },
@@ -130,10 +130,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.392408,
+  "budget_used": 0.398389,
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.0318672,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.0378486,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
@@ -145,18 +145,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Indra valgte Ouster Rev7-sensorer til elektroniske bompengeprojekter, en konkret kundeaftale. Aktien stiger allerede, sa en del kan vaere prisindregnet.",
-        "tid": "2026-11-11T15:12:38.618928+00:00",
-        "pris_ved_nyhed": 39.51,
-        "udloeber": "2026-11-11T17:12:38.618928+00:00"
-      },
       "ONDS": {
         "kilde": "nyhed",
         "symbol": "ONDS",
@@ -267,7 +255,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.795,
+  "last_btc_price": 5.775,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1428,8 +1416,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.86,
-    "snitpris": 282.29,
+    "pris": 282.68,
+    "snitpris": 282.3,
     "svag": false
   },
   "marked_trend": 0
