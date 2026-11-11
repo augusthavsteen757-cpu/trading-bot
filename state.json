@@ -269,7 +269,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74400.997,
+  "last_btc_price": 74497.85,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1429,30 +1429,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Dan Ives' ros af Huang er meningsbaseret; China spy-rygterne kan vaere negative, men er uklare og ikke bekraeftede, saa effekten er begraenset.",
-        "tid": "2026-11-11T18:17:10.437430+00:00",
-        "pris_ved_nyhed": 176.72,
-        "udloeber": "2026-11-11T20:17:10.437430+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "CNBC-omtale af en QQQ-trust og enkeltaktier er generel markedsdaekning uden ny information, der flytter indtjening eller efterspoergsel.",
-        "tid": "2026-11-11T18:17:10.437430+00:00",
-        "pris_ved_nyhed": 694.355,
-        "udloeber": "2026-11-11T20:17:10.437430+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2126,8 +2102,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.36,
-    "snitpris": 691.22,
+    "pris": 691.44,
+    "snitpris": 691.23,
     "svag": false
   },
   "marked_trend": 0
