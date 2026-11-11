@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T06:51:59.886230+00:00",
+    "sidst_hentet": "2026-11-11T07:07:00.147450+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtb2qm",
+        "tid": "2026-11-11T06:58:46+00:00",
+        "titel": "In 2013 researchers showed that #Bitcoin miners with far less than 51% of the hashrate can profit by secretly withholdin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtai89",
         "tid": "2026-11-11T06:23:57+00:00",
@@ -394,29 +404,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsgcmd",
-        "tid": "2026-11-10T07:04:52+00:00",
-        "titel": "When BTC dip everything else follow. haha",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsgbm6",
-        "tid": "2026-11-10T07:03:10+00:00",
-        "titel": "Miami-Dade property owners can now pay their property taxes with Bitcoin, tax collector says",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -547,7 +537,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73495.125,
+  "last_btc_price": 73480.4185,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
