@@ -460,7 +460,7 @@
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T18:44:12.601730+00:00",
+    "sidst_hentet": "2026-11-11T18:59:15.040622+00:00",
     "opslag": [
       {
         "id": "t3_1xtmhxf",
@@ -2097,8 +2097,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 695.12,
-    "snitpris": 690.9,
+    "pris": 695.02,
+    "snitpris": 690.96,
     "svag": false
   },
   "marked_trend": null
