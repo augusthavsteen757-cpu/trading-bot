@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73997.05,
+  "last_btc_price": 73901.5355,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1564,18 +1564,6 @@
         "tid": "2026-11-11T07:31:03.456719+00:00",
         "pris_ved_nyhed": 2061.1105,
         "udloeber": "2026-11-11T09:31:03.456719+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "H\u00f8jere beta end BTC g\u00f8r SOL f\u00f8lsom over for negativ krypto-sentiment ved regulatorisk nyhed. Kun svag sammenh\u00e6ng til denne specifikke sag.",
-        "tid": "2026-11-11T06:21:03.426245+00:00",
-        "pris_ved_nyhed": 83.01599999999999,
-        "udloeber": "2026-11-11T08:21:03.426245+00:00"
       }
     },
     "dag": "2026-11-11",
@@ -1886,8 +1874,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T08:01:05.067945+00:00",
+    "sidst_hentet": "2026-11-11T08:21:04.319161+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtc5w7",
+        "tid": "2026-11-11T08:05:11+00:00",
+        "titel": "Bitcoin Heated Hot Tubs And 278 Washington Bitcoin Merchants : Now Accepting Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtb2qm",
         "tid": "2026-11-11T06:58:46+00:00",
@@ -2179,7 +2177,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
