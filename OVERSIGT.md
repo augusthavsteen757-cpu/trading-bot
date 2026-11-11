@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.43** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.47** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.42
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.47
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.43** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.42
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.47
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -69,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.43** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.194 USD  ·  **I alt:** +194 USD (+0.19 %)  ·  **I dag:** +0.63 %  ·  sidst opdateret 11/11 16.39
+**Konto:** 100.079 USD  ·  **I alt:** +79 USD (+0.08 %)  ·  **I dag:** +0.61 %  ·  sidst opdateret 11/11 16.44
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -767 USD (1 vundet), BREMSE (halv stoerrelse)
 
@@ -78,6 +78,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.43** (dansk tid). Ku
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | TSLA | 50 | 394.57 | 11/11 16.23 |
+| AMD | 36 | 546.50 | 11/11 16.43 |
+| COIN | 94 | 136.90 | 11/11 16.44 |
 | SMCI | 333 | 29.88 | 11/11 16.24 |
 | CRWG | 2222 | 6.68 | 11/11 16.08 |
 
