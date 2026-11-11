@@ -219,7 +219,8 @@
     "PEPG": {},
     "SMX": {},
     "SECZ": {},
-    "PXLW": {}
+    "PXLW": {},
+    "CRWG": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -2008,12 +2009,15 @@
   },
   "scan": {
     "dag": "2026-11-11",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "CRWG"
+    ],
+    "sidst": "2026-11-11T14:38:45.438082+00:00",
     "alle": [
       "AEHL",
       "APP",
       "CKX",
+      "CRWG",
       "MF",
       "NWGL",
       "PEPG",
@@ -2031,7 +2035,8 @@
       "PEPG": "PepGen Inc. Common Stock",
       "SMX": "SMX (Security Matters) Public Limited Company Ordinary Shares",
       "SECZ": "Securitize Corp.",
-      "PXLW": "Pixelworks, Inc. Common Stock"
+      "PXLW": "Pixelworks, Inc. Common Stock",
+      "CRWG": "Themes ETF Trust Leverage Shares 2X Long CRWV Daily ETF"
     },
     "omvendt": []
   },
