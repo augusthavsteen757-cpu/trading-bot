@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.48** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.52** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.341 USD  ·  **I alt:** -659 USD (-0.66 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 17.48
+**Konto:** 99.388 USD  ·  **I alt:** -612 USD (-0.61 %)  ·  **I dag:** +0.06 %  ·  sidst opdateret 11/11 17.52
 
 **Ejer nu:**
 
@@ -13,17 +13,16 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.48** (dansk tid). Ku
 | SPY | 13 | 758.25 | 11/11 16.57 |
 | NVDA | 56 | 175.71 | 11/11 16.57 |
 | AMD | 18 | 550.09 | 11/11 16.52 |
-| TSLA | 25 | 394.79 | 11/11 16.52 |
 
-**Lukkede handler:** 23 i alt, 7 med gevinst, samlet -596 USD
+**Lukkede handler:** 24 i alt, 7 med gevinst, samlet -630 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ TSLA | 11/11 17.52 | -34 USD | tidsstop (60 min uden gevinst) |
 | ✅ AAPL | 6/11 21.52 | +1 USD | dagens slut (ORB) |
 | ❌ MSFT | 6/11 18.36 | -17 USD | stop ramt (Alpaca) |
 | ❌ META | 6/11 17.56 | -49 USD | tidsstop (60 min uden gevinst) |
 | ❌ AMZN | 6/11 17.56 | -12 USD | tidsstop (60 min uden gevinst) |
-| ❌ SPY | 6/11 17.01 | -9 USD | tidsstop (60 min uden gevinst) |
 
 ## 🟢 Small-botten (10 små aktier)
 
@@ -80,9 +79,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.48** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.086 USD  ·  **I alt:** +1.086 USD (+1.09 %)  ·  **I dag:** +1.61 %  ·  sidst opdateret 11/11 17.44
+**Konto:** 101.338 USD  ·  **I alt:** +1.338 USD (+1.34 %)  ·  **I dag:** +1.72 %  ·  sidst opdateret 11/11 17.49
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -767 USD (1 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -240 USD (2 vundet), BREMSE (halv stoerrelse)
 
 **Ejer nu:**
 
@@ -94,17 +93,16 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 17.48** (dansk tid). Ku
 | COIN | 94 | 136.90 | 11/11 16.44 |
 | MSTR | 6 | 123.91 | 11/11 17.28 |
 | HOOD | 41 | 84.76 | 11/11 16.59 |
-| SMCI | 333 | 29.88 | 11/11 16.24 |
 | MARA | 222 | 7.87 | 11/11 16.59 |
 | CRWG | 2222 | 6.68 | 11/11 16.08 |
 
-**Lukkede handler:** 21 i alt, 5 med gevinst, samlet +354 USD
+**Lukkede handler:** 22 i alt, 6 med gevinst, samlet +732 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ SMCI | 11/11 17.49 | +378 USD | maal naaet |
 | ✅ SMCI | 11/11 16.39 | +138 USD | halvdel solgt (+1R) |
 | ❌ CRWD | 10/11 17.37 | -194 USD | tidsstop (90 min uden gevinst) |
 | ❌ AMD | 10/11 17.26 | -93 USD | tidsstop (90 min uden gevinst) |
 | ❌ AVGO | 10/11 16.56 | -7 USD | stop ramt (Alpaca) |
-| ❌ COIN | 10/11 16.26 | -15 USD | stop ramt (Alpaca) |
 
