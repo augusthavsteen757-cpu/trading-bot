@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T10:32:00.190450+00:00",
+    "sidst_hentet": "2026-11-11T10:51:59.853899+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtehbs",
+        "tid": "2026-11-11T10:33:22+00:00",
+        "titel": "MARA sold 13,597 BTC to pay off loans and says more sales are coming. Does that worry anyone?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtdw4d",
         "tid": "2026-11-11T09:57:42+00:00",
@@ -426,7 +436,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -560,7 +570,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73898.7575,
+  "last_btc_price": 74008.949,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
