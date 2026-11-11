@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T03:36:29.144535+00:00",
+    "sidst_hentet": "2026-11-11T03:56:28.864932+00:00",
     "opslag": [
       {
         "id": "t3_1xt61v1",
@@ -410,30 +410,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme makrorisiko som BTC; ETH falder typisk med resten af markedet ved rentefrygt.",
-        "tid": "2026-11-11T01:51:30.279123+00:00",
-        "pris_ved_nyhed": 2057.203,
-        "udloeber": "2026-11-11T03:51:30.279123+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "H\u00f8jbeta altcoin; ventes at falde mere end BTC i risk-off-bev\u00e6gelse.",
-        "tid": "2026-11-11T01:51:30.279123+00:00",
-        "pris_ved_nyhed": 83.475,
-        "udloeber": "2026-11-11T03:51:30.279123+00:00"
-      },
       "LINK/USD": {
         "kilde": "nyhed",
         "symbol": "LINK/USD",
@@ -595,7 +571,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73686.231,
+  "last_btc_price": 73662.914,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
