@@ -145,18 +145,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Analytikere fastholder Buy men s\u00e6nker kursm\u00e5l (Needham til 15, StoneX til 20); kursm\u00e5lss\u00e6nkninger er negative signaler, men begge bevarer k\u00f8bsanbefalingen. Makro-optimisme giver st\u00f8tte.",
-        "tid": "2026-11-11T14:32:07.458208+00:00",
-        "pris_ved_nyhed": 12.094999999999999,
-        "udloeber": "2026-11-11T16:32:07.458208+00:00"
-      },
       "OUST": {
         "kilde": "nyhed",
         "symbol": "OUST",
@@ -1401,8 +1389,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.9,
-    "snitpris": 282.21,
+    "pris": 282.89,
+    "snitpris": 282.22,
     "svag": false
   },
   "marked_trend": 0
