@@ -24,17 +24,177 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.105741,
-  "ai_day": "2026-11-10",
+  "budget_used": 0.108429,
+  "ai_day": "2026-11-11",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0029927,
+  "ai_spend_today": 0.0026878,
   "ai_crypto_today": 0,
-  "eq_day": "2026-11-10",
+  "eq_day": "2026-11-11",
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-10T23:25:58.593265+00:00",
+    "sidst_hentet": "2026-11-11T12:07:27.969424+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtehbs",
+        "tid": "2026-11-11T10:33:22+00:00",
+        "titel": "MARA sold 13,597 BTC to pay off loans and says more sales are coming. Does that worry anyone?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtdw4d",
+        "tid": "2026-11-11T09:57:42+00:00",
+        "titel": "The Heavens want to know if they should tank bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtdabn",
+        "tid": "2026-11-11T09:16:32+00:00",
+        "titel": "We\u2019ll never get people to understand bitcoin, they blame it all on bitcoin. they don\u2019t understand.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtcled",
+        "tid": "2026-11-11T08:31:57+00:00",
+        "titel": "Vitalik: \"Let's just be like Bitcoin\"",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtc5w7",
+        "tid": "2026-11-11T08:05:11+00:00",
+        "titel": "Bitcoin Heated Hot Tubs And 278 Washington Bitcoin Merchants : Now Accepting Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtb2qm",
+        "tid": "2026-11-11T06:58:46+00:00",
+        "titel": "In 2013 researchers showed that #Bitcoin miners with far less than 51% of the hashrate can profit by secretly withholdin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xtai89",
+        "tid": "2026-11-11T06:23:57+00:00",
+        "titel": "I see a cleansing of shitcoins with the decline of the trump crime family, but also a disappointment for ethereum",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xt61v1",
+        "tid": "2026-11-11T02:28:38+00:00",
+        "titel": "We are the 500 BTC inside a laptop a dad gave to his son",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt60y2",
+        "tid": "2026-11-11T02:27:25+00:00",
+        "titel": "I don\u2019t have 500 BTC. But I did stay at a Holiday Inn Express last night.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt5xx4",
+        "tid": "2026-11-11T02:23:20+00:00",
+        "titel": "I found a laptop with 500 btc",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt5jz7",
+        "tid": "2026-11-11T02:05:00+00:00",
+        "titel": "I am a laptop. I have 500 Bitcoin inside me.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt5jx8",
+        "tid": "2026-11-11T02:04:56+00:00",
+        "titel": "any hot guys can teach me abt bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt57ko",
+        "tid": "2026-11-11T01:48:13+00:00",
+        "titel": "Sold some guy 500 Bitcoin for a cheap job 12 years ago",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt3s0x",
+        "tid": "2026-11-11T00:41:02+00:00",
+        "titel": "I am an old laptop that holds 500 bitcoin AMA",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt39c4",
+        "tid": "2026-11-11T00:17:25+00:00",
+        "titel": "Found 500 btc on a used laptop",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt24zu",
+        "tid": "2026-11-10T23:29:26+00:00",
+        "titel": "Told my kid I may have 500 BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt1joz",
         "tid": "2026-11-10T23:03:44+00:00",
@@ -274,186 +434,143 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xsjbi1",
-        "tid": "2026-11-10T10:16:32+00:00",
-        "titel": "Using AI to Recover Lost Bitcoin is a Superpower [Clip]",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsiw52",
-        "tid": "2026-11-10T09:50:25+00:00",
-        "titel": "My dad just old me he might have 500 Bitcoin somewhere on an old laptop he lost, I think I need therapy.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsgcmd",
-        "tid": "2026-11-10T07:04:52+00:00",
-        "titel": "When BTC dip everything else follow. haha",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsgbm6",
-        "tid": "2026-11-10T07:03:10+00:00",
-        "titel": "Miami-Dade property owners can now pay their property taxes with Bitcoin, tax collector says",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xs9tbj",
-        "tid": "2026-11-10T01:19:04+00:00",
-        "titel": "Buy Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xs7gu9",
-        "tid": "2026-11-09T23:34:20+00:00",
-        "titel": "So like what\u2019s there bitcoin corn?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xs7eiv",
-        "tid": "2026-11-09T23:31:24+00:00",
-        "titel": "SOL to USDT without binance, changenow or fixedfloat?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {},
-    "dag": "2026-11-10",
-    "kald_i_dag": 10,
-    "sidste_kald": "2026-11-10T13:45:25.170263+00:00",
+    "signaler": {
+      "BTC/USD": {
+        "kilde": "nyhed",
+        "symbol": "BTC/USD",
+        "retning": "op",
+        "styrke": 2,
+        "allerede_i_prisen": false,
+        "gyldig_timer": 2,
+        "begrundelse": "Miami-Dade accepterer nu BTC til skattebetaling; symbolsk adoption og positiv mediekontekst, men lokal og begraenset direkte oekonomisk effekt.",
+        "tid": "2026-11-11T10:32:01.349483+00:00",
+        "pris_ved_nyhed": 74007.705,
+        "udloeber": "2026-11-11T12:32:01.349483+00:00"
+      }
+    },
+    "dag": "2026-11-11",
+    "kald_i_dag": 8,
+    "sidste_kald": "2026-11-11T10:32:01.349483+00:00",
     "set_ids": [
-      "62902639",
-      "62882663",
-      "62906225",
-      "62861114",
-      "63027750",
-      "62966183",
-      "62965453",
-      "62833555",
-      "63031374",
-      "63079716",
-      "63022966",
+      "62836190",
+      "63018066",
+      "63128576",
+      "62835273",
+      "63023650",
+      "63087638",
+      "63077754",
       "62808089",
-      "62850423",
-      "62920255",
-      "62902458",
+      "62902639",
+      "63021778",
+      "62942835",
       "63004724",
+      "63020588",
+      "63073903",
+      "63132394",
+      "62807858",
+      "63018185",
+      "63077559",
+      "63125711",
+      "63086907",
+      "63072933",
+      "63077950",
+      "62968804",
+      "62880252",
+      "63020476",
+      "63113220",
+      "63024253",
+      "62833774",
+      "62939997",
+      "62906225",
+      "62942781",
+      "62966994",
+      "62824244",
+      "62940684",
+      "62834251",
+      "62903974",
+      "63078856",
+      "63080488",
+      "63068081",
+      "62832505",
+      "62839772",
+      "62965758",
+      "62914738",
+      "63021629",
+      "63121292",
+      "63021484",
+      "63127622",
+      "62807399",
+      "62941001",
+      "62834276",
+      "63067723",
+      "62835163",
+      "62833555",
+      "62902868",
+      "63018357",
+      "62832701",
+      "62846923",
+      "63022966",
       "62853100",
       "63002661",
-      "62853988",
-      "63021484",
-      "62807858",
-      "63077559",
-      "63020588",
-      "63022386",
-      "63067723",
-      "62832701",
-      "62970490",
-      "62968804",
-      "63068081",
-      "63023650",
-      "62851139",
-      "62831862",
-      "62832703",
-      "62859713",
-      "62941001",
-      "62829579",
-      "62965758",
-      "62807399",
-      "62839772",
-      "62942835",
-      "62939997",
-      "63086907",
-      "63073903",
-      "63061814",
-      "62832505",
-      "62886875",
-      "63080488",
-      "63024253",
-      "62942781",
-      "63018185",
-      "62835273",
-      "62835163",
-      "63021778",
-      "63018357",
-      "62851870",
-      "62947606",
-      "62824244",
-      "62969811",
-      "62834251",
-      "63072933",
-      "63059390",
-      "63018066",
-      "62956561",
-      "62918639",
-      "62903974",
-      "63034915",
-      "62902868",
-      "63068716",
-      "62850799",
-      "62846923",
-      "62834276",
-      "62880252",
-      "62836190",
-      "62854452",
-      "63077754",
-      "62968424",
-      "63077950",
-      "63020476",
-      "62839577",
-      "62906643",
-      "62838223",
-      "62914738",
-      "62966994",
       "62882518",
-      "62822561",
-      "63078856",
-      "63080302",
-      "62833671",
+      "62854452",
+      "62839577",
+      "62886875",
       "62822395",
+      "63022386",
+      "62882663",
+      "62833671",
+      "62822561",
+      "63031374",
+      "63130957",
+      "62965453",
+      "62920255",
+      "62859713",
+      "62956561",
+      "62851870",
+      "63117496",
+      "62947606",
+      "62969811",
+      "63059390",
+      "63061814",
+      "62966183",
+      "63129630",
+      "62968424",
+      "63027750",
+      "63068716",
+      "62851139",
+      "63079716",
+      "62853988",
+      "62906643",
+      "62850423",
       "62967571",
-      "63021629",
-      "62940684",
-      "62833774",
-      "63087638"
+      "62832703",
+      "62918639",
+      "62861114",
+      "62831862",
+      "63080302",
+      "63129918",
+      "62829579",
+      "62970490",
+      "62838223",
+      "63130036",
+      "62902458",
+      "63034915",
+      "63126549",
+      "63130528",
+      "62850799",
+      "63132418"
     ]
   },
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73628.5275,
+  "last_btc_price": 73783.0205,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
