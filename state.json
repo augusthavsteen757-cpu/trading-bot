@@ -66,9 +66,9 @@
       "last_review_price": 740.335,
       "pos": {
         "entry": 758.255,
-        "stop": 756.8050000000001,
+        "stop": 758.255,
         "stop_initial": 756.8050000000001,
-        "high": 758.71,
+        "high": 759.21,
         "qty": 13.0,
         "entry_tid": "2026-11-11 15:57",
         "setup": "orb",
@@ -225,9 +225,34 @@
         "nyhed_op",
         "trend_pullback"
       ],
-      "orb_day": "2026-11-04",
+      "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-04T15:04:03.880596+00:00",
-      "last_review_price": 294.01
+      "last_review_price": 294.01,
+      "plan": {
+        "entry": 292.58000000000004,
+        "stop": 290.725,
+        "stop_initial": 290.725,
+        "high": 292.58000000000004,
+        "qty": 0.0,
+        "entry_tid": "2026-11-11 16:27",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 291.81, 'or_low': 289.64, 'sidste_luk': 292.21}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 60.8,
+          "adx_1h": 18.7,
+          "rel_volumen_1h": 0.73,
+          "afstand_modstand_atr": 1.24,
+          "atr_percentil_30d": 58.9
+        },
+        "target": 296.2900000000001,
+        "luk_foer_luk": true,
+        "plan_tid": "2026-11-11T16:27:32.623956+00:00"
+      }
     },
     "AMD": {
       "last_entry_eval": "2026-11-11T15:22:40.762336+00:00",
@@ -315,7 +340,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74205.1255,
+  "last_btc_price": 74275.3,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -2244,8 +2269,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.84,
-    "snitpris": 687.71,
+    "pris": 691.61,
+    "snitpris": 687.78,
     "svag": false
   },
   "marked_trend": 0
