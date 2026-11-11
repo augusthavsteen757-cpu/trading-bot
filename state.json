@@ -167,7 +167,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73641.1745,
+  "last_btc_price": 73539.751,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1339,30 +1339,6 @@
         "pris_ved_nyhed": 73771.51000000001,
         "udloeber": "2026-11-11T15:01:33.528328+00:00"
       },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "SOL foelger typisk BTC-bevaegelser, saa et positivt BTC-sentiment kan smitte over. Men signalet er svagt og afhaenger af BTC-retningen.",
-        "tid": "2026-11-11T12:46:31.307465+00:00",
-        "pris_ved_nyhed": 83.9195,
-        "udloeber": "2026-11-11T14:46:31.307465+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH foelger ofte BTC i krypto-markedet, saa samme bullish sentiment kan give en svag positiv smitteeffekt.",
-        "tid": "2026-11-11T12:46:31.307465+00:00",
-        "pris_ved_nyhed": 2054.7825000000003,
-        "udloeber": "2026-11-11T14:46:31.307465+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -2118,6 +2094,11 @@
     "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
-  "marked": {},
+  "marked": {
+    "symbol": "QQQ",
+    "pris": 685.72,
+    "snitpris": 686.63,
+    "svag": true
+  },
   "marked_trend": -1
 }
