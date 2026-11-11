@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73638.821,
+  "last_btc_price": 73578.105,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,7 +1886,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T14:01:32.142132+00:00",
+    "sidst_hentet": "2026-11-11T14:21:31.816259+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -2207,19 +2207,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsnslb",
-        "tid": "2026-11-10T14:07:38+00:00",
-        "titel": "Study Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
