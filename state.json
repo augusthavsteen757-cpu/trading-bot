@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73700.282,
+  "last_btc_price": 73705.45300000001,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,7 +1886,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T01:15:33.628751+00:00",
+    "sidst_hentet": "2026-11-11T01:35:33.127129+00:00",
     "opslag": [
       {
         "id": "t3_1xt39c4",
@@ -2127,19 +2127,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xs9tbj",
-        "tid": "2026-11-10T01:19:04+00:00",
-        "titel": "Buy Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
