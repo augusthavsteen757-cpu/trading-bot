@@ -12,7 +12,7 @@
       "last_review_price": 4.885
     },
     "RCAT": {
-      "last_entry_eval": "2026-11-10T14:30:56.633036+00:00",
+      "last_entry_eval": "2026-11-11T15:47:41.548612+00:00",
       "last_entry_setups": [
         "breakout"
       ],
@@ -106,10 +106,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.367204,
+  "budget_used": 0.373053,
   "ai_day": "2026-11-11",
-  "ai_rounds_today": 1,
-  "ai_spend_today": 0.0066637,
+  "ai_rounds_today": 2,
+  "ai_spend_today": 0.0125127,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-11",
   "day_start_equity": 100034.26,
@@ -216,7 +216,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.835,
+  "last_btc_price": 5.825,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1377,7 +1377,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.2,
+    "pris": 282.22,
     "snitpris": 282.14,
     "svag": false
   },
