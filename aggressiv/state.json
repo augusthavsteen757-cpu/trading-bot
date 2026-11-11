@@ -12,7 +12,7 @@
         "entry": 175.89999999999998,
         "stop": 173.47500000000002,
         "stop_initial": 173.47500000000002,
-        "high": 176.95,
+        "high": 177.11,
         "qty": 39.0,
         "entry_tid": "2026-11-11 15:58",
         "setup": "orb",
@@ -50,7 +50,7 @@
         "entry": 546.505,
         "stop": 546.505,
         "stop_initial": 533.2149999999999,
-        "high": 563.82,
+        "high": 564.35,
         "qty": 18.0,
         "entry_tid": "2026-11-11 15:43",
         "setup": "orb",
@@ -178,7 +178,7 @@
         "entry": 84.75999999999999,
         "stop": 83.32249999999999,
         "stop_initial": 83.32249999999999,
-        "high": 85.77,
+        "high": 85.85,
         "qty": 41.0,
         "entry_tid": "2026-11-11 15:59",
         "setup": "orb",
@@ -302,7 +302,7 @@
         "entry": 6.68,
         "stop": 6.68,
         "stop_initial": 6.12,
-        "high": 7.29,
+        "high": 7.34,
         "qty": 1111.0,
         "entry_tid": "2026-11-11 15:08",
         "setup": "orb",
@@ -460,7 +460,7 @@
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T18:04:17.168356+00:00",
+    "sidst_hentet": "2026-11-11T18:24:14.330445+00:00",
     "opslag": [
       {
         "id": "t3_1xtmhxf",
@@ -600,18 +600,6 @@
         "tid": "2026-11-11T16:08:46.910923+00:00",
         "pris_ved_nyhed": 351.46500000000003,
         "udloeber": "2026-11-11T19:08:46.910923+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ledelsesskifte i infrastruktur i 2027 er langsigtet og faerdigt annonceret; ingen klar kortsigtet kursdrivende effekt.",
-        "tid": "2026-11-11T16:23:48.654067+00:00",
-        "pris_ved_nyhed": 642.515,
-        "udloeber": "2026-11-11T18:23:48.654067+00:00"
       },
       "PEPG": {
         "kilde": "nyhed",
@@ -2145,8 +2133,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.18,
-    "snitpris": 690.35,
+    "pris": 694.42,
+    "snitpris": 690.41,
     "svag": false
   },
   "marked_trend": null
