@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73897.18549999999,
+  "last_btc_price": 73971.3465,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1552,18 +1552,6 @@
         "tid": "2026-11-11T10:36:32.165401+00:00",
         "pris_ved_nyhed": 74020.69,
         "udloeber": "2026-11-11T12:36:32.165401+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme risikovilje-effekt som BTC; ETH foelger typisk BTC med hoejere beta.",
-        "tid": "2026-11-11T10:21:31.051788+00:00",
-        "pris_ved_nyhed": 2055.4575,
-        "udloeber": "2026-11-11T12:21:31.051788+00:00"
       }
     },
     "dag": "2026-11-11",
