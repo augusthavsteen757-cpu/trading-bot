@@ -625,18 +625,6 @@
         "pris_ved_nyhed": 5.56,
         "udloeber": "2026-11-11T18:48:53.695596+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ford-CEO advarer om kinesiske EV'er og overvejer forbud i USA; kan give beskyttelsesvind til amerikanske EV-producenter, men effekten er svag og indirekte.",
-        "tid": "2026-11-11T16:08:46.910923+00:00",
-        "pris_ved_nyhed": 393.35,
-        "udloeber": "2026-11-11T18:08:46.910923+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -660,30 +648,6 @@
         "tid": "2026-11-11T16:38:46.970710+00:00",
         "pris_ved_nyhed": 7.755,
         "udloeber": "2026-11-11T18:38:46.970710+00:00"
-      },
-      "CRWG": {
-        "kilde": "nyhed",
-        "symbol": "CRWG",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "CoreWeave-rally kan smitte over p\u00e5 CRWG, da tickeren ligner og de samme AI-infrastrukturtemaer driver aktien.",
-        "tid": "2026-11-11T16:08:46.910923+00:00",
-        "pris_ved_nyhed": 6.98,
-        "udloeber": "2026-11-11T18:08:46.910923+00:00"
-      },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktien faldt 19% pga. advarsler om kontraktportef\u00f8ljen; efter et stort fald kan der komme yderligere pres eller en stabilisering. Allerede reageret kraftigt.",
-        "tid": "2026-11-11T16:08:46.910923+00:00",
-        "pris_ved_nyhed": 172.825,
-        "udloeber": "2026-11-11T18:08:46.910923+00:00"
       }
     },
     "dag": "2026-11-11",
@@ -2181,8 +2145,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.06,
-    "snitpris": 690.15,
+    "pris": 693.51,
+    "snitpris": 690.19,
     "svag": false
   },
   "marked_trend": null
