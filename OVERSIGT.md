@@ -1,26 +1,22 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.48** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.53** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.440 USD  ·  **I alt:** -560 USD (-0.56 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 11/11 21.48
+**Konto:** 99.392 USD  ·  **I alt:** -608 USD (-0.61 %)  ·  **I dag:** +0.04 %  ·  sidst opdateret 11/11 21.53
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| AMD | 18 | 550.09 | 11/11 16.52 |
-
-**Lukkede handler:** 26 i alt, 8 med gevinst, samlet -591 USD
+**Lukkede handler:** 27 i alt, 9 med gevinst, samlet -538 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ AMD | 11/11 21.53 | +53 USD | dagens slut (ORB) |
 | ❌ NVDA | 11/11 20.17 | -1 USD | stop ramt (Alpaca) |
 | ✅ SPY | 11/11 18.42 | +40 USD | maal naaet |
 | ❌ TSLA | 11/11 17.52 | -34 USD | tidsstop (60 min uden gevinst) |
 | ✅ AAPL | 6/11 21.52 | +1 USD | dagens slut (ORB) |
-| ❌ MSFT | 6/11 18.36 | -17 USD | stop ramt (Alpaca) |
 
 ## 🔴 Small-botten (10 små aktier)
 
@@ -40,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.48** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.43
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.48
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -73,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.48** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.507 USD  ·  **I alt:** +1.507 USD (+1.51 %)  ·  **I dag:** +1.98 %  ·  sidst opdateret 11/11 21.44
+**Konto:** 101.514 USD  ·  **I alt:** +1.514 USD (+1.51 %)  ·  **I dag:** +1.96 %  ·  sidst opdateret 11/11 21.49
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1406 USD (5 vundet), fuld fart
 
