@@ -16,9 +16,33 @@
       "last_entry_setups": [
         "breakout"
       ],
-      "orb_day": "2026-11-06",
+      "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-06T14:57:09.954353+00:00",
-      "last_review_price": 3.68
+      "last_review_price": 3.68,
+      "pos": {
+        "entry": 4.445,
+        "stop": 4.385,
+        "stop_initial": 4.385,
+        "high": 4.445,
+        "qty": 2250.0,
+        "entry_tid": "2026-11-11 16:17",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 4.42, 'or_low': 4.35, 'sidste_luk': 4.46}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 60.5,
+          "adx_1h": 21.8,
+          "rel_volumen_1h": 0.31,
+          "afstand_modstand_atr": 0.5,
+          "atr_percentil_30d": 88.4
+        },
+        "target": 4.565000000000001,
+        "luk_foer_luk": true
+      }
     },
     "UMAC": {
       "last_entry_eval": "2026-11-10T14:31:07.967568+00:00",
@@ -217,7 +241,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.835,
+  "last_btc_price": 5.785,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1378,8 +1402,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.62,
-    "snitpris": 282.19,
+    "pris": 282.8,
+    "snitpris": 282.2,
     "svag": false
   },
   "marked_trend": 0
