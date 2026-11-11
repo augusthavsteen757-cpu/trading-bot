@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73875.54999999999,
+  "last_btc_price": 73892.98800000001,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1713,8 +1713,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T22:37:44.873539+00:00",
+    "sidst_hentet": "2026-11-11T22:57:44.133201+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtw10x",
+        "tid": "2026-11-11T22:41:53+00:00",
+        "titel": "SOL or GTA 6 and a PS5",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xtpmd7",
         "tid": "2026-11-11T18:31:47+00:00",
@@ -1916,7 +1926,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
