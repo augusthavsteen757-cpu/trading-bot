@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73459.54999999999,
+  "last_btc_price": 73526.3005,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,8 +1886,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T06:51:03.725089+00:00",
+    "sidst_hentet": "2026-11-11T07:11:03.212627+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtb2qm",
+        "tid": "2026-11-11T06:58:46+00:00",
+        "titel": "In 2013 researchers showed that #Bitcoin miners with far less than 51% of the hashrate can profit by secretly withholdin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtai89",
         "tid": "2026-11-11T06:23:57+00:00",
@@ -2162,16 +2172,6 @@
         "id": "t3_1xsiw52",
         "tid": "2026-11-10T09:50:25+00:00",
         "titel": "My dad just old me he might have 500 Bitcoin somewhere on an old laptop he lost, I think I need therapy.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xsgbm6",
-        "tid": "2026-11-10T07:03:10+00:00",
-        "titel": "Miami-Dade property owners can now pay their property taxes with Bitcoin, tax collector says",
         "symboler": [
           "BTC/USD"
         ],
