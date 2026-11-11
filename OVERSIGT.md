@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.53** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.58** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.392 USD  ·  **I alt:** -608 USD (-0.61 %)  ·  **I dag:** +0.04 %  ·  sidst opdateret 11/11 21.53
+**Konto:** 99.392 USD  ·  **I alt:** -608 USD (-0.61 %)  ·  **I dag:** +0.04 %  ·  sidst opdateret 11/11 21.58
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.53** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.48
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 21.53
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.53** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.021 USD  ·  **I alt:** -1.979 USD (-1.98 %)  ·  **I dag:** -0.85 %  ·  sidst opdateret 11/11 21.48
+**Konto:** 98.031 USD  ·  **I alt:** -1.969 USD (-1.97 %)  ·  **I dag:** -0.84 %  ·  sidst opdateret 11/11 21.53
 
 **Ejer nu:**
 
@@ -69,25 +69,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 21.53** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.514 USD  ·  **I alt:** +1.514 USD (+1.51 %)  ·  **I dag:** +1.96 %  ·  sidst opdateret 11/11 21.49
+**Konto:** 101.414 USD  ·  **I alt:** +1.414 USD (+1.41 %)  ·  **I dag:** +1.87 %  ·  sidst opdateret 11/11 21.54
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +1406 USD (5 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| AMD | 18 | 546.50 | 11/11 16.43 |
-| HOOD | 41 | 84.76 | 11/11 16.59 |
-| CRWG | 1111 | 6.68 | 11/11 16.08 |
-
-**Lukkede handler:** 30 i alt, 9 med gevinst, samlet +1.622 USD
+**Lukkede handler:** 33 i alt, 11 med gevinst, samlet +2.126 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ HOOD | 11/11 21.54 | -5 USD | tidsstop (90 min uden gevinst) |
+| ✅ AMD | 11/11 21.54 | +109 USD | dagens slut (ORB) |
+| ✅ CRWG | 11/11 21.54 | +400 USD | dagens slut (ORB) |
 | ❌ COIN | 11/11 21.14 | -4 USD | stop ramt (Alpaca) |
 | ❌ NVDA | 11/11 20.19 | -20 USD | tidsstop (90 min uden gevinst) |
-| ❌ MSTR | 11/11 18.59 | -4 USD | tidsstop (90 min uden gevinst) |
-| ✅ AMD | 11/11 18.49 | +254 USD | halvdel solgt (+1R) |
-| ✅ COIN | 11/11 18.44 | +92 USD | halvdel solgt (+1R) |
 
