@@ -21,32 +21,7 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "orb_day": "2026-11-11",
-      "pos": {
-        "entry": 546.505,
-        "stop": 546.505,
-        "stop_initial": 533.2149999999999,
-        "high": 567.45,
-        "qty": 18.0,
-        "entry_tid": "2026-11-11 15:43",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 543.13, 'or_low': 523.3, 'sidste_luk': 544.2}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 0,
-          "rsi_1h": 66.4,
-          "adx_1h": 33.7,
-          "rel_volumen_1h": 1.86,
-          "afstand_modstand_atr": 3.0,
-          "atr_percentil_30d": 89.1
-        },
-        "target": 586.3750000000002,
-        "luk_foer_luk": true,
-        "delsalg": true
-      }
+      "orb_day": "2026-11-11"
     },
     "PLTR": {
       "last_entry_eval": "2026-11-06T14:36:27.964502+00:00",
@@ -124,31 +99,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-11",
-      "pos": {
-        "entry": 84.75999999999999,
-        "stop": 83.32249999999999,
-        "stop_initial": 83.32249999999999,
-        "high": 86.06,
-        "qty": 41.0,
-        "entry_tid": "2026-11-11 15:59",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 84.33, 'or_low': 82.31, 'sidste_luk': 84.68}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 59.5,
-          "adx_1h": 19.8,
-          "rel_volumen_1h": 1.24,
-          "afstand_modstand_atr": 0.27,
-          "atr_percentil_30d": 79.2
-        },
-        "target": 89.07249999999999,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-11"
     },
     "AEHL": {},
     "APP": {
@@ -248,32 +199,7 @@
     "SECZ": {},
     "PXLW": {},
     "CRWG": {
-      "orb_day": "2026-11-11",
-      "pos": {
-        "entry": 6.68,
-        "stop": 6.68,
-        "stop_initial": 6.12,
-        "high": 7.34,
-        "qty": 1111.0,
-        "entry_tid": "2026-11-11 15:08",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 6.41, 'or_low': 5.83, 'sidste_luk': 6.64}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 76.2,
-          "adx_1h": 23.8,
-          "rel_volumen_1h": 0.47,
-          "afstand_modstand_atr": 5.41,
-          "atr_percentil_30d": 66.7
-        },
-        "target": null,
-        "luk_foer_luk": true,
-        "delsalg": true
-      }
+      "orb_day": "2026-11-11"
     }
   },
   "learned": [
@@ -287,11 +213,13 @@
     "gevinst: orb i range": [
       "2026-11-04 20:52: MSTR: dagens slut (ORB). R=+0.51. Entry 141, exit 142. Grund til koeb: ORB breakout {'or_high': 140.73, 'or_low': 136.03, 'sidste_luk': 141.0}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 64.8, 'adx_1h': 20.7, 'rel_volumen_1h': 1.12, 'afstand_modstand_atr': 0.43, 'atr_percentil_30d': 23.4}",
       "2026-11-04 20:52: NFLX: dagens slut (ORB). R=+1.71. Entry 65, exit 67. Grund til koeb: ORB breakout {'or_high': 65.24, 'or_low': 64.03, 'sidste_luk': 65.27}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 76.7, 'adx_1h': 21.4, 'rel_volumen_1h': 0.97, 'afstand_modstand_atr': 0.69, 'atr_percentil_30d': 75.9}",
-      "2026-11-11 16:49: SMCI: maal naaet. R=+3.09. Entry 30, exit 31. Grund til koeb: ORB breakout {'or_high': 29.79, 'or_low': 29.23, 'sidste_luk': 29.94}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 59.7, 'adx_1h': 13.6, 'rel_volumen_1h': 0.84, 'afstand_modstand_atr': 3.24, 'atr_percentil_30d': 81.7}"
+      "2026-11-11 16:49: SMCI: maal naaet. R=+3.09. Entry 30, exit 31. Grund til koeb: ORB breakout {'or_high': 29.79, 'or_low': 29.23, 'sidste_luk': 29.94}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 59.7, 'adx_1h': 13.6, 'rel_volumen_1h': 0.84, 'afstand_modstand_atr': 3.24, 'atr_percentil_30d': 81.7}",
+      "2026-11-11 20:54: CRWG: dagens slut (ORB). R=+0.64. Entry 7, exit 7. Grund til koeb: ORB breakout {'or_high': 6.41, 'or_low': 5.83, 'sidste_luk': 6.64}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 76.2, 'adx_1h': 23.8, 'rel_volumen_1h': 0.47, 'afstand_modstand_atr': 5.41, 'atr_percentil_30d': 66.7}"
     ],
     "gevinst: orb i high_vol": [
       "2026-11-05 16:29: SNDQ: raket vendt (under dagens snitpris). R=+0.44. Entry 31, exit 32. Grund til koeb: ORB breakout {'or_high': 30.47, 'or_low': 28.0, 'sidste_luk': 31.14}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 83.3, 'adx_1h': 41.5, 'rel_volumen_1h': 4.36, 'afstand_modstand_atr': 0.13, 'atr_percentil_30d': 95.9}",
-      "2026-11-05 20:54: SOXS: dagens slut (ORB). R=+2.00. Entry 72, exit 78. Grund til koeb: ORB breakout {'or_high': 70.01, 'or_low': 66.4, 'sidste_luk': 71.3}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 74.6, 'adx_1h': 25.7, 'rel_volumen_1h': 3.92, 'afstand_modstand_atr': 0.06, 'atr_percentil_30d': 97.6}"
+      "2026-11-05 20:54: SOXS: dagens slut (ORB). R=+2.00. Entry 72, exit 78. Grund til koeb: ORB breakout {'or_high': 70.01, 'or_low': 66.4, 'sidste_luk': 71.3}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 74.6, 'adx_1h': 25.7, 'rel_volumen_1h': 3.92, 'afstand_modstand_atr': 0.06, 'atr_percentil_30d': 97.6}",
+      "2026-11-11 20:54: AMD: dagens slut (ORB). R=+0.46. Entry 547, exit 553. Grund til koeb: ORB breakout {'or_high': 543.13, 'or_low': 523.3, 'sidste_luk': 544.2}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 66.4, 'adx_1h': 33.7, 'rel_volumen_1h': 1.86, 'afstand_modstand_atr': 3.0, 'atr_percentil_30d': 89.1}"
     ],
     "tab: orb i high_vol": [
       "2026-11-06 15:26: AMD: stop ramt (Alpaca). R=-1.02. Entry 458, exit 444. Grund til koeb: ORB breakout {'or_high': 453.56, 'or_low': 433.97, 'sidste_luk': 456.84}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 50.6, 'adx_1h': 29.7, 'rel_volumen_1h': 3.25, 'afstand_modstand_atr': 2.0, 'atr_percentil_30d': 97.3}",
@@ -406,7 +334,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.06106780000000001,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler +1406 USD (5 vundet), fuld fart",
+  "auto_tjek": "auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart",
   "eq_day": "2026-11-11",
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
@@ -2023,8 +1951,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.91,
-    "snitpris": 691.23,
+    "pris": 691.19,
+    "snitpris": 691.2,
     "svag": true
   },
   "marked_trend": null
