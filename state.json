@@ -244,7 +244,7 @@
         "entry": 550.0899999999999,
         "stop": 550.0899999999999,
         "stop_initial": 533.2149999999999,
-        "high": 565.46,
+        "high": 566.07,
         "qty": 18.0,
         "entry_tid": "2026-11-11 15:52",
         "setup": "orb",
@@ -293,7 +293,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74537.0805,
+  "last_btc_price": 74510.735,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -2210,8 +2210,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.99,
-    "snitpris": 690.58,
+    "pris": 694.8,
+    "snitpris": 690.68,
     "svag": false
   },
   "marked_trend": 0
