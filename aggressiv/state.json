@@ -48,10 +48,10 @@
       "orb_day": "2026-11-11",
       "pos": {
         "entry": 546.505,
-        "stop": 533.2149999999999,
+        "stop": 546.505,
         "stop_initial": 533.2149999999999,
         "high": 559.71,
-        "qty": 36.0,
+        "qty": 18.0,
         "entry_tid": "2026-11-11 15:43",
         "setup": "orb",
         "regime": "high_vol",
@@ -68,7 +68,8 @@
           "atr_percentil_30d": 89.1
         },
         "target": 586.3750000000002,
-        "luk_foer_luk": true
+        "luk_foer_luk": true,
+        "delsalg": true
       }
     },
     "PLTR": {
@@ -90,7 +91,7 @@
         "entry": 136.9,
         "stop": 136.9,
         "stop_initial": 134.96,
-        "high": 138.41,
+        "high": 138.55,
         "qty": 47.0,
         "entry_tid": "2026-11-11 15:44",
         "setup": "orb",
@@ -201,7 +202,7 @@
         "entry": 84.75999999999999,
         "stop": 83.32249999999999,
         "stop_initial": 83.32249999999999,
-        "high": 85.64,
+        "high": 85.66,
         "qty": 41.0,
         "entry_tid": "2026-11-11 15:59",
         "setup": "orb",
@@ -325,7 +326,7 @@
         "entry": 6.68,
         "stop": 6.68,
         "stop_initial": 6.12,
-        "high": 7.27,
+        "high": 7.29,
         "qty": 1111.0,
         "entry_tid": "2026-11-11 15:08",
         "setup": "orb",
@@ -478,12 +479,12 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.06106780000000001,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler +872 USD (4 vundet), fuld fart",
+  "auto_tjek": "auto-tjek: seneste 10 handler +1141 USD (5 vundet), fuld fart",
   "eq_day": "2026-11-11",
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T17:33:50.949566+00:00",
+    "sidst_hentet": "2026-11-11T17:49:12.991219+00:00",
     "opslag": [
       {
         "id": "t3_1xtmhxf",
@@ -2216,8 +2217,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.49,
-    "snitpris": 689.84,
+    "pris": 694.19,
+    "snitpris": 689.88,
     "svag": false
   },
   "marked_trend": null
