@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T00:21:29.460057+00:00",
+    "sidst_hentet": "2026-11-11T00:41:29.054308+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt3s0x",
+        "tid": "2026-11-11T00:41:02+00:00",
+        "titel": "I am an old laptop that holds 500 bitcoin AMA",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt39c4",
         "tid": "2026-11-11T00:17:25+00:00",
@@ -346,7 +356,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -521,7 +531,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73606.16500000001,
+  "last_btc_price": 73567.70850000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
