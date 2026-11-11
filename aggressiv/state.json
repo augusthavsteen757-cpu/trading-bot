@@ -266,7 +266,7 @@
         "entry": 29.875,
         "stop": 29.875,
         "stop_initial": 29.5075,
-        "high": 30.79,
+        "high": 30.82,
         "qty": 333.0,
         "entry_tid": "2026-11-11 15:24",
         "setup": "orb",
@@ -2350,7 +2350,7 @@
       "CRWG",
       "PEPG"
     ],
-    "sidst": "2026-11-11T16:23:46.874292+00:00",
+    "sidst": "2026-11-11T16:33:48.223428+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2380,8 +2380,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.61,
-    "snitpris": 687.83,
+    "pris": 692.49,
+    "snitpris": 688.03,
     "svag": false
   },
   "marked_trend": null
