@@ -14485,3 +14485,18 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-11 15:33,TSLA,393.51,range,breakout,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,94623.32,-5.377,0.0,-1.101,1.2838,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
 2026-11-11 15:33,EQIX,1077.74,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,94623.32,-5.377,0.0,-1.101,1.2838,
 2026-11-11 15:33,DLR,182.78,range,trend_pullback,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,94623.32,-5.377,0.0,-1.101,1.2838,
+2026-11-11 15:37,BTC/USD,74046.75,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,ETH/USD,2078.67,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,SOL/USD,84.89,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,SPY,756.95,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,QQQ,688.5,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,NVDA,174.74,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,AAPL,352.74,range,trend_pullback nyhed_op,nej (cooldown),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,MSFT,520.5,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,AMZN,266.4,range,trend_pullback,nej (cooldown),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,META,635.11,range,trend_pullback,nej (cooldown),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,GOOGL,291.2,range,trend_pullback,nej (cooldown),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,AMD,544.16,high_vol,breakout nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
+2026-11-11 15:37,TSLA,394.37,range,breakout,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-11 15:37,EQIX,1077.37,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-11 15:37,DLR,183.0,range,trend_pullback,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99350.58,-0.649,95225.98,-4.774,0.0,-1.101,1.2838,
