@@ -111,36 +111,12 @@
   "day_start_equity": 100034.26,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-11T20:13:09.666722+00:00",
+    "sidst_hentet": "2026-11-11T20:28:10.697927+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Q3-omsaetning og justeret indtjening under forventningerne; aktien falder allerede, og kvante-sektoren kan smitte af paa QUBT.",
-        "tid": "2026-11-11T18:27:39.599525+00:00",
-        "pris_ved_nyhed": 11.645,
-        "udloeber": "2026-11-11T20:27:39.599525+00:00"
-      },
-      "QUBT": {
-        "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Svag RGTI-rapport kan skabe sektorsalg i kvantecomputing; QUBT er samme nicheaktiv og kan folge efter.",
-        "tid": "2026-11-11T18:27:39.599525+00:00",
-        "pris_ved_nyhed": 6.265,
-        "udloeber": "2026-11-11T20:27:39.599525+00:00"
-      },
       "ACHR": {
         "kilde": "nyhed",
         "symbol": "ACHR",
@@ -230,7 +206,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.675,
+  "last_btc_price": 5.6850000000000005,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1391,7 +1367,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 282.88,
+    "pris": 282.82,
     "snitpris": 282.64,
     "svag": false
   },
