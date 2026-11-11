@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74632.98999999999,
+  "last_btc_price": 74541.87049999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1404,44 +1404,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Broadcom steg ca. 5% premarket paa AI-efterspoergsel og Anthropic-investering; AI-compute-smitte kan loefte GOOGL via TPU/cloud-konkurrence.",
-        "tid": "2026-11-11T18:02:16.051293+00:00",
-        "pris_ved_nyhed": 294.18,
-        "udloeber": "2026-11-11T21:02:16.051293+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "LawVu integrerer Microsoft Copilot; lille positiv signal for Copilot-oekosystemet, men ringe markedspaavirkning.",
-        "tid": "2026-11-11T18:02:16.051293+00:00",
-        "pris_ved_nyhed": 520.97,
-        "udloeber": "2026-11-11T21:02:16.051293+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Broadcoms AI-compute-stigning og st\u00e6rk efterspoergsel smitter typisk til andre AI-chipproducenter som AMD.",
-        "tid": "2026-11-11T18:02:16.051293+00:00",
-        "pris_ved_nyhed": 560.7950000000001,
-        "udloeber": "2026-11-11T21:02:16.051293+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-11",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-11T18:17:10.437430+00:00",
@@ -2076,11 +2039,6 @@
     "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 689.93,
-    "snitpris": 691.15,
-    "svag": true
-  },
-  "marked_trend": 0
+  "marked": {},
+  "marked_trend": null
 }
