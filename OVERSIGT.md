@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.23** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.27** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.23
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.27
 
 **Ejer nu:** intet
 
@@ -69,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.23** (dansk tid). Ku
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.657 USD  ·  **I alt:** -343 USD (-0.34 %)  ·  **I dag:** +0.09 %  ·  sidst opdateret 11/11 16.19
+**Konto:** 99.518 USD  ·  **I alt:** -482 USD (-0.48 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 11/11 16.24
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -2240 USD (0 vundet), BREMSE (halv stoerrelse)
 
@@ -77,6 +77,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.23** (dansk tid). Ku
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
+| TSLA | 50 | 394.57 | 11/11 16.23 |
+| SMCI | 666 | 29.88 | 11/11 16.24 |
 | CRWG | 2222 | 6.68 | 11/11 16.08 |
 
 **Lukkede handler:** 20 i alt, 4 med gevinst, samlet +216 USD
