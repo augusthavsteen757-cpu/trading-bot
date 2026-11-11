@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73640.81349999999,
+  "last_btc_price": 73617.255,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1552,18 +1552,6 @@
         "tid": "2026-11-11T07:31:03.456719+00:00",
         "pris_ved_nyhed": 73787.695,
         "udloeber": "2026-11-11T10:31:03.456719+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om shitcoin-oprydning og skuffelse for ethereum er ubekraeftet og giver ingen klar retning.",
-        "tid": "2026-11-11T07:31:03.456719+00:00",
-        "pris_ved_nyhed": 2061.1105,
-        "udloeber": "2026-11-11T09:31:03.456719+00:00"
       }
     },
     "dag": "2026-11-11",
