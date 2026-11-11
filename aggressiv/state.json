@@ -633,18 +633,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Krypto-tokenisering er bredt positivt for sektoren, men MSTR paavirkes primaert af bitcoin-kursen, ikke af denne nyhed direkte.",
-        "tid": "2026-11-11T15:03:52.147035+00:00",
-        "pris_ved_nyhed": 121.22,
-        "udloeber": "2026-11-11T17:03:52.147035+00:00"
-      },
       "NVDA": {
         "kilde": "kun_reddit",
         "symbol": "NVDA",
@@ -2297,8 +2285,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 693.53,
-    "snitpris": 688.91,
+    "pris": 693.46,
+    "snitpris": 689.04,
     "svag": false
   },
   "marked_trend": null
