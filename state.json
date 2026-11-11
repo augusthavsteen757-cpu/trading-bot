@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73824.133,
+  "last_btc_price": 73896.717,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1540,20 +1540,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om MARA-salg af 13.597 BTC kan skabe salgspres, men er ubekraeftet og kun Reddit-snak. Kun ekstra kontekst.",
-        "tid": "2026-11-11T10:36:32.165401+00:00",
-        "pris_ved_nyhed": 74020.69,
-        "udloeber": "2026-11-11T12:36:32.165401+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-11",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-11T10:36:32.165401+00:00",
@@ -1862,7 +1849,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T12:16:31.968800+00:00",
+    "sidst_hentet": "2026-11-11T12:36:31.443854+00:00",
     "opslag": [
       {
         "id": "t3_1xtehbs",
