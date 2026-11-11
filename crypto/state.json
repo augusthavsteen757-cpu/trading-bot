@@ -451,18 +451,6 @@
         "tid": "2026-11-11T13:52:27.446326+00:00",
         "pris_ved_nyhed": 73738.405,
         "udloeber": "2026-11-11T16:52:27.446326+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Solana foelger typisk Bitcoins retning i bull-optakter; svagere og indirekte sammenhaeng.",
-        "tid": "2026-11-11T12:47:27.685110+00:00",
-        "pris_ved_nyhed": 83.928,
-        "udloeber": "2026-11-11T15:47:27.685110+00:00"
       }
     },
     "dag": "2026-11-11",
@@ -584,7 +572,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73972.41399999999,
+  "last_btc_price": 73823.0,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
