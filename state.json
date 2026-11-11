@@ -269,7 +269,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74168.536,
+  "last_btc_price": 74364.83499999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1453,18 +1453,6 @@
         "pris_ved_nyhed": 694.355,
         "udloeber": "2026-11-11T20:17:10.437430+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Flere analytikeropgraderinger med AAPL-kursmaal 425. Opgraderinger har typisk kortvarig positiv effekt, men er delvist ventet efter markedsbev\u00e6gelser.",
-        "tid": "2026-11-11T16:22:12.593004+00:00",
-        "pris_ved_nyhed": 354.52,
-        "udloeber": "2026-11-11T19:22:12.593004+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1488,18 +1476,6 @@
         "tid": "2026-11-11T18:02:16.051293+00:00",
         "pris_ved_nyhed": 74397.7685,
         "udloeber": "2026-11-11T20:02:16.051293+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "N\u00e6vnes sammen med BTC; positiv krypto-stemning kan smitte over p\u00e5 SOL, men effekten er svag og sandsynligvis allerede delvist i kurserne.",
-        "tid": "2026-11-11T16:22:12.593004+00:00",
-        "pris_ved_nyhed": 84.81,
-        "udloeber": "2026-11-11T19:22:12.593004+00:00"
       },
       "MSFT": {
         "kilde": "nyhed",
@@ -1834,7 +1810,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T19:12:08.534753+00:00",
+    "sidst_hentet": "2026-11-11T19:27:10.724319+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -2162,8 +2138,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.86,
-    "snitpris": 691.13,
+    "pris": 691.94,
+    "snitpris": 691.14,
     "svag": false
   },
   "marked_trend": 0
