@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73538.95499999999,
+  "last_btc_price": 73478.11499999999,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,8 +1886,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T01:50:33.485266+00:00",
+    "sidst_hentet": "2026-11-11T02:05:33.875120+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt5jz7",
+        "tid": "2026-11-11T02:05:00+00:00",
+        "titel": "I am a laptop. I have 500 Bitcoin inside me.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xt5jx8",
+        "tid": "2026-11-11T02:04:56+00:00",
+        "titel": "any hot guys can teach me abt bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt57ko",
         "tid": "2026-11-11T01:48:13+00:00",
@@ -2139,7 +2159,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
