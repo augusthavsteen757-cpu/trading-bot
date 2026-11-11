@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73702.4865,
+  "last_btc_price": 73666.0,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1886,8 +1886,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T13:26:31.636870+00:00",
+    "sidst_hentet": "2026-11-11T13:46:31.917911+00:00",
     "opslag": [
+      {
+        "id": "t3_1xthtwh",
+        "tid": "2026-11-11T13:32:29+00:00",
+        "titel": "Couldn't a central bank hack Saifedean's recent bitcoin-as-money hypothesis?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtehbs",
         "tid": "2026-11-11T10:33:22+00:00",
@@ -2199,7 +2209,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
