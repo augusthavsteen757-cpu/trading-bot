@@ -60,6 +60,10 @@ MAX_HOLD_DAYS = int(env_f("OPT_MAX_HOLD_DAYS", 14))
 MAX_SPREAD = env_f("OPT_MAX_SPREAD", 0.10)        # forskel paa koeb/salgspris max 10 % af prisen
 MAX_DAILY_LOSS = env_f("OPT_MAX_DAILY_LOSS", 0.03)
 MAX_DRAWDOWN = env_f("OPT_MAX_DRAWDOWN", 0.10)
+# 11. nov: de to stop-salg (-42 %, -43 %) skete 2 og 25 min efter aabning, hvor optioners koeb/salgspris
+# ligger laengst fra hinanden. Foer 10:00 New York saelges kun ved et noedstop (default -60 %).
+OPEN_CALM_MIN = int(env_f("OPT_OPEN_CALM_MIN", 30))   # minutter efter 9:30 NY uden almindelige salg
+EMERGENCY_STOP = env_f("OPT_EMERGENCY_STOP", 0.60)
 
 DATA_DIR = BASE / "options"
 DATA_DIR.mkdir(exist_ok=True)
@@ -278,6 +282,11 @@ def manage_exits(broker, state, equity, day_pnl):
         dte = (exp - date.today()).days
         held_days = (now() - datetime.fromisoformat(pos["entry_tid"])).days
         reason = None
+        ny = now().astimezone(NY)
+        calm = (ny.hour * 60 + ny.minute) < (9 * 60 + 30 + OPEN_CALM_MIN)
+        if calm and pnl > -EMERGENCY_STOP and not TEST_MODE:
+            print(f"{occ}: {pnl:+.0%}, venter til {OPEN_CALM_MIN} min efter aabning med salg (urolige priser)")
+            continue
         if pnl >= TAKE_PROFIT:
             reason = f"gevinst +{pnl:.0%}"
         elif pnl <= -STOP_LOSS:
