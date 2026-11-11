@@ -12,7 +12,7 @@
         "entry": 175.89999999999998,
         "stop": 173.47500000000002,
         "stop_initial": 173.47500000000002,
-        "high": 176.52,
+        "high": 176.7,
         "qty": 39.0,
         "entry_tid": "2026-11-11 15:58",
         "setup": "orb",
@@ -200,7 +200,7 @@
         "entry": 84.75999999999999,
         "stop": 83.32249999999999,
         "stop_initial": 83.32249999999999,
-        "high": 85.43,
+        "high": 85.45,
         "qty": 41.0,
         "entry_tid": "2026-11-11 15:59",
         "setup": "orb",
@@ -482,7 +482,7 @@
   "day_start_equity": 99569.59,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T17:18:48.215475+00:00",
+    "sidst_hentet": "2026-11-11T17:33:50.949566+00:00",
     "opslag": [
       {
         "id": "t3_1xtmhxf",
@@ -622,18 +622,6 @@
         "tid": "2026-11-11T15:43:47.015867+00:00",
         "pris_ved_nyhed": 30.384999999999998,
         "udloeber": "2026-11-11T17:43:47.015867+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Google valgte AMD EPYC til TPU 8tx, et konkret datacenter-kunde-signal. Premarket +6% viser at meget allerede er indregnet.",
-        "tid": "2026-11-11T15:28:49.407785+00:00",
-        "pris_ved_nyhed": 540.88,
-        "udloeber": "2026-11-11T17:28:49.407785+00:00"
       },
       "AVGO": {
         "kilde": "nyhed",
@@ -2209,7 +2197,7 @@
       "CRWG",
       "PEPG"
     ],
-    "sidst": "2026-11-11T17:23:47.625388+00:00",
+    "sidst": "2026-11-11T17:33:50.447135+00:00",
     "alle": [
       "AEHL",
       "APP",
@@ -2239,8 +2227,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 694.42,
-    "snitpris": 689.5,
+    "pris": 694.04,
+    "snitpris": 689.62,
     "svag": false
   },
   "marked_trend": null
