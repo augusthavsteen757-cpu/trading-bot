@@ -215,31 +215,7 @@
       ],
       "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-11T15:57:49.411634+00:00",
-      "last_review_price": 555.2,
-      "pos": {
-        "entry": 550.0899999999999,
-        "stop": 550.0899999999999,
-        "stop_initial": 533.2149999999999,
-        "high": 566.82,
-        "qty": 18.0,
-        "entry_tid": "2026-11-11 15:52",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 543.13, 'or_low': 523.3, 'sidste_luk': 549.22}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 0,
-          "rsi_1h": 67.3,
-          "adx_1h": 33.9,
-          "rel_volumen_1h": 2.0,
-          "afstand_modstand_atr": 0.03,
-          "atr_percentil_30d": 89.4
-        },
-        "target": 583.8399999999999,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 555.2
     },
     "TSLA": {
       "last_entry_eval": "2026-11-11T15:22:55.131623+00:00",
@@ -269,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74486.409,
+  "last_btc_price": 74568.29999999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -2102,8 +2078,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.91,
-    "snitpris": 691.23,
+    "pris": 691.19,
+    "snitpris": 691.22,
     "svag": true
   },
   "marked_trend": 0
