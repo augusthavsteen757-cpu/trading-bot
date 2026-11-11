@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T14:12:28.099885+00:00",
+    "sidst_hentet": "2026-11-11T14:32:27.214289+00:00",
     "opslag": [
       {
         "id": "t3_1xti8w2",
@@ -584,7 +584,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73517.612,
+  "last_btc_price": 73491.98199999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
