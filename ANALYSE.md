@@ -3,6 +3,22 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 11. nov 2026 aften (data 11. nov)
+
+**Gårsdagens rettelse (options, ingen salg første 30 min):** Blev ikke rigtig testet. AMZN-call blev solgt kl. 16.22 dansk tid (efter vinduet) ved -40 %, fordi AMZN faldt fra 274 til 268.
+
+**Godt**
+- Aggressiv: +1,87 % i dag (CRWG +400, AMD +109). I alt nu +1,41 %. Selv-tjek er tilbage på fuld fart.
+- Hoved: handlede igen, 4 handler, +58 USD (SPY nåede målet +40, AMD +53).
+
+**Dårligt**
+- Options: 4 af 4 handler tabt i alt (-1.410 USD), konto -1,94 %. I samme minut som AMZN-call blev stoppet ud, købte botten en NY AMZN-call for 800 USD. Det er en fejl: "allerede handlet i dag" gjaldt kun køb, ikke salg.
+- Small: RCAT -56 USD (tidsstop).
+
+**Rettelse i dag (options)**
+- En aktie der er solgt i dag kan ikke købes igen samme dag.
+- Tjek i morgen: ingen køb i samme aktie samme dag som et salg.
+
 ## 11. nov 2026 (data 9.-10. nov)
 
 **Godt**
