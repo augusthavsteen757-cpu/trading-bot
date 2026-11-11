@@ -306,6 +306,9 @@ def manage_exits(broker, state, equity, day_pnl):
             continue
         broker.sell(occ, qty)
         state["positions"].pop(occ)
+        # 11. nov: AMZN-call blev stoppet ud og en ny AMZN-call koebt i samme minut. Solgt i dag = ikke koebt igen i dag.
+        if sym not in state.setdefault("traded_today", []):
+            state["traded_today"].append(sym)
         usd = (cur - pos["entry"]) * 100 * qty
         append_csv(CLOSED_CSV, CLOSED_FIELDS, {
             "aktie": sym, "kontrakt": occ, "type": "call" if typ == "C" else "put", "entry_tid": pos["entry_tid"],
