@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73639.0465,
+  "last_btc_price": 73658.72,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1541,18 +1541,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH falder sammen med BTC p\u00e5 renteforh\u00f8jelsesfrygt; samme makrorisiko, og faldet er allerede sket.",
-        "tid": "2026-11-11T01:50:34.497500+00:00",
-        "pris_ved_nyhed": 2058.0739999999996,
-        "udloeber": "2026-11-11T03:50:34.497500+00:00"
-      },
       "SOL/USD": {
         "kilde": "kun_reddit",
         "symbol": "SOL/USD",
@@ -1886,7 +1874,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T03:35:33.123783+00:00",
+    "sidst_hentet": "2026-11-11T03:51:02.914176+00:00",
     "opslag": [
       {
         "id": "t3_1xt5xx4",
