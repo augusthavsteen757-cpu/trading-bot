@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74404.95,
+  "last_btc_price": 74367.07149999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1713,7 +1713,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T21:27:45.013354+00:00",
+    "sidst_hentet": "2026-11-11T21:47:43.911365+00:00",
     "opslag": [
       {
         "id": "t3_1xtpmd7",
@@ -1914,19 +1914,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xszm2a",
-        "tid": "2026-11-10T21:42:31+00:00",
-        "titel": "What\u2019s the safest way to convert a relatively large amount of USD cash into Bitcoin for long-term holding?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 20 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
