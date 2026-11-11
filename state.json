@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73607.9565,
+  "last_btc_price": 73522.976,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1541,18 +1541,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Rygter om fundne eller solgte BTC-m\u00e6ngder er ubekr\u00e6ftede og giver ingen klar kursretning.",
-        "tid": "2026-11-11T01:50:34.497500+00:00",
-        "pris_ved_nyhed": 73697.45300000001,
-        "udloeber": "2026-11-11T02:50:34.497500+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
