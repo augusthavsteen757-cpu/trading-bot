@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-11T00:05:57.580958+00:00",
+    "sidst_hentet": "2026-11-11T00:21:29.460057+00:00",
     "opslag": [
+      {
+        "id": "t3_1xt39c4",
+        "tid": "2026-11-11T00:17:25+00:00",
+        "titel": "Found 500 btc on a used laptop",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xt24zu",
         "tid": "2026-11-10T23:29:26+00:00",
@@ -336,7 +346,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -511,7 +521,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73592.35,
+  "last_btc_price": 73545.9,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
