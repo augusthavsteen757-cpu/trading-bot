@@ -439,32 +439,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Store kryptotyverier og sikkerhedsadvarsler kan skabe usikkerhed og risk-off stemning i krypto. Effekten paa BTC er sandsynligvis begraenset og kortvarig.",
-        "tid": "2026-11-11T07:31:59.623863+00:00",
-        "pris_ved_nyhed": 73791.4,
-        "udloeber": "2026-11-11T09:31:59.623863+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hacks og tab af midler kan smitte over paa hele krypto-sektoren og sv\u00e6kke tilliden til wallets og DeFi-systemer.",
-        "tid": "2026-11-11T07:31:59.623863+00:00",
-        "pris_ved_nyhed": 2060.17,
-        "udloeber": "2026-11-11T09:31:59.623863+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-11",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-11T07:31:59.623863+00:00",
@@ -580,7 +555,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73632.41,
+  "last_btc_price": 73595.4,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
