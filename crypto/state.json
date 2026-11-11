@@ -439,20 +439,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Miami-Dade accepterer nu BTC til skattebetaling; symbolsk adoption og positiv mediekontekst, men lokal og begraenset direkte oekonomisk effekt.",
-        "tid": "2026-11-11T10:32:01.349483+00:00",
-        "pris_ved_nyhed": 74007.705,
-        "udloeber": "2026-11-11T12:32:01.349483+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-11",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-11T10:32:01.349483+00:00",
@@ -570,7 +557,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73843.3915,
+  "last_btc_price": 73817.985,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
