@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.27** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.33** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.27
+**Konto:** 99.351 USD  ·  **I alt:** -649 USD (-0.65 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.33
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.27** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.07
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 11/11 16.32
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -50,13 +50,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.27** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.320 USD  ·  **I alt:** -1.680 USD (-1.68 %)  ·  **I dag:** -0.54 %  ·  sidst opdateret 11/11 16.22
+**Konto:** 98.212 USD  ·  **I alt:** -1.788 USD (-1.79 %)  ·  **I dag:** -0.65 %  ·  sidst opdateret 11/11 16.32
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| AMZN call 270 (udl. 4/12) | 1 | 8.00 | 11/11 16.22 |
+| AMZN call 270 (udl. 4/12) | 1 | 7.85 | 11/11 16.22 |
 
 **Lukkede handler:** 4 i alt, 0 med gevinst, samlet -1.410 USD
 
@@ -69,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **11/11 kl. 16.27** (dansk tid). Ku
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 99.518 USD  ·  **I alt:** -482 USD (-0.48 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 11/11 16.24
+**Konto:** 99.941 USD  ·  **I alt:** -59 USD (-0.06 %)  ·  **I dag:** +0.33 %  ·  sidst opdateret 11/11 16.29
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -2240 USD (0 vundet), BREMSE (halv stoerrelse)
 
