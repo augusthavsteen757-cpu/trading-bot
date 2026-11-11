@@ -164,7 +164,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73600.42050000001,
+  "last_btc_price": 73640.81349999999,
   "earnings_cache": {
     "2026-11-05": [
       "AAOI",
@@ -1874,8 +1874,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-11T09:11:30.761629+00:00",
+    "sidst_hentet": "2026-11-11T09:26:30.877568+00:00",
     "opslag": [
+      {
+        "id": "t3_1xtdabn",
+        "tid": "2026-11-11T09:16:32+00:00",
+        "titel": "We\u2019ll never get people to understand bitcoin, they blame it all on bitcoin. they don\u2019t understand.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xtcled",
         "tid": "2026-11-11T08:31:57+00:00",
@@ -2187,7 +2197,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
