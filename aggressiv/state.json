@@ -13,7 +13,31 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-04"
+      "orb_day": "2026-11-11",
+      "pos": {
+        "entry": 394.575,
+        "stop": 389.5125,
+        "stop_initial": 389.5125,
+        "high": 394.575,
+        "qty": 50.0,
+        "entry_tid": "2026-11-11 15:23",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 392.56, 'or_low': 386.46, 'sidste_luk': 393.86}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 1,
+          "rsi_1h": 72.2,
+          "adx_1h": 31.2,
+          "rel_volumen_1h": 1.14,
+          "afstand_modstand_atr": 1.2,
+          "atr_percentil_30d": 74.0
+        },
+        "target": 409.7625,
+        "luk_foer_luk": true
+      }
     },
     "AMD": {
       "last_entry_eval": "2026-11-11T14:33:58.029988+00:00",
@@ -137,11 +161,35 @@
     },
     "UVXY": {},
     "SMCI": {
-      "orb_day": "2026-11-10",
+      "orb_day": "2026-11-11",
       "last_entry_eval": "2026-11-11T14:34:45.472316+00:00",
       "last_entry_setups": [
         "nyhed_op"
-      ]
+      ],
+      "pos": {
+        "entry": 29.875,
+        "stop": 29.5075,
+        "stop_initial": 29.5075,
+        "high": 29.875,
+        "qty": 666.0,
+        "entry_tid": "2026-11-11 15:24",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 29.79, 'or_low': 29.23, 'sidste_luk': 29.94}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 59.7,
+          "adx_1h": 13.6,
+          "rel_volumen_1h": 0.84,
+          "afstand_modstand_atr": 3.24,
+          "atr_percentil_30d": 81.7
+        },
+        "target": 30.9775,
+        "luk_foer_luk": true
+      }
     },
     "MARA": {
       "orb_day": "2026-11-10"
@@ -2143,9 +2191,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 685.35,
+    "pris": 686.46,
     "snitpris": 686.02,
-    "svag": true
+    "svag": false
   },
   "marked_trend": null
 }
