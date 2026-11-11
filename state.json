@@ -269,7 +269,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74309.581,
+  "last_btc_price": 74396.557,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -2138,8 +2138,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 692.74,
-    "snitpris": 691.21,
+    "pris": 692.01,
+    "snitpris": 691.22,
     "svag": false
   },
   "marked_trend": 0
