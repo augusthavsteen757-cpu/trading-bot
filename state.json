@@ -269,7 +269,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 74396.557,
+  "last_btc_price": 74290.787,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1465,18 +1465,6 @@
         "pris_ved_nyhed": 294.18,
         "udloeber": "2026-11-11T21:02:16.051293+00:00"
       },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Risikoappetit fra Nasdaq-rallyet kan smitte til krypto, men der er ingen direkte krypto-nyhed; svag korrelationsbaseret vurdering.",
-        "tid": "2026-11-11T18:02:16.051293+00:00",
-        "pris_ved_nyhed": 74397.7685,
-        "udloeber": "2026-11-11T20:02:16.051293+00:00"
-      },
       "MSFT": {
         "kilde": "nyhed",
         "symbol": "MSFT",
@@ -2138,7 +2126,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 692.01,
+    "pris": 692.0,
     "snitpris": 691.22,
     "svag": false
   },
