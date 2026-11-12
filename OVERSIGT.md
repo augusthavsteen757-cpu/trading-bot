@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.29** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.36** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.391 USD  ·  **I alt:** -609 USD (-0.61 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 15.29
+**Konto:** 99.391 USD  ·  **I alt:** -609 USD (-0.61 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 15.36
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.29** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 11/11 21.58
+**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 15.35
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.29** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 15.24
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 15.34
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.29** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.060 USD  ·  **I alt:** -1.940 USD (-1.94 %)  ·  **I dag:** -0.81 %  ·  sidst opdateret 11/11 21.58
+**Konto:** 98.381 USD  ·  **I alt:** -1.619 USD (-1.62 %)  ·  **I dag:** +0.34 %  ·  sidst opdateret 12/11 15.35
 
 **Ejer nu:**
 
@@ -69,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 15.29** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.414 USD  ·  **I alt:** +1.414 USD (+1.41 %)  ·  **I dag:** +1.87 %  ·  sidst opdateret 11/11 21.54
+**Konto:** 101.412 USD  ·  **I alt:** +1.412 USD (+1.41 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 15.33
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart
 
