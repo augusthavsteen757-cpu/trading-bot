@@ -331,10 +331,10 @@
       "2026-11-12 18:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15": [
-      "2026-11-12 18:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 18:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 18:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
-      "2026-11-12 18:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
+      "2026-11-12 18:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
+      "2026-11-12 18:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -348,8 +348,18 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:26:53.238453+00:00",
+    "sidst_hentet": "2026-11-12T18:46:51.052402+00:00",
     "opslag": [
+      {
+        "id": "t3_1xukp43",
+        "tid": "2026-11-12T18:33:57+00:00",
+        "titel": "Jensen Huang's shock reverberates across the market. Super Micro (SMCI) stock falls 12% as a DOJ probe eyes Alice Huang ",
+        "symboler": [
+          "SMCI"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xujfkp",
         "tid": "2026-11-12T17:47:37+00:00",
@@ -694,7 +704,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2305,8 +2315,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.78,
-    "snitpris": 688.9,
+    "pris": 690.1,
+    "snitpris": 688.91,
     "svag": false
   },
   "marked_trend": null
