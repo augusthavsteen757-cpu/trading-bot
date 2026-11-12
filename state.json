@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73463.907,
+  "last_btc_price": 73417.3655,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,7 +1750,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T10:28:48.477468+00:00",
+    "sidst_hentet": "2026-11-12T10:43:48.515676+00:00",
     "opslag": [
       {
         "id": "t3_1xu8ezo",
@@ -1881,19 +1881,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtehbs",
-        "tid": "2026-11-11T10:33:22+00:00",
-        "titel": "MARA sold 13,597 BTC to pay off loans and says more sales are coming. Does that worry anyone?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
