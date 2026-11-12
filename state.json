@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73550.17,
+  "last_btc_price": 73698.151,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,7 +1750,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T01:48:11.100647+00:00",
+    "sidst_hentet": "2026-11-12T02:08:11.018907+00:00",
     "opslag": [
       {
         "id": "t3_1xtw10x",
@@ -1901,39 +1901,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt5jz7",
-        "tid": "2026-11-11T02:05:00+00:00",
-        "titel": "I am a laptop. I have 500 Bitcoin inside me.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt5jx8",
-        "tid": "2026-11-11T02:04:56+00:00",
-        "titel": "any hot guys can teach me abt bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt57ko",
-        "tid": "2026-11-11T01:48:13+00:00",
-        "titel": "Sold some guy 500 Bitcoin for a cheap job 12 years ago",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
