@@ -187,18 +187,6 @@
         "tid": "2026-11-12T14:34:51.133864+00:00",
         "pris_ved_nyhed": 5.985,
         "udloeber": "2026-11-12T16:34:51.133864+00:00"
-      },
-      "OUST": {
-        "kilde": "kun_reddit",
-        "symbol": "OUST",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Rygte om NVDA-ledelsesskifte og AVGO vs AMD; ingen bekraeftet nyhed, OUST har ingen direkte forbindelse. Ignoreres praktisk talt.",
-        "tid": "2026-11-12T14:59:53.781134+00:00",
-        "pris_ved_nyhed": 37.15,
-        "udloeber": "2026-11-12T15:59:53.781134+00:00"
       }
     },
     "dag": "2026-11-12",
@@ -294,7 +282,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.375,
+  "last_btc_price": 5.345,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1542,8 +1530,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.55,
-    "snitpris": 280.32,
+    "pris": 280.92,
+    "snitpris": 280.33,
     "svag": false
   },
   "marked_trend": 0
