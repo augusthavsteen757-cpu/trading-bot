@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71333.0335,
+  "last_btc_price": 71312.7195,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1776,7 +1776,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T22:29:56.775120+00:00",
+    "sidst_hentet": "2026-11-12T22:49:56.418283+00:00",
     "opslag": [
       {
         "id": "t3_1xuo594",
@@ -2178,39 +2178,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xtw10x",
-        "tid": "2026-11-11T22:41:53+00:00",
-        "titel": "SOL or GTA 6 and a PS5",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xtvvn1",
-        "tid": "2026-11-11T22:35:42+00:00",
-        "titel": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair with an employee",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xtvrl5",
-        "tid": "2026-11-11T22:30:49+00:00",
-        "titel": "Nvidia is preparing to oust Jensen Huang",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
