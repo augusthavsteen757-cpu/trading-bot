@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71404.22399999999,
+  "last_btc_price": 71425.78,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1515,18 +1515,6 @@
         "pris_ved_nyhed": 690.66,
         "udloeber": "2026-11-12T21:40:06.514131+00:00"
       },
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schmid taler om boligomkostninger uden pengepolitisk signal. Fed-kommentarer er svage katalysatorer for SPY i dag.",
-        "tid": "2026-11-12T18:40:06.514131+00:00",
-        "pris_ved_nyhed": 760.23,
-        "udloeber": "2026-11-12T20:40:06.514131+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
@@ -1550,18 +1538,6 @@
         "tid": "2026-11-12T18:25:01.824717+00:00",
         "pris_ved_nyhed": 301.41499999999996,
         "udloeber": "2026-11-12T21:25:01.824717+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Apple steg allerede n\u00e6sten 1% torsdag p\u00e5 prisfasts\u00e6ttelse og AI-planer. Nyheden er kendt, s\u00e5 begr\u00e6nset ny opside.",
-        "tid": "2026-11-12T18:40:06.514131+00:00",
-        "pris_ved_nyhed": 356.125,
-        "udloeber": "2026-11-12T20:40:06.514131+00:00"
       },
       "AMZN": {
         "kilde": "nyhed",
@@ -1884,7 +1860,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T20:25:01.516294+00:00",
+    "sidst_hentet": "2026-11-12T20:45:00.443423+00:00",
     "opslag": [
       {
         "id": "t3_1xuml5d",
@@ -2294,8 +2270,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 686.54,
-    "snitpris": 688.64,
+    "pris": 687.36,
+    "snitpris": 688.61,
     "svag": true
   },
   "marked_trend": -1
