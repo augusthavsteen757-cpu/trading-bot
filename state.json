@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72710.62150000001,
+  "last_btc_price": 72830.62349999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1738,8 +1738,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T11:38:48.727066+00:00",
+    "sidst_hentet": "2026-11-12T11:58:48.643247+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuarpt",
+        "tid": "2026-11-12T11:50:10+00:00",
+        "titel": "It is possible Bitcoin to start be banned from governments around the world, sometime in future?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xuam8d",
+        "tid": "2026-11-12T11:41:28+00:00",
+        "titel": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu8ezo",
         "tid": "2026-11-12T09:29:55+00:00",
@@ -1871,7 +1891,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
