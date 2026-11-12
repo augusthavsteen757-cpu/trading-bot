@@ -69,7 +69,7 @@
         "entry": 758.465,
         "stop": 758.465,
         "stop_initial": 755.7725,
-        "high": 762.2,
+        "high": 762.59,
         "qty": 13.0,
         "entry_tid": "2026-11-12 15:44",
         "setup": "orb",
@@ -102,7 +102,7 @@
         "entry": 691.7650000000001,
         "stop": 684.0350000000001,
         "stop_initial": 684.0350000000001,
-        "high": 693.34,
+        "high": 694.0,
         "qty": 14.0,
         "entry_tid": "2026-11-12 15:59",
         "setup": "orb",
@@ -264,7 +264,7 @@
         "entry": 579.48,
         "stop": 579.48,
         "stop_initial": 566.7249999999999,
-        "high": 589.23,
+        "high": 593.05,
         "qty": 1.0,
         "entry_tid": "2026-11-12 16:05",
         "setup": "orb",
@@ -306,7 +306,7 @@
         "entry": 1071.04,
         "stop": 1068.4625,
         "stop_initial": 1068.4625,
-        "high": 1074.41,
+        "high": 1075.51,
         "qty": 9.0,
         "entry_tid": "2026-11-12 15:55",
         "setup": "orb",
@@ -332,12 +332,36 @@
       "last_entry_setups": [
         "trend_pullback"
       ],
-      "orb_day": "2026-11-06",
+      "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T15:02:34.219284+00:00",
-      "last_review_price": 176.34
+      "last_review_price": 176.34,
+      "pos": {
+        "entry": 182.97,
+        "stop": 181.6125,
+        "stop_initial": 181.6125,
+        "high": 182.97,
+        "qty": 3.0,
+        "entry_tid": "2026-11-12 16:20",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 0,
+          "rsi_1h": 59.4,
+          "adx_1h": 19.5,
+          "rel_volumen_1h": 1.24,
+          "afstand_modstand_atr": 0.57,
+          "atr_percentil_30d": 70.4
+        },
+        "target": 185.68499999999997,
+        "luk_foer_luk": true
+      }
     }
   },
-  "last_btc_price": 71944.35,
+  "last_btc_price": 71835.419,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1644,18 +1668,6 @@
         "pris_ved_nyhed": 757.245,
         "udloeber": "2026-11-12T17:29:24.849544+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Nebius-fald rammer en AI-sky-udbyder, men har kun svag sammenhaeng med MSFT og er allerede faldet i prisen.",
-        "tid": "2026-11-12T15:19:21.503239+00:00",
-        "pris_ved_nyhed": 524.15,
-        "udloeber": "2026-11-12T16:19:21.503239+00:00"
-      },
       "DLR": {
         "kilde": "nyhed",
         "symbol": "DLR",
@@ -2213,8 +2225,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 693.3,
-    "snitpris": 687.53,
+    "pris": 693.06,
+    "snitpris": 687.64,
     "svag": false
   },
   "marked_trend": 0
