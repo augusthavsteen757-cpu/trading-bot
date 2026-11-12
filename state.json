@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73389.301,
+  "last_btc_price": 73332.48999999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1726,7 +1726,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T09:48:48.691738+00:00",
+    "sidst_hentet": "2026-11-12T10:08:48.587017+00:00",
     "opslag": [
       {
         "id": "t3_1xu8ezo",
@@ -1867,19 +1867,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtdw4d",
-        "tid": "2026-11-11T09:57:42+00:00",
-        "titel": "The Heavens want to know if they should tank bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
