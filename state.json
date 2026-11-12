@@ -154,7 +154,7 @@
         "entry": 527.575,
         "stop": 523.1949999999999,
         "stop_initial": 523.1949999999999,
-        "high": 529.07,
+        "high": 529.18,
         "qty": 18.0,
         "entry_tid": "2026-11-12 16:05",
         "setup": "orb",
@@ -291,7 +291,7 @@
         "entry": 182.97,
         "stop": 182.97,
         "stop_initial": 181.6125,
-        "high": 184.38,
+        "high": 184.46,
         "qty": 3.0,
         "entry_tid": "2026-11-12 16:20",
         "setup": "orb",
@@ -313,7 +313,7 @@
       }
     }
   },
-  "last_btc_price": 71809.236,
+  "last_btc_price": 71942.97,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2177,8 +2177,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.26,
-    "snitpris": 688.53,
+    "pris": 689.59,
+    "snitpris": 688.56,
     "svag": false
   },
   "marked_trend": 0
