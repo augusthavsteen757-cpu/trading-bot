@@ -325,10 +325,10 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -727,18 +727,6 @@
         "tid": "2026-11-12T16:01:51.786521+00:00",
         "pris_ved_nyhed": 117.11,
         "udloeber": "2026-11-12T18:01:51.786521+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "SpaceX-kursfald gor en mulig Tesla-fusion mere kompliceret, hvilket kan daempe spekulationsbetinget optimisme i TSLA.",
-        "tid": "2026-11-12T14:56:17.292775+00:00",
-        "pris_ved_nyhed": 394.34,
-        "udloeber": "2026-11-12T17:56:17.292775+00:00"
       },
       "MARA": {
         "kilde": "nyhed",
@@ -2383,8 +2371,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 692.18,
-    "snitpris": 688.68,
+    "pris": 691.88,
+    "snitpris": 688.73,
     "svag": false
   },
   "marked_trend": null
