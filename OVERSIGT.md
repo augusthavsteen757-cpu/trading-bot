@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 18.45** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 18.50** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.481 USD  ·  **I alt:** -519 USD (-0.52 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 12/11 18.44
+**Konto:** 99.508 USD  ·  **I alt:** -492 USD (-0.49 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 12/11 18.50
 
 **Ejer nu:**
 
@@ -12,22 +12,21 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 18.45** (dansk tid). Ku
 |---|---|---|---|
 | SPY | 13 | 758.47 | 12/11 16.44 |
 | MSFT | 18 | 527.58 | 12/11 17.05 |
-| EQIX | 9 | 1071.04 | 12/11 16.55 |
 | DLR | 3 | 182.97 | 12/11 17.20 |
 
-**Lukkede handler:** 29 i alt, 9 med gevinst, samlet -539 USD
+**Lukkede handler:** 30 i alt, 10 med gevinst, samlet -487 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ EQIX | 12/11 18.50 | +51 USD | maal naaet |
 | ❌ AMD | 12/11 18.24 | -0 USD | stop ramt (Alpaca) |
 | ❌ QQQ | 12/11 17.59 | -1 USD | tidsstop (60 min uden gevinst) |
 | ✅ AMD | 11/11 21.53 | +53 USD | dagens slut (ORB) |
 | ❌ NVDA | 11/11 20.17 | -1 USD | stop ramt (Alpaca) |
-| ✅ SPY | 11/11 18.42 | +40 USD | maal naaet |
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.266 USD  ·  **I alt:** -734 USD (-0.73 %)  ·  **I dag:** -0.70 %  ·  sidst opdateret 12/11 18.40
+**Konto:** 99.266 USD  ·  **I alt:** -734 USD (-0.73 %)  ·  **I dag:** -0.70 %  ·  sidst opdateret 12/11 18.45
 
 **Ejer nu:** intet
 
@@ -57,7 +56,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 18.45** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.132 USD  ·  **I alt:** -1.868 USD (-1.87 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 12/11 18.35
+**Konto:** 98.124 USD  ·  **I alt:** -1.876 USD (-1.88 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 12/11 18.45
 
 **Ejer nu:**
 
@@ -76,24 +75,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 18.45** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.518 USD  ·  **I alt:** +1.518 USD (+1.52 %)  ·  **I dag:** +0.10 %  ·  sidst opdateret 12/11 18.42
+**Konto:** 101.510 USD  ·  **I alt:** +1.510 USD (+1.51 %)  ·  **I dag:** +0.10 %  ·  sidst opdateret 12/11 18.47
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +800 USD (3 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +777 USD (3 vundet), fuld fart
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| AVGO | 42 | 366.52 | 12/11 17.17 |
-| MARA | 23 | 7.62 | 12/11 17.17 |
-
-**Lukkede handler:** 38 i alt, 12 med gevinst, samlet +2.446 USD
+**Lukkede handler:** 40 i alt, 12 med gevinst, samlet +2.399 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ MARA | 12/11 18.47 | -1 USD | tidsstop (90 min uden gevinst) |
+| ❌ AVGO | 12/11 18.47 | -46 USD | tidsstop (90 min uden gevinst) |
 | ❌ SHOP | 12/11 18.32 | -25 USD | tidsstop (90 min uden gevinst) |
 | ❌ HOOD | 12/11 18.32 | -0 USD | tidsstop (90 min uden gevinst) |
 | ❌ AMD | 12/11 18.32 | -6 USD | tidsstop (90 min uden gevinst) |
-| ❌ SMCI | 12/11 17.27 | -13 USD | stop ramt (Alpaca) |
-| ✅ SMCI | 12/11 17.07 | +363 USD | halvdel solgt (+1R) |
 
