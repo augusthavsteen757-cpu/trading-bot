@@ -331,10 +331,10 @@
       "2026-11-12 18:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15": [
-      "2026-11-12 18:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 18:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 18:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
-      "2026-11-12 18:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
+      "2026-11-12 18:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
+      "2026-11-12 18:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -348,7 +348,7 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:11:51.543753+00:00",
+    "sidst_hentet": "2026-11-12T18:26:53.238453+00:00",
     "opslag": [
       {
         "id": "t3_1xujfkp",
@@ -698,18 +698,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overraskende CEO-afgang af Jensen Huang og Kongres-hoering skaber usikkerhed om ledelse og AI-efterspoergsel. Markedet har sandsynligvis ikke fuldt prisat det endnu.",
-        "tid": "2026-11-12T16:26:51.241034+00:00",
-        "pris_ved_nyhed": 164.97,
-        "udloeber": "2026-11-12T18:26:51.241034+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -721,18 +709,6 @@
         "tid": "2026-11-12T16:11:53.153030+00:00",
         "pris_ved_nyhed": 84.65,
         "udloeber": "2026-11-12T19:11:53.153030+00:00"
-      },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ondas opjusterer markant, og det kan give svag positiv stemning for teknologi og defense-relaterede aktier, men effekten paa PLTR er lille.",
-        "tid": "2026-11-12T16:26:51.241034+00:00",
-        "pris_ved_nyhed": 171.76,
-        "udloeber": "2026-11-12T18:26:51.241034+00:00"
       }
     },
     "dag": "2026-11-12",
@@ -2329,8 +2305,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.77,
-    "snitpris": 688.84,
+    "pris": 690.46,
+    "snitpris": 688.85,
     "svag": false
   },
   "marked_trend": null
