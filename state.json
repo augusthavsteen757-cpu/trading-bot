@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71542.4,
+  "last_btc_price": 71554.291,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1908,7 +1908,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:59:58.669579+00:00",
+    "sidst_hentet": "2026-11-12T19:14:59.838356+00:00",
     "opslag": [
       {
         "id": "t3_1xul225",
@@ -2271,26 +2271,16 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xtqmlv",
-        "tid": "2026-11-11T19:09:12+00:00",
-        "titel": "Nvidia handed downgrade on Jensen Huang and AI uncertainty",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403), rss (json gav 403)): 200 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403), rss (json gav 403)): 200 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 688.02,
-    "snitpris": 688.89,
-    "svag": true
+    "pris": 689.02,
+    "snitpris": 688.9,
+    "svag": false
   },
   "marked_trend": 0
 }
