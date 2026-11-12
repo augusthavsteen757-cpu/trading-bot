@@ -5593,3 +5593,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 16:05,LUNR,13.93,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,90363.48,-9.637,-0.0,-0.207,0.4985,
 2026-11-12 16:05,ACHR,4.485,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,90363.48,-9.637,-0.0,-0.207,0.4985,
 2026-11-12 16:05,OUST,37.64,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,90363.48,-9.637,-0.0,-0.207,0.4985,
+2026-11-12 16:09,ONDS,5.425,high_vol,range_bund,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,RCAT,4.215,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,UMAC,12.09,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,BBAI,2.155,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,SOUN,3.745,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,QUBT,5.985,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:09,RGTI,10.95,high_vol,range_bund,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),913.0,9992.78,10.62,99966.53,-0.033,91715.98,-8.284,-0.0,-0.207,0.4985,"ORB: range 10.44-10.81, maal 11.59"
+2026-11-12 16:10,LUNR,14.19,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99961.97,-0.038,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:10,ACHR,4.525,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99961.97,-0.038,91715.98,-8.284,-0.0,-0.207,0.4985,
+2026-11-12 16:10,OUST,38.3,range,trend_pullback,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),260.0,9959.3,37.19,99936.76,-0.063,91715.98,-8.284,-0.0,-0.207,0.4985,"ORB: range 36.44-37.94, maal 40.54"

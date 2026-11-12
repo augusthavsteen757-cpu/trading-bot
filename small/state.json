@@ -56,9 +56,33 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-06",
+      "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T14:57:36.163977+00:00",
-      "last_review_price": 10.58
+      "last_review_price": 10.58,
+      "pos": {
+        "entry": 10.945,
+        "stop": 10.625,
+        "stop_initial": 10.625,
+        "high": 10.945,
+        "qty": 913.0,
+        "entry_tid": "2026-11-12 16:10",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 10.81, 'or_low': 10.44, 'sidste_luk': 10.92}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 37.5,
+          "adx_1h": 22.9,
+          "rel_volumen_1h": 0.16,
+          "afstand_modstand_atr": 1.11,
+          "atr_percentil_30d": 94.9
+        },
+        "target": 11.585,
+        "luk_foer_luk": true
+      }
     },
     "LUNR": {
       "last_entry_eval": "2026-11-09T16:43:13.693801+00:00",
@@ -80,11 +104,35 @@
       ]
     },
     "OUST": {
-      "orb_day": "2026-11-03",
+      "orb_day": "2026-11-12",
       "last_entry_eval": "2026-11-12T14:35:55.232154+00:00",
       "last_entry_setups": [
         "trend_pullback"
-      ]
+      ],
+      "pos": {
+        "entry": 38.305,
+        "stop": 37.1875,
+        "stop_initial": 37.1875,
+        "high": 38.305,
+        "qty": 260.0,
+        "entry_tid": "2026-11-12 16:10",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 37.94, 'or_low': 36.44, 'sidste_luk': 38.3}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 0,
+          "rsi_1h": 55.2,
+          "adx_1h": 34.0,
+          "rel_volumen_1h": 0.43,
+          "afstand_modstand_atr": 1.72,
+          "atr_percentil_30d": 81.5
+        },
+        "target": 40.54,
+        "luk_foer_luk": true
+      }
     }
   },
   "learned": [
@@ -282,7 +330,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.345,
+  "last_btc_price": 5.425,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1530,8 +1578,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.92,
-    "snitpris": 280.33,
+    "pris": 280.75,
+    "snitpris": 280.35,
     "svag": false
   },
   "marked_trend": 0
