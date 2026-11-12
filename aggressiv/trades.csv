@@ -9691,3 +9691,27 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 16:12,SHOP,150.43,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,102822.1,2.822,100000.0,0.0,1.448,-2.43,0.4627,
 2026-11-12 16:12,UBER,69.92,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102819.53,2.82,100000.0,0.0,1.448,-2.43,0.4627,
 2026-11-12 16:12,RBLX,52.41,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102822.2,2.822,100000.0,0.0,1.448,-2.43,0.4627,
+2026-11-12 16:16,ADXN,,,,,,,,,,,,,,,,,FEJL (RuntimeError),,,,102540.3,2.54,100000.0,0.0,1.159,-2.709,0.4627,"ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+2026-11-12 16:16,NVD,6.405,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102540.03,2.54,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:16,LUNR,14.29,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102524.11,2.524,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:16,SNDQ,23.7,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102528.21,2.528,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:16,NVDA,165.82,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102580.34,2.58,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,TSLA,391.48,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102581.14,2.581,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,AMD,592.28,high_vol,breakout nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,566.72,102581.07,2.581,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,PLTR,171.91,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102551.18,2.551,100000.0,0.0,1.159,-2.709,0.4627,"ORB-signal, men for lav volumen (0.74x normalt, kraever 1.5x)"
+2026-11-12 16:17,COIN,134.09,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102547.23,2.547,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,MSTR,118.34,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102545.7,2.546,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,META,626.7,range,trend_pullback range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102546.61,2.547,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,AVGO,366.52,high_vol,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),42.0,15393.84,360.24,102512.25,2.512,100000.0,0.0,1.159,-2.709,0.4627,"ORB: range 354.88-365.6, maal 385.36"
+2026-11-12 16:17,NFLX,63.61,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102516.4,2.516,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,HOOD,84.25,range,trend_pullback nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,81.8,102510.79,2.511,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,SMCI,28.8,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,28.11,102514.64,2.515,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,MARA,7.625,high_vol,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),23.0,175.38,7.35,102502.65,2.503,100000.0,0.0,1.159,-2.709,0.4627,"ORB: range 7.2-7.49, maal 8.46"
+2026-11-12 16:17,RIOT,18.7,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102569.95,2.57,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,SOFI,16.12,range,range_bund,nej (samlet loft paa 90% af kontoen naaet),,,,,,,,,,,,,HOLD,,,,102574.51,2.575,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,RIVN,13.13,range,range_bund,nej (samlet loft paa 90% af kontoen naaet),,,,,,,,,,,,,HOLD,,,,102568.11,2.568,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,ARM,203.9,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102580.15,2.58,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,CRWD,226.53,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102578.09,2.578,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,SHOP,149.73,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,102589.43,2.589,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,UBER,69.85,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102587.29,2.587,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:17,RBLX,52.34,range,trend_pullback,nej (samlet loft paa 90% af kontoen naaet),,,,,,,,,,,,,HOLD,,,,102587.29,2.587,100000.0,0.0,1.159,-2.709,0.4627,

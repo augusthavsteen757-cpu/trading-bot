@@ -26,7 +26,7 @@
         "entry": 582.66,
         "stop": 566.7249999999999,
         "stop_initial": 566.7249999999999,
-        "high": 587.79,
+        "high": 592.28,
         "qty": 1.0,
         "entry_tid": "2026-11-12 16:02",
         "setup": "orb",
@@ -109,7 +109,31 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "orb_day": "2026-11-10"
+      "orb_day": "2026-11-12",
+      "pos": {
+        "entry": 366.52,
+        "stop": 360.24,
+        "stop_initial": 360.24,
+        "high": 366.52,
+        "qty": 42.0,
+        "entry_tid": "2026-11-12 16:17",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 365.6, 'or_low': 354.88, 'sidste_luk': 365.69}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 0,
+          "rsi_1h": 74.6,
+          "adx_1h": 44.5,
+          "rel_volumen_1h": 0.66,
+          "afstand_modstand_atr": 3.0,
+          "atr_percentil_30d": 90.9
+        },
+        "target": 385.3599999999999,
+        "luk_foer_luk": true
+      }
     },
     "NFLX": {
       "orb_day": "2026-11-04",
@@ -193,7 +217,31 @@
       }
     },
     "MARA": {
-      "orb_day": "2026-11-11"
+      "orb_day": "2026-11-12",
+      "pos": {
+        "entry": 7.625,
+        "stop": 7.345000000000001,
+        "stop_initial": 7.345000000000001,
+        "high": 7.625,
+        "qty": 23.0,
+        "entry_tid": "2026-11-12 16:17",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 7.49, 'or_low': 7.2, 'sidste_luk': 7.63}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 58.5,
+          "adx_1h": 21.4,
+          "rel_volumen_1h": 0.5,
+          "afstand_modstand_atr": 1.14,
+          "atr_percentil_30d": 93.7
+        },
+        "target": 8.464999999999998,
+        "luk_foer_luk": true
+      }
     },
     "RIOT": {
       "last_entry_eval": "2026-11-11T14:34:59.778291+00:00",
@@ -416,7 +464,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13": [
       "2026-11-12 16:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
-      "2026-11-12 16:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+      "2026-11-12 16:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
+      "2026-11-12 16:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2468,8 +2517,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 693.3,
-    "snitpris": 687.06,
+    "pris": 693.06,
+    "snitpris": 687.56,
     "svag": false
   },
   "marked_trend": null
