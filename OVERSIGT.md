@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.20** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.521 USD  ·  **I alt:** -479 USD (-0.48 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 12/11 17.14
+**Konto:** 99.533 USD  ·  **I alt:** -467 USD (-0.47 %)  ·  **I dag:** +0.14 %  ·  sidst opdateret 12/11 17.19
 
 **Ejer nu:**
 
@@ -15,6 +15,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Ku
 | MSFT | 18 | 527.58 | 12/11 17.05 |
 | AMD | 1 | 579.48 | 12/11 17.05 |
 | EQIX | 9 | 1071.04 | 12/11 16.55 |
+| DLR | 3 | 182.97 | 12/11 17.20 |
 
 **Lukkede handler:** 27 i alt, 9 med gevinst, samlet -538 USD
 
@@ -44,7 +45,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.10
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.16
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -58,7 +59,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.174 USD  ·  **I alt:** -1.826 USD (-1.83 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 12/11 17.10
+**Konto:** 98.155 USD  ·  **I alt:** -1.845 USD (-1.84 %)  ·  **I dag:** +0.11 %  ·  sidst opdateret 12/11 17.15
 
 **Ejer nu:**
 
@@ -77,7 +78,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 102.822 USD  ·  **I alt:** +2.822 USD (+2.82 %)  ·  **I dag:** +1.45 %  ·  sidst opdateret 12/11 17.12
+**Konto:** 102.587 USD  ·  **I alt:** +2.587 USD (+2.59 %)  ·  **I dag:** +1.16 %  ·  sidst opdateret 12/11 17.17
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1184 USD (5 vundet), fuld fart
 
@@ -86,8 +87,10 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.14** (dansk tid). Ku
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | AMD | 1 | 582.66 | 12/11 17.02 |
+| AVGO | 42 | 366.52 | 12/11 17.17 |
 | HOOD | 5 | 83.34 | 12/11 17.02 |
 | SMCI | 535 | 28.11 | 12/11 16.21 |
+| MARA | 23 | 7.62 | 12/11 17.17 |
 | SHOP | 409 | 148.46 | 12/11 15.52 |
 
 **Lukkede handler:** 34 i alt, 12 med gevinst, samlet +2.489 USD
