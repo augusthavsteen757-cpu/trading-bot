@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T11:44:46.044237+00:00",
+    "sidst_hentet": "2026-11-12T12:04:45.751030+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuarpt",
+        "tid": "2026-11-12T11:50:10+00:00",
+        "titel": "It is possible Bitcoin to start be banned from governments around the world, sometime in future?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuam8d",
         "tid": "2026-11-12T11:41:28+00:00",
@@ -176,7 +186,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -335,7 +345,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 72847.95000000001,
+  "last_btc_price": 72795.86499999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
