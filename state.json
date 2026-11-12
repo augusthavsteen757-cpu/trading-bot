@@ -69,7 +69,7 @@
         "entry": 758.465,
         "stop": 755.7725,
         "stop_initial": 755.7725,
-        "high": 758.465,
+        "high": 759.21,
         "qty": 13.0,
         "entry_tid": "2026-11-12 15:44",
         "setup": "orb",
@@ -252,9 +252,33 @@
       "last_entry_setups": [
         "trend_pullback"
       ],
-      "orb_day": "2026-11-06",
+      "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T15:02:19.613115+00:00",
-      "last_review_price": 1009.93
+      "last_review_price": 1009.93,
+      "pos": {
+        "entry": 1071.04,
+        "stop": 1068.4625,
+        "stop_initial": 1068.4625,
+        "high": 1071.04,
+        "qty": 9.0,
+        "entry_tid": "2026-11-12 15:55",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 1070.1, 'or_low': 1066.83, 'sidste_luk': 1071.04}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 1,
+          "trend_1d": 1,
+          "rsi_1h": 60.8,
+          "adx_1h": 16.2,
+          "rel_volumen_1h": 1.08,
+          "afstand_modstand_atr": 0.73,
+          "atr_percentil_30d": 73.9
+        },
+        "target": 1076.1949999999997,
+        "luk_foer_luk": true
+      }
     },
     "DLR": {
       "last_entry_eval": "2026-11-12T14:36:06.491333+00:00",
@@ -266,7 +290,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71307.505,
+  "last_btc_price": 71455.6735,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2142,9 +2166,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.87,
-    "snitpris": 685.76,
+    "pris": 686.84,
+    "snitpris": 685.9,
     "svag": false
   },
-  "marked_trend": -1
+  "marked_trend": 0
 }
