@@ -178,7 +178,7 @@
         "entry": 527.575,
         "stop": 523.1949999999999,
         "stop_initial": 523.1949999999999,
-        "high": 528.95,
+        "high": 529.07,
         "qty": 18.0,
         "entry_tid": "2026-11-12 16:05",
         "setup": "orb",
@@ -361,7 +361,7 @@
       }
     }
   },
-  "last_btc_price": 71859.75,
+  "last_btc_price": 71864.803,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2037,7 +2037,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T16:09:21.787306+00:00",
+    "sidst_hentet": "2026-11-12T16:29:20.875036+00:00",
     "opslag": [
       {
         "id": "t3_1xudq8g",
@@ -2225,8 +2225,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 693.97,
-    "snitpris": 687.84,
+    "pris": 693.5,
+    "snitpris": 688.05,
     "svag": false
   },
   "marked_trend": 0
