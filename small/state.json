@@ -133,18 +133,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften om guld og olie har svag direkte relevans for LUNR. Ingen klar nyhed om rumselskabet, kun generel markedsstemning med blandede aktier.",
-        "tid": "2026-11-12T17:24:53.778443+00:00",
-        "pris_ved_nyhed": 13.864999999999998,
-        "udloeber": "2026-11-12T19:24:53.778443+00:00"
-      },
       "RGTI": {
         "kilde": "nyhed",
         "symbol": "RGTI",
@@ -1515,8 +1503,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.76,
-    "snitpris": 280.43,
+    "pris": 279.54,
+    "snitpris": 280.42,
     "svag": true
   },
   "marked_trend": 0
