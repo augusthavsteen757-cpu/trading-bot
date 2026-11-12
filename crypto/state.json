@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T20:45:56.838427+00:00",
+    "sidst_hentet": "2026-11-12T21:05:56.684461+00:00",
     "opslag": [
       {
         "id": "t3_1xuo594",
@@ -109,6 +109,26 @@
         "id": "t3_1xuf7yz",
         "tid": "2026-11-12T15:09:48+00:00",
         "titel": "In 2014 a Bitcoin educator sent 30 cents to the brain wallet \"Satoshi Nakamoto\" on video, it was spent in the same block",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xueq9q",
+        "tid": "2026-11-12T14:50:35+00:00",
+        "titel": "What happens to lost Bitcoin if quantum computers become powerful enough?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xue9z8",
+        "tid": "2026-11-12T14:32:06+00:00",
+        "titel": "How long would a Bitcoin quantum security upgrade take?",
         "symboler": [
           "BTC/USD"
         ],
@@ -276,7 +296,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -412,7 +432,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 71413.805,
+  "last_btc_price": 71323.55600000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
