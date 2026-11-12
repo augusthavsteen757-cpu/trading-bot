@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73684.17,
+  "last_btc_price": 73743.89249999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1404,44 +1404,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften siger store kryptoer stod stille og investorer tog risiko ned. Analytikerens short squeeze-scenarie er spekulativt og ventet i markedet.",
-        "tid": "2026-11-12T01:58:10.635805+00:00",
-        "pris_ved_nyhed": 73576.33799999999,
-        "udloeber": "2026-11-12T03:58:10.635805+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ethereum stod stille med generelt faldende risikolyst. Ingen konkret katalysator, og effekten er allerede synlig i prisen.",
-        "tid": "2026-11-12T01:58:10.635805+00:00",
-        "pris_ved_nyhed": 2047.3890000000001,
-        "udloeber": "2026-11-12T03:58:10.635805+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Svag risikolyst rammer altcoins generelt. Ingen Solana-specifik nyhed, s\u00e5 signalet er svagt og allerede i prisen.",
-        "tid": "2026-11-12T01:58:10.635805+00:00",
-        "pris_ved_nyhed": 82.95885,
-        "udloeber": "2026-11-12T03:58:10.635805+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-12T02:53:10.985649+00:00",
