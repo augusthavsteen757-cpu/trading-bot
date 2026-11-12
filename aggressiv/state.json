@@ -438,10 +438,10 @@
       "2026-11-12 16:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13": [
-      "2026-11-12 16:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
-      "2026-11-12 16:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+      "2026-11-12 16:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
+      "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -455,8 +455,18 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T16:36:52.041260+00:00",
+    "sidst_hentet": "2026-11-12T16:56:55.450724+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuhvhp",
+        "tid": "2026-11-12T16:50:31+00:00",
+        "titel": "Trump calls for Tim Cook to replace Jensen Huang at Nvidia",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xuhaah",
         "tid": "2026-11-12T16:28:28+00:00",
@@ -769,16 +779,6 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xtmhxf",
-        "tid": "2026-11-11T16:38:02+00:00",
-        "titel": "Even if the AI bubble burts, is NVDA still in a good place?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
@@ -2484,7 +2484,7 @@
       "LUNR",
       "SNDQ"
     ],
-    "sidst": "2026-11-12T16:46:53.319170+00:00",
+    "sidst": "2026-11-12T16:56:55.302655+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2524,8 +2524,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.74,
-    "snitpris": 688.34,
+    "pris": 691.32,
+    "snitpris": 688.38,
     "svag": false
   },
   "marked_trend": null
