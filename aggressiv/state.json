@@ -331,7 +331,8 @@
       "2026-11-10 20:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11": [
-      "2026-11-12 14:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
+      "2026-11-12 14:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars",
+      "2026-11-12 14:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
     ]
   },
   "budget_month": "2026-11",
