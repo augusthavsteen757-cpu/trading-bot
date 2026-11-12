@@ -268,7 +268,7 @@
       }
     }
   },
-  "last_btc_price": 71915.13500000001,
+  "last_btc_price": 71937.89,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1599,18 +1599,6 @@
         "pris_ved_nyhed": 81.4422,
         "udloeber": "2026-11-12T21:49:22.363633+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "CNBC-omtale af k\u00f8b i Meta er en svag, tilbagel\u00e6net positiv signal; sandsynligvis allerede delvist i prisen.",
-        "tid": "2026-11-12T17:34:25.473432+00:00",
-        "pris_ved_nyhed": 624.66,
-        "udloeber": "2026-11-12T18:34:25.473432+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -2336,8 +2324,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.46,
-    "snitpris": 688.86,
+    "pris": 690.69,
+    "snitpris": 688.87,
     "svag": false
   },
   "marked_trend": 0
