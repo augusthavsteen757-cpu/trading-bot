@@ -3,6 +3,22 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 12. nov 2026 (data 12. nov)
+
+**Gårsdagens rettelse (options, intet genkøb samme dag som salg):** Ikke testet i dag. Options solgte intet. Den ejer stadig AMZN-call fra 11. nov.
+
+**Godt**
+- Aggressiv: +0,09 % i dag, +1,51 % i alt.
+- Hoved: EQIX nåede målet (+51 USD). Dagen endte i +0,01 %.
+
+**Dårligt**
+- Small: -0,70 % i dag. 3 ORB-handler tabte (RGTI -297, OUST -191, RCAT -130). Små aktier svinger så meget, at ORB-stoppet bliver ramt.
+- ORB på small i alt: 14 handler, 4 vundet, -518 USD. Uden den ene store vinder (ACHR +708) er det -1.226 USD.
+
+**Rettelse i dag (small)**
+- ORB-handler på small får halv størrelse: max 5 % af kontoen i stedet for 10 % (aftalt 3. nov hvis ORB blev ved med at tabe).
+- Tjek i morgen: er small-ORB-handlerne cirka halvt så store?
+
 ## 11. nov 2026 aften (data 11. nov)
 
 **Gårsdagens rettelse (options, ingen salg første 30 min):** Blev ikke rigtig testet. AMZN-call blev solgt kl. 16.22 dansk tid (efter vinduet) ved -40 %, fordi AMZN faldt fra 274 til 268.
