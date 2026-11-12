@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.20** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.25** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.391 USD  ·  **I alt:** -609 USD (-0.61 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 16.19
+**Konto:** 99.391 USD  ·  **I alt:** -609 USD (-0.61 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 16.25
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.20** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 16.15
+**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 16.20
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.20** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 16.15
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 16.20
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -69,7 +69,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.20** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.304 USD  ·  **I alt:** +1.304 USD (+1.30 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 12/11 16.17
+**Konto:** 101.068 USD  ·  **I alt:** +1.068 USD (+1.07 %)  ·  **I dag:** -0.55 %  ·  sidst opdateret 12/11 16.22
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart
 
@@ -77,6 +77,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 16.20** (dansk tid). Ku
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
+| SMCI | 1069 | 28.11 | 12/11 16.21 |
 | SHOP | 409 | 148.46 | 12/11 15.52 |
 
 **Lukkede handler:** 33 i alt, 11 med gevinst, samlet +2.126 USD
