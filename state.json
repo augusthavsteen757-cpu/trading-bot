@@ -67,31 +67,7 @@
         "nyhed_op"
       ],
       "last_hold_review": "2026-11-06T15:01:46.064294+00:00",
-      "last_review_price": 740.335,
-      "pos": {
-        "entry": 758.465,
-        "stop": 758.465,
-        "stop_initial": 755.7725,
-        "high": 762.59,
-        "qty": 13.0,
-        "entry_tid": "2026-11-12 15:44",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 757.81, 'or_low': 753.74, 'sidste_luk': 757.89}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 0,
-          "rsi_1h": 57.7,
-          "adx_1h": 23.6,
-          "rel_volumen_1h": 0.76,
-          "afstand_modstand_atr": 1.19,
-          "atr_percentil_30d": 89.3
-        },
-        "target": 763.85,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 740.335
     },
     "QQQ": {
       "orb_day": "2026-11-12",
@@ -268,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71538.55,
+  "last_btc_price": 71641.455,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2324,8 +2300,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.1,
-    "snitpris": 688.91,
+    "pris": 689.25,
+    "snitpris": 688.9,
     "svag": false
   },
   "marked_trend": 0
