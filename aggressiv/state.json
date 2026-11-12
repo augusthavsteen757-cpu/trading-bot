@@ -335,6 +335,9 @@
       "2026-11-12 18:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 18:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars",
       "2026-11-12 19:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16": [
+      "2026-11-12 19:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -348,8 +351,18 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:46:51.052402+00:00",
+    "sidst_hentet": "2026-11-12T19:06:51.822081+00:00",
     "opslag": [
+      {
+        "id": "t3_1xul225",
+        "tid": "2026-11-12T18:47:24+00:00",
+        "titel": "My thoughts on NVDA",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xukp43",
         "tid": "2026-11-12T18:33:57+00:00",
@@ -704,7 +717,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2315,9 +2328,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 689.16,
-    "snitpris": 688.91,
-    "svag": false
+    "pris": 688.02,
+    "snitpris": 688.89,
+    "svag": true
   },
   "marked_trend": null
 }
