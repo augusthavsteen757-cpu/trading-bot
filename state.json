@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71519.405,
+  "last_btc_price": 71532.725,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1503,30 +1503,6 @@
         "tid": "2026-11-12T17:49:22.363633+00:00",
         "pris_ved_nyhed": 81.4422,
         "udloeber": "2026-11-12T21:49:22.363633+00:00"
-      },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Google-AI-briller og obligationsudstedelse driver stigning; mulig fortsat momentum i sessionen.",
-        "tid": "2026-11-12T18:25:01.824717+00:00",
-        "pris_ved_nyhed": 301.41499999999996,
-        "udloeber": "2026-11-12T21:25:01.824717+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Stigning paa Anthropic-vaerdiansaettelse og holiday-ansaettelser, men begrenset overraskelse.",
-        "tid": "2026-11-12T18:25:01.824717+00:00",
-        "pris_ved_nyhed": 269.41499999999996,
-        "udloeber": "2026-11-12T21:25:01.824717+00:00"
       }
     },
     "dag": "2026-11-12",
