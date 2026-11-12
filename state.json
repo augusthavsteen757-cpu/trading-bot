@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73386.437,
+  "last_btc_price": 73250.8375,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1738,8 +1738,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T08:58:48.098777+00:00",
+    "sidst_hentet": "2026-11-12T09:13:48.810714+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu7xr4",
+        "tid": "2026-11-12T08:59:05+00:00",
+        "titel": "To swap of or not to swap, BTC -> U.S. Dollars",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu7mll",
         "tid": "2026-11-12T08:39:06+00:00",
@@ -1871,7 +1881,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
