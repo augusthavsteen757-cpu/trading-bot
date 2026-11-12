@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71354.32149999999,
+  "last_btc_price": 71397.2,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1837,8 +1837,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T20:45:00.443423+00:00",
+    "sidst_hentet": "2026-11-12T21:04:56.832842+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuo594",
+        "tid": "2026-11-12T20:43:27+00:00",
+        "titel": "Bitcoin 2025 VS Bitcoin 2026",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xumuz4",
+        "tid": "2026-11-12T19:53:34+00:00",
+        "titel": "The double S curve is real. 2021 - 2027 = 6 years of sideways consolidation before bitcoin unleashes its dominant fury o",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuml5d",
         "tid": "2026-11-12T19:43:25+00:00",
@@ -2115,8 +2135,7 @@
         "tid": "2026-11-12T09:29:55+00:00",
         "titel": "Bitcoin Retreats as Nvidia Turmoil Weighs on Risk Appetite",
         "symboler": [
-          "BTC/USD",
-          "NVDA"
+          "BTC/USD"
         ],
         "score": 0,
         "sub": "Bitcoin"
@@ -2242,14 +2261,9 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 687.75,
-    "snitpris": 688.48,
-    "svag": true
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }

@@ -17260,3 +17260,6 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-12 21:00,TSLA,397.43,trend_op,trend_pullback,nej (markedet falder (QQQ 687.75 under dagens snitpris 688.48)),,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91763.45,-8.237,0.015,-1.045,1.4817,
 2026-11-12 21:00,EQIX,1072.89,range,trend_pullback,nej (markedet falder (QQQ 687.75 under dagens snitpris 688.48)),,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91763.45,-8.237,0.015,-1.045,1.4817,
 2026-11-12 21:00,DLR,183.57,range,trend_pullback,nej (markedet falder (QQQ 687.75 under dagens snitpris 688.48)),,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91763.45,-8.237,0.015,-1.045,1.4817,
+2026-11-12 21:04,BTC/USD,71397.2,trend_ned,oversolgt,"nej (krypto koebes ikke mod en faldende dagstrend (gebyr ca. 0,5 % kraever medvind))",,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91818.59,-8.181,0.015,-1.045,1.4817,
+2026-11-12 21:05,ETH/USD,2012.93,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91818.59,-8.181,0.015,-1.045,1.4817,
+2026-11-12 21:05,SOL/USD,81.15,trend_ned,nyhed_op,nej (kun 1.2% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99407.25,-0.593,91818.59,-8.181,0.015,-1.045,1.4817,
