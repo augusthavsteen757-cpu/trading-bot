@@ -12,38 +12,38 @@
       "last_review_price": 4.885
     },
     "RCAT": {
-      "last_entry_eval": "2026-11-11T19:02:44.593591+00:00",
+      "last_entry_eval": "2026-11-12T15:50:02.543948+00:00",
       "last_entry_setups": [
-        "trend_pullback"
+        "range_bund"
       ],
       "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-11T16:22:42.851244+00:00",
       "last_review_price": 4.46
     },
     "UMAC": {
-      "last_entry_eval": "2026-11-10T14:31:07.967568+00:00",
+      "last_entry_eval": "2026-11-12T15:50:19.672078+00:00",
       "last_entry_setups": [
-        "breakout"
+        "range_bund"
       ],
       "orb_day": "2026-11-03",
       "last_hold_review": "2026-11-03T15:32:56.117436+00:00",
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-12T14:35:07.600120+00:00",
+      "last_entry_eval": "2026-11-12T15:50:32.357113+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-12T14:35:24.125893+00:00",
+      "last_entry_eval": "2026-11-12T15:50:48.325550+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
       "orb_day": "2026-11-04"
     },
     "QUBT": {
-      "last_entry_eval": "2026-11-12T14:35:33.523962+00:00",
+      "last_entry_eval": "2026-11-12T15:51:06.070712+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -102,10 +102,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.465354,
+  "budget_used": 0.49846,
   "ai_day": "2026-11-12",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.0345064,
+  "ai_rounds_today": 10,
+  "ai_spend_today": 0.06761200000000002,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-12",
   "day_start_equity": 99966.76,
@@ -294,7 +294,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.335,
+  "last_btc_price": 5.285,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1542,9 +1542,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.74,
+    "pris": 280.41,
     "snitpris": 280.32,
-    "svag": true
+    "svag": false
   },
-  "marked_trend": 0
+  "marked_trend": -1
 }
