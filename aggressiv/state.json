@@ -338,7 +338,8 @@
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12": [
       "2026-11-12 15:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
       "2026-11-12 15:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
-      "2026-11-12 15:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
+      "2026-11-12 15:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
+      "2026-11-12 15:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -352,8 +353,18 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T15:01:15.559731+00:00",
+    "sidst_hentet": "2026-11-12T15:16:15.677346+00:00",
     "opslag": [
+      {
+        "id": "t3_1xufa9n",
+        "tid": "2026-11-12T15:12:15+00:00",
+        "titel": "Staged exit NVDA",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xuezk6",
         "tid": "2026-11-12T15:00:47+00:00",
@@ -570,16 +581,6 @@
         "id": "t3_1xtlz3g",
         "tid": "2026-11-11T16:18:35+00:00",
         "titel": "a student with $2000, should I buy Nvidia & AMAT now?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xtkc4n",
-        "tid": "2026-11-11T15:16:15+00:00",
-        "titel": "Dump life savings to long NVDA",
         "symboler": [
           "NVDA"
         ],
@@ -2306,8 +2307,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 684.2,
-    "snitpris": 685.63,
+    "pris": 685.44,
+    "snitpris": 685.6,
     "svag": true
   },
   "marked_trend": null
