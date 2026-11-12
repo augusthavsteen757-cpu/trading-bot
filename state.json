@@ -242,7 +242,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71312.275,
+  "last_btc_price": 71204.1995,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2118,8 +2118,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.77,
-    "snitpris": 685.77,
+    "pris": 685.75,
+    "snitpris": 685.69,
     "svag": false
   },
   "marked_trend": -1
