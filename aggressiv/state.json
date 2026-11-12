@@ -446,7 +446,8 @@
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
       "2026-11-12 17:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -460,8 +461,18 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T16:56:55.450724+00:00",
+    "sidst_hentet": "2026-11-12T17:16:51.067461+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuijwp",
+        "tid": "2026-11-12T17:15:06+00:00",
+        "titel": "Super Micro shares tumble as DOJ probes widen to Nvidia, Semafor reports",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xuhvhp",
         "tid": "2026-11-12T16:50:31+00:00",
@@ -786,7 +797,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2517,8 +2528,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.69,
-    "snitpris": 688.47,
+    "pris": 691.13,
+    "snitpris": 688.49,
     "svag": false
   },
   "marked_trend": null
