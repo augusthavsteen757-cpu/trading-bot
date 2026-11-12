@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72560.29699999999,
+  "last_btc_price": 72602.65,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,8 +1750,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T13:29:19.317474+00:00",
+    "sidst_hentet": "2026-11-12T13:49:18.712158+00:00",
     "opslag": [
+      {
+        "id": "t3_1xud2d4",
+        "tid": "2026-11-12T13:42:22+00:00",
+        "titel": "DTCC Tokenization Service to Connect with Solana, Advancing Multi-Chain Strategy and Expanding Access to Leading Blockch",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xuc0b6",
         "tid": "2026-11-12T12:53:58+00:00",
@@ -1916,16 +1926,6 @@
         "id": "t3_1xti8w2",
         "tid": "2026-11-11T13:51:12+00:00",
         "titel": "Bitcoin has been declared dead 482 times since 2010. A creator turned every one of them into a gravestone",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xthtwh",
-        "tid": "2026-11-11T13:32:29+00:00",
-        "titel": "Couldn't a central bank hack Saifedean's recent bitcoin-as-money hypothesis?",
         "symboler": [
           "BTC/USD"
         ],
