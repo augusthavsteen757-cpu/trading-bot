@@ -265,7 +265,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.325,
+  "last_btc_price": 5.255,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1513,8 +1513,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.95,
-    "snitpris": 280.52,
+    "pris": 280.78,
+    "snitpris": 280.53,
     "svag": false
   },
   "marked_trend": 0
