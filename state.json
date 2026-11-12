@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73884.43299999999,
+  "last_btc_price": 73722.99299999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1405,18 +1405,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-hype om GTA 6 og PS5 uden konkret nyhed bag; ingen handelsgrundlag.",
-        "tid": "2026-11-12T00:02:45.923897+00:00",
-        "pris_ved_nyhed": 83.41040000000001,
-        "udloeber": "2026-11-12T01:02:45.923897+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
