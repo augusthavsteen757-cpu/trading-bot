@@ -259,20 +259,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 22 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Adam Back-kommentar om 1M BTC i 2028 kan skabe positiv stemning og institutionel interesse, men er en langsigtet spekulativ udtalelse, sa effekten bliver sandsynligvis moderat og kortvarig.",
-        "tid": "2026-11-12T14:14:46.069363+00:00",
-        "pris_ved_nyhed": 72268.94,
-        "udloeber": "2026-11-12T18:14:46.069363+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-12T14:14:46.069363+00:00",
@@ -405,7 +392,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 71880.0595,
+  "last_btc_price": 71870.5685,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
