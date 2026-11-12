@@ -242,7 +242,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71419.65,
+  "last_btc_price": 71266.174,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1501,18 +1501,6 @@
         "pris_ved_nyhed": 71312.275,
         "udloeber": "2026-11-12T17:04:31.236036+00:00"
       },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Krypto-sentiment falder med BTC og teknologiaktier; ETH f\u00f8lger typisk med ned i risk-off, men signalet er svagere end for BTC.",
-        "tid": "2026-11-12T13:24:18.700079+00:00",
-        "pris_ved_nyhed": 2012.132,
-        "udloeber": "2026-11-12T15:24:18.700079+00:00"
-      },
       "SOL/USD": {
         "kilde": "kun_reddit",
         "symbol": "SOL/USD",
@@ -2118,9 +2106,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 685.44,
-    "snitpris": 685.62,
-    "svag": true
+    "pris": 686.21,
+    "snitpris": 685.64,
+    "svag": false
   },
   "marked_trend": -1
 }
