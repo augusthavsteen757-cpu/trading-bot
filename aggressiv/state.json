@@ -338,7 +338,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16": [
       "2026-11-12 19:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars",
-      "2026-11-12 19:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars"
+      "2026-11-12 19:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars",
+      "2026-11-12 19:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -721,20 +722,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "HOOD": {
-        "kilde": "nyhed",
-        "symbol": "HOOD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Stigende prediction-market-aktivitet i oktober-data giver volumenfremgang; aktien er i fokus i dag.",
-        "tid": "2026-11-12T16:11:53.153030+00:00",
-        "pris_ved_nyhed": 84.65,
-        "udloeber": "2026-11-12T19:11:53.153030+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-12T16:26:51.241034+00:00",
@@ -2329,7 +2317,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 689.02,
+    "pris": 689.5,
     "snitpris": 688.9,
     "svag": false
   },
