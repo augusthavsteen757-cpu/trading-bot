@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73378.656,
+  "last_btc_price": 73329.296,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1404,32 +1404,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "O'Leary's kommentar om institutionel tvivl bekraefter et eksisterende sell-off, men er ikke ny information. Regulerings-afklaring kunne paavirke senere, ikke kortsigtet.",
-        "tid": "2026-11-12T07:43:47.352289+00:00",
-        "pris_ved_nyhed": 73462.46,
-        "udloeber": "2026-11-12T09:43:47.352289+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "CLARITY Act-debatten rammer al krypto, saa ETH foelger BTC-stemningen. Ingen ny konkret katalysator, og sell-off er allerede i prisen.",
-        "tid": "2026-11-12T07:43:47.352289+00:00",
-        "pris_ved_nyhed": 2045.118,
-        "udloeber": "2026-11-12T09:43:47.352289+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-12T07:43:47.352289+00:00",
