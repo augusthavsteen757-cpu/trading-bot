@@ -444,10 +444,10 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -860,18 +860,6 @@
         "tid": "2026-11-12T14:56:17.292775+00:00",
         "pris_ved_nyhed": 394.34,
         "udloeber": "2026-11-12T17:56:17.292775+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Enron-sammenligning om off-balance-sheet AI-finansiering skaber debat, men ingen klar retning for kursen.",
-        "tid": "2026-11-12T15:21:15.461046+00:00",
-        "pris_ved_nyhed": 619.92,
-        "udloeber": "2026-11-12T17:21:15.461046+00:00"
       },
       "MARA": {
         "kilde": "nyhed",
@@ -2528,8 +2516,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.13,
-    "snitpris": 688.49,
+    "pris": 690.26,
+    "snitpris": 688.52,
     "svag": false
   },
   "marked_trend": null
