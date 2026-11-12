@@ -190,18 +190,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Doge dyppede, og analytikerens short squeeze-tese kan give kortvarig rebound, men signalet er svagt.",
-        "tid": "2026-11-12T01:58:40.735644+00:00",
-        "pris_ved_nyhed": 0.06709,
-        "udloeber": "2026-11-12T03:58:40.735644+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -213,18 +201,6 @@
         "tid": "2026-11-12T02:53:41.979975+00:00",
         "pris_ved_nyhed": 73730.25,
         "udloeber": "2026-11-12T04:53:41.979975+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ethereum stabiliseret, men uden klar katalysator; faldende risikoappetit trykker mod neutral.",
-        "tid": "2026-11-12T01:58:40.735644+00:00",
-        "pris_ved_nyhed": 2047.2715,
-        "udloeber": "2026-11-12T03:58:40.735644+00:00"
       }
     },
     "dag": "2026-11-12",
@@ -352,7 +328,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73636.9,
+  "last_btc_price": 73707.39,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
