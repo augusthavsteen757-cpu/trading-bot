@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72103.958,
+  "last_btc_price": 71858.6525,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,8 +1750,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T14:04:19.105685+00:00",
+    "sidst_hentet": "2026-11-12T14:24:18.921703+00:00",
     "opslag": [
+      {
+        "id": "t3_1xudq8g",
+        "tid": "2026-11-12T14:09:57+00:00",
+        "titel": "Revolution Mining said my KYC failed and I couldn\u2019t withdraw my Bitcoin mining payouts",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xud2d4",
         "tid": "2026-11-12T13:42:22+00:00",
@@ -1923,7 +1933,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
