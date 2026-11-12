@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.25** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.29** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.524 USD  ·  **I alt:** -476 USD (-0.48 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 12/11 17.24
+**Konto:** 99.525 USD  ·  **I alt:** -475 USD (-0.47 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 12/11 17.29
 
 **Ejer nu:**
 
@@ -29,9 +29,15 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.25** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 17.05
+**Konto:** 99.636 USD  ·  **I alt:** -364 USD (-0.36 %)  ·  **I dag:** -0.30 %  ·  sidst opdateret 12/11 17.25
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| RCAT | 2369 | 4.21 | 12/11 17.19 |
+| RGTI | 913 | 10.95 | 12/11 17.10 |
+| OUST | 260 | 38.30 | 12/11 17.10 |
 
 **Lukkede handler:** 11 i alt, 4 med gevinst, samlet +100 USD
 
@@ -45,7 +51,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.25** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.20
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.25
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -78,9 +84,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.25** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 102.790 USD  ·  **I alt:** +2.790 USD (+2.79 %)  ·  **I dag:** +1.23 %  ·  sidst opdateret 12/11 17.22
+**Konto:** 102.295 USD  ·  **I alt:** +2.295 USD (+2.30 %)  ·  **I dag:** +0.86 %  ·  sidst opdateret 12/11 17.27
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +1184 USD (5 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +1172 USD (5 vundet), fuld fart
 
 **Ejer nu:**
 
@@ -89,17 +95,16 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.25** (dansk tid). Ku
 | AMD | 1 | 582.66 | 12/11 17.02 |
 | AVGO | 42 | 366.52 | 12/11 17.17 |
 | HOOD | 5 | 83.34 | 12/11 17.02 |
-| SMCI | 535 | 28.11 | 12/11 16.21 |
 | MARA | 23 | 7.62 | 12/11 17.17 |
 | SHOP | 409 | 148.46 | 12/11 15.52 |
 
-**Lukkede handler:** 34 i alt, 12 med gevinst, samlet +2.489 USD
+**Lukkede handler:** 35 i alt, 12 med gevinst, samlet +2.476 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ SMCI | 12/11 17.27 | -13 USD | stop ramt (Alpaca) |
 | ✅ SMCI | 12/11 17.07 | +363 USD | halvdel solgt (+1R) |
 | ❌ HOOD | 11/11 21.54 | -5 USD | tidsstop (90 min uden gevinst) |
 | ✅ AMD | 11/11 21.54 | +109 USD | dagens slut (ORB) |
 | ✅ CRWG | 11/11 21.54 | +400 USD | dagens slut (ORB) |
-| ❌ COIN | 11/11 21.14 | -4 USD | stop ramt (Alpaca) |
 
