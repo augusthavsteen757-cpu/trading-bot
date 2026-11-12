@@ -444,7 +444,8 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -835,18 +836,6 @@
         "tid": "2026-11-12T16:01:51.786521+00:00",
         "pris_ved_nyhed": 117.11,
         "udloeber": "2026-11-12T18:01:51.786521+00:00"
-      },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stiger 16% pga. st\u00e6rke Q3-resultater; momentum kan forts\u00e6tte, men meget allerede prisfastsat efter spring.",
-        "tid": "2026-11-12T15:06:17.782284+00:00",
-        "pris_ved_nyhed": 13.67,
-        "udloeber": "2026-11-12T17:06:17.782284+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -2527,8 +2516,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.59,
-    "snitpris": 688.41,
+    "pris": 691.13,
+    "snitpris": 688.45,
     "svag": false
   },
   "marked_trend": null
