@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71505.57949999999,
+  "last_btc_price": 71497.425,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1468,30 +1468,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "BMO s\u00e6nker kursm\u00e5let til 240 men bevarer outperform. Mindre overraskelse, og kursm\u00e5let s\u00e6nkes allerede i prisen.",
-        "tid": "2026-11-12T18:40:06.514131+00:00",
-        "pris_ved_nyhed": 165.58499999999998,
-        "udloeber": "2026-11-12T21:40:06.514131+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Dalys AI-kommentar om en dyb pipeline st\u00f8tter teknologisektoren. QQQ har st\u00f8rst eksponering mod AI-temaet.",
-        "tid": "2026-11-12T18:40:06.514131+00:00",
-        "pris_ved_nyhed": 690.66,
-        "udloeber": "2026-11-12T21:40:06.514131+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
