@@ -373,10 +373,10 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2381,7 +2381,7 @@
       "LUNR",
       "SNDQ"
     ],
-    "sidst": "2026-11-12T17:26:51.276396+00:00",
+    "sidst": "2026-11-12T17:41:50.787609+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2421,8 +2421,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.88,
-    "snitpris": 688.57,
+    "pris": 691.53,
+    "snitpris": 688.6,
     "svag": false
   },
   "marked_trend": null
