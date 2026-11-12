@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71502.79999999999,
+  "last_btc_price": 71479.3095,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1527,18 +1527,6 @@
         "pris_ved_nyhed": 690.66,
         "udloeber": "2026-11-12T21:40:06.514131+00:00"
       },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "William Blair opgraderer AMD og peger p\u00e5 Nvidias ledelsesuro som mulighed for AI-chipandele. Opgraderinger med konkret v\u00e6kstprognose kan l\u00f8fte kursen.",
-        "tid": "2026-11-12T17:19:23.731090+00:00",
-        "pris_ved_nyhed": 580.6800000000001,
-        "udloeber": "2026-11-12T20:19:23.731090+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -2318,8 +2306,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.39,
-    "snitpris": 688.8,
+    "pris": 687.41,
+    "snitpris": 688.78,
     "svag": true
   },
   "marked_trend": -1
