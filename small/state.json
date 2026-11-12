@@ -116,7 +116,7 @@
   "day_start_equity": 99966.76,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-12T16:54:53.791334+00:00",
+    "sidst_hentet": "2026-11-12T17:14:52.120842+00:00",
     "opslag": [
       {
         "id": "t3_1xuehn0",
@@ -144,30 +144,6 @@
         "tid": "2026-11-12T16:24:53.572778+00:00",
         "pris_ved_nyhed": 5.375,
         "udloeber": "2026-11-12T18:24:53.572778+00:00"
-      },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigningen paa 16% efter staerke Q3-tal er allerede sket, men momentum kan fortsaette kort. Risiko for gevinstsalg efter kraftig bevaegelse.",
-        "tid": "2026-11-12T15:14:50.403767+00:00",
-        "pris_ved_nyhed": 13.815000000000001,
-        "udloeber": "2026-11-12T17:14:50.403767+00:00"
-      },
-      "ACHR": {
-        "kilde": "nyhed",
-        "symbol": "ACHR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Space- og rumsektor-sentiment kan smitte over; svag sammenhaeng, da nyheden kun naevner LUNR og andre gevinster.",
-        "tid": "2026-11-12T15:14:50.403767+00:00",
-        "pris_ved_nyhed": 4.535,
-        "udloeber": "2026-11-12T17:14:50.403767+00:00"
       },
       "RCAT": {
         "kilde": "nyhed",
@@ -276,7 +252,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.365,
+  "last_btc_price": 5.385,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1524,8 +1500,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.85,
-    "snitpris": 280.51,
+    "pris": 280.94,
+    "snitpris": 280.52,
     "svag": false
   },
   "marked_trend": 0
