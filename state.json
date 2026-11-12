@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72797.755,
+  "last_btc_price": 72686.772,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1713,8 +1713,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T12:49:19.446246+00:00",
+    "sidst_hentet": "2026-11-12T13:09:19.517371+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuc0b6",
+        "tid": "2026-11-12T12:53:58+00:00",
+        "titel": "Why is Nimiq so undervalued if it solves the core custody and usability problems that Bitcoin and Smart Contracts failed",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xubuml",
         "tid": "2026-11-12T12:45:50+00:00",
@@ -1886,7 +1896,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
