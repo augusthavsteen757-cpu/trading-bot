@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.05** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.419 USD  ·  **I alt:** -581 USD (-0.58 %)  ·  **I dag:** +0.03 %  ·  sidst opdateret 12/11 17.00
+**Konto:** 99.437 USD  ·  **I alt:** -563 USD (-0.56 %)  ·  **I dag:** +0.02 %  ·  sidst opdateret 12/11 17.05
 
 **Ejer nu:**
 
@@ -12,6 +12,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 |---|---|---|---|
 | SPY | 13 | 758.47 | 12/11 16.44 |
 | QQQ | 14 | 691.77 | 12/11 16.59 |
+| MSFT | 18 | 527.58 | 12/11 17.05 |
+| AMD | 1 | 579.48 | 12/11 17.05 |
 | EQIX | 9 | 1071.04 | 12/11 16.55 |
 
 **Lukkede handler:** 27 i alt, 9 med gevinst, samlet -538 USD
@@ -26,7 +28,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 16.55
+**Konto:** 99.967 USD  ·  **I alt:** -33 USD (-0.03 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 12/11 17.05
 
 **Ejer nu:** intet
 
@@ -42,7 +44,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 16.55
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.00
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -56,7 +58,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.217 USD  ·  **I alt:** -1.783 USD (-1.78 %)  ·  **I dag:** +0.17 %  ·  sidst opdateret 12/11 16.50
+**Konto:** 98.179 USD  ·  **I alt:** -1.821 USD (-1.82 %)  ·  **I dag:** +0.13 %  ·  sidst opdateret 12/11 17.00
 
 **Ejer nu:**
 
@@ -75,7 +77,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.828 USD  ·  **I alt:** +1.828 USD (+1.83 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 12/11 16.57
+**Konto:** 102.047 USD  ·  **I alt:** +2.047 USD (+2.05 %)  ·  **I dag:** +0.61 %  ·  sidst opdateret 12/11 17.02
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart
 
@@ -83,6 +85,8 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.00** (dansk tid). Ku
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
+| AMD | 1 | 582.66 | 12/11 17.02 |
+| HOOD | 5 | 83.34 | 12/11 17.02 |
 | SMCI | 1069 | 28.11 | 12/11 16.21 |
 | SHOP | 409 | 148.46 | 12/11 15.52 |
 
