@@ -69,7 +69,7 @@
         "entry": 758.465,
         "stop": 758.465,
         "stop_initial": 755.7725,
-        "high": 762.19,
+        "high": 762.2,
         "qty": 13.0,
         "entry_tid": "2026-11-12 15:44",
         "setup": "orb",
@@ -178,7 +178,7 @@
         "entry": 527.575,
         "stop": 523.1949999999999,
         "stop_initial": 523.1949999999999,
-        "high": 528.54,
+        "high": 528.95,
         "qty": 18.0,
         "entry_tid": "2026-11-12 16:05",
         "setup": "orb",
@@ -306,7 +306,7 @@
         "entry": 1071.04,
         "stop": 1068.4625,
         "stop_initial": 1068.4625,
-        "high": 1074.4,
+        "high": 1074.41,
         "qty": 9.0,
         "entry_tid": "2026-11-12 15:55",
         "setup": "orb",
@@ -337,7 +337,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71979.322,
+  "last_btc_price": 71944.35,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1596,18 +1596,6 @@
         "pris_ved_nyhed": 71634.45000000001,
         "udloeber": "2026-11-12T17:59:21.640642+00:00"
       },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "DTCC-integration med Solana ville vaere positiv, men kun Reddit-rygte uden bekraeftet nyhedskilde; behandles som svag kontekst.",
-        "tid": "2026-11-12T14:14:19.002269+00:00",
-        "pris_ved_nyhed": 81.0145,
-        "udloeber": "2026-11-12T16:14:19.002269+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -2225,8 +2213,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.25,
-    "snitpris": 686.8,
+    "pris": 693.3,
+    "snitpris": 687.53,
     "svag": false
   },
   "marked_trend": 0
