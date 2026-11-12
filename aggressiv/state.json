@@ -343,10 +343,10 @@
       "2026-11-12 20:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 16 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17": [
-      "2026-11-12 20:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
       "2026-11-12 20:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
       "2026-11-12 20:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
-      "2026-11-12 20:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars"
+      "2026-11-12 20:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
+      "2026-11-12 20:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -360,7 +360,7 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T20:16:51.673426+00:00",
+    "sidst_hentet": "2026-11-12T20:36:51.108582+00:00",
     "opslag": [
       {
         "id": "t3_1xunge8",
@@ -2354,8 +2354,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.33,
-    "snitpris": 688.75,
+    "pris": 686.54,
+    "snitpris": 688.66,
     "svag": true
   },
   "marked_trend": null
