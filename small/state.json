@@ -111,9 +111,20 @@
   "day_start_equity": 99966.76,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-12T14:34:49.915405+00:00",
-    "opslag": [],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
+    "sidst_hentet": "2026-11-12T14:49:57.090347+00:00",
+    "opslag": [
+      {
+        "id": "t3_1xuehn0",
+        "tid": "2026-11-12T14:41:04+00:00",
+        "titel": "AVGO is the best play over AMD for Huangs ouster at NVDA",
+        "symboler": [
+          "OUST"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      }
+    ],
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -268,7 +279,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.355,
+  "last_btc_price": 5.375,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1514,6 +1525,11 @@
     ]
   },
   "scan": {},
-  "marked": {},
+  "marked": {
+    "symbol": "IWM",
+    "pris": 280.7,
+    "snitpris": 281.06,
+    "svag": true
+  },
   "marked_trend": -1
 }
