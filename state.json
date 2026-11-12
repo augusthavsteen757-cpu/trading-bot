@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72800.88,
+  "last_btc_price": 72881.3245,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1713,8 +1713,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T12:33:48.690379+00:00",
+    "sidst_hentet": "2026-11-12T12:49:19.446246+00:00",
     "opslag": [
+      {
+        "id": "t3_1xubuml",
+        "tid": "2026-11-12T12:45:50+00:00",
+        "titel": "Whats the current best Ethereum wallet",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
+      {
+        "id": "t3_1xubq10",
+        "tid": "2026-11-12T12:39:36+00:00",
+        "titel": "Why would anyone buy tokenized stocks on Solana instead of using a regular broker?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xuarpt",
         "tid": "2026-11-12T11:50:10+00:00",
@@ -1866,7 +1886,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
