@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71540.6835,
+  "last_btc_price": 71516.7,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1908,7 +1908,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T19:14:59.838356+00:00",
+    "sidst_hentet": "2026-11-12T19:30:03.412356+00:00",
     "opslag": [
       {
         "id": "t3_1xul225",
@@ -2273,14 +2273,14 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403), rss (json gav 403)): 200 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 689.63,
+    "pris": 688.83,
     "snitpris": 688.91,
-    "svag": false
+    "svag": true
   },
   "marked_trend": 0
 }
