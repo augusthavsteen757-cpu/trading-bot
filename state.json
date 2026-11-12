@@ -97,31 +97,7 @@
         "nyhed_op"
       ],
       "last_hold_review": "2026-11-06T14:56:37.868623+00:00",
-      "last_review_price": 661.3199999999999,
-      "pos": {
-        "entry": 691.7650000000001,
-        "stop": 684.0350000000001,
-        "stop_initial": 684.0350000000001,
-        "high": 694.0,
-        "qty": 14.0,
-        "entry_tid": "2026-11-12 15:59",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 688.07, 'or_low': 680.0, 'sidste_luk': 689.43}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 60.5,
-          "adx_1h": 25.2,
-          "rel_volumen_1h": 1.3,
-          "afstand_modstand_atr": 0.71,
-          "atr_percentil_30d": 90.5
-        },
-        "target": 707.2250000000001,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 661.3199999999999
     },
     "NVDA": {
       "last_entry_eval": "2026-11-11T15:42:35.138582+00:00",
@@ -361,7 +337,7 @@
       }
     }
   },
-  "last_btc_price": 71769.185,
+  "last_btc_price": 71678.46849999999,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1692,18 +1668,6 @@
         "pris_ved_nyhed": 621.265,
         "udloeber": "2026-11-12T17:19:21.503239+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "SpaceX-aktiens fald g\u00f8r en mulig Tesla-fusion mere kompliceret; usikkerhed frem for klar retning.",
-        "tid": "2026-11-12T14:54:29.241104+00:00",
-        "pris_ved_nyhed": 395.3,
-        "udloeber": "2026-11-12T16:54:29.241104+00:00"
-      },
       "AAPL": {
         "kilde": "nyhed",
         "symbol": "AAPL",
@@ -2237,8 +2201,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.74,
-    "snitpris": 688.37,
+    "pris": 691.32,
+    "snitpris": 688.4,
     "svag": false
   },
   "marked_trend": 0
