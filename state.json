@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73588.152,
+  "last_btc_price": 73572.08499999999,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,7 +1750,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T07:48:47.601102+00:00",
+    "sidst_hentet": "2026-11-12T08:08:47.542763+00:00",
     "opslag": [
       {
         "id": "t3_1xu0r22",
@@ -1871,19 +1871,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtc5w7",
-        "tid": "2026-11-11T08:05:11+00:00",
-        "titel": "Bitcoin Heated Hot Tubs And 278 Washington Bitcoin Merchants : Now Accepting Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
