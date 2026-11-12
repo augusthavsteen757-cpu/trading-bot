@@ -1,35 +1,34 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.55** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.59** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.418 USD  ·  **I alt:** -582 USD (-0.58 %)  ·  **I dag:** +0.04 %  ·  sidst opdateret 12/11 17.54
+**Konto:** 99.458 USD  ·  **I alt:** -542 USD (-0.54 %)  ·  **I dag:** +0.07 %  ·  sidst opdateret 12/11 17.59
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | SPY | 13 | 758.47 | 12/11 16.44 |
-| QQQ | 14 | 691.77 | 12/11 16.59 |
 | MSFT | 18 | 527.58 | 12/11 17.05 |
 | AMD | 1 | 579.48 | 12/11 17.05 |
 | EQIX | 9 | 1071.04 | 12/11 16.55 |
 | DLR | 3 | 182.97 | 12/11 17.20 |
 
-**Lukkede handler:** 27 i alt, 9 med gevinst, samlet -538 USD
+**Lukkede handler:** 28 i alt, 9 med gevinst, samlet -538 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ QQQ | 12/11 17.59 | -1 USD | tidsstop (60 min uden gevinst) |
 | ✅ AMD | 11/11 21.53 | +53 USD | dagens slut (ORB) |
 | ❌ NVDA | 11/11 20.17 | -1 USD | stop ramt (Alpaca) |
 | ✅ SPY | 11/11 18.42 | +40 USD | maal naaet |
 | ❌ TSLA | 11/11 17.52 | -34 USD | tidsstop (60 min uden gevinst) |
-| ✅ AAPL | 6/11 21.52 | +1 USD | dagens slut (ORB) |
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.546 USD  ·  **I alt:** -454 USD (-0.45 %)  ·  **I dag:** -0.43 %  ·  sidst opdateret 12/11 17.30
+**Konto:** 99.400 USD  ·  **I alt:** -600 USD (-0.60 %)  ·  **I dag:** -0.54 %  ·  sidst opdateret 12/11 17.55
 
 **Ejer nu:**
 
@@ -50,7 +49,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.55** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.50
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.56
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -83,7 +82,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.55** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 101.994 USD  ·  **I alt:** +1.994 USD (+1.99 %)  ·  **I dag:** +0.59 %  ·  sidst opdateret 12/11 17.52
+**Konto:** 101.804 USD  ·  **I alt:** +1.804 USD (+1.80 %)  ·  **I dag:** +0.34 %  ·  sidst opdateret 12/11 17.57
 
 **Selv-tjek:** auto-tjek: seneste 10 handler +1172 USD (5 vundet), fuld fart
 
