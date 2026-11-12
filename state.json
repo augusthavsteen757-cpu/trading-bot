@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71462.35,
+  "last_btc_price": 71495.34349999999,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1908,8 +1908,48 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T19:30:03.412356+00:00",
+    "sidst_hentet": "2026-11-12T19:49:58.668483+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuml5d",
+        "tid": "2026-11-12T19:43:25+00:00",
+        "titel": "Nvidia earnings next week. Can good numbers still disappoint this market?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
+      {
+        "id": "t3_1xuml35",
+        "tid": "2026-11-12T19:43:20+00:00",
+        "titel": "Bitcoin Democratization Business",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xumcg9",
+        "tid": "2026-11-12T19:34:36+00:00",
+        "titel": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
+      {
+        "id": "t3_1xuludr",
+        "tid": "2026-11-12T19:16:02+00:00",
+        "titel": "Outlook Outage: Microsoft's Email Service Goes Down Nationwide",
+        "symboler": [
+          "MSFT"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xul225",
         "tid": "2026-11-12T18:47:24+00:00",
@@ -2273,13 +2313,13 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403), rss (json gav 403)): 200 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.54,
-    "snitpris": 688.88,
+    "pris": 687.82,
+    "snitpris": 688.87,
     "svag": true
   },
   "marked_trend": -1
