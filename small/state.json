@@ -116,7 +116,7 @@
   "day_start_equity": 99966.76,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:09:51.678612+00:00",
+    "sidst_hentet": "2026-11-12T18:25:29.955418+00:00",
     "opslag": [
       {
         "id": "t3_1xuehn0",
@@ -133,30 +133,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Oms\u00e6tning 16x og h\u00e6vet 2026-prognose er klart positivt og overraskende. Marginpres og \u00f8gede tab kan dog d\u00e6mpe reaktionen. Vurderes som mulig stigning kort sigt.",
-        "tid": "2026-11-12T16:24:53.572778+00:00",
-        "pris_ved_nyhed": 5.375,
-        "udloeber": "2026-11-12T18:24:53.572778+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Droneselskaber tr\u00e6kker ofte med, n\u00e5r ONDS f\u00e5r st\u00e6rke tal. Sammenh\u00e6ngen er indirekte, men sandsynlig sympatibev\u00e6gelse.",
-        "tid": "2026-11-12T16:24:53.572778+00:00",
-        "pris_ved_nyhed": 4.195,
-        "udloeber": "2026-11-12T18:24:53.572778+00:00"
-      },
       "LUNR": {
         "kilde": "nyhed",
         "symbol": "LUNR",
@@ -265,7 +241,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.265,
+  "last_btc_price": 5.285,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1513,8 +1489,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 280.28,
-    "snitpris": 280.54,
+    "pris": 280.31,
+    "snitpris": 280.53,
     "svag": true
   },
   "marked_trend": 0
