@@ -444,10 +444,10 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:11: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -801,18 +801,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AMD": {
-        "kilde": "kun_reddit",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-hype om 0DTE-call-optioner, men uden rigtig nyhed bag. Kun svag kontekst.",
-        "tid": "2026-11-12T16:26:51.241034+00:00",
-        "pris_ved_nyhed": 587.08,
-        "udloeber": "2026-11-12T17:26:51.241034+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -896,18 +884,6 @@
         "tid": "2026-11-12T16:11:53.153030+00:00",
         "pris_ved_nyhed": 84.65,
         "udloeber": "2026-11-12T19:11:53.153030+00:00"
-      },
-      "SNDQ": {
-        "kilde": "nyhed",
-        "symbol": "SNDQ",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Sandisk faldt cirka 10 procent efter Huangs afgang. Det meste af nedgangen er sandsynligvis allerede sket, saa videre fald er mindre sandsynligt.",
-        "tid": "2026-11-12T16:26:51.241034+00:00",
-        "pris_ved_nyhed": 23.92,
-        "udloeber": "2026-11-12T17:26:51.241034+00:00"
       },
       "PLTR": {
         "kilde": "nyhed",
@@ -2476,7 +2452,7 @@
       "LUNR",
       "SNDQ"
     ],
-    "sidst": "2026-11-12T17:11:51.319588+00:00",
+    "sidst": "2026-11-12T17:26:51.276396+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2516,8 +2492,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 690.26,
-    "snitpris": 688.52,
+    "pris": 689.59,
+    "snitpris": 688.54,
     "svag": false
   },
   "marked_trend": null
