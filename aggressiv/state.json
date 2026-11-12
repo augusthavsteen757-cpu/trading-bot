@@ -85,31 +85,7 @@
       "last_entry_setups": [
         "nyhed_op"
       ],
-      "orb_day": "2026-11-12",
-      "pos": {
-        "entry": 366.52,
-        "stop": 360.24,
-        "stop_initial": 360.24,
-        "high": 369.5,
-        "qty": 42.0,
-        "entry_tid": "2026-11-12 16:17",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 365.6, 'or_low': 354.88, 'sidste_luk': 365.69}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 1,
-          "trend_1d": 0,
-          "rsi_1h": 74.6,
-          "adx_1h": 44.5,
-          "rel_volumen_1h": 0.66,
-          "afstand_modstand_atr": 3.0,
-          "atr_percentil_30d": 90.9
-        },
-        "target": 385.3599999999999,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-12"
     },
     "NFLX": {
       "orb_day": "2026-11-04",
@@ -144,31 +120,7 @@
       ]
     },
     "MARA": {
-      "orb_day": "2026-11-12",
-      "pos": {
-        "entry": 7.625,
-        "stop": 7.345000000000001,
-        "stop_initial": 7.345000000000001,
-        "high": 7.64,
-        "qty": 23.0,
-        "entry_tid": "2026-11-12 16:17",
-        "setup": "orb",
-        "regime": "high_vol",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 7.49, 'or_low': 7.2, 'sidste_luk': 7.63}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 0,
-          "trend_1d": 0,
-          "rsi_1h": 58.5,
-          "adx_1h": 21.4,
-          "rel_volumen_1h": 0.5,
-          "afstand_modstand_atr": 1.14,
-          "atr_percentil_30d": 93.7
-        },
-        "target": 8.464999999999998,
-        "luk_foer_luk": true
-      }
+      "orb_day": "2026-11-12"
     },
     "RIOT": {
       "last_entry_eval": "2026-11-11T14:34:59.778291+00:00",
@@ -373,10 +325,10 @@
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
-      "2026-11-12 17:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
-      "2026-11-12 17:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+      "2026-11-12 17:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
+      "2026-11-12 17:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -385,7 +337,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.06237459999999998,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler +800 USD (3 vundet), fuld fart",
+  "auto_tjek": "auto-tjek: seneste 10 handler +777 USD (3 vundet), fuld fart",
   "eq_day": "2026-11-12",
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
@@ -2422,7 +2374,7 @@
   "marked": {
     "symbol": "QQQ",
     "pris": 691.53,
-    "snitpris": 688.6,
+    "snitpris": 688.64,
     "svag": false
   },
   "marked_trend": null
