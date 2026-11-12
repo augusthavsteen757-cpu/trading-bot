@@ -438,10 +438,10 @@
       "2026-11-12 16:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13": [
-      "2026-11-12 16:16: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:21: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:26: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
-      "2026-11-12 16:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+      "2026-11-12 16:31: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
+      "2026-11-12 16:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -455,8 +455,39 @@
   "day_start_equity": 101414.38,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T16:21:50.877845+00:00",
+    "sidst_hentet": "2026-11-12T16:36:52.041260+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuhaah",
+        "tid": "2026-11-12T16:28:28+00:00",
+        "titel": "With Jensen Huang stepping down as NVIDIA's CEO and board member, does AMD's Lisa Su become the undisputed queen of the ",
+        "symboler": [
+          "NVDA",
+          "AMD"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
+      {
+        "id": "t3_1xuh6go",
+        "tid": "2026-11-12T16:24:29+00:00",
+        "titel": "Is Nvidia F*cked?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
+      {
+        "id": "t3_1xuh43j",
+        "tid": "2026-11-12T16:22:00+00:00",
+        "titel": "Be careful panic selling NVDA",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xugxv3",
         "tid": "2026-11-12T16:15:24+00:00",
@@ -750,7 +781,7 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2465,7 +2496,7 @@
       "LUNR",
       "SNDQ"
     ],
-    "sidst": "2026-11-12T16:26:51.116284+00:00",
+    "sidst": "2026-11-12T16:36:51.658785+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2505,8 +2536,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 692.68,
-    "snitpris": 688.1,
+    "pris": 691.5,
+    "snitpris": 688.16,
     "svag": false
   },
   "marked_trend": null
