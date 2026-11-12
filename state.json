@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71492.70499999999,
+  "last_btc_price": 71519.405,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1837,7 +1837,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T21:04:56.832842+00:00",
+    "sidst_hentet": "2026-11-12T21:24:56.108403+00:00",
     "opslag": [
       {
         "id": "t3_1xuo594",
@@ -1970,6 +1970,16 @@
         "sub": "Bitcoin"
       },
       {
+        "id": "t3_1xueq9q",
+        "tid": "2026-11-12T14:50:35+00:00",
+        "titel": "What happens to lost Bitcoin if quantum computers become powerful enough?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
         "id": "t3_1xuehn0",
         "tid": "2026-11-12T14:41:04+00:00",
         "titel": "AVGO is the best play over AMD for Huangs ouster at NVDA",
@@ -1979,6 +1989,16 @@
         ],
         "score": 0,
         "sub": "stocks"
+      },
+      {
+        "id": "t3_1xue9z8",
+        "tid": "2026-11-12T14:32:06+00:00",
+        "titel": "How long would a Bitcoin quantum security upgrade take?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
       },
       {
         "id": "t3_1xue9b9",
@@ -2261,7 +2281,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
