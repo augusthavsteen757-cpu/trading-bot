@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 72735.01550000001,
+  "last_btc_price": 72807.29000000001,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1404,32 +1404,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA-uro og faldende Nasdaq kan give risikoaversion, men BTC har ingen direkte forbindelse; effekten er svag og usikker.",
-        "tid": "2026-11-12T10:28:49.497187+00:00",
-        "pris_ved_nyhed": 73488.8885,
-        "udloeber": "2026-11-12T12:28:49.497187+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Tech-svaghed smitter muligvis til krypto, men overskriften naevner ikke krypto; sammenhaengen er indirekte.",
-        "tid": "2026-11-12T10:28:49.497187+00:00",
-        "pris_ved_nyhed": 2047.241,
-        "udloeber": "2026-11-12T12:28:49.497187+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-12T10:28:49.497187+00:00",
@@ -1738,7 +1713,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T12:18:48.016304+00:00",
+    "sidst_hentet": "2026-11-12T12:33:48.690379+00:00",
     "opslag": [
       {
         "id": "t3_1xuarpt",
