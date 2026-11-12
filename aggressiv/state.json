@@ -329,6 +329,9 @@
       "2026-11-12 17:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 17:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars",
       "2026-11-12 18:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15": [
+      "2026-11-12 18:06: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 15 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -703,54 +706,6 @@
         "tid": "2026-11-12T16:26:51.241034+00:00",
         "pris_ved_nyhed": 164.97,
         "udloeber": "2026-11-12T18:26:51.241034+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin-faldet under 72.000 rammer krypto-b\u00f8rsaktier og b\u00f8r trykke COIN p\u00e5 samme m\u00e5de som MSTR.",
-        "tid": "2026-11-12T16:01:51.786521+00:00",
-        "pris_ved_nyhed": 131.98,
-        "udloeber": "2026-11-12T18:01:51.786521+00:00"
-      },
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "MSCI-fjernelse og Bitcoin under 72.000 presser aktien; faldet er sket, men flere negative nyheder kan forl\u00e6nge det kortsigtet.",
-        "tid": "2026-11-12T16:01:51.786521+00:00",
-        "pris_ved_nyhed": 117.11,
-        "udloeber": "2026-11-12T18:01:51.786521+00:00"
-      },
-      "MARA": {
-        "kilde": "nyhed",
-        "symbol": "MARA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin-minere f\u00f8lger BTC-kursen; et fald under 72.000 presser typisk minerne, is\u00e6r MARA og RIOT.",
-        "tid": "2026-11-12T16:01:51.786521+00:00",
-        "pris_ved_nyhed": 7.405,
-        "udloeber": "2026-11-12T18:01:51.786521+00:00"
-      },
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme logik som MARA: svagere Bitcoin giver lavere mineindt\u00e6gter og kursfald i minerne.",
-        "tid": "2026-11-12T16:01:51.786521+00:00",
-        "pris_ved_nyhed": 18.395,
-        "udloeber": "2026-11-12T18:01:51.786521+00:00"
       },
       "HOOD": {
         "kilde": "nyhed",
@@ -2371,8 +2326,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.27,
-    "snitpris": 688.74,
+    "pris": 690.99,
+    "snitpris": 688.76,
     "svag": false
   },
   "marked_trend": null
