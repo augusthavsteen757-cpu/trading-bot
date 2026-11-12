@@ -203,18 +203,6 @@
         "pris_ved_nyhed": 13.815000000000001,
         "udloeber": "2026-11-12T17:14:50.403767+00:00"
       },
-      "RGTI": {
-        "kilde": "nyhed",
-        "symbol": "RGTI",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Rigetti-regnskab skuffede og kvantesektoren faldt med Nvidia-uro. Sandsynligvis allerede reflekteret i kursen efter 13:26-13:57.",
-        "tid": "2026-11-12T14:34:51.133864+00:00",
-        "pris_ved_nyhed": 10.68,
-        "udloeber": "2026-11-12T16:34:51.133864+00:00"
-      },
       "ACHR": {
         "kilde": "nyhed",
         "symbol": "ACHR",
@@ -226,18 +214,6 @@
         "tid": "2026-11-12T15:14:50.403767+00:00",
         "pris_ved_nyhed": 4.535,
         "udloeber": "2026-11-12T17:14:50.403767+00:00"
-      },
-      "QUBT": {
-        "kilde": "nyhed",
-        "symbol": "QUBT",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kvantesektoren under pres efter skuffende Rigetti- og D-Wave-resultater; QUBT kan fortsat smitte af i svag sektorstemning.",
-        "tid": "2026-11-12T14:34:51.133864+00:00",
-        "pris_ved_nyhed": 5.985,
-        "udloeber": "2026-11-12T16:34:51.133864+00:00"
       },
       "RCAT": {
         "kilde": "nyhed",
@@ -346,7 +322,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.355,
+  "last_btc_price": 5.345,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1594,8 +1570,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 281.39,
-    "snitpris": 280.47,
+    "pris": 281.32,
+    "snitpris": 280.48,
     "svag": false
   },
   "marked_trend": 0
