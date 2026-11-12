@@ -5713,3 +5713,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 17:05,LUNR,14.12,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99337.29,-0.663,90532.54,-9.467,-0.616,-0.822,0.4987,
 2026-11-12 17:05,ACHR,4.515,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99346.42,-0.654,90532.54,-9.467,-0.616,-0.822,0.4987,
 2026-11-12 17:05,OUST,37.57,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,37.19,99359.42,-0.641,90532.54,-9.467,-0.616,-0.822,0.4987,
+2026-11-12 17:09,ONDS,5.365,high_vol,range_bund nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:09,RCAT,4.14,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:09,UMAC,12.0,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:09,BBAI,2.155,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:09,SOUN,3.695,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:09,QUBT,5.875,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:10,RGTI,10.61,high_vol,range_bund,nej (setup: range_bund),,,,,,,,,,,,,STOP RAMT,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,Solgt ca. 11
+2026-11-12 17:10,LUNR,14.11,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:10,ACHR,4.485,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
+2026-11-12 17:10,OUST,37.57,range,trend_pullback,nej (setup: trend_pullback),,,,,,,,,,,,,SALG (tidsstop),260.0,,,99278.7,-0.721,90701.61,-9.298,-0.688,-0.894,0.4987,
