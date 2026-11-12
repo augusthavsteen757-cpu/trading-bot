@@ -442,6 +442,9 @@
       "2026-11-12 16:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars",
       "2026-11-12 16:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14": [
+      "2026-11-12 17:01: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 14 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2524,8 +2527,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 691.32,
-    "snitpris": 688.38,
+    "pris": 691.59,
+    "snitpris": 688.41,
     "svag": false
   },
   "marked_trend": null
