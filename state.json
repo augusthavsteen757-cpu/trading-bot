@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71641.455,
+  "last_btc_price": 71696.475,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1920,8 +1920,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T18:40:04.915831+00:00",
+    "sidst_hentet": "2026-11-12T18:59:58.669579+00:00",
     "opslag": [
+      {
+        "id": "t3_1xul225",
+        "tid": "2026-11-12T18:47:24+00:00",
+        "titel": "My thoughts on NVDA",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xuk7i5",
         "tid": "2026-11-12T18:15:53+00:00",
@@ -2283,26 +2293,16 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xtpmd7",
-        "tid": "2026-11-11T18:31:47+00:00",
-        "titel": "In 2017, countless cryptocurrencies were marketed as \"better Bitcoin.\" Here's how that worked out for them:",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403), rss (json gav 403)): 200 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 689.25,
-    "snitpris": 688.9,
-    "svag": false
+    "pris": 688.64,
+    "snitpris": 688.91,
+    "svag": true
   },
   "marked_trend": 0
 }
