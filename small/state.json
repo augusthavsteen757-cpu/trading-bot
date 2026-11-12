@@ -16,9 +16,33 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-11",
+      "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-11T16:22:42.851244+00:00",
-      "last_review_price": 4.46
+      "last_review_price": 4.46,
+      "pos": {
+        "entry": 4.215,
+        "stop": 4.165,
+        "stop_initial": 4.165,
+        "high": 4.215,
+        "qty": 2369.0,
+        "entry_tid": "2026-11-12 16:19",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 4.21, 'or_low': 4.12, 'sidste_luk': 4.23}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 0,
+          "trend_1d": -1,
+          "rsi_1h": 48.9,
+          "adx_1h": 19.5,
+          "rel_volumen_1h": 0.29,
+          "afstand_modstand_atr": 2.33,
+          "atr_percentil_30d": 87.7
+        },
+        "target": 4.3149999999999995,
+        "luk_foer_luk": true
+      }
     },
     "UMAC": {
       "last_entry_eval": "2026-11-12T15:50:19.672078+00:00",
@@ -159,7 +183,7 @@
   "day_start_equity": 99966.76,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-12T15:59:51.982545+00:00",
+    "sidst_hentet": "2026-11-12T16:19:53.361811+00:00",
     "opslag": [
       {
         "id": "t3_1xuehn0",
@@ -330,7 +354,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.485,
+  "last_btc_price": 5.4350000000000005,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1578,8 +1602,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 281.52,
-    "snitpris": 280.39,
+    "pris": 281.55,
+    "snitpris": 280.43,
     "svag": false
   },
   "marked_trend": 0
