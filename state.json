@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71479.3095,
+  "last_btc_price": 71465.504,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1491,18 +1491,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin faldt 4% til 72.000 USD paa makrofrygt; allerede sket, men usikkerheden kan fortsaette.",
-        "tid": "2026-11-12T18:25:01.824717+00:00",
-        "pris_ved_nyhed": 71836.30350000001,
-        "udloeber": "2026-11-12T20:25:01.824717+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1896,7 +1884,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T20:05:02.017376+00:00",
+    "sidst_hentet": "2026-11-12T20:25:01.516294+00:00",
     "opslag": [
       {
         "id": "t3_1xuml5d",
@@ -2306,8 +2294,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.41,
-    "snitpris": 688.78,
+    "pris": 687.57,
+    "snitpris": 688.77,
     "svag": true
   },
   "marked_trend": -1
