@@ -200,7 +200,10 @@
     "PXLW": {},
     "CRWG": {
       "orb_day": "2026-11-11"
-    }
+    },
+    "ADXN": {},
+    "NVD": {},
+    "LUNR": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -326,6 +329,9 @@
       "2026-11-10 20:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
       "2026-11-10 20:51: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars",
       "2026-11-10 20:56: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 68 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11": [
+      "2026-11-12 14:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2135,14 +2141,22 @@
   },
   "scan": {
     "dag": "2026-11-12",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "ADXN",
+      "NVD",
+      "LUNR",
+      "SNDQ"
+    ],
+    "sidst": "2026-11-12T14:36:14.386444+00:00",
     "alle": [
+      "ADXN",
       "AEHL",
       "APP",
       "CKX",
       "CRWG",
+      "LUNR",
       "MF",
+      "NVD",
       "NWGL",
       "PEPG",
       "PXLW",
@@ -2160,9 +2174,16 @@
       "SMX": "SMX (Security Matters) Public Limited Company Ordinary Shares",
       "SECZ": "Securitize Corp.",
       "PXLW": "Pixelworks, Inc. Common Stock",
-      "CRWG": "Themes ETF Trust Leverage Shares 2X Long CRWV Daily ETF"
+      "CRWG": "Themes ETF Trust Leverage Shares 2X Long CRWV Daily ETF",
+      "ADXN": "Addex Therapeutics Ltd American Depositary Shares",
+      "NVD": "GraniteShares ETF Trust GraniteShares 2x Short NVDA Daily ETF",
+      "LUNR": "Intuitive Machines, Inc. Class A Common Stock",
+      "SNDQ": "Tradr 2X Short SNDK Daily ETF"
     },
-    "omvendt": []
+    "omvendt": [
+      "NVD",
+      "SNDQ"
+    ]
   },
   "marked": {},
   "marked_trend": null
