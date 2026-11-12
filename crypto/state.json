@@ -190,18 +190,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ubekraeftet Reddit-taaleri om Solana uden konkret nyhed bag; ingen handelssignal.",
-        "tid": "2026-11-12T02:53:41.979975+00:00",
-        "pris_ved_nyhed": 83.26599999999999,
-        "udloeber": "2026-11-12T03:53:41.979975+00:00"
-      },
       "DOGE/USD": {
         "kilde": "nyhed",
         "symbol": "DOGE/USD",
@@ -364,7 +352,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73675.302,
+  "last_btc_price": 73636.9,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
