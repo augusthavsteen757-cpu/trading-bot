@@ -244,7 +244,7 @@
       }
     }
   },
-  "last_btc_price": 71696.475,
+  "last_btc_price": 71447.26999999999,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1551,18 +1551,6 @@
         "pris_ved_nyhed": 760.23,
         "udloeber": "2026-11-12T20:40:06.514131+00:00"
       },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "CNBC-omtale af Digital Realty er generisk og indeholder ingen konkret ny information om kursdrivere.",
-        "tid": "2026-11-12T18:04:24.296973+00:00",
-        "pris_ved_nyhed": 184.84,
-        "udloeber": "2026-11-12T19:04:24.296973+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
@@ -2300,9 +2288,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 688.64,
-    "snitpris": 688.91,
-    "svag": true
+    "pris": 689.16,
+    "snitpris": 688.9,
+    "svag": false
   },
-  "marked_trend": 0
+  "marked_trend": -1
 }
