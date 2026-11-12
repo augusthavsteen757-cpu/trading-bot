@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73333.05,
+  "last_btc_price": 73419.6135,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1738,8 +1738,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T09:13:48.810714+00:00",
+    "sidst_hentet": "2026-11-12T09:33:48.479319+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu8ezo",
+        "tid": "2026-11-12T09:29:55+00:00",
+        "titel": "Bitcoin Retreats as Nvidia Turmoil Weighs on Risk Appetite",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xu8c4x",
+        "tid": "2026-11-12T09:24:29+00:00",
+        "titel": "The Future of Bitcoin Mining? (Grid Stabilisation)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu7xr4",
         "tid": "2026-11-12T08:59:05+00:00",
@@ -1869,19 +1889,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtdabn",
-        "tid": "2026-11-11T09:16:32+00:00",
-        "titel": "We\u2019ll never get people to understand bitcoin, they blame it all on bitcoin. they don\u2019t understand.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
