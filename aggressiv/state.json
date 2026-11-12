@@ -155,31 +155,30 @@
       "orb_day": "2026-11-10"
     },
     "SHOP": {
-      "orb_day": "2026-11-10",
-      "plan": {
-        "entry": 150.795,
-        "stop": 149.2775,
-        "stop_initial": 149.2775,
-        "high": 150.795,
-        "qty": 0.0,
-        "entry_tid": "2026-11-10 15:01",
+      "orb_day": "2026-11-12",
+      "pos": {
+        "entry": 148.46,
+        "stop": 146.485,
+        "stop_initial": 146.485,
+        "high": 148.46,
+        "qty": 409.0,
+        "entry_tid": "2026-11-12 14:52",
         "setup": "orb",
         "regime": "range",
         "conviction": 3,
-        "grund": "ORB breakout {'or_high': 150.47, 'or_low': 148.08, 'sidste_luk': 150.81}",
+        "grund": "ORB breakout {'or_high': 148.0, 'or_low': 144.97, 'sidste_luk': 148.6, 'a_plus': '5.52x volumen, indsats x1.5'}",
         "features": {
           "trend_1h": 0,
           "trend_4h": -1,
           "trend_1d": 0,
-          "rsi_1h": 52.5,
-          "adx_1h": 11.3,
-          "rel_volumen_1h": 0.02,
-          "afstand_modstand_atr": 0.25,
-          "atr_percentil_30d": 70.9
+          "rsi_1h": 49.3,
+          "adx_1h": 11.0,
+          "rel_volumen_1h": 1.38,
+          "afstand_modstand_atr": 0.4,
+          "atr_percentil_30d": 53.8
         },
-        "target": 155.34749999999994,
-        "luk_foer_luk": true,
-        "plan_tid": "2026-11-10T15:01:52.628655+00:00"
+        "target": 154.385,
+        "luk_foer_luk": true
       }
     },
     "UBER": {
@@ -333,7 +332,8 @@
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11": [
       "2026-11-12 14:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars",
       "2026-11-12 14:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars",
-      "2026-11-12 14:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
+      "2026-11-12 14:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars",
+      "2026-11-12 14:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2257,8 +2257,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 686.38,
-    "snitpris": 685.27,
+    "pris": 686.3,
+    "snitpris": 685.52,
     "svag": false
   },
   "marked_trend": null
