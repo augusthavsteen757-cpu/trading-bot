@@ -9715,3 +9715,27 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 16:17,SHOP,149.73,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,102589.43,2.589,100000.0,0.0,1.159,-2.709,0.4627,
 2026-11-12 16:17,UBER,69.85,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102587.29,2.587,100000.0,0.0,1.159,-2.709,0.4627,
 2026-11-12 16:17,RBLX,52.34,range,trend_pullback,nej (samlet loft paa 90% af kontoen naaet),,,,,,,,,,,,,HOLD,,,,102587.29,2.587,100000.0,0.0,1.159,-2.709,0.4627,
+2026-11-12 16:21,ADXN,,,,,,,,,,,,,,,,,FEJL (RuntimeError),,,,102667.58,2.668,100000.0,0.0,1.234,-2.636,0.4627,"ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 13 time-bars"
+2026-11-12 16:21,NVD,6.385,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102667.58,2.668,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:21,LUNR,14.38,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102674.99,2.675,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:21,SNDQ,23.59,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102676.04,2.676,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:21,NVDA,166.74,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102676.04,2.676,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:21,TSLA,392.29,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102676.11,2.676,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:21,AMD,592.43,high_vol,breakout nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,566.72,102656.32,2.656,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,PLTR,172.28,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102705.02,2.705,100000.0,0.0,1.234,-2.636,0.4627,"ORB-signal, men for lav volumen (0.65x normalt, kraever 1.5x)"
+2026-11-12 16:22,COIN,134.44,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102708.7,2.709,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,MSTR,118.83,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102698.14,2.698,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,META,626.91,range,trend_pullback range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102683.25,2.683,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,AVGO,369.5,high_vol,breakout nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,360.24,102689.17,2.689,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,NFLX,63.61,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102684.16,2.684,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,HOOD,84.53,range,trend_pullback nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,81.8,102669.58,2.67,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,SMCI,28.82,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,28.11,102669.53,2.67,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,MARA,7.645,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,7.35,102681.06,2.681,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,RIOT,18.73,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102686.29,2.686,100000.0,0.0,1.234,-2.636,0.4627,"ORB-signal, men for lav volumen (0.63x normalt, kraever 1.5x)"
+2026-11-12 16:22,SOFI,16.12,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102687.61,2.688,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,RIVN,13.11,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102743.77,2.744,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,ARM,203.89,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102768.85,2.769,100000.0,0.0,1.234,-2.636,0.4627,"ORB-signal, men for lav volumen (0.54x normalt, kraever 1.5x)"
+2026-11-12 16:22,CRWD,226.64,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102777.19,2.777,100000.0,0.0,1.234,-2.636,0.4627,"ORB-signal, men for lav volumen (0.54x normalt, kraever 1.5x)"
+2026-11-12 16:22,SHOP,149.7,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,102781.0,2.781,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,UBER,69.82,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102786.22,2.786,100000.0,0.0,1.234,-2.636,0.4627,
+2026-11-12 16:22,RBLX,52.34,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102789.75,2.79,100000.0,0.0,1.234,-2.636,0.4627,"ORB-signal, men for lav volumen (1.18x normalt, kraever 1.5x)"
