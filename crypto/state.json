@@ -189,44 +189,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "O'Leary forklarer et eksisterende salg; regulatorisk klarhed er ventet og forventningen er sandsynligvis prisat ind.",
-        "tid": "2026-11-12T07:44:16.419771+00:00",
-        "pris_ved_nyhed": 73470.407,
-        "udloeber": "2026-11-12T09:44:16.419771+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme regulatoriske tema rammer hele krypto-markedet; ETH kan falde med BTC, men nyheden er ikke ny.",
-        "tid": "2026-11-12T07:44:16.419771+00:00",
-        "pris_ved_nyhed": 2045.155,
-        "udloeber": "2026-11-12T09:44:16.419771+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins f\u00f8lger ofte BTC i institutionel usikkerhed; ingen direkte ny information for SOL.",
-        "tid": "2026-11-12T07:44:16.419771+00:00",
-        "pris_ved_nyhed": 82.68965,
-        "udloeber": "2026-11-12T09:44:16.419771+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-12T07:44:16.419771+00:00",
@@ -355,7 +318,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73381.8355,
+  "last_btc_price": 73326.9,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
