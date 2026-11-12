@@ -9619,3 +9619,27 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 15:57,SHOP,148.44,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,101821.03,1.821,100000.0,0.0,0.177,-3.653,0.4616,
 2026-11-12 15:57,UBER,69.57,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,101821.03,1.821,100000.0,0.0,0.177,-3.653,0.4616,
 2026-11-12 15:57,RBLX,51.7,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,101827.95,1.828,100000.0,0.0,0.177,-3.653,0.4616,
+2026-11-12 16:01,ADXN,,,,,,,,,,,,,,,,,FEJL (RuntimeError),,,,102049.43,2.049,100000.0,0.0,0.612,-3.234,0.4622,"ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
+2026-11-12 16:01,NVD,6.445,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102017.3,2.017,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:01,LUNR,13.96,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,102017.3,2.017,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,SNDQ,24.0,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102006.61,2.007,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,NVDA,165.4,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102006.61,2.007,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,TSLA,391.06,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,101963.85,1.964,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,AMD,582.66,range,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),1.0,582.66,566.72,101931.43,1.931,100000.0,0.0,0.612,-3.234,0.4622,"ORB: range 555.05-578.4, maal 630.47"
+2026-11-12 16:02,PLTR,170.81,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,101981.73,1.982,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,COIN,131.98,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102014.07,2.014,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,MSTR,117.11,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102038.89,2.039,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,META,624.4,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102033.79,2.034,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,AVGO,361.27,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102021.14,2.021,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,NFLX,63.53,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102021.42,2.021,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,HOOD,83.34,range,trend_pullback,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),5.0,416.73,81.8,102041.72,2.042,100000.0,0.0,0.612,-3.234,0.4622,"ORB: range 80.55-83.05, maal 87.99"
+2026-11-12 16:02,SMCI,28.48,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,27.49,102042.07,2.042,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,MARA,7.405,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102036.71,2.037,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,RIOT,18.39,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102045.2,2.045,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,SOFI,15.98,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102045.18,2.045,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,RIVN,12.98,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102052.4,2.052,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,ARM,202.13,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102052.4,2.052,100000.0,0.0,0.612,-3.234,0.4622,"ORB-signal, men for lav volumen (0.6x normalt, kraever 1.5x)"
+2026-11-12 16:02,CRWD,224.9,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102052.39,2.052,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,SHOP,149.1,range,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,146.49,102052.69,2.053,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,UBER,69.74,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,102047.34,2.047,100000.0,0.0,0.612,-3.234,0.4622,
+2026-11-12 16:02,RBLX,51.8,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,102047.11,2.047,100000.0,0.0,0.612,-3.234,0.4622,
