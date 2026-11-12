@@ -122,7 +122,7 @@
         "entry": 28.11,
         "stop": 27.490000000000002,
         "stop_initial": 27.490000000000002,
-        "high": 28.27,
+        "high": 28.43,
         "qty": 1069.0,
         "entry_tid": "2026-11-12 15:21",
         "setup": "orb",
@@ -360,10 +360,10 @@
       "2026-11-12 14:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 11 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12": [
-      "2026-11-12 15:36: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
       "2026-11-12 15:41: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
       "2026-11-12 15:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
-      "2026-11-12 15:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
+      "2026-11-12 15:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars",
+      "2026-11-12 15:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 12 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2381,8 +2381,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 686.84,
-    "snitpris": 685.78,
+    "pris": 689.43,
+    "snitpris": 685.98,
     "svag": false
   },
   "marked_trend": null
