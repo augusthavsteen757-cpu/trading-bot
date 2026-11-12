@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T02:18:40.711602+00:00",
+    "sidst_hentet": "2026-11-12T02:33:41.019589+00:00",
     "opslag": [
       {
         "id": "t3_1xu0r22",
@@ -184,39 +184,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xt61v1",
-        "tid": "2026-11-11T02:28:38+00:00",
-        "titel": "We are the 500 BTC inside a laptop a dad gave to his son",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt60y2",
-        "tid": "2026-11-11T02:27:25+00:00",
-        "titel": "I don\u2019t have 500 BTC. But I did stay at a Holiday Inn Express last night.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt5xx4",
-        "tid": "2026-11-11T02:23:20+00:00",
-        "titel": "I found a laptop with 500 btc",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -393,7 +363,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73834.75,
+  "last_btc_price": 73824.057,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
