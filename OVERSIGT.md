@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.05** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.10** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.437 USD  ·  **I alt:** -563 USD (-0.56 %)  ·  **I dag:** +0.02 %  ·  sidst opdateret 12/11 17.05
+**Konto:** 99.524 USD  ·  **I alt:** -476 USD (-0.48 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 12/11 17.09
 
 **Ejer nu:**
 
@@ -44,7 +44,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.05** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.00
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 12/11 17.05
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -77,9 +77,9 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.05** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 102.047 USD  ·  **I alt:** +2.047 USD (+2.05 %)  ·  **I dag:** +0.61 %  ·  sidst opdateret 12/11 17.02
+**Konto:** 102.568 USD  ·  **I alt:** +2.568 USD (+2.57 %)  ·  **I dag:** +1.02 %  ·  sidst opdateret 12/11 17.08
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +1465 USD (5 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler +1184 USD (5 vundet), fuld fart
 
 **Ejer nu:**
 
@@ -87,16 +87,16 @@ Opdateres af sig selv hvert 5. minut. Sidst: **12/11 kl. 17.05** (dansk tid). Ku
 |---|---|---|---|
 | AMD | 1 | 582.66 | 12/11 17.02 |
 | HOOD | 5 | 83.34 | 12/11 17.02 |
-| SMCI | 1069 | 28.11 | 12/11 16.21 |
+| SMCI | 535 | 28.11 | 12/11 16.21 |
 | SHOP | 409 | 148.46 | 12/11 15.52 |
 
-**Lukkede handler:** 33 i alt, 11 med gevinst, samlet +2.126 USD
+**Lukkede handler:** 34 i alt, 12 med gevinst, samlet +2.489 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ SMCI | 12/11 17.07 | +363 USD | halvdel solgt (+1R) |
 | ❌ HOOD | 11/11 21.54 | -5 USD | tidsstop (90 min uden gevinst) |
 | ✅ AMD | 11/11 21.54 | +109 USD | dagens slut (ORB) |
 | ✅ CRWG | 11/11 21.54 | +400 USD | dagens slut (ORB) |
 | ❌ COIN | 11/11 21.14 | -4 USD | stop ramt (Alpaca) |
-| ❌ NVDA | 11/11 20.19 | -20 USD | tidsstop (90 min uden gevinst) |
 
