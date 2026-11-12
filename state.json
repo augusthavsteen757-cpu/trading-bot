@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73553.8915,
+  "last_btc_price": 73504.9215,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1404,20 +1404,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Overskriften handler om Kalshi-spil om Nvidia-CEO, ikke om bitcoin. Ingen direkte effekt pa BTC; kun svag sentiment-sammenhaeng via krypto-spilmarkeder.",
-        "tid": "2026-11-12T04:13:11.020241+00:00",
-        "pris_ved_nyhed": 73731.967,
-        "udloeber": "2026-11-12T05:13:11.020241+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-12T04:13:11.020241+00:00",
