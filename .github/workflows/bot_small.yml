@@ -55,6 +55,7 @@ jobs:
           COINS: none
           STOCKS: ${{ vars.SMALL_STOCKS || 'ONDS,RCAT,UMAC,BBAI,SOUN,QUBT,RGTI,LUNR,ACHR,OUST' }}
           BENCHMARK: ONDS
+          ORB_MAX_POSITION_PCT: ${{ vars.SMALL_ORB_MAX_POSITION_PCT || '0.05' }}  # 12. nov: ORB paa small 14 handler, 4 vundet, -518 USD. Halv stoerrelse (aftalt 3. nov)
           MARKET_FILTER: ${{ vars.MARKET_FILTER_SMALL || 'IWM' }}  # handl med markedet: ingen nye aktiekoeb naar IWM er under dagens snitpris ('none' = slaa fra)
           MONTHLY_BUDGET_USD: ${{ vars.SMALL_MONTHLY_BUDGET_USD || '2.50' }}
           MAX_AI_ROUNDS_PER_DAY: ${{ vars.SMALL_MAX_AI_ROUNDS_PER_DAY || '10' }}
