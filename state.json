@@ -37,7 +37,8 @@
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
     ],
     "gevinst: orb i range": [
-      "2026-11-12 17:50: EQIX: maal naaet. R=+2.22. Entry 1071, exit 1077. Grund til koeb: ORB breakout {'or_high': 1070.1, 'or_low': 1066.83, 'sidste_luk': 1071.04}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 60.8, 'adx_1h': 16.2, 'rel_volumen_1h': 1.08, 'afstand_modstand_atr': 0.73, 'atr_percentil_30d': 73.9}"
+      "2026-11-12 17:50: EQIX: maal naaet. R=+2.22. Entry 1071, exit 1077. Grund til koeb: ORB breakout {'or_high': 1070.1, 'or_low': 1066.83, 'sidste_luk': 1071.04}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 60.8, 'adx_1h': 16.2, 'rel_volumen_1h': 1.08, 'afstand_modstand_atr': 0.73, 'atr_percentil_30d': 73.9}",
+      "2026-11-12 20:50: DLR: dagens slut (ORB). R=+0.35. Entry 183, exit 183. Grund til koeb: ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 0, 'rsi_1h': 59.4, 'adx_1h': 19.5, 'rel_volumen_1h': 1.24, 'afstand_modstand_atr': 0.57, 'atr_percentil_30d': 70.4}"
     ]
   },
   "ai_day": "2026-11-12",
@@ -217,34 +218,10 @@
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T15:02:34.219284+00:00",
-      "last_review_price": 176.34,
-      "pos": {
-        "entry": 182.97,
-        "stop": 182.97,
-        "stop_initial": 181.6125,
-        "high": 184.84,
-        "qty": 3.0,
-        "entry_tid": "2026-11-12 16:20",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}",
-        "features": {
-          "trend_1h": 1,
-          "trend_4h": 1,
-          "trend_1d": 0,
-          "rsi_1h": 59.4,
-          "adx_1h": 19.5,
-          "rel_volumen_1h": 1.24,
-          "afstand_modstand_atr": 0.57,
-          "atr_percentil_30d": 70.4
-        },
-        "target": 185.68499999999997,
-        "luk_foer_luk": true
-      }
+      "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71425.78,
+  "last_btc_price": 71475.112,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2270,8 +2247,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 687.36,
-    "snitpris": 688.61,
+    "pris": 687.17,
+    "snitpris": 688.57,
     "svag": true
   },
   "marked_trend": -1
