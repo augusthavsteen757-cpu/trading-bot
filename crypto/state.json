@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T02:03:40.355679+00:00",
+    "sidst_hentet": "2026-11-12T02:18:40.711602+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu0r22",
+        "tid": "2026-11-12T02:17:08+00:00",
+        "titel": "So is Solana done for?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xtw10x",
         "tid": "2026-11-11T22:41:53+00:00",
@@ -204,29 +214,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt5jz7",
-        "tid": "2026-11-11T02:05:00+00:00",
-        "titel": "I am a laptop. I have 500 Bitcoin inside me.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xt5jx8",
-        "tid": "2026-11-11T02:04:56+00:00",
-        "titel": "any hot guys can teach me abt bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -403,7 +393,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73748.01999999999,
+  "last_btc_price": 73848.399,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
