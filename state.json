@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73447.035,
+  "last_btc_price": 73441.57,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1428,18 +1428,6 @@
         "tid": "2026-11-12T07:43:47.352289+00:00",
         "pris_ved_nyhed": 2045.118,
         "udloeber": "2026-11-12T09:43:47.352289+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Generel regulerings-usikkerhed. SOL har ingen direkte link i nyheden, og effekten er allerede indregnet i sell-off'en.",
-        "tid": "2026-11-12T07:43:47.352289+00:00",
-        "pris_ved_nyhed": 82.70935,
-        "udloeber": "2026-11-12T08:43:47.352289+00:00"
       }
     },
     "dag": "2026-11-12",
@@ -1750,8 +1738,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T08:23:47.834733+00:00",
+    "sidst_hentet": "2026-11-12T08:43:47.260445+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu7mll",
+        "tid": "2026-11-12T08:39:06+00:00",
+        "titel": "Bitcoin isn't performing well recently. But this too shall pass...",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xu7mjq",
+        "tid": "2026-11-12T08:39:01+00:00",
+        "titel": "Bitcoin vs GTA",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu0r22",
         "tid": "2026-11-12T02:17:08+00:00",
@@ -1861,19 +1869,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtcled",
-        "tid": "2026-11-11T08:31:57+00:00",
-        "titel": "Vitalik: \"Let's just be like Bitcoin\"",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
