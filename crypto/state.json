@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T19:40:19.263913+00:00",
+    "sidst_hentet": "2026-11-12T19:55:19.485203+00:00",
     "opslag": [
+      {
+        "id": "t3_1xumuz4",
+        "tid": "2026-11-12T19:53:34+00:00",
+        "titel": "The double S curve is real. 2021 - 2027 = 6 years of sideways consolidation before bitcoin unleashes its dominant fury o",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xuml35",
+        "tid": "2026-11-12T19:43:20+00:00",
+        "titel": "Bitcoin Democratization Business",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xujz64",
         "tid": "2026-11-12T18:07:27+00:00",
@@ -246,7 +266,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 23 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -382,7 +402,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 71505.075,
+  "last_btc_price": 71597.65,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
