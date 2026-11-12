@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71497.425,
+  "last_btc_price": 71545.7015,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1467,20 +1467,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "DTCC-integration med Solana er et institutionelt regulatorisk signal; kan l\u00f8fte SOL-sentiment, men implementering f\u00f8rst i 2027 begr\u00e6nser kortsigtet effekt.",
-        "tid": "2026-11-12T17:49:22.363633+00:00",
-        "pris_ved_nyhed": 81.4422,
-        "udloeber": "2026-11-12T21:49:22.363633+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-12T18:40:06.514131+00:00",
