@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T08:54:15.327863+00:00",
+    "sidst_hentet": "2026-11-12T09:09:15.482377+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu7xr4",
+        "tid": "2026-11-12T08:59:05+00:00",
+        "titel": "To swap of or not to swap, BTC -> U.S. Dollars",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu7mll",
         "tid": "2026-11-12T08:39:06+00:00",
@@ -166,7 +176,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -335,7 +345,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73373.93950000001,
+  "last_btc_price": 73370.89,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
