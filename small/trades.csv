@@ -5603,3 +5603,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-12 16:10,LUNR,14.19,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99961.97,-0.038,91715.98,-8.284,-0.0,-0.207,0.4985,
 2026-11-12 16:10,ACHR,4.525,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99961.97,-0.038,91715.98,-8.284,-0.0,-0.207,0.4985,
 2026-11-12 16:10,OUST,38.3,range,trend_pullback,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),260.0,9959.3,37.19,99936.76,-0.063,91715.98,-8.284,-0.0,-0.207,0.4985,"ORB: range 36.44-37.94, maal 40.54"
+2026-11-12 16:14,ONDS,5.485,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99883.24,-0.117,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,RCAT,4.215,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99883.24,-0.117,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,UMAC,12.09,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99883.24,-0.117,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,BBAI,2.165,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99889.77,-0.11,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,SOUN,3.755,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99889.77,-0.11,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,QUBT,5.965,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99880.64,-0.119,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:14,RGTI,10.91,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,10.62,99871.51,-0.128,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:15,LUNR,14.23,high_vol,nyhed_op,nej (nyhedsvagt: regnskab 2026-11-12),,,,,,,,,,,,,HOLD,,,,99871.51,-0.128,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:15,ACHR,4.515,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99852.01,-0.148,92730.35,-7.27,-0.079,-0.286,0.4985,
+2026-11-12 16:15,OUST,38.16,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,37.19,99852.01,-0.148,92730.35,-7.27,-0.079,-0.286,0.4985,
