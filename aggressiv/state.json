@@ -2352,11 +2352,6 @@
       "SNDQ"
     ]
   },
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 687.75,
-    "snitpris": 688.51,
-    "svag": true
-  },
+  "marked": {},
   "marked_trend": null
 }
