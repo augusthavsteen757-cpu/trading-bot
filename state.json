@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.387461,
+  "budget_used": 1.403085,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -38,8 +38,8 @@
     ]
   },
   "ai_day": "2026-11-12",
-  "ai_rounds_today": 9,
-  "ai_spend_today": 0.07460699999999998,
+  "ai_rounds_today": 11,
+  "ai_spend_today": 0.09023109999999997,
   "eq_day": "2026-11-12",
   "day_start_equity": 99391.94,
   "peak_equity": 100456.88,
@@ -171,8 +171,9 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-12T14:35:18.291190+00:00",
+      "last_entry_eval": "2026-11-12T14:49:56.967026+00:00",
       "last_entry_setups": [
+        "breakout",
         "trend_pullback"
       ],
       "orb_day": "2026-11-11",
@@ -214,8 +215,9 @@
       "last_review_price": 555.2
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-12T14:35:44.556912+00:00",
+      "last_entry_eval": "2026-11-12T14:50:11.736383+00:00",
       "last_entry_setups": [
+        "breakout",
         "trend_pullback"
       ],
       "orb_day": "2026-11-11",
@@ -241,7 +243,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 71534.20576423549,
+  "last_btc_price": 71632.755,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -2103,6 +2105,11 @@
     "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
-  "marked": {},
+  "marked": {
+    "symbol": "QQQ",
+    "pris": 686.38,
+    "snitpris": 685.48,
+    "svag": false
+  },
   "marked_trend": -1
 }
