@@ -272,18 +272,6 @@
         "pris_ved_nyhed": 72268.94,
         "udloeber": "2026-11-12T18:14:46.069363+00:00"
       },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin-optimisme smitter ofte over til ETH via generel kryptostemning, men sammenhaengen er svagere og mindre direkte.",
-        "tid": "2026-11-12T14:14:46.069363+00:00",
-        "pris_ved_nyhed": 2006.45,
-        "udloeber": "2026-11-12T16:14:46.069363+00:00"
-      },
       "SOL/USD": {
         "kilde": "kun_reddit",
         "symbol": "SOL/USD",
@@ -429,7 +417,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 72059.745,
+  "last_btc_price": 71837.9905,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
