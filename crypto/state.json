@@ -189,20 +189,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Politisk kritik af Trump-memecoin er kendt stof og ventet; giver ringe direkte kursimpuls for BTC, hype-effekt svag.",
-        "tid": "2026-11-12T02:53:41.979975+00:00",
-        "pris_ved_nyhed": 73730.25,
-        "udloeber": "2026-11-12T04:53:41.979975+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-12",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-12T04:14:15.400291+00:00",
@@ -329,7 +316,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73687.5245,
+  "last_btc_price": 73687.788,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
