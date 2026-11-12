@@ -111,7 +111,7 @@
   "day_start_equity": 99966.76,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-12T15:24:51.978444+00:00",
+    "sidst_hentet": "2026-11-12T15:44:50.837548+00:00",
     "opslag": [
       {
         "id": "t3_1xuehn0",
@@ -294,7 +294,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.275,
+  "last_btc_price": 5.335,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1542,9 +1542,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 279.47,
+    "pris": 279.74,
     "snitpris": 280.32,
     "svag": true
   },
-  "marked_trend": -1
+  "marked_trend": 0
 }
