@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73469.186,
+  "last_btc_price": 73406.4925,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,7 +1750,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T06:53:10.823568+00:00",
+    "sidst_hentet": "2026-11-12T07:13:48.131800+00:00",
     "opslag": [
       {
         "id": "t3_1xu0r22",
@@ -1881,19 +1881,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtb2qm",
-        "tid": "2026-11-11T06:58:46+00:00",
-        "titel": "In 2013 researchers showed that #Bitcoin miners with far less than 51% of the hashrate can profit by secretly withholdin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
