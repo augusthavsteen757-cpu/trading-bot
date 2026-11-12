@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73219.655,
+  "last_btc_price": 73064.33,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1428,18 +1428,6 @@
         "tid": "2026-11-12T10:28:49.497187+00:00",
         "pris_ved_nyhed": 2047.241,
         "udloeber": "2026-11-12T12:28:49.497187+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte relevans for Solana; mulig generel risikoaversion fra Nasdaq-fald, men lav konviktion.",
-        "tid": "2026-11-12T10:28:49.497187+00:00",
-        "pris_ved_nyhed": 83.28999999999999,
-        "udloeber": "2026-11-12T11:28:49.497187+00:00"
       }
     },
     "dag": "2026-11-12",
