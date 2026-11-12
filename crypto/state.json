@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-12T09:24:45.734256+00:00",
+    "sidst_hentet": "2026-11-12T09:39:46.012459+00:00",
     "opslag": [
+      {
+        "id": "t3_1xu8ezo",
+        "tid": "2026-11-12T09:29:55+00:00",
+        "titel": "Bitcoin Retreats as Nvidia Turmoil Weighs on Risk Appetite",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xu8c4x",
+        "tid": "2026-11-12T09:24:29+00:00",
+        "titel": "The Future of Bitcoin Mining? (Grid Stabilisation)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xu7xr4",
         "tid": "2026-11-12T08:59:05+00:00",
@@ -166,7 +186,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 13 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -335,7 +355,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 73413.70000000001,
+  "last_btc_price": 73381.8355,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
