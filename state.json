@@ -245,7 +245,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 73498.8635,
+  "last_btc_price": 73538.6535,
   "earnings_cache": {
     "2026-11-06": [
       "ABVC",
@@ -1750,7 +1750,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-12T06:18:10.934275+00:00",
+    "sidst_hentet": "2026-11-12T06:38:10.607341+00:00",
     "opslag": [
       {
         "id": "t3_1xu0r22",
@@ -1891,19 +1891,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xtai89",
-        "tid": "2026-11-11T06:23:57+00:00",
-        "titel": "I see a cleansing of shitcoins with the decline of the trump crime family, but also a disappointment for ethereum",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 15 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
