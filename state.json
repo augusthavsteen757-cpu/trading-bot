@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69304.71,
+  "last_btc_price": 69279.14,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1789,7 +1789,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T09:56:10.505224+00:00",
+    "sidst_hentet": "2026-11-13T10:16:10.775564+00:00",
     "opslag": [
       {
         "id": "t3_1xv3f21",
@@ -2291,19 +2291,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xu8tus",
-        "tid": "2026-11-12T09:56:29+00:00",
-        "titel": "IF Jensen gets fired, y-all expect a bit of jump in AMD stock?",
-        "symboler": [
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 51 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 50 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
