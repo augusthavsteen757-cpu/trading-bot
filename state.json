@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69248.1685,
+  "last_btc_price": 69230.725,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1813,8 +1813,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T03:15:33.761473+00:00",
+    "sidst_hentet": "2026-11-13T03:35:33.833867+00:00",
     "opslag": [
+      {
+        "id": "t3_1xux96z",
+        "tid": "2026-11-13T03:28:33+00:00",
+        "titel": "Bitcoin is on sale!!!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xux7oy",
+        "tid": "2026-11-13T03:26:25+00:00",
+        "titel": "First timers and lurkers, this is your chance to buy BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuwcg9",
         "tid": "2026-11-13T02:43:43+00:00",
@@ -2217,7 +2237,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
