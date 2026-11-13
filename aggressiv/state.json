@@ -376,10 +376,10 @@
       "2026-11-13 17:14: SOXS: tidsstop (90 min uden gevinst). R=-0.51. Entry 54, exit 52. Grund til koeb: Raket ny dagstop {'dagstop': 54.06, 'vwap': 51.22, 'risiko_pct': 4.8}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 59.5, 'adx_1h': 23.9, 'rel_volumen_1h': 3.56, 'afstand_modstand_atr': 0.4, 'atr_percentil_30d': 87.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37": [
-      "2026-11-13 18:39: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
       "2026-11-13 18:44: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
       "2026-11-13 18:49: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
-      "2026-11-13 18:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
+      "2026-11-13 18:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
+      "2026-11-13 18:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -393,8 +393,18 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T18:39:33.072439+00:00",
+    "sidst_hentet": "2026-11-13T18:59:33.028123+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvg8h9",
+        "tid": "2026-11-13T18:51:03+00:00",
+        "titel": "New NVIDIA ad campaign leaked",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xvftpz",
         "tid": "2026-11-13T18:35:21+00:00",
@@ -684,16 +694,6 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xul225",
-        "tid": "2026-11-12T18:47:24+00:00",
-        "titel": "My thoughts on NVDA",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
@@ -2324,8 +2324,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.22,
-    "snitpris": 676.94,
+    "pris": 678.88,
+    "snitpris": 676.98,
     "svag": false
   },
   "marked_trend": null
