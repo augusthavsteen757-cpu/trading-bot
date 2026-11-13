@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69019.24799999999,
+  "last_btc_price": 68912.95,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1586,18 +1586,6 @@
         "pris_ved_nyhed": 1942.85,
         "udloeber": "2026-11-13T21:57:40.293935+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "SpaceX-Tesla-fusion er spekulativ og foerst relevant senere i januar; ingen klar kortsigtet retning.",
-        "tid": "2026-11-13T17:47:40.455913+00:00",
-        "pris_ved_nyhed": 391.08,
-        "udloeber": "2026-11-13T19:47:40.455913+00:00"
-      },
       "SOL/USD": {
         "kilde": "nyhed",
         "symbol": "SOL/USD",
@@ -1955,7 +1943,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T19:27:40.598131+00:00",
+    "sidst_hentet": "2026-11-13T19:47:41.352809+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2404,8 +2392,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.37,
-    "snitpris": 677.22,
+    "pris": 679.06,
+    "snitpris": 677.23,
     "svag": false
   },
   "marked_trend": -1
