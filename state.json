@@ -144,7 +144,7 @@
         "entry": 265.23,
         "stop": 260.21000000000004,
         "stop_initial": 260.21000000000004,
-        "high": 265.23,
+        "high": 265.24,
         "qty": 19.0,
         "entry_tid": "2026-11-13 17:13",
         "setup": "range_bund",
@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68473.545,
+  "last_btc_price": 68593.095,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -2380,7 +2380,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.38,
+    "pris": 676.13,
     "snitpris": 676.86,
     "svag": true
   },
