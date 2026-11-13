@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T12:32:21.361347+00:00",
+    "sidst_hentet": "2026-11-13T12:52:56.982980+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv6nyy",
+        "tid": "2026-11-13T12:32:14+00:00",
+        "titel": "What if BTC 4y cycle is not over yet?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv6lbr",
         "tid": "2026-11-13T12:28:34+00:00",
@@ -404,29 +414,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xubuml",
-        "tid": "2026-11-12T12:45:50+00:00",
-        "titel": "Whats the current best Ethereum wallet",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
-      },
-      {
-        "id": "t3_1xubq10",
-        "tid": "2026-11-12T12:39:36+00:00",
-        "titel": "Why would anyone buy tokenized stocks on Solana instead of using a regular broker?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -638,7 +628,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 69265.45499999999,
+  "last_btc_price": 69127.5865,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
