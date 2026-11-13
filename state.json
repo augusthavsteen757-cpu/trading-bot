@@ -145,7 +145,7 @@
         "entry": 265.23,
         "stop": 260.21000000000004,
         "stop_initial": 260.21000000000004,
-        "high": 265.68,
+        "high": 265.73,
         "qty": 19.0,
         "entry_tid": "2026-11-13 17:13",
         "setup": "range_bund",
@@ -247,7 +247,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68946.315,
+  "last_btc_price": 68942.085,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1932,7 +1932,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T17:37:40.686298+00:00",
+    "sidst_hentet": "2026-11-13T17:52:41.253084+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2381,8 +2381,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.42,
-    "snitpris": 676.86,
+    "pris": 677.3,
+    "snitpris": 676.88,
     "svag": false
   },
   "marked_trend": -1
