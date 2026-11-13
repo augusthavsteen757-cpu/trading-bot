@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68564.04999999999,
+  "last_btc_price": 68513.52249999999,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1813,8 +1813,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T05:36:08.652623+00:00",
+    "sidst_hentet": "2026-11-13T05:51:08.716289+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuznj7",
+        "tid": "2026-11-13T05:36:21+00:00",
+        "titel": "POV: My BTC portfolio finally let me buy a Lambo in 2026",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuyz32",
         "tid": "2026-11-13T04:59:50+00:00",
@@ -2297,7 +2307,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
