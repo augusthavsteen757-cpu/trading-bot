@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69302.45,
+  "last_btc_price": 69292.76199999999,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1467,20 +1467,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Blandede aktiefutures og generelt marked uden krypto-specifik nyhed. Overskriften taler om aktier, ikke BTC, sa signalet er svagt.",
-        "tid": "2026-11-13T10:06:10.275979+00:00",
-        "pris_ved_nyhed": 69138.4,
-        "udloeber": "2026-11-13T11:06:10.275979+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 7,
     "sidste_kald": "2026-11-13T10:06:10.275979+00:00",
@@ -1789,7 +1776,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T10:46:49.571699+00:00",
+    "sidst_hentet": "2026-11-13T11:06:49.513103+00:00",
     "opslag": [
       {
         "id": "t3_1xv3f21",
