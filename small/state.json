@@ -135,18 +135,6 @@
         "tid": "2026-11-13T14:47:06.244835+00:00",
         "pris_ved_nyhed": 5.115,
         "udloeber": "2026-11-13T16:47:06.244835+00:00"
-      },
-      "LUNR": {
-        "kilde": "nyhed",
-        "symbol": "LUNR",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Buy-anbefaling fastholdt, men lavere kursmaal (20 USD) signalerer nedjustering af forventninger. Blandet signal, sandsynligvis allerede i prisen.",
-        "tid": "2026-11-13T15:27:05.081867+00:00",
-        "pris_ved_nyhed": 12.120000000000001,
-        "udloeber": "2026-11-13T16:27:05.081867+00:00"
       }
     },
     "dag": "2026-11-13",
@@ -250,7 +238,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.025,
+  "last_btc_price": 5.075,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1495,8 +1483,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 275.8,
-    "snitpris": 276.5,
+    "pris": 276.12,
+    "snitpris": 276.49,
     "svag": true
   },
   "marked_trend": -1
