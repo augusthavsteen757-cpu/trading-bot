@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68645.8885,
+  "last_btc_price": 68690.85,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1776,8 +1776,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T07:56:08.504360+00:00",
+    "sidst_hentet": "2026-11-13T08:11:09.536818+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv1zw4",
+        "tid": "2026-11-13T07:56:42+00:00",
+        "titel": "Is BTC on sleeping mode?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv1m2f",
         "tid": "2026-11-13T07:32:06+00:00",
@@ -2300,7 +2310,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 53 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
