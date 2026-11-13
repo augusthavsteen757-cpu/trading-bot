@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.532598,
+  "budget_used": 1.539878,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -42,8 +42,8 @@
     ]
   },
   "ai_day": "2026-11-13",
-  "ai_rounds_today": 6,
-  "ai_spend_today": 0.0508631,
+  "ai_rounds_today": 7,
+  "ai_spend_today": 0.0581436,
   "eq_day": "2026-11-13",
   "day_start_equity": 99407.25,
   "peak_equity": 100456.88,
@@ -141,9 +141,9 @@
       "last_review_price": 255.96
     },
     "META": {
-      "last_entry_eval": "2026-11-12T15:05:33.352264+00:00",
+      "last_entry_eval": "2026-11-13T14:41:56.283563+00:00",
       "last_entry_setups": [
-        "range_bund"
+        "trend_pullback"
       ],
       "last_hold_review": "2026-11-05T14:32:11.566084+00:00",
       "last_review_price": 628.87,
@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68965.90049999999,
+  "last_btc_price": 69236.46549999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
