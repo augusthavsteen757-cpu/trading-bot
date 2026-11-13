@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68337.67050000001,
+  "last_btc_price": 68205.9,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Global Microsoft 365-nedbrud rammer Outlook og Teams; kortsigtet negativ sentiment og mulige kompensationsomkostninger, usikkert hvor hurtigt det loeses.",
-        "tid": "2026-11-13T19:07:42.502849+00:00",
-        "pris_ved_nyhed": 524.455,
-        "udloeber": "2026-11-13T22:07:42.502849+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-13T19:07:42.502849+00:00",
@@ -1811,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T21:48:17.092118+00:00",
+    "sidst_hentet": "2026-11-13T22:08:16.687042+00:00",
     "opslag": [
       {
         "id": "t3_1xvj969",
