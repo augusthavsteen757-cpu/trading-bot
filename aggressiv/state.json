@@ -382,10 +382,10 @@
       "2026-11-13 18:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38": [
-      "2026-11-13 19:20: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:25: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:30: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
-      "2026-11-13 19:35: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
+      "2026-11-13 19:35: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
+      "2026-11-13 19:40: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -705,32 +705,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitcoin under 70K tr\u00e6kker MSTR ned, da selskabet er st\u00e6rkt knyttet til BTC-kursen; kursfaldet er allerede synligt.",
-        "tid": "2026-11-13T16:39:33.910393+00:00",
-        "pris_ved_nyhed": 109.52,
-        "udloeber": "2026-11-13T19:39:33.910393+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitcoin under 70K p\u00e5virker b\u00f8rsen COIN negativt via lavere handelsaktivitet og kurs; sandsynligvis allerede i prisen.",
-        "tid": "2026-11-13T16:39:33.910393+00:00",
-        "pris_ved_nyhed": 127.07,
-        "udloeber": "2026-11-13T19:39:33.910393+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 10,
     "sidste_kald": "2026-11-13T16:39:33.910393+00:00",
@@ -2330,8 +2305,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.96,
-    "snitpris": 677.21,
+    "pris": 679.37,
+    "snitpris": 677.22,
     "svag": false
   },
   "marked_trend": null
