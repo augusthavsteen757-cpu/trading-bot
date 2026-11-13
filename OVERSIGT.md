@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **13/11 kl. 18.14** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **13/11 kl. 18.18** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.410 USD  ·  **I alt:** -590 USD (-0.59 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 13/11 18.14
+**Konto:** 99.407 USD  ·  **I alt:** -593 USD (-0.59 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 13/11 18.18
 
 **Ejer nu:**
 
@@ -24,7 +24,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **13/11 kl. 18.14** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 13/11 18.12
+**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 13/11 18.17
 
 **Ejer nu:** intet
 
@@ -73,23 +73,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **13/11 kl. 18.14** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.135 USD  ·  **I alt:** +135 USD (+0.14 %)  ·  **I dag:** -1.36 %  ·  sidst opdateret 13/11 18.09
+**Konto:** 100.440 USD  ·  **I alt:** +440 USD (+0.44 %)  ·  **I dag:** -0.99 %  ·  sidst opdateret 13/11 18.14
 
-**Selv-tjek:** auto-tjek: seneste 10 handler +777 USD (3 vundet), fuld fart
+**Selv-tjek:** auto-tjek: seneste 10 handler -607 USD (2 vundet), BREMSE (halv stoerrelse)
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| SOXS | 754 | 53.78 | 13/11 16.44 |
-
-**Lukkede handler:** 40 i alt, 12 med gevinst, samlet +2.399 USD
+**Lukkede handler:** 41 i alt, 12 med gevinst, samlet +1.415 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ SOXS | 13/11 18.14 | -984 USD | tidsstop (90 min uden gevinst) |
 | ❌ MARA | 12/11 18.47 | -1 USD | tidsstop (90 min uden gevinst) |
 | ❌ AVGO | 12/11 18.47 | -46 USD | tidsstop (90 min uden gevinst) |
 | ❌ SHOP | 12/11 18.32 | -25 USD | tidsstop (90 min uden gevinst) |
 | ❌ HOOD | 12/11 18.32 | -0 USD | tidsstop (90 min uden gevinst) |
-| ❌ AMD | 12/11 18.32 | -6 USD | tidsstop (90 min uden gevinst) |
 
