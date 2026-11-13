@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68831.35,
+  "last_btc_price": 68765.9,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1467,44 +1467,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "BTC faldt under 69.000 med store likvidationer; kurven er allerede nede, men momentum og bearish kommentarer kan tr\u00e6kke yderligere ned kort sigt.",
-        "tid": "2026-11-13T04:50:33.967566+00:00",
-        "pris_ved_nyhed": 68656.5815,
-        "udloeber": "2026-11-13T06:50:33.967566+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bred sell-off i krypto rammer ETH; bev\u00e6gelsen er sket, men fortsat salgspres er sandsynligt de n\u00e6ste timer.",
-        "tid": "2026-11-13T04:50:33.967566+00:00",
-        "pris_ved_nyhed": 1924.76,
-        "udloeber": "2026-11-13T06:50:33.967566+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder typisk med markedet ved likvidationer; SOL n\u00e6vnes ikke direkte, men f\u00f8lger sandsynligvis den brede nedgang.",
-        "tid": "2026-11-13T04:50:33.967566+00:00",
-        "pris_ved_nyhed": 78.325,
-        "udloeber": "2026-11-13T06:50:33.967566+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-13T04:50:33.967566+00:00",
