@@ -374,6 +374,9 @@
     ],
     "tab: raket i high_vol": [
       "2026-11-13 17:14: SOXS: tidsstop (90 min uden gevinst). R=-0.51. Entry 54, exit 52. Grund til koeb: Raket ny dagstop {'dagstop': 54.06, 'vwap': 51.22, 'risiko_pct': 4.8}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 59.5, 'adx_1h': 23.9, 'rel_volumen_1h': 3.56, 'afstand_modstand_atr': 0.4, 'atr_percentil_30d': 87.2}"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37": [
+      "2026-11-13 18:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -387,7 +390,7 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T17:49:32.766525+00:00",
+    "sidst_hentet": "2026-11-13T18:04:32.838492+00:00",
     "opslag": [
       {
         "id": "t3_1xvdu9a",
@@ -743,18 +746,6 @@
         "tid": "2026-11-13T16:39:33.910393+00:00",
         "pris_ved_nyhed": 17.165,
         "udloeber": "2026-11-13T18:39:33.910393+00:00"
-      },
-      "CRWD": {
-        "kilde": "nyhed",
-        "symbol": "CRWD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Microsoft-nedbrud minder om CrowdStrike-h\u00e6ndelsen 2024; kan skabe debat om IT-sikkerhed, men headlinen er prim\u00e6rt historisk sammenligning uden ny forretningseffekt.",
-        "tid": "2026-11-13T15:59:32.706385+00:00",
-        "pris_ved_nyhed": 221.99,
-        "udloeber": "2026-11-13T17:59:32.706385+00:00"
       },
       "MARA": {
         "kilde": "nyhed",
@@ -2404,7 +2395,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.39,
+    "pris": 677.06,
     "snitpris": 676.88,
     "svag": false
   },
