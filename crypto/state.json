@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T02:31:42.727656+00:00",
+    "sidst_hentet": "2026-11-13T02:51:42.327492+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuwcg9",
+        "tid": "2026-11-13T02:43:43+00:00",
+        "titel": "Why is Bitcoin going below 70K again?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xuw515",
+        "tid": "2026-11-13T02:33:49+00:00",
+        "titel": "Right Now BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xupsk1",
         "tid": "2026-11-12T21:48:49+00:00",
@@ -286,7 +306,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -491,7 +511,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 70242.48000000001,
+  "last_btc_price": 70131.04999999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
