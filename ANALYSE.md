@@ -3,6 +3,23 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 13. nov 2026 (fredag, data 13. nov + fredagstjek)
+
+**Gårsdagens rettelse (small-ORB max 5 %):** Ikke testet endnu. Small-botten handlede ikke i dag.
+
+**Fredagstjek, aggressiv**
+- Delsalg (PR #53): virker. Det skete 5 gange (SMCI x2, CRWG, COIN, AMD) og sikrede +1.491 USD. Resten af de samme handler gav +870 USD.
+- Volumen-krav (PR #54): virker. Det blokerede 11 køb 11.-12. nov. Aktierne faldt i snit 1,38 % til lukketid. Kun ARM (+4,3 %) var en misset vinder.
+
+**Godt**
+- Options og hoved: rolige dage, ingen nye tab.
+
+**Dårligt**
+- Aggressiv: -1,05 % i dag. Hele tabet kom fra én raket-handel i en omvendt fond (SOXS -984 USD, tidsstop). I alt er den nu +0,44 %, og bremsen er slået til (halv størrelse).
+- Ingen dobbelt indsats til aggressiv: den har ikke fortjent det endnu.
+
+**Rettelse i dag:** Ingen. De omvendte fonde har i alt givet plus (5. nov ca. +2.760, i dag -984), så der er ikke klart bevis for at lave dem om.
+
 ## 12. nov 2026 (data 12. nov)
 
 **Gårsdagens rettelse (options, intet genkøb samme dag som salg):** Ikke testet i dag. Options solgte intet. Den ejer stadig AMZN-call fra 11. nov.
