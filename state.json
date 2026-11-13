@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68975.55,
+  "last_btc_price": 68794.655,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1789,8 +1789,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T03:55:33.426405+00:00",
+    "sidst_hentet": "2026-11-13T04:10:33.681767+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuxz0r",
+        "tid": "2026-11-13T04:05:32+00:00",
+        "titel": "What\u2019s going on with Bitcoin right now????",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xuxy1c",
+        "tid": "2026-11-13T04:04:05+00:00",
+        "titel": "Bitcoin is over",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuxr7y",
         "tid": "2026-11-13T03:54:26+00:00",
@@ -2233,7 +2253,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 46 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
