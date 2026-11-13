@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68975.43,
+  "last_btc_price": 69005.215,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1609,18 +1609,6 @@
         "tid": "2026-11-13T19:07:42.502849+00:00",
         "pris_ved_nyhed": 358.57500000000005,
         "udloeber": "2026-11-13T21:07:42.502849+00:00"
-      },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Konkurrenter kan faa kortvarig opmaerksomhed fra kunder, men effekten paa GOOGL er minimal.",
-        "tid": "2026-11-13T19:07:42.502849+00:00",
-        "pris_ved_nyhed": 295.41499999999996,
-        "udloeber": "2026-11-13T20:07:42.502849+00:00"
       }
     },
     "dag": "2026-11-13",
@@ -2380,8 +2368,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.38,
-    "snitpris": 677.29,
+    "pris": 679.48,
+    "snitpris": 677.31,
     "svag": false
   },
   "marked_trend": -1
