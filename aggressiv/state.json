@@ -382,10 +382,10 @@
       "2026-11-13 18:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38": [
-      "2026-11-13 19:10: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:15: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:20: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
-      "2026-11-13 19:25: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
+      "2026-11-13 19:25: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
+      "2026-11-13 19:30: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -399,7 +399,7 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T19:15:18.110708+00:00",
+    "sidst_hentet": "2026-11-13T19:30:18.618037+00:00",
     "opslag": [
       {
         "id": "t3_1xvg8h9",
@@ -2330,8 +2330,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.68,
-    "snitpris": 677.16,
+    "pris": 679.99,
+    "snitpris": 677.18,
     "svag": false
   },
   "marked_trend": null
