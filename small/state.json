@@ -12,7 +12,7 @@
       "last_review_price": 4.885
     },
     "RCAT": {
-      "last_entry_eval": "2026-11-13T14:32:13.956457+00:00",
+      "last_entry_eval": "2026-11-13T16:32:48.396518+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -30,13 +30,13 @@
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-12T15:50:32.357113+00:00",
+      "last_entry_eval": "2026-11-13T16:32:59.311137+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-13T14:32:43.936463+00:00",
+      "last_entry_eval": "2026-11-13T16:33:07.187997+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -109,10 +109,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.545892,
+  "budget_used": 0.565383,
   "ai_day": "2026-11-13",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.04649159999999999,
+  "ai_rounds_today": 10,
+  "ai_spend_today": 0.06598249999999999,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-13",
   "day_start_equity": 99265.7,
@@ -238,7 +238,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.075,
+  "last_btc_price": 5.105,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1483,9 +1483,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 276.12,
+    "pris": 276.65,
     "snitpris": 276.49,
-    "svag": true
+    "svag": false
   },
   "marked_trend": -1
 }
