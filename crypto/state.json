@@ -420,18 +420,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslag om Bitcoin Core og 'assaulting bitcoin' er rygter og hype uden bekr\u00e6ftet nyhed. Kun kontekst, ingen selvst\u00e6ndigt signal.",
-        "tid": "2026-11-13T12:42:21.599891+00:00",
-        "pris_ved_nyhed": 69195.98,
-        "udloeber": "2026-11-13T13:42:21.599891+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -628,7 +616,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 69802.545,
+  "last_btc_price": 69796.61,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
