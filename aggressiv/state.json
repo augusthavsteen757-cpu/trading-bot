@@ -358,6 +358,9 @@
       "2026-11-13 14:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars",
       "2026-11-13 14:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars",
       "2026-11-13 15:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35": [
+      "2026-11-13 15:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -371,7 +374,7 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T14:49:33.029936+00:00",
+    "sidst_hentet": "2026-11-13T15:09:32.594077+00:00",
     "opslag": [
       {
         "id": "t3_1xv9kkv",
@@ -763,29 +766,9 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xuezk6",
-        "tid": "2026-11-12T15:00:47+00:00",
-        "titel": "New NVDA ceo",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xuezbs",
-        "tid": "2026-11-12T15:00:35+00:00",
-        "titel": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2566,8 +2549,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 681.17,
-    "snitpris": 683.67,
+    "pris": 678.39,
+    "snitpris": 682.87,
     "svag": true
   },
   "marked_trend": null
