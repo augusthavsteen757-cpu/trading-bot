@@ -385,10 +385,10 @@
       "2026-11-13 15:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35": [
-      "2026-11-13 16:39: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 16:44: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 16:49: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
-      "2026-11-13 16:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
+      "2026-11-13 16:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
+      "2026-11-13 16:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -402,8 +402,18 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T16:39:32.598597+00:00",
+    "sidst_hentet": "2026-11-13T16:59:32.726588+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvd1lz",
+        "tid": "2026-11-13T16:53:08+00:00",
+        "titel": "Could it not be so bad for NVDA?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xvc913",
         "tid": "2026-11-13T16:23:03+00:00",
@@ -683,16 +693,6 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xuhvhp",
-        "tid": "2026-11-12T16:50:31+00:00",
-        "titel": "Trump calls for Tim Cook to replace Jensen Huang at Nvidia",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
@@ -2455,8 +2455,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.08,
-    "snitpris": 676.96,
+    "pris": 675.02,
+    "snitpris": 676.93,
     "svag": true
   },
   "marked_trend": null
