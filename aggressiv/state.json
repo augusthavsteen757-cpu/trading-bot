@@ -391,7 +391,8 @@
       "2026-11-13 16:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36": [
-      "2026-11-13 17:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars"
+      "2026-11-13 17:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars",
+      "2026-11-13 17:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2434,8 +2435,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.02,
-    "snitpris": 676.89,
+    "pris": 675.04,
+    "snitpris": 676.88,
     "svag": true
   },
   "marked_trend": null
