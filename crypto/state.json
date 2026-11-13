@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T09:17:20.790503+00:00",
+    "sidst_hentet": "2026-11-13T09:37:21.588577+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv3f21",
+        "tid": "2026-11-13T09:26:01+00:00",
+        "titel": "The State Wants an AI King. Bitcoin Needs No Ruler.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xv3emf",
+        "tid": "2026-11-13T09:25:12+00:00",
+        "titel": "The Emperor Has No Successor: Why Nvidia\u2019s $500 Billion Meltdown and Trump\u2019s Meddling Prove Bitcoin\u2019s Leaderless Design ",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xv391s",
         "tid": "2026-11-13T09:15:32+00:00",
@@ -384,26 +404,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu8ezo",
-        "tid": "2026-11-12T09:29:55+00:00",
-        "titel": "Bitcoin Retreats as Nvidia Turmoil Weighs on Risk Appetite",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu8c4x",
-        "tid": "2026-11-12T09:24:29+00:00",
-        "titel": "The Future of Bitcoin Mining? (Grid Stabilisation)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
@@ -567,7 +567,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68957.655,
+  "last_btc_price": 69024.8815,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
