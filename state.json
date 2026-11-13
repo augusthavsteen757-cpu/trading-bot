@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.52462,
+  "budget_used": 1.532598,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -42,8 +42,8 @@
     ]
   },
   "ai_day": "2026-11-13",
-  "ai_rounds_today": 5,
-  "ai_spend_today": 0.04288550000000001,
+  "ai_rounds_today": 6,
+  "ai_spend_today": 0.0508631,
   "eq_day": "2026-11-13",
   "day_start_equity": 99407.25,
   "peak_equity": 100456.88,
@@ -194,7 +194,7 @@
       "last_review_price": 555.2
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-12T15:06:10.224044+00:00",
+      "last_entry_eval": "2026-11-13T14:36:57.971643+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69289.807,
+  "last_btc_price": 68965.90049999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -2330,5 +2330,5 @@
   },
   "scan": {},
   "marked": {},
-  "marked_trend": 0
+  "marked_trend": -1
 }
