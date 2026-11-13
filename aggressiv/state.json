@@ -180,7 +180,10 @@
     },
     "ADXN": {},
     "NVD": {},
-    "LUNR": {}
+    "LUNR": {},
+    "FCUV": {},
+    "MOD": {},
+    "CBRS": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -349,6 +352,9 @@
       "2026-11-12 20:46: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
       "2026-11-12 20:51: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars",
       "2026-11-12 20:56: ADXN: RuntimeError: For lidt data for ADXN: 207 dag-bars, 17 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34": [
+      "2026-11-13 14:39: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2456,16 +2462,23 @@
   },
   "scan": {
     "dag": "2026-11-13",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "FCUV",
+      "MOD",
+      "CBRS"
+    ],
+    "sidst": "2026-11-13T14:39:31.647496+00:00",
     "alle": [
       "ADXN",
       "AEHL",
       "APP",
+      "CBRS",
       "CKX",
       "CRWG",
+      "FCUV",
       "LUNR",
       "MF",
+      "MOD",
       "NVD",
       "NWGL",
       "PEPG",
@@ -2488,7 +2501,10 @@
       "ADXN": "Addex Therapeutics Ltd American Depositary Shares",
       "NVD": "GraniteShares ETF Trust GraniteShares 2x Short NVDA Daily ETF",
       "LUNR": "Intuitive Machines, Inc. Class A Common Stock",
-      "SNDQ": "Tradr 2X Short SNDK Daily ETF"
+      "SNDQ": "Tradr 2X Short SNDK Daily ETF",
+      "FCUV": "Focus Universal Inc. Common Stock",
+      "MOD": "Modine Manufacturing Co",
+      "CBRS": "Cerebras Systems Inc. Class A Common Stock"
     },
     "omvendt": [
       "NVD",
