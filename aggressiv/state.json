@@ -376,10 +376,10 @@
       "2026-11-13 17:14: SOXS: tidsstop (90 min uden gevinst). R=-0.51. Entry 54, exit 52. Grund til koeb: Raket ny dagstop {'dagstop': 54.06, 'vwap': 51.22, 'risiko_pct': 4.8}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 59.5, 'adx_1h': 23.9, 'rel_volumen_1h': 3.56, 'afstand_modstand_atr': 0.4, 'atr_percentil_30d': 87.2}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37": [
-      "2026-11-13 18:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
       "2026-11-13 18:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
       "2026-11-13 18:14: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
-      "2026-11-13 18:19: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
+      "2026-11-13 18:19: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
+      "2026-11-13 18:24: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -393,7 +393,7 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T18:04:32.838492+00:00",
+    "sidst_hentet": "2026-11-13T18:24:32.129653+00:00",
     "opslag": [
       {
         "id": "t3_1xvdu9a",
@@ -2362,7 +2362,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.07,
+    "pris": 676.24,
     "snitpris": 676.86,
     "svag": true
   },
