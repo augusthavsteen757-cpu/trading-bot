@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T20:13:33.449734+00:00",
+    "sidst_hentet": "2026-11-13T20:33:33.452398+00:00",
     "opslag": [
+      {
+        "id": "t3_1xviu9x",
+        "tid": "2026-11-13T20:31:10+00:00",
+        "titel": "Is 1 BTC enough?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvippk",
+        "tid": "2026-11-13T20:26:02+00:00",
+        "titel": "Can You Still Make Money Mining Bitcoin at Home?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvgswk",
         "tid": "2026-11-13T19:12:09+00:00",
@@ -356,7 +376,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -508,7 +528,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68907.66500000001,
+  "last_btc_price": 68847.22,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
