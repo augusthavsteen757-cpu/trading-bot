@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68670.54000000001,
+  "last_btc_price": 68825.68599999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1598,18 +1598,6 @@
         "pris_ved_nyhed": 1919.76,
         "udloeber": "2026-11-13T18:22:41.338650+00:00"
       },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Konkurrenter til Microsoft kan kortvarigt f\u00e5 lidt opm\u00e6rksomhed, men effekten er svag og usikker.",
-        "tid": "2026-11-13T16:32:41.851384+00:00",
-        "pris_ved_nyhed": 294.32,
-        "udloeber": "2026-11-13T17:32:41.851384+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -1931,7 +1919,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T17:17:42.007729+00:00",
+    "sidst_hentet": "2026-11-13T17:37:40.686298+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2380,9 +2368,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 677.25,
+    "pris": 676.86,
     "snitpris": 676.86,
-    "svag": false
+    "svag": true
   },
   "marked_trend": -1
 }
