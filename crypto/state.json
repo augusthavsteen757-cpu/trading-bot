@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T14:17:55.270374+00:00",
+    "sidst_hentet": "2026-11-13T14:37:55.020755+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -364,39 +364,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xue9z8",
-        "tid": "2026-11-12T14:32:06+00:00",
-        "titel": "How long would a Bitcoin quantum security upgrade take?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xue9b9",
-        "tid": "2026-11-12T14:31:21+00:00",
-        "titel": "I waited weeks for a BTC entry. Now that it's almost here, I'm reconsidering the trade.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xue841",
-        "tid": "2026-11-12T14:30:10+00:00",
-        "titel": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -596,7 +566,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 69302.144,
+  "last_btc_price": 68893.45,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
