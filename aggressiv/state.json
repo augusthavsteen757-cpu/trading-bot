@@ -2269,11 +2269,6 @@
       "SOXS"
     ]
   },
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 681.36,
-    "snitpris": 677.62,
-    "svag": false
-  },
+  "marked": {},
   "marked_trend": null
 }
