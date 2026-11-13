@@ -238,7 +238,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.085,
+  "last_btc_price": 5.105,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1483,9 +1483,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 276.61,
+    "pris": 276.36,
     "snitpris": 276.5,
-    "svag": false
+    "svag": true
   },
   "marked_trend": -1
 }
