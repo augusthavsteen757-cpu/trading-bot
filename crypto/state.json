@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T13:27:55.411905+00:00",
+    "sidst_hentet": "2026-11-13T13:47:55.157308+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -404,19 +404,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xud2d4",
-        "tid": "2026-11-12T13:42:22+00:00",
-        "titel": "DTCC Tokenization Service to Connect with Solana, Advancing Multi-Chain Strategy and Expanding Access to Leading Blockch",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -616,7 +606,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 69796.61,
+  "last_btc_price": 69669.6765,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
