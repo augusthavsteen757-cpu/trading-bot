@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68000.255,
+  "last_btc_price": 68137.5485,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T23:18:16.116782+00:00",
+    "sidst_hentet": "2026-11-13T23:33:16.448267+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvn7oo",
+        "tid": "2026-11-13T23:31:14+00:00",
+        "titel": "Bitcoin will never go below $10 again.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvj969",
         "tid": "2026-11-13T20:47:24+00:00",
@@ -2151,7 +2161,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
