@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68828.19,
+  "last_btc_price": 68673.87,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1859,8 +1859,98 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T20:42:40.687174+00:00",
+    "sidst_hentet": "2026-11-13T21:02:39.363307+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvj969",
+        "tid": "2026-11-13T20:47:24+00:00",
+        "titel": "Solana Ecosystem Call & Community Awards",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvj8c3",
+        "tid": "2026-11-13T20:46:27+00:00",
+        "titel": "Solana Foundation Introduces Solana Confidential Compute, Open-source Tools For Building Private AI, With Hardware Attes",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvix35",
+        "tid": "2026-11-13T20:34:19+00:00",
+        "titel": "Are Solana payments putting off potential customers?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvippk",
+        "tid": "2026-11-13T20:26:02+00:00",
+        "titel": "Can You Still Make Money Mining Bitcoin at Home?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvgswk",
+        "tid": "2026-11-13T19:12:09+00:00",
+        "titel": "If you died tomorrow, could your family actually access your Bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvft96",
+        "tid": "2026-11-13T18:34:54+00:00",
+        "titel": "I have been in bitcoin since 2013, and I just invested 100% of my savings in bitcoin. Hear me out",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvcarn",
+        "tid": "2026-11-13T16:24:53+00:00",
+        "titel": "Solo dev looking for a buddy to help finish my Solana trading bot \ud83e\udd1d",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvbjr4",
+        "tid": "2026-11-13T15:57:32+00:00",
+        "titel": "Ya\u2019ll know what\u2019s happening to bitcoin!?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xv9wbu",
+        "tid": "2026-11-13T14:52:14+00:00",
+        "titel": "What is the Best Wallet for Solana?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xv7h1j",
         "tid": "2026-11-13T13:10:06+00:00",
@@ -2120,197 +2210,11 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuo594",
-        "tid": "2026-11-12T20:43:27+00:00",
-        "titel": "Bitcoin 2025 VS Bitcoin 2026",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xumuz4",
-        "tid": "2026-11-12T19:53:34+00:00",
-        "titel": "The double S curve is real. 2021 - 2027 = 6 years of sideways consolidation before bitcoin unleashes its dominant fury o",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuml5d",
-        "tid": "2026-11-12T19:43:25+00:00",
-        "titel": "Nvidia earnings next week. Can good numbers still disappoint this market?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xuml35",
-        "tid": "2026-11-12T19:43:20+00:00",
-        "titel": "Bitcoin Democratization Business",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xumcg9",
-        "tid": "2026-11-12T19:34:36+00:00",
-        "titel": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xuludr",
-        "tid": "2026-11-12T19:16:02+00:00",
-        "titel": "Outlook Outage: Microsoft's Email Service Goes Down Nationwide",
-        "symboler": [
-          "MSFT"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xul225",
-        "tid": "2026-11-12T18:47:24+00:00",
-        "titel": "My thoughts on NVDA",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xuk7i5",
-        "tid": "2026-11-12T18:15:53+00:00",
-        "titel": "Leaked footage from the Nvidia meeting this morning",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xujz64",
-        "tid": "2026-11-12T18:07:27+00:00",
-        "titel": "Are those of you who like to follow the bitcoin pattern do. According to that 4 year pattern could there be another dip?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuiqe7",
-        "tid": "2026-11-12T17:21:39+00:00",
-        "titel": "$AKT, From AkashNet, Is Live On Solana Via Sunrise, Issued By Backpack Securities",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xui7ju",
-        "tid": "2026-11-12T17:02:40+00:00",
-        "titel": "8 Reasons Bitcoin Is the Only Thing AI Can't Copy",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuhvhp",
-        "tid": "2026-11-12T16:50:31+00:00",
-        "titel": "Trump calls for Tim Cook to replace Jensen Huang at Nvidia",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xuf7yz",
-        "tid": "2026-11-12T15:09:48+00:00",
-        "titel": "In 2014 a Bitcoin educator sent 30 cents to the brain wallet \"Satoshi Nakamoto\" on video, it was spent in the same block",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xueq9q",
-        "tid": "2026-11-12T14:50:35+00:00",
-        "titel": "What happens to lost Bitcoin if quantum computers become powerful enough?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuehn0",
-        "tid": "2026-11-12T14:41:04+00:00",
-        "titel": "AVGO is the best play over AMD for Huangs ouster at NVDA",
-        "symboler": [
-          "NVDA",
-          "AMD"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xue9z8",
-        "tid": "2026-11-12T14:32:06+00:00",
-        "titel": "How long would a Bitcoin quantum security upgrade take?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xue9b9",
-        "tid": "2026-11-12T14:31:21+00:00",
-        "titel": "I waited weeks for a BTC entry. Now that it's almost here, I'm reconsidering the trade.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xue841",
-        "tid": "2026-11-12T14:30:10+00:00",
-        "titel": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 681.36,
-    "snitpris": 677.7,
-    "svag": false
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
