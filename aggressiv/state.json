@@ -382,10 +382,10 @@
       "2026-11-13 18:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38": [
-      "2026-11-13 19:30: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:35: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
       "2026-11-13 19:40: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
-      "2026-11-13 19:45: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
+      "2026-11-13 19:45: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars",
+      "2026-11-13 19:50: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -399,7 +399,7 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T19:30:18.618037+00:00",
+    "sidst_hentet": "2026-11-13T19:50:18.636490+00:00",
     "opslag": [
       {
         "id": "t3_1xvg8h9",
@@ -670,39 +670,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xuml5d",
-        "tid": "2026-11-12T19:43:25+00:00",
-        "titel": "Nvidia earnings next week. Can good numbers still disappoint this market?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xumi29",
-        "tid": "2026-11-12T19:40:14+00:00",
-        "titel": "Exclusive-Former Nvidia CEO Huang had a relationship with a second employee",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xumcg9",
-        "tid": "2026-11-12T19:34:36+00:00",
-        "titel": "EXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -2305,8 +2275,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.06,
-    "snitpris": 677.23,
+    "pris": 678.42,
+    "snitpris": 677.24,
     "svag": false
   },
   "marked_trend": null
