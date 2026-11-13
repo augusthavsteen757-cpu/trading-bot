@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69314.65,
+  "last_btc_price": 69263.775,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1801,7 +1801,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T13:51:49.580197+00:00",
+    "sidst_hentet": "2026-11-13T14:11:49.215262+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2243,39 +2243,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xudq8g",
-        "tid": "2026-11-12T14:09:57+00:00",
-        "titel": "Revolution Mining said my KYC failed and I couldn\u2019t withdraw my Bitcoin mining payouts",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xudez8",
-        "tid": "2026-11-12T13:57:28+00:00",
-        "titel": "China having access to Nvidia GPUs is no new news. Why do people care now?",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xuddr7",
-        "tid": "2026-11-12T13:56:06+00:00",
-        "titel": "Nvidia CEO Jensen Huang is stepping down as CEO",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 47 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
