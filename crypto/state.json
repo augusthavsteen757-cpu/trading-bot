@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T06:06:42.302489+00:00",
+    "sidst_hentet": "2026-11-13T06:21:42.608681+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv0aii",
+        "tid": "2026-11-13T06:12:18+00:00",
+        "titel": "BTC on a Inverse HnS",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuzzhz",
         "tid": "2026-11-13T05:55:10+00:00",
@@ -386,7 +396,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -582,7 +592,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68361.42499999999,
+  "last_btc_price": 68492.046,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
