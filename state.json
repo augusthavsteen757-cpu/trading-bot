@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.545099,
+  "budget_used": 1.635673,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -42,8 +42,8 @@
     ]
   },
   "ai_day": "2026-11-13",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.06336479999999999,
+  "ai_rounds_today": 17,
+  "ai_spend_today": 0.15393919999999994,
   "eq_day": "2026-11-13",
   "day_start_equity": 99407.25,
   "peak_equity": 100456.88,
@@ -63,18 +63,18 @@
     },
     "SPY": {
       "orb_day": "2026-11-12",
-      "last_entry_eval": "2026-11-06T14:46:37.237557+00:00",
+      "last_entry_eval": "2026-11-13T17:12:46.210946+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "range_bund"
       ],
       "last_hold_review": "2026-11-06T15:01:46.064294+00:00",
       "last_review_price": 740.335
     },
     "QQQ": {
       "orb_day": "2026-11-12",
-      "last_entry_eval": "2026-11-13T14:32:01.406836+00:00",
+      "last_entry_eval": "2026-11-13T17:12:57.213856+00:00",
       "last_entry_setups": [
-        "trend_pullback"
+        "range_bund"
       ],
       "last_hold_review": "2026-11-06T14:56:37.868623+00:00",
       "last_review_price": 661.3199999999999
@@ -90,9 +90,9 @@
     },
     "AAPL": {
       "orb_day": "2026-11-11",
-      "last_entry_eval": "2026-11-12T14:54:57.376244+00:00",
+      "last_entry_eval": "2026-11-13T17:13:08.105508+00:00",
       "last_entry_setups": [
-        "breakout"
+        "trend_pullback"
       ],
       "last_hold_review": "2026-11-06T15:26:38.909538+00:00",
       "last_review_price": 344.08,
@@ -132,16 +132,40 @@
       "last_review_price": 533.15
     },
     "AMZN": {
-      "last_entry_eval": "2026-11-13T14:32:13.307148+00:00",
+      "last_entry_eval": "2026-11-13T17:13:20.317888+00:00",
       "last_entry_setups": [
+        "range_bund",
         "trend_pullback"
       ],
       "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-05T15:29:52.157925+00:00",
-      "last_review_price": 255.96
+      "last_review_price": 255.96,
+      "pos": {
+        "entry": 265.23,
+        "stop": 260.21000000000004,
+        "stop_initial": 260.21000000000004,
+        "high": 265.23,
+        "qty": 19.0,
+        "entry_tid": "2026-11-13 17:13",
+        "setup": "range_bund",
+        "regime": "range",
+        "conviction": 2,
+        "grund": "Pris ved stoette 265.05, 4h/1d trend op, extreme fear kontrarian. Modstand 270.55 er 2.11 ATR vaek, over 1.2R. Lav volumen, saa kun lille stoerrelse.",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": 1,
+          "trend_1d": 1,
+          "rsi_1h": 43.8,
+          "adx_1h": 27.5,
+          "rel_volumen_1h": 0.15,
+          "afstand_modstand_atr": 2.11,
+          "atr_percentil_30d": 74.1
+        },
+        "invalidering": "Lukning under 265.05 stoette (ca. 0.07 ATR stop) afviser range-bund; ingen volumen-bekraeftelse ved bounce."
+      }
     },
     "META": {
-      "last_entry_eval": "2026-11-13T14:41:56.283563+00:00",
+      "last_entry_eval": "2026-11-13T17:13:42.035237+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -150,7 +174,7 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-12T15:05:47.942613+00:00",
+      "last_entry_eval": "2026-11-13T17:13:52.260705+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -184,17 +208,17 @@
       }
     },
     "AMD": {
-      "last_entry_eval": "2026-11-13T14:32:26.888313+00:00",
+      "last_entry_eval": "2026-11-13T17:14:02.951636+00:00",
       "last_entry_setups": [
         "nyhed_op",
-        "trend_pullback"
+        "range_bund"
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-11T15:57:49.411634+00:00",
       "last_review_price": 555.2
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-13T14:36:57.971643+00:00",
+      "last_entry_eval": "2026-11-13T17:14:15.239787+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -203,7 +227,7 @@
       "last_review_price": 385.735
     },
     "EQIX": {
-      "last_entry_eval": "2026-11-13T14:32:37.475875+00:00",
+      "last_entry_eval": "2026-11-13T17:14:25.125843+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -212,8 +236,9 @@
       "last_review_price": 1009.93
     },
     "DLR": {
-      "last_entry_eval": "2026-11-13T14:32:46.948717+00:00",
+      "last_entry_eval": "2026-11-13T17:14:33.954004+00:00",
       "last_entry_setups": [
+        "range_bund",
         "trend_pullback"
       ],
       "orb_day": "2026-11-12",
@@ -221,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68739.68,
+  "last_btc_price": 68703.775,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -2343,9 +2368,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 675.04,
-    "snitpris": 676.88,
-    "svag": true
+    "pris": 677.66,
+    "snitpris": 676.89,
+    "svag": false
   },
   "marked_trend": -1
 }
