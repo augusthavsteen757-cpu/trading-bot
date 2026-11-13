@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68700.39,
+  "last_btc_price": 68830.9775,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1776,8 +1776,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T08:56:12.197787+00:00",
+    "sidst_hentet": "2026-11-13T09:16:10.337986+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv391s",
+        "tid": "2026-11-13T09:15:32+00:00",
+        "titel": "Bitcoin self-custody is great, but what about moving BTC around?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv2x61",
         "tid": "2026-11-13T08:54:40+00:00",
@@ -2278,29 +2288,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu8675",
-        "tid": "2026-11-12T09:13:46+00:00",
-        "titel": "Buying NVDA This Morning",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xu7xr4",
-        "tid": "2026-11-12T08:59:05+00:00",
-        "titel": "To swap of or not to swap, BTC -> U.S. Dollars",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 51 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
