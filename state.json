@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69303.625,
+  "last_btc_price": 69227.09700000001,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1789,8 +1789,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T12:16:49.287391+00:00",
+    "sidst_hentet": "2026-11-13T12:36:49.545330+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv6nyy",
+        "tid": "2026-11-13T12:32:14+00:00",
+        "titel": "What if BTC 4y cycle is not over yet?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xv6lbr",
+        "tid": "2026-11-13T12:28:34+00:00",
+        "titel": "Exfil, testnet5, Bitcoin Core disclosures &more - Bitcoin Optech Newsletter #431",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv5vm3",
         "tid": "2026-11-13T11:52:41+00:00",
@@ -2293,7 +2313,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 50 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
