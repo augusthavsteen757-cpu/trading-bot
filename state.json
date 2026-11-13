@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68914.9,
+  "last_btc_price": 68751.68,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1776,8 +1776,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T07:16:09.380278+00:00",
+    "sidst_hentet": "2026-11-13T07:36:09.226617+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv1m2f",
+        "tid": "2026-11-13T07:32:06+00:00",
+        "titel": "I hate Bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv0aii",
         "tid": "2026-11-13T06:12:18+00:00",
@@ -2290,7 +2300,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 51 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
