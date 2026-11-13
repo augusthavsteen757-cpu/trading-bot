@@ -378,7 +378,8 @@
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37": [
       "2026-11-13 18:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
       "2026-11-13 18:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
-      "2026-11-13 18:14: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
+      "2026-11-13 18:14: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars",
+      "2026-11-13 18:19: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 37 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -748,18 +749,6 @@
         "tid": "2026-11-13T16:39:33.910393+00:00",
         "pris_ved_nyhed": 6.865,
         "udloeber": "2026-11-13T18:39:33.910393+00:00"
-      },
-      "CBRS": {
-        "kilde": "nyhed",
-        "symbol": "CBRS",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Positiv Q4-guidance og opjusteret helaarsudsigt er overraskende og klart positivt. Pre-market stigning viser reaktion, men der kan vaere mere at hente i den regulaere handel.",
-        "tid": "2026-11-13T15:14:32.875935+00:00",
-        "pris_ved_nyhed": 107.995,
-        "udloeber": "2026-11-13T18:14:32.875935+00:00"
       },
       "HOOD": {
         "kilde": "nyhed",
@@ -2373,8 +2362,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.33,
-    "snitpris": 676.87,
+    "pris": 676.07,
+    "snitpris": 676.86,
     "svag": true
   },
   "marked_trend": null
