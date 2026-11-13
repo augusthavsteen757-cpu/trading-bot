@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69314.61499999999,
+  "last_btc_price": 69232.3,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1789,8 +1789,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T11:41:48.737042+00:00",
+    "sidst_hentet": "2026-11-13T11:56:49.572814+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv5vm3",
+        "tid": "2026-11-13T11:52:41+00:00",
+        "titel": "Happy Friday the 13th. Spirits are playing nice by assaulting bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xv5noq",
+        "tid": "2026-11-13T11:40:44+00:00",
+        "titel": "Why you shouldn\u2019t buy a house when you can buy Bitcoin \ud83d\udc47\ud83c\udffc",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv5jnf",
         "tid": "2026-11-13T11:34:19+00:00",
@@ -2271,19 +2291,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xuarpt",
-        "tid": "2026-11-12T11:50:10+00:00",
-        "titel": "It is possible Bitcoin to start be banned from governments around the world, sometime in future?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 50 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
