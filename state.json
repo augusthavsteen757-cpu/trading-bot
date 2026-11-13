@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 70590.18,
+  "last_btc_price": 70480.361,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1813,7 +1813,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T02:05:34.057775+00:00",
+    "sidst_hentet": "2026-11-13T02:25:34.087653+00:00",
     "opslag": [
       {
         "id": "t3_1xuo594",
@@ -2205,19 +2205,9 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xu0r22",
-        "tid": "2026-11-12T02:17:08+00:00",
-        "titel": "So is Solana done for?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
