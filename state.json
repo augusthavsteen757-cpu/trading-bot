@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68327.05,
+  "last_btc_price": 68293.2395,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1501,30 +1501,6 @@
         "tid": "2026-11-13T19:07:42.502849+00:00",
         "pris_ved_nyhed": 524.455,
         "udloeber": "2026-11-13T22:07:42.502849+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitcoin er faldet til ca. 68K og naermer sig stoette paa 67K; modest ETF-outflow og brud under stoette kan give yderligere pres, men faldet er allerede synligt i prisen.",
-        "tid": "2026-11-13T18:57:40.293935+00:00",
-        "pris_ved_nyhed": 68933.68,
-        "udloeber": "2026-11-13T21:57:40.293935+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "BTC-fald og ETF-outflows smitter typisk over paa ETH med korrelation, saa risiko for yderligere nedadgaaende pres.",
-        "tid": "2026-11-13T18:57:40.293935+00:00",
-        "pris_ved_nyhed": 1942.85,
-        "udloeber": "2026-11-13T21:57:40.293935+00:00"
       }
     },
     "dag": "2026-11-13",
