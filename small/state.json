@@ -118,7 +118,7 @@
   "day_start_equity": 99265.7,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-13T19:02:45.410356+00:00",
+    "sidst_hentet": "2026-11-13T19:17:47.098182+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -225,7 +225,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.105,
+  "last_btc_price": 5.095,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1470,8 +1470,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 277.19,
-    "snitpris": 276.52,
+    "pris": 277.06,
+    "snitpris": 276.53,
     "svag": false
   },
   "marked_trend": -1
