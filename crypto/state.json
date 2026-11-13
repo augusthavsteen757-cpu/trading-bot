@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T06:36:42.755443+00:00",
+    "sidst_hentet": "2026-11-13T06:56:42.293917+00:00",
     "opslag": [
       {
         "id": "t3_1xv0aii",
@@ -399,56 +399,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "BTC faldt under 69.000 og likvidationer over en milliard; nyheden er allerede i kursen, men momentum kan fortsaette lavere kortvarigt.",
-        "tid": "2026-11-13T04:51:44.398850+00:00",
-        "pris_ved_nyhed": 68675.07949999999,
-        "udloeber": "2026-11-13T06:51:44.398850+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETH falder med det bredere kryptosalg; smitte fra BTC gav allerede prisfald, men risiko for yderligere udsalg.",
-        "tid": "2026-11-13T04:51:44.398850+00:00",
-        "pris_ved_nyhed": 1926.3555000000001,
-        "udloeber": "2026-11-13T06:51:44.398850+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder typisk mere end BTC i bredt salg; SOL ventes at f\u00f8lge markedet ned.",
-        "tid": "2026-11-13T04:51:44.398850+00:00",
-        "pris_ved_nyhed": 78.42465,
-        "udloeber": "2026-11-13T06:51:44.398850+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Hoejbeta-memecoins reagerer staerkt paa markedsfald; signalet er afledt af det generelle salg.",
-        "tid": "2026-11-13T04:51:44.398850+00:00",
-        "pris_ved_nyhed": 0.0633044,
-        "udloeber": "2026-11-13T06:51:44.398850+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-13T04:51:44.398850+00:00",
@@ -592,7 +543,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68768.735,
+  "last_btc_price": 69014.01449999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
