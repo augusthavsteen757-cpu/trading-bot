@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69739.95300000001,
+  "last_btc_price": 69682.718,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1468,18 +1468,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-snak om 4-aars cyklus og fredag den 13. er rygter uden substans, kun svag kontekst.",
-        "tid": "2026-11-13T12:46:48.963819+00:00",
-        "pris_ved_nyhed": 69263.25,
-        "udloeber": "2026-11-13T13:46:48.963819+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1813,7 +1801,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T13:31:49.602200+00:00",
+    "sidst_hentet": "2026-11-13T13:51:49.580197+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2285,29 +2273,9 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xud8bz",
-        "tid": "2026-11-12T13:49:40+00:00",
-        "titel": "NVIDIA Announces CEO Transition",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xud2d4",
-        "tid": "2026-11-12T13:42:22+00:00",
-        "titel": "DTCC Tokenization Service to Connect with Solana, Advancing Multi-Chain Strategy and Expanding Access to Leading Blockch",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 47 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
