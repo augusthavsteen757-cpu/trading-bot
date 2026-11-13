@@ -429,20 +429,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Hackerkrav om 3 BTC rammer kun TSMC indirekte; lille kursimpuls til BTC, mest sandsynligt uden varig effekt.",
-        "tid": "2026-11-13T11:37:21.252197+00:00",
-        "pris_ved_nyhed": 69160.85,
-        "udloeber": "2026-11-13T12:37:21.252197+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-13T11:37:21.252197+00:00",
@@ -589,7 +576,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 69327.925,
+  "last_btc_price": 69225.64499999999,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
