@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68762.37,
+  "last_btc_price": 68728.064,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1776,8 +1776,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T08:41:10.169102+00:00",
+    "sidst_hentet": "2026-11-13T08:56:12.197787+00:00",
     "opslag": [
+      {
+        "id": "t3_1xv2x61",
+        "tid": "2026-11-13T08:54:40+00:00",
+        "titel": "Bitcoin crashes below $70,000 for first time since August, hits $68,297 as inflation fears trigger sell off",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv2ald",
         "tid": "2026-11-13T08:14:24+00:00",
@@ -2288,16 +2298,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu7sga",
-        "tid": "2026-11-12T08:49:50+00:00",
-        "titel": "How much of NVIDIA\u2019s valuation is actually tied to Jensen Huang and what do think will happen to the stock if he gets fi",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
