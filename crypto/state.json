@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T15:47:55.132335+00:00",
+    "sidst_hentet": "2026-11-13T16:07:54.971465+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvbjr4",
+        "tid": "2026-11-13T15:57:32+00:00",
+        "titel": "Ya\u2019ll know what\u2019s happening to bitcoin!?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xv9wbu",
         "tid": "2026-11-13T14:52:14+00:00",
@@ -346,7 +356,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -511,7 +521,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68630.78450000001,
+  "last_btc_price": 68648.9595,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
