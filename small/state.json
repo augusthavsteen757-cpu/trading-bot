@@ -1468,11 +1468,6 @@
     "2026-11-14": []
   },
   "scan": {},
-  "marked": {
-    "symbol": "IWM",
-    "pris": 277.93,
-    "snitpris": 276.75,
-    "svag": false
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
