@@ -117,7 +117,7 @@
         "entry": 53.785,
         "stop": 51.21533134523566,
         "stop_initial": 51.21533134523566,
-        "high": 54.28,
+        "high": 54.31,
         "qty": 754.0,
         "entry_tid": "2026-11-13 15:44",
         "setup": "raket",
@@ -385,10 +385,10 @@
       "2026-11-13 15:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 34 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35": [
-      "2026-11-13 15:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 15:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 16:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
-      "2026-11-13 16:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
+      "2026-11-13 16:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
+      "2026-11-13 16:14: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2532,8 +2532,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 672.86,
-    "snitpris": 677.66,
+    "pris": 674.67,
+    "snitpris": 677.6,
     "svag": true
   },
   "marked_trend": null
