@@ -389,6 +389,9 @@
       "2026-11-13 16:49: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 16:54: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars",
       "2026-11-13 16:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36": [
+      "2026-11-13 17:04: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -807,18 +810,6 @@
         "pris_ved_nyhed": 107.995,
         "udloeber": "2026-11-13T18:14:32.875935+00:00"
       },
-      "MOD": {
-        "kilde": "nyhed",
-        "symbol": "MOD",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygter om Samsung-opk\u00f8b gav ca. 23% stigning. Kan stadig rumme opside ved bekr\u00e6ftelse, men meget af reaktionen er sket.",
-        "tid": "2026-11-13T15:04:32.416032+00:00",
-        "pris_ved_nyhed": 136.94,
-        "udloeber": "2026-11-13T17:04:32.416032+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -830,18 +821,6 @@
         "tid": "2026-11-13T16:24:33.501294+00:00",
         "pris_ved_nyhed": 77.02,
         "udloeber": "2026-11-13T18:24:33.501294+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Grok-videoteam nedlagt er lille nyhed for Tesla selv, men kan sv\u00e6kke xAI-narrativet. Begr\u00e6nset effekt.",
-        "tid": "2026-11-13T15:04:32.416032+00:00",
-        "pris_ved_nyhed": 388.78499999999997,
-        "udloeber": "2026-11-13T17:04:32.416032+00:00"
       },
       "SMCI": {
         "kilde": "nyhed",
@@ -2407,7 +2386,7 @@
       "CBRS",
       "SOXS"
     ],
-    "sidst": "2026-11-13T16:49:32.913779+00:00",
+    "sidst": "2026-11-13T17:04:33.053196+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2456,7 +2435,7 @@
   "marked": {
     "symbol": "QQQ",
     "pris": 675.02,
-    "snitpris": 676.93,
+    "snitpris": 676.89,
     "svag": true
   },
   "marked_trend": null
