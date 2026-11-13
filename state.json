@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69026.209,
+  "last_btc_price": 68980.4715,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1550,18 +1550,6 @@
         "pris_ved_nyhed": 524.455,
         "udloeber": "2026-11-13T22:07:42.502849+00:00"
       },
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "CNBC-trader valgte Digital Realty; det er en omtale uden ny fundamental nyhed, saa effekten er begr\u00e6nset.",
-        "tid": "2026-11-13T17:17:43.789592+00:00",
-        "pris_ved_nyhed": 179.42,
-        "udloeber": "2026-11-13T20:17:43.789592+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1919,7 +1907,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T20:07:40.168502+00:00",
+    "sidst_hentet": "2026-11-13T20:22:41.256541+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2368,8 +2356,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.83,
-    "snitpris": 677.33,
+    "pris": 679.14,
+    "snitpris": 677.34,
     "svag": false
   },
   "marked_trend": -1
