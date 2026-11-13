@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68879.35,
+  "last_btc_price": 68839.91949999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,42 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD faldt 10,5% i chip-udsalg; kursfaldet er sket, men momentum kan fortsaette i kort tid.",
-        "tid": "2026-11-13T18:42:41.193831+00:00",
-        "pris_ved_nyhed": 528.865,
-        "udloeber": "2026-11-13T20:42:41.193831+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Chip-udsalget smitter sandsynligvis over paa NVDA som stor del af samme sektor.",
-        "tid": "2026-11-13T18:42:41.193831+00:00",
-        "pris_ved_nyhed": 162.15,
-        "udloeber": "2026-11-13T20:42:41.193831+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Nasdaq 100 falder 1,7% med chip-udsalget; QQQ paavirkes af samme tech-svaghed.",
-        "tid": "2026-11-13T18:42:41.193831+00:00",
-        "pris_ved_nyhed": 678.355,
-        "udloeber": "2026-11-13T20:42:41.193831+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1907,7 +1871,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T20:22:41.256541+00:00",
+    "sidst_hentet": "2026-11-13T20:42:40.687174+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2356,8 +2320,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.53,
-    "snitpris": 677.41,
+    "pris": 678.58,
+    "snitpris": 677.43,
     "svag": false
   },
   "marked_trend": -1
