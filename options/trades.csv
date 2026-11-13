@@ -6573,3 +6573,13 @@ tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal
 2026-11-13 17:43,GOOGL,295.155,ned,0.762,134405,bullish,VENT,,,,,98385.37,0.16,hint og trend peger ikke samme vej
 2026-11-13 17:43,AMD,524.22,op,0.512,223698,ingen,VENT,,,,,98385.37,0.16,intet klart hint
 2026-11-13 17:43,TSLA,389.955,op,0.66,353555,bullish,VENT,,,,,98385.37,0.16,"1 kontrakt koster 1348 USD, mere end 1% af kontoen"
+2026-11-13 17:48,SPY,752.0,ned,0.483,1843382,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,QQQ,677.39,ned,0.459,1052746,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,NVDA,160.935,ned,0.518,1207538,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,AAPL,358.02,op,0.462,245842,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,MSFT,524.5,ned,0.549,132937,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,AMZN,265.63,op,0.632,124240,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,META,637.205,ned,0.697,104279,bullish,VENT,,,,,98385.37,0.16,hint og trend peger ikke samme vej
+2026-11-13 17:48,GOOGL,295.4,ned,0.761,135253,bullish,VENT,,,,,98385.37,0.16,hint og trend peger ikke samme vej
+2026-11-13 17:48,AMD,523.57,op,0.512,225905,ingen,VENT,,,,,98385.37,0.16,intet klart hint
+2026-11-13 17:48,TSLA,390.82,op,0.662,359530,bullish,VENT,,,,,98385.37,0.16,"1 kontrakt koster 1402 USD, mere end 1% af kontoen"
