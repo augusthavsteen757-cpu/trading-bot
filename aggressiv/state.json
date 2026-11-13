@@ -388,10 +388,10 @@
       "2026-11-13 20:00: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 38 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39": [
-      "2026-11-13 20:05: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars",
       "2026-11-13 20:10: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars",
       "2026-11-13 20:15: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars",
-      "2026-11-13 20:20: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars"
+      "2026-11-13 20:20: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars",
+      "2026-11-13 20:25: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 39 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -405,8 +405,28 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T20:05:18.971229+00:00",
+    "sidst_hentet": "2026-11-13T20:25:20.523534+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvies8",
+        "tid": "2026-11-13T20:13:55+00:00",
+        "titel": "NVIDIA Makes Me Hate Myself. Bought The Dip. Why Just Jensen?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
+      {
+        "id": "t3_1xvidoe",
+        "tid": "2026-11-13T20:12:39+00:00",
+        "titel": "Deal or no deal, is NVDA done? Will Jensen Huang be reinstalled as CEO of Nvidia?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xvg8h9",
         "tid": "2026-11-13T18:51:03+00:00",
@@ -646,26 +666,6 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xunge8",
-        "tid": "2026-11-12T20:16:13+00:00",
-        "titel": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
-        "symboler": [
-          "TSLA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xun6ue",
-        "tid": "2026-11-12T20:05:37+00:00",
-        "titel": "My theory: The AI bubble gets popped by Nvidia's own CFO",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
@@ -2271,8 +2271,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 679.14,
-    "snitpris": 677.34,
+    "pris": 679.44,
+    "snitpris": 677.35,
     "svag": false
   },
   "marked_trend": null
