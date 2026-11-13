@@ -123,20 +123,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Kursmaalet s\u00e6nket fra $19 til $14 er negativt, men Buy-rating fastholdes, saa effekten er begraenset. Nyheden er offentlig kort tid foer, sa en del kan vaere priset ind.",
-        "tid": "2026-11-13T14:47:06.244835+00:00",
-        "pris_ved_nyhed": 5.115,
-        "udloeber": "2026-11-13T16:47:06.244835+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-13T15:27:05.081867+00:00",
@@ -238,7 +225,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 5.105,
+  "last_btc_price": 5.085,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1483,8 +1470,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 276.36,
-    "snitpris": 276.5,
+    "pris": 276.3,
+    "snitpris": 276.49,
     "svag": true
   },
   "marked_trend": -1
