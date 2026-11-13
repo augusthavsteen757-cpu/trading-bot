@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 69242.38,
+  "last_btc_price": 69285.51000000001,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1789,7 +1789,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T10:31:10.793449+00:00",
+    "sidst_hentet": "2026-11-13T10:46:49.571699+00:00",
     "opslag": [
       {
         "id": "t3_1xv3f21",
@@ -2281,19 +2281,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu9ka5",
-        "tid": "2026-11-12T10:40:21+00:00",
-        "titel": "Jensen Huang entering NVIDIA Office",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 50 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
