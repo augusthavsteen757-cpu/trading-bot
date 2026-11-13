@@ -369,56 +369,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "ETF-udstroemning rammer ETH sammen med BTC, og kursfaldet er nyt. Effekten er sandsynligvis delvist indregnet allerede.",
-        "tid": "2026-11-13T12:42:21.599891+00:00",
-        "pris_ved_nyhed": 1958.0500000000002,
-        "udloeber": "2026-11-13T14:42:21.599891+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder typisk med BTC ved risk-off og ETF-udstroemning. N\u00e6vnes ikke direkte, men sammenh\u00e6ngen er rimelig.",
-        "tid": "2026-11-13T12:42:21.599891+00:00",
-        "pris_ved_nyhed": 80.7055,
-        "udloeber": "2026-11-13T14:42:21.599891+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt krypto-salg ved ETF-udstroemning ventes at ramme AVAX som andre altcoins. Ikke n\u00e6vnt direkte i overskriften.",
-        "tid": "2026-11-13T12:42:21.599891+00:00",
-        "pris_ved_nyhed": 8.42624,
-        "udloeber": "2026-11-13T14:42:21.599891+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Risk-off i krypto ventes at trykke LINK ned sammen med det bredere marked. Sammenh\u00e6ngen er indirekte.",
-        "tid": "2026-11-13T12:42:21.599891+00:00",
-        "pris_ved_nyhed": 9.99495,
-        "udloeber": "2026-11-13T14:42:21.599891+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-13",
     "kald_i_dag": 9,
     "sidste_kald": "2026-11-13T12:42:21.599891+00:00",
@@ -566,7 +517,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68893.45,
+  "last_btc_price": 69283.812,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
