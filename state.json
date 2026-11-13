@@ -144,7 +144,7 @@
         "entry": 265.23,
         "stop": 260.21000000000004,
         "stop_initial": 260.21000000000004,
-        "high": 265.94,
+        "high": 265.97,
         "qty": 19.0,
         "entry_tid": "2026-11-13 17:13",
         "setup": "range_bund",
@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68731.51250000001,
+  "last_btc_price": 68798.01000000001,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1610,18 +1610,6 @@
         "pris_ved_nyhed": 80.305,
         "udloeber": "2026-11-13T20:47:40.455913+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Whale-aktivitet er kun en generel markedsnotits uden konkret katalysator.",
-        "tid": "2026-11-13T17:47:40.455913+00:00",
-        "pris_ved_nyhed": 357.95500000000004,
-        "udloeber": "2026-11-13T18:47:40.455913+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1943,7 +1931,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T18:27:41.338414+00:00",
+    "sidst_hentet": "2026-11-13T18:47:41.750608+00:00",
     "opslag": [
       {
         "id": "t3_1xv7h1j",
@@ -2392,8 +2380,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.0,
-    "snitpris": 676.9,
+    "pris": 678.63,
+    "snitpris": 676.91,
     "svag": false
   },
   "marked_trend": -1
