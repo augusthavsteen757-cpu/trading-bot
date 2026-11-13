@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68943.54999999999,
+  "last_btc_price": 68974.95499999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1598,18 +1598,6 @@
         "pris_ved_nyhed": 80.305,
         "udloeber": "2026-11-13T20:47:40.455913+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "TikTok-konkurrence og ByteDance-vurdering er langsigtet og sandsynligvis allerede kendt af markedet.",
-        "tid": "2026-11-13T18:02:40.989596+00:00",
-        "pris_ved_nyhed": 635.795,
-        "udloeber": "2026-11-13T20:02:40.989596+00:00"
-      },
       "AAPL": {
         "kilde": "nyhed",
         "symbol": "AAPL",
@@ -2392,8 +2380,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 678.23,
-    "snitpris": 677.25,
+    "pris": 679.75,
+    "snitpris": 677.27,
     "svag": false
   },
   "marked_trend": -1
