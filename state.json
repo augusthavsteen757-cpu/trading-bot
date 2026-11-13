@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 70262.85500000001,
+  "last_btc_price": 70223.595,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1813,7 +1813,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T02:45:33.021079+00:00",
+    "sidst_hentet": "2026-11-13T03:00:33.146231+00:00",
     "opslag": [
       {
         "id": "t3_1xuwcg9",
@@ -2215,19 +2215,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xu1hjy",
-        "tid": "2026-11-12T02:53:11+00:00",
-        "titel": "Nvidia CFO Favored to Replace Jensen Huang as Board Meets",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
