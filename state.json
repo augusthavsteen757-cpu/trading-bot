@@ -221,7 +221,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 70265.69,
+  "last_btc_price": 70159.9795,
   "earnings_cache": {
     "2026-11-07": [
       "BRK.A",
@@ -1813,8 +1813,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T02:25:34.087653+00:00",
+    "sidst_hentet": "2026-11-13T02:45:33.021079+00:00",
     "opslag": [
+      {
+        "id": "t3_1xuwcg9",
+        "tid": "2026-11-13T02:43:43+00:00",
+        "titel": "Why is Bitcoin going below 70K again?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xuw515",
+        "tid": "2026-11-13T02:33:49+00:00",
+        "titel": "Right Now BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xuo594",
         "tid": "2026-11-12T20:43:27+00:00",
@@ -2207,7 +2227,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
