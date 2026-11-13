@@ -367,10 +367,10 @@
       "2026-11-13 16:59: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 35 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36": [
-      "2026-11-13 17:09: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars",
       "2026-11-13 17:14: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars",
       "2026-11-13 17:19: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars",
-      "2026-11-13 17:24: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars"
+      "2026-11-13 17:24: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars",
+      "2026-11-13 17:29: FCUV: RuntimeError: For lidt data for FCUV: 208 dag-bars, 36 time-bars"
     ],
     "tab: raket i high_vol": [
       "2026-11-13 17:14: SOXS: tidsstop (90 min uden gevinst). R=-0.51. Entry 54, exit 52. Grund til koeb: Raket ny dagstop {'dagstop': 54.06, 'vwap': 51.22, 'risiko_pct': 4.8}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 59.5, 'adx_1h': 23.9, 'rel_volumen_1h': 3.56, 'afstand_modstand_atr': 0.4, 'atr_percentil_30d': 87.2}"
@@ -387,8 +387,18 @@
   "day_start_equity": 101509.62,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-13T17:14:32.872554+00:00",
+    "sidst_hentet": "2026-11-13T17:29:36.602337+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvdu9a",
+        "tid": "2026-11-13T17:21:58+00:00",
+        "titel": "Anthropic says its chatbot now beats most AI built for robots. Does that hurt the NVDA robotics story?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xvdavs",
         "tid": "2026-11-13T17:02:28+00:00",
@@ -678,16 +688,6 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xuijwp",
-        "tid": "2026-11-12T17:15:06+00:00",
-        "titel": "Super Micro shares tumble as DOJ probes widen to Nvidia, Semafor reports",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
@@ -2378,7 +2378,7 @@
       "CBRS",
       "SOXS"
     ],
-    "sidst": "2026-11-13T17:19:34.169328+00:00",
+    "sidst": "2026-11-13T17:29:36.041945+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2426,7 +2426,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 676.38,
+    "pris": 676.13,
     "snitpris": 676.86,
     "svag": true
   },
