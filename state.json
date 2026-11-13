@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68104.9985,
+  "last_btc_price": 68195.7295,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,18 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Fed-talsmand signalerer behov for renteforhoejelser, hvilket presser aktier generelt ned.",
-        "tid": "2026-11-13T18:42:41.193831+00:00",
-        "pris_ved_nyhed": 752.78,
-        "udloeber": "2026-11-13T21:42:41.193831+00:00"
-      },
       "MSFT": {
         "kilde": "nyhed",
         "symbol": "MSFT",
@@ -1847,7 +1835,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-13T21:32:40.331060+00:00",
+    "sidst_hentet": "2026-11-13T21:48:17.092118+00:00",
     "opslag": [
       {
         "id": "t3_1xvj969",
