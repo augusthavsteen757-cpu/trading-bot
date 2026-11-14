@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67210.009,
+  "last_btc_price": 67230.59,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T11:29:22.283449+00:00",
+    "sidst_hentet": "2026-11-14T11:49:22.387427+00:00",
     "opslag": [
       {
         "id": "t3_1xvypk6",
@@ -2069,29 +2069,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv5noq",
-        "tid": "2026-11-13T11:40:44+00:00",
-        "titel": "Why you shouldn\u2019t buy a house when you can buy Bitcoin \ud83d\udc47\ud83c\udffc",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv5jnf",
-        "tid": "2026-11-13T11:34:19+00:00",
-        "titel": "Everytime i opened bitcoin on internet",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
