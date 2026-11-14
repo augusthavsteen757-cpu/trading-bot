@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64296.345,
+  "last_btc_price": 64418.41,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1811,8 +1811,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T21:36:25.323856+00:00",
+    "sidst_hentet": "2026-11-14T21:56:25.104525+00:00",
     "opslag": [
+      {
+        "id": "t3_1xweevl",
+        "tid": "2026-11-14T21:55:31+00:00",
+        "titel": "Is bitcoin your only investment?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwb8vo",
         "tid": "2026-11-14T19:37:52+00:00",
@@ -2094,7 +2104,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
