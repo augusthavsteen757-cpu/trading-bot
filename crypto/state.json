@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T21:17:45.338059+00:00",
+    "sidst_hentet": "2026-11-14T21:32:46.033180+00:00",
     "opslag": [
       {
         "id": "t3_1xwb8vo",
@@ -279,20 +279,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Death cross og ETF-udstroemning peger paa yderligere nedgang, men faldet kan allerede vaere i prisen. Faldende open interest taler for svagere momentum.",
-        "tid": "2026-11-14T19:32:14.959557+00:00",
-        "pris_ved_nyhed": 1830.865,
-        "udloeber": "2026-11-14T21:32:14.959557+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 8,
     "sidste_kald": "2026-11-14T20:27:45.192097+00:00",
@@ -455,7 +442,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64616.0,
+  "last_btc_price": 64426.730500000005,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
