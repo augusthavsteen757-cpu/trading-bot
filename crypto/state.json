@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T20:22:46.554175+00:00",
+    "sidst_hentet": "2026-11-14T20:42:45.770507+00:00",
     "opslag": [
       {
         "id": "t3_1xwb8vo",
@@ -294,39 +294,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xvix35",
-        "tid": "2026-11-13T20:34:19+00:00",
-        "titel": "Are Solana payments putting off potential customers?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xviu9x",
-        "tid": "2026-11-13T20:31:10+00:00",
-        "titel": "Is 1 BTC enough?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvippk",
-        "tid": "2026-11-13T20:26:02+00:00",
-        "titel": "Can You Still Make Money Mining Bitcoin at Home?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -517,7 +487,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65437.645000000004,
+  "last_btc_price": 65456.270000000004,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
