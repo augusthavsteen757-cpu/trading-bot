@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65585.3915,
+  "last_btc_price": 65689.7215,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,18 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-snak om likvidationer af BTC-longs og et kursniveau omkring 57.700 er rygter; kun svag kontekst, ingen bekraeftet nyhed.",
-        "tid": "2026-11-14T16:35:48.029067+00:00",
-        "pris_ved_nyhed": 65294.926999999996,
-        "udloeber": "2026-11-14T17:35:48.029067+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -1513,18 +1501,6 @@
         "tid": "2026-11-14T16:35:48.029067+00:00",
         "pris_ved_nyhed": 1822.3,
         "udloeber": "2026-11-14T18:35:48.029067+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen Reddit-opslag om SOL i dette s\u00e6t; ingen vurdering ud over generel krypto-volatilitet.",
-        "tid": "2026-11-14T16:35:48.029067+00:00",
-        "pris_ved_nyhed": 72.5388,
-        "udloeber": "2026-11-14T17:35:48.029067+00:00"
       }
     },
     "dag": "2026-11-14",
@@ -1835,7 +1811,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T17:15:47.791614+00:00",
+    "sidst_hentet": "2026-11-14T17:35:47.886946+00:00",
     "opslag": [
       {
         "id": "t3_1xw7b6c",
