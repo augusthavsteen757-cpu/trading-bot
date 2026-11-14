@@ -33,8 +33,38 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T05:45:14.190355+00:00",
+    "sidst_hentet": "2026-11-14T06:05:13.478002+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvuofc",
+        "tid": "2026-11-14T05:50:15+00:00",
+        "titel": "Solandy - Badge to Badge Communication [Solana Badge Tutorial] - Nov 9th '26",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvuo8d",
+        "tid": "2026-11-14T05:49:57+00:00",
+        "titel": "Solandy - God mode for the Solana Badge [Solana Tutorial] - Nov 3rd '26",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvumvv",
+        "tid": "2026-11-14T05:47:45+00:00",
+        "titel": "SolanaFloor Podcast - Why This Solana Treasury Can\u2019t Get Liquidated",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xvukha",
         "tid": "2026-11-14T05:43:56+00:00",
@@ -374,19 +404,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuzzhz",
-        "tid": "2026-11-13T05:55:10+00:00",
-        "titel": "What is happening with btc?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -545,7 +565,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67217.0115,
+  "last_btc_price": 67153.735,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
