@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T15:17:14.120984+00:00",
+    "sidst_hentet": "2026-11-14T15:32:14.946838+00:00",
     "opslag": [
       {
         "id": "t3_1xw38us",
@@ -324,18 +324,6 @@
         "pris_ved_nyhed": 1857.935,
         "udloeber": "2026-11-14T16:32:14.567502+00:00"
       },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Helius Historical Accounts API beta er en reel udvikleropdatering, men lille og uden markedspaavirkning i dag. Svag positiv kontekst.",
-        "tid": "2026-11-14T14:32:14.567502+00:00",
-        "pris_ved_nyhed": 74.1665,
-        "udloeber": "2026-11-14T15:32:14.567502+00:00"
-      },
       "DOGE/USD": {
         "kilde": "nyhed",
         "symbol": "DOGE/USD",
@@ -543,7 +531,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65222.365000000005,
+  "last_btc_price": 65093.245,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
