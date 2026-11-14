@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67149.5875,
+  "last_btc_price": 67104.775,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,7 +1823,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T09:24:23.038136+00:00",
+    "sidst_hentet": "2026-11-14T09:44:22.066655+00:00",
     "opslag": [
       {
         "id": "t3_1xvwt4h",
@@ -2104,29 +2104,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv3f21",
-        "tid": "2026-11-13T09:26:01+00:00",
-        "titel": "The State Wants an AI King. Bitcoin Needs No Ruler.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv3emf",
-        "tid": "2026-11-13T09:25:12+00:00",
-        "titel": "The Emperor Has No Successor: Why Nvidia\u2019s $500 Billion Meltdown and Trump\u2019s Meddling Prove Bitcoin\u2019s Leaderless Design ",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
