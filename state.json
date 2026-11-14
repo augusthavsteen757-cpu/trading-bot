@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66665.52,
+  "last_btc_price": 66713.47099999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T03:43:47.136997+00:00",
+    "sidst_hentet": "2026-11-14T04:03:47.091323+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
@@ -2139,29 +2139,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuxr7y",
-        "tid": "2026-11-13T03:54:26+00:00",
-        "titel": "Is bitcoin headed for capitulation before next leg up?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuxn9i",
-        "tid": "2026-11-13T03:48:33+00:00",
-        "titel": "Why nvidea sank bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
