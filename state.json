@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67105.48999999999,
+  "last_btc_price": 67045.1,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,7 +1823,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T09:09:22.553058+00:00",
+    "sidst_hentet": "2026-11-14T09:24:23.038136+00:00",
     "opslag": [
       {
         "id": "t3_1xvwt4h",
@@ -2124,19 +2124,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xv391s",
-        "tid": "2026-11-13T09:15:32+00:00",
-        "titel": "Bitcoin self-custody is great, but what about moving BTC around?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
