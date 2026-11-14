@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T01:44:02.987968+00:00",
+    "sidst_hentet": "2026-11-14T02:04:02.579380+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvq5qu",
+        "tid": "2026-11-14T01:50:20+00:00",
+        "titel": "Doubting Bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvq4gl",
+        "tid": "2026-11-14T01:48:24+00:00",
+        "titel": "bITCOIN SHORT",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvp94v",
         "tid": "2026-11-14T01:04:56+00:00",
@@ -406,7 +426,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -433,42 +453,6 @@
         "tid": "2026-11-14T00:04:02.494161+00:00",
         "pris_ved_nyhed": 1931.5785,
         "udloeber": "2026-11-14T03:04:02.494161+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder typisk mere end BTC i risk-off-perioder; AVAX kan folge med ned, hvis markedet fortsaetter svagt.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 8.24869,
-        "udloeber": "2026-11-14T02:04:02.494161+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Memecoins som DOGE reagerer staerkt paa risk-off; svag spot-efterspoergsel i SHIB-nyheden peger samme vej.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 0.06462055,
-        "udloeber": "2026-11-14T02:04:02.494161+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Litecoin folger generelt bredt krypto-salg; ingen egen katalysator, men kurven folger BTC ned.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 49.49105,
-        "udloeber": "2026-11-14T02:04:02.494161+00:00"
       }
     },
     "dag": "2026-11-14",
@@ -626,7 +610,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68207.78,
+  "last_btc_price": 68225.70000000001,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
