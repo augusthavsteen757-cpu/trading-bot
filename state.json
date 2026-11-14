@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67326.2625,
+  "last_btc_price": 67325.08549999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T03:13:17.025039+00:00",
+    "sidst_hentet": "2026-11-14T03:28:47.039830+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvs2cw",
+        "tid": "2026-11-14T03:27:07+00:00",
+        "titel": "Apparently All the BTC Was On a Grounded plane today \ud83d\ude02",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvq5qu",
         "tid": "2026-11-14T01:50:20+00:00",
@@ -2149,29 +2159,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xux96z",
-        "tid": "2026-11-13T03:28:33+00:00",
-        "titel": "Bitcoin is on sale!!!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xux7oy",
-        "tid": "2026-11-13T03:26:25+00:00",
-        "titel": "First timers and lurkers, this is your chance to buy BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
