@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64001.17,
+  "last_btc_price": 63995.32,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "DJT-aktien falder pga. Trump Media-frist; svag og indirekte kobling til BTC, ingen klar retning for kurs.",
-        "tid": "2026-11-14T20:26:26.472834+00:00",
-        "pris_ved_nyhed": 65533.169,
-        "udloeber": "2026-11-14T22:26:26.472834+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 7,
     "sidste_kald": "2026-11-14T20:26:26.472834+00:00",
@@ -1811,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T22:11:25.999007+00:00",
+    "sidst_hentet": "2026-11-14T22:31:26.006380+00:00",
     "opslag": [
       {
         "id": "t3_1xweevl",
