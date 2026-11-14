@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T07:55:13.173154+00:00",
+    "sidst_hentet": "2026-11-14T08:10:18.532146+00:00",
     "opslag": [
       {
         "id": "t3_1xvuofc",
@@ -374,47 +374,12 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv1zw4",
-        "tid": "2026-11-13T07:56:42+00:00",
-        "titel": "Is BTC on sleeping mode?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Robinhood-sagen om IPO-oplysninger har ingen direkte link til DOGE; svag og indirekte sammenh\u00e6ng, n\u00e6ppe prisp\u00e5virkende.",
-        "tid": "2026-11-14T06:10:13.274836+00:00",
-        "pris_ved_nyhed": 0.0630935,
-        "udloeber": "2026-11-14T08:10:13.274836+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Mange Solana-podcasts og tutorials, men ingen konkret nyhed; rygter og hype, ikke handelsrelevant.",
-        "tid": "2026-11-14T06:10:13.274836+00:00",
-        "pris_ved_nyhed": 75.801,
-        "udloeber": "2026-11-14T08:10:13.274836+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-14T06:10:13.274836+00:00",
@@ -571,7 +536,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67187.775,
+  "last_btc_price": 67234.109,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
