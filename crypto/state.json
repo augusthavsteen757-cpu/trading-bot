@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T12:31:48.237065+00:00",
+    "sidst_hentet": "2026-11-14T12:51:47.499139+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw1liu",
+        "tid": "2026-11-14T12:47:38+00:00",
+        "titel": "Are Solana mobile wallets overhyped?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xw1hxn",
+        "tid": "2026-11-14T12:42:16+00:00",
+        "titel": "Helius launches Historical Accounts API beta for Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xvuofc",
         "tid": "2026-11-14T05:50:15+00:00",
@@ -274,19 +294,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv6nyy",
-        "tid": "2026-11-13T12:32:14+00:00",
-        "titel": "What if BTC 4y cycle is not over yet?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -447,7 +457,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67099.85,
+  "last_btc_price": 67074.645,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
