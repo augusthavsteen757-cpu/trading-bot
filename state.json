@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65594.48999999999,
+  "last_btc_price": 65571.6,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-opslag om 5-aars CAGR og laaning mod BTC er rygter uden nyhedsbaggrund; ingen handelssignal.",
-        "tid": "2026-11-14T18:05:47.230240+00:00",
-        "pris_ved_nyhed": 65781.222,
-        "udloeber": "2026-11-14T19:05:47.230240+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-14T18:05:47.230240+00:00",
