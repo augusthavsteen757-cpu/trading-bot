@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67594.78649999999,
+  "last_btc_price": 67596.337,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Strive-CEO's udsagn om stabilitet kan d\u00e6mpe frygt for tvungne salg, men er en svag og usikker positiv impuls.",
-        "tid": "2026-11-14T00:03:16.354008+00:00",
-        "pris_ved_nyhed": 68321.4915,
-        "udloeber": "2026-11-14T03:03:16.354008+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-14T00:03:16.354008+00:00",
