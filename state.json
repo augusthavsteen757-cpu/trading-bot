@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66659.26699999999,
+  "last_btc_price": 66994.305,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T04:18:47.189862+00:00",
+    "sidst_hentet": "2026-11-14T04:38:46.945462+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
@@ -2109,19 +2109,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuyiuv",
-        "tid": "2026-11-13T04:35:02+00:00",
-        "titel": "Crypto is so dead that the price is crashing without anybody making posts about it here. Btc at 66k and dropping.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
