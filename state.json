@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68291.45000000001,
+  "last_btc_price": 68226.4,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T01:33:17.035073+00:00",
+    "sidst_hentet": "2026-11-14T01:53:16.136495+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvq5qu",
+        "tid": "2026-11-14T01:50:20+00:00",
+        "titel": "Doubting Bitcoin?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xvq4gl",
+        "tid": "2026-11-14T01:48:24+00:00",
+        "titel": "bITCOIN SHORT",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvp94v",
         "tid": "2026-11-14T01:04:56+00:00",
@@ -2208,7 +2228,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
