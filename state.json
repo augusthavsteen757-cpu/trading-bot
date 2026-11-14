@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65119.055,
+  "last_btc_price": 65287.89,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T15:15:47.561313+00:00",
+    "sidst_hentet": "2026-11-14T15:35:47.643268+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw58y1",
+        "tid": "2026-11-14T15:34:14+00:00",
+        "titel": "With how easy btc can go up and down and mainly doing thing surprise people , = will be at all time high before you know",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xw4dnv",
         "tid": "2026-11-14T14:57:28+00:00",
@@ -2108,7 +2118,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
