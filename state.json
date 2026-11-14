@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 68207.16,
+  "last_btc_price": 68158.659,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T00:53:16.548898+00:00",
+    "sidst_hentet": "2026-11-14T01:13:16.126503+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvp94v",
+        "tid": "2026-11-14T01:04:56+00:00",
+        "titel": "Bitcoin taxes write off",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvn7oo",
         "tid": "2026-11-13T23:31:14+00:00",
@@ -2198,7 +2208,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
