@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65140.9535,
+  "last_btc_price": 65191.008,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T16:55:47.654575+00:00",
+    "sidst_hentet": "2026-11-14T17:15:47.791614+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw7b6c",
+        "tid": "2026-11-14T16:59:27+00:00",
+        "titel": "5 year CAGR of BTC is now 1.83%",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xw70jc",
         "tid": "2026-11-14T16:47:09+00:00",
@@ -2148,7 +2158,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
