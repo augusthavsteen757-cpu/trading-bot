@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T04:15:13.937020+00:00",
+    "sidst_hentet": "2026-11-14T04:35:14.223611+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
@@ -364,19 +364,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuyiuv",
-        "tid": "2026-11-13T04:35:02+00:00",
-        "titel": "Crypto is so dead that the price is crashing without anybody making posts about it here. Btc at 66k and dropping.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -535,7 +525,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 66792.24799999999,
+  "last_btc_price": 66694.699,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
