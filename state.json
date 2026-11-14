@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64479.555,
+  "last_btc_price": 64518.829,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,18 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Death cross og ETF-udstroemning peger paa yderligere nedtur de naeste timer, men faldet kan allerede vaere delvist prisat ind efter kursfaldet.",
-        "tid": "2026-11-14T19:35:47.877452+00:00",
-        "pris_ved_nyhed": 1828.4625,
-        "udloeber": "2026-11-14T21:35:47.877452+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1823,7 +1811,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T21:16:25.276455+00:00",
+    "sidst_hentet": "2026-11-14T21:36:25.323856+00:00",
     "opslag": [
       {
         "id": "t3_1xwb8vo",
