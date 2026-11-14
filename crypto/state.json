@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T03:25:13.604383+00:00",
+    "sidst_hentet": "2026-11-14T03:45:13.552552+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvs2cw",
+        "tid": "2026-11-14T03:27:07+00:00",
+        "titel": "Apparently All the BTC Was On a Grounded plane today \ud83d\ude02",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvq5qu",
         "tid": "2026-11-14T01:50:20+00:00",
@@ -384,29 +394,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xux96z",
-        "tid": "2026-11-13T03:28:33+00:00",
-        "titel": "Bitcoin is on sale!!!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xux7oy",
-        "tid": "2026-11-13T03:26:25+00:00",
-        "titel": "First timers and lurkers, this is your chance to buy BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -565,7 +555,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 66851.51999999999,
+  "last_btc_price": 66734.1465,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
