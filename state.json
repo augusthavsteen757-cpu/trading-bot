@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67206.74799999999,
+  "last_btc_price": 67172.39850000001,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T11:49:22.387427+00:00",
+    "sidst_hentet": "2026-11-14T12:09:22.347580+00:00",
     "opslag": [
       {
         "id": "t3_1xvypk6",
@@ -2059,19 +2059,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv5vm3",
-        "tid": "2026-11-13T11:52:41+00:00",
-        "titel": "Happy Friday the 13th. Spirits are playing nice by assaulting bitcoin.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
