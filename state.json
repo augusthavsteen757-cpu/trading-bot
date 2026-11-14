@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63433.1715,
+  "last_btc_price": 63918.092000000004,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T23:31:25.080626+00:00",
+    "sidst_hentet": "2026-11-14T23:46:25.142938+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwgn1g",
+        "tid": "2026-11-14T23:37:08+00:00",
+        "titel": "Why 0x01 validator withdrawal credentials and immutable vesting contracts are the hardest bottlenecks for Ethereum's 202",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
       {
         "id": "t3_1xwftpj",
         "tid": "2026-11-14T22:59:58+00:00",
@@ -2121,7 +2131,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
