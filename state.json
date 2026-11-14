@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67188.1,
+  "last_btc_price": 67213.601,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T08:08:48.337574+00:00",
+    "sidst_hentet": "2026-11-14T08:28:48.334575+00:00",
     "opslag": [
       {
         "id": "t3_1xvwt4h",
@@ -2119,19 +2119,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv2ald",
-        "tid": "2026-11-13T08:14:24+00:00",
-        "titel": "Bitcoin broke 50% today. This 30-40k is looking realistic day by day. I hope you are in short.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
