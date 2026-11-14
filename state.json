@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65859.565,
+  "last_btc_price": 65915.15,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T14:40:47.856649+00:00",
+    "sidst_hentet": "2026-11-14T15:00:47.249650+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw4dnv",
+        "tid": "2026-11-14T14:57:28+00:00",
+        "titel": "Are leveraged BTC longs getting liquidated like dominoes right now?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xw38us",
         "tid": "2026-11-14T14:07:22+00:00",
@@ -2096,16 +2106,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv9wbu",
-        "tid": "2026-11-13T14:52:14+00:00",
-        "titel": "What is the Best Wallet for Solana?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
