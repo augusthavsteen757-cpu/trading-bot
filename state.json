@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67038.5075,
+  "last_btc_price": 66923.165,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T12:39:22.667317+00:00",
+    "sidst_hentet": "2026-11-14T12:59:22.219335+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw1liu",
+        "tid": "2026-11-14T12:47:38+00:00",
+        "titel": "Are Solana mobile wallets overhyped?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xw1hxn",
+        "tid": "2026-11-14T12:42:16+00:00",
+        "titel": "Helius launches Historical Accounts API beta for Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xvypk6",
         "tid": "2026-11-14T09:57:06+00:00",
@@ -2041,7 +2061,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
