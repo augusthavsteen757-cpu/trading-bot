@@ -436,18 +436,6 @@
         "pris_ved_nyhed": 8.24869,
         "udloeber": "2026-11-14T02:04:02.494161+00:00"
       },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Solana Confidential Compute-annonce og community-events er kun Reddit-hype uden bekraeftet markedseffekt; kun svag kontekst.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 78.22319999999999,
-        "udloeber": "2026-11-14T01:04:02.494161+00:00"
-      },
       "DOGE/USD": {
         "kilde": "nyhed",
         "symbol": "DOGE/USD",
@@ -471,18 +459,6 @@
         "tid": "2026-11-14T00:04:02.494161+00:00",
         "pris_ved_nyhed": 49.49105,
         "udloeber": "2026-11-14T02:04:02.494161+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Ingen direkte nyhed; svag korrelation med BTC gor retningen usikker.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 9.875305,
-        "udloeber": "2026-11-14T01:04:02.494161+00:00"
       }
     },
     "dag": "2026-11-14",
@@ -640,7 +616,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68291.46100000001,
+  "last_btc_price": 68189.695,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
