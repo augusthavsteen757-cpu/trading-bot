@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67096.43299999999,
+  "last_btc_price": 67025.925,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T05:08:47.233331+00:00",
+    "sidst_hentet": "2026-11-14T05:28:47.408587+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
