@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65823.9,
+  "last_btc_price": 65829.5,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,18 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme XRP-overskrift n\u00e6vner ETF- og futurespres; ETH kan paavirkes af bredere altcoin-svaghed, men signalet er svagt og prisat.",
-        "tid": "2026-11-14T16:35:48.029067+00:00",
-        "pris_ved_nyhed": 1822.3,
-        "udloeber": "2026-11-14T18:35:48.029067+00:00"
-      },
       "BTC/USD": {
         "kilde": "kun_reddit",
         "symbol": "BTC/USD",
