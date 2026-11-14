@@ -291,18 +291,6 @@
         "tid": "2026-11-14T19:32:14.959557+00:00",
         "pris_ved_nyhed": 1830.865,
         "udloeber": "2026-11-14T21:32:14.959557+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "DJT-aktiefald er et selskabsspecifikt forhold uden klar direkte effekt paa BTC; kun svag sentiment-sammenhaeng via Trump-mediehype.",
-        "tid": "2026-11-14T20:27:45.192097+00:00",
-        "pris_ved_nyhed": 65510.990000000005,
-        "udloeber": "2026-11-14T21:27:45.192097+00:00"
       }
     },
     "dag": "2026-11-14",
@@ -467,7 +455,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64485.485499999995,
+  "last_btc_price": 64616.0,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
