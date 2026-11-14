@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66762.29999999999,
+  "last_btc_price": 66705.3005,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T12:59:22.219335+00:00",
+    "sidst_hentet": "2026-11-14T13:14:22.593755+00:00",
     "opslag": [
       {
         "id": "t3_1xw1liu",
@@ -2049,19 +2049,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xv7h1j",
-        "tid": "2026-11-13T13:10:06+00:00",
-        "titel": "BTC Hodlers: Buckle Up",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 26 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 25 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
