@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66481.10500000001,
+  "last_btc_price": 66718.8,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T04:03:47.091323+00:00",
+    "sidst_hentet": "2026-11-14T04:18:47.189862+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
@@ -2119,29 +2119,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xuxz0r",
-        "tid": "2026-11-13T04:05:32+00:00",
-        "titel": "What\u2019s going on with Bitcoin right now????",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuxy1c",
-        "tid": "2026-11-13T04:04:05+00:00",
-        "titel": "Bitcoin is over",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
