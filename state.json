@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64795.03,
+  "last_btc_price": 64806.065,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,7 +1823,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T20:41:26.010374+00:00",
+    "sidst_hentet": "2026-11-14T21:01:25.227951+00:00",
     "opslag": [
       {
         "id": "t3_1xwb8vo",
@@ -2104,29 +2104,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvj969",
-        "tid": "2026-11-13T20:47:24+00:00",
-        "titel": "Solana Ecosystem Call & Community Awards",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvj8c3",
-        "tid": "2026-11-13T20:46:27+00:00",
-        "titel": "Solana Foundation Introduces Solana Confidential Compute, Open-source Tools For Building Private AI, With Hardware Attes",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
