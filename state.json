@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67222.005,
+  "last_btc_price": 67242.77549999999,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Peter Schiffs advarsel om fald under 16.500 USD kan skabe frygtsalg, is\u00e6r hvis den rammer Strategy-holdingen. Kilden er dog en kendt bitcoin-skeptiker, s\u00e5 paavirkningen er usikker.",
-        "tid": "2026-11-14T08:59:22.259513+00:00",
-        "pris_ved_nyhed": 66918.095,
-        "udloeber": "2026-11-14T10:59:22.259513+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-14T08:59:22.259513+00:00",
@@ -1811,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T10:39:23.049639+00:00",
+    "sidst_hentet": "2026-11-14T10:59:22.118313+00:00",
     "opslag": [
       {
         "id": "t3_1xvypk6",
