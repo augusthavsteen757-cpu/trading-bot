@@ -343,54 +343,6 @@
         "tid": "2026-11-14T16:32:14.260762+00:00",
         "pris_ved_nyhed": 1822.54,
         "udloeber": "2026-11-14T18:32:14.260762+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Memecoins falder ofte kraftigst i risk-off situationer med likvidationer. Lav likviditet kan forstaerke faldet.",
-        "tid": "2026-11-14T14:32:14.567502+00:00",
-        "pris_ved_nyhed": 0.061348,
-        "udloeber": "2026-11-14T16:32:14.567502+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoin med hoej beta; udsalg i altcoins forventes at ramme AVAX ogsaa, mens likvidationer fortsaetter.",
-        "tid": "2026-11-14T14:32:14.567502+00:00",
-        "pris_ved_nyhed": 7.7395,
-        "udloeber": "2026-11-14T16:32:14.567502+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredt altcoin-salg smitter ogsaa over paa LINK, men fundamentale forhold er uberoerte, saa effekten er moderat.",
-        "tid": "2026-11-14T14:32:14.567502+00:00",
-        "pris_ved_nyhed": 9.309635,
-        "udloeber": "2026-11-14T16:32:14.567502+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "LTC falder typisk sammen med BTC i bear-markeder. Moderat negativ paavirkning ventes.",
-        "tid": "2026-11-14T14:32:14.567502+00:00",
-        "pris_ved_nyhed": 46.47305,
-        "udloeber": "2026-11-14T16:32:14.567502+00:00"
       }
     },
     "dag": "2026-11-14",
@@ -552,7 +504,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65319.209,
+  "last_btc_price": 65392.774000000005,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
