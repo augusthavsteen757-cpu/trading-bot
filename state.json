@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67083.04999999999,
+  "last_btc_price": 67100.20000000001,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,7 +1823,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T08:49:22.688672+00:00",
+    "sidst_hentet": "2026-11-14T09:09:22.553058+00:00",
     "opslag": [
       {
         "id": "t3_1xvwt4h",
@@ -2134,19 +2134,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv2x61",
-        "tid": "2026-11-13T08:54:40+00:00",
-        "titel": "Bitcoin crashes below $70,000 for first time since August, hits $68,297 as inflation fears trigger sell off",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
