@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T02:19:02.777250+00:00",
+    "sidst_hentet": "2026-11-14T03:05:14.030028+00:00",
     "opslag": [
       {
         "id": "t3_1xvq5qu",
@@ -404,57 +404,12 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuwcg9",
-        "tid": "2026-11-13T02:43:43+00:00",
-        "titel": "Why is Bitcoin going below 70K again?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuw515",
-        "tid": "2026-11-13T02:33:49+00:00",
-        "titel": "Right Now BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Bitcoin er faldet under 70.000 USD, og Polymarket ser 65.000. Fald er allerede delvist priset ind, men fortsat pres fra stigende renter og Fed-hikerisiko kan give yderligere nedgang.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 68312.057,
-        "udloeber": "2026-11-14T03:04:02.494161+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Ethereum falder sammen med BTC efter nedgangen i krypto. Korrelationen gor ETH sarbar, og faldet er delvist allerede sket.",
-        "tid": "2026-11-14T00:04:02.494161+00:00",
-        "pris_ved_nyhed": 1931.5785,
-        "udloeber": "2026-11-14T03:04:02.494161+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-14T00:04:02.494161+00:00",
@@ -610,7 +565,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 68111.38949999999,
+  "last_btc_price": 67591.4405,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
