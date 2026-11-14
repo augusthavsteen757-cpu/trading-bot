@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67228.375,
+  "last_btc_price": 67265.4,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T06:03:47.488478+00:00",
+    "sidst_hentet": "2026-11-14T06:18:47.679239+00:00",
     "opslag": [
       {
         "id": "t3_1xvuofc",
@@ -2139,19 +2139,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv0aii",
-        "tid": "2026-11-13T06:12:18+00:00",
-        "titel": "BTC on a Inverse HnS",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
