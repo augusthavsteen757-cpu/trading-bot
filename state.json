@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 67168.58350000001,
+  "last_btc_price": 67220.169,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T07:48:47.803228+00:00",
+    "sidst_hentet": "2026-11-14T08:08:48.337574+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvwt4h",
+        "tid": "2026-11-14T07:56:31+00:00",
+        "titel": "Looks like BTC lost its breaks",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xvuofc",
         "tid": "2026-11-14T05:50:15+00:00",
@@ -2114,16 +2124,6 @@
         "id": "t3_1xv2ald",
         "tid": "2026-11-13T08:14:24+00:00",
         "titel": "Bitcoin broke 50% today. This 30-40k is looking realistic day by day. I hope you are in short.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv1zw4",
-        "tid": "2026-11-13T07:56:42+00:00",
-        "titel": "Is BTC on sleeping mode?",
         "symboler": [
           "BTC/USD"
         ],
