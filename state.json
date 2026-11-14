@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65464.827999999994,
+  "last_btc_price": 65442.65,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1513,18 +1513,6 @@
         "tid": "2026-11-14T20:26:26.472834+00:00",
         "pris_ved_nyhed": 65533.169,
         "udloeber": "2026-11-14T22:26:26.472834+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Altcoins falder typisk sammen med ETH i risk-off, men signalet er svagere og naevnes ikke direkte i overskriften.",
-        "tid": "2026-11-14T19:35:47.877452+00:00",
-        "pris_ved_nyhed": 72.02629999999999,
-        "udloeber": "2026-11-14T20:35:47.877452+00:00"
       }
     },
     "dag": "2026-11-14",
