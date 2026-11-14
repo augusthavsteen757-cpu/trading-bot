@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66874.79000000001,
+  "last_btc_price": 66834.66500000001,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,38 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T05:28:47.408587+00:00",
+    "sidst_hentet": "2026-11-14T05:43:47.957796+00:00",
     "opslag": [
+      {
+        "id": "t3_1xvujnk",
+        "tid": "2026-11-14T05:42:41+00:00",
+        "titel": "Paul Barron Network - Solana Launches Privacy! Anthropic IPO Incoming INTERVIEW",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvuimf",
+        "tid": "2026-11-14T05:41:03+00:00",
+        "titel": "The Starting Block Podcast - Exclusive: New tokenized stock venue eyes 2027 Solana launch",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xvuhoa",
+        "tid": "2026-11-14T05:39:39+00:00",
+        "titel": "SpendNode Podcast - Solana Plans to Retire Durable Nonces After Drift Hack",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xvs2cw",
         "tid": "2026-11-14T03:27:07+00:00",
@@ -2089,19 +2119,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuznj7",
-        "tid": "2026-11-13T05:36:21+00:00",
-        "titel": "POV: My BTC portfolio finally let me buy a Lambo in 2026",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
