@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T11:21:48.325323+00:00",
+    "sidst_hentet": "2026-11-14T11:41:47.422194+00:00",
     "opslag": [
       {
         "id": "t3_1xvuofc",
@@ -304,29 +304,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv5noq",
-        "tid": "2026-11-13T11:40:44+00:00",
-        "titel": "Why you shouldn\u2019t buy a house when you can buy Bitcoin \ud83d\udc47\ud83c\udffc",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv5jnf",
-        "tid": "2026-11-13T11:34:19+00:00",
-        "titel": "Everytime i opened bitcoin on internet",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -487,7 +467,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67136.2295,
+  "last_btc_price": 67191.282,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
