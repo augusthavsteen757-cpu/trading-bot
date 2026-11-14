@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65829.5,
+  "last_btc_price": 65746.786,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1811,7 +1811,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T18:30:46.773314+00:00",
+    "sidst_hentet": "2026-11-14T18:45:47.274485+00:00",
     "opslag": [
       {
         "id": "t3_1xw8uzl",
@@ -2132,19 +2132,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvft96",
-        "tid": "2026-11-13T18:34:54+00:00",
-        "titel": "I have been in bitcoin since 2013, and I just invested 100% of my savings in bitcoin. Hear me out",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
