@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 66966.442,
+  "last_btc_price": 66983.8935,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T04:53:47.210887+00:00",
+    "sidst_hentet": "2026-11-14T05:08:47.233331+00:00",
     "opslag": [
       {
         "id": "t3_1xvs2cw",
@@ -2099,19 +2099,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xuyz32",
-        "tid": "2026-11-13T04:59:50+00:00",
-        "titel": "Need advice: mental health client spent his money on bitcoin and has no idea what he\u2019s doing",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
