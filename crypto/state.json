@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T09:06:47.612874+00:00",
+    "sidst_hentet": "2026-11-14T09:26:48.035358+00:00",
     "opslag": [
       {
         "id": "t3_1xvuofc",
@@ -324,39 +324,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv3f21",
-        "tid": "2026-11-13T09:26:01+00:00",
-        "titel": "The State Wants an AI King. Bitcoin Needs No Ruler.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xv3emf",
-        "tid": "2026-11-13T09:25:12+00:00",
-        "titel": "The Emperor Has No Successor: Why Nvidia\u2019s $500 Billion Meltdown and Trump\u2019s Meddling Prove Bitcoin\u2019s Leaderless Design ",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xv391s",
-        "tid": "2026-11-13T09:15:32+00:00",
-        "titel": "Bitcoin self-custody is great, but what about moving BTC around?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -542,7 +512,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67009.871,
+  "last_btc_price": 67028.6,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
