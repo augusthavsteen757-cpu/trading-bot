@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65571.6,
+  "last_btc_price": 65527.441999999995,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-14T19:00:47.627345+00:00",
+    "sidst_hentet": "2026-11-14T19:15:47.796583+00:00",
     "opslag": [
       {
         "id": "t3_1xw8uzl",
@@ -2109,19 +2109,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvgswk",
-        "tid": "2026-11-13T19:12:09+00:00",
-        "titel": "If you died tomorrow, could your family actually access your Bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
