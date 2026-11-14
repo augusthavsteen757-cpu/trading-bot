@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T15:52:15.206381+00:00",
+    "sidst_hentet": "2026-11-14T16:12:14.722400+00:00",
     "opslag": [
+      {
+        "id": "t3_1xw5t9s",
+        "tid": "2026-11-14T15:58:05+00:00",
+        "titel": "Bitcoin 65K \ud83d\ude80",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xw5r0n",
+        "tid": "2026-11-14T15:55:22+00:00",
+        "titel": "Below 57700, Bitcoin will get murkier",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xw5mk0",
         "tid": "2026-11-14T15:50:08+00:00",
@@ -294,19 +314,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xvbjr4",
-        "tid": "2026-11-13T15:57:32+00:00",
-        "titel": "Ya\u2019ll know what\u2019s happening to bitcoin!?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -541,7 +551,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65402.128500000006,
+  "last_btc_price": 65125.57,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
