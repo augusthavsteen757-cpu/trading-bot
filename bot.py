@@ -69,6 +69,9 @@ SCAN_GAINERS = int(env_f("SCAN_GAINERS", 0))      # >0: find dagens stoerste sti
 SCAN_MIN_PRICE = env_f("SCAN_MIN_PRICE", 5.0)    # ingen penny-aktier (under 5 USD)
 SCAN_MIN_PCT = env_f("SCAN_MIN_PCT", 5.0)        # skal vaere steget mindst 5 % i dag
 SCAN_END = tuple(int(x) for x in (os.getenv("SCAN_END") or "11:00").split(":"))  # New York-tid: sidste scanning og sidste raket-koeb
+# 14. nov: omvendte fonde (fx SOXS) koebes kun via ORB tidligt i et fald (5. nov: +2.760 USD), ikke via det sene
+# raket-koeb "ny dagstop" (13. nov: SOXS koebt 10:44 New York, efter faldet, -984 USD). 1 = tillad igen.
+RAKET_INVERSE = (os.getenv("RAKET_INVERSE") or "0").strip() == "1"
 ORB_TREND_FILTER = (os.getenv("ORB_TREND_FILTER") or "SPY").strip().upper().replace("NONE", "")  # ingen ORB naar SPY's dagstrend er ned
 MARKET_FILTER = (os.getenv("MARKET_FILTER") or "").strip().upper().replace("NONE", "")  # fx QQQ: ingen nye aktiekoeb naar markedet er under dagens snitpris
 ORB_BREAKEVEN_R = env_f("ORB_BREAKEVEN_R", 0.5)  # ORB: stop flyttes til koebsprisen ved denne gevinst (i R)
@@ -1214,7 +1217,8 @@ def run_coin(state, brain, broker, coin, cs, equity, can_buy, block, row, rec):
                 rec["handling"] = "KOEB (ORB)"
                 return
     today_iso = ny_now().date().isoformat()
-    if raket and not holding and not closed and coin_can_buy and today_iso not in (cs.get("raket_day"), cs.get("orb_day")):
+    if raket and not holding and not closed and coin_can_buy and (RAKET_INVERSE or not omvendt) \
+            and today_iso not in (cs.get("raket_day"), cs.get("orb_day")):
         sig = raket_signal(m5, price, f.get("vwap"))
         if sig:
             stop, info = sig
