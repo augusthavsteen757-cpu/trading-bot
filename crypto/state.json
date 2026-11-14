@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-14T18:17:14.771139+00:00",
+    "sidst_hentet": "2026-11-14T18:32:14.778318+00:00",
     "opslag": [
       {
         "id": "t3_1xw8uzl",
@@ -339,32 +339,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "XRP-nyheden om ETF- og futures-pres kan smitte over paa krypto-sentimentet, men det er en anden coin og er sandsynligvis allerede prist ind.",
-        "tid": "2026-11-14T16:32:14.260762+00:00",
-        "pris_ved_nyhed": 65319.209,
-        "udloeber": "2026-11-14T18:32:14.260762+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Samme ETF- og futures-pres kan daempe altcoin-stemningen; svag sammenhaeng, og effekten er sandsynligvis allerede i kursen.",
-        "tid": "2026-11-14T16:32:14.260762+00:00",
-        "pris_ved_nyhed": 1822.54,
-        "udloeber": "2026-11-14T18:32:14.260762+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-14T18:02:15.232658+00:00",
@@ -525,7 +500,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65732.3415,
+  "last_btc_price": 65918.75,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
