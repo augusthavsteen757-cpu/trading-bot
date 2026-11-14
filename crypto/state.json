@@ -329,32 +329,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Schiff advarer om kursfald under 16.500 og risiko for Strategy. Advarslen er kendt fra kendt kritiker, sa markedet kan allerede have prisfastsat noget.",
-        "tid": "2026-11-14T08:56:48.357915+00:00",
-        "pris_ved_nyhed": 66944.58,
-        "udloeber": "2026-11-14T10:56:48.357915+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin-svaghed smitter typisk over paa ETH og andre altcoins, saa samme negative sentiment kan presse ETH ned kort sigt.",
-        "tid": "2026-11-14T08:56:48.357915+00:00",
-        "pris_ved_nyhed": 1894.6165,
-        "udloeber": "2026-11-14T10:56:48.357915+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-14",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-14T08:56:48.357915+00:00",
@@ -512,7 +487,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 67233.435,
+  "last_btc_price": 67242.474,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
