@@ -460,18 +460,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Reddit-stemningen er blandet med baade panik og haab; rygterne tilfoejer ingen ny information.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 65122.9,
-        "udloeber": "2026-11-15T22:47:18.665366+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -711,7 +699,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65134.240000000005,
+  "last_btc_price": 65149.375,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
