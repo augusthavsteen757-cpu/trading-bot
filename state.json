@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63924.566999999995,
+  "last_btc_price": 63844.2,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,8 +1823,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T07:28:03.941674+00:00",
+    "sidst_hentet": "2026-11-15T07:48:03.430430+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwpkrn",
+        "tid": "2026-11-15T07:38:35+00:00",
+        "titel": "I asked God to restore Bitcoin to $80k today.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwns18",
         "tid": "2026-11-15T05:51:02+00:00",
@@ -2126,7 +2136,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
