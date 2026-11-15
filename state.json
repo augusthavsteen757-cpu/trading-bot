@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64604.1,
+  "last_btc_price": 64603.359,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T14:48:40.249123+00:00",
+    "sidst_hentet": "2026-11-15T15:08:40.130471+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwxcb5",
+        "tid": "2026-11-15T14:49:47+00:00",
+        "titel": "Coinbase is where bitcoin is getting sold: market sells there have outrun market buys by $947M this month. On Binance, t",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwrxmj",
         "tid": "2026-11-15T10:08:24+00:00",
@@ -2111,16 +2121,6 @@
         "id": "t3_1xw58y1",
         "tid": "2026-11-14T15:34:14+00:00",
         "titel": "With how easy btc can go up and down and mainly doing thing surprise people , = will be at all time high before you know",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw4dnv",
-        "tid": "2026-11-14T14:57:28+00:00",
-        "titel": "Are leveraged BTC longs getting liquidated like dominoes right now?",
         "symboler": [
           "BTC/USD"
         ],
