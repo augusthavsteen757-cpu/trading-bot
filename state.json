@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64950.444,
+  "last_btc_price": 64921.431,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T19:44:44.738310+00:00",
+    "sidst_hentet": "2026-11-15T19:59:44.825436+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx52b3",
+        "tid": "2026-11-15T19:57:01+00:00",
+        "titel": "I bought 1BTC a year ago today, I bought shares a year ago today.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx4h6r",
         "tid": "2026-11-15T19:33:21+00:00",
@@ -2131,7 +2141,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
