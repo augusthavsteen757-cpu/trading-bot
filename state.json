@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65129.5045,
+  "last_btc_price": 65116.965,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,7 +1835,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T22:29:45.064516+00:00",
+    "sidst_hentet": "2026-11-15T22:49:45.206875+00:00",
     "opslag": [
       {
         "id": "t3_1xx8kqm",
@@ -2206,39 +2206,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwff1z",
-        "tid": "2026-11-14T22:41:03+00:00",
-        "titel": "When do you plan on buying more BTC?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwff0z",
-        "tid": "2026-11-14T22:41:01+00:00",
-        "titel": "BTC is back at the ATH of the previous cycle, and an important gist on my mind...",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwfax6",
-        "tid": "2026-11-14T22:35:51+00:00",
-        "titel": "Eric Trump loses $600M in risky Bitcoin bet as value of Trump-backed company plummets",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
