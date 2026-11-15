@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64512.209,
+  "last_btc_price": 64294.7385,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T05:47:03.055836+00:00",
+    "sidst_hentet": "2026-11-15T06:02:03.538949+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwns18",
+        "tid": "2026-11-15T05:51:02+00:00",
+        "titel": "The Only 4 Things That Can Actually Kill Bitcoin (And Why Everything Else Is Just Bear Market Amnesia).",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xwkvb3",
         "tid": "2026-11-15T03:09:40+00:00",
@@ -2126,39 +2136,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvuofc",
-        "tid": "2026-11-14T05:50:15+00:00",
-        "titel": "Solandy - Badge to Badge Communication [Solana Badge Tutorial] - Nov 9th '26",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvuo8d",
-        "tid": "2026-11-14T05:49:57+00:00",
-        "titel": "Solandy - God mode for the Solana Badge [Solana Tutorial] - Nov 3rd '26",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvumvv",
-        "tid": "2026-11-14T05:47:45+00:00",
-        "titel": "SolanaFloor Podcast - Why This Solana Treasury Can\u2019t Get Liquidated",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
