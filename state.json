@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64565.95,
+  "last_btc_price": 64528.7,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T17:59:44.950802+00:00",
+    "sidst_hentet": "2026-11-15T18:14:45.238924+00:00",
     "opslag": [
       {
         "id": "t3_1xx1zzg",
@@ -2079,19 +2079,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw8uzl",
-        "tid": "2026-11-14T18:01:15+00:00",
-        "titel": "BTC was meant to go down.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
