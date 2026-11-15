@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62216.405,
+  "last_btc_price": 62313.835,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T01:32:03.752850+00:00",
+    "sidst_hentet": "2026-11-15T01:52:03.907703+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwjath",
+        "tid": "2026-11-15T01:48:08+00:00",
+        "titel": "Bitcoin Usually Bottoms After Midterm Elections. What Happens if This Cycle Breaks the Pattern?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwhe6y",
         "tid": "2026-11-15T00:12:02+00:00",
@@ -2109,29 +2119,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvq5qu",
-        "tid": "2026-11-14T01:50:20+00:00",
-        "titel": "Doubting Bitcoin?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xvq4gl",
-        "tid": "2026-11-14T01:48:24+00:00",
-        "titel": "bITCOIN SHORT",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
