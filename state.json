@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65116.965,
+  "last_btc_price": 65114.305,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,18 +1490,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "McDonald Schweiz-rygte er ubekraeftet hype og har ringe effekt paa kursen.",
-        "tid": "2026-11-15T21:49:46.693133+00:00",
-        "pris_ved_nyhed": 65122.475,
-        "udloeber": "2026-11-15T22:49:46.693133+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
