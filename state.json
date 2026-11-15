@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64433.489499999996,
+  "last_btc_price": 64553.445,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T16:18:39.746794+00:00",
+    "sidst_hentet": "2026-11-15T16:33:39.932346+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwzv9c",
+        "tid": "2026-11-15T16:32:58+00:00",
+        "titel": "What happened? I don't get it why is solana going down so much?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xwytsb",
         "tid": "2026-11-15T15:51:31+00:00",
@@ -2069,16 +2079,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw6ij6",
-        "tid": "2026-11-14T16:27:04+00:00",
-        "titel": "Congratz, you guys are roughly halfway the lost decade with bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
