@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T19:32:18.655652+00:00",
+    "sidst_hentet": "2026-11-15T19:47:19.243434+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx4h6r",
+        "tid": "2026-11-15T19:33:21+00:00",
+        "titel": "Once BTC\u2019s 4-year cycle yields less than 2x returns per cycle, it would be better off investing in a Nasdaq-100 index ET",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx4bs0",
         "tid": "2026-11-15T19:27:14+00:00",
@@ -414,16 +424,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwb8vo",
-        "tid": "2026-11-14T19:37:52+00:00",
-        "titel": "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
@@ -595,7 +595,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64919.705,
+  "last_btc_price": 64958.9125,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
