@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64881.4245,
+  "last_btc_price": 64854.985,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,7 +1835,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T04:12:03.460951+00:00",
+    "sidst_hentet": "2026-11-15T04:32:03.217938+00:00",
     "opslag": [
       {
         "id": "t3_1xwkvb3",
@@ -2198,7 +2198,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
   "marked": {},
