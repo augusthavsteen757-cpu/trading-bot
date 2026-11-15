@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65466.6025,
+  "last_btc_price": 65168.185,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1823,8 +1823,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T22:49:45.206875+00:00",
+    "sidst_hentet": "2026-11-15T23:09:45.450362+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx9auy",
+        "tid": "2026-11-15T22:55:25+00:00",
+        "titel": "Remy Buxaplenty (Bitcoin Logo - Before the creation of Bitcoin)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx8kqm",
         "tid": "2026-11-15T22:23:10+00:00",
@@ -2184,16 +2194,6 @@
         ],
         "score": 0,
         "sub": "ethereum"
-      },
-      {
-        "id": "t3_1xwftpj",
-        "tid": "2026-11-14T22:59:58+00:00",
-        "titel": "Just bought BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
