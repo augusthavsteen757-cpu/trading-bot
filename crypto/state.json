@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T04:44:00.540884+00:00",
+    "sidst_hentet": "2026-11-15T05:03:59.687628+00:00",
     "opslag": [
       {
         "id": "t3_1xwkvb3",
@@ -380,18 +380,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Rygter om 4% stigning pa en time og kobskampagner er svage signaler uden rigtig nyhed bag. Kun som kontekst.",
-        "tid": "2026-11-15T04:03:59.768708+00:00",
-        "pris_ved_nyhed": 64693.942,
-        "udloeber": "2026-11-15T05:03:59.768708+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -568,7 +556,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64916.509999999995,
+  "last_btc_price": 64887.06,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
