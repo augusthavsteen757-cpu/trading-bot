@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T19:12:19.466641+00:00",
+    "sidst_hentet": "2026-11-15T19:32:18.655652+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx4bs0",
+        "tid": "2026-11-15T19:27:14+00:00",
+        "titel": "If you bought $100K of bitcoin 5 years ago, you would have $108K today. If you bought VOO, you would have $161K.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx3wds",
         "tid": "2026-11-15T19:10:16+00:00",
@@ -416,7 +426,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -585,7 +595,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64904.945,
+  "last_btc_price": 64946.8725,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
