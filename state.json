@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64690.55,
+  "last_btc_price": 64641.4685,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T15:28:40.050798+00:00",
+    "sidst_hentet": "2026-11-15T15:43:40.211877+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwyfae",
+        "tid": "2026-11-15T15:34:50+00:00",
+        "titel": "Solana Ecosystem News - November 15-2026",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xwxx8l",
         "tid": "2026-11-15T15:13:50+00:00",
@@ -2121,16 +2131,6 @@
         "id": "t3_1xw5mk0",
         "tid": "2026-11-14T15:50:08+00:00",
         "titel": "The main reason Bitcoin is tanking rn",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw58y1",
-        "tid": "2026-11-14T15:34:14+00:00",
-        "titel": "With how easy btc can go up and down and mainly doing thing surprise people , = will be at all time high before you know",
         "symboler": [
           "BTC/USD"
         ],
