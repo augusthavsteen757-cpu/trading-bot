@@ -339,20 +339,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "ETH falger typisk BTC ned i risk-off. Advarslen om capitulation kan tr\u00e6kke ETH med, selvom den ikke naevnes direkte.",
-        "tid": "2026-11-15T04:03:59.768708+00:00",
-        "pris_ved_nyhed": 1814.434,
-        "udloeber": "2026-11-15T08:03:59.768708+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-15",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-15T04:03:59.768708+00:00",
@@ -516,7 +503,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64014.248999999996,
+  "last_btc_price": 64042.045,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
