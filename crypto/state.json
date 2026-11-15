@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T20:07:19.050403+00:00",
+    "sidst_hentet": "2026-11-15T20:27:18.892138+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx5job",
+        "tid": "2026-11-15T20:15:50+00:00",
+        "titel": "Solana RPC, WebSocket and gRPC on one API key, gRPC on mainnet from $20 a month: Carbium services",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xx52b3",
         "tid": "2026-11-15T19:57:01+00:00",
@@ -436,7 +446,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -605,7 +615,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64766.4425,
+  "last_btc_price": 64896.318,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
