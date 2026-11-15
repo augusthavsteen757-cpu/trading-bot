@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T18:07:19.588507+00:00",
+    "sidst_hentet": "2026-11-15T18:27:18.788791+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx2lsc",
+        "tid": "2026-11-15T18:19:03+00:00",
+        "titel": "The Only Real \"Fundamental\" Bitcoin Indicator I Know Of Says It May Be Time To Buy.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xx2iyk",
+        "tid": "2026-11-15T18:16:01+00:00",
+        "titel": "Bitcoin will recapture $100k soon! LFG! \ud83d\ude80\ud83c\udf15",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx1zzg",
         "tid": "2026-11-15T17:55:29+00:00",
@@ -376,7 +396,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -545,7 +565,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64647.8825,
+  "last_btc_price": 64673.33,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
