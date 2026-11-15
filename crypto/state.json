@@ -369,44 +369,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften er en blandet teknologi-oversigt uden direkte krypto-relevans; svag indirekte effekt via risikostemning i tech-sektoren.",
-        "tid": "2026-11-15T14:05:09.817246+00:00",
-        "pris_ved_nyhed": 65240.19,
-        "udloeber": "2026-11-15T16:05:09.817246+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Nvidia-uro og AI-chip-restriktioner kan give svag risikoaversion i tech, men ingen klar kobling til Ethereum.",
-        "tid": "2026-11-15T14:05:09.817246+00:00",
-        "pris_ved_nyhed": 1820.586,
-        "udloeber": "2026-11-15T16:05:09.817246+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Datacenter-modstand og AI-chip-politik er tematisk relevant, men usandsynlig direkte paavirkning af Chainlink.",
-        "tid": "2026-11-15T14:05:09.817246+00:00",
-        "pris_ved_nyhed": 9.2635,
-        "udloeber": "2026-11-15T16:05:09.817246+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-15",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-15T14:05:09.817246+00:00",
@@ -572,7 +535,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64631.057,
+  "last_btc_price": 64641.18,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
