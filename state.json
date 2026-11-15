@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63921.675,
+  "last_btc_price": 63940.3635,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,32 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Analytiker advarer om capitulation mod 40K; BTC er allerede under 70K, s\u00e5 nedsiden kan delvist v\u00e6re prissat.",
-        "tid": "2026-11-15T04:02:04.017913+00:00",
-        "pris_ved_nyhed": 64767.8915,
-        "udloeber": "2026-11-15T08:02:04.017913+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 4,
-        "begrundelse": "Krypto-generel nedtur smitter typisk over til ETH; nyheden n\u00e6vner kun BTC direkte, og faldet kan allerede v\u00e6re i kursen.",
-        "tid": "2026-11-15T04:02:04.017913+00:00",
-        "pris_ved_nyhed": 1816.7055,
-        "udloeber": "2026-11-15T08:02:04.017913+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-15",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-15T04:02:04.017913+00:00",
