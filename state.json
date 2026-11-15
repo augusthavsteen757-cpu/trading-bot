@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65290.85,
+  "last_btc_price": 65260.785,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1501,18 +1501,6 @@
         "tid": "2026-11-15T21:49:46.693133+00:00",
         "pris_ved_nyhed": 1823.005,
         "udloeber": "2026-11-16T00:49:46.693133+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder typisk mere end BTC i likvidationsbolger, men effekten er allerede sket i de seneste dage.",
-        "tid": "2026-11-15T21:49:46.693133+00:00",
-        "pris_ved_nyhed": 72.0449,
-        "udloeber": "2026-11-15T23:49:46.693133+00:00"
       }
     },
     "dag": "2026-11-15",
