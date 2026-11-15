@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64379.95,
+  "last_btc_price": 64148.482,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T00:06:25.163783+00:00",
+    "sidst_hentet": "2026-11-15T00:21:25.279803+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwhe6y",
+        "tid": "2026-11-15T00:12:02+00:00",
+        "titel": "RIP to the Bitcoin power law chart",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwgn1g",
         "tid": "2026-11-14T23:37:08+00:00",
@@ -2131,7 +2141,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
