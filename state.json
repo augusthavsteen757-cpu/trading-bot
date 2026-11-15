@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64907.435,
+  "last_btc_price": 64914.617,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T19:09:44.543558+00:00",
+    "sidst_hentet": "2026-11-15T19:24:45.316023+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx3wds",
+        "tid": "2026-11-15T19:10:16+00:00",
+        "titel": "bitcoin will be 170k-200k in sep 2029",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx32nb",
         "tid": "2026-11-15T18:37:28+00:00",
@@ -2111,7 +2121,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
