@@ -41,11 +41,11 @@
       "2026-11-12 20:50: DLR: dagens slut (ORB). R=+0.35. Entry 183, exit 183. Grund til koeb: ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 0, 'rsi_1h': 59.4, 'adx_1h': 19.5, 'rel_volumen_1h': 1.24, 'afstand_modstand_atr': 0.57, 'atr_percentil_30d': 70.4}"
     ]
   },
-  "ai_day": "2026-11-14",
+  "ai_day": "2026-11-15",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0024809999999999997,
-  "eq_day": "2026-11-14",
-  "day_start_equity": 99393.86,
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-15",
+  "day_start_equity": 99436.63,
   "peak_equity": 100456.88,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64068.294,
+  "last_btc_price": 64043.976500000004,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1490,8 +1490,8 @@
   },
   "nyhedsjaeger": {
     "signaler": {},
-    "dag": "2026-11-14",
-    "kald_i_dag": 7,
+    "dag": "2026-11-15",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-14T20:26:26.472834+00:00",
     "set_ids": [
       "63218891",
