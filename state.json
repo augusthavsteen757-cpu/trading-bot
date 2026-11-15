@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64566.350000000006,
+  "last_btc_price": 64578.926999999996,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T16:33:39.932346+00:00",
+    "sidst_hentet": "2026-11-15T16:48:40.005112+00:00",
     "opslag": [
       {
         "id": "t3_1xwzv9c",
@@ -2069,19 +2069,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xw70jc",
-        "tid": "2026-11-14T16:47:09+00:00",
-        "titel": "What's the safest way to borrow against BTC?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 28 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
