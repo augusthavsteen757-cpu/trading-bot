@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T05:18:59.737539+00:00",
+    "sidst_hentet": "2026-11-15T05:33:59.744279+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwngmf",
+        "tid": "2026-11-15T05:32:03+00:00",
+        "titel": "Bitcoin for the rescue! ^_^",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwkvb3",
         "tid": "2026-11-15T03:09:40+00:00",
@@ -376,7 +386,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -556,7 +566,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64828.3085,
+  "last_btc_price": 64779.369999999995,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
