@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65177.479999999996,
+  "last_btc_price": 65198.58,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,7 +1835,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T13:58:40.168008+00:00",
+    "sidst_hentet": "2026-11-15T14:13:40.415667+00:00",
     "opslag": [
       {
         "id": "t3_1xwrxmj",
@@ -2126,19 +2126,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw38us",
-        "tid": "2026-11-14T14:07:22+00:00",
-        "titel": "Goodbye Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
