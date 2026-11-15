@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65413.325,
+  "last_btc_price": 65204.725000000006,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T02:52:03.102351+00:00",
+    "sidst_hentet": "2026-11-15T03:07:03.479494+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwkswh",
+        "tid": "2026-11-15T03:06:14+00:00",
+        "titel": "Bitcoin will reach $21 per coin before GTA 7 (likely 2046)",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwkayc",
         "tid": "2026-11-15T02:40:44+00:00",
@@ -2151,7 +2161,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
