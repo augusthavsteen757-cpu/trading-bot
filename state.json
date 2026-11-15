@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64712.61,
+  "last_btc_price": 64590.407,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,44 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Overskriften er bred teknologinyhed uden direkte krypto-relevans; BTC-effekt er svag og usikker.",
-        "tid": "2026-11-15T14:03:39.510309+00:00",
-        "pris_ved_nyhed": 65260.667499999996,
-        "udloeber": "2026-11-15T16:03:39.510309+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ingen direkte krypto- eller ETH-relevans; nyheden om chips og datacentre er for indirekte til et klart signal.",
-        "tid": "2026-11-15T14:03:39.510309+00:00",
-        "pris_ved_nyhed": 1823.775,
-        "udloeber": "2026-11-15T16:03:39.510309+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ingen direkte relevans for Solana; bred tech-uro giver ikke et klart retningssignal.",
-        "tid": "2026-11-15T14:03:39.510309+00:00",
-        "pris_ved_nyhed": 72.32455,
-        "udloeber": "2026-11-15T16:03:39.510309+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-15",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-15T14:03:39.510309+00:00",
@@ -1835,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T15:43:40.211877+00:00",
+    "sidst_hentet": "2026-11-15T16:03:39.330189+00:00",
     "opslag": [
       {
         "id": "t3_1xwyfae",
@@ -2106,39 +2069,9 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xw5t9s",
-        "tid": "2026-11-14T15:58:05+00:00",
-        "titel": "Bitcoin 65K \ud83d\ude80",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw5r0n",
-        "tid": "2026-11-14T15:55:22+00:00",
-        "titel": "Below 57700, Bitcoin will get murkier",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xw5mk0",
-        "tid": "2026-11-14T15:50:08+00:00",
-        "titel": "The main reason Bitcoin is tanking rn",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 27 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
