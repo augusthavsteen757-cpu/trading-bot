@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64436.775,
+  "last_btc_price": 64272.305,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1513,18 +1513,6 @@
         "tid": "2026-11-15T04:02:04.017913+00:00",
         "pris_ved_nyhed": 1816.7055,
         "udloeber": "2026-11-15T08:02:04.017913+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "H\u00f8j-beta altcoin falder ofte mere end BTC i capitulation-scenarier; sammenh\u00e6ngen er indirekte.",
-        "tid": "2026-11-15T04:02:04.017913+00:00",
-        "pris_ved_nyhed": 71.24940000000001,
-        "udloeber": "2026-11-15T07:02:04.017913+00:00"
       }
     },
     "dag": "2026-11-15",
