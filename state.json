@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64954.212499999994,
+  "last_btc_price": 64906.672999999995,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T03:27:03.102844+00:00",
+    "sidst_hentet": "2026-11-15T03:42:03.199432+00:00",
     "opslag": [
       {
         "id": "t3_1xwkvb3",
@@ -2159,19 +2159,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xvs2cw",
-        "tid": "2026-11-14T03:27:07+00:00",
-        "titel": "Apparently All the BTC Was On a Grounded plane today \ud83d\ude02",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
