@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64755.405,
+  "last_btc_price": 64613.868,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T02:32:03.990073+00:00",
+    "sidst_hentet": "2026-11-15T02:52:03.102351+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwkayc",
+        "tid": "2026-11-15T02:40:44+00:00",
+        "titel": "Bitcoin rose 4% in one hour",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwk0un",
         "tid": "2026-11-15T02:25:54+00:00",
@@ -2141,7 +2151,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
