@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65188.86,
+  "last_btc_price": 65046.095,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T03:07:03.479494+00:00",
+    "sidst_hentet": "2026-11-15T03:27:03.102844+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwkvb3",
+        "tid": "2026-11-15T03:09:40+00:00",
+        "titel": "BTC",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwkswh",
         "tid": "2026-11-15T03:06:14+00:00",
@@ -2161,7 +2171,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
