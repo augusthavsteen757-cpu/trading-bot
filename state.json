@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65027.911,
+  "last_btc_price": 65134.266,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T21:49:45.580109+00:00",
+    "sidst_hentet": "2026-11-15T22:09:45.897474+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx7yx6",
+        "tid": "2026-11-15T21:57:20+00:00",
+        "titel": "Found a really clean Bitcoin wallet for Android, called Ibis Wallet.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx7r8m",
         "tid": "2026-11-15T21:48:02+00:00",
@@ -2206,16 +2216,6 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xweevl",
-        "tid": "2026-11-14T21:55:31+00:00",
-        "titel": "Is bitcoin your only investment?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
