@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T23:28:04.887296+00:00",
+    "sidst_hentet": "2026-11-15T23:48:05.211868+00:00",
     "opslag": [
       {
         "id": "t3_1xx9auy",
@@ -444,19 +444,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwgn1g",
-        "tid": "2026-11-14T23:37:08+00:00",
-        "titel": "Why 0x01 validator withdrawal credentials and immutable vesting contracts are the hardest bottlenecks for Ethereum's 202",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "ethereum"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -471,66 +461,6 @@
         "tid": "2026-11-15T21:47:18.665366+00:00",
         "pris_ved_nyhed": 1822.7975,
         "udloeber": "2026-11-16T00:47:18.665366+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoins falder ofte kraftigere end BTC ved likvidationskaskader, saa SOL er udsat.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 72.03705,
-        "udloeber": "2026-11-15T23:47:18.665366+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hoej beta og spekulativ handel gor DOGE saarbar ved bredt markedsfald.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 0.059074,
-        "udloeber": "2026-11-15T23:47:18.665366+00:00"
-      },
-      "AVAX/USD": {
-        "kilde": "nyhed",
-        "symbol": "AVAX/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoin med hoej beta; forventes at falde med markedet ved likvidationer.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 7.28264,
-        "udloeber": "2026-11-15T23:47:18.665366+00:00"
-      },
-      "LINK/USD": {
-        "kilde": "nyhed",
-        "symbol": "LINK/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Altcoin-beta; typisk kraftigere fald end BTC i risk-off-bevaegelser.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 9.266829999999999,
-        "udloeber": "2026-11-15T23:47:18.665366+00:00"
-      },
-      "LTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "LTC/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Lavere korrelation end altcoins, men faldende markedsstemning rammer ogsaa LTC.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 45.3785,
-        "udloeber": "2026-11-15T23:47:18.665366+00:00"
       }
     },
     "dag": "2026-11-15",
@@ -699,7 +629,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65296.417,
+  "last_btc_price": 65331.77,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
