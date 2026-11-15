@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64812.952,
+  "last_btc_price": 64737.065,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,7 +1835,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T05:27:03.564372+00:00",
+    "sidst_hentet": "2026-11-15T05:47:03.055836+00:00",
     "opslag": [
       {
         "id": "t3_1xwkvb3",
@@ -2156,49 +2156,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xvukha",
-        "tid": "2026-11-14T05:43:56+00:00",
-        "titel": "Solana Is Global With Alex Scott Podcast - Why a UAE Bank Is Issuing Its Own Stablecoin",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvujnk",
-        "tid": "2026-11-14T05:42:41+00:00",
-        "titel": "Paul Barron Network - Solana Launches Privacy! Anthropic IPO Incoming INTERVIEW",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvuimf",
-        "tid": "2026-11-14T05:41:03+00:00",
-        "titel": "The Starting Block Podcast - Exclusive: New tokenized stock venue eyes 2027 Solana launch",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xvuhoa",
-        "tid": "2026-11-14T05:39:39+00:00",
-        "titel": "SpendNode Podcast - Solana Plans to Retire Durable Nonces After Drift Hack",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 32 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
