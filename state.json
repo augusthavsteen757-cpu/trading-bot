@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64578.499500000005,
+  "last_btc_price": 64597.155,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T18:29:45.790184+00:00",
+    "sidst_hentet": "2026-11-15T18:49:44.885727+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx32nb",
+        "tid": "2026-11-15T18:37:28+00:00",
+        "titel": "My Bitcoin journey this year so far",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx2lsc",
         "tid": "2026-11-15T18:19:03+00:00",
@@ -2101,7 +2111,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 31 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
