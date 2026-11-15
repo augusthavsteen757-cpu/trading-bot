@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65141.7085,
+  "last_btc_price": 65176.16,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T22:09:45.897474+00:00",
+    "sidst_hentet": "2026-11-15T22:29:45.064516+00:00",
     "opslag": [
+      {
+        "id": "t3_1xx8kqm",
+        "tid": "2026-11-15T22:23:10+00:00",
+        "titel": "Solflare Wallet Has Launched \u201cPrivate Mode\u201d On Solana, Powered By Helius",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xx7yx6",
         "tid": "2026-11-15T21:57:20+00:00",
@@ -1946,6 +1956,16 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xx2lls",
+        "tid": "2026-11-15T18:18:50+00:00",
+        "titel": "We're Giving Away a Free Solana Breakpoint 2026 Ticket!",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
       },
       {
         "id": "t3_1xx2iyk",
@@ -2218,7 +2238,7 @@
         "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
