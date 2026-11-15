@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64651.25,
+  "last_btc_price": 64628.6565,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T15:08:40.130471+00:00",
+    "sidst_hentet": "2026-11-15T15:28:40.050798+00:00",
     "opslag": [
+      {
+        "id": "t3_1xwxx8l",
+        "tid": "2026-11-15T15:13:50+00:00",
+        "titel": "Got my quarter of a bitcoin finally",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xwxcb5",
         "tid": "2026-11-15T14:49:47+00:00",
@@ -2128,7 +2138,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 29 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 30 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
