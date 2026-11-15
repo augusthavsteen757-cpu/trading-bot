@@ -33,7 +33,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-15T12:30:09.245601+00:00",
+    "sidst_hentet": "2026-11-15T12:45:09.800698+00:00",
     "opslag": [
       {
         "id": "t3_1xwrxmj",
@@ -59,6 +59,16 @@
         "id": "t3_1xwqzdf",
         "tid": "2026-11-15T09:07:55+00:00",
         "titel": "A Small Request for Bitcoin Support \u2013 Every Little Bit Helps",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xwqhho",
+        "tid": "2026-11-15T08:35:45+00:00",
+        "titel": "Bitcoin turned out to be a dissapointment. Store of value?? Giid jnvestment with great returns?",
         "symboler": [
           "BTC/USD"
         ],
@@ -364,16 +374,6 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xw1hxn",
-        "tid": "2026-11-14T12:42:16+00:00",
-        "titel": "Helius launches Historical Accounts API beta for Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
@@ -569,7 +569,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65409.2005,
+  "last_btc_price": 65489.365000000005,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
