@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T17:45:19.169638+00:00",
+    "sidst_hentet": "2026-11-16T18:05:18.886121+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxw0i2",
+        "tid": "2026-11-16T17:49:43+00:00",
+        "titel": "BTC has printed 6 consecutive red weekly candles only 3 times since 2013, including now. Here\u2019s what happened next:",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxvan5",
         "tid": "2026-11-16T17:22:38+00:00",
@@ -567,39 +577,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx1zzg",
-        "tid": "2026-11-15T17:55:29+00:00",
-        "titel": "Who Pays to Mine Bitcoin\u2019s Play Money? Inside the Launch of Testnet5.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx1zdf",
-        "tid": "2026-11-15T17:54:52+00:00",
-        "titel": "Who Pays to Mine Bitcoin\u2019s Play Money? Inside the Launch of Testnet5.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xx1wup",
-        "tid": "2026-11-15T17:52:06+00:00",
-        "titel": "Bitcoin",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 56 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 54 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -817,7 +797,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64824.185,
+  "last_btc_price": 64809.1845,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
