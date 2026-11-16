@@ -249,7 +249,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64350.08,
+  "last_btc_price": 64409.5475,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1826,7 +1826,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T09:56:13.963738+00:00",
+    "sidst_hentet": "2026-11-16T10:16:13.750570+00:00",
     "opslag": [
       {
         "id": "t3_1xxjyc9",
@@ -2197,19 +2197,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwrxmj",
-        "tid": "2026-11-15T10:08:24+00:00",
-        "titel": "What about the bitcoin power law?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
