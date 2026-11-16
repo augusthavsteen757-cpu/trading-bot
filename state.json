@@ -249,7 +249,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64244.8055,
+  "last_btc_price": 64301.944,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1516,18 +1516,6 @@
         "tid": "2026-11-16T07:46:13.719612+00:00",
         "pris_ved_nyhed": 1818.01,
         "udloeber": "2026-11-16T10:46:13.719612+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Bredere krypto-salg og risikoaversion rammer SOL, men som altcoin med hoejere beta er effekten usikker og delvist prissat.",
-        "tid": "2026-11-16T07:46:13.719612+00:00",
-        "pris_ved_nyhed": 71.05725,
-        "udloeber": "2026-11-16T09:46:13.719612+00:00"
       }
     },
     "dag": "2026-11-16",
