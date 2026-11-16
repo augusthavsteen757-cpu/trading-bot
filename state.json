@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65331.6445,
+  "last_btc_price": 65296.143500000006,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1584,7 +1584,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T22:14:43.353344+00:00",
+    "sidst_hentet": "2026-11-16T22:29:43.876525+00:00",
     "opslag": [
       {
         "id": "t3_1xy2jhh",
@@ -2065,19 +2065,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx8kqm",
-        "tid": "2026-11-15T22:23:10+00:00",
-        "titel": "Solflare Wallet Has Launched \u201cPrivate Mode\u201d On Solana, Powered By Helius",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
