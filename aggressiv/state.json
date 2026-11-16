@@ -411,8 +411,28 @@
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T15:26:20.332621+00:00",
+    "sidst_hentet": "2026-11-16T15:46:19.866324+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxspo0",
+        "tid": "2026-11-16T15:46:06+00:00",
+        "titel": "Former Nvidia CEO Jensen Huang in talks over potential comeback: Report",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
+      {
+        "id": "t3_1xxsas5",
+        "tid": "2026-11-16T15:30:04+00:00",
+        "titel": "Nvidia keeps growing, so why is the stock failing?",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xxrrkb",
         "tid": "2026-11-16T15:09:20+00:00",
@@ -534,7 +554,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 12 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 14 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -2107,8 +2127,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 665.06,
-    "snitpris": 667.34,
+    "pris": 665.33,
+    "snitpris": 667.29,
     "svag": true
   },
   "marked_trend": null
