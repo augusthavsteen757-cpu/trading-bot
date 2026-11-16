@@ -442,32 +442,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Blandet aktiemarked og Nvidia-chipspolitik med Kina giver ingen klar krypto-retning. Mest indirekte sentiment-effekt pa risikoappetit.",
-        "tid": "2026-11-16T10:03:55.506237+00:00",
-        "pris_ved_nyhed": 64282.585,
-        "udloeber": "2026-11-16T12:03:55.506237+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Nvidia/Kina-chipnyhed rammer ikke ETH direkte. Blandede futures giver svagt neutralt signal for krypto generelt.",
-        "tid": "2026-11-16T10:03:55.506237+00:00",
-        "pris_ved_nyhed": 1796.3,
-        "udloeber": "2026-11-16T12:03:55.506237+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-16T10:03:55.506237+00:00",
@@ -636,7 +611,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64383.4355,
+  "last_btc_price": 64244.354999999996,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
