@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64727.104999999996,
+  "last_btc_price": 64916.509,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1489,20 +1489,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Samme ETF- og likvidationsdynamik rammer ETH tungt; kursen har sandsynligvis allerede reageret paa nyheden.",
-        "tid": "2026-11-15T21:49:46.693133+00:00",
-        "pris_ved_nyhed": 1823.005,
-        "udloeber": "2026-11-16T00:49:46.693133+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 0,
     "sidste_kald": "2026-11-15T21:49:46.693133+00:00",
