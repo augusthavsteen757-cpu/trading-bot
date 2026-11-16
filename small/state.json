@@ -106,6 +106,9 @@
     "tab: orb i high_vol": [
       "2026-11-12 16:29: RCAT: stop ramt (Alpaca). R=-1.10. Entry 4, exit 4. Grund til koeb: ORB breakout {'or_high': 4.21, 'or_low': 4.12, 'sidste_luk': 4.23}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 48.9, 'adx_1h': 19.5, 'rel_volumen_1h': 0.29, 'afstand_modstand_atr': 2.33, 'atr_percentil_30d': 87.7}",
       "2026-11-12 17:10: RGTI: stop ramt (Alpaca). R=-1.02. Entry 11, exit 11. Grund til koeb: ORB breakout {'or_high': 10.81, 'or_low': 10.44, 'sidste_luk': 10.92}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 37.5, 'adx_1h': 22.9, 'rel_volumen_1h': 0.16, 'afstand_modstand_atr': 1.11, 'atr_percentil_30d': 94.9}"
+    ],
+    "teknisk fejl: ConnectionError: HTTPSConnectionPool(host='paper-api.alpa": [
+      "2026-11-16 09:08: ConnectionError: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError(\"HTTPSConnection(host='paper-api.alpaca.markets', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     ]
   },
   "budget_month": "2026-11",
