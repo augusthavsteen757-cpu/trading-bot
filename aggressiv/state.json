@@ -438,10 +438,10 @@
       "2026-11-16 17:56: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
-      "2026-11-16 18:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
-      "2026-11-16 18:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
+      "2026-11-16 18:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
+      "2026-11-16 18:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -455,8 +455,18 @@
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T18:11:19.991140+00:00",
+    "sidst_hentet": "2026-11-16T18:26:20.036749+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxwoxh",
+        "tid": "2026-11-16T18:15:14+00:00",
+        "titel": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xxw2l7",
         "tid": "2026-11-16T17:51:57+00:00",
@@ -628,34 +638,10 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "MSTR": {
-        "kilde": "nyhed",
-        "symbol": "MSTR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stor ETH-kobsaktivitet hos BitMine og optimisme om ETH-rebound smitter af paa krypto-eksponerede aktier som MSTR, selv om den naevner ETH og ikke MSTR direkte.",
-        "tid": "2026-11-16T16:21:20.799519+00:00",
-        "pris_ved_nyhed": 103.33,
-        "udloeber": "2026-11-16T18:21:20.799519+00:00"
-      },
-      "COIN": {
-        "kilde": "nyhed",
-        "symbol": "COIN",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Krypto-sentiment stiger naar institutionelle kobere optraeder; COIN faar typisk gavn af handelsvolumen og kursfremgang i ETH og BTC.",
-        "tid": "2026-11-16T16:21:20.799519+00:00",
-        "pris_ved_nyhed": 119.15,
-        "udloeber": "2026-11-16T18:21:20.799519+00:00"
-      },
       "PLTR": {
         "kilde": "nyhed",
         "symbol": "PLTR",
@@ -2096,8 +2082,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 663.75,
-    "snitpris": 667.08,
+    "pris": 663.87,
+    "snitpris": 667.02,
     "svag": true
   },
   "marked_trend": null
