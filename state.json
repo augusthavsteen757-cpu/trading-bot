@@ -249,7 +249,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64205.835,
+  "last_btc_price": 64080.659499999994,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1838,8 +1838,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T13:36:55.490356+00:00",
+    "sidst_hentet": "2026-11-16T13:56:55.848174+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxpmp8",
+        "tid": "2026-11-16T13:41:27+00:00",
+        "titel": "Nvidia reports tomorrow without Jensen Huang. Does it matter for BTC short term?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxmwna",
         "tid": "2026-11-16T11:20:34+00:00",
@@ -2231,7 +2241,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
