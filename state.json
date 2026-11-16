@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65268.06,
+  "last_btc_price": 65395.3895,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1250,18 +1250,6 @@
         "tid": "2026-11-16T19:48:52.393459+00:00",
         "pris_ved_nyhed": 661.36,
         "udloeber": "2026-11-16T22:48:52.393459+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AMD-teknologi i et statsfinansieret supercomputer-projekt giver positiv omtale, men effekten pa indtjening er lille og kortvarig.",
-        "tid": "2026-11-16T20:03:52.217051+00:00",
-        "pris_ved_nyhed": 507.01,
-        "udloeber": "2026-11-16T22:03:52.217051+00:00"
       },
       "SPY": {
         "kilde": "nyhed",
