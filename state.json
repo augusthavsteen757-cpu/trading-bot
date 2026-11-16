@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65117.462,
+  "last_btc_price": 65242.212499999994,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1548,8 +1548,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T22:49:44.236672+00:00",
+    "sidst_hentet": "2026-11-16T23:09:44.222820+00:00",
     "opslag": [
+      {
+        "id": "t3_1xy42yi",
+        "tid": "2026-11-16T22:59:59+00:00",
+        "titel": "How to sell bitcoin without KYC?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xy2jhh",
         "tid": "2026-11-16T21:56:20+00:00",
@@ -2014,16 +2024,6 @@
         "id": "t3_1xxbcnp",
         "tid": "2026-11-16T00:27:10+00:00",
         "titel": "Bitcoin bears keep talking about 5 year CAGR. What about 4 year?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx9auy",
-        "tid": "2026-11-15T22:55:25+00:00",
-        "titel": "Remy Buxaplenty (Bitcoin Logo - Before the creation of Bitcoin)",
         "symboler": [
           "BTC/USD"
         ],
