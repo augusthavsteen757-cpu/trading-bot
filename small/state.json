@@ -125,18 +125,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Stifel fastholder Buy, men saenker kursmaal til $15. Nedjusteret kursmaal kan d\u00e6mpe optimismen; kurs og analytikerreaktion kan allerede vaere indregnet.",
-        "tid": "2026-11-16T14:34:25.565260+00:00",
-        "pris_ved_nyhed": 4.755,
-        "udloeber": "2026-11-16T16:34:25.565260+00:00"
-      },
       "RCAT": {
         "kilde": "nyhed",
         "symbol": "RCAT",
@@ -1254,7 +1242,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 275.01,
+    "pris": 274.92,
     "snitpris": 275.09,
     "svag": true
   },
