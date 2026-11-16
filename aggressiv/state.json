@@ -458,7 +458,8 @@
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42": [
       "2026-11-16 17:01: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
       "2026-11-16 17:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
-      "2026-11-16 17:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
+      "2026-11-16 17:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
+      "2026-11-16 17:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -472,7 +473,7 @@
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T16:56:20.394349+00:00",
+    "sidst_hentet": "2026-11-16T17:16:20.634235+00:00",
     "opslag": [
       {
         "id": "t3_1xxui7l",
@@ -2187,7 +2188,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 666.84,
+    "pris": 666.9,
     "snitpris": 667.65,
     "svag": true
   },
