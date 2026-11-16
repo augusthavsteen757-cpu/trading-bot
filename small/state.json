@@ -119,9 +119,20 @@
   "day_start_equity": 99265.06,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-16T17:55:22.628548+00:00",
-    "opslag": [],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
+    "sidst_hentet": "2026-11-16T18:15:22.062563+00:00",
+    "opslag": [
+      {
+        "id": "t3_1xxwlmc",
+        "tid": "2026-11-16T18:11:45+00:00",
+        "titel": "Altman Says AI Industry \u2018Will Be Fine\u2019 After Huang\u2019s Ouster",
+        "symboler": [
+          "OUST"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      }
+    ],
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -242,7 +253,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.795,
+  "last_btc_price": 4.785,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1243,8 +1254,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.57,
-    "snitpris": 274.71,
+    "pris": 273.5,
+    "snitpris": 274.7,
     "svag": true
   },
   "marked_trend": -1
