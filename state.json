@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64659.898,
+  "last_btc_price": 64556.4945,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1835,8 +1835,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T08:01:13.831483+00:00",
+    "sidst_hentet": "2026-11-16T08:21:13.884301+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxjyc9",
+        "tid": "2026-11-16T08:14:04+00:00",
+        "titel": "Bitcoin in 2014\u2026 \ud83d\udc80",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxjqbu",
         "tid": "2026-11-16T08:00:28+00:00",
@@ -2211,16 +2221,6 @@
         "id": "t3_1xwqhho",
         "tid": "2026-11-15T08:35:45+00:00",
         "titel": "Bitcoin turned out to be a dissapointment. Store of value?? Giid jnvestment with great returns?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwq04b",
-        "tid": "2026-11-15T08:05:13+00:00",
-        "titel": "WHATTSS WRONG WITH BITCOIN RNN!",
         "symboler": [
           "BTC/USD"
         ],
