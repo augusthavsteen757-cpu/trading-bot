@@ -33,8 +33,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T03:03:05.004820+00:00",
+    "sidst_hentet": "2026-11-16T03:23:04.929037+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxepos",
+        "tid": "2026-11-16T03:13:00+00:00",
+        "titel": "Bitcoin to $53, panic sell now",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxem4w",
+        "tid": "2026-11-16T03:07:55+00:00",
+        "titel": "Keep an eye on Bitcoin's Hash: It recovered +31% in 24 h. Back over 1 Zhash/s",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxddif",
         "tid": "2026-11-16T02:06:15+00:00",
@@ -404,26 +424,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwkvb3",
-        "tid": "2026-11-15T03:09:40+00:00",
-        "titel": "BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwkswh",
-        "tid": "2026-11-15T03:06:14+00:00",
-        "titel": "Bitcoin will reach $21 per coin before GTA 7 (likely 2046)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
@@ -596,7 +596,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65061.842000000004,
+  "last_btc_price": 65137.316999999995,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
