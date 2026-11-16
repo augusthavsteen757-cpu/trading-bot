@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64327.4,
+  "last_btc_price": 64313.338,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T05:56:14.212115+00:00",
+    "sidst_hentet": "2026-11-16T06:16:13.565938+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxhu9j",
+        "tid": "2026-11-16T06:04:03+00:00",
+        "titel": "Yeah and we got 64K btc in 2026",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxhd7d",
         "tid": "2026-11-16T05:36:05+00:00",
@@ -2181,7 +2191,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
