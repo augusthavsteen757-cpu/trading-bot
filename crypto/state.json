@@ -21,6 +21,9 @@
     ],
     "teknisk fejl: APIError: {\"code\":50010000,\"message\":\"internal ser": [
       "2026-11-07 13:08: APIError: {\"code\":50010000,\"message\":\"internal server error occurred\"}"
+    ],
+    "teknisk fejl: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpa": [
+      "2026-11-16 09:11: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<HTTPSConnection(host='paper-api.alpaca.markets', port=443) at 0x7efe71f95730>, 'Connection to paper-api.alpaca.markets timed out. (connect timeout=None)'))"
     ]
   },
   "budget_month": "2026-11",
