@@ -1987,7 +1987,7 @@
       "CGON",
       "CLRO"
     ],
-    "sidst": "2026-11-16T14:46:19.816527+00:00",
+    "sidst": "2026-11-16T14:56:19.824607+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2039,9 +2039,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 670.57,
-    "snitpris": 669.48,
-    "svag": false
+    "pris": 668.66,
+    "snitpris": 669.44,
+    "svag": true
   },
   "marked_trend": null
 }
