@@ -439,7 +439,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
       "2026-11-16 18:01: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
-      "2026-11-16 18:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
+      "2026-11-16 18:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
+      "2026-11-16 18:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -453,8 +454,18 @@
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T17:51:20.456167+00:00",
+    "sidst_hentet": "2026-11-16T18:11:19.991140+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxw2l7",
+        "tid": "2026-11-16T17:51:57+00:00",
+        "titel": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xxvreb",
         "tid": "2026-11-16T17:40:00+00:00",
@@ -614,16 +625,6 @@
         ],
         "score": 0,
         "sub": "wallstreetbets"
-      },
-      {
-        "id": "t3_1xx263n",
-        "tid": "2026-11-15T18:02:03+00:00",
-        "titel": "Billionaires Back Jensen Huang\u2014KoGuan Cuts Nvidia Investment Plans, Musk Pays Tribute",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 17 naevner vores symboler (24 t)"
@@ -701,18 +702,6 @@
         "tid": "2026-11-16T15:41:19.379645+00:00",
         "pris_ved_nyhed": 504.51,
         "udloeber": "2026-11-16T18:41:19.379645+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Sektoroverskrift om defensive sektorer leder og vaekst halter; ingen Meta-specifik nyhed, markedsrotation dominerer.",
-        "tid": "2026-11-16T16:06:20.583882+00:00",
-        "pris_ved_nyhed": 628.65,
-        "udloeber": "2026-11-16T18:06:20.583882+00:00"
       },
       "NFLX": {
         "kilde": "nyhed",
@@ -2106,8 +2095,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 664.01,
-    "snitpris": 667.27,
+    "pris": 664.14,
+    "snitpris": 667.22,
     "svag": true
   },
   "marked_trend": null
