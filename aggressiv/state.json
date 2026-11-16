@@ -436,6 +436,9 @@
       "2026-11-16 17:46: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
       "2026-11-16 17:51: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
       "2026-11-16 17:56: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
+      "2026-11-16 18:01: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -662,18 +665,6 @@
         "pris_ved_nyhed": 163.85,
         "udloeber": "2026-11-16T20:06:20.583882+00:00"
       },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Zoox-robotaxi i Las Vegas og Best Buy-partnerskab styrker Ubers platformsnarrativ, men effekten er moderat.",
-        "tid": "2026-11-16T15:01:19.826182+00:00",
-        "pris_ved_nyhed": 70.16,
-        "udloeber": "2026-11-16T18:01:19.826182+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -709,18 +700,6 @@
         "tid": "2026-11-16T15:41:19.379645+00:00",
         "pris_ved_nyhed": 504.51,
         "udloeber": "2026-11-16T18:41:19.379645+00:00"
-      },
-      "SMCI": {
-        "kilde": "nyhed",
-        "symbol": "SMCI",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "AI-serverproducent n\u00e6vnt i eksportnyheden; stramninger kan d\u00e6mpe ordrer og sentiment.",
-        "tid": "2026-11-16T15:01:19.826182+00:00",
-        "pris_ved_nyhed": 25.695,
-        "udloeber": "2026-11-16T18:01:19.826182+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -2126,8 +2105,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 665.45,
-    "snitpris": 667.37,
+    "pris": 664.77,
+    "snitpris": 667.32,
     "svag": true
   },
   "marked_trend": null
