@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.745652,
+  "budget_used": 1.753536,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -45,8 +45,8 @@
     ]
   },
   "ai_day": "2026-11-16",
-  "ai_rounds_today": 10,
-  "ai_spend_today": 0.07895419999999999,
+  "ai_rounds_today": 11,
+  "ai_spend_today": 0.08683789999999998,
   "eq_day": "2026-11-16",
   "day_start_equity": 99436.63,
   "peak_equity": 100456.88,
@@ -126,9 +126,9 @@
       }
     },
     "MSFT": {
-      "last_entry_eval": "2026-11-12T15:05:11.484933+00:00",
+      "last_entry_eval": "2026-11-16T14:42:04.097538+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "range_bund"
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T15:21:48.732100+00:00",
@@ -250,7 +250,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65236.572,
+  "last_btc_price": 65110.3305,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
