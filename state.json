@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64547.655,
+  "last_btc_price": 64516.8995,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1359,18 +1359,6 @@
         "tid": "2026-11-16T14:46:58.429028+00:00",
         "pris_ved_nyhed": 634.42,
         "udloeber": "2026-11-16T16:46:58.429028+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Apple Pay-lancering i Sydkorea er marginal, men positiv for Apple-oekosystemet.",
-        "tid": "2026-11-16T14:46:58.429028+00:00",
-        "pris_ved_nyhed": 355.625,
-        "udloeber": "2026-11-16T15:46:58.429028+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -1681,7 +1669,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T15:36:56.606710+00:00",
+    "sidst_hentet": "2026-11-16T15:51:56.825034+00:00",
     "opslag": [
       {
         "id": "t3_1xxpmp8",
@@ -2089,8 +2077,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 665.33,
-    "snitpris": 667.29,
+    "pris": 666.87,
+    "snitpris": 667.27,
     "svag": true
   },
   "marked_trend": -1
