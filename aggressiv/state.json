@@ -440,7 +440,8 @@
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
       "2026-11-16 18:01: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
-      "2026-11-16 18:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
+      "2026-11-16 18:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
+      "2026-11-16 18:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2095,8 +2096,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 664.14,
-    "snitpris": 667.22,
+    "pris": 664.19,
+    "snitpris": 667.16,
     "svag": true
   },
   "marked_trend": null
