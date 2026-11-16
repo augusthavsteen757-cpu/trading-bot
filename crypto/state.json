@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T18:05:18.886121+00:00",
+    "sidst_hentet": "2026-11-16T18:25:18.713464+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxwtlw",
+        "tid": "2026-11-16T18:20:02+00:00",
+        "titel": "Bitcoin is becoming more attractive again! $50k would be a lovely Christmas present!",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxw0i2",
         "tid": "2026-11-16T17:49:43+00:00",
@@ -547,54 +557,12 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx2lsc",
-        "tid": "2026-11-15T18:19:03+00:00",
-        "titel": "The Only Real \"Fundamental\" Bitcoin Indicator I Know Of Says It May Be Time To Buy.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xx2lls",
-        "tid": "2026-11-15T18:18:50+00:00",
-        "titel": "We're Giving Away a Free Solana Breakpoint 2026 Ticket!",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xx2iyk",
-        "tid": "2026-11-15T18:16:01+00:00",
-        "titel": "Bitcoin will recapture $100k soon! LFG! \ud83d\ude80\ud83c\udf15",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 54 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Indirekte kontekst: krypto-sentiment kan loefte BTC, men nyheden naevner ikke BTC direkte og rebound-tesen er ventet og muligvis allerede priset ind.",
-        "tid": "2026-11-16T16:20:18.844024+00:00",
-        "pris_ved_nyhed": 64468.1595,
-        "udloeber": "2026-11-16T18:20:18.844024+00:00"
-      },
       "ETH/USD": {
         "kilde": "nyhed",
         "symbol": "ETH/USD",
@@ -606,18 +574,6 @@
         "tid": "2026-11-16T16:20:18.844024+00:00",
         "pris_ved_nyhed": 1818.8225,
         "udloeber": "2026-11-16T19:20:18.844024+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Solmate GPU-tjeneste paa Solana er kun rygte fra Reddit; mulig AI-hype, men ingen bekraeftet nyhed bag. Kun svag kontekst.",
-        "tid": "2026-11-16T16:20:18.844024+00:00",
-        "pris_ved_nyhed": 70.44999999999999,
-        "udloeber": "2026-11-16T18:20:18.844024+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -797,7 +753,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64873.67,
+  "last_btc_price": 64853.84,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
