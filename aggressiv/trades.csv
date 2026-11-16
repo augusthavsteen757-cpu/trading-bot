@@ -12891,3 +12891,4 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-13 20:55,SHOP,147.56,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,100440.35,0.44,100000.0,0.0,-1.053,-4.747,0.5257,
 2026-11-13 20:55,UBER,69.56,range,trend_pullback,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100440.35,0.44,100000.0,0.0,-1.053,-4.747,0.5257,
 2026-11-13 20:55,RBLX,50.21,range,trend_pullback range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,100440.35,0.44,100000.0,0.0,-1.053,-4.747,0.5257,
+2026-11-16 09:11,ALLE,,,,,,,,,,,,,,,,,FEJL (ConnectTimeout),,,,,,,,,,,"ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<HTTPSConnection(host='paper-api.alpaca.market"
