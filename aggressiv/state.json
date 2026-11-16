@@ -438,10 +438,10 @@
       "2026-11-16 17:56: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
-      "2026-11-16 18:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
-      "2026-11-16 18:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
+      "2026-11-16 18:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
+      "2026-11-16 18:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -701,18 +701,6 @@
         "tid": "2026-11-16T16:06:20.583882+00:00",
         "pris_ved_nyhed": 61.515,
         "udloeber": "2026-11-16T20:06:20.583882+00:00"
-      },
-      "ARM": {
-        "kilde": "nyhed",
-        "symbol": "ARM",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Mubadala halverer stake (47%) og ARM falder over 6% i bredt chip-salg; salget er delvist allerede i kursen, men flere s\u00e6lgere kan forst\u00e6rke faldet.",
-        "tid": "2026-11-16T16:36:19.364130+00:00",
-        "pris_ved_nyhed": 178.9,
-        "udloeber": "2026-11-16T18:36:19.364130+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -2082,8 +2070,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 662.72,
-    "snitpris": 666.93,
+    "pris": 661.52,
+    "snitpris": 666.72,
     "svag": true
   },
   "marked_trend": null
