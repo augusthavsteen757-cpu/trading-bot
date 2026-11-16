@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.02** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.07** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 16.02
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 16.07
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.02** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 15.59
+**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 16.04
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.02** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 15.59
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 16.04
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -50,18 +50,15 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.02** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.441 USD  ·  **I alt:** -1.559 USD (-1.56 %)  ·  **I dag:** +0.08 %  ·  sidst opdateret 16/11 15.59
+**Konto:** 98.541 USD  ·  **I alt:** -1.459 USD (-1.46 %)  ·  **I dag:** +0.18 %  ·  sidst opdateret 16/11 16.04
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| AMZN call 270 (udl. 4/12) | 1 | 7.85 | 11/11 16.22 |
-
-**Lukkede handler:** 4 i alt, 0 med gevinst, samlet -1.410 USD
+**Lukkede handler:** 5 i alt, 0 med gevinst, samlet -1.745 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ AMZN call 270 (udl. 4/12) | 16/11 16.04 | -335 USD | stop -43% |
 | ❌ AMZN call 272.5 (udl. 27/11) | 11/11 16.22 | -340 USD | stop -40% |
 | ❌ AAPL put 342.5 (udl. 20/11) | 6/11 16.51 | -250 USD | trenden vendte (op) |
 | ❌ AMZN call 272.5 (udl. 20/11) | 5/11 15.55 | -300 USD | stop -42% |
@@ -69,7 +66,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 16.02** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.440 USD  ·  **I alt:** +440 USD (+0.44 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 16.01
+**Konto:** 100.440 USD  ·  **I alt:** +440 USD (+0.44 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 16.06
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -607 USD (2 vundet), BREMSE (halv stoerrelse)
 
