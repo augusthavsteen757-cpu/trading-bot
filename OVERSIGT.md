@@ -4,7 +4,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 06.01** (dansk tid). Ku
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.393 USD  ·  **I alt:** -607 USD (-0.61 %)  ·  **I dag:** -0.04 %  ·  sidst opdateret 16/11 05.56
+**Konto:** 99.395 USD  ·  **I alt:** -605 USD (-0.61 %)  ·  **I dag:** -0.04 %  ·  sidst opdateret 16/11 06.01
 
 **Ejer nu:**
 
@@ -40,7 +40,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 06.01** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 05.54
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 05.59
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
