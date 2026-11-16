@@ -119,7 +119,7 @@
   "day_start_equity": 99265.06,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-16T16:30:22.267325+00:00",
+    "sidst_hentet": "2026-11-16T16:45:22.269940+00:00",
     "opslag": [],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 0 naevner vores symboler (24 t)"
   },
@@ -241,7 +241,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.805,
+  "last_btc_price": 4.795,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1242,7 +1242,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.66,
+    "pris": 274.51,
     "snitpris": 275.08,
     "svag": true
   },
