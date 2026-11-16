@@ -36,8 +36,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T16:55:19.167489+00:00",
+    "sidst_hentet": "2026-11-16T17:10:19.179826+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxux9g",
+        "tid": "2026-11-16T17:08:58+00:00",
+        "titel": "The Anthropic IPO on Thursday is draining BTC liquidity right now",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxumc0",
+        "tid": "2026-11-16T16:58:07+00:00",
+        "titel": "What's the best place to borrow on Solana using SOL as collateral?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xxtxy1",
         "tid": "2026-11-16T16:33:03+00:00",
@@ -579,7 +599,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 54 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 56 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -809,7 +829,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64869.444,
+  "last_btc_price": 64759.14,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
