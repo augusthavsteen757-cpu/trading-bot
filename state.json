@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65190.9695,
+  "last_btc_price": 65149.069,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T02:10:27.031407+00:00",
+    "sidst_hentet": "2026-11-16T02:30:26.607975+00:00",
     "opslag": [
       {
         "id": "t3_1xxddif",
@@ -2159,29 +2159,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwk0un",
-        "tid": "2026-11-15T02:25:54+00:00",
-        "titel": "The real vision of Bitcoin is tested in these moments",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwjv0g",
-        "tid": "2026-11-15T02:17:22+00:00",
-        "titel": "world wide buy BTC day?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 36 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
