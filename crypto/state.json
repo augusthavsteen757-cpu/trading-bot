@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T14:29:29.722915+00:00",
+    "sidst_hentet": "2026-11-16T14:44:29.835130+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxr1aa",
+        "tid": "2026-11-16T14:40:50+00:00",
+        "titel": "Are you in profit or on lose from BTC investment?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxpmp8",
         "tid": "2026-11-16T13:41:27+00:00",
@@ -449,7 +459,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -464,18 +474,6 @@
         "tid": "2026-11-16T13:49:31.747069+00:00",
         "pris_ved_nyhed": 64311.47,
         "udloeber": "2026-11-16T14:49:31.747069+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Reddit-opslag om Solana 1.0 uden bekraeftet nyhedskilde; kun svag hype-kontekst.",
-        "tid": "2026-11-16T12:39:30.011886+00:00",
-        "pris_ved_nyhed": 70.61070000000001,
-        "udloeber": "2026-11-16T14:39:30.011886+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -648,7 +646,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65363.174499999994,
+  "last_btc_price": 65226.120500000005,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
