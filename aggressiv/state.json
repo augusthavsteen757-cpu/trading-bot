@@ -185,7 +185,8 @@
     "LUNR": {},
     "FCUV": {},
     "MOD": {},
-    "CBRS": {}
+    "CBRS": {},
+    "CGON": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -1931,13 +1932,18 @@
   },
   "scan": {
     "dag": "2026-11-16",
-    "syms": [],
-    "sidst": "",
+    "syms": [
+      "SNDQ",
+      "SOXS",
+      "CGON"
+    ],
+    "sidst": "2026-11-16T14:36:18.928578+00:00",
     "alle": [
       "ADXN",
       "AEHL",
       "APP",
       "CBRS",
+      "CGON",
       "CKX",
       "CRWG",
       "FCUV",
@@ -1970,7 +1976,8 @@
       "FCUV": "Focus Universal Inc. Common Stock",
       "MOD": "Modine Manufacturing Co",
       "CBRS": "Cerebras Systems Inc. Class A Common Stock",
-      "SOXS": "Direxion Daily Semiconductor Bear 3X ETF"
+      "SOXS": "Direxion Daily Semiconductor Bear 3X ETF",
+      "CGON": "CG Oncology, Inc. Common stock"
     },
     "omvendt": [
       "NVD",
