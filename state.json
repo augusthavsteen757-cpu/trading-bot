@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65307.7565,
+  "last_btc_price": 65279.009,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1596,8 +1596,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T21:39:43.470836+00:00",
+    "sidst_hentet": "2026-11-16T21:54:43.809588+00:00",
     "opslag": [
+      {
+        "id": "t3_1xy2a4x",
+        "tid": "2026-11-16T21:45:42+00:00",
+        "titel": "No backend Solana wallet (need help naming it)",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xy26s3",
+        "tid": "2026-11-16T21:42:01+00:00",
+        "titel": "Selling Bitcoin to fund your life is the most expensive way to use it.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xy0msa",
         "tid": "2026-11-16T20:42:07+00:00",
@@ -2067,19 +2087,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx7r8m",
-        "tid": "2026-11-15T21:48:02+00:00",
-        "titel": "McDonald in Switzerland accepts Bitcoin!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
