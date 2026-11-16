@@ -148,7 +148,7 @@
         "entry": 12.195,
         "stop": 12.0775,
         "stop_initial": 12.0775,
-        "high": 12.21,
+        "high": 12.25,
         "qty": 1647.0,
         "entry_tid": "2026-11-16 16:11",
         "setup": "orb",
@@ -188,7 +188,7 @@
         "entry": 146.21,
         "stop": 146.21,
         "stop_initial": 144.575,
-        "high": 147.37,
+        "high": 149.23,
         "qty": 69.0,
         "entry_tid": "2026-11-16 16:06",
         "setup": "orb",
@@ -452,7 +452,8 @@
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41": [
       "2026-11-16 16:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
       "2026-11-16 16:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
-      "2026-11-16 16:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
+      "2026-11-16 16:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
+      "2026-11-16 16:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2143,7 +2144,7 @@
       "CLRO",
       "GDHG"
     ],
-    "sidst": "2026-11-16T16:16:19.855236+00:00",
+    "sidst": "2026-11-16T16:31:19.663425+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2197,8 +2198,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 669.21,
-    "snitpris": 667.4,
+    "pris": 669.31,
+    "snitpris": 667.53,
     "svag": false
   },
   "marked_trend": null
