@@ -41,10 +41,10 @@
       "2026-11-12 20:50: DLR: dagens slut (ORB). R=+0.35. Entry 183, exit 183. Grund til koeb: ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 0, 'rsi_1h': 59.4, 'adx_1h': 19.5, 'rel_volumen_1h': 1.24, 'afstand_modstand_atr': 0.57, 'atr_percentil_30d': 70.4}"
     ]
   },
-  "ai_day": "2026-11-15",
+  "ai_day": "2026-11-16",
   "ai_rounds_today": 0,
-  "ai_spend_today": 0.0013247,
-  "eq_day": "2026-11-15",
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-16",
   "day_start_equity": 99436.63,
   "peak_equity": 100456.88,
   "test_kob_id": "testkoeb-2026-11-01",
@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65203.197,
+  "last_btc_price": 65314.75,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1503,8 +1503,8 @@
         "udloeber": "2026-11-16T00:49:46.693133+00:00"
       }
     },
-    "dag": "2026-11-15",
-    "kald_i_dag": 4,
+    "dag": "2026-11-16",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-15T21:49:46.693133+00:00",
     "set_ids": [
       "63105755",
@@ -1811,7 +1811,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-15T23:45:26.328131+00:00",
+    "sidst_hentet": "2026-11-16T00:00:26.859416+00:00",
     "opslag": [
       {
         "id": "t3_1xx9auy",
