@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65045.8215,
+  "last_btc_price": 65094.905,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,8 +1798,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T03:05:27.235546+00:00",
+    "sidst_hentet": "2026-11-16T03:25:26.876001+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxepos",
+        "tid": "2026-11-16T03:13:00+00:00",
+        "titel": "Bitcoin to $53, panic sell now",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxem4w",
+        "tid": "2026-11-16T03:07:55+00:00",
+        "titel": "Keep an eye on Bitcoin's Hash: It recovered +31% in 24 h. Back over 1 Zhash/s",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxddif",
         "tid": "2026-11-16T02:06:15+00:00",
@@ -2129,26 +2149,6 @@
         ],
         "score": 0,
         "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xwkvb3",
-        "tid": "2026-11-15T03:09:40+00:00",
-        "titel": "BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwkswh",
-        "tid": "2026-11-15T03:06:14+00:00",
-        "titel": "Bitcoin will reach $21 per coin before GTA 7 (likely 2046)",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
