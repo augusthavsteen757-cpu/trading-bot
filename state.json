@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65259.2015,
+  "last_btc_price": 65307.7565,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1227,18 +1227,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Johnson kritiserer Bitcoin som 'mystery', men roser blockchain; svag blandet signal, ingen ny efterspoergsel.",
-        "tid": "2026-11-16T19:48:52.393459+00:00",
-        "pris_ved_nyhed": 64744.97,
-        "udloeber": "2026-11-16T21:48:52.393459+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1286,18 +1274,6 @@
         "tid": "2026-11-16T19:48:52.393459+00:00",
         "pris_ved_nyhed": 738.495,
         "udloeber": "2026-11-16T23:48:52.393459+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 3,
-        "begrundelse": "Ackmans store Netflix-position er prim\u00e6rt om Netflix, men reklame- og AI-tema kan give svag positiv stemning for store techaktier. Nyheden er gammel (15:52).",
-        "tid": "2026-11-16T18:48:52.166975+00:00",
-        "pris_ved_nyhed": 626.825,
-        "udloeber": "2026-11-16T21:48:52.166975+00:00"
       },
       "DLR": {
         "kilde": "nyhed",
