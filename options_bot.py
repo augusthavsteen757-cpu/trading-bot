@@ -57,6 +57,9 @@ STOP_LOSS = env_f("OPT_STOP_LOSS", 0.40)          # -40 %
 MIN_DTE, MAX_DTE = int(env_f("OPT_MIN_DTE", 14)), int(env_f("OPT_MAX_DTE", 45))  # dage til udloeb ved koeb
 EXIT_DTE = int(env_f("OPT_EXIT_DTE", 7))          # saelg senest 7 dage foer udloeb
 MAX_HOLD_DAYS = int(env_f("OPT_MAX_HOLD_DAYS", 14))
+# 16. nov: AMZN-calls tabte 3 gange i traek (5/11, 11/11, 16/11), koebt igen kort efter hvert tab.
+# Efter et tab koebes samme aktie ikke igen i 7 dage (laeses fra closed_trades.csv).
+LOSS_COOLDOWN_DAYS = int(env_f("OPT_LOSS_COOLDOWN_DAYS", 7))
 MAX_SPREAD = env_f("OPT_MAX_SPREAD", 0.10)        # forskel paa koeb/salgspris max 10 % af prisen
 MAX_DAILY_LOSS = env_f("OPT_MAX_DAILY_LOSS", 0.03)
 MAX_DRAWDOWN = env_f("OPT_MAX_DRAWDOWN", 0.10)
@@ -262,6 +265,17 @@ class Broker:
         return True
 
 
+def last_loss_day(sym):
+    """Dato (date) for seneste tabende handel i aktien, ellers None."""
+    try:
+        with open(CLOSED_CSV, newline="") as fh:
+            days = [r["exit_tid"][:10] for r in csv.DictReader(fh)
+                    if r.get("aktie") == sym and float(r.get("pnl_usd") or 0) < 0]
+        return date.fromisoformat(max(days)) if days else None
+    except (OSError, ValueError, KeyError):
+        return None
+
+
 # ---------------- Logik ----------------
 def manage_exits(broker, state, equity, day_pnl):
     held = broker.option_positions()
@@ -354,6 +368,8 @@ def scan_and_buy(broker, state, equity, day_pnl, can_buy, block):
                 why = "koeb kun 10:00-15:00 New York"
             elif sym in state["traded_today"]:
                 why = "allerede handlet i dag"
+            elif (last_loss_day(sym) and (date.today() - last_loss_day(sym)).days < LOSS_COOLDOWN_DAYS):
+                why = f"tabte i aktien {last_loss_day(sym)}, pause i {LOSS_COOLDOWN_DAYS} dage"
             elif any(parse_occ(o)[0] == sym for o in state["positions"]):
                 why = "har allerede en handel i aktien"
             elif len(state["positions"]) >= MAX_OPEN:

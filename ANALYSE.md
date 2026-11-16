@@ -3,6 +3,21 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 16. nov 2026 (mandag, data 14.-16. nov)
+
+**Rettelse 14. nov (PR #60):** Raket-scanneren køber ikke omvendte fonde (fx SOXS), medmindre RAKET_INVERSE=1. Markedsfilteret køber dem stadig, når markedet falder.
+
+**Godt**
+- Aggressiv: +0,17 % i dag, +0,62 % i alt. SHOP halvsolgt med +137 USD, resten kører med stop på købspris.
+
+**Dårligt**
+- Options: 0 ud af 5 handler vundet, -0,98 % i alt. AMZN-calls har tabt 3 gange i træk (5/11, 11/11, 16/11), og hver gang blev der købt igen kort efter et tab.
+- Hoved: AMZN -96 USD, -0,69 % i alt. Small: ingen handler. Krypto: flad.
+
+**Rettelse i dag:** Options-botten holder 7 dages pause i en aktie efter et tab. Det læses fra closed_trades.csv og kan ændres med OPT_LOSS_COOLDOWN_DAYS.
+
+**Tjek i morgen:** At options-botten ikke køber AMZN før 23. nov, og at small-ORB holder sig til max 5 %.
+
 ## 13. nov 2026 (fredag, data 13. nov + fredagstjek)
 
 **Gårsdagens rettelse (small-ORB max 5 %):** Ikke testet endnu. Small-botten handlede ikke i dag.
