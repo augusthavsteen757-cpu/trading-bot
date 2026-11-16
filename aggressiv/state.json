@@ -438,10 +438,10 @@
       "2026-11-16 17:56: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43": [
-      "2026-11-16 18:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
       "2026-11-16 18:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
-      "2026-11-16 18:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
+      "2026-11-16 18:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars",
+      "2026-11-16 18:41: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -665,30 +665,6 @@
         "tid": "2026-11-16T16:06:20.583882+00:00",
         "pris_ved_nyhed": 381.87,
         "udloeber": "2026-11-16T20:06:20.583882+00:00"
-      },
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Omtalt i BIS-reglen om remote-adgang til AI-chips; usikkerhed om eksportbegraensninger kan trykke kursen.",
-        "tid": "2026-11-16T15:41:19.379645+00:00",
-        "pris_ved_nyhed": 330.51,
-        "udloeber": "2026-11-16T18:41:19.379645+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Eksportregler for avancerede AI-chips rammer chipsektoren; AMD er direkte konkurrent og kan falde med.",
-        "tid": "2026-11-16T15:41:19.379645+00:00",
-        "pris_ved_nyhed": 504.51,
-        "udloeber": "2026-11-16T18:41:19.379645+00:00"
       },
       "NFLX": {
         "kilde": "nyhed",
@@ -2070,8 +2046,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 661.52,
-    "snitpris": 666.72,
+    "pris": 661.45,
+    "snitpris": 666.37,
     "svag": true
   },
   "marked_trend": null
