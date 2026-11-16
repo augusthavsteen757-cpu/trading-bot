@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64995.764500000005,
+  "last_btc_price": 64944.576499999996,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1239,18 +1239,6 @@
         "pris_ved_nyhed": 64744.97,
         "udloeber": "2026-11-16T21:48:52.393459+00:00"
       },
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Samme ETF-udstroemning og Fed-usikkerhed rammer ogsaa ETH som kryptomarkedets andenbedste aktiv.",
-        "tid": "2026-11-16T17:13:52.275985+00:00",
-        "pris_ved_nyhed": 1823.69,
-        "udloeber": "2026-11-16T21:13:52.275985+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1310,18 +1298,6 @@
         "tid": "2026-11-16T18:48:52.166975+00:00",
         "pris_ved_nyhed": 626.825,
         "udloeber": "2026-11-16T21:48:52.166975+00:00"
-      },
-      "GOOGL": {
-        "kilde": "nyhed",
-        "symbol": "GOOGL",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Anthropic er et AI-selskab hvor Google er stor investor; en vellykket IPO kan vaekke interesse i Googles AI-eksponering.",
-        "tid": "2026-11-16T18:13:52.413835+00:00",
-        "pris_ved_nyhed": 287.20500000000004,
-        "udloeber": "2026-11-16T21:13:52.413835+00:00"
       },
       "DLR": {
         "kilde": "nyhed",
