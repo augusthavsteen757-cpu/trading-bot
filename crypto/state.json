@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T14:59:30.137815+00:00",
+    "sidst_hentet": "2026-11-16T15:19:30.574331+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxrk51",
+        "tid": "2026-11-16T15:01:24+00:00",
+        "titel": "Ledger Adds Clear Signing to Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xxrgur",
         "tid": "2026-11-16T14:58:07+00:00",
@@ -477,16 +487,6 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xwxx8l",
-        "tid": "2026-11-15T15:13:50+00:00",
-        "titel": "Got my quarter of a bitcoin finally",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 45 naevner vores symboler (24 t)"
@@ -702,7 +702,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64335.81,
+  "last_btc_price": 64259.600000000006,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
