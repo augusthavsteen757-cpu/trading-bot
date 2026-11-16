@@ -162,7 +162,7 @@
       "orb_day": "2026-11-16",
       "pos": {
         "entry": 146.21,
-        "stop": 146.21,
+        "stop": 147.245,
         "stop_initial": 144.575,
         "high": 150.06,
         "qty": 69.0,
@@ -181,9 +181,8 @@
           "afstand_modstand_atr": 0.8,
           "atr_percentil_30d": 48.0
         },
-        "target": 151.11500000000007,
-        "luk_foer_luk": true,
-        "delsalg": true
+        "delsalg": true,
+        "setup_oprindelig": "orb"
       }
     },
     "UBER": {
@@ -444,10 +443,10 @@
       "2026-11-16 19:59: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 43 time-bars"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44": [
-      "2026-11-16 20:34: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars",
       "2026-11-16 20:39: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars",
       "2026-11-16 20:44: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars",
-      "2026-11-16 20:49: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars"
+      "2026-11-16 20:49: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars",
+      "2026-11-16 20:54: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 44 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2016,8 +2015,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 661.23,
-    "snitpris": 664.91,
+    "pris": 661.66,
+    "snitpris": 664.76,
     "svag": true
   },
   "marked_trend": null
