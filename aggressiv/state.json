@@ -450,10 +450,10 @@
       "2026-11-16 09:11: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<HTTPSConnection(host='paper-api.alpaca.markets', port=443) at 0x7f1ce0700050>, 'Connection to paper-api.alpaca.markets timed out. (connect timeout=None)'))"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41": [
-      "2026-11-16 16:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
       "2026-11-16 16:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
       "2026-11-16 16:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
-      "2026-11-16 16:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
+      "2026-11-16 16:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
+      "2026-11-16 16:41: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -467,7 +467,7 @@
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T16:21:19.832503+00:00",
+    "sidst_hentet": "2026-11-16T16:41:20.381256+00:00",
     "opslag": [
       {
         "id": "t3_1xxspo0",
@@ -2156,7 +2156,7 @@
       "CLRO",
       "GDHG"
     ],
-    "sidst": "2026-11-16T16:31:19.663425+00:00",
+    "sidst": "2026-11-16T16:41:20.076612+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2210,8 +2210,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 669.3,
-    "snitpris": 667.6,
+    "pris": 668.31,
+    "snitpris": 667.64,
     "svag": false
   },
   "marked_trend": null
