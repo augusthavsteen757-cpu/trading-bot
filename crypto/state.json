@@ -36,8 +36,48 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T15:55:19.236456+00:00",
+    "sidst_hentet": "2026-11-16T16:15:18.996834+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxtczb",
+        "tid": "2026-11-16T16:11:05+00:00",
+        "titel": "Solmate Announces GPU-as-a-Service For AI, Payable In Dollars Or Stablecoins On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxt6mt",
+        "tid": "2026-11-16T16:04:22+00:00",
+        "titel": "Me ha ido bien con Btc",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxt0yr",
+        "tid": "2026-11-16T15:58:35+00:00",
+        "titel": "Solana 1.0: Dropping -beta, And What Comes Next",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxsz5q",
+        "tid": "2026-11-16T15:56:36+00:00",
+        "titel": "Lily Liu ,President Of The Solana Foundation, On How Solana Makes Finance Flat",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xxswdx",
         "tid": "2026-11-16T15:53:38+00:00",
@@ -529,7 +569,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 53 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -758,7 +798,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64360.859500000006,
+  "last_btc_price": 64325.7035,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
