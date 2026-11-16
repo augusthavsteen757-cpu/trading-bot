@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64805.57,
+  "last_btc_price": 64901.125,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1226,20 +1226,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "SPY": {
-        "kilde": "nyhed",
-        "symbol": "SPY",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Rekordstore globale aktieindstroemninger og Goldman-forventning om stabil vaekst stoetter brede markeder.",
-        "tid": "2026-11-16T19:48:52.393459+00:00",
-        "pris_ved_nyhed": 738.495,
-        "udloeber": "2026-11-16T23:48:52.393459+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 30,
     "sidste_kald": "2026-11-16T20:03:52.217051+00:00",
@@ -1548,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T23:29:43.886596+00:00",
+    "sidst_hentet": "2026-11-16T23:49:43.798408+00:00",
     "opslag": [
       {
         "id": "t3_1xy42yi",
@@ -1891,6 +1878,16 @@
         "sub": "solana"
       },
       {
+        "id": "t3_1xxkrjp",
+        "tid": "2026-11-16T09:07:15+00:00",
+        "titel": "Comparing Bitcoin ONLY with S & P 500 is selection bias.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
         "id": "t3_1xxjyc9",
         "tid": "2026-11-16T08:14:04+00:00",
         "titel": "Bitcoin in 2014\u2026 \ud83d\udc80",
@@ -2031,7 +2028,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
