@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64972.7,
+  "last_btc_price": 64949.66,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1287,18 +1287,6 @@
         "pris_ved_nyhed": 507.01,
         "udloeber": "2026-11-16T22:03:52.217051+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Nyheden naevner TSLA, men ingen direkte sammenhaeng til Tesla-forretningen.",
-        "tid": "2026-11-16T20:03:52.217051+00:00",
-        "pris_ved_nyhed": 376.98,
-        "udloeber": "2026-11-16T21:03:52.217051+00:00"
-      },
       "SPY": {
         "kilde": "nyhed",
         "symbol": "SPY",
@@ -1323,30 +1311,6 @@
         "pris_ved_nyhed": 626.825,
         "udloeber": "2026-11-16T21:48:52.166975+00:00"
       },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Amnesty-rapporten om arbejdsforhold i Saudi-Arabien er tilbagevendende og sandsynligvis uden markedseffekt.",
-        "tid": "2026-11-16T19:03:51.559199+00:00",
-        "pris_ved_nyhed": 257.675,
-        "udloeber": "2026-11-16T21:03:51.559199+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Thread AI i Microsoft for Startups er en lille, ubetydelig nyhed for Microsofts \u00f8konomi.",
-        "tid": "2026-11-16T19:03:51.559199+00:00",
-        "pris_ved_nyhed": 520.105,
-        "udloeber": "2026-11-16T21:03:51.559199+00:00"
-      },
       "GOOGL": {
         "kilde": "nyhed",
         "symbol": "GOOGL",
@@ -1370,18 +1334,6 @@
         "tid": "2026-11-16T19:03:51.559199+00:00",
         "pris_ved_nyhed": 178.55,
         "udloeber": "2026-11-16T23:03:51.559199+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Apple-OpenEvidence-studiet er et lille forskningsprojekt uden \u00f8konomisk betydning p\u00e5 kort sigt.",
-        "tid": "2026-11-16T19:03:51.559199+00:00",
-        "pris_ved_nyhed": 353.28,
-        "udloeber": "2026-11-16T21:03:51.559199+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -1692,8 +1644,268 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T20:48:52.224829+00:00",
+    "sidst_hentet": "2026-11-16T21:08:51.437719+00:00",
     "opslag": [
+      {
+        "id": "t3_1xy0msa",
+        "tid": "2026-11-16T20:42:07+00:00",
+        "titel": "Bitcoin\u2019s slide reopens an old feud between crypto\u2019s most powerful founders",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xy0hb2",
+        "tid": "2026-11-16T20:36:06+00:00",
+        "titel": "Esperar\u00e9 antes de volver a comprar Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxzrao",
+        "tid": "2026-11-16T20:09:00+00:00",
+        "titel": "Inside Switzerland's Strange Bitcoin Experiment",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxygm2",
+        "tid": "2026-11-16T19:21:17+00:00",
+        "titel": "How the Bitcoin Tsunami Wave Works",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxy4po",
+        "tid": "2026-11-16T19:08:46+00:00",
+        "titel": "OpenRoboto Is Now On Solana Via Machine.fun",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxy31g",
+        "tid": "2026-11-16T19:06:58+00:00",
+        "titel": "I wish I discovered BTC a little earlier in 2017 or even 2019",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxy1cz",
+        "tid": "2026-11-16T19:05:12+00:00",
+        "titel": "Bitcoin Only",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxvan5",
+        "tid": "2026-11-16T17:22:38+00:00",
+        "titel": "Checking on the guys I told to buy bitcoin at $125k",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxux9g",
+        "tid": "2026-11-16T17:08:58+00:00",
+        "titel": "The Anthropic IPO on Thursday is draining BTC liquidity right now",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxumc0",
+        "tid": "2026-11-16T16:58:07+00:00",
+        "titel": "What's the best place to borrow on Solana using SOL as collateral?",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxtxy1",
+        "tid": "2026-11-16T16:33:03+00:00",
+        "titel": "Sunrise Introduces The Sunrise API, The Stock Market On Solana Through One Integration",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxttwm",
+        "tid": "2026-11-16T16:28:44+00:00",
+        "titel": "Bitcoin has only been below its 200-week moving average for 8.4% of its lifetime. The average return on bitcoin bought d",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxtczb",
+        "tid": "2026-11-16T16:11:05+00:00",
+        "titel": "Solmate Announces GPU-as-a-Service For AI, Payable In Dollars Or Stablecoins On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxt0yr",
+        "tid": "2026-11-16T15:58:35+00:00",
+        "titel": "Solana 1.0: Dropping -beta, And What Comes Next",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxsz5q",
+        "tid": "2026-11-16T15:56:36+00:00",
+        "titel": "Lily Liu ,President Of The Solana Foundation, On How Solana Makes Finance Flat",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxswdx",
+        "tid": "2026-11-16T15:53:38+00:00",
+        "titel": "Zelle Just Sent $1.25M In Its First Confidential Transfer Using ZelleUSD ($ZLUSD) On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxsksl",
+        "tid": "2026-11-16T15:40:54+00:00",
+        "titel": "Vitalik Buterin Defends Ethereum Gas Overhaul Amid Glamsterdam Upgrade Delay",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
+      {
+        "id": "t3_1xxs7gz",
+        "tid": "2026-11-16T15:26:40+00:00",
+        "titel": "AllFunds CEO, Annabel Spring, Names The First Asset Managers To Distribute Tokenized Funds On Solana Through Project Har",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxs4ck",
+        "tid": "2026-11-16T15:23:13+00:00",
+        "titel": "PJ Bain (@pjbain), CEO Of PrimeRevenue, On How Its Payment Drafts Work On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxs4b6",
+        "tid": "2026-11-16T15:23:11+00:00",
+        "titel": "Cordaxyz, An Onchain Structured Product Built For Solana DeFi, Is Live On Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxs1yo",
+        "tid": "2026-11-16T15:20:37+00:00",
+        "titel": "Solana Breakpoint 2026 - Day 1",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxrk51",
+        "tid": "2026-11-16T15:01:24+00:00",
+        "titel": "Ledger Adds Clear Signing to Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxrgur",
+        "tid": "2026-11-16T14:58:07+00:00",
+        "titel": "SoFi Calls Solana Its Favorite for New Onchain Assets",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxrf0j",
+        "tid": "2026-11-16T14:56:09+00:00",
+        "titel": "Western Union Integrates Solana for Global Cash-Outs",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxrcdi",
+        "tid": "2026-11-16T14:53:07+00:00",
+        "titel": "Zelle Completes First Confidential Transfer on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xxr1aa",
+        "tid": "2026-11-16T14:40:50+00:00",
+        "titel": "Are you in profit or on lose from BTC investment?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxpmp8",
         "tid": "2026-11-16T13:41:27+00:00",
@@ -1708,6 +1920,16 @@
         "id": "t3_1xxmwna",
         "tid": "2026-11-16T11:20:34+00:00",
         "titel": "What does a coffee shop learn when your wallet spends a 1 BTC UTXO?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxmrdd",
+        "tid": "2026-11-16T11:11:56+00:00",
+        "titel": "How much bitcoin has an exposed public key? I put the 10k vs 7M estimates side by side",
         "symboler": [
           "BTC/USD"
         ],
@@ -1903,199 +2125,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx6t32",
-        "tid": "2026-11-15T21:08:05+00:00",
-        "titel": "Bitcoin is *not* the best money",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx6d5i",
-        "tid": "2026-11-15T20:49:35+00:00",
-        "titel": "I\u2019ve lost everything Bitcoin is doomed",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx5job",
-        "tid": "2026-11-15T20:15:50+00:00",
-        "titel": "Solana RPC, WebSocket and gRPC on one API key, gRPC on mainnet from $20 a month: Carbium services",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xx52b3",
-        "tid": "2026-11-15T19:57:01+00:00",
-        "titel": "I bought 1BTC a year ago today, I bought shares a year ago today.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx4h6r",
-        "tid": "2026-11-15T19:33:21+00:00",
-        "titel": "Once BTC\u2019s 4-year cycle yields less than 2x returns per cycle, it would be better off investing in a Nasdaq-100 index ET",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx4bs0",
-        "tid": "2026-11-15T19:27:14+00:00",
-        "titel": "If you bought $100K of bitcoin 5 years ago, you would have $108K today. If you bought VOO, you would have $161K.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx3wds",
-        "tid": "2026-11-15T19:10:16+00:00",
-        "titel": "bitcoin will be 170k-200k in sep 2029",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx32nb",
-        "tid": "2026-11-15T18:37:28+00:00",
-        "titel": "My Bitcoin journey this year so far",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx2lsc",
-        "tid": "2026-11-15T18:19:03+00:00",
-        "titel": "The Only Real \"Fundamental\" Bitcoin Indicator I Know Of Says It May Be Time To Buy.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xx2lls",
-        "tid": "2026-11-15T18:18:50+00:00",
-        "titel": "We're Giving Away a Free Solana Breakpoint 2026 Ticket!",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xx2iyk",
-        "tid": "2026-11-15T18:16:01+00:00",
-        "titel": "Bitcoin will recapture $100k soon! LFG! \ud83d\ude80\ud83c\udf15",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx1zzg",
-        "tid": "2026-11-15T17:55:29+00:00",
-        "titel": "Who Pays to Mine Bitcoin\u2019s Play Money? Inside the Launch of Testnet5.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx1zdf",
-        "tid": "2026-11-15T17:54:52+00:00",
-        "titel": "Who Pays to Mine Bitcoin\u2019s Play Money? Inside the Launch of Testnet5.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xx17mh",
-        "tid": "2026-11-15T17:24:52+00:00",
-        "titel": "Bought my first BTC",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwzv9c",
-        "tid": "2026-11-15T16:32:58+00:00",
-        "titel": "What happened? I don't get it why is solana going down so much?",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xwytsb",
-        "tid": "2026-11-15T15:51:31+00:00",
-        "titel": "Bitcoin fear is high... so should you buy?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwyfae",
-        "tid": "2026-11-15T15:34:50+00:00",
-        "titel": "Solana Ecosystem News - November 15-2026",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xwxx8l",
-        "tid": "2026-11-15T15:13:50+00:00",
-        "titel": "Got my quarter of a bitcoin finally",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwxcb5",
-        "tid": "2026-11-15T14:49:47+00:00",
-        "titel": "Coinbase is where bitcoin is getting sold: market sells there have outrun market buys by $947M this month. On Binance, t",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
