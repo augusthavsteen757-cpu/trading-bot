@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T19:55:19.156164+00:00",
+    "sidst_hentet": "2026-11-16T20:15:18.368352+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxzrao",
+        "tid": "2026-11-16T20:09:00+00:00",
+        "titel": "Inside Switzerland's Strange Bitcoin Experiment",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxygm2",
         "tid": "2026-11-16T19:21:17+00:00",
@@ -557,16 +567,6 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xx52b3",
-        "tid": "2026-11-15T19:57:01+00:00",
-        "titel": "I bought 1BTC a year ago today, I bought shares a year ago today.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 53 naevner vores symboler (24 t)"
@@ -750,7 +750,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 65020.27,
+  "last_btc_price": 64960.6415,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
