@@ -148,7 +148,7 @@
         "entry": 12.195,
         "stop": 12.0775,
         "stop_initial": 12.0775,
-        "high": 12.195,
+        "high": 12.2,
         "qty": 1647.0,
         "entry_tid": "2026-11-16 16:11",
         "setup": "orb",
@@ -235,7 +235,8 @@
     "MOD": {},
     "CBRS": {},
     "CGON": {},
-    "CLRO": {}
+    "CLRO": {},
+    "GDHG": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -446,6 +447,9 @@
     ],
     "teknisk fejl: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpa": [
       "2026-11-16 09:11: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<HTTPSConnection(host='paper-api.alpaca.markets', port=443) at 0x7f1ce0700050>, 'Connection to paper-api.alpaca.markets timed out. (connect timeout=None)'))"
+    ],
+    "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41": [
+      "2026-11-16 16:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -2133,9 +2137,10 @@
       "SNDQ",
       "SOXS",
       "CGON",
-      "CLRO"
+      "CLRO",
+      "GDHG"
     ],
-    "sidst": "2026-11-16T16:06:19.416104+00:00",
+    "sidst": "2026-11-16T16:16:19.855236+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2146,6 +2151,7 @@
       "CLRO",
       "CRWG",
       "FCUV",
+      "GDHG",
       "LUNR",
       "MF",
       "MOD",
@@ -2177,7 +2183,8 @@
       "CBRS": "Cerebras Systems Inc. Class A Common Stock",
       "SOXS": "Direxion Daily Semiconductor Bear 3X ETF",
       "CGON": "CG Oncology, Inc. Common stock",
-      "CLRO": "ClearOne, Inc. Common Stock"
+      "CLRO": "ClearOne, Inc. Common Stock",
+      "GDHG": "Golden Heaven Group Holdings Ltd. Class A Ordinary Shares"
     },
     "omvendt": [
       "NVD",
@@ -2187,9 +2194,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 668.02,
-    "snitpris": 667.38,
-    "svag": false
+    "pris": 666.32,
+    "snitpris": 667.34,
+    "svag": true
   },
   "marked_trend": null
 }
