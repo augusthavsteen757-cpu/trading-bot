@@ -39,6 +39,9 @@
     "gevinst: orb i range": [
       "2026-11-12 17:50: EQIX: maal naaet. R=+2.22. Entry 1071, exit 1077. Grund til koeb: ORB breakout {'or_high': 1070.1, 'or_low': 1066.83, 'sidste_luk': 1071.04}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 60.8, 'adx_1h': 16.2, 'rel_volumen_1h': 1.08, 'afstand_modstand_atr': 0.73, 'atr_percentil_30d': 73.9}",
       "2026-11-12 20:50: DLR: dagens slut (ORB). R=+0.35. Entry 183, exit 183. Grund til koeb: ORB breakout {'or_high': 182.9, 'or_low': 180.32, 'sidste_luk': 182.97}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 0, 'rsi_1h': 59.4, 'adx_1h': 19.5, 'rel_volumen_1h': 1.24, 'afstand_modstand_atr': 0.57, 'atr_percentil_30d': 70.4}"
+    ],
+    "teknisk fejl: APIError: <html>\r\n<head><title>500 Internal Server": [
+      "2026-11-16 09:11: APIError: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
     ]
   },
   "ai_day": "2026-11-16",

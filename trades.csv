@@ -21217,3 +21217,11 @@ Risikoen er forhøjet, og signalet bør behandles med forsigtighed.","neutral(2)
 2026-11-16 09:06,BTC/USD,64329.21,high_vol,range_bund,nej (kun 1.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99391.98,-0.608,82728.97,-17.271,-0.045,-1.06,1.6671,
 2026-11-16 09:06,ETH/USD,1794.94,high_vol,range_bund,nej (kun 2.1% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99391.98,-0.608,82728.97,-17.271,-0.045,-1.06,1.6671,
 2026-11-16 09:06,SOL/USD,70.55,high_vol,range_bund,nej (kun 2.0% til modstand (krypto kraever 3% pga. gebyr)),,,,,,,,,,,,,HOLD,,,,99391.98,-0.608,82728.97,-17.271,-0.045,-1.06,1.6671,
+2026-11-16 09:11,ALLE,,,,,,,,,,,,,,,,,FEJL (APIError),,,,,,,,,,,"APIError: <html>
+<head><title>500 Internal Server Error</title></head>
+<body>
+<center><h1>500 Internal Server Error</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+"
