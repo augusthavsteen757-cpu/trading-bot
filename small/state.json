@@ -241,7 +241,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.795,
+  "last_btc_price": 4.825,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1242,8 +1242,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 274.2,
-    "snitpris": 275.06,
+    "pris": 274.51,
+    "snitpris": 275.05,
     "svag": true
   },
   "marked_trend": -1
