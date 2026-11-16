@@ -36,8 +36,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T20:30:18.511621+00:00",
+    "sidst_hentet": "2026-11-16T20:45:19.139944+00:00",
     "opslag": [
+      {
+        "id": "t3_1xy0msa",
+        "tid": "2026-11-16T20:42:07+00:00",
+        "titel": "Bitcoin\u2019s slide reopens an old feud between crypto\u2019s most powerful founders",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xy0hb2",
+        "tid": "2026-11-16T20:36:06+00:00",
+        "titel": "Esperar\u00e9 antes de volver a comprar Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxzrao",
         "tid": "2026-11-16T20:09:00+00:00",
@@ -559,7 +579,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 52 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 54 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -740,7 +760,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64894.95849999999,
+  "last_btc_price": 64923.770000000004,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
