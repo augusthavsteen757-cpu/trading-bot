@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T06:03:56.011162+00:00",
+    "sidst_hentet": "2026-11-16T06:23:55.474632+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxhu9j",
+        "tid": "2026-11-16T06:04:03+00:00",
+        "titel": "Yeah and we got 64K btc in 2026",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxhd7d",
         "tid": "2026-11-16T05:36:05+00:00",
@@ -446,7 +456,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -616,7 +626,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64340.6045,
+  "last_btc_price": 64342.229,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
