@@ -135,20 +135,7 @@
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktien falder allerede forud for regnskab efter lukning. Usikkerheden kan skabe volatilitet, men faldet ser ud til at vaere indregnet, og retningen efter regnskab er uklar.",
-        "tid": "2026-11-16T17:55:23.740150+00:00",
-        "pris_ved_nyhed": 3.585,
-        "udloeber": "2026-11-16T19:55:23.740150+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-16T17:55:23.740150+00:00",
@@ -253,7 +240,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.805,
+  "last_btc_price": 4.785,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1254,7 +1241,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 273.17,
+    "pris": 273.21,
     "snitpris": 274.04,
     "svag": true
   },
