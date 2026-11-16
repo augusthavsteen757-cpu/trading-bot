@@ -638,18 +638,6 @@
         "tid": "2026-11-16T16:20:18.844024+00:00",
         "pris_ved_nyhed": 70.44999999999999,
         "udloeber": "2026-11-16T18:20:18.844024+00:00"
-      },
-      "DOGE/USD": {
-        "kilde": "nyhed",
-        "symbol": "DOGE/USD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Doge er nede 48% fra september-toppen og brudte stoette; risiko for yderligere fald mod $0.04. Faldet er allerede synligt i prisen.",
-        "tid": "2026-11-16T15:39:31.448010+00:00",
-        "pris_ved_nyhed": 0.05824235,
-        "udloeber": "2026-11-16T17:39:31.448010+00:00"
       }
     },
     "dag": "2026-11-16",
@@ -829,7 +817,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64851.89750000001,
+  "last_btc_price": 64964.405,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
