@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 18.39** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 18.44** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 18.39
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 18.44
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 18.39** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 18.20
+**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 18.40
 
 **Ejer nu:** intet
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 18.39** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.693 USD  ·  **I alt:** -1.307 USD (-1.31 %)  ·  **I dag:** +0.33 %  ·  sidst opdateret 16/11 18.35
+**Konto:** 98.701 USD  ·  **I alt:** -1.299 USD (-1.30 %)  ·  **I dag:** +0.34 %  ·  sidst opdateret 16/11 18.40
 
 **Ejer nu:** intet
 
@@ -66,24 +66,23 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 18.39** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.813 USD  ·  **I alt:** +813 USD (+0.81 %)  ·  **I dag:** +0.38 %  ·  sidst opdateret 16/11 18.36
+**Konto:** 100.774 USD  ·  **I alt:** +774 USD (+0.77 %)  ·  **I dag:** +0.29 %  ·  sidst opdateret 16/11 18.41
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -579 USD (2 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -599 USD (2 vundet), BREMSE (halv stoerrelse)
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
-| RIVN | 1647 | 12.20 | 16/11 17.11 |
 | SHOP | 69 | 146.21 | 16/11 17.06 |
 
-**Lukkede handler:** 42 i alt, 13 med gevinst, samlet +1.552 USD
+**Lukkede handler:** 43 i alt, 13 med gevinst, samlet +1.527 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ RIVN | 16/11 18.41 | -25 USD | tidsstop (90 min uden gevinst) |
 | ✅ SHOP | 16/11 17.26 | +137 USD | halvdel solgt (+1R) |
 | ❌ SOXS | 13/11 18.14 | -984 USD | tidsstop (90 min uden gevinst) |
 | ❌ MARA | 12/11 18.47 | -1 USD | tidsstop (90 min uden gevinst) |
 | ❌ AVGO | 12/11 18.47 | -46 USD | tidsstop (90 min uden gevinst) |
-| ❌ SHOP | 12/11 18.32 | -25 USD | tidsstop (90 min uden gevinst) |
 
