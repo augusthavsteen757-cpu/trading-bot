@@ -33,8 +33,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T00:28:04.847426+00:00",
+    "sidst_hentet": "2026-11-16T00:48:04.577633+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxbiwt",
+        "tid": "2026-11-16T00:35:31+00:00",
+        "titel": "Bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxbcnp",
         "tid": "2026-11-16T00:27:10+00:00",
@@ -436,23 +446,10 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ETH/USD": {
-        "kilde": "nyhed",
-        "symbol": "ETH/USD",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Samme kraefter som BTC; ETH foelger typisk markedet ned ved likvidationer og svag ETF-efterspoergsel.",
-        "tid": "2026-11-15T21:47:18.665366+00:00",
-        "pris_ved_nyhed": 1822.7975,
-        "udloeber": "2026-11-16T00:47:18.665366+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 0,
     "sidste_kald": "2026-11-15T21:47:18.665366+00:00",
@@ -619,7 +616,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64733.753,
+  "last_btc_price": 64896.600000000006,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
