@@ -119,7 +119,7 @@
   "day_start_equity": 99265.06,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-16T19:50:22.212016+00:00",
+    "sidst_hentet": "2026-11-16T20:10:22.157190+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -240,7 +240,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.765,
+  "last_btc_price": 4.775,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
