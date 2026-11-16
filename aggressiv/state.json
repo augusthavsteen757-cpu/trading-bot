@@ -186,10 +186,10 @@
       "orb_day": "2026-11-16",
       "pos": {
         "entry": 146.21,
-        "stop": 144.575,
+        "stop": 146.21,
         "stop_initial": 144.575,
         "high": 147.37,
-        "qty": 137.0,
+        "qty": 69.0,
         "entry_tid": "2026-11-16 16:06",
         "setup": "orb",
         "regime": "range",
@@ -206,7 +206,8 @@
           "atr_percentil_30d": 48.0
         },
         "target": 151.11500000000007,
-        "luk_foer_luk": true
+        "luk_foer_luk": true,
+        "delsalg": true
       }
     },
     "UBER": {
@@ -450,7 +451,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41": [
       "2026-11-16 16:16: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
-      "2026-11-16 16:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
+      "2026-11-16 16:21: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
+      "2026-11-16 16:26: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -459,7 +461,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.0617186,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -607 USD (2 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -579 USD (2 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-16",
   "day_start_equity": 100439.52,
   "peak_equity": 105445.49,
@@ -2195,8 +2197,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 667.89,
-    "snitpris": 667.35,
+    "pris": 669.21,
+    "snitpris": 667.4,
     "svag": false
   },
   "marked_trend": null
