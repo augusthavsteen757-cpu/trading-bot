@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64873.32,
+  "last_btc_price": 64882.399999999994,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1227,18 +1227,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "SOL/USD": {
-        "kilde": "nyhed",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Blockchain-ros kan give lidt positiv stemning for altcoins, men det er uspecifikt og svagt.",
-        "tid": "2026-11-16T19:48:52.393459+00:00",
-        "pris_ved_nyhed": 71.01,
-        "udloeber": "2026-11-16T20:48:52.393459+00:00"
-      },
       "BTC/USD": {
         "kilde": "nyhed",
         "symbol": "BTC/USD",
@@ -1704,7 +1692,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T20:33:51.924855+00:00",
+    "sidst_hentet": "2026-11-16T20:48:52.224829+00:00",
     "opslag": [
       {
         "id": "t3_1xxpmp8",
@@ -2112,8 +2100,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 660.88,
-    "snitpris": 665.03,
+    "pris": 661.23,
+    "snitpris": 664.91,
     "svag": true
   },
   "marked_trend": -1
