@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 17.24** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 17.29** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 17.24
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.12 %  ·  sidst opdateret 16/11 17.29
 
 **Ejer nu:** intet
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 17.24** (dansk tid). Ku
 
 ## 🔴 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 98.486 USD  ·  **I alt:** -1.514 USD (-1.51 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 16/11 17.20
+**Konto:** 98.453 USD  ·  **I alt:** -1.547 USD (-1.55 %)  ·  **I dag:** +0.09 %  ·  sidst opdateret 16/11 17.25
 
 **Ejer nu:** intet
 
@@ -66,24 +66,24 @@ Opdateres af sig selv hvert 5. minut. Sidst: **16/11 kl. 17.24** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.626 USD  ·  **I alt:** +626 USD (+0.63 %)  ·  **I dag:** +0.12 %  ·  sidst opdateret 16/11 17.21
+**Konto:** 100.721 USD  ·  **I alt:** +721 USD (+0.72 %)  ·  **I dag:** +0.29 %  ·  sidst opdateret 16/11 17.26
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -607 USD (2 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -579 USD (2 vundet), BREMSE (halv stoerrelse)
 
 **Ejer nu:**
 
 | Hvad | Antal | Købt til | Købt |
 |---|---|---|---|
 | RIVN | 1647 | 12.20 | 16/11 17.11 |
-| SHOP | 137 | 146.21 | 16/11 17.06 |
+| SHOP | 69 | 146.21 | 16/11 17.06 |
 
-**Lukkede handler:** 41 i alt, 12 med gevinst, samlet +1.415 USD
+**Lukkede handler:** 42 i alt, 13 med gevinst, samlet +1.552 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ SHOP | 16/11 17.26 | +137 USD | halvdel solgt (+1R) |
 | ❌ SOXS | 13/11 18.14 | -984 USD | tidsstop (90 min uden gevinst) |
 | ❌ MARA | 12/11 18.47 | -1 USD | tidsstop (90 min uden gevinst) |
 | ❌ AVGO | 12/11 18.47 | -46 USD | tidsstop (90 min uden gevinst) |
 | ❌ SHOP | 12/11 18.32 | -25 USD | tidsstop (90 min uden gevinst) |
-| ❌ HOOD | 12/11 18.32 | -0 USD | tidsstop (90 min uden gevinst) |
 
