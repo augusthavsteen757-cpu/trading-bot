@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64494.025,
+  "last_btc_price": 64325.341,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1798,7 +1798,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T05:41:13.764367+00:00",
+    "sidst_hentet": "2026-11-16T05:56:14.212115+00:00",
     "opslag": [
       {
         "id": "t3_1xxhd7d",
@@ -2179,19 +2179,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xwns18",
-        "tid": "2026-11-15T05:51:02+00:00",
-        "titel": "The Only 4 Things That Can Actually Kill Bitcoin (And Why Everything Else Is Just Bear Market Amnesia).",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
