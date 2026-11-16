@@ -249,7 +249,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64456.7055,
+  "last_btc_price": 64456.33,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1814,8 +1814,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T10:31:55.786660+00:00",
+    "sidst_hentet": "2026-11-16T10:51:55.844570+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxm82w",
+        "tid": "2026-11-16T10:39:46+00:00",
+        "titel": "JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xxjyc9",
         "tid": "2026-11-16T08:14:04+00:00",
@@ -2187,7 +2197,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
