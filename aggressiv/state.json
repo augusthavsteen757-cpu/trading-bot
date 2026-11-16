@@ -450,10 +450,10 @@
       "2026-11-16 09:11: ConnectTimeout: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by ConnectTimeoutError(<HTTPSConnection(host='paper-api.alpaca.markets', port=443) at 0x7f1ce0700050>, 'Connection to paper-api.alpaca.markets timed out. (connect timeout=None)'))"
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41": [
-      "2026-11-16 16:31: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
       "2026-11-16 16:36: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
       "2026-11-16 16:41: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
-      "2026-11-16 16:46: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
+      "2026-11-16 16:46: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars",
+      "2026-11-16 16:51: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 41 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -722,18 +722,6 @@
         "pris_ved_nyhed": 504.51,
         "udloeber": "2026-11-16T18:41:19.379645+00:00"
       },
-      "CGON": {
-        "kilde": "nyhed",
-        "symbol": "CGON",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Positiv Fase 3-data (HR 0,32) er kendt fra 13:03 UTC og er sandsynligvis delvist indpriset, men nye detaljer kan trigge kobmomentum.",
-        "tid": "2026-11-16T14:46:21.607839+00:00",
-        "pris_ved_nyhed": 83.86,
-        "udloeber": "2026-11-16T16:46:21.607839+00:00"
-      },
       "HOOD": {
         "kilde": "nyhed",
         "symbol": "HOOD",
@@ -745,18 +733,6 @@
         "tid": "2026-11-16T14:46:21.607839+00:00",
         "pris_ved_nyhed": 75.105,
         "udloeber": "2026-11-16T17:46:21.607839+00:00"
-      },
-      "RIVN": {
-        "kilde": "nyhed",
-        "symbol": "RIVN",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Citi saenker kursmaal til 14,50 med Hold-rating, hvilket kan give negativt sentiment.",
-        "tid": "2026-11-16T14:46:21.607839+00:00",
-        "pris_ved_nyhed": 12.245000000000001,
-        "udloeber": "2026-11-16T16:46:21.607839+00:00"
       },
       "RIOT": {
         "kilde": "nyhed",
@@ -2210,9 +2186,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 668.17,
+    "pris": 667.2,
     "snitpris": 667.66,
-    "svag": false
+    "svag": true
   },
   "marked_trend": null
 }
