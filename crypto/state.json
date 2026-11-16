@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-16T19:20:19.185242+00:00",
+    "sidst_hentet": "2026-11-16T19:40:19.145190+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxygm2",
+        "tid": "2026-11-16T19:21:17+00:00",
+        "titel": "How the Bitcoin Tsunami Wave Works",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xxy4po",
         "tid": "2026-11-16T19:08:46+00:00",
@@ -557,29 +567,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx4h6r",
-        "tid": "2026-11-15T19:33:21+00:00",
-        "titel": "Once BTC\u2019s 4-year cycle yields less than 2x returns per cycle, it would be better off investing in a Nasdaq-100 index ET",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xx4bs0",
-        "tid": "2026-11-15T19:27:14+00:00",
-        "titel": "If you bought $100K of bitcoin 5 years ago, you would have $108K today. If you bought VOO, you would have $161K.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 54 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 53 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -760,7 +750,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64812.85,
+  "last_btc_price": 64748.015,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
