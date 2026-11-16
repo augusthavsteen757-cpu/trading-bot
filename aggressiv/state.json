@@ -139,11 +139,35 @@
       ]
     },
     "RIVN": {
-      "orb_day": "2026-11-06",
+      "orb_day": "2026-11-16",
       "last_entry_eval": "2026-11-11T14:35:25.659837+00:00",
       "last_entry_setups": [
         "trend_pullback"
-      ]
+      ],
+      "pos": {
+        "entry": 12.195,
+        "stop": 12.0775,
+        "stop_initial": 12.0775,
+        "high": 12.195,
+        "qty": 1647.0,
+        "entry_tid": "2026-11-16 16:11",
+        "setup": "orb",
+        "regime": "trend_ned",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 12.19, 'or_low': 11.96, 'sidste_luk': 12.27}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 26.4,
+          "adx_1h": 43.3,
+          "rel_volumen_1h": 0.4,
+          "afstand_modstand_atr": 2.46,
+          "atr_percentil_30d": 64.5
+        },
+        "target": 12.5475,
+        "luk_foer_luk": true
+      }
     },
     "ARM": {
       "last_entry_eval": "2026-11-11T14:35:37.509877+00:00",
@@ -164,7 +188,7 @@
         "entry": 146.21,
         "stop": 144.575,
         "stop_initial": 144.575,
-        "high": 146.21,
+        "high": 146.36,
         "qty": 137.0,
         "entry_tid": "2026-11-16 16:06",
         "setup": "orb",
@@ -2163,8 +2187,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 667.77,
-    "snitpris": 667.36,
+    "pris": 668.02,
+    "snitpris": 667.38,
     "svag": false
   },
   "marked_trend": null
