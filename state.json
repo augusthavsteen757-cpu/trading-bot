@@ -246,7 +246,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64984.275,
+  "last_btc_price": 64829.494999999995,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1811,8 +1811,28 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T00:20:27.218743+00:00",
+    "sidst_hentet": "2026-11-16T00:40:26.819850+00:00",
     "opslag": [
+      {
+        "id": "t3_1xxbiwt",
+        "tid": "2026-11-16T00:35:31+00:00",
+        "titel": "Bitcoin.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xxbcnp",
+        "tid": "2026-11-16T00:27:10+00:00",
+        "titel": "Bitcoin bears keep talking about 5 year CAGR. What about 4 year?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xx9auy",
         "tid": "2026-11-15T22:55:25+00:00",
@@ -2164,7 +2184,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 35 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 37 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
