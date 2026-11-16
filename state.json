@@ -249,7 +249,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64321.011,
+  "last_btc_price": 64198.0,
   "earnings_cache": {
     "2026-11-08": [
       "GFR",
@@ -1492,20 +1492,7 @@
     "2026-11-14": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "BTC/USD": {
-        "kilde": "nyhed",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Blandet aktiemarked og Nvidia-chipspolitik har ingen direkte kobling til BTC; svag indirekte risikosentiment-effekt.",
-        "tid": "2026-11-16T10:06:13.768637+00:00",
-        "pris_ved_nyhed": 64275.774999999994,
-        "udloeber": "2026-11-16T12:06:13.768637+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-16",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-16T10:06:13.768637+00:00",
