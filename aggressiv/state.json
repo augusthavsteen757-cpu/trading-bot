@@ -457,7 +457,8 @@
     ],
     "teknisk fejl: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42": [
       "2026-11-16 17:01: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
-      "2026-11-16 17:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
+      "2026-11-16 17:06: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars",
+      "2026-11-16 17:11: GDHG: RuntimeError: For lidt data for GDHG: 208 dag-bars, 42 time-bars"
     ]
   },
   "budget_month": "2026-11",
@@ -757,18 +758,6 @@
         "tid": "2026-11-16T14:46:21.607839+00:00",
         "pris_ved_nyhed": 75.105,
         "udloeber": "2026-11-16T17:46:21.607839+00:00"
-      },
-      "RIOT": {
-        "kilde": "nyhed",
-        "symbol": "RIOT",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bitcoin-miner RIOT er korreleret med BTC, s\u00e5 et prisfald i kryptomarkedet p\u00e5virker aktien negativt.",
-        "tid": "2026-11-16T15:11:20.325660+00:00",
-        "pris_ved_nyhed": 16.71,
-        "udloeber": "2026-11-16T17:11:20.325660+00:00"
       },
       "SMCI": {
         "kilde": "nyhed",
@@ -2144,7 +2133,7 @@
       "CLRO",
       "GDHG"
     ],
-    "sidst": "2026-11-16T16:56:20.059386+00:00",
+    "sidst": "2026-11-16T17:11:20.085813+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -2198,8 +2187,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 667.0,
-    "snitpris": 667.66,
+    "pris": 666.84,
+    "snitpris": 667.65,
     "svag": true
   },
   "marked_trend": null
