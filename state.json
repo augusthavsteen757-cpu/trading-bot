@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63979.149999999994,
+  "last_btc_price": 63966.76,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1434,7 +1434,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T20:59:19.656564+00:00",
+    "sidst_hentet": "2026-11-17T21:19:18.324937+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1869,7 +1869,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/CryptoCurrency+Bit"
   },
   "scan": {},
   "marked": {},
