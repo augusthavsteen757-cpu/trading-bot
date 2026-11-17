@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63463.7,
+  "last_btc_price": 63849.1,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1125,18 +1125,6 @@
         "pris_ved_nyhed": 179.73000000000002,
         "udloeber": "2026-11-17T18:34:05.931316+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Intern prediction market-app er et produktforsoeg uden oekonomisk betydning for indtjening. Forventes ikke at bevaege aktien.",
-        "tid": "2026-11-17T16:04:08.219916+00:00",
-        "pris_ved_nyhed": 618.785,
-        "udloeber": "2026-11-17T17:04:08.219916+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -1898,8 +1886,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 652.77,
-    "snitpris": 654.32,
+    "pris": 650.95,
+    "snitpris": 654.3,
     "svag": true
   },
   "marked_trend": -1
