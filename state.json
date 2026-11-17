@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 65000.135,
+  "last_btc_price": 64968.6965,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T04:27:08.065186+00:00",
+    "sidst_hentet": "2026-11-17T04:47:07.382247+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyb30h",
+        "tid": "2026-11-17T04:28:47+00:00",
+        "titel": "Everytime non bitcoiner talks about non bitcoin in here",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xy7fz3",
         "tid": "2026-11-17T01:29:40+00:00",
@@ -1978,7 +1988,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 45 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
