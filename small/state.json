@@ -140,20 +140,7 @@
     "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "ned",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Tilbagetrukket helaarsomsaetningsmaal er et klart negativt signal og ofte overraskende for investorer. Opkoeb af Steyr Motors kan give usikkerhed om kapitalbehov.",
-        "tid": "2026-11-17T14:34:59.484483+00:00",
-        "pris_ved_nyhed": 2.6550000000000002,
-        "udloeber": "2026-11-17T18:34:59.484483+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-17",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-17T14:34:59.484483+00:00",
@@ -261,7 +248,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.425,
+  "last_btc_price": 4.395,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1123,9 +1110,9 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 270.59,
-    "snitpris": 270.43,
-    "svag": false
+    "pris": 270.35,
+    "snitpris": 270.42,
+    "svag": true
   },
   "marked_trend": -1
 }
