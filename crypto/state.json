@@ -36,12 +36,32 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:22:43.780679+00:00",
+    "sidst_hentet": "2026-11-17T15:42:43.971553+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyngvu",
+        "tid": "2026-11-17T15:33:24+00:00",
+        "titel": "Crossmint launches confidential onramp on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xymzfp",
         "tid": "2026-11-17T15:14:34+00:00",
         "titel": "MoonPay\u2019s PayBox Brings The Solana Ecosystem To AI Agents",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xymwl6",
+        "tid": "2026-11-17T15:11:23+00:00",
+        "titel": "Solana Breakpoint 2027 Lands In San Francisco (USA) On September 8 -10, 2027",
         "symboler": [
           "SOL/USD"
         ],
@@ -409,49 +429,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xxsksl",
-        "tid": "2026-11-16T15:40:54+00:00",
-        "titel": "Vitalik Buterin Defends Ethereum Gas Overhaul Amid Glamsterdam Upgrade Delay",
-        "symboler": [
-          "ETH/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
-      },
-      {
-        "id": "t3_1xxs7gz",
-        "tid": "2026-11-16T15:26:40+00:00",
-        "titel": "AllFunds CEO, Annabel Spring, Names The First Asset Managers To Distribute Tokenized Funds On Solana Through Project Har",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxs4ck",
-        "tid": "2026-11-16T15:23:13+00:00",
-        "titel": "PJ Bain (@pjbain), CEO Of PrimeRevenue, On How Its Payment Drafts Work On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxs4b6",
-        "tid": "2026-11-16T15:23:11+00:00",
-        "titel": "Cordaxyz, An Onchain Structured Product Built For Solana DeFi, Is Live On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -632,7 +612,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64702.4,
+  "last_btc_price": 64245.45,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
