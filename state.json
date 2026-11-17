@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63933.5685,
+  "last_btc_price": 63851.174499999994,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1088,20 +1088,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "DLR": {
-        "kilde": "nyhed",
-        "symbol": "DLR",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 4,
-        "begrundelse": "Flere nyheder om nye innovationslabs, ny netforbindelse i Frankfurt og AI-infrastruktur styrker efterspoergselsfortaellingen for datacentre.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 179.73000000000002,
-        "udloeber": "2026-11-17T18:34:05.931316+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-17",
     "kald_i_dag": 2,
     "sidste_kald": "2026-11-17T16:04:08.219916+00:00",
@@ -1850,8 +1837,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 654.78,
-    "snitpris": 654.45,
+    "pris": 656.55,
+    "snitpris": 654.5,
     "svag": false
   },
   "marked_trend": -1
