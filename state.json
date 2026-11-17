@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64326.990000000005,
+  "last_btc_price": 64315.05,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T09:32:39.522203+00:00",
+    "sidst_hentet": "2026-11-17T09:52:39.604445+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyg922",
+        "tid": "2026-11-17T09:39:30+00:00",
+        "titel": "Reachable bitcoin nodes per million inhabitants",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xye9iw",
         "tid": "2026-11-17T07:31:58+00:00",
@@ -1950,7 +1960,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
