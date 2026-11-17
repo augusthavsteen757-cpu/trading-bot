@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64628.739,
+  "last_btc_price": 64639.6,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T07:42:09.229557+00:00",
+    "sidst_hentet": "2026-11-17T08:02:08.273370+00:00",
     "opslag": [
       {
         "id": "t3_1xye9iw",
@@ -1968,19 +1968,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxjqbu",
-        "tid": "2026-11-16T08:00:28+00:00",
-        "titel": "Mentor Monday, November 16, 2026: Ask all your bitcoin questions!",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
