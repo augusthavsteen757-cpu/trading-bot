@@ -90,7 +90,7 @@
         "entry": 31.17,
         "stop": 29.51,
         "stop_initial": 29.51,
-        "high": 31.17,
+        "high": 31.61,
         "qty": 47.0,
         "entry_tid": "2026-11-17 14:36",
         "setup": "nyhed_op",
@@ -108,7 +108,9 @@
           "atr_percentil_30d": 70.6
         },
         "invalidering": "Lukker under stoette 30.86 eller kursen naar ikke over 31.94 inden for faa timer; nyheden ikke i prisen."
-      }
+      },
+      "last_hold_review": "2026-11-17T14:40:07.515962+00:00",
+      "last_review_price": 31.61
     }
   },
   "learned": [
@@ -134,10 +136,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.692068,
+  "budget_used": 0.699159,
   "ai_day": "2026-11-17",
-  "ai_rounds_today": 8,
-  "ai_spend_today": 0.0664825,
+  "ai_rounds_today": 9,
+  "ai_spend_today": 0.07357390000000001,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-17",
   "day_start_equity": 99265.06,
@@ -292,7 +294,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.605,
+  "last_btc_price": 4.635,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
