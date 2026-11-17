@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64907.42,
+  "last_btc_price": 64776.447,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1183,18 +1183,6 @@
         "pris_ved_nyhed": 381.25,
         "udloeber": "2026-11-17T17:34:05.931316+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Fransk retssag om planlagt for\u00e6ldelse er langsom og usandsynlig at paavirke kursen inden for timer.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 352.51,
-        "udloeber": "2026-11-17T15:34:05.931316+00:00"
-      },
       "ETH/USD": {
         "kilde": "kun_reddit",
         "symbol": "ETH/USD",
@@ -1206,30 +1194,6 @@
         "tid": "2026-11-17T14:34:05.931316+00:00",
         "pris_ved_nyhed": 1818.73,
         "udloeber": "2026-11-17T16:34:05.931316+00:00"
-      },
-      "BTC/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "BTC/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Blandede Reddit-opslag om bitcoin uden konkret nyhed; ingen klar retning.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 64923.115000000005,
-        "udloeber": "2026-11-17T15:34:05.931316+00:00"
-      },
-      "SOL/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "SOL/USD",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Mori Finance covered calls er smaa lokale nyheder uden stor markedspaavirkning.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 73.70599999999999,
-        "udloeber": "2026-11-17T15:34:05.931316+00:00"
       }
     },
     "dag": "2026-11-17",
@@ -1540,7 +1504,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:14:07.016160+00:00",
+    "sidst_hentet": "2026-11-17T15:34:06.791699+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1980,8 +1944,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.37,
-    "snitpris": 660.67,
+    "pris": 658.55,
+    "snitpris": 660.19,
     "svag": true
   },
   "marked_trend": -1
