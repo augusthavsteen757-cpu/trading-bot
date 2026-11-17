@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64324.895000000004,
+  "last_btc_price": 64347.28,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T11:07:39.542795+00:00",
+    "sidst_hentet": "2026-11-17T11:27:39.791686+00:00",
     "opslag": [
       {
         "id": "t3_1xyhh2p",
@@ -1958,29 +1958,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxmwna",
-        "tid": "2026-11-16T11:20:34+00:00",
-        "titel": "What does a coffee shop learn when your wallet spends a 1 BTC UTXO?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxmrdd",
-        "tid": "2026-11-16T11:11:56+00:00",
-        "titel": "How much bitcoin has an exposed public key? I put the 10k vs 7M estimates side by side",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
