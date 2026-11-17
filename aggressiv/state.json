@@ -435,8 +435,18 @@
   "day_start_equity": 100633.8,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:39:23.148813+00:00",
+    "sidst_hentet": "2026-11-17T15:54:23.269692+00:00",
     "opslag": [
+      {
+        "id": "t3_1xynn9a",
+        "tid": "2026-11-17T15:40:20+00:00",
+        "titel": "Department of Justice and Department of Commerce on Megaspeed and Nvidia involvement",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "stocks"
+      },
       {
         "id": "t3_1xymhu1",
         "tid": "2026-11-17T14:55:24+00:00",
@@ -607,16 +617,6 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xxspo0",
-        "tid": "2026-11-16T15:46:06+00:00",
-        "titel": "Former Nvidia CEO Jensen Huang in talks over potential comeback: Report",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
@@ -1910,8 +1910,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.55,
-    "snitpris": 657.27,
+    "pris": 648.86,
+    "snitpris": 656.33,
     "svag": true
   },
   "marked_trend": null
