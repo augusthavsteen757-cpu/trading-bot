@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63714.5135,
+  "last_btc_price": 63754.137,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1089,30 +1089,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Industrisamarbejde med Rockwell viser fortsat efterspoergsel efter NVIDIA-accelereret edge AI. Positivt, men en mindre kommerciel meddelelse uden stor overraskelse.",
-        "tid": "2026-11-17T16:04:08.219916+00:00",
-        "pris_ved_nyhed": 154.04500000000002,
-        "udloeber": "2026-11-17T18:04:08.219916+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVIDIA er en stor vaegt i QQQ, saa en positiv NVDA-bevaegelse loeftes lidt i indeksets retning.",
-        "tid": "2026-11-17T16:04:08.219916+00:00",
-        "pris_ved_nyhed": 653.6800000000001,
-        "udloeber": "2026-11-17T18:04:08.219916+00:00"
-      },
       "DLR": {
         "kilde": "nyhed",
         "symbol": "DLR",
@@ -1874,7 +1850,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.97,
+    "pris": 654.16,
     "snitpris": 654.43,
     "svag": true
   },
