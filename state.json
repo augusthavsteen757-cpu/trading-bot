@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64830.7425,
+  "last_btc_price": 64872.547999999995,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T12:22:39.665830+00:00",
+    "sidst_hentet": "2026-11-17T12:37:39.790457+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyjc3u",
+        "tid": "2026-11-17T12:35:44+00:00",
+        "titel": "Mori Finance offers covered calls on Solana",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xyhh2p",
         "tid": "2026-11-17T10:54:03+00:00",
@@ -1960,7 +1970,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
