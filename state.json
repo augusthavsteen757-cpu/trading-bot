@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64923.115000000005,
+  "last_btc_price": 65235.510500000004,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1541,7 +1541,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T14:24:06.077156+00:00",
+    "sidst_hentet": "2026-11-17T14:39:06.277256+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1976,7 +1976,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
   "marked": {},
