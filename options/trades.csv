@@ -7914,3 +7914,13 @@ tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal
 2026-11-17 15:55,GOOGL,279.13,ned,0.522,80999,ingen,VENT,,,,,99794.26,0.83,intet klart hint
 2026-11-17 15:55,AMD,482.6,ned,0.475,142973,ingen,VENT,,,,,99794.26,0.83,intet klart hint
 2026-11-17 15:55,TSLA,375.245,ned,0.588,235355,ingen,VENT,,,,,99794.26,0.83,intet klart hint
+2026-11-17 16:00,SPY,731.4,ned,0.504,1200650,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,QQQ,653.38,ned,0.447,676938,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,NVDA,153.775,ned,0.505,571993,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,AAPL,351.99,op,0.57,298185,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,MSFT,500.925,ned,0.331,123351,bearish,VENT,,,,,99513.26,0.54,"1 kontrakt koster 2026 USD, mere end 1% af kontoen"
+2026-11-17 16:00,AMZN,256.23,flad,0.646,100088,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,META,618.37,ned,0.558,78554,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,GOOGL,281.23,ned,0.511,85711,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,AMD,493.27,ned,0.473,155633,ingen,VENT,,,,,99513.26,0.54,intet klart hint
+2026-11-17 16:00,TSLA,379.2,ned,0.571,258155,ingen,VENT,,,,,99513.26,0.54,intet klart hint
