@@ -36,8 +36,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:02:43.924449+00:00",
+    "sidst_hentet": "2026-11-17T15:22:43.780679+00:00",
     "opslag": [
+      {
+        "id": "t3_1xymzfp",
+        "tid": "2026-11-17T15:14:34+00:00",
+        "titel": "MoonPay\u2019s PayBox Brings The Solana Ecosystem To AI Agents",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xymret",
+        "tid": "2026-11-17T15:05:40+00:00",
+        "titel": "Solana Breakpoint 2026 - Day 2",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
       {
         "id": "t3_1xylhgh",
         "tid": "2026-11-17T14:13:48+00:00",
@@ -429,19 +449,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xxs1yo",
-        "tid": "2026-11-16T15:20:37+00:00",
-        "titel": "Solana Breakpoint 2026 - Day 1",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -622,7 +632,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64554.0925,
+  "last_btc_price": 64875.43,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
