@@ -36,8 +36,18 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T14:07:43.930598+00:00",
+    "sidst_hentet": "2026-11-17T14:22:43.943993+00:00",
     "opslag": [
+      {
+        "id": "t3_1xylhgh",
+        "tid": "2026-11-17T14:13:48+00:00",
+        "titel": "Jack Mallers Take On The Psychology of Holding Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xyjc3u",
         "tid": "2026-11-17T12:35:44+00:00",
@@ -491,7 +501,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 45 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 46 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -672,7 +682,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64924.1135,
+  "last_btc_price": 64928.941000000006,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
