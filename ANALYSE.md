@@ -3,6 +3,22 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 17. nov 2026 (tirsdag)
+
+**Gårsdagens rettelse (options-pause efter tab, PR #61):** Virker. AMZN gav et køb-signal kl. 15.25 og 15.30 (bullish), men blev blokeret med "tabte i aktien 2026-11-16, pause i 7 dage".
+
+**Godt**
+- Options: +0,62 % i dag. Ejer en AAPL-call (købt 16.15).
+- Aggressiv: resten af SHOP blev solgt med +55 USD. Stop på købspris efter delsalg virkede, så hele SHOP-handlen gav +192 USD.
+
+**Dårligt**
+- Small: OUST nyhed_op -78 USD (stop ramt). Small har nu 15 handler med 4 vundne og -596 USD i alt.
+- Hoved og krypto: ingen handler.
+
+**Rettelse i dag:** Ingen. Kun ét nyt tab (OUST), og det er ikke nok bevis. Small-ORB (5 %) har stadig ikke handlet siden rettelsen.
+
+**Tjek i morgen:** Hvordan AAPL-call ender, og om small-ORB handler med 5 %.
+
 ## 16. nov 2026 (mandag, data 14.-16. nov)
 
 **Rettelse 14. nov (PR #60):** Raket-scanneren køber ikke omvendte fonde (fx SOXS), medmindre RAKET_INVERSE=1. Markedsfilteret køber dem stadig, når markedet falder.
