@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63823.762,
+  "last_btc_price": 63733.504,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1434,7 +1434,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T17:39:07.267956+00:00",
+    "sidst_hentet": "2026-11-17T17:59:06.693619+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1869,12 +1869,12 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.71,
+    "pris": 654.05,
     "snitpris": 654.43,
     "svag": true
   },
