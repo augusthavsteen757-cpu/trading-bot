@@ -7864,3 +7864,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-17 15:40,LUNR,11.14,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99195.97,-0.804,75147.93,-24.852,-0.071,-0.978,0.7056,
 2026-11-17 15:40,ACHR,3.705,trend_ned,oversolgt,nej (markedet falder (IWM 271.11 under dagens snitpris 272.07)),,,,,,,,,,,,,HOLD,,,,99195.97,-0.804,75147.93,-24.852,-0.071,-0.978,0.7056,
 2026-11-17 15:40,OUST,29.84,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,29.51,99194.56,-0.805,75147.93,-24.852,-0.071,-0.978,0.7056,
+2026-11-17 15:44,ONDS,4.395,high_vol,range_bund,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:44,RCAT,2.355,high_vol,range_bund,nej (nyhedsjaeger: negativ nyhed (4/5): Tilbagetrukket helaarsomsaetningsmaal er et klart negativt signal og ofte overra),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,UMAC,10.29,trend_ned,oversolgt,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,BBAI,1.805,high_vol,range_bund,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,SOUN,3.075,trend_ned,oversolgt,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,QUBT,4.965,high_vol,range_bund,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,RGTI,8.365,high_vol,range_bund,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,LUNR,11.09,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,ACHR,3.655,trend_ned,oversolgt,nej (markedet falder (IWM 270.66 under dagens snitpris 271.9)),,,,,,,,,,,,,HOLD,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,
+2026-11-17 15:45,OUST,29.61,high_vol,range_bund,nej (setup: range_bund),,,,,,,,,,,,,STOP RAMT,,,,99179.52,-0.82,74302.62,-25.697,-0.086,-0.993,0.7056,Solgt ca. 30

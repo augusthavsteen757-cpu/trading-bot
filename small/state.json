@@ -85,29 +85,6 @@
         "nyhed_op",
         "range_bund"
       ],
-      "pos": {
-        "entry": 31.17,
-        "stop": 29.51,
-        "stop_initial": 29.51,
-        "high": 31.7,
-        "qty": 47.0,
-        "entry_tid": "2026-11-17 14:36",
-        "setup": "nyhed_op",
-        "regime": "range",
-        "conviction": 2,
-        "grund": "Ny kontrakt ikke prisat (+0,00%), pris t\u00e6t paa stoette 30.86 giver stram stop, men kun 0,92 ATR til modstand; svag trend taler for lille position.",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 31.3,
-          "adx_1h": 37.9,
-          "rel_volumen_1h": 0.12,
-          "afstand_modstand_atr": 0.92,
-          "atr_percentil_30d": 70.6
-        },
-        "invalidering": "Lukker under stoette 30.86 eller kursen naar ikke over 31.94 inden for faa timer; nyheden ikke i prisen."
-      },
       "last_hold_review": "2026-11-17T14:40:07.515962+00:00",
       "last_review_price": 31.61
     }
@@ -132,6 +109,9 @@
     ],
     "teknisk fejl: ConnectionError: HTTPSConnectionPool(host='paper-api.alpa": [
       "2026-11-16 09:08: ConnectionError: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError(\"HTTPSConnection(host='paper-api.alpaca.markets', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    ],
+    "tab: nyhed_op i range": [
+      "2026-11-17 15:45: OUST: stop ramt (Alpaca). R=-1.00. Entry 31, exit 30. Grund til koeb: Ny kontrakt ikke prisat (+0,00%), pris t\u00e6t paa stoette 30.86 giver stram stop, men kun 0,92 ATR til modstand; svag trend taler for lille position.. Features ved koeb: {'trend_1h': -1, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 31.3, 'adx_1h': 37.9, 'rel_volumen_1h': 0.12, 'afstand_modstand_atr': 0.92, 'atr_percentil_30d': 70.6}"
     ]
   },
   "budget_month": "2026-11",
@@ -293,7 +273,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.445,
+  "last_btc_price": 4.395,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1155,8 +1135,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 271.11,
-    "snitpris": 272.07,
+    "pris": 270.66,
+    "snitpris": 271.9,
     "svag": true
   },
   "marked_trend": -1
