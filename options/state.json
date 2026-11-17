@@ -1,10 +1,8 @@
 {
   "positions": {},
-  "day": "2026-11-16",
+  "day": "2026-11-17",
   "new_today": 0,
-  "traded_today": [
-    "AMZN"
-  ],
+  "traded_today": [],
   "peak_equity": 100050.97,
   "test_kob_id": "testkoeb-options-2026-11-03"
 }
