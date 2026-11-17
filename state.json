@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64594.295,
+  "last_btc_price": 64559.191999999995,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,20 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T07:22:09.277754+00:00",
+    "sidst_hentet": "2026-11-17T07:42:09.229557+00:00",
     "opslag": [
+      {
+        "id": "t3_1xye9iw",
+        "tid": "2026-11-17T07:31:58+00:00",
+        "titel": "Poisoned scripts on major sites (Ledger, BBC, Zoom, CNN) are hijacking crypto wallets and swapping addresses (BTC, ETH, ",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD",
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xydps7",
         "tid": "2026-11-17T06:58:18+00:00",
@@ -1968,7 +1980,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
