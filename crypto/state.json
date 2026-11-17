@@ -36,8 +36,20 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T07:26:18.985047+00:00",
+    "sidst_hentet": "2026-11-17T07:46:19.051430+00:00",
     "opslag": [
+      {
+        "id": "t3_1xye9iw",
+        "tid": "2026-11-17T07:31:58+00:00",
+        "titel": "Poisoned scripts on major sites (Ledger, BBC, Zoom, CNN) are hijacking crypto wallets and swapping addresses (BTC, ETH, ",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD",
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xydps7",
         "tid": "2026-11-17T06:58:18+00:00",
@@ -499,7 +511,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 46 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 47 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -680,7 +692,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64550.64,
+  "last_btc_price": 64510.229999999996,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
