@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64275.9875,
+  "last_btc_price": 64203.387,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T08:52:39.610817+00:00",
+    "sidst_hentet": "2026-11-17T09:12:39.402448+00:00",
     "opslag": [
       {
         "id": "t3_1xye9iw",
@@ -1948,19 +1948,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xxkrjp",
-        "tid": "2026-11-16T09:07:15+00:00",
-        "titel": "Comparing Bitcoin ONLY with S & P 500 is selection bias.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 41 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
