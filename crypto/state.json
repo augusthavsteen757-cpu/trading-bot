@@ -36,8 +36,19 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T17:22:43.625975+00:00",
+    "sidst_hentet": "2026-11-17T17:42:43.462052+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyqq53",
+        "tid": "2026-11-17T17:34:25+00:00",
+        "titel": "Easiest way to bridge from Ethereum to Bitcoin?",
+        "symboler": [
+          "BTC/USD",
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
       {
         "id": "t3_1xypobp",
         "tid": "2026-11-17T16:56:13+00:00",
@@ -371,7 +382,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 33 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 34 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -552,7 +563,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 63701.374500000005,
+  "last_btc_price": 63671.47,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
