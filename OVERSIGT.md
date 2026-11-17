@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 15.36** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 15.39** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 17/11 15.36
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 17/11 15.39
 
 **Ejer nu:** intet
 
@@ -20,9 +20,13 @@ Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 15.36** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.265 USD  ·  **I alt:** -735 USD (-0.73 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 16/11 21.55
+**Konto:** 99.259 USD  ·  **I alt:** -741 USD (-0.74 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 17/11 15.36
 
-**Ejer nu:** intet
+**Ejer nu:**
+
+| Hvad | Antal | Købt til | Købt |
+|---|---|---|---|
+| OUST | 47 | 31.17 | 17/11 15.36 |
 
 **Lukkede handler:** 14 i alt, 4 med gevinst, samlet -518 USD
 
@@ -36,7 +40,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 15.36** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 17/11 15.32
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 17/11 15.37
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -66,23 +70,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 15.36** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.620 USD  ·  **I alt:** +620 USD (+0.62 %)  ·  **I dag:** +0.17 %  ·  sidst opdateret 16/11 21.59
+**Konto:** 100.564 USD  ·  **I alt:** +564 USD (+0.56 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 17/11 15.36
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -599 USD (2 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -908 USD (2 vundet), BREMSE (halv stoerrelse)
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| SHOP | 69 | 146.21 | 16/11 17.06 |
-
-**Lukkede handler:** 43 i alt, 13 med gevinst, samlet +1.527 USD
+**Lukkede handler:** 44 i alt, 14 med gevinst, samlet +1.582 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ SHOP | 17/11 15.36 | +55 USD | stop ramt (Alpaca) |
 | ❌ RIVN | 16/11 18.41 | -25 USD | tidsstop (90 min uden gevinst) |
 | ✅ SHOP | 16/11 17.26 | +137 USD | halvdel solgt (+1R) |
 | ❌ SOXS | 13/11 18.14 | -984 USD | tidsstop (90 min uden gevinst) |
 | ❌ MARA | 12/11 18.47 | -1 USD | tidsstop (90 min uden gevinst) |
-| ❌ AVGO | 12/11 18.47 | -46 USD | tidsstop (90 min uden gevinst) |
 
