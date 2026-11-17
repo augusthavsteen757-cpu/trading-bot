@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 1.928371,
+  "budget_used": 1.990201,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -48,8 +48,8 @@
     ]
   },
   "ai_day": "2026-11-17",
-  "ai_rounds_today": 12,
-  "ai_spend_today": 0.0933931,
+  "ai_rounds_today": 20,
+  "ai_spend_today": 0.15522319999999998,
   "eq_day": "2026-11-17",
   "day_start_equity": 99313.78,
   "peak_equity": 100456.88,
@@ -96,7 +96,7 @@
     },
     "AAPL": {
       "orb_day": "2026-11-11",
-      "last_entry_eval": "2026-11-17T15:04:13.045789+00:00",
+      "last_entry_eval": "2026-11-17T16:14:13.362115+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -129,17 +129,18 @@
       }
     },
     "MSFT": {
-      "last_entry_eval": "2026-11-17T14:34:52.430044+00:00",
+      "last_entry_eval": "2026-11-17T16:14:23.742698+00:00",
       "last_entry_setups": [
-        "range_bund"
+        "oversolgt"
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T15:21:48.732100+00:00",
       "last_review_price": 533.15
     },
     "AMZN": {
-      "last_entry_eval": "2026-11-17T14:35:02.332644+00:00",
+      "last_entry_eval": "2026-11-17T16:14:34.542567+00:00",
       "last_entry_setups": [
+        "oversolgt",
         "range_bund"
       ],
       "orb_day": "2026-11-06",
@@ -147,7 +148,7 @@
       "last_review_price": 260.68
     },
     "META": {
-      "last_entry_eval": "2026-11-17T14:35:13.078638+00:00",
+      "last_entry_eval": "2026-11-17T16:14:44.992028+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -156,7 +157,7 @@
       "orb_day": "2026-11-06"
     },
     "GOOGL": {
-      "last_entry_eval": "2026-11-17T14:35:23.499506+00:00",
+      "last_entry_eval": "2026-11-17T16:14:55.894556+00:00",
       "last_entry_setups": [
         "oversolgt"
       ],
@@ -190,7 +191,7 @@
       }
     },
     "AMD": {
-      "last_entry_eval": "2026-11-17T14:35:33.692820+00:00",
+      "last_entry_eval": "2026-11-17T16:15:07.724873+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -199,7 +200,7 @@
       "last_review_price": 555.2
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-17T14:35:44.937949+00:00",
+      "last_entry_eval": "2026-11-17T16:15:18.089530+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -208,8 +209,9 @@
       "last_review_price": 385.735
     },
     "EQIX": {
-      "last_entry_eval": "2026-11-17T14:35:54.993590+00:00",
+      "last_entry_eval": "2026-11-17T16:15:28.559896+00:00",
       "last_entry_setups": [
+        "range_bund",
         "trend_pullback"
       ],
       "orb_day": "2026-11-12",
@@ -226,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64297.475000000006,
+  "last_btc_price": 64161.195,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1944,9 +1946,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 655.11,
+    "pris": 656.18,
     "snitpris": 655.14,
-    "svag": true
+    "svag": false
   },
   "marked_trend": -1
 }
