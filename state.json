@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64944.0015,
+  "last_btc_price": 64848.762,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T05:27:07.503161+00:00",
+    "sidst_hentet": "2026-11-17T05:42:08.112572+00:00",
     "opslag": [
       {
         "id": "t3_1xyb30h",
@@ -1966,19 +1966,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxhd7d",
-        "tid": "2026-11-16T05:36:05+00:00",
-        "titel": "What is the biggest benefit of running your own Bitcoin node?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
