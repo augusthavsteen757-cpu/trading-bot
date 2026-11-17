@@ -124,7 +124,7 @@
   "day_start_equity": 99265.06,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-17T17:24:58.495282+00:00",
+    "sidst_hentet": "2026-11-17T17:39:59.301303+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -141,18 +141,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Ny multimillion-kontrakt i Nashville giver ordreflow og bekraefter efterspoergsel efter lidar i trafiksikkerhed. Kontrakten er ny, men mindre overraskende end en stoerre ordre.",
-        "tid": "2026-11-17T14:34:59.484483+00:00",
-        "pris_ved_nyhed": 31.17,
-        "udloeber": "2026-11-17T17:34:59.484483+00:00"
-      },
       "RCAT": {
         "kilde": "nyhed",
         "symbol": "RCAT",
@@ -273,7 +261,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.445,
+  "last_btc_price": 4.425,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1135,7 +1123,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 270.71,
+    "pris": 270.47,
     "snitpris": 270.44,
     "svag": false
   },
