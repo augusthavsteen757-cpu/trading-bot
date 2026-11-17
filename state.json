@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64968.037,
+  "last_btc_price": 64940.1365,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T14:08:10.603840+00:00",
+    "sidst_hentet": "2026-11-17T14:24:06.077156+00:00",
     "opslag": [
+      {
+        "id": "t3_1xylhgh",
+        "tid": "2026-11-17T14:13:48+00:00",
+        "titel": "Jack Mallers Take On The Psychology of Holding Bitcoin",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xyjc3u",
         "tid": "2026-11-17T12:35:44+00:00",
@@ -1960,7 +1970,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
