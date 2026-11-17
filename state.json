@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64605.41,
+  "last_btc_price": 64528.33,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T06:47:08.987630+00:00",
+    "sidst_hentet": "2026-11-17T07:07:08.448830+00:00",
     "opslag": [
+      {
+        "id": "t3_1xydps7",
+        "tid": "2026-11-17T06:58:18+00:00",
+        "titel": "Could 2033 be Bitcoin's last major bull run because of diminishing returns?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xyb30h",
         "tid": "2026-11-17T04:28:47+00:00",
@@ -1958,7 +1968,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
