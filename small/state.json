@@ -90,7 +90,7 @@
         "entry": 31.17,
         "stop": 29.51,
         "stop_initial": 29.51,
-        "high": 31.61,
+        "high": 31.7,
         "qty": 47.0,
         "entry_tid": "2026-11-17 14:36",
         "setup": "nyhed_op",
@@ -294,7 +294,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.635,
+  "last_btc_price": 4.615,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
