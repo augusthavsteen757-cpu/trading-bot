@@ -8454,3 +8454,13 @@ tid_utc,aktie,kurs,trend,call_andel,options_volumen,hint,handling,kontrakt,antal
 2026-11-17 20:40,GOOGL,279.9,ned,0.597,193050,ingen,VENT,,,,,99457.26,0.48,intet klart hint
 2026-11-17 20:40,AMD,490.76,ned,0.484,349539,ingen,VENT,,,,,99457.26,0.48,intet klart hint
 2026-11-17 20:40,TSLA,379.52,ned,0.555,593734,ingen,VENT,,,,,99457.26,0.48,intet klart hint
+2026-11-17 20:45,SPY,730.9,ned,0.401,4081069,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,QQQ,654.585,ned,0.456,2346620,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,NVDA,153.65,ned,0.526,1806471,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,AAPL,350.89,op,0.465,659612,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,MSFT,505.615,ned,0.452,328103,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,AMZN,257.43,flad,0.599,277865,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,META,619.76,ned,0.621,196767,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,GOOGL,279.84,ned,0.598,195248,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,AMD,492.19,ned,0.469,367725,ingen,VENT,,,,,99459.26,0.49,intet klart hint
+2026-11-17 20:45,TSLA,379.76,ned,0.555,596739,ingen,VENT,,,,,99459.26,0.49,intet klart hint
