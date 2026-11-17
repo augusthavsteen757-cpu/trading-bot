@@ -293,7 +293,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.545,
+  "last_btc_price": 4.595,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1155,8 +1155,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 272.67,
-    "snitpris": 272.39,
+    "pris": 272.44,
+    "snitpris": 272.4,
     "svag": false
   },
   "marked_trend": -1
