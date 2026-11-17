@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64803.369999999995,
+  "last_btc_price": 64843.774999999994,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T04:47:07.382247+00:00",
+    "sidst_hentet": "2026-11-17T05:07:07.912199+00:00",
     "opslag": [
       {
         "id": "t3_1xyb30h",
@@ -1976,19 +1976,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxgqcg",
-        "tid": "2026-11-16T05:01:16+00:00",
-        "titel": "Bitcoin Fell below $62k..Are You Buying or Selling?",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 45 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
