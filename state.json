@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64174.035,
+  "last_btc_price": 64323.465,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1088,44 +1088,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Bred driftsforstyrrelse i interne og forbrugerrettede tjenester kan skabe negative overskrifter og usikkerhed om omsaetning, men effekten er ofte kortvarig.",
-        "tid": "2026-11-17T20:04:19.971743+00:00",
-        "pris_ved_nyhed": 350.385,
-        "udloeber": "2026-11-17T22:04:19.971743+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stigende interesse fra datacenter- og AI-kunder kan give AMD opbakning mens Nvidia skifter ledelse. Mulig overraskelse, men ikke bekraeftet af konkrete ordrer.",
-        "tid": "2026-11-17T20:04:19.971743+00:00",
-        "pris_ved_nyhed": 487.52,
-        "udloeber": "2026-11-17T22:04:19.971743+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Ledelsesskifte hos Nvidia er usikkert for aktien. Nyheden omtaler AMD-interesse, og Nvidia-usikkerhed er sandsynligvis allerede i kursen.",
-        "tid": "2026-11-17T20:04:19.971743+00:00",
-        "pris_ved_nyhed": 152.26,
-        "udloeber": "2026-11-17T22:04:19.971743+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-17",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-17T20:04:19.971743+00:00",
@@ -1434,7 +1397,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T21:54:17.993224+00:00",
+    "sidst_hentet": "2026-11-17T22:09:19.303556+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
