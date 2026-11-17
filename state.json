@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63666.185,
+  "last_btc_price": 63699.979999999996,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1910,8 +1910,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 652.18,
-    "snitpris": 654.43,
+    "pris": 652.3,
+    "snitpris": 654.42,
     "svag": true
   },
   "marked_trend": -1
