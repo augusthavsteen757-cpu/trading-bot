@@ -1854,7 +1854,7 @@
     "syms": [
       "SLS"
     ],
-    "sidst": "2026-11-17T15:29:23.221828+00:00",
+    "sidst": "2026-11-17T15:44:23.530241+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1910,8 +1910,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 655.72,
-    "snitpris": 659.58,
+    "pris": 654.95,
+    "snitpris": 659.04,
     "svag": true
   },
   "marked_trend": null
