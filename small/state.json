@@ -124,7 +124,7 @@
   "day_start_equity": 99265.06,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-17T17:39:59.301303+00:00",
+    "sidst_hentet": "2026-11-17T17:59:59.143177+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -137,7 +137,7 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 1 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -261,7 +261,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.425,
+  "last_btc_price": 4.415,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1123,7 +1123,7 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 270.38,
+    "pris": 270.29,
     "snitpris": 270.44,
     "svag": true
   },
