@@ -435,7 +435,7 @@
   "day_start_equity": 100633.8,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T16:49:24.390731+00:00",
+    "sidst_hentet": "2026-11-17T17:05:07.990567+00:00",
     "opslag": [
       {
         "id": "t3_1xypc38",
@@ -679,7 +679,7 @@
         "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 24 naevner vores symboler (24 t)"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/wallstreet"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -694,18 +694,6 @@
         "tid": "2026-11-17T16:04:23.376879+00:00",
         "pris_ved_nyhed": 154.385,
         "udloeber": "2026-11-17T19:04:23.376879+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Intern prediction-market-app er et lille produktnyt uden direkte indtjeningseffekt; forventes ikke at bevaege aktien meningsfuldt.",
-        "tid": "2026-11-17T16:04:23.376879+00:00",
-        "pris_ved_nyhed": 618.785,
-        "udloeber": "2026-11-17T17:04:23.376879+00:00"
       },
       "SLS": {
         "kilde": "nyhed",
@@ -1902,7 +1890,7 @@
     "syms": [
       "SLS"
     ],
-    "sidst": "2026-11-17T16:49:23.628330+00:00",
+    "sidst": "2026-11-17T17:05:07.572433+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1958,8 +1946,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 650.49,
-    "snitpris": 654.36,
+    "pris": 650.95,
+    "snitpris": 654.32,
     "svag": true
   },
   "marked_trend": null
