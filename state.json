@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64109.3205,
+  "last_btc_price": 64169.283500000005,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T10:47:39.303172+00:00",
+    "sidst_hentet": "2026-11-17T11:07:39.542795+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyhh2p",
+        "tid": "2026-11-17T10:54:03+00:00",
+        "titel": "Come 1v1 me in Chess bro. 100% on-chain over 0.000285 ETH.",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "ethereum"
+      },
       {
         "id": "t3_1xyhcq2",
         "tid": "2026-11-17T10:46:58+00:00",
@@ -1970,7 +1980,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 44 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
