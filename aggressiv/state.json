@@ -435,7 +435,7 @@
   "day_start_equity": 100633.8,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:04:24.549544+00:00",
+    "sidst_hentet": "2026-11-17T15:24:22.850870+00:00",
     "opslag": [
       {
         "id": "t3_1xymhu1",
@@ -627,29 +627,9 @@
         ],
         "score": 0,
         "sub": "stocks"
-      },
-      {
-        "id": "t3_1xxrrkb",
-        "tid": "2026-11-16T15:09:20+00:00",
-        "titel": "BREAKING: TRUMP SIGNALS SUPPORT FOR JENSEN HUANG\u2019S RETURN TO NVIDIA",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "stocks"
-      },
-      {
-        "id": "t3_1xxrpn1",
-        "tid": "2026-11-16T15:07:15+00:00",
-        "titel": "timed NVDA open today pretty nicely +120k",
-        "symboler": [
-          "NVDA"
-        ],
-        "score": 0,
-        "sub": "wallstreetbets"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 19 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -1964,8 +1944,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.71,
-    "snitpris": 660.8,
+    "pris": 659.0,
+    "snitpris": 660.74,
     "svag": true
   },
   "marked_trend": null
