@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63994.899999999994,
+  "last_btc_price": 63952.4265,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1089,18 +1089,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Test af en selvstaendig beskedapp i to mindre lande har lille oekonomisk betydning for Meta kortsigtet.",
-        "tid": "2026-11-17T20:04:19.971743+00:00",
-        "pris_ved_nyhed": 618.655,
-        "udloeber": "2026-11-17T21:04:19.971743+00:00"
-      },
       "AAPL": {
         "kilde": "nyhed",
         "symbol": "AAPL",
