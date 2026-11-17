@@ -694,18 +694,6 @@
         "tid": "2026-11-17T16:04:23.376879+00:00",
         "pris_ved_nyhed": 154.385,
         "udloeber": "2026-11-17T19:04:23.376879+00:00"
-      },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny nationwide partnerskab med Kohl's udvider Uber Eats' detailhandelsvolumen; positivt for vaekst, men beloeb sandsynligvis begraenset.",
-        "tid": "2026-11-17T16:04:23.376879+00:00",
-        "pris_ved_nyhed": 67.675,
-        "udloeber": "2026-11-17T18:04:23.376879+00:00"
       }
     },
     "dag": "2026-11-17",
@@ -1934,7 +1922,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.97,
+    "pris": 654.16,
     "snitpris": 654.43,
     "svag": true
   },
