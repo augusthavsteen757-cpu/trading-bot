@@ -36,8 +36,28 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:42:43.971553+00:00",
+    "sidst_hentet": "2026-11-17T16:02:43.448589+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyo3kg",
+        "tid": "2026-11-17T15:57:20+00:00",
+        "titel": "Coingecko Enters Its Next Phase Of Growth, Backed By Solana Foundation",
+        "symboler": [
+          "SOL/USD"
+        ],
+        "score": 0,
+        "sub": "solana"
+      },
+      {
+        "id": "t3_1xyny6e",
+        "tid": "2026-11-17T15:52:00+00:00",
+        "titel": "Bitcoin ETFs bled $1.9B in 7 straight sessions and BTC dipped to $61,946, lowest since July",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xyngvu",
         "tid": "2026-11-17T15:33:24+00:00",
@@ -399,39 +419,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxt0yr",
-        "tid": "2026-11-16T15:58:35+00:00",
-        "titel": "Solana 1.0: Dropping -beta, And What Comes Next",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxsz5q",
-        "tid": "2026-11-16T15:56:36+00:00",
-        "titel": "Lily Liu ,President Of The Solana Foundation, On How Solana Makes Finance Flat",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxswdx",
-        "tid": "2026-11-16T15:53:38+00:00",
-        "titel": "Zelle Just Sent $1.25M In Its First Confidential Transfer Using ZelleUSD ($ZLUSD) On Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 39 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 38 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -612,7 +602,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 63737.5805,
+  "last_btc_price": 64182.1435,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
