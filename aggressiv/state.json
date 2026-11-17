@@ -1964,9 +1964,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 662.36,
-    "snitpris": 661.36,
-    "svag": false
+    "pris": 660.98,
+    "snitpris": 661.14,
+    "svag": true
   },
   "marked_trend": null
 }
