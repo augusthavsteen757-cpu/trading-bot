@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64603.25,
+  "last_btc_price": 64650.100999999995,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T00:54:43.962327+00:00",
+    "sidst_hentet": "2026-11-17T01:09:44.050471+00:00",
     "opslag": [
       {
         "id": "t3_1xy6m2l",
@@ -2016,29 +2016,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxc7sx",
-        "tid": "2026-11-16T01:09:25+00:00",
-        "titel": "My theory on why BTC is dropping in value.",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxc63h",
-        "tid": "2026-11-16T01:07:00+00:00",
-        "titel": "Bitcoin smells like suits",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "CryptoCurrency"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 50 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
