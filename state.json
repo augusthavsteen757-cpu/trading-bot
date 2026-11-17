@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64569.7245,
+  "last_btc_price": 64656.763,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,7 +1535,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T02:04:43.704566+00:00",
+    "sidst_hentet": "2026-11-17T02:19:43.907786+00:00",
     "opslag": [
       {
         "id": "t3_1xy7fz3",
@@ -2016,19 +2016,9 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxddif",
-        "tid": "2026-11-16T02:06:15+00:00",
-        "titel": "100k moonshot by end of year , no one will be ready , btc doing btc thing no will be ready",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 48 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
