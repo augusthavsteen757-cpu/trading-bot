@@ -695,18 +695,6 @@
         "pris_ved_nyhed": 154.385,
         "udloeber": "2026-11-17T19:04:23.376879+00:00"
       },
-      "SLS": {
-        "kilde": "nyhed",
-        "symbol": "SLS",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Positive Phase 3-resultater er en klar, overraskende katalysator for biotech-aktien. Nyheden kom 14:01, saa en del kan allerede vaere reageret, men opfoelgende kursbevaegelse kan fortsaette.",
-        "tid": "2026-11-17T14:49:25.575171+00:00",
-        "pris_ved_nyhed": 18.25,
-        "udloeber": "2026-11-17T17:49:25.575171+00:00"
-      },
       "UBER": {
         "kilde": "nyhed",
         "symbol": "UBER",
@@ -1946,9 +1934,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 654.96,
-    "snitpris": 654.44,
-    "svag": false
+    "pris": 653.71,
+    "snitpris": 654.43,
+    "svag": true
   },
   "marked_trend": null
 }
