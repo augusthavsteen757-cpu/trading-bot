@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63879.600000000006,
+  "last_btc_price": 63994.899999999994,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1089,30 +1089,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Stor investor oeger aktiepost i Tesla; positivt sentiment, men beskedent beloeb og mindre prisfaktor.",
-        "tid": "2026-11-17T19:04:06.065272+00:00",
-        "pris_ved_nyhed": 378.255,
-        "udloeber": "2026-11-17T21:04:06.065272+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "AI-transparensinitiativ er generel branchepolitik uden direkte indtjeningseffekt paa kort sigt.",
-        "tid": "2026-11-17T19:04:06.065272+00:00",
-        "pris_ved_nyhed": 504.635,
-        "udloeber": "2026-11-17T21:04:06.065272+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1908,11 +1884,6 @@
     "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 653.75,
-    "snitpris": 654.38,
-    "svag": true
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
