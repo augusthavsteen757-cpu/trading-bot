@@ -36,7 +36,7 @@
   "day_start_equity": 99985.56,
   "peak_equity": 100003.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T14:42:43.608586+00:00",
+    "sidst_hentet": "2026-11-17T15:02:43.924449+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -439,59 +439,9 @@
         ],
         "score": 0,
         "sub": "solana"
-      },
-      {
-        "id": "t3_1xxrk51",
-        "tid": "2026-11-16T15:01:24+00:00",
-        "titel": "Ledger Adds Clear Signing to Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxrgur",
-        "tid": "2026-11-16T14:58:07+00:00",
-        "titel": "SoFi Calls Solana Its Favorite for New Onchain Assets",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxrf0j",
-        "tid": "2026-11-16T14:56:09+00:00",
-        "titel": "Western Union Integrates Solana for Global Cash-Outs",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxrcdi",
-        "tid": "2026-11-16T14:53:07+00:00",
-        "titel": "Zelle Completes First Confidential Transfer on Solana",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
-      },
-      {
-        "id": "t3_1xxr8ua",
-        "tid": "2026-11-16T14:49:17+00:00",
-        "titel": "The Nvdea fall will pump btc in the incoming months",
-        "symboler": [
-          "BTC/USD"
-        ],
-        "score": 0,
-        "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 45 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 40 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {},
@@ -672,7 +622,7 @@
   "start_equity": 100000.0,
   "start_price": 77192.2225,
   "start_time": "2026-11-03T13:06:11.018509+00:00",
-  "last_btc_price": 64901.681,
+  "last_btc_price": 64845.7,
   "test_kob_id": "testkoeb-krypto-2026-11-03",
   "auto_tjek": "auto-tjek: kun 1 handler, fuld fart",
   "scan": {},
