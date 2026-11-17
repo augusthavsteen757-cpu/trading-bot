@@ -435,8 +435,38 @@
   "day_start_equity": 100633.8,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-17T15:54:23.269692+00:00",
+    "sidst_hentet": "2026-11-17T16:09:23.640494+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyoamm",
+        "tid": "2026-11-17T16:04:21+00:00",
+        "titel": "Thank you to this sub for SLS",
+        "symboler": [
+          "SLS"
+        ],
+        "score": 0,
+        "sub": "pennystocks"
+      },
+      {
+        "id": "t3_1xyo7tq",
+        "tid": "2026-11-17T16:01:19+00:00",
+        "titel": "SLS popped off!!",
+        "symboler": [
+          "SLS"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
+      {
+        "id": "t3_1xyo65y",
+        "tid": "2026-11-17T15:59:50+00:00",
+        "titel": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+        "symboler": [
+          "NVDA"
+        ],
+        "score": 0,
+        "sub": "wallstreetbets"
+      },
       {
         "id": "t3_1xynn9a",
         "tid": "2026-11-17T15:40:20+00:00",
@@ -619,7 +649,7 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 18 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 21 naevner vores symboler (24 t)"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -1922,7 +1952,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.0,
+    "pris": 655.11,
     "snitpris": 655.14,
     "svag": true
   },
