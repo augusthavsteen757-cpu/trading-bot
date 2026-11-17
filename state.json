@@ -47,11 +47,11 @@
       "2026-11-16 14:47: AMZN: stop ramt (Alpaca). R=-1.00. Entry 265, exit 260. Grund til koeb: Pris ved stoette 265.05, 4h/1d trend op, extreme fear kontrarian. Modstand 270.55 er 2.11 ATR vaek, over 1.2R. Lav volumen, saa kun lille stoerrelse.. Features ved koeb: {'trend_1h': 0, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 43.8, 'adx_1h': 27.5, 'rel_volumen_1h': 0.15, 'afstand_modstand_atr': 2.11, 'atr_percentil_30d': 74.1}"
     ]
   },
-  "ai_day": "2026-11-16",
-  "ai_rounds_today": 20,
-  "ai_spend_today": 0.16828220000000002,
-  "eq_day": "2026-11-16",
-  "day_start_equity": 99436.63,
+  "ai_day": "2026-11-17",
+  "ai_rounds_today": 0,
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-17",
+  "day_start_equity": 99313.78,
   "peak_equity": 100456.88,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64824.619999999995,
+  "last_btc_price": 64670.015,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1227,8 +1227,8 @@
   },
   "nyhedsjaeger": {
     "signaler": {},
-    "dag": "2026-11-16",
-    "kald_i_dag": 30,
+    "dag": "2026-11-17",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-16T20:03:52.217051+00:00",
     "set_ids": [
       "63257078",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-16T23:49:43.798408+00:00",
+    "sidst_hentet": "2026-11-17T00:04:43.958521+00:00",
     "opslag": [
+      {
+        "id": "t3_1xy5khe",
+        "tid": "2026-11-17T00:02:58+00:00",
+        "titel": "Realistically, in your opinion, where will bitcoin be in 2040 approximately?",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xy42yi",
         "tid": "2026-11-16T22:59:59+00:00",
@@ -1571,6 +1581,16 @@
         "id": "t3_1xy26s3",
         "tid": "2026-11-16T21:42:01+00:00",
         "titel": "Selling Bitcoin to fund your life is the most expensive way to use it.",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
+      {
+        "id": "t3_1xy24t7",
+        "tid": "2026-11-16T21:39:51+00:00",
+        "titel": "Zelle is down; Bitcoin is up",
         "symboler": [
           "BTC/USD"
         ],
@@ -2028,7 +2048,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 49 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 51 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
