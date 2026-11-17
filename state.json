@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63901.4095,
+  "last_btc_price": 63828.3845,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1089,18 +1089,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktien faldt 5,58 pct efter nye eksportrestriktioner paa AI-chips; effekten er allerede delvist indregnet, men fortsat pres kan give yderligere svaghed.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 504.62,
-        "udloeber": "2026-11-17T16:34:05.931316+00:00"
-      },
       "NVDA": {
         "kilde": "nyhed",
         "symbol": "NVDA",
@@ -1137,30 +1125,6 @@
         "pris_ved_nyhed": 179.73000000000002,
         "udloeber": "2026-11-17T18:34:05.931316+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ignite-konferencen og udvidet Haivision-samarbejde giver positiv opmaerksomhed, men er en relativt lille kommerciel nyhed.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 513.67,
-        "udloeber": "2026-11-17T16:34:05.931316+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Udvidelse af dagligvaredelivery med f\u00e6rdigretter oeger servicebredden i Amazon Now og kan give marginal opstemning.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 258.07500000000005,
-        "udloeber": "2026-11-17T16:34:05.931316+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1184,18 +1148,6 @@
         "tid": "2026-11-17T14:34:05.931316+00:00",
         "pris_ved_nyhed": 381.25,
         "udloeber": "2026-11-17T17:34:05.931316+00:00"
-      },
-      "ETH/USD": {
-        "kilde": "kun_reddit",
-        "symbol": "ETH/USD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rygte om frifindelse i MEV-sag er positivt for stemningen, men kun Reddit-kontekst uden bekraeftet markedseffekt.",
-        "tid": "2026-11-17T14:34:05.931316+00:00",
-        "pris_ved_nyhed": 1818.73,
-        "udloeber": "2026-11-17T16:34:05.931316+00:00"
       }
     },
     "dag": "2026-11-17",
@@ -1946,8 +1898,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.21,
-    "snitpris": 655.07,
+    "pris": 653.84,
+    "snitpris": 655.05,
     "svag": true
   },
   "marked_trend": -1
