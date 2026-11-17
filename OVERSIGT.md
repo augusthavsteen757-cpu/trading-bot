@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 16.44** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 16.49** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 17/11 16.44
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** -0.00 %  ·  sidst opdateret 17/11 16.49
 
 **Ejer nu:** intet
 
@@ -20,27 +20,23 @@ Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 16.44** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.195 USD  ·  **I alt:** -805 USD (-0.81 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 17/11 16.40
+**Konto:** 99.180 USD  ·  **I alt:** -820 USD (-0.82 %)  ·  **I dag:** -0.09 %  ·  sidst opdateret 17/11 16.45
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| OUST | 47 | 31.17 | 17/11 15.36 |
-
-**Lukkede handler:** 14 i alt, 4 med gevinst, samlet -518 USD
+**Lukkede handler:** 15 i alt, 4 med gevinst, samlet -596 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ OUST | 17/11 16.45 | -78 USD | stop ramt (Alpaca) |
 | ❌ OUST | 12/11 18.10 | -191 USD | tidsstop (60 min uden gevinst) |
 | ❌ RGTI | 12/11 18.10 | -297 USD | stop ramt (Alpaca) |
 | ❌ RCAT | 12/11 17.29 | -130 USD | stop ramt (Alpaca) |
 | ❌ RCAT | 11/11 18.17 | -56 USD | tidsstop (60 min uden gevinst) |
-| ✅ ACHR | 6/11 21.52 | +708 USD | dagens slut (ORB) |
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 17/11 16.42
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 17/11 16.47
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -74,7 +70,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **17/11 kl. 16.44** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.564 USD  ·  **I alt:** +564 USD (+0.56 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 17/11 16.39
+**Konto:** 100.564 USD  ·  **I alt:** +564 USD (+0.56 %)  ·  **I dag:** -0.07 %  ·  sidst opdateret 17/11 16.44
 
 **Selv-tjek:** auto-tjek: seneste 10 handler -908 USD (2 vundet), BREMSE (halv stoerrelse)
 
