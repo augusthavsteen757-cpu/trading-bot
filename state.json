@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64138.441,
+  "last_btc_price": 64166.960999999996,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T10:12:39.198272+00:00",
+    "sidst_hentet": "2026-11-17T10:32:39.091179+00:00",
     "opslag": [
+      {
+        "id": "t3_1xygsfi",
+        "tid": "2026-11-17T10:12:43+00:00",
+        "titel": "12 years no gain vs bitcoin normal bear cycle",
+        "symboler": [
+          "BTC/USD"
+        ],
+        "score": 0,
+        "sub": "Bitcoin"
+      },
       {
         "id": "t3_1xyg922",
         "tid": "2026-11-17T09:39:30+00:00",
@@ -1960,7 +1970,7 @@
         "sub": "solana"
       }
     ],
-    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 42 naevner vores symboler (24 t)"
+    "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
   },
   "scan": {},
   "marked": {},
