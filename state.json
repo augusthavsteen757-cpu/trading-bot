@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64191.95,
+  "last_btc_price": 64211.785,
   "earnings_cache": {
     "2026-11-11": [
       "AACG",
@@ -1535,8 +1535,18 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-17T10:32:39.091179+00:00",
+    "sidst_hentet": "2026-11-17T10:47:39.303172+00:00",
     "opslag": [
+      {
+        "id": "t3_1xyhcq2",
+        "tid": "2026-11-17T10:46:58+00:00",
+        "titel": "US Judge Acquits Brothers in $25M Ethereum MEV Exploit Case",
+        "symboler": [
+          "ETH/USD"
+        ],
+        "score": 0,
+        "sub": "CryptoCurrency"
+      },
       {
         "id": "t3_1xygsfi",
         "tid": "2026-11-17T10:12:43+00:00",
@@ -1958,16 +1968,6 @@
         ],
         "score": 0,
         "sub": "Bitcoin"
-      },
-      {
-        "id": "t3_1xxm82w",
-        "tid": "2026-11-16T10:39:46+00:00",
-        "titel": "JUST IN: Solana officially drops \u201cmainnet beta,\u201d introducing Solana 1.0 without changing the network.",
-        "symboler": [
-          "SOL/USD"
-        ],
-        "score": 0,
-        "sub": "solana"
       }
     ],
     "status": "Reddit ok (rss (json gav 403)): 100 opslag hentet, 43 naevner vores symboler (24 t)"
