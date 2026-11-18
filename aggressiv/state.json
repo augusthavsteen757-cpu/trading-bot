@@ -755,20 +755,7 @@
     "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "NFLX": {
-        "kilde": "nyhed",
-        "symbol": "NFLX",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Anerkendelse som top SVOD-tjeneste i USA styrker brandet, men det er en ventet branchelisteplacering med begr\u00e6nset direkte indtjeningseffekt.",
-        "tid": "2026-11-18T16:04:03.203202+00:00",
-        "pris_ved_nyhed": 59.775000000000006,
-        "udloeber": "2026-11-18T18:04:03.203202+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-18",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-18T16:04:03.203202+00:00",
@@ -1662,7 +1649,7 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.22,
+    "pris": 658.7,
     "snitpris": 658.2,
     "svag": false
   },
