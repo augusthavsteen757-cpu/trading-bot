@@ -8584,3 +8584,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-18 15:14,LUNR,11.09,range,range_bund nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77852.92,-22.147,-0.0,-0.993,0.7812,
 2026-11-18 15:14,ACHR,3.485,trend_ned,oversolgt,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77852.92,-22.147,-0.0,-0.993,0.7812,
 2026-11-18 15:14,OUST,31.1,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77852.92,-22.147,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:19,ONDS,4.585,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,
+2026-11-18 15:19,RCAT,2.375,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,
+2026-11-18 15:19,UMAC,10.16,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:19,BBAI,1.82,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:19,SOUN,3.045,trend_ned,oversolgt,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,
+2026-11-18 15:19,QUBT,5.245,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:19,RGTI,8.685,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:19,LUNR,11.09,range,range_bund nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,
+2026-11-18 15:19,ACHR,3.485,trend_ned,oversolgt,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,
+2026-11-18 15:19,OUST,31.11,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,77514.79,-22.485,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
