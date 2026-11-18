@@ -1606,7 +1606,7 @@
     "syms": [
       "CLRO"
     ],
-    "sidst": "2026-11-18T17:44:01.633527+00:00",
+    "sidst": "2026-11-18T17:54:02.560835+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1662,8 +1662,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.08,
-    "snitpris": 658.18,
+    "pris": 659.69,
+    "snitpris": 658.19,
     "svag": false
   },
   "marked_trend": null
