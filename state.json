@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62450.6835,
+  "last_btc_price": 62455.271,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -778,18 +778,6 @@
         "pris_ved_nyhed": 661.985,
         "udloeber": "2026-11-18T17:31:28.389326+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Partnerskab med Loblaw og shopping via Muse AI kan styrke Metas e-handel og AI-produkter, men det er en mindre kanal og n\u00e6ppe markedsbev\u00e6gende.",
-        "tid": "2026-11-18T14:46:28.463301+00:00",
-        "pris_ved_nyhed": 614.835,
-        "udloeber": "2026-11-18T16:46:28.463301+00:00"
-      },
       "MSFT": {
         "kilde": "nyhed",
         "symbol": "MSFT",
@@ -801,30 +789,6 @@
         "tid": "2026-11-18T16:06:28.295029+00:00",
         "pris_ved_nyhed": 506.735,
         "udloeber": "2026-11-18T17:06:28.295029+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Udvidelse af Amazon Ads sponsorprogram til Europa, Canada og Japan kan give \u00f8get reklameoms\u00e6tning, men effekten er beskeden og kort sigt.",
-        "tid": "2026-11-18T14:46:28.463301+00:00",
-        "pris_ved_nyhed": 262.1,
-        "udloeber": "2026-11-18T16:46:28.463301+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Nye servere med AMD EPYC 9006 er produktopdatering fra en partner; forventet og sandsynligvis allerede indregnet i prisen.",
-        "tid": "2026-11-18T14:46:28.463301+00:00",
-        "pris_ved_nyhed": 497.83,
-        "udloeber": "2026-11-18T16:46:28.463301+00:00"
       }
     },
     "dag": "2026-11-18",
@@ -1135,7 +1099,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T16:31:28.383346+00:00",
+    "sidst_hentet": "2026-11-18T16:51:28.525351+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1575,8 +1539,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 654.55,
-    "snitpris": 657.92,
+    "pris": 654.87,
+    "snitpris": 657.88,
     "svag": true
   },
   "marked_trend": -1
