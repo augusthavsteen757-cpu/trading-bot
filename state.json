@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62489.4945,
+  "last_btc_price": 62465.198000000004,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -1587,8 +1587,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.24,
-    "snitpris": 658.57,
+    "pris": 660.17,
+    "snitpris": 658.68,
     "svag": false
   },
   "marked_trend": -1
