@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62311.029500000004,
+  "last_btc_price": 62285.685,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -753,44 +753,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 4,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Udvidede multiyear-aftaler om kapacitet til AI-infrastruktur styrker forventningen om fortsat efterspoergsel. Kan give opbakning til halvleder-sektoren.",
-        "tid": "2026-11-18T19:03:41.011759+00:00",
-        "pris_ved_nyhed": 151.77499999999998,
-        "udloeber": "2026-11-18T22:03:41.011759+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "NVIDIA er en stor vaegt i QQQ, saa en positiv NVDA-nyhed kan loefte indekset indirekte.",
-        "tid": "2026-11-18T19:03:41.011759+00:00",
-        "pris_ved_nyhed": 659.5250000000001,
-        "udloeber": "2026-11-18T22:03:41.011759+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Investering i India er langsigtet og lille i forhold til Amazons oms\u00e6tning; ingen klar kortsigtet kursdriver.",
-        "tid": "2026-11-18T20:03:41.211916+00:00",
-        "pris_ved_nyhed": 267.32,
-        "udloeber": "2026-11-18T22:03:41.211916+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-18",
     "kald_i_dag": 6,
     "sidste_kald": "2026-11-18T20:03:41.211916+00:00",
