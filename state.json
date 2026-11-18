@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63492.119999999995,
+  "last_btc_price": 63473.335,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -778,18 +778,6 @@
         "pris_ved_nyhed": 661.985,
         "udloeber": "2026-11-18T17:31:28.389326+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Kortvarigt servicenedbrud, men det er allerede sket og effekten er sandsynligvis lille og forbig\u00e5ende.",
-        "tid": "2026-11-18T14:31:28.389326+00:00",
-        "pris_ved_nyhed": 354.74,
-        "udloeber": "2026-11-18T15:31:28.389326+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -1159,7 +1147,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T15:21:27.840206+00:00",
+    "sidst_hentet": "2026-11-18T15:36:28.154252+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1599,9 +1587,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.62,
-    "snitpris": 659.19,
-    "svag": false
+    "pris": 658.97,
+    "snitpris": 659.16,
+    "svag": true
   },
   "marked_trend": -1
 }
