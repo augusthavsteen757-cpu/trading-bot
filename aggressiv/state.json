@@ -195,31 +195,7 @@
       "last_entry_eval": "2026-11-11T14:35:25.659837+00:00",
       "last_entry_setups": [
         "trend_pullback"
-      ],
-      "pos": {
-        "entry": 12.045,
-        "stop": 11.774999999999999,
-        "stop_initial": 11.774999999999999,
-        "high": 12.045,
-        "qty": 1669.0,
-        "entry_tid": "2026-11-18 15:00",
-        "setup": "orb",
-        "regime": "trend_ned",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 11.91, 'or_low': 11.63, 'sidste_luk': 11.98}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 36.7,
-          "adx_1h": 48.2,
-          "rel_volumen_1h": 1.0,
-          "afstand_modstand_atr": 0.58,
-          "atr_percentil_30d": 70.5
-        },
-        "target": 12.855000000000004,
-        "luk_foer_luk": true
-      }
+      ]
     },
     "ARM": {
       "last_entry_eval": "2026-11-11T14:35:37.509877+00:00",
@@ -564,7 +540,8 @@
       "2026-11-18 15:39: MARA: stop ramt (Alpaca). R=-0.58. Entry 7, exit 6. Grund til koeb: ?. Features ved koeb: "
     ],
     "tab: orb i trend_ned": [
-      "2026-11-18 15:49: SMCI: stop ramt (Alpaca). R=-1.01. Entry 25, exit 24. Grund til koeb: ORB breakout {'or_high': 24.65, 'or_low': 23.77, 'sidste_luk': 24.72}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.7, 'adx_1h': 38.8, 'rel_volumen_1h': 0.85, 'afstand_modstand_atr': 3.14, 'atr_percentil_30d': 77.7}"
+      "2026-11-18 15:49: SMCI: stop ramt (Alpaca). R=-1.01. Entry 25, exit 24. Grund til koeb: ORB breakout {'or_high': 24.65, 'or_low': 23.77, 'sidste_luk': 24.72}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.7, 'adx_1h': 38.8, 'rel_volumen_1h': 0.85, 'afstand_modstand_atr': 3.14, 'atr_percentil_30d': 77.7}",
+      "2026-11-18 15:54: RIVN: stop ramt (Alpaca). R=-1.02. Entry 12, exit 12. Grund til koeb: ORB breakout {'or_high': 11.91, 'or_low': 11.63, 'sidste_luk': 11.98}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 36.7, 'adx_1h': 48.2, 'rel_volumen_1h': 1.0, 'afstand_modstand_atr': 0.58, 'atr_percentil_30d': 70.5}"
     ]
   },
   "budget_month": "2026-11",
@@ -573,12 +550,12 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.0578025,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -1620 USD (3 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -1095 USD (3 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-18",
   "day_start_equity": 100564.15,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-18T15:39:01.854411+00:00",
+    "sidst_hentet": "2026-11-18T15:54:02.260826+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1828,8 +1805,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.37,
-    "snitpris": 658.8,
+    "pris": 655.65,
+    "snitpris": 658.73,
     "svag": true
   },
   "marked_trend": null
