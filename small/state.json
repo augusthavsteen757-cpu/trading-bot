@@ -123,7 +123,7 @@
   "day_start_equity": 99179.52,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-18T15:09:55.216588+00:00",
+    "sidst_hentet": "2026-11-18T15:24:56.249297+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -301,7 +301,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.585,
+  "last_btc_price": 4.535,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -830,8 +830,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 270.78,
-    "snitpris": 269.77,
+    "pris": 271.15,
+    "snitpris": 269.81,
     "svag": false
   },
   "marked_trend": -1
