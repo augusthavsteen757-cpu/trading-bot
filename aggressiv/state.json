@@ -185,32 +185,7 @@
       "last_entry_setups": [
         "range_bund"
       ],
-      "orb_day": "2026-11-18",
-      "pos": {
-        "entry": 225.4,
-        "stop": 225.4,
-        "stop_initial": 221.51749999999998,
-        "high": 237.03,
-        "qty": 6.0,
-        "entry_tid": "2026-11-18 15:00",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 224.4, 'or_low': 218.63, 'sidste_luk': 225.4}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 55.4,
-          "adx_1h": 23.5,
-          "rel_volumen_1h": 1.12,
-          "afstand_modstand_atr": 0.06,
-          "atr_percentil_30d": 67.4
-        },
-        "target": 237.04750000000007,
-        "luk_foer_luk": true,
-        "delsalg": true
-      }
+      "orb_day": "2026-11-18"
     },
     "SHOP": {
       "orb_day": "2026-11-16"
@@ -259,10 +234,10 @@
       "2026-11-03 17:45: APIError: {\"message\": \"unauthorized.\"}\n"
     ],
     "gevinst: orb i range": [
-      "2026-11-04 20:52: NFLX: dagens slut (ORB). R=+1.71. Entry 65, exit 67. Grund til koeb: ORB breakout {'or_high': 65.24, 'or_low': 64.03, 'sidste_luk': 65.27}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 76.7, 'adx_1h': 21.4, 'rel_volumen_1h': 0.97, 'afstand_modstand_atr': 0.69, 'atr_percentil_30d': 75.9}",
       "2026-11-11 16:49: SMCI: maal naaet. R=+3.09. Entry 30, exit 31. Grund til koeb: ORB breakout {'or_high': 29.79, 'or_low': 29.23, 'sidste_luk': 29.94}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 59.7, 'adx_1h': 13.6, 'rel_volumen_1h': 0.84, 'afstand_modstand_atr': 3.24, 'atr_percentil_30d': 81.7}",
       "2026-11-11 20:54: CRWG: dagens slut (ORB). R=+0.64. Entry 7, exit 7. Grund til koeb: ORB breakout {'or_high': 6.41, 'or_low': 5.83, 'sidste_luk': 6.64}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 76.2, 'adx_1h': 23.8, 'rel_volumen_1h': 0.47, 'afstand_modstand_atr': 5.41, 'atr_percentil_30d': 66.7}",
-      "2026-11-17 14:36: SHOP: stop ramt (Alpaca). R=+0.48. Entry 146, exit 147. Grund til koeb: ORB breakout {'or_high': 145.82, 'or_low': 143.33, 'sidste_luk': 146.04}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': 0, 'rsi_1h': 45.1, 'adx_1h': 14.4, 'rel_volumen_1h': 0.24, 'afstand_modstand_atr': 0.8, 'atr_percentil_30d': 48.0}"
+      "2026-11-17 14:36: SHOP: stop ramt (Alpaca). R=+0.48. Entry 146, exit 147. Grund til koeb: ORB breakout {'or_high': 145.82, 'or_low': 143.33, 'sidste_luk': 146.04}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': 0, 'rsi_1h': 45.1, 'adx_1h': 14.4, 'rel_volumen_1h': 0.24, 'afstand_modstand_atr': 0.8, 'atr_percentil_30d': 48.0}",
+      "2026-11-18 18:24: CRWD: maal naaet. R=+3.14. Entry 225, exit 238. Grund til koeb: ORB breakout {'or_high': 224.4, 'or_low': 218.63, 'sidste_luk': 225.4}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 55.4, 'adx_1h': 23.5, 'rel_volumen_1h': 1.12, 'afstand_modstand_atr': 0.06, 'atr_percentil_30d': 67.4}"
     ],
     "gevinst: orb i high_vol": [
       "2026-11-05 16:29: SNDQ: raket vendt (under dagens snitpris). R=+0.44. Entry 31, exit 32. Grund til koeb: ORB breakout {'or_high': 30.47, 'or_low': 28.0, 'sidste_luk': 31.14}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 83.3, 'adx_1h': 41.5, 'rel_volumen_1h': 4.36, 'afstand_modstand_atr': 0.13, 'atr_percentil_30d': 95.9}",
@@ -503,7 +478,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.0580096,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -1560 USD (2 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -1542 USD (2 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-18",
   "day_start_equity": 100564.15,
   "peak_equity": 105445.49,
@@ -1649,9 +1624,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.42,
-    "snitpris": 658.2,
-    "svag": true
+    "pris": 658.38,
+    "snitpris": 658.21,
+    "svag": false
   },
   "marked_trend": null
 }
