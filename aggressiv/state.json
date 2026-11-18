@@ -175,18 +175,7 @@
       "last_entry_eval": "2026-11-18T14:31:35.924143+00:00",
       "last_entry_setups": [
         "range_bund"
-      ],
-      "pos": {
-        "entry": 6.66,
-        "stop": 6.2604,
-        "stop_initial": 6.2604,
-        "high": 6.66,
-        "qty": 70.0,
-        "entry_tid": "2026-11-18 15:21",
-        "setup": "adopteret",
-        "regime": "range",
-        "conviction": 3
-      }
+      ]
     },
     "RIOT": {
       "last_entry_eval": "2026-11-18T14:31:46.092551+00:00",
@@ -594,6 +583,9 @@
     ],
     "tab: raket i trend_op": [
       "2026-11-18 15:29: CLRO: stop ramt (Alpaca). R=-0.99. Entry 8, exit 7. Grund til koeb: Raket ny dagstop {'dagstop': 7.49, 'vwap': 7.1, 'risiko_pct': 7.5}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 79.4, 'adx_1h': 29.1, 'rel_volumen_1h': 43.13, 'afstand_modstand_atr': 0.24, 'atr_percentil_30d': 24.2}"
+    ],
+    "tab: adopteret i range": [
+      "2026-11-18 15:39: MARA: stop ramt (Alpaca). R=-0.58. Entry 7, exit 6. Grund til koeb: ?. Features ved koeb: "
     ]
   },
   "budget_month": "2026-11",
@@ -602,12 +594,12 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.0578025,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -1142 USD (3 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -1113 USD (3 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-18",
   "day_start_equity": 100564.15,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-18T15:20:53.431271+00:00",
+    "sidst_hentet": "2026-11-18T15:39:01.854411+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1857,9 +1849,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 659.62,
-    "snitpris": 659.18,
-    "svag": false
+    "pris": 658.97,
+    "snitpris": 659.07,
+    "svag": true
   },
   "marked_trend": null
 }
