@@ -190,7 +190,7 @@
         "entry": 225.4,
         "stop": 225.4,
         "stop_initial": 221.51749999999998,
-        "high": 236.25,
+        "high": 237.01,
         "qty": 6.0,
         "entry_tid": "2026-11-18 15:00",
         "setup": "orb",
@@ -1654,7 +1654,7 @@
     "syms": [
       "CLRO"
     ],
-    "sidst": "2026-11-18T17:19:01.805501+00:00",
+    "sidst": "2026-11-18T17:29:02.231581+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1710,8 +1710,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.36,
-    "snitpris": 657.8,
+    "pris": 660.25,
+    "snitpris": 657.96,
     "svag": false
   },
   "marked_trend": null
