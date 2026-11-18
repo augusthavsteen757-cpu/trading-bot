@@ -3,6 +3,22 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 18. nov 2026 (onsdag)
+
+**Gårsdagens punkter:** Options-pausen holder stadig (ingen AMZN-køb). Options ejer stadig AAPL-call (købt 7,80) og er -0,53 % i alt. Small-ORB har ikke handlet, så 5 %-loftet er stadig utestet.
+
+**Godt**
+- Aggressiv: CRWD gav +103 USD (halvdel ved +1R, resten ved målet 3R).
+
+**Dårligt**
+- Aggressiv: -1,45 % i dag, nu -0,90 % i alt. SMCI -508, RIVN -459, RIOT -351, ARM -219.
+- SMCI og RIVN var ORB-køb i aktier i **nedtrend** (trend_ned). Siden start har aggressiv lavet 4 ORB-køb i nedtrend, 0 vundet, i alt -995 USD. ORB i "range" har til sammenligning givet +1.743 USD (11 af 21 vundet).
+- Hoved, small, krypto: ingen handler.
+
+**Rettelse i dag:** Den aggressive bot laver ikke ORB-køb i aktier, der er i nedtrend (ORB_SKIP_TREND_NED=1, kan slås fra med Actions-variablen AGGRESSIV_ORB_SKIP_TREND_NED=0). Alle andre køb er uændrede, så den bliver ikke meget strammere.
+
+**Tjek i morgen:** At aggressiv springer ORB i nedtrend over (note i trades.csv), og hvordan AAPL-call ender.
+
 ## 17. nov 2026 (tirsdag)
 
 **Gårsdagens rettelse (options-pause efter tab, PR #61):** Virker. AMZN gav et køb-signal kl. 15.25 og 15.30 (bullish), men blev blokeret med "tabte i aktien 2026-11-16, pause i 7 dage".
