@@ -123,7 +123,7 @@
   "day_start_equity": 99179.52,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-18T16:19:56.693633+00:00",
+    "sidst_hentet": "2026-11-18T16:34:57.013933+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -140,18 +140,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "OUST": {
-        "kilde": "nyhed",
-        "symbol": "OUST",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny kunde-integration af Ouster LiDAR i Hido II rover; positiv for efterspoergsel, men lille kontrakt og kan vaere overset.",
-        "tid": "2026-11-18T14:34:55.087719+00:00",
-        "pris_ved_nyhed": 30.09,
-        "udloeber": "2026-11-18T16:34:55.087719+00:00"
-      },
       "LUNR": {
         "kilde": "nyhed",
         "symbol": "LUNR",
@@ -819,7 +807,7 @@
   "marked": {
     "symbol": "IWM",
     "pris": 269.81,
-    "snitpris": 269.88,
+    "snitpris": 269.89,
     "svag": true
   },
   "marked_trend": -1
