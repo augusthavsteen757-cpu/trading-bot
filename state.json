@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62465.198000000004,
+  "last_btc_price": 62489.3,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -1585,11 +1585,6 @@
     "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 660.17,
-    "snitpris": 658.68,
-    "svag": false
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
