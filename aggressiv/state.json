@@ -144,31 +144,7 @@
       "last_entry_eval": "2026-11-13T14:36:03.775833+00:00",
       "last_entry_setups": [
         "range_bund"
-      ],
-      "pos": {
-        "entry": 24.83,
-        "stop": 24.21,
-        "stop_initial": 24.21,
-        "high": 24.83,
-        "qty": 810.0,
-        "entry_tid": "2026-11-18 15:00",
-        "setup": "orb",
-        "regime": "trend_ned",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 24.65, 'or_low': 23.77, 'sidste_luk': 24.72}",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 42.7,
-          "adx_1h": 38.8,
-          "rel_volumen_1h": 0.85,
-          "afstand_modstand_atr": 3.14,
-          "atr_percentil_30d": 77.7
-        },
-        "target": 26.68999999999999,
-        "luk_foer_luk": true
-      }
+      ]
     },
     "MARA": {
       "orb_day": "2026-11-12",
@@ -586,6 +562,9 @@
     ],
     "tab: adopteret i range": [
       "2026-11-18 15:39: MARA: stop ramt (Alpaca). R=-0.58. Entry 7, exit 6. Grund til koeb: ?. Features ved koeb: "
+    ],
+    "tab: orb i trend_ned": [
+      "2026-11-18 15:49: SMCI: stop ramt (Alpaca). R=-1.01. Entry 25, exit 24. Grund til koeb: ORB breakout {'or_high': 24.65, 'or_low': 23.77, 'sidste_luk': 24.72}. Features ved koeb: {'trend_1h': -1, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 42.7, 'adx_1h': 38.8, 'rel_volumen_1h': 0.85, 'afstand_modstand_atr': 3.14, 'atr_percentil_30d': 77.7}"
     ]
   },
   "budget_month": "2026-11",
@@ -594,7 +573,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.0578025,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -1113 USD (3 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -1620 USD (3 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-18",
   "day_start_equity": 100564.15,
   "peak_equity": 105445.49,
@@ -1793,7 +1772,7 @@
     "syms": [
       "CLRO"
     ],
-    "sidst": "2026-11-18T15:34:02.342142+00:00",
+    "sidst": "2026-11-18T15:49:02.391250+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1849,8 +1828,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.04,
-    "snitpris": 658.93,
+    "pris": 656.37,
+    "snitpris": 658.8,
     "svag": true
   },
   "marked_trend": null
