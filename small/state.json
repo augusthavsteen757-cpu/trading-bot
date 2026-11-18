@@ -175,18 +175,6 @@
         "tid": "2026-11-18T14:34:55.087719+00:00",
         "pris_ved_nyhed": 2.275,
         "udloeber": "2026-11-18T17:34:55.087719+00:00"
-      },
-      "BBAI": {
-        "kilde": "nyhed",
-        "symbol": "BBAI",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "H.C. Wainwright buy-rating med kursmaal 4 USD; rutinemaessig analysedaekning, svag kortsigtet effekt.",
-        "tid": "2026-11-18T14:34:55.087719+00:00",
-        "pris_ved_nyhed": 1.785,
-        "udloeber": "2026-11-18T15:34:55.087719+00:00"
       }
     },
     "dag": "2026-11-18",
@@ -301,7 +289,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.535,
+  "last_btc_price": 4.515,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -831,7 +819,7 @@
   "marked": {
     "symbol": "IWM",
     "pris": 270.96,
-    "snitpris": 269.85,
+    "snitpris": 269.91,
     "svag": false
   },
   "marked_trend": -1
