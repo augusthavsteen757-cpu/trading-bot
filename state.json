@@ -47,11 +47,11 @@
       "2026-11-16 14:47: AMZN: stop ramt (Alpaca). R=-1.00. Entry 265, exit 260. Grund til koeb: Pris ved stoette 265.05, 4h/1d trend op, extreme fear kontrarian. Modstand 270.55 er 2.11 ATR vaek, over 1.2R. Lav volumen, saa kun lille stoerrelse.. Features ved koeb: {'trend_1h': 0, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 43.8, 'adx_1h': 27.5, 'rel_volumen_1h': 0.15, 'afstand_modstand_atr': 2.11, 'atr_percentil_30d': 74.1}"
     ]
   },
-  "ai_day": "2026-11-17",
-  "ai_rounds_today": 20,
-  "ai_spend_today": 0.15604369999999998,
-  "eq_day": "2026-11-17",
-  "day_start_equity": 99313.78,
+  "ai_day": "2026-11-18",
+  "ai_rounds_today": 0,
+  "ai_spend_today": 0.0,
+  "eq_day": "2026-11-18",
+  "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
   "test_kob_id": "testkoeb-2026-11-01",
   "coins": {
@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64872.6055,
+  "last_btc_price": 64793.0545,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1089,8 +1089,8 @@
   },
   "nyhedsjaeger": {
     "signaler": {},
-    "dag": "2026-11-17",
-    "kald_i_dag": 4,
+    "dag": "2026-11-18",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-17T20:04:19.971743+00:00",
     "set_ids": [
       "63191088",
