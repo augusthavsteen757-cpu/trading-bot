@@ -804,18 +804,6 @@
         "pris_ved_nyhed": 68.24,
         "udloeber": "2026-11-18T17:30:17.800673+00:00"
       },
-      "MARA": {
-        "kilde": "nyhed",
-        "symbol": "MARA",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny gaeld til kraftvaerk kan styrke MARAs energi-strategi, men 8,75% rente og gaeldsfinansiering d\u00e6mper effekten. Svagt signal.",
-        "tid": "2026-11-18T14:40:18.045814+00:00",
-        "pris_ved_nyhed": 6.4350000000000005,
-        "udloeber": "2026-11-18T16:40:18.045814+00:00"
-      },
       "COIN": {
         "kilde": "nyhed",
         "symbol": "COIN",
@@ -827,30 +815,6 @@
         "tid": "2026-11-18T14:40:18.045814+00:00",
         "pris_ved_nyhed": 112.19,
         "udloeber": "2026-11-18T17:40:18.045814+00:00"
-      },
-      "CRWD": {
-        "kilde": "nyhed",
-        "symbol": "CRWD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Nyt AI-sikkerhedscenter med CrowdStrike-partnerskab er positivt, men lokal og relativt lille nyhed for CRWD.",
-        "tid": "2026-11-18T14:40:18.045814+00:00",
-        "pris_ved_nyhed": 220.565,
-        "udloeber": "2026-11-18T16:40:18.045814+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Loblaw-integration med Metas Muse AI viser udbredelse af AI-handel og kan styrke Metas AI-narrativ, men effekten er lille.",
-        "tid": "2026-11-18T14:40:18.045814+00:00",
-        "pris_ved_nyhed": 618.58,
-        "udloeber": "2026-11-18T16:40:18.045814+00:00"
       },
       "AMD": {
         "kilde": "nyhed",
@@ -1714,7 +1678,7 @@
     "syms": [
       "CLRO"
     ],
-    "sidst": "2026-11-18T16:29:02.516885+00:00",
+    "sidst": "2026-11-18T16:44:01.506272+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1770,8 +1734,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.35,
-    "snitpris": 658.0,
+    "pris": 654.4,
+    "snitpris": 657.94,
     "svag": true
   },
   "marked_trend": null
