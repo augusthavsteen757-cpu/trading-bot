@@ -8624,3 +8624,13 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-18 15:34,LUNR,10.79,high_vol,range_bund nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,76331.36,-23.669,-0.0,-0.993,0.7812,
 2026-11-18 15:34,ACHR,3.425,trend_ned,oversolgt,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,76331.36,-23.669,-0.0,-0.993,0.7812,
 2026-11-18 15:34,OUST,30.72,trend_ned,nyhed_op,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,76331.36,-23.669,-0.0,-0.993,0.7812,
+2026-11-18 15:39,ONDS,4.495,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-18 15:39,RCAT,2.325,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,UMAC,9.82,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,BBAI,1.79,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,SOUN,3.015,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,QUBT,5.155,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,RGTI,8.51,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,LUNR,10.73,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,ACHR,3.395,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
+2026-11-18 15:39,OUST,30.72,trend_ned,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,75993.24,-24.007,-0.0,-0.993,0.7812,
