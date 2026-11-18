@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 2.044555,
+  "budget_used": 2.052142,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -48,8 +48,8 @@
     ]
   },
   "ai_day": "2026-11-18",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.0535328,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.0611198,
   "eq_day": "2026-11-18",
   "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
@@ -69,9 +69,9 @@
     },
     "SPY": {
       "orb_day": "2026-11-12",
-      "last_entry_eval": "2026-11-17T14:34:18.644557+00:00",
+      "last_entry_eval": "2026-11-18T14:41:32.910207+00:00",
       "last_entry_setups": [
-        "oversolgt"
+        "range_bund"
       ],
       "last_hold_review": "2026-11-06T15:01:46.064294+00:00",
       "last_review_price": 740.335
@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63368.78,
+  "last_btc_price": 63092.2245,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
