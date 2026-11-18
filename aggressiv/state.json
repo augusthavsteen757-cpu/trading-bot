@@ -508,7 +508,7 @@
   "day_start_equity": 100564.15,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-18T16:49:02.371685+00:00",
+    "sidst_hentet": "2026-11-18T17:04:02.844595+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1654,7 +1654,7 @@
     "syms": [
       "CLRO"
     ],
-    "sidst": "2026-11-18T16:54:02.466007+00:00",
+    "sidst": "2026-11-18T17:04:02.577965+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1710,8 +1710,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 653.56,
-    "snitpris": 657.8,
+    "pris": 656.2,
+    "snitpris": 657.79,
     "svag": true
   },
   "marked_trend": null
