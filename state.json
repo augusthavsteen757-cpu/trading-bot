@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62727.8975,
+  "last_btc_price": 62783.375,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -777,18 +777,6 @@
         "tid": "2026-11-18T14:31:28.389326+00:00",
         "pris_ved_nyhed": 661.985,
         "udloeber": "2026-11-18T17:31:28.389326+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Akamai-integration paa mobil er en mindre produktnyhed med begraenset oekonomisk betydning for Microsoft.",
-        "tid": "2026-11-18T16:06:28.295029+00:00",
-        "pris_ved_nyhed": 506.735,
-        "udloeber": "2026-11-18T17:06:28.295029+00:00"
       }
     },
     "dag": "2026-11-18",
@@ -1099,7 +1087,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T16:51:28.525351+00:00",
+    "sidst_hentet": "2026-11-18T17:06:28.658156+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1539,7 +1527,7 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.2,
+    "pris": 657.21,
     "snitpris": 657.79,
     "svag": true
   },
