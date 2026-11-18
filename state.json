@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62397.31,
+  "last_btc_price": 62507.9535,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -777,18 +777,6 @@
         "tid": "2026-11-18T19:03:41.011759+00:00",
         "pris_ved_nyhed": 659.5250000000001,
         "udloeber": "2026-11-18T22:03:41.011759+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Microsoft-Intel samarbejde om AI-infrastruktur kan vaere en konkurrencemaessig faktor for AMD i datacenter-markedet, men effekten er uklar og indirekte.",
-        "tid": "2026-11-18T19:13:41.441201+00:00",
-        "pris_ved_nyhed": 519.2,
-        "udloeber": "2026-11-18T21:13:41.441201+00:00"
       },
       "AMZN": {
         "kilde": "nyhed",
