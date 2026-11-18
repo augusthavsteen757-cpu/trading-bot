@@ -793,11 +793,6 @@
     ]
   },
   "scan": {},
-  "marked": {
-    "symbol": "IWM",
-    "pris": 270.36,
-    "snitpris": 270.34,
-    "svag": false
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
