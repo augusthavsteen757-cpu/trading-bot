@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62483.203,
+  "last_btc_price": 62407.734,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -778,18 +778,6 @@
         "pris_ved_nyhed": 661.985,
         "udloeber": "2026-11-18T17:31:28.389326+00:00"
       },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Nedgradering til Sell med v\u00e6rdians\u00e6ttelseskritik kan skabe pres, men Barclays Buy modvirker delvist.",
-        "tid": "2026-11-18T14:31:28.389326+00:00",
-        "pris_ved_nyhed": 384.37,
-        "udloeber": "2026-11-18T16:31:28.389326+00:00"
-      },
       "META": {
         "kilde": "nyhed",
         "symbol": "META",
@@ -1147,7 +1135,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T16:11:28.940370+00:00",
+    "sidst_hentet": "2026-11-18T16:31:28.383346+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1587,8 +1575,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 656.68,
-    "snitpris": 658.2,
+    "pris": 655.51,
+    "snitpris": 658.03,
     "svag": true
   },
   "marked_trend": -1
