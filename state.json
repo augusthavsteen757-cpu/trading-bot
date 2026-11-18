@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 64505.945,
+  "last_btc_price": 64468.807,
   "earnings_cache": {
     "2026-11-12": [
       "AARD",
@@ -1397,7 +1397,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T09:56:53.317401+00:00",
+    "sidst_hentet": "2026-11-18T10:16:53.644514+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1832,7 +1832,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/CryptoCurrency+Bit"
+    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/CryptoCurr"
   },
   "scan": {},
   "marked": {},
