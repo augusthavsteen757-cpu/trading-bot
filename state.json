@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 2.097652,
+  "budget_used": 2.127483,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -48,8 +48,8 @@
     ]
   },
   "ai_day": "2026-11-18",
-  "ai_rounds_today": 14,
-  "ai_spend_today": 0.10662959999999998,
+  "ai_rounds_today": 18,
+  "ai_spend_today": 0.13646059999999996,
   "eq_day": "2026-11-18",
   "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
@@ -69,7 +69,7 @@
     },
     "SPY": {
       "orb_day": "2026-11-12",
-      "last_entry_eval": "2026-11-18T17:21:33.601000+00:00",
+      "last_entry_eval": "2026-11-18T18:23:45.189406+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -96,7 +96,7 @@
     },
     "AAPL": {
       "orb_day": "2026-11-11",
-      "last_entry_eval": "2026-11-18T17:21:47.362638+00:00",
+      "last_entry_eval": "2026-11-18T18:23:58.252175+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -147,7 +147,7 @@
       "last_review_price": 260.68
     },
     "META": {
-      "last_entry_eval": "2026-11-18T17:21:59.114771+00:00",
+      "last_entry_eval": "2026-11-18T18:24:10.509605+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -199,7 +199,7 @@
       "last_review_price": 555.2
     },
     "TSLA": {
-      "last_entry_eval": "2026-11-18T17:22:10.225477+00:00",
+      "last_entry_eval": "2026-11-18T18:24:22.414829+00:00",
       "last_entry_setups": [
         "trend_pullback"
       ],
@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63062.2045,
+  "last_btc_price": 63127.7115,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -1502,9 +1502,9 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.42,
-    "snitpris": 658.2,
-    "svag": true
+    "pris": 658.38,
+    "snitpris": 658.21,
+    "svag": false
   },
   "marked_trend": -1
 }
