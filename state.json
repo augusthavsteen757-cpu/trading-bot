@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62489.3,
+  "last_btc_price": 62454.511,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -790,30 +790,6 @@
         "pris_ved_nyhed": 519.2,
         "udloeber": "2026-11-18T21:13:41.441201+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Granskning af Muse AI-agenten og privatlivsproblemer kan skabe usikkerhed, men virkningen er sandsynligvis begraenset.",
-        "tid": "2026-11-18T19:03:41.011759+00:00",
-        "pris_ved_nyhed": 616.5350000000001,
-        "udloeber": "2026-11-18T21:03:41.011759+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Splashtop-optagelse i et sikkerhedsprogram er irrelevant for Microsofts aktiekurs.",
-        "tid": "2026-11-18T20:03:41.211916+00:00",
-        "pris_ved_nyhed": 508.05,
-        "udloeber": "2026-11-18T21:03:41.211916+00:00"
-      },
       "AMZN": {
         "kilde": "nyhed",
         "symbol": "AMZN",
@@ -825,18 +801,6 @@
         "tid": "2026-11-18T20:03:41.211916+00:00",
         "pris_ved_nyhed": 267.32,
         "udloeber": "2026-11-18T22:03:41.211916+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "App Store-finalister er et rutinemaessigt event uden markant effekt paa Apples indtjening.",
-        "tid": "2026-11-18T20:03:41.211916+00:00",
-        "pris_ved_nyhed": 352.46,
-        "udloeber": "2026-11-18T21:03:41.211916+00:00"
       }
     },
     "dag": "2026-11-18",
@@ -1147,7 +1111,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-18T20:48:40.864486+00:00",
+    "sidst_hentet": "2026-11-18T21:08:38.827338+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1582,7 +1546,7 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/CryptoCurrency+Bit"
   },
   "scan": {},
   "marked": {},
