@@ -257,7 +257,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.255,
+  "last_btc_price": 4.225,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -620,8 +620,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 264.94,
-    "snitpris": 267.18,
+    "pris": 264.93,
+    "snitpris": 267.05,
     "svag": true
   },
   "marked_trend": -1
