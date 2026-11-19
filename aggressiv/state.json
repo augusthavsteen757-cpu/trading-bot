@@ -784,30 +784,6 @@
         "tid": "2026-11-19T19:03:16.962665+00:00",
         "pris_ved_nyhed": 110.75,
         "udloeber": "2026-11-19T21:03:16.962665+00:00"
-      },
-      "RIVN": {
-        "kilde": "nyhed",
-        "symbol": "RIVN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Finalist-status til award er lille positiv omtale uden direkte indtjeningseffekt.",
-        "tid": "2026-11-19T19:03:16.962665+00:00",
-        "pris_ved_nyhed": 11.395,
-        "udloeber": "2026-11-19T20:03:16.962665+00:00"
-      },
-      "NFLX": {
-        "kilde": "nyhed",
-        "symbol": "NFLX",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Ny animeret serie er rutinemaessig content-nyhed uden markant kurspaavirkning.",
-        "tid": "2026-11-19T19:03:16.962665+00:00",
-        "pris_ved_nyhed": 58.585,
-        "udloeber": "2026-11-19T20:03:16.962665+00:00"
       }
     },
     "dag": "2026-11-19",
@@ -1539,8 +1515,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 648.21,
-    "snitpris": 657.89,
+    "pris": 647.45,
+    "snitpris": 657.68,
     "svag": true
   },
   "marked_trend": null
