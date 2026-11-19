@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 61479.697,
+  "last_btc_price": 61727.579,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -589,32 +589,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Stuurl\u00f8s Model Y-version signalerer robotaxi-ambitioner, men er kun bekr\u00e6ftet som arbejde i gang; Megapack-drift i Japan giver lille men positiv energilagring-nyhed.",
-        "tid": "2026-11-19T19:04:06.084289+00:00",
-        "pris_ved_nyhed": 377.1,
-        "udloeber": "2026-11-19T22:04:06.084289+00:00"
-      },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ledelsesfratr\u00e6delse i kamera- og fotosoftware er sj\u00e6ldent markedsrelevant; forventes ingen v\u00e6sentlig kursreaktion for Apples samlede indtjening.",
-        "tid": "2026-11-19T20:04:06.119847+00:00",
-        "pris_ved_nyhed": 348.57500000000005,
-        "udloeber": "2026-11-19T22:04:06.119847+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-19",
     "kald_i_dag": 5,
     "sidste_kald": "2026-11-19T20:04:06.119847+00:00",
@@ -923,7 +898,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-19T21:44:44.909252+00:00",
+    "sidst_hentet": "2026-11-19T22:04:36.675956+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
