@@ -737,18 +737,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "ARM": {
-        "kilde": "nyhed",
-        "symbol": "ARM",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Insiderssalg af ca. 1 mio. USD af chief architect kan give kortvarigt pres. Salget er dog lille i forhold til aktiens volumen, og salg kan have rutinemaessige aarsager, saa effekten er begraenset.",
-        "tid": "2026-11-19T15:03:16.608081+00:00",
-        "pris_ved_nyhed": 188.965,
-        "udloeber": "2026-11-19T17:03:16.608081+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -1433,7 +1421,7 @@
     "syms": [
       "INSM"
     ],
-    "sidst": "2026-11-19T16:48:16.794547+00:00",
+    "sidst": "2026-11-19T17:03:16.601099+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1491,8 +1479,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 658.03,
-    "snitpris": 663.81,
+    "pris": 654.59,
+    "snitpris": 663.11,
     "svag": true
   },
   "marked_trend": null
