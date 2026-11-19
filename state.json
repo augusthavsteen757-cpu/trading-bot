@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62807.991500000004,
+  "last_btc_price": 62601.55,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -589,20 +589,7 @@
     ]
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "EQIX": {
-        "kilde": "nyhed",
-        "symbol": "EQIX",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Lille kundeaftale i Equinix-datacenter i Tokyo; positivt for udlejning, men beskedent \u00f8konomisk betydning for en stor REIT.",
-        "tid": "2026-11-19T16:05:42.748041+00:00",
-        "pris_ved_nyhed": 1034.6100000000001,
-        "udloeber": "2026-11-19T18:05:42.748041+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-19",
     "kald_i_dag": 3,
     "sidste_kald": "2026-11-19T16:05:42.748041+00:00",
@@ -1351,8 +1338,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.93,
-    "snitpris": 660.24,
+    "pris": 651.84,
+    "snitpris": 660.04,
     "svag": true
   },
   "marked_trend": -1
