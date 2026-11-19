@@ -22,7 +22,31 @@
       "last_entry_setups": [
         "trend_pullback"
       ],
-      "orb_day": "2026-11-12"
+      "orb_day": "2026-11-19",
+      "pos": {
+        "entry": 552.44,
+        "stop": 544.5425,
+        "stop_initial": 544.5425,
+        "high": 552.44,
+        "qty": 53.0,
+        "entry_tid": "2026-11-19 14:53",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 551.8, 'or_low': 537.28, 'sidste_luk': 554.46, 'a_plus': '5.6x volumen, indsats x1.5'}",
+        "features": {
+          "trend_1h": 1,
+          "trend_4h": 0,
+          "trend_1d": 0,
+          "rsi_1h": 68.1,
+          "adx_1h": 18.8,
+          "rel_volumen_1h": 2.22,
+          "afstand_modstand_atr": 1.23,
+          "atr_percentil_30d": 72.9
+        },
+        "target": 576.1325000000002,
+        "luk_foer_luk": true
+      }
     },
     "PLTR": {
       "last_entry_eval": "2026-11-19T14:43:18.623453+00:00",
@@ -140,11 +164,35 @@
     },
     "UVXY": {},
     "SMCI": {
-      "orb_day": "2026-11-18",
+      "orb_day": "2026-11-19",
       "last_entry_eval": "2026-11-13T14:36:03.775833+00:00",
       "last_entry_setups": [
         "range_bund"
-      ]
+      ],
+      "pos": {
+        "entry": 25.685,
+        "stop": 25.3525,
+        "stop_initial": 25.3525,
+        "high": 25.685,
+        "qty": 771.0,
+        "entry_tid": "2026-11-19 14:53",
+        "setup": "orb",
+        "regime": "range",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 25.59, 'or_low': 25.11, 'sidste_luk': 25.8}",
+        "features": {
+          "trend_1h": 0,
+          "trend_4h": -1,
+          "trend_1d": -1,
+          "rsi_1h": 55.4,
+          "adx_1h": 34.3,
+          "rel_volumen_1h": 0.59,
+          "afstand_modstand_atr": 1.89,
+          "atr_percentil_30d": 73.0
+        },
+        "target": 26.682499999999997,
+        "luk_foer_luk": true
+      }
     },
     "MARA": {
       "orb_day": "2026-11-12",
@@ -1570,8 +1618,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 674.07,
-    "snitpris": 673.09,
+    "pris": 674.86,
+    "snitpris": 673.45,
     "svag": false
   },
   "marked_trend": null
