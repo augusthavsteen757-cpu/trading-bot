@@ -489,7 +489,7 @@
   "day_start_equity": 99103.9,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-19T16:18:16.547603+00:00",
+    "sidst_hentet": "2026-11-19T16:38:16.516404+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -737,66 +737,6 @@
   },
   "nyhedsjaeger": {
     "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Hurtigere H200-eksportgodkendelse til Kina kan modvirke noget af det negative sentiment.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 156.26999999999998,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Udskudt udstedelse af Class C-aktier pga. retssag skaber usikkerhed om governance.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 627.82,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
-      },
-      "AVGO": {
-        "kilde": "nyhed",
-        "symbol": "AVGO",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Goldman fastholder Buy, men saenker kursmaal; blandet signal med begr\u00e6nset effekt.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 364.45,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
-      },
-      "RBLX": {
-        "kilde": "nyhed",
-        "symbol": "RBLX",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "BofA haever kursmaal til 48; mindre positiv opgradering uden ny fundamental nyhed.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 49.845,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
-      },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Partnerskab om auto dele-kategori i Uber Eats oeger potentielt udvalg og omsaetning.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 69.04,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
-      },
       "ARM": {
         "kilde": "nyhed",
         "symbol": "ARM",
@@ -808,18 +748,6 @@
         "tid": "2026-11-19T15:03:16.608081+00:00",
         "pris_ved_nyhed": 188.965,
         "udloeber": "2026-11-19T17:03:16.608081+00:00"
-      },
-      "CRWD": {
-        "kilde": "nyhed",
-        "symbol": "CRWD",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Jamf-integration pa Falcon Foundry udvider CrowdStrikes oekosystem for Apple-enheder.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 252.38,
-        "udloeber": "2026-11-19T16:33:16.288884+00:00"
       },
       "TSLA": {
         "kilde": "nyhed",
@@ -1505,7 +1433,7 @@
     "syms": [
       "INSM"
     ],
-    "sidst": "2026-11-19T16:23:16.758869+00:00",
+    "sidst": "2026-11-19T16:38:16.097338+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1563,8 +1491,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 662.7,
-    "snitpris": 664.41,
+    "pris": 661.62,
+    "snitpris": 664.4,
     "svag": true
   },
   "marked_trend": null
