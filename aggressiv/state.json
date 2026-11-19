@@ -25,10 +25,9 @@
       "orb_day": "2026-11-12"
     },
     "PLTR": {
-      "last_entry_eval": "2026-11-16T14:31:56.858838+00:00",
+      "last_entry_eval": "2026-11-19T14:43:18.623453+00:00",
       "last_entry_setups": [
-        "nyhed_op",
-        "range_bund"
+        "breakout"
       ],
       "orb_day": "2026-11-06"
     },
@@ -479,10 +478,10 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.758063,
+  "budget_used": 0.765293,
   "ai_day": "2026-11-19",
-  "ai_rounds_today": 7,
-  "ai_spend_today": 0.05140259999999999,
+  "ai_rounds_today": 8,
+  "ai_spend_today": 0.05863269999999999,
   "ai_crypto_today": 0,
   "auto_tjek": "auto-tjek: seneste 10 handler -1542 USD (2 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-19",
