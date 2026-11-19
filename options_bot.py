@@ -285,12 +285,27 @@ def manage_exits(broker, state, equity, day_pnl):
             if (now() - datetime.fromisoformat(pos["entry_tid"])).total_seconds() > 1800:
                 print(f"{occ}: ingen position hos Alpaca, fjernes fra state")
                 state["positions"].pop(occ)
+                # 19. nov: AAPL-call forsvandt hos Alpaca uden at blive skrevet i closed_trades.csv, saa statistikken
+                # manglede handlen. Var den fyldt (vi har set en pris), logges den med sidst kendte pris.
+                last = pos.get("sidste_pris")
+                if last:
+                    sym, _, typ, _ = parse_occ(occ)
+                    usd = (last - pos["entry"]) * 100 * pos["antal"]
+                    append_csv(CLOSED_CSV, CLOSED_FIELDS, {
+                        "aktie": sym, "kontrakt": occ, "type": "call" if typ == "C" else "put",
+                        "entry_tid": pos["entry_tid"], "exit_tid": now().isoformat(), "entry": pos["entry"],
+                        "exit": last, "antal": pos["antal"], "pnl_usd": round(usd, 2),
+                        "pnl_pct": round((last / pos["entry"] - 1) * 100, 1),
+                        "exit_aarsag": "solgt uden for botten (sidst kendte pris)",
+                        "dage": (now() - datetime.fromisoformat(pos["entry_tid"])).days,
+                        "call_andel_ved_koeb": pos.get("call_andel")})
             continue
         qty, cur, fill = held.get(occ, (pos["antal"], pos["entry"], pos["entry"]))
         if fill > 0:
             pos["entry"] = fill  # brug den pris, ordren faktisk blev fyldt til
         if qty <= 0 or cur <= 0:
             continue
+        pos["sidste_pris"] = cur
         pnl = cur / pos["entry"] - 1
         sym, exp, typ, _ = parse_occ(occ)
         dte = (exp - date.today()).days
