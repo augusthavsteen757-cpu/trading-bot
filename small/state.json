@@ -164,18 +164,6 @@
         "tid": "2026-11-19T14:30:29.442813+00:00",
         "pris_ved_nyhed": 2.245,
         "udloeber": "2026-11-19T16:30:29.442813+00:00"
-      },
-      "ACHR": {
-        "kilde": "nyhed",
-        "symbol": "ACHR",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "CEO-deltagelse i et paneldebat er rutinepr\u00e6get PR uden nye finansielle tal eller kontrakter. Forventer ingen m\u00e6rkbar kursbev\u00e6gelse de n\u00e6ste timer.",
-        "tid": "2026-11-19T14:45:31.064845+00:00",
-        "pris_ved_nyhed": 3.395,
-        "udloeber": "2026-11-19T15:45:31.064845+00:00"
       }
     },
     "dag": "2026-11-19",
@@ -657,8 +645,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 268.23,
-    "snitpris": 269.33,
+    "pris": 267.39,
+    "snitpris": 269.12,
     "svag": true
   },
   "marked_trend": -1
