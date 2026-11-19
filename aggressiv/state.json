@@ -489,7 +489,7 @@
   "day_start_equity": 99103.9,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-19T17:33:16.444833+00:00",
+    "sidst_hentet": "2026-11-19T17:53:16.539253+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1408,7 +1408,7 @@
     "syms": [
       "INSM"
     ],
-    "sidst": "2026-11-19T17:38:16.529226+00:00",
+    "sidst": "2026-11-19T17:53:16.117045+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1466,8 +1466,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 652.35,
-    "snitpris": 660.49,
+    "pris": 653.57,
+    "snitpris": 660.35,
     "svag": true
   },
   "marked_trend": null
