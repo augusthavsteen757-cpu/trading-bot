@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62960.915,
+  "last_btc_price": 62999.615,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -613,18 +613,6 @@
         "tid": "2026-11-19T14:45:42.101613+00:00",
         "pris_ved_nyhed": 673.6300000000001,
         "udloeber": "2026-11-19T16:45:42.101613+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Oeget produktion i Kina kan signalere efterspoergsel, men nyheden er rapporteret vagt og er sandsynligvis lille kursmaessig.",
-        "tid": "2026-11-19T14:30:42.083276+00:00",
-        "pris_ved_nyhed": 389.79,
-        "udloeber": "2026-11-19T16:30:42.083276+00:00"
       },
       "META": {
         "kilde": "nyhed",
@@ -1411,8 +1399,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 662.26,
-    "snitpris": 664.43,
+    "pris": 662.7,
+    "snitpris": 664.41,
     "svag": true
   },
   "marked_trend": -1
