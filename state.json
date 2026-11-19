@@ -226,7 +226,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 63367.029500000004,
+  "last_btc_price": 63346.465,
   "earnings_cache": {
     "2026-11-13": [
       "AAME",
@@ -1062,7 +1062,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-19T05:02:50.560422+00:00",
+    "sidst_hentet": "2026-11-19T05:20:36.540609+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
