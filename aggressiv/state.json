@@ -489,7 +489,7 @@
   "day_start_equity": 99103.9,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-19T16:58:16.317787+00:00",
+    "sidst_hentet": "2026-11-19T17:18:16.408492+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -733,7 +733,7 @@
         "sub": "stocks"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 429 Client Error: Too Many Requests for url: https://www.reddit.com/r/wallstreet"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "nyhedsjaeger": {
     "signaler": {
@@ -1421,7 +1421,7 @@
     "syms": [
       "INSM"
     ],
-    "sidst": "2026-11-19T17:03:16.601099+00:00",
+    "sidst": "2026-11-19T17:18:15.991988+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1479,8 +1479,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 651.1,
-    "snitpris": 661.67,
+    "pris": 649.78,
+    "snitpris": 661.31,
     "svag": true
   },
   "marked_trend": null
