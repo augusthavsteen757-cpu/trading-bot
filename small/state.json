@@ -152,18 +152,6 @@
         "tid": "2026-11-19T14:30:29.442813+00:00",
         "pris_ved_nyhed": 9.58,
         "udloeber": "2026-11-19T17:30:29.442813+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "CEO-salg af 150.000 aktier kan signalere mistillid og skabe pres pa kursen, selvom salget kan have personlige aarsager.",
-        "tid": "2026-11-19T14:30:29.442813+00:00",
-        "pris_ved_nyhed": 2.245,
-        "udloeber": "2026-11-19T16:30:29.442813+00:00"
       }
     },
     "dag": "2026-11-19",
@@ -282,7 +270,7 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.465,
+  "last_btc_price": 4.475,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -645,8 +633,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 267.92,
-    "snitpris": 268.67,
+    "pris": 267.96,
+    "snitpris": 268.66,
     "svag": true
   },
   "marked_trend": -1
