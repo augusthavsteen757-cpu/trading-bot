@@ -144,31 +144,7 @@
       "last_entry_eval": "2026-11-13T14:36:03.775833+00:00",
       "last_entry_setups": [
         "range_bund"
-      ],
-      "pos": {
-        "entry": 25.685,
-        "stop": 25.3525,
-        "stop_initial": 25.3525,
-        "high": 25.685,
-        "qty": 771.0,
-        "entry_tid": "2026-11-19 14:53",
-        "setup": "orb",
-        "regime": "range",
-        "conviction": 3,
-        "grund": "ORB breakout {'or_high': 25.59, 'or_low': 25.11, 'sidste_luk': 25.8}",
-        "features": {
-          "trend_1h": 0,
-          "trend_4h": -1,
-          "trend_1d": -1,
-          "rsi_1h": 55.4,
-          "adx_1h": 34.3,
-          "rel_volumen_1h": 0.59,
-          "afstand_modstand_atr": 1.89,
-          "atr_percentil_30d": 73.0
-        },
-        "target": 26.682499999999997,
-        "luk_foer_luk": true
-      }
+      ]
     },
     "MARA": {
       "orb_day": "2026-11-12",
@@ -359,10 +335,10 @@
       "2026-11-10 16:01: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 65 time-bars"
     ],
     "tab: orb i range": [
-      "2026-11-12 17:32: AMD: tidsstop (90 min uden gevinst). R=-0.35. Entry 583, exit 577. Grund til koeb: ORB breakout {'or_high': 578.4, 'or_low': 555.05, 'sidste_luk': 584.0, 'a_plus': '3.0x volumen, indsats x1.5'}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 71.6, 'adx_1h': 36.6, 'rel_volumen_1h': 0.23, 'afstand_modstand_atr': 0.23, 'atr_percentil_30d': 84.7}",
       "2026-11-18 15:34: ARM: stop ramt (Alpaca). R=-1.07. Entry 190, exit 186. Grund til koeb: ORB breakout {'or_high': 189.9, 'or_low': 182.91, 'sidste_luk': 190.32}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 0, 'trend_1d': -1, 'rsi_1h': 59.4, 'adx_1h': 20.8, 'rel_volumen_1h': 1.24, 'afstand_modstand_atr': 0.38, 'atr_percentil_30d': 72.7}",
       "2026-11-18 16:34: RIOT: tidsstop (90 min uden gevinst). R=-0.42. Entry 18, exit 18. Grund til koeb: ORB breakout {'or_high': 17.87, 'or_low': 17.25, 'sidste_luk': 17.98, 'a_plus': '6.37x volumen, indsats x1.5'}. Features ved koeb: {'trend_1h': 0, 'trend_4h': 1, 'trend_1d': 0, 'rsi_1h': 60.5, 'adx_1h': 22.2, 'rel_volumen_1h': 1.8, 'afstand_modstand_atr': 1.33, 'atr_percentil_30d': 59.0}",
-      "2026-11-19 14:58: AMD: stop ramt (Alpaca). R=-1.15. Entry 552, exit 543. Grund til koeb: ORB breakout {'or_high': 551.8, 'or_low': 537.28, 'sidste_luk': 554.46, 'a_plus': '5.6x volumen, indsats x1.5'}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 68.1, 'adx_1h': 18.8, 'rel_volumen_1h': 2.22, 'afstand_modstand_atr': 1.23, 'atr_percentil_30d': 72.9}"
+      "2026-11-19 14:58: AMD: stop ramt (Alpaca). R=-1.15. Entry 552, exit 543. Grund til koeb: ORB breakout {'or_high': 551.8, 'or_low': 537.28, 'sidste_luk': 554.46, 'a_plus': '5.6x volumen, indsats x1.5'}. Features ved koeb: {'trend_1h': 1, 'trend_4h': 0, 'trend_1d': 0, 'rsi_1h': 68.1, 'adx_1h': 18.8, 'rel_volumen_1h': 2.22, 'afstand_modstand_atr': 1.23, 'atr_percentil_30d': 72.9}",
+      "2026-11-19 15:13: SMCI: stop ramt (Alpaca). R=-1.02. Entry 26, exit 25. Grund til koeb: ORB breakout {'or_high': 25.59, 'or_low': 25.11, 'sidste_luk': 25.8}. Features ved koeb: {'trend_1h': 0, 'trend_4h': -1, 'trend_1d': -1, 'rsi_1h': 55.4, 'adx_1h': 34.3, 'rel_volumen_1h': 0.59, 'afstand_modstand_atr': 1.89, 'atr_percentil_30d': 73.0}"
     ],
     "teknisk fejl: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66": [
       "2026-11-10 16:46: PXLW: RuntimeError: For lidt data for PXLW: 207 dag-bars, 66 time-bars",
@@ -507,7 +483,7 @@
   "ai_rounds_today": 8,
   "ai_spend_today": 0.05885139999999999,
   "ai_crypto_today": 0,
-  "auto_tjek": "auto-tjek: seneste 10 handler -2053 USD (1 vundet), BREMSE (halv stoerrelse)",
+  "auto_tjek": "auto-tjek: seneste 10 handler -2267 USD (1 vundet), BREMSE (halv stoerrelse)",
   "eq_day": "2026-11-19",
   "day_start_equity": 99103.9,
   "peak_equity": 105445.49,
@@ -1538,7 +1514,7 @@
   "scan": {
     "dag": "2026-11-19",
     "syms": [],
-    "sidst": "2026-11-19T14:58:16.608278+00:00",
+    "sidst": "2026-11-19T15:13:16.168696+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1594,8 +1570,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 673.09,
-    "snitpris": 673.12,
+    "pris": 672.17,
+    "snitpris": 673.0,
     "svag": true
   },
   "marked_trend": null
