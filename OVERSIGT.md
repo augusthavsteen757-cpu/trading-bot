@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **19/11 kl. 16.11** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **19/11 kl. 16.16** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 19/11 16.10
+**Konto:** 99.314 USD  ·  **I alt:** -686 USD (-0.69 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 19/11 16.15
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **19/11 kl. 16.11** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 19/11 16.08
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 19/11 16.13
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -70,23 +70,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **19/11 kl. 16.11** (dansk tid). Ku
 
 ## 🔴 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 98.547 USD  ·  **I alt:** -1.453 USD (-1.45 %)  ·  **I dag:** -0.55 %  ·  sidst opdateret 19/11 16.08
+**Konto:** 98.421 USD  ·  **I alt:** -1.579 USD (-1.58 %)  ·  **I dag:** -0.69 %  ·  sidst opdateret 19/11 16.13
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -2053 USD (1 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler -2267 USD (1 vundet), BREMSE (halv stoerrelse)
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| SMCI | 771 | 25.68 | 19/11 15.53 |
-
-**Lukkede handler:** 55 i alt, 16 med gevinst, samlet -442 USD
+**Lukkede handler:** 56 i alt, 16 med gevinst, samlet -703 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ❌ SMCI | 19/11 16.13 | -261 USD | stop ramt (Alpaca) |
 | ❌ AMD | 19/11 15.58 | -482 USD | stop ramt (Alpaca) |
 | ✅ CRWD | 18/11 19.24 | +73 USD | maal naaet |
 | ❌ RBLX | 18/11 17.54 | -3 USD | tidsstop (90 min uden gevinst) |
 | ❌ RIOT | 18/11 17.34 | -351 USD | tidsstop (90 min uden gevinst) |
-| ❌ RIVN | 18/11 16.54 | -459 USD | stop ramt (Alpaca) |
 
