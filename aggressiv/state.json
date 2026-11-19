@@ -831,18 +831,6 @@
         "tid": "2026-11-19T14:33:16.288884+00:00",
         "pris_ved_nyhed": 391.49,
         "udloeber": "2026-11-19T17:33:16.288884+00:00"
-      },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Spionagesag med Palantir-ansatte kan skabe negativ opm\u00e6rksomhed om sikkerhed og forsvarskontrakter.",
-        "tid": "2026-11-19T14:33:16.288884+00:00",
-        "pris_ved_nyhed": 164.65,
-        "udloeber": "2026-11-19T15:33:16.288884+00:00"
       }
     },
     "dag": "2026-11-19",
@@ -1514,7 +1502,7 @@
   "scan": {
     "dag": "2026-11-19",
     "syms": [],
-    "sidst": "2026-11-19T15:23:16.797963+00:00",
+    "sidst": "2026-11-19T15:38:15.876651+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1570,8 +1558,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 663.52,
-    "snitpris": 669.26,
+    "pris": 660.4,
+    "snitpris": 668.68,
     "svag": true
   },
   "marked_trend": null
