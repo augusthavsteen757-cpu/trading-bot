@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62014.702,
+  "last_btc_price": 61887.979999999996,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -602,18 +602,6 @@
         "pris_ved_nyhed": 377.1,
         "udloeber": "2026-11-19T22:04:06.084289+00:00"
       },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "Hunterbrook-rapport om Kina-forbindelser til sanktionerede enheder kan skabe usikkerhed; kursfaldet er allerede sket i nyheden, s\u00e5 yderligere fald er mindre sandsynligt.",
-        "tid": "2026-11-19T19:04:06.084289+00:00",
-        "pris_ved_nyhed": 480.885,
-        "udloeber": "2026-11-19T21:04:06.084289+00:00"
-      },
       "AAPL": {
         "kilde": "nyhed",
         "symbol": "AAPL",
@@ -935,7 +923,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-19T20:44:06.910243+00:00",
+    "sidst_hentet": "2026-11-19T21:04:06.203505+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1370,14 +1358,9 @@
         "sub": "Bitcoin"
       }
     ],
-    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
+    "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/CryptoCurrency+Bit"
   },
   "scan": {},
-  "marked": {
-    "symbol": "QQQ",
-    "pris": 647.25,
-    "snitpris": 655.71,
-    "svag": true
-  },
-  "marked_trend": -1
+  "marked": {},
+  "marked_trend": null
 }
