@@ -228,7 +228,8 @@
       "raket_day": "2026-11-18"
     },
     "GDHG": {},
-    "SLS": {}
+    "SLS": {},
+    "INSM": {}
   },
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav",
@@ -1501,8 +1502,10 @@
   },
   "scan": {
     "dag": "2026-11-19",
-    "syms": [],
-    "sidst": "2026-11-19T15:38:15.876651+00:00",
+    "syms": [
+      "INSM"
+    ],
+    "sidst": "2026-11-19T15:48:16.516542+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1514,6 +1517,7 @@
       "CRWG",
       "FCUV",
       "GDHG",
+      "INSM",
       "LUNR",
       "MF",
       "MOD",
@@ -1548,7 +1552,8 @@
       "CGON": "CG Oncology, Inc. Common stock",
       "CLRO": "ClearOne, Inc. Common Stock",
       "GDHG": "Golden Heaven Group Holdings Ltd. Class A Ordinary Shares",
-      "SLS": "SELLAS Life Sciences Group, Inc. Common Stock"
+      "SLS": "SELLAS Life Sciences Group, Inc. Common Stock",
+      "INSM": "Insmed Incorporated Common Stock"
     },
     "omvendt": [
       "NVD",
@@ -1558,8 +1563,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.08,
-    "snitpris": 667.31,
+    "pris": 659.72,
+    "snitpris": 666.48,
     "svag": true
   },
   "marked_trend": null
