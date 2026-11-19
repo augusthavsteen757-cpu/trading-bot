@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62384.11,
+  "last_btc_price": 62382.185,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -601,18 +601,6 @@
         "tid": "2026-11-19T16:05:42.748041+00:00",
         "pris_ved_nyhed": 1034.6100000000001,
         "udloeber": "2026-11-19T18:05:42.748041+00:00"
-      },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Tredjeparts integration med Teams og M365 er rutine og ventet \u00f8kosystemv\u00e6kst; forventes ikke at flytte MSFT-kursen.",
-        "tid": "2026-11-19T16:05:42.748041+00:00",
-        "pris_ved_nyhed": 517.37,
-        "udloeber": "2026-11-19T17:05:42.748041+00:00"
       }
     },
     "dag": "2026-11-19",
@@ -1363,8 +1351,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 654.59,
-    "snitpris": 662.87,
+    "pris": 650.39,
+    "snitpris": 661.93,
     "svag": true
   },
   "marked_trend": -1
