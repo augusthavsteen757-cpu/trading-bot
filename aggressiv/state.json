@@ -1433,7 +1433,7 @@
     "syms": [
       "INSM"
     ],
-    "sidst": "2026-11-19T16:38:16.097338+00:00",
+    "sidst": "2026-11-19T16:48:16.794547+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1491,8 +1491,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 663.91,
-    "snitpris": 664.39,
+    "pris": 662.76,
+    "snitpris": 664.35,
     "svag": true
   },
   "marked_trend": null
