@@ -3,6 +3,22 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 19. nov 2026 (torsdag)
+
+**Gårsdagens rettelse (aggressiv: ingen ORB i nedtrend, PR #63):** Den er ikke testet endnu. I dag kom der kun ORB-signaler i aktier i "range" (AMD, SMCI), så reglen blev ikke brugt.
+
+**Godt**
+- Options: +1,28 % i dag og nu +0,79 % i alt (var -0,41 %). AAPL-callen (købt 7,82 den 17/11) er væk fra kontoen, og kontoen steg tilsvarende.
+
+**Dårligt**
+- Aggressiv: AMD -482 og SMCI -261 (begge ORB i range, stop ramt efter 5 og 20 min). -0,69 % i dag, nu -1,58 % i alt.
+- Options: AAPL-callen forsvandt hos Alpaca uden et salg fra botten, så den mangler i closed_trades.csv. Statistikken siger stadig "0 af 5 vundet", selvom handlen tjente penge.
+- Hoved, small, krypto: ingen handler.
+
+**Rettelse i dag:** Options-botten husker nu sidste pris på hver position. Hvis en position forsvinder hos Alpaca (solgt uden for botten), skrives den i closed_trades.csv med den sidst kendte pris og årsagen "solgt uden for botten". AAPL-handlen kan ikke genskabes præcist, fordi prisen ikke blev gemt.
+
+**Tjek i morgen (fredag):** Om aggressiv springer ORB i nedtrend over. Ugens resultat for alle bots.
+
 ## 18. nov 2026 (onsdag)
 
 **Gårsdagens punkter:** Options-pausen holder stadig (ingen AMZN-køb). Options ejer stadig AAPL-call (købt 7,80) og er -0,53 % i alt. Small-ORB har ikke handlet, så 5 %-loftet er stadig utestet.
