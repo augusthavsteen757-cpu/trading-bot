@@ -228,7 +228,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 62838.759000000005,
+  "last_btc_price": 62826.396,
   "earnings_cache": {
     "2026-11-14": [],
     "2026-11-15": [],
@@ -614,18 +614,6 @@
         "pris_ved_nyhed": 673.6300000000001,
         "udloeber": "2026-11-19T16:45:42.101613+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Integration af ID-verificering i Entra er en mindre produktnyhed med lav forventet kursp\u00e5virkning.",
-        "tid": "2026-11-19T14:45:42.101613+00:00",
-        "pris_ved_nyhed": 523.88,
-        "udloeber": "2026-11-19T15:45:42.101613+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -959,7 +947,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-19T15:25:42.546212+00:00",
+    "sidst_hentet": "2026-11-19T15:45:43.397755+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1399,8 +1387,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 657.08,
-    "snitpris": 668.23,
+    "pris": 659.72,
+    "snitpris": 666.86,
     "svag": true
   },
   "marked_trend": -1
