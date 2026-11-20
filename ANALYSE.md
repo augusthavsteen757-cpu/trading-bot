@@ -3,6 +3,26 @@
 Regel: kun ÉN ændring pr. dag, så vi kan se hvad der virkede. Kun paper.
 Næste dags analyse starter med at tjekke gårsdagens rettelse.
 
+## 20. nov 2026 (fredag + ugeresultat)
+
+**Ugens rettelser:** Options-pausen efter tab (PR #61) virker. Reglen om ingen ORB i nedtrend (PR #63) er stadig ikke blevet brugt, fordi alle ORB-signaler var i range eller high_vol. Logning af forsvundne options (PR #64) er i drift.
+
+**Godt**
+- Aggressiv: +2,55 % i dag, nu +0,93 % i alt. SOXS (ORB, markedet faldt) gav +2.963 USD (halvdel ved +1R, resten ved dagens slut), og RBLX gav et delsalg på +200.
+- Options: +2,90 % i dag, nu +3,81 % i alt. Den ejer en AAPL-put (købt 8,45, nu ca. 10,90).
+
+**Dårligt**
+- Aggressiv: TSLA -245 og PLTR -369 (stop efter 20 min).
+- Hoved: EQIX -84. Small og krypto: ingen handler.
+- **Options-kontoen ændrede sig hvert 5. min (100.759 til 102.378 USD) før AAPL-putten blev købt kl. 17.27, mens botten ikke ejede noget.** Der ligger altså options hos Alpaca, som botten ikke kender. De har intet stop og står ikke i statistikken. Det forklarer også, at AAPL-callen "forsvandt" 19. nov.
+
+**Ugeresultat (16.-20. nov, lukkede handler):** Aggressiv 21 handler, 7 vundet, +424 USD. Hoved 2 handler, -180 USD. Small 1 handel, -78 USD. Options 1 handel, -335 USD (plus de ukendte positioner). Krypto 0 handler.
+Kontoen i alt: aggressiv +0,93 %, options +3,81 %, krypto -0,01 %, hoved -0,78 %, small -0,82 %.
+
+**Rettelse i dag:** Options-botten adopterer nu positioner, den finder hos Alpaca, men ikke kender. De får samme stop- og gevinstregler, skrives i trades.csv ("ADOPTERET") og vises i OVERSIGT.md. Hvis en ukendt position er over +50 %, sælges den ved næste kørsel (gevinstreglen).
+
+**Tjek mandag:** Hvad options-botten adopterede, og om gevinsten er sikret.
+
 ## 19. nov 2026 (torsdag)
 
 **Gårsdagens rettelse (aggressiv: ingen ORB i nedtrend, PR #63):** Den er ikke testet endnu. I dag kom der kun ORB-signaler i aktier i "range" (AMD, SMCI), så reglen blev ikke brugt.
