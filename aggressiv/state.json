@@ -835,18 +835,6 @@
         "tid": "2026-11-20T16:06:19.148901+00:00",
         "pris_ved_nyhed": 65.27,
         "udloeber": "2026-11-20T18:06:19.148901+00:00"
-      },
-      "SHOP": {
-        "kilde": "nyhed",
-        "symbol": "SHOP",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 1,
-        "begrundelse": "Mindre POS-hardwareopdatering med lav finansiel betydning for Shopify paa kort sigt.",
-        "tid": "2026-11-20T16:06:19.148901+00:00",
-        "pris_ved_nyhed": 128.335,
-        "udloeber": "2026-11-20T17:06:19.148901+00:00"
       }
     },
     "dag": "2026-11-20",
@@ -1581,8 +1569,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 620.04,
-    "snitpris": 631.81,
+    "pris": 622.71,
+    "snitpris": 631.69,
     "svag": true
   },
   "marked_trend": null
