@@ -142,7 +142,7 @@
         "entry": 72.83,
         "stop": 72.83,
         "stop_initial": 69.65,
-        "high": 78.99,
+        "high": 79.16,
         "qty": 202.0,
         "entry_tid": "2026-11-20 15:21",
         "setup": "orb",
@@ -516,7 +516,7 @@
   "day_start_equity": 98420.63,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-20T16:46:18.582482+00:00",
+    "sidst_hentet": "2026-11-20T17:01:18.762174+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1521,7 +1521,7 @@
       "SOXS",
       "GAP"
     ],
-    "sidst": "2026-11-20T16:51:17.931890+00:00",
+    "sidst": "2026-11-20T17:01:18.696794+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1581,8 +1581,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 622.47,
-    "snitpris": 632.53,
+    "pris": 624.3,
+    "snitpris": 632.42,
     "svag": true
   },
   "marked_trend": null
