@@ -142,7 +142,7 @@
         "entry": 72.83,
         "stop": 72.83,
         "stop_initial": 69.65,
-        "high": 79.62,
+        "high": 79.92,
         "qty": 202.0,
         "entry_tid": "2026-11-20 15:21",
         "setup": "orb",
@@ -1509,7 +1509,7 @@
       "SOXS",
       "GAP"
     ],
-    "sidst": "2026-11-20T17:01:18.696794+00:00",
+    "sidst": "2026-11-20T17:16:18.034866+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1569,8 +1569,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 622.71,
-    "snitpris": 631.69,
+    "pris": 620.93,
+    "snitpris": 631.48,
     "svag": true
   },
   "marked_trend": null
