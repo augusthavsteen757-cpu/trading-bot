@@ -253,7 +253,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 58970.155,
+  "last_btc_price": 58915.925,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -626,30 +626,6 @@
         "tid": "2026-11-20T16:03:15.314125+00:00",
         "pris_ved_nyhed": 136.09,
         "udloeber": "2026-11-20T19:03:15.314125+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA-nyheden kan give smittevirkning til QQQ via tech-tunge holdings, men effekten paa indekset vil vaere begraenset.",
-        "tid": "2026-11-20T16:03:15.314125+00:00",
-        "pris_ved_nyhed": 625.46,
-        "udloeber": "2026-11-20T18:03:15.314125+00:00"
-      },
-      "TSLA": {
-        "kilde": "nyhed",
-        "symbol": "TSLA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Planlagt live Optimus-demo kan skabe hype om robotnarrativet; dog kun en plan med tidsfrist op til to maaneder, saa effekten kan vaere svag paa kort sigt.",
-        "tid": "2026-11-20T16:03:15.314125+00:00",
-        "pris_ved_nyhed": 361.41,
-        "udloeber": "2026-11-20T18:03:15.314125+00:00"
       },
       "MSFT": {
         "kilde": "nyhed",
@@ -1412,8 +1388,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 621.51,
-    "snitpris": 629.87,
+    "pris": 619.99,
+    "snitpris": 629.8,
     "svag": true
   },
   "marked_trend": -1
