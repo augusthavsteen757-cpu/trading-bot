@@ -253,7 +253,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 59098.051,
+  "last_btc_price": 59432.18,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -651,18 +651,6 @@
         "pris_ved_nyhed": 625.46,
         "udloeber": "2026-11-20T18:03:15.314125+00:00"
       },
-      "AAPL": {
-        "kilde": "nyhed",
-        "symbol": "AAPL",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Rapport om Apple-udviklet autonom AI-agent kan give sentiment-l\u00f8ft, men er rygte-agtig og uden konkret indtjeningseffekt.",
-        "tid": "2026-11-20T14:38:14.344838+00:00",
-        "pris_ved_nyhed": 350.78499999999997,
-        "udloeber": "2026-11-20T16:38:14.344838+00:00"
-      },
       "TSLA": {
         "kilde": "nyhed",
         "symbol": "TSLA",
@@ -674,30 +662,6 @@
         "tid": "2026-11-20T16:03:15.314125+00:00",
         "pris_ved_nyhed": 361.41,
         "udloeber": "2026-11-20T18:03:15.314125+00:00"
-      },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "CFO-salg af aktier (5,7 mio. USD) og advarsel om p\u00e5virkningskampagne p\u00e5 Threads kan skabe lidt negativt sentiment.",
-        "tid": "2026-11-20T14:38:14.344838+00:00",
-        "pris_ved_nyhed": 582.71,
-        "udloeber": "2026-11-20T16:38:14.344838+00:00"
-      },
-      "AMZN": {
-        "kilde": "nyhed",
-        "symbol": "AMZN",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Nye AWS-samarbejder og teknisk support til Disney kan st\u00f8tte AWS-v\u00e6kstfort\u00e6llingen, men effekten er begr\u00e6nset.",
-        "tid": "2026-11-20T14:38:14.344838+00:00",
-        "pris_ved_nyhed": 255.635,
-        "udloeber": "2026-11-20T16:38:14.344838+00:00"
       },
       "MSFT": {
         "kilde": "nyhed",
@@ -1020,7 +984,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-20T16:23:14.370103+00:00",
+    "sidst_hentet": "2026-11-20T16:38:15.138544+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1460,8 +1424,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 625.83,
-    "snitpris": 633.59,
+    "pris": 624.2,
+    "snitpris": 633.42,
     "svag": true
   },
   "marked_trend": -1
