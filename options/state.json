@@ -6,7 +6,7 @@
       "entry_tid": "2026-11-20T17:27:49.462854+00:00",
       "call_andel": 0.4,
       "trend": "ned",
-      "sidste_pris": 9.15
+      "sidste_pris": 9.75
     }
   },
   "day": "2026-11-20",
@@ -14,6 +14,6 @@
   "traded_today": [
     "AAPL"
   ],
-  "peak_equity": 102874.12,
+  "peak_equity": 103113.12,
   "test_kob_id": "testkoeb-options-2026-11-03"
 }
