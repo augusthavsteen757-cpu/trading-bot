@@ -775,54 +775,6 @@
         "tid": "2026-11-20T16:06:19.148901+00:00",
         "pris_ved_nyhed": 362.265,
         "udloeber": "2026-11-20T19:06:19.148901+00:00"
-      },
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Ny NVIDIA Data Center Partner viser fortsat efterspoergsel paa AI-infrastruktur, men er en mindre partnernyhed med begraenset overraskelse.",
-        "tid": "2026-11-20T16:06:19.148901+00:00",
-        "pris_ved_nyhed": 136.445,
-        "udloeber": "2026-11-20T18:06:19.148901+00:00"
-      },
-      "PLTR": {
-        "kilde": "nyhed",
-        "symbol": "PLTR",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Forsvarsrelateret AI-summit er positivt, men et arrangement uden kontrakter eller tal har lille kursvirkning.",
-        "tid": "2026-11-20T16:06:19.148901+00:00",
-        "pris_ved_nyhed": 146.14,
-        "udloeber": "2026-11-20T18:06:19.148901+00:00"
-      },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Test af boernetjeneste er kontroversiel og kan give kortvarig debat, men ingen klar oekonomisk effekt paa kursen.",
-        "tid": "2026-11-20T16:06:19.148901+00:00",
-        "pris_ved_nyhed": 66.32,
-        "udloeber": "2026-11-20T18:06:19.148901+00:00"
-      },
-      "HOOD": {
-        "kilde": "nyhed",
-        "symbol": "HOOD",
-        "retning": "ned",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Aktivistisk aktionaerudfordring om stemmeplatform kan skabe usikkerhed og lidt negativt sentiment i kort sigt.",
-        "tid": "2026-11-20T16:06:19.148901+00:00",
-        "pris_ved_nyhed": 65.27,
-        "udloeber": "2026-11-20T18:06:19.148901+00:00"
       }
     },
     "dag": "2026-11-20",
@@ -1557,8 +1509,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 621.51,
-    "snitpris": 629.88,
+    "pris": 619.99,
+    "snitpris": 629.81,
     "svag": true
   },
   "marked_trend": null
