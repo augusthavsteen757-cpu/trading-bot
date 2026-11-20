@@ -3,16 +3,16 @@
   "coins": {
     "BTC/USD": {},
     "ONDS": {
-      "last_entry_eval": "2026-11-18T14:35:02.256924+00:00",
+      "last_entry_eval": "2026-11-20T14:31:10.953135+00:00",
       "last_entry_setups": [
-        "oversolgt"
+        "range_bund"
       ],
       "orb_day": "2026-11-11",
       "last_hold_review": "2026-11-06T14:56:58.825758+00:00",
       "last_review_price": 4.885
     },
     "RCAT": {
-      "last_entry_eval": "2026-11-19T14:30:36.695510+00:00",
+      "last_entry_eval": "2026-11-20T14:31:22.519545+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -21,48 +21,47 @@
       "last_review_price": 4.46
     },
     "UMAC": {
-      "last_entry_eval": "2026-11-19T14:30:47.670516+00:00",
+      "last_entry_eval": "2026-11-20T14:31:34.413842+00:00",
       "last_entry_setups": [
-        "nyhed_op",
-        "oversolgt"
+        "range_bund"
       ],
       "orb_day": "2026-11-03",
       "last_hold_review": "2026-11-03T15:32:56.117436+00:00",
       "last_review_price": 14.865
     },
     "BBAI": {
-      "last_entry_eval": "2026-11-16T14:35:00.428590+00:00",
+      "last_entry_eval": "2026-11-20T14:31:44.238407+00:00",
       "last_entry_setups": [
         "range_bund"
       ]
     },
     "SOUN": {
-      "last_entry_eval": "2026-11-18T14:35:33.475527+00:00",
+      "last_entry_eval": "2026-11-20T14:31:54.641297+00:00",
       "last_entry_setups": [
         "oversolgt"
       ],
       "orb_day": "2026-11-04"
     },
     "QUBT": {
-      "last_entry_eval": "2026-11-18T14:35:43.400796+00:00",
+      "last_entry_eval": "2026-11-20T14:32:06.473695+00:00",
       "last_entry_setups": [
-        "oversolgt"
+        "range_bund"
       ],
       "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-06T14:57:23.182014+00:00",
       "last_review_price": 5.83
     },
     "RGTI": {
-      "last_entry_eval": "2026-11-18T14:35:53.937232+00:00",
+      "last_entry_eval": "2026-11-20T14:32:17.194930+00:00",
       "last_entry_setups": [
-        "oversolgt"
+        "range_bund"
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-06T14:57:36.163977+00:00",
       "last_review_price": 10.58
     },
     "LUNR": {
-      "last_entry_eval": "2026-11-19T14:31:04.433823+00:00",
+      "last_entry_eval": "2026-11-20T14:32:27.672525+00:00",
       "last_entry_setups": [
         "range_bund"
       ],
@@ -74,16 +73,16 @@
       "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-06T15:37:21.319705+00:00",
       "last_review_price": 4.105,
-      "last_entry_eval": "2026-11-18T14:36:16.185290+00:00",
+      "last_entry_eval": "2026-11-20T14:32:38.441787+00:00",
       "last_entry_setups": [
-        "oversolgt"
+        "range_bund"
       ]
     },
     "OUST": {
       "orb_day": "2026-11-12",
-      "last_entry_eval": "2026-11-18T14:36:26.032446+00:00",
+      "last_entry_eval": "2026-11-20T14:32:49.010029+00:00",
       "last_entry_setups": [
-        "nyhed_op"
+        "range_bund"
       ],
       "last_hold_review": "2026-11-17T14:40:07.515962+00:00",
       "last_review_price": 31.61
@@ -115,16 +114,16 @@
     ]
   },
   "budget_month": "2026-11",
-  "budget_used": 0.802673,
+  "budget_used": 0.869535,
   "ai_day": "2026-11-20",
-  "ai_rounds_today": 0,
-  "ai_spend_today": 0.0,
+  "ai_rounds_today": 10,
+  "ai_spend_today": 0.06686230000000001,
   "ai_crypto_today": 0,
   "eq_day": "2026-11-20",
   "day_start_equity": 99179.48,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-19T20:54:00.107528+00:00",
+    "sidst_hentet": "2026-11-20T14:31:06.236896+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -141,8 +140,8 @@
   },
   "nyhedsjaeger": {
     "signaler": {},
-    "dag": "2026-11-19",
-    "kald_i_dag": 2,
+    "dag": "2026-11-20",
+    "kald_i_dag": 0,
     "sidste_kald": "2026-11-19T14:45:31.064845+00:00",
     "set_ids": [
       "62974909",
@@ -257,9 +256,8 @@
   "start_equity": 100000.0,
   "start_price": 5.915,
   "start_time": "2026-11-03T14:32:59.279605+00:00",
-  "last_btc_price": 4.225,
+  "last_btc_price": 4.035,
   "earnings_cache": {
-    "2026-11-14": [],
     "2026-11-15": [],
     "2026-11-16": [
       "ACM",
@@ -615,9 +613,10 @@
       "WRD",
       "XCUR",
       "XWEL"
-    ]
+    ],
+    "2026-11-21": []
   },
   "scan": {},
   "marked": {},
-  "marked_trend": null
+  "marked_trend": -1
 }
