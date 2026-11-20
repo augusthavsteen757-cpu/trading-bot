@@ -253,7 +253,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 58196.6695,
+  "last_btc_price": 58235.185,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -627,18 +627,6 @@
         "pris_ved_nyhed": 135.815,
         "udloeber": "2026-11-20T22:03:14.455914+00:00"
       },
-      "MSFT": {
-        "kilde": "nyhed",
-        "symbol": "MSFT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Partnerskab med Danaher styrker Azure og AI-agenter, men det er en nicheaftale uden stor oekonomisk paavirkning paa Microsoft kort sigt.",
-        "tid": "2026-11-20T16:03:15.314125+00:00",
-        "pris_ved_nyhed": 492.495,
-        "udloeber": "2026-11-20T19:03:15.314125+00:00"
-      },
       "QQQ": {
         "kilde": "nyhed",
         "symbol": "QQQ",
@@ -972,7 +960,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-20T18:48:14.502160+00:00",
+    "sidst_hentet": "2026-11-20T19:08:15.332842+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1412,8 +1400,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 621.92,
-    "snitpris": 628.66,
+    "pris": 620.87,
+    "snitpris": 628.56,
     "svag": true
   },
   "marked_trend": -1
