@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 2.359834,
+  "budget_used": 2.367512,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -48,8 +48,8 @@
     ]
   },
   "ai_day": "2026-11-20",
-  "ai_rounds_today": 12,
-  "ai_spend_today": 0.10818040000000004,
+  "ai_rounds_today": 13,
+  "ai_spend_today": 0.11585880000000004,
   "eq_day": "2026-11-20",
   "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
@@ -215,13 +215,13 @@
         "range_bund"
       ],
       "orb_day": "2026-11-12",
-      "last_hold_review": "2026-11-20T14:43:27.011018+00:00",
-      "last_review_price": 990.73,
+      "last_hold_review": "2026-11-20T14:58:17.829480+00:00",
+      "last_review_price": 1003.61,
       "pos": {
         "entry": 995.69,
         "stop": 975.87,
         "stop_initial": 975.87,
-        "high": 998.6,
+        "high": 1003.61,
         "qty": 4.0,
         "entry_tid": "2026-11-20 14:39",
         "setup": "range_bund",
@@ -253,7 +253,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 61448.2975,
+  "last_btc_price": 61573.45,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -1448,8 +1448,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 637.38,
-    "snitpris": 636.23,
+    "pris": 639.76,
+    "snitpris": 636.98,
     "svag": false
   },
   "marked_trend": -1
