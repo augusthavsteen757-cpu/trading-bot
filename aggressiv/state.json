@@ -1497,7 +1497,7 @@
       "SOXS",
       "GAP"
     ],
-    "sidst": "2026-11-20T17:26:54.223236+00:00",
+    "sidst": "2026-11-20T17:37:01.492210+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1557,8 +1557,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 621.56,
-    "snitpris": 630.98,
+    "pris": 621.79,
+    "snitpris": 630.4,
     "svag": true
   },
   "marked_trend": null
