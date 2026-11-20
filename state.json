@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 2.336604,
+  "budget_used": 2.351961,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -48,8 +48,8 @@
     ]
   },
   "ai_day": "2026-11-20",
-  "ai_rounds_today": 9,
-  "ai_spend_today": 0.08495040000000001,
+  "ai_rounds_today": 11,
+  "ai_spend_today": 0.10030760000000002,
   "eq_day": "2026-11-20",
   "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
@@ -139,9 +139,9 @@
       "last_review_price": 533.15
     },
     "AMZN": {
-      "last_entry_eval": "2026-11-19T14:51:09.376256+00:00",
+      "last_entry_eval": "2026-11-20T14:43:17.173250+00:00",
       "last_entry_setups": [
-        "breakout"
+        "range_bund"
       ],
       "orb_day": "2026-11-06",
       "last_hold_review": "2026-11-16T14:32:54.183227+00:00",
@@ -215,8 +215,8 @@
         "range_bund"
       ],
       "orb_day": "2026-11-12",
-      "last_hold_review": "2026-11-06T15:02:19.613115+00:00",
-      "last_review_price": 1009.93,
+      "last_hold_review": "2026-11-20T14:43:27.011018+00:00",
+      "last_review_price": 990.73,
       "pos": {
         "entry": 995.69,
         "stop": 975.87,
@@ -253,7 +253,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 61706.705,
+  "last_btc_price": 61478.3,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
