@@ -1,8 +1,18 @@
 {
-  "positions": {},
+  "positions": {
+    "AAPL261204P00347500": {
+      "entry": 8.48,
+      "antal": 1,
+      "entry_tid": "2026-11-20T17:27:49.462854+00:00",
+      "call_andel": 0.4,
+      "trend": "ned"
+    }
+  },
   "day": "2026-11-20",
-  "new_today": 0,
-  "traded_today": [],
-  "peak_equity": 102269.15,
+  "new_today": 1,
+  "traded_today": [
+    "AAPL"
+  ],
+  "peak_equity": 102284.15,
   "test_kob_id": "testkoeb-options-2026-11-03"
 }
