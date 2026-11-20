@@ -142,7 +142,7 @@
         "entry": 72.83,
         "stop": 72.83,
         "stop_initial": 69.65,
-        "high": 77.23,
+        "high": 77.45,
         "qty": 202.0,
         "entry_tid": "2026-11-20 15:21",
         "setup": "orb",
@@ -516,7 +516,7 @@
   "day_start_equity": 98420.63,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-20T16:16:18.067636+00:00",
+    "sidst_hentet": "2026-11-20T16:31:18.487621+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -788,18 +788,6 @@
         "pris_ved_nyhed": 136.445,
         "udloeber": "2026-11-20T18:06:19.148901+00:00"
       },
-      "META": {
-        "kilde": "nyhed",
-        "symbol": "META",
-        "retning": "neutral",
-        "styrke": 2,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 2,
-        "begrundelse": "CFO-salg paa ca. 5,7 mio. er rutinemaessigt og lille; Taiwan-advarsel er ikke finansielt materiel.",
-        "tid": "2026-11-20T14:31:17.849803+00:00",
-        "pris_ved_nyhed": 575.885,
-        "udloeber": "2026-11-20T16:31:17.849803+00:00"
-      },
       "PLTR": {
         "kilde": "nyhed",
         "symbol": "PLTR",
@@ -811,18 +799,6 @@
         "tid": "2026-11-20T16:06:19.148901+00:00",
         "pris_ved_nyhed": 146.14,
         "udloeber": "2026-11-20T18:06:19.148901+00:00"
-      },
-      "NFLX": {
-        "kilde": "nyhed",
-        "symbol": "NFLX",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Omdia-data om stoerre seertid i Latinamerika styrker vaekstfortaellingen, men er regional og lille kursmaessig effekt.",
-        "tid": "2026-11-20T14:31:17.849803+00:00",
-        "pris_ved_nyhed": 58.825,
-        "udloeber": "2026-11-20T16:31:17.849803+00:00"
       },
       "GAP": {
         "kilde": "nyhed",
@@ -1605,8 +1581,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 626.54,
-    "snitpris": 633.87,
+    "pris": 625.83,
+    "snitpris": 633.65,
     "svag": true
   },
   "marked_trend": null
