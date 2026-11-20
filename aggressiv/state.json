@@ -142,7 +142,7 @@
         "entry": 72.83,
         "stop": 69.65,
         "stop_initial": 69.65,
-        "high": 72.83,
+        "high": 74.91,
         "qty": 404.0,
         "entry_tid": "2026-11-20 15:21",
         "setup": "orb",
@@ -1617,8 +1617,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 632.66,
-    "snitpris": 637.31,
+    "pris": 631.01,
+    "snitpris": 636.97,
     "svag": true
   },
   "marked_trend": null
