@@ -1567,7 +1567,7 @@
     "syms": [
       "SOXS"
     ],
-    "sidst": "2026-11-20T14:51:18.760775+00:00",
+    "sidst": "2026-11-20T15:06:18.424551+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1625,8 +1625,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 641.58,
-    "snitpris": 637.42,
+    "pris": 640.1,
+    "snitpris": 637.68,
     "svag": false
   },
   "marked_trend": null
