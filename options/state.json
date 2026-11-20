@@ -1,11 +1,12 @@
 {
   "positions": {
     "AAPL261204P00347500": {
-      "entry": 8.48,
+      "entry": 8.45,
       "antal": 1,
       "entry_tid": "2026-11-20T17:27:49.462854+00:00",
       "call_andel": 0.4,
-      "trend": "ned"
+      "trend": "ned",
+      "sidste_pris": 7.8
     }
   },
   "day": "2026-11-20",
