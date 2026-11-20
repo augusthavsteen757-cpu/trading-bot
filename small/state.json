@@ -123,7 +123,7 @@
   "day_start_equity": 99179.48,
   "peak_equity": 100173.89,
   "reddit": {
-    "sidst_hentet": "2026-11-20T16:21:05.766601+00:00",
+    "sidst_hentet": "2026-11-20T16:41:05.975204+00:00",
     "opslag": [
       {
         "id": "t3_1xxwlmc",
@@ -139,32 +139,7 @@
     "status": "Reddit fejlede: HTTPError 404 Client Error: Not Found for url: https://www.reddit.com/r/wallstreetbets+sto"
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "ONDS": {
-        "kilde": "nyhed",
-        "symbol": "ONDS",
-        "retning": "op",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Summit med Palantir kan styrke trov\u00e6rdighed i forsvarsmarkedet og give ny opm\u00e6rksomhed. Kun PR-agtig nyhed, s\u00e5 effekten kan vaere begraenset og kortvarig.",
-        "tid": "2026-11-20T14:36:05.548650+00:00",
-        "pris_ved_nyhed": 4.055,
-        "udloeber": "2026-11-20T16:36:05.548650+00:00"
-      },
-      "RCAT": {
-        "kilde": "nyhed",
-        "symbol": "RCAT",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Droner og autonome systemer i forsvar kan smitte over til sektorfeltet, men RCAT naevnes ikke direkte og sammenhaengen er svag.",
-        "tid": "2026-11-20T14:36:05.548650+00:00",
-        "pris_ved_nyhed": 1.855,
-        "udloeber": "2026-11-20T16:36:05.548650+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-20",
     "kald_i_dag": 1,
     "sidste_kald": "2026-11-20T14:36:05.548650+00:00",
@@ -645,8 +620,8 @@
   "scan": {},
   "marked": {
     "symbol": "IWM",
-    "pris": 261.01,
-    "snitpris": 263.64,
+    "pris": 260.63,
+    "snitpris": 263.58,
     "svag": true
   },
   "marked_trend": -1
