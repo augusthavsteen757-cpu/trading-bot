@@ -10098,3 +10098,13 @@ Note: My reply above has a formatting slip. Corrected, valid JSON on one line:
 2026-11-20 14:56,LUNR,9.565,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,69907.02,-30.093,0.0,-0.993,0.8698,
 2026-11-20 14:56,ACHR,3.195,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,69907.02,-30.093,0.0,-0.993,0.8698,
 2026-11-20 14:56,OUST,27.02,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,69907.02,-30.093,0.0,-0.993,0.8698,
+2026-11-20 15:01,ONDS,4.145,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-20 15:01,RCAT,1.945,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
+2026-11-20 15:01,UMAC,9.735,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
+2026-11-20 15:01,BBAI,1.76,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
+2026-11-20 15:01,SOUN,2.935,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-20 15:01,QUBT,4.86,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-20 15:01,RGTI,8.025,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
+2026-11-20 15:01,LUNR,9.535,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
+2026-11-20 15:01,ACHR,3.195,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,"ORB-signal, men SPY er i en faldende dagstrend: intet morgenkoeb"
+2026-11-20 15:01,OUST,27.02,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,99179.48,-0.821,70076.08,-29.924,0.0,-0.993,0.8698,
