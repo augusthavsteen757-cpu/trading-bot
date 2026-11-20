@@ -204,7 +204,31 @@
       "orb_day": "2026-11-18"
     },
     "RBLX": {
-      "orb_day": "2026-11-18"
+      "orb_day": "2026-11-20",
+      "pos": {
+        "entry": 47.13,
+        "stop": 46.207499999999996,
+        "stop_initial": 46.207499999999996,
+        "high": 47.13,
+        "qty": 417.0,
+        "entry_tid": "2026-11-20 14:51",
+        "setup": "orb",
+        "regime": "high_vol",
+        "conviction": 3,
+        "grund": "ORB breakout {'or_high': 47.06, 'or_low': 45.35, 'sidste_luk': 47.27}",
+        "features": {
+          "trend_1h": -1,
+          "trend_4h": -1,
+          "trend_1d": 0,
+          "rsi_1h": 49.0,
+          "adx_1h": 23.8,
+          "rel_volumen_1h": 0.67,
+          "afstand_modstand_atr": 0.48,
+          "atr_percentil_30d": 88.4
+        },
+        "target": 49.89750000000002,
+        "luk_foer_luk": true
+      }
     },
     "CKX": {},
     "NWGL": {},
@@ -1494,7 +1518,7 @@
     "syms": [
       "SOXS"
     ],
-    "sidst": "2026-11-20T14:36:18.231440+00:00",
+    "sidst": "2026-11-20T14:51:18.760775+00:00",
     "alle": [
       "ADXN",
       "AEHL",
@@ -1552,9 +1576,9 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 634.81,
-    "snitpris": 635.99,
-    "svag": true
+    "pris": 637.38,
+    "snitpris": 636.17,
+    "svag": false
   },
   "marked_trend": null
 }
