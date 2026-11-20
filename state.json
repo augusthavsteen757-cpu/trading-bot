@@ -3,7 +3,7 @@
   "start_price": 77758.9825,
   "start_time": "2026-11-01T12:51:59.826174+00:00",
   "budget_month": "2026-11",
-  "budget_used": 2.398919,
+  "budget_used": 2.404917,
   "version": 3,
   "learned": [
     "teknisk fejl: APIError: {\"code\":50310000,\"message\":\"service unav"
@@ -42,14 +42,11 @@
     ],
     "teknisk fejl: APIError: <html>\r\n<head><title>500 Internal Server": [
       "2026-11-16 09:11: APIError: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
-    ],
-    "tab: range_bund i range": [
-      "2026-11-16 14:47: AMZN: stop ramt (Alpaca). R=-1.00. Entry 265, exit 260. Grund til koeb: Pris ved stoette 265.05, 4h/1d trend op, extreme fear kontrarian. Modstand 270.55 er 2.11 ATR vaek, over 1.2R. Lav volumen, saa kun lille stoerrelse.. Features ved koeb: {'trend_1h': 0, 'trend_4h': 1, 'trend_1d': 1, 'rsi_1h': 43.8, 'adx_1h': 27.5, 'rel_volumen_1h': 0.15, 'afstand_modstand_atr': 2.11, 'atr_percentil_30d': 74.1}"
     ]
   },
   "ai_day": "2026-11-20",
   "ai_rounds_today": 17,
-  "ai_spend_today": 0.14726460000000002,
+  "ai_spend_today": 0.15326260000000003,
   "eq_day": "2026-11-20",
   "day_start_equity": 99313.66,
   "peak_equity": 100456.88,
@@ -216,30 +213,7 @@
       ],
       "orb_day": "2026-11-12",
       "last_hold_review": "2026-11-20T18:48:17.711050+00:00",
-      "last_review_price": 986.535,
-      "pos": {
-        "entry": 995.69,
-        "stop": 975.87,
-        "stop_initial": 975.87,
-        "high": 1004.35,
-        "qty": 4.0,
-        "entry_tid": "2026-11-20 14:39",
-        "setup": "range_bund",
-        "regime": "range",
-        "conviction": 2,
-        "grund": "Oversolgt (RSI 21) ved range-bund, stoette 0,17 ATR vaek, 3,13 ATR til modstand giver ruim 1,2R. Svag volumen og nedtrend daemper conviction.",
-        "features": {
-          "trend_1h": -1,
-          "trend_4h": 0,
-          "trend_1d": -1,
-          "rsi_1h": 21.1,
-          "adx_1h": 29.3,
-          "rel_volumen_1h": 0.24,
-          "afstand_modstand_atr": 3.13,
-          "atr_percentil_30d": 72.6
-        },
-        "invalidering": "Lukker under 993.99 stoette, eller ingen bounce mod 1026 inden for faa timer."
-      }
+      "last_review_price": 986.535
     },
     "DLR": {
       "last_entry_eval": "2026-11-20T14:39:53.827975+00:00",
@@ -253,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 57968.05,
+  "last_btc_price": 58131.67,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -960,7 +934,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-20T19:08:15.332842+00:00",
+    "sidst_hentet": "2026-11-20T19:28:15.199891+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
@@ -1400,8 +1374,8 @@
   "scan": {},
   "marked": {
     "symbol": "QQQ",
-    "pris": 617.19,
-    "snitpris": 628.24,
+    "pris": 616.54,
+    "snitpris": 628.08,
     "svag": true
   },
   "marked_trend": -1
