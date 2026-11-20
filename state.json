@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 58898.257,
+  "last_btc_price": 58987.423500000004,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -612,18 +612,6 @@
         "tid": "2026-11-20T20:13:15.044104+00:00",
         "pris_ved_nyhed": 613.475,
         "udloeber": "2026-11-20T22:13:15.044104+00:00"
-      },
-      "AMD": {
-        "kilde": "nyhed",
-        "symbol": "AMD",
-        "retning": "ned",
-        "styrke": 3,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 3,
-        "begrundelse": "Juridiske unders\u00f8gelser og short-seller-rapport om firmware til blacklistet kinesisk enhed skaber negativ sentiment og risiko for yderligere granskning.",
-        "tid": "2026-11-20T19:03:14.455914+00:00",
-        "pris_ved_nyhed": 434.3,
-        "udloeber": "2026-11-20T22:03:14.455914+00:00"
       }
     },
     "dag": "2026-11-20",
@@ -934,7 +922,7 @@
   },
   "ai_crypto_today": 0,
   "reddit": {
-    "sidst_hentet": "2026-11-20T21:43:15.642559+00:00",
+    "sidst_hentet": "2026-11-20T22:03:15.270590+00:00",
     "opslag": [
       {
         "id": "t3_1xylhgh",
