@@ -142,7 +142,7 @@
         "entry": 72.83,
         "stop": 72.83,
         "stop_initial": 69.65,
-        "high": 82.38,
+        "high": 83.19,
         "qty": 202.0,
         "entry_tid": "2026-11-20 15:21",
         "setup": "orb",
@@ -516,7 +516,7 @@
   "day_start_equity": 98420.63,
   "peak_equity": 105445.49,
   "reddit": {
-    "sidst_hentet": "2026-11-20T20:12:01.978395+00:00",
+    "sidst_hentet": "2026-11-20T20:32:02.107297+00:00",
     "opslag": [
       {
         "id": "t3_1xyqcsi",
@@ -1545,8 +1545,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 612.9,
-    "snitpris": 625.7,
+    "pris": 612.1,
+    "snitpris": 625.01,
     "svag": true
   },
   "marked_trend": null
