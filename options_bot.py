@@ -279,6 +279,18 @@ def last_loss_day(sym):
 # ---------------- Logik ----------------
 def manage_exits(broker, state, equity, day_pnl):
     held = broker.option_positions()
+    # 20. nov: kontoen steg/faldt hvert 5. min (100.759 til 102.378 USD) mens botten ikke ejede noget i state.
+    # Der ligger altsaa options hos Alpaca som botten ikke kender (intet stop, ikke i statistikken).
+    # Ukendte positioner adopteres, saa de faar samme stop/gevinst-regler og vises i OVERSIGT.md.
+    for occ, (qty, cur, fill) in held.items():
+        if occ not in state["positions"] and qty > 0 and fill > 0:
+            print(f"{occ}: ukendt position hos Alpaca ({qty} stk @ {fill}), adopteres")
+            state["positions"][occ] = {"entry": fill, "antal": qty, "entry_tid": now().isoformat(),
+                                       "adopteret": True, "sidste_pris": cur}
+            append_csv(TRADES_CSV, TRADE_FIELDS, {
+                "tid_utc": ts(), "aktie": parse_occ(occ)[0], "handling": "ADOPTERET", "kontrakt": occ,
+                "antal": qty, "pris": fill, "konto_vaerdi": round(equity, 2),
+                "dagens_pnl_pct": round(day_pnl * 100, 2), "note": f"fundet hos Alpaca, nu pris {cur}"})
     for occ, pos in list(state["positions"].items()):
         if not TEST_MODE and occ not in held:
             # koebsordren blev aldrig fyldt (eller solgt uden for botten): glem den
