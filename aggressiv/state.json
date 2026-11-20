@@ -848,30 +848,6 @@
         "pris_ved_nyhed": 58.825,
         "udloeber": "2026-11-20T16:31:17.849803+00:00"
       },
-      "UBER": {
-        "kilde": "nyhed",
-        "symbol": "UBER",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Sponsorat af lokalt madfestival i Colombo er uvaesentligt for aktien.",
-        "tid": "2026-11-20T14:31:17.849803+00:00",
-        "pris_ved_nyhed": 66.22,
-        "udloeber": "2026-11-20T15:31:17.849803+00:00"
-      },
-      "SOFI": {
-        "kilde": "nyhed",
-        "symbol": "SOFI",
-        "retning": "neutral",
-        "styrke": 1,
-        "allerede_i_prisen": true,
-        "gyldig_timer": 1,
-        "begrundelse": "Boligundersoegelse er markedsfoering uden direkte kursrelevans.",
-        "tid": "2026-11-20T14:31:17.849803+00:00",
-        "pris_ved_nyhed": 13.285,
-        "udloeber": "2026-11-20T15:31:17.849803+00:00"
-      },
       "GAP": {
         "kilde": "nyhed",
         "symbol": "GAP",
@@ -1617,8 +1593,8 @@
   },
   "marked": {
     "symbol": "QQQ",
-    "pris": 631.01,
-    "snitpris": 636.97,
+    "pris": 632.03,
+    "snitpris": 636.2,
     "svag": true
   },
   "marked_trend": null
