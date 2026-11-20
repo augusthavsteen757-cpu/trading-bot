@@ -19748,3 +19748,24 @@ tid_utc,coin,pris,regime,setups,ai_koert,scout,nyheder,stemning,chart,chef_beslu
 2026-11-20 14:56,SHOP,132.81,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98768.0,-1.232,100000.0,0.0,0.351,-6.335,0.8253,
 2026-11-20 14:56,UBER,67.81,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98768.0,-1.232,100000.0,0.0,0.351,-6.335,0.8253,
 2026-11-20 14:56,RBLX,48.09,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,DELSALG (halvdel),208,,47.13,98751.24,-1.249,100000.0,0.0,0.351,-6.335,0.8253,"Halvdelen solgt ved +1.0R, resten koerer med stop paa koebsprisen 47.13"
+2026-11-20 15:01,SOXS,68.72,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98813.81,-1.186,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,NVDA,141.79,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,98813.81,-1.186,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,TSLA,373.14,high_vol,nyhed_op,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,367.92,98809.63,-1.19,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,AMD,472.29,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,98795.32,-1.205,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,PLTR,152.17,high_vol,,nej (ORB er ren regel),,,,,,,,,,,,,KOEB (ORB),129.0,19629.93,149.41,98757.54,-1.242,100000.0,0.0,0.389,-6.299,0.8253,"ORB: range 147.71-151.1, maal 160.46"
+2026-11-20 15:01,COIN,110.75,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98757.54,-1.242,100000.0,0.0,0.389,-6.299,0.8253,"ORB-signal, men aktien er i nedtrend (trend_ned): intet koeb"
+2026-11-20 15:01,MSTR,85.82,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,98723.03,-1.277,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,META,585.44,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98723.03,-1.277,100000.0,0.0,0.389,-6.299,0.8253,"ORB-signal, men aktien er i nedtrend (trend_ned): intet koeb"
+2026-11-20 15:01,AVGO,330.62,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,98722.3,-1.278,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,NFLX,58.91,range,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98722.3,-1.278,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,HOOD,68.51,high_vol,range_bund,nej (samme setup vurderet for under en time siden),,,,,,,,,,,,,HOLD,,,,98717.27,-1.283,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,SMCI,23.3,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98720.18,-1.28,100000.0,0.0,0.389,-6.299,0.8253,"ORB-signal, men for lav volumen (1.07x normalt, kraever 1.5x)"
+2026-11-20 15:01,MARA,6.025,range,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98717.07,-1.283,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,RIOT,17.3,range,trend_pullback range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98717.07,-1.283,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,SOFI,13.49,trend_ned,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98724.47,-1.276,100000.0,0.0,0.389,-6.299,0.8253,"ORB-signal, men for lav volumen (1.09x normalt, kraever 1.5x)"
+2026-11-20 15:01,RIVN,11.09,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98719.55,-1.28,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,ARM,168.5,high_vol,range_bund,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98720.7,-1.279,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,CRWD,233.38,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98723.79,-1.276,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,SHOP,133.45,trend_ned,oversolgt,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD,,,,98735.39,-1.265,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,UBER,67.92,high_vol,,nej (intet setup),,,,,,,,,,,,,HOLD,,,,98735.39,-1.265,100000.0,0.0,0.389,-6.299,0.8253,
+2026-11-20 15:01,RBLX,48.49,high_vol,,nej (AI-budget for i dag/maaned brugt),,,,,,,,,,,,,HOLD (position),,,47.13,98728.3,-1.272,100000.0,0.0,0.389,-6.299,0.8253,
