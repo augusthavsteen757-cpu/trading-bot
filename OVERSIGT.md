@@ -1,10 +1,10 @@
 # Oversigt over alle bots
 
-Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.48** (dansk tid). Kun falske penge (paper).
+Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.53** (dansk tid). Kun falske penge (paper).
 
 ## 🔴 Hoved-botten (store aktier + BTC/ETH/SOL)
 
-**Konto:** 99.222 USD  ·  **I alt:** -778 USD (-0.78 %)  ·  **I dag:** -0.09 %  ·  sidst opdateret 20/11 21.48
+**Konto:** 99.222 USD  ·  **I alt:** -778 USD (-0.78 %)  ·  **I dag:** -0.09 %  ·  sidst opdateret 20/11 21.53
 
 **Ejer nu:** intet
 
@@ -20,7 +20,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.48** (dansk tid). Ku
 
 ## 🔴 Small-botten (10 små aktier)
 
-**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 20/11 21.45
+**Konto:** 99.179 USD  ·  **I alt:** -821 USD (-0.82 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 20/11 21.50
 
 **Ejer nu:** intet
 
@@ -36,7 +36,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.48** (dansk tid). Ku
 
 ## 🔴 Krypto-botten (7 coins, døgnet rundt, aggressiv)
 
-**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 20/11 21.44
+**Konto:** 99.986 USD  ·  **I alt:** -14 USD (-0.01 %)  ·  **I dag:** +0.00 %  ·  sidst opdateret 20/11 21.49
 
 **Selv-tjek:** auto-tjek: kun 1 handler, fuld fart
 
@@ -50,7 +50,7 @@ Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.48** (dansk tid). Ku
 
 ## 🟢 Options-botten (calls/puts på 10 store aktier)
 
-**Konto:** 103.392 USD  ·  **I alt:** +3.392 USD (+3.39 %)  ·  **I dag:** +2.49 %  ·  sidst opdateret 20/11 21.43
+**Konto:** 103.365 USD  ·  **I alt:** +3.365 USD (+3.37 %)  ·  **I dag:** +2.46 %  ·  sidst opdateret 20/11 21.53
 
 **Ejer nu:**
 
@@ -70,23 +70,19 @@ Opdateres af sig selv hvert 5. minut. Sidst: **20/11 kl. 21.48** (dansk tid). Ku
 
 ## 🟢 Aggressiv-botten (færre, større aktiehandler)
 
-**Konto:** 100.767 USD  ·  **I alt:** +767 USD (+0.77 %)  ·  **I dag:** +2.39 %  ·  sidst opdateret 20/11 21.47
+**Konto:** 100.930 USD  ·  **I alt:** +930 USD (+0.93 %)  ·  **I dag:** +2.53 %  ·  sidst opdateret 20/11 21.52
 
-**Selv-tjek:** auto-tjek: seneste 10 handler -541 USD (3 vundet), BREMSE (halv stoerrelse)
+**Selv-tjek:** auto-tjek: seneste 10 handler +1870 USD (4 vundet), fuld fart
 
-**Ejer nu:**
+**Ejer nu:** intet
 
-| Hvad | Antal | Købt til | Købt |
-|---|---|---|---|
-| SOXS | 202 | 72.83 | 20/11 16.21 |
-
-**Lukkede handler:** 61 i alt, 18 med gevinst, samlet -221 USD
+**Lukkede handler:** 62 i alt, 19 med gevinst, samlet +1.839 USD
 
 | Hvad | Solgt | Resultat | Hvorfor solgt |
 |---|---|---|---|
+| ✅ SOXS | 20/11 21.52 | +2.060 USD | dagens slut (ORB) |
 | ✅ SOXS | 20/11 16.46 | +903 USD | halvdel solgt (+1R) |
 | ❌ RBLX | 20/11 16.36 | -6 USD | stop ramt (Alpaca) |
 | ❌ PLTR | 20/11 16.21 | -369 USD | stop ramt (Alpaca) |
 | ❌ TSLA | 20/11 16.16 | -245 USD | stop ramt (Alpaca) |
-| ✅ RBLX | 20/11 15.56 | +200 USD | halvdel solgt (+1R) |
 
