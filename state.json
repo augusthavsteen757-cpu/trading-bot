@@ -227,7 +227,7 @@
       "last_review_price": 176.34
     }
   },
-  "last_btc_price": 59003.465,
+  "last_btc_price": 59067.05,
   "earnings_cache": {
     "2026-11-15": [],
     "2026-11-16": [
@@ -588,32 +588,7 @@
     "2026-11-21": []
   },
   "nyhedsjaeger": {
-    "signaler": {
-      "NVDA": {
-        "kilde": "nyhed",
-        "symbol": "NVDA",
-        "retning": "op",
-        "styrke": 2,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "Live auktion for B200/B300-GPU-kapacitet signalerer st\u00e6rk eftersp\u00f8rgsel, men det er en fremtidig begivenhed (dec 2026) og lille nyhed, s\u00e5 effekten er begr\u00e6nset.",
-        "tid": "2026-11-20T20:13:15.044104+00:00",
-        "pris_ved_nyhed": 127.47,
-        "udloeber": "2026-11-20T22:13:15.044104+00:00"
-      },
-      "QQQ": {
-        "kilde": "nyhed",
-        "symbol": "QQQ",
-        "retning": "op",
-        "styrke": 1,
-        "allerede_i_prisen": false,
-        "gyldig_timer": 2,
-        "begrundelse": "NVDA er en stor v\u00e6gt i QQQ, s\u00e5 en positiv NVDA-tone kan smitte svagt af p\u00e5 indekset.",
-        "tid": "2026-11-20T20:13:15.044104+00:00",
-        "pris_ved_nyhed": 613.475,
-        "udloeber": "2026-11-20T22:13:15.044104+00:00"
-      }
-    },
+    "signaler": {},
     "dag": "2026-11-20",
     "kald_i_dag": 4,
     "sidste_kald": "2026-11-20T20:13:15.044104+00:00",
